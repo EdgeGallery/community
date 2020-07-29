@@ -40,17 +40,17 @@ TSC主席选举 | 于洋
 
 
 ## Voting Items
-TSC Voting to Approve Chair and Co-Chair:
+TSC Voting to Approve Chair and Co-Chair: 于洋（Chair）、龚永生（Co-Chair）
 | **Name**          | **Affiliation**       | **Email**                |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
 |-------------------|-----------------------|--------------------------|--------------------------------|-------------------------------------|
 | 于洋              | 华为                   | gabriel.yuyang@huawei.com           |     Y             |                        |
 | 徐雷              | 联通                   |                                     |    |    | 
-| 刘芷若            | 信通院                 | liuzhiruo@caict.ac.cn               |   |   |
-| 丁韩宇            | 中移动                 | dinghanyu@chinamobile.com           |   |   |
+| 刘芷若            | 信通院                 | liuzhiruo@caict.ac.cn               | yuyang  | gongyongsheng  |
+| 丁韩宇            | 中移动                 | dinghanyu@chinamobile.com           |  yuyang | gongyongsheng  |
 | 龚永生            | 九州云                 |  gong.yongsheng@99cloud.net         |  Y |  Y  |
-| 刘辉              | 紫金山                 | liuhui@pmlabs.com.cn                |   |   |
-| 袁国平            | 安恒                   | guoping.yuan@dbappsecurity.com.cn   |   |   |
-| 陈炜              | 腾讯                   | allenwchen@tencent.com              |   |   |
+| 刘辉              | 紫金山                 | liuhui@pmlabs.com.cn                | yuyang  | gongyongsheng  |
+| 袁国平            | 安恒                   | guoping.yuan@dbappsecurity.com.cn   | yuyang  | gongyongsheng  |
+| 陈炜              | 腾讯                   | allenwchen@tencent.com              | yuyang  | gongyongsheng  |
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
