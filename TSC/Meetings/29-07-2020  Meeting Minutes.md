@@ -35,10 +35,17 @@ TSC主席选举 | 于洋
 
 
 ## Voting Items
-TSC Voting to Approve XYZ:
-| No. | Name | Company | Y/N/A |
-| ---- | ---- | ---- | ---- |
-| 1 | Name | Company | Y |
+TSC Voting to Approve Chair and Co-Chair:
+| **Name**          | **Affiliation**       | **Email**                |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
+|-------------------|-----------------------|--------------------------|--------------------------------|-------------------------------------|
+| 于洋              | 华为                   | gabriel.yuyang@huawei.com           |     Y             |                        |
+| 徐雷              | 联通                   |                                     |    |    | 
+| 刘芷若            | 信通院                 | liuzhiruo@caict.ac.cn               |   |   |
+| 丁韩宇            | 中移动                 | dinghanyu@chinamobile.com           |   |   |
+| 龚永生            | 九州云                 |  gong.yongsheng@99cloud.net         |  Y |  Y  |
+| 刘辉              | 紫金山                 | liuhui@pmlabs.com.cn                |   |   |
+| 袁国平            | 安恒                   | guoping.yuan@dbappsecurity.com.cn   |   |   |
+| 陈炜              | 腾讯                   | allenwchen@tencent.com              |   |   |
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
