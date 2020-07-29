@@ -58,6 +58,7 @@ SEC Voting to Approve XYZ:
 |       | 社区安全规范中安全设计规范/安全编码规范 | 吕京/satish         | 7/31 |
 |       | appstore/developer项目安全测试服务摸底扫描 | 程润东         | 7/31 |
 |       | 安全checklist刷新 | 吕京         | 7/30 |
+|       | SonarCube等工具使用建议及安装配置指南准备 | 程润东         | 8/3 |
 
 ## Other Notes & Information
 
