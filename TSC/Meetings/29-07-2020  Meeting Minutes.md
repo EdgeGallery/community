@@ -32,6 +32,11 @@ Item | Owner
 release讨论 | 章清洁
 TSC主席选举 | 于洋
 
+## Discussioin Items
+
+- 各工作组说明了目前的进展
+- 刘芷若介绍了5G实验网的整体规划
+
 
 
 ## Voting Items
