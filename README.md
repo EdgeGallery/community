@@ -20,7 +20,7 @@ EdgeGallery社区治理机构包含董事会、秘书处和技术指导委员会
 我们鼓励所有贡献者参与EdgeGallery社区贡献，当前的社区主要角色由TSC成员，Commiter、Contributor等，请参考社区[技术章程](https://gitee.com/EdgeGallery/community/wikis/Technical%20Charter?sort_id=2424069)相关章节的介绍
 
 ## 贡献指南
-请阅读社区的如何贡献获得帮助
+请阅读社区的[如何贡献](https://gitee.com/edgegallery/community/blob/master/How%20to%20conturibute.md)获得帮助
 
 ## 社区交流&讨论
 EdgeGallery社区使用 邮件列表、welink等多种线上沟通交流和会议工具，具体请参阅线上沟通
