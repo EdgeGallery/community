@@ -96,4 +96,4 @@ Here we use developer-be project as an example.
 
 3. Click on _"View Defects"_ to view detailed report:
 
-       ![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084831_b3321168_5645267.jpeg "Snipaste_2020-03-03_16-16-17.jpg")
+      ![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084831_b3321168_5645267.jpeg "Snipaste_2020-03-03_16-16-17.jpg")
