@@ -4,6 +4,7 @@
  _- 刘辉（紫金山实验室）
 - 姜伟（紫金山实验室）
 - 侯敏熙（联想）
+- 张怡（联想）
 - 彭育（华为）
 - 张阿利（中软）
 - 李媛媛（中软）_ 
@@ -25,6 +26,12 @@
  彭育
 
 ## 遗留任务
+
+1. robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
+2. 输出gitee使用指导；  owner：彭育
+3. 研究结对测试，pict测试工具；  owner：彭育
+4. robotframework演示；   owner：彭育
+5. release 的各个mailstone 的输如输出；  owner：刘辉&侯敏熙
 
 
 
