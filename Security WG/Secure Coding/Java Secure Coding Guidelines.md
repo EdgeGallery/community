@@ -120,6 +120,110 @@ This coding standard consists of rules and recommendations, collectively referre
 
 
 
+## Rule 08. Visibility and Atomicity (VNA)
+
+> ***VNA00-J.*** Ensure visibility when accessing shared primitive variables.  
+> ***VNA01-J.*** Ensure visibility of shared references to immutable objects.  
+> ***VNA02-J.*** Ensure that compound operations on shared variables are atomic.  
+> ***VNA03-J.*** Do not assume that a group of calls to independently atomic methods is atomic.  
+> ***VNA04-J.*** Ensure that calls to chained methods are atomic.  
+> ***VNA05-J.*** Ensure atomicity when reading and writing 64-bit values.  
+
+
+## Rule 09. Locking (LCK)
+
+> ***LCK00-J.*** Use private final lock objects to synchronize classes that may interact with untrusted code.  
+> ***LCK01-J.*** Do not synchronize on objects that may be reused.  
+> ***LCK02-J.*** Do not synchronize on the class object returned by getClass().  
+> ***LCK03-J.*** Do not synchronize on the intrinsic locks of high-level concurrency objects.  
+> ***LCK04-J.*** Do not synchronize on a collection view if the backing collection is accessible.  
+> ***LCK05-J.*** Synchronize access to static fields that can be modified by untrusted code.  
+> ***LCK06-J.*** Do not use an instance lock to protect shared static data.  
+> ***LCK07-J.*** Avoid deadlock by requesting and releasing locks in the same order.  
+> ***LCK08-J.*** Ensure actively held locks are released on exceptional conditions.  
+> ***LCK09-J.*** Do not perform operations that can block while holding a lock.  
+> ***LCK10-J.*** Use a correct form of the double-checked locking idiom.  
+> ***LCK11-J.*** Avoid client-side locking when using classes that do not commit to their locking strategy.  
+
+
+## Rule 10. Thread APIs (THI)
+
+> ***THI00-J.*** Do not invoke Thread.run().  
+> ***THI01-J.*** Do not invoke ThreadGroup methods.  
+> ***THI02-J.*** Notify all waiting threads rather than a single thread.  
+> ***THI03-J.*** Always invoke wait() and await() methods inside a loop.  
+> ***THI04-J.*** Ensure that threads performing blocking operations can be terminated.  
+> ***THI05-J.*** Do not use Thread.stop() to terminate threads.  
+
+
+## Rule 11. Thread Pools (TPS)
+
+> ***TPS00-J.*** Use thread pools to enable graceful degradation of service during traffic bursts.  
+> ***TPS01-J.*** Do not execute interdependent tasks in a bounded thread pool.  
+> ***TPS02-J.*** Ensure that tasks submitted to a thread pool are interruptible.  
+> ***TPS03-J.*** Ensure that tasks executing in a thread pool do not fail silently.  
+> ***TPS04-J.*** Ensure ThreadLocal variables are reinitialized when using thread pools.  
+
+## Rule 12. Thread-Safety Miscellaneous (TSM)
+
+> ***TSM00-J.*** Do not override thread-safe methods with methods that are not thread-safe.  
+> ***TSM01-J.*** Do not let the this reference escape during object construction.  
+> ***TSM02-J.*** Do not use background threads during class initialization.  
+> ***TSM03-J.*** Do not publish partially initialized objects
+
+## Rule 13. Input Output (FIO)
+
+> ***FIO00-J.*** Do not operate on files in shared directories.  
+> ***FIO01-J.*** Create files with appropriate access permissions.  
+> ***FIO02-J.*** Detect and handle file-related errors.  
+> ***FIO03-J.*** Remove temporary files before termination.  
+> ***FIO04-J.*** Release resources when they are no longer needed.  
+> ***FIO05-J.*** Do not expose buffers or their backing arrays methods to untrusted code.  
+> ***FIO06-J.*** Do not create multiple buffered wrappers on a single byte or character stream.  
+> ***FIO07-J.*** Do not let external processes block on IO buffers.  
+> ***FIO08-J.*** Distinguish between characters or bytes read from a stream and -1.  
+> ***FIO09-J.*** Do not rely on the write() method to output integers outside the range 0 to 255.  
+> ***FIO10-J.*** Ensure the array is filled when using read() to fill an array.  
+> ***FIO11-J.*** Do not convert between strings and bytes without specifying a valid character encoding.  
+> ***FIO12-J.*** Provide methods to read and write little-endian data.  
+> ***FIO13-J.*** Do not log sensitive information outside a trust boundary.  
+> ***FIO14-J.*** Perform proper cleanup at program termination.  
+> ***FIO15-J.*** Do not reset a servlet's output stream after committing it.  
+> ***FIO16-J.*** Canonicalize path names before validating them.  
+
+
+## Rule 14. Serialization (SER)
+
+
+> ***SER00-J.*** Enable serialization compatibility during class evolution.  
+> ***SER01-J.*** Do not deviate from the proper signatures of serialization methods.  
+> ***SER02-J.*** Sign then seal objects before sending them outside a trust boundary.  
+> ***SER03-J.*** Do not serialize unencrypted sensitive data.  
+> ***SER04-J.*** Do not allow serialization and deserialization to bypass the security manager.  
+> ***SER05-J.*** Do not serialize instances of inner classes.  
+> ***SER06-J.*** Make defensive copies of private mutable components during deserialization.  
+> ***SER07-J.*** Do not use the default serialized form for classes with implementation-defined invariants.  
+> ***SER08-J.*** Minimize privileges before deserializing from a privileged context.  
+> ***SER09-J.*** Do not invoke overridable methods from the readObject() method.  
+> ***SER10-J.*** Avoid memory and resource leaks during serialization.  
+> ***SER11-J.*** Prevent overwriting of externalizable objects.  
+> ***SER12-J.*** Prevent deserialization of untrusted data.  
+> ***SER13-J.*** Deserialization methods should not perform potentially dangerous operations.  
+
+
+## Rule 15. Platform Security (SEC)
+
+> ***SEC00-J.*** Do not allow privileged blocks to leak sensitive information across a trust boundary.  
+> ***SEC01-J.*** Do not allow tainted variables in privileged blocks.  
+> ***SEC02-J.*** Do not base security checks on untrusted sources.  
+> ***SEC03-J.*** Do not load trusted classes after allowing untrusted code to load arbitrary classes.  
+> ***SEC04-J.*** Protect sensitive operations with security manager checks.  
+> ***SEC05-J.*** Do not use reflection to increase accessibility of classes, methods, or fields.  
+> ***SEC06-J.*** Do not rely on the default automatic signature verification provided by URLClassLoader and java.util.jar.  
+> ***SEC07-J.*** Call the superclass's getPermissions() method when writing a custom class loader.  
+> ***SEC08-J.*** Trusted code must discard or clean any arguments provided by untrusted code.  
+> ***SEC09-J.*** Never leak the results of certain standard API methods from trusted code to untrusted code.  
+> ***SEC10-J.*** Never permit untrusted code to invoke any API that may (possibly transitively) invoke the reflection APIs. 
 
 
 
