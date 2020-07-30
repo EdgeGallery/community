@@ -14,7 +14,7 @@ Tools used in EdgeGallery pull request compliance verification:
 
 **Note:** In addition to the tools listed above, submitted code **MUST** pass each project’s compilation process.
 
-You can find the GitHub pull request compliance verification result on the pull request page.
+You can find the Gitee pull request compliance verification result on the pull request page.
 
 ![](https://edgegallery.atlassian.net/wiki/download/attachments/364094/Snipaste_2020-03-18_11-40-12.png?api=v2)
 
@@ -23,7 +23,7 @@ You can find the GitHub pull request compliance verification result on the pull 
 CheckStyle
 ----------
 
-For EdgeGallery projects written in Java, we use [CheckStyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/) as part of GitHub pull request verification test.
+For EdgeGallery projects written in Java, we use [CheckStyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/) as part of Gitee pull request verification test.
 
 **Checkstyle** is an open source tool that checks code against a configurable set of rules.
 
@@ -42,7 +42,7 @@ Our jenkins CI job will perform CheckStyle analysis on submitted code against ht
 PMD
 ---
 
-For EdgeGallery projects written in Java, we use [PMD](https://github.com/pmd/pmd) (Programming Mistake Detector) as part of GitHub pull request verification test.
+For EdgeGallery projects written in Java, we use [PMD](https://github.com/pmd/pmd) (Programming Mistake Detector) as part of Gitee pull request verification test.
 
 **PMD** is a static source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It’s mainly concerned with **Java and Apex**, but **supports six other languages**.
 
@@ -75,7 +75,7 @@ PMD Java rules: [https://pmd.github.io/latest/pmd\_rules\_java.html](https://pmd
 FindBugs
 --------
 
-For EdgeGallery projects written in Java, we use [FindBugs](https://gleclaire.github.io/findbugs-maven-plugin/) as part of GitHub pull request verification test.
+For EdgeGallery projects written in Java, we use [FindBugs](https://gleclaire.github.io/findbugs-maven-plugin/) as part of Gitee pull request verification test.
 
 **FindBugs** uses static analysis to inspect Java bytecode for occurrences of bug patterns.
 
@@ -92,7 +92,7 @@ FindBugs Bug descriptor: [http://findbugs.sourceforge.net/bugDescriptions.html](
 ESLint
 ------
 
-For EdgeGallery projects written in Java Script, we use [ESLint](https://eslint.org/) and [eslint-plugin-vue](https://eslint.vuejs.org/) as part of GitHub pull request verification test.
+For EdgeGallery projects written in Java Script, we use [ESLint](https://eslint.org/) and [eslint-plugin-vue](https://eslint.vuejs.org/) as part of Gitee pull request verification test.
 
 **ESLint** is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
@@ -113,7 +113,7 @@ eslint-plugin-vue rules: [https://eslint.vuejs.org/rules/](https://eslint.vuejs.
 golangci-lint
 -------------
 
-For EdgeGallery projects written in Go, we use [golangci-lint](https://golangci.com/) as part of GitHub pull request verification test.
+For EdgeGallery projects written in Go, we use [golangci-lint](https://golangci.com/) as part of Gitee pull request verification test.
 
 golangci-lint is a linters aggregator. It's fast: on average 5 times faster than gometalinter. It's easy to integrate and use, has nice output and has a minimum number of false positives. It supports go modules.
 
