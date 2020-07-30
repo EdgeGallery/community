@@ -150,7 +150,7 @@ Start with an overview which has:
 *   **External entity**  
     It can only interact at Entry point or exit point and is located outside the system. It may only interact with process or multiple process. It can be either source of data or destination of data. Below is the shape for an external entity used in DFD:
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/12517688/3-135.png?api=v2)
+![](https://images.gitee.com/uploads/images/2020/0730/171438_d491870d_5645267.png "3-135.png")
 
 *   **Data store**  
     It is the place where data is stored or from where data is retrieved. It can only interact with process or multiple process. Shape for Data Store is as follows:
