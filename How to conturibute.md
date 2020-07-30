@@ -25,7 +25,7 @@
 * MEP PT：项目介绍&参与方式请参考此链接： MEP
 * MECM PT： 项目介绍&参与方式请参考此链接： [MECM](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/introduction.md)
 * APP & Dev PT：项目介绍&参与方式请参考此链接：[AppStore & Developer Joint](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Introduction.md)  
-* UserManagement PT：项目介绍&参与方式请参考此链接： UserManagement
+
 ## EdgeGallery社区工作组介绍：
 * Architecture WG：工作组介绍*参与方式请参考此链接： [Architecture](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/README.md)
 * Intergration WG：工作组介绍*参与方式请参考此链接： [Intergration](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
