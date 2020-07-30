@@ -1,6 +1,6 @@
 ### 需求来源
-EdgeGallery 版本规划
 
+EdgeGallery 版本规划
 
 ### 需求描述
 - EdgeGallery 部署支持多网络平面提升安全性
@@ -32,8 +32,12 @@ EdgeGallery 版本规划
   - 支持 APP 自定义配置开放Service与网络平面的组合
 - APPStore
   - 隔离与Developer/MECM的网络平面
+- Kubernetes扩充
+  - 单Pod支持多CNI配置
+  - APP Service支持通过非default CNI 对外暴露
 
 ### 业务流程
 
 
 ### 接口定义
+N/A
