@@ -115,7 +115,13 @@ This document is developed based on industry standards and open source best prac
 **Notice**: All the preceding new interfaces must be described application document to help users better understand the corresponding modules.  
 
 8.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the port matrix document. Dynamic listening ports must be limited to a proper range.  
-**Notice**: If external communication ports are not described in the port matrix document, user security configuration may be affected.  
+**Notice**: If external communication ports are not described in the port matrix document, user security configuration may be affected. 
+
+## 9. Threat Modelling
+
+9.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
+
+**Notice**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
 
 
 ## References
