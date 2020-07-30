@@ -12,13 +12,13 @@
   - 如果您对了解特性和贡献代码感兴趣，请加入具体的项目组（PT）
   - 如果您对社区的实验室环境创建感兴趣，请加入 [Intergration WG](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
   - 如果您希望您的APP能够上车EdgeGallery，请加入[Intergration WG](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
-* 从Issues开始您的贡献，Issues详细规范（待补充链接）
+* 从Issues开始您的贡献，[EdgeGallery Bug提单指导](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Tutorial:%20EdgeGallery%20BUG%E6%8F%90%E5%8D%95%E6%8C%87%E5%AF%BC?sort_id=2428243)、
   - 您可以在[此处](https://gitee.com/organizations/edgegallery/issues)浏览 Issues列表，参与到自己感兴趣的Issue中；
   - 您也可以直接创建新的Issues把您发现的问题，或者新的特性提交；
   - 您也可以通过评论某个Issues发表您的评审意见和改进建议；
-* 您可以尝试fork代码进行开发环境构建，并尝试编译，请参考：
-* 您可以尝试创建Pull Request进行代码贡献，请参考代码贡献指南；
-
+* 您可以尝试fork代码进行开发环境构建，并尝试编译，请参考：[配置你的开发环境](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Tutorial:%20%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83(Setting%20Up%20Your%20Development%20Environment)?sort_id=2428150)、[EdgeGallery安装部署](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Tutorial:%20EdgeGallery%20%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2?sort_id=2428054)
+* 您可以尝试创建Pull Request进行代码贡献，请参考[代码贡献指南](https://gitee.com/eg_dev/Wiki_Migrate/wikis/%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97?sort_id=2427804)、[如何参与EdgeGallery社区开发
+](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Tutorial:%20%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E%20EdgeGallery%20%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91?sort_id=2428202)
 
 
 ## EdgeGallery 社区项目组介绍：
