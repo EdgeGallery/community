@@ -4,7 +4,7 @@ The OWASP ZAP is a Java-based free open-source penetration testing tool which le
 
 At its core, ZAP is what is known as a “man-in-the-middle proxy.”
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/13008968/browser-no-proxy.png?api=v2)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/090645_95811f3b_5645267.png "browser-no-proxy.png")
 
 It stands between the tester’s browser and the web application so that it can intercept and inspect messages sent between browser and web application, modify the contents if needed, and then forward those packets on to the destination.
 
@@ -25,7 +25,7 @@ It allows web application security testers to perform fuzzing, scripting, _spide
 OWASP ZAP in EdgeGallery CI System
 ----------------------------------
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/13008968/ZAP_CI%20_SMALLER.png?api=v2)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/090706_54d3c588_5645267.png "ZAP_CI _SMALLER.png")
 
 1.  A Jenkins CI Build step initializes ZAP
 
