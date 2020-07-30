@@ -1,4 +1,4 @@
-EdgeGallery uses OWASP [Zed Attack Proxy (ZAP)](https://www.zaproxy.org/) for web application security assessments. (To be implemented in Release 1)
+EdgeGallery uses OWASP [Zed Attack Proxy (ZAP)](https://www.zaproxy.org/) for web application security assessments. (To be implemented in Release 2)
 
 The OWASP ZAP is a Java-based free open-source penetration testing tool which lets user automatically find security vulnerabilities in web applications during web application development or penetration tests.
 
@@ -22,6 +22,7 @@ It allows web application security testers to perform fuzzing, scripting, _spide
 
 *   Web Sockets
 
+
 OWASP ZAP in EdgeGallery CI System
 ----------------------------------
 
@@ -40,6 +41,7 @@ OWASP ZAP in EdgeGallery CI System
 6.  Jenkins publishes and archives the report(s)
 
 7.  Developer examines the report and creates JIRA tickets for the alerts
+
 
 Zap Automated Scan
 ------------------
