@@ -45,17 +45,21 @@ This document is developed based on industry standards and open source best prac
 
 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted.   If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
 
-3.2 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
+3.2 Avoid storing passwords in easily accessible locations. Consider storing cryptographic hashes of passwords as an alternative to storing in plaintext. 
+
+3.3 All sensitive data is sent to the server in the HTTP message body (i.e., URL parameters are never used to send sensitive data).  
+
+3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
 
-3.3 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
+3.5 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
 
-3.4 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
+3.6 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
 **Notice**: If personal data is used for user profiling and marketing, explicit user authorization must be obtained so that users can choose whether to use their personal data for basic services. Products or systems sold to the EU, if involving user profiling and marketing, must inform users of the user profiling logic, consequences of rejecting to provide personal data, and whether personal data is transferred out of European Economic Area (EEA), apart from informing them of their right to reject.  
 
-3.5 Have a legal justification for your data processing activities as per GDPR policies.
-**Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/)
+3.7 Have a legal justification for your data processing activities as per GDPR policies.  
+**Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/). 
 
 
 ## 4. Encryption Algorithm and Key Management  
@@ -79,13 +83,21 @@ This document is developed based on industry standards and open source best prac
 
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.  
 
+## 6. Session Management
 
-## 6. Security Document  
+6.1 Authenticate a user, or otherwise for establishing a new user session. without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.  
+**Notice**: Invalidate any existing session identifiers prior to authorizing a new user session. 
 
-6.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the low-level design (LLD) document.  
+6.2 Set sessions/credentials a valid expiration date.
+
+6.3 Protect the application's sessions from information leakage. Make sure that a session's data is not used or visible by other sessions.
+
+## 7. Security Document  
+
+7.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the low-level design (LLD) document.  
 **Notice**: All the preceding new interfaces must be described in the LLD document to help users better understand the corresponding modules.  
 
-6.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the LLD document. Dynamic listening ports must be limited to a proper range.  
+7.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the LLD document. Dynamic listening ports must be limited to a proper range.  
 **Notice**: If external communication ports are not described in the LLD document, user security configuration may be affected.  
 
 
