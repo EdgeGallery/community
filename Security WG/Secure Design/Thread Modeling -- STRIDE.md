@@ -48,8 +48,8 @@ There are five major threat modeling steps in STRIDE:
 
 5.  Validating that threats have been mitigated
 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/094033_ad656451_5645267.jpeg "RE2K1Za.jpg")
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/12517688/RE2K1Za.png?api=v2)
 
 1\. Defining system and use scenarios
 -------------------------------------
