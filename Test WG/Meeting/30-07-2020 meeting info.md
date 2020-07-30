@@ -31,7 +31,7 @@
 2. 输出gitee使用指导；  owner：彭育
 3. 研究结对测试，pict测试工具；  owner：彭育
 4. robotframework演示；   owner：彭育
-5. release 的各个mailstone 的输如输出；  owner：刘辉&侯敏熙
+5. release 的各个mailstone 的输入输出；  owner：刘辉&侯敏熙
 
 
 
