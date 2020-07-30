@@ -81,7 +81,11 @@ This document is developed based on industry standards and open source best prac
 
 ## 5. DOS Attack
 
-5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.  
+5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.
+
+5.2 The application must limit the number of active concurrent sessions.
+
+5.3 All input must be limited to an appropriate size limit.
 
 ## 6. Session Management
 
@@ -92,13 +96,26 @@ This document is developed based on industry standards and open source best prac
 
 6.3 Protect the application's sessions from information leakage. Make sure that a session's data is not used or visible by other sessions.
 
-## 7. Security Document  
+6.4 The session must be invalidated when the user logs out.
 
-7.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the low-level design (LLD) document.  
-**Notice**: All the preceding new interfaces must be described in the LLD document to help users better understand the corresponding modules.  
+6.5 Successful authentication and re-authentication must generate a new session and session id.
 
-7.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the LLD document. Dynamic listening ports must be limited to a proper range.  
-**Notice**: If external communication ports are not described in the LLD document, user security configuration may be affected.  
+## 7. Web Service Serurity
+
+7.1 The same encoding style must be between the client and the server.  
+**Notice**: Different encodings between client and server can have security implications and have been used in the past to bypass validation and WAFs to perform XSS attacks.
+
+7.2 XML or JSON schema must be in place and verified before accepting input.  
+**Notice**: Schema validation is the first level of defence against attacks on the application logic.
+
+
+## 8. Security Document  
+
+8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the product or application document.  
+**Notice**: All the preceding new interfaces must be described application document to help users better understand the corresponding modules.  
+
+8.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the port matrix document. Dynamic listening ports must be limited to a proper range.  
+**Notice**: If external communication ports are not described in the port matrix document, user security configuration may be affected.  
 
 
 ## References
@@ -106,3 +123,4 @@ This document is developed based on industry standards and open source best prac
 2. https://gitee.com/mindspore/community/tree/master/security
 3. http://cwe.mitre.org/data/definitions/1008.html
 4. https://github.com/devonfw/devonfw-security/wiki/guide-security-quick-owasp-asvs
+5. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/
