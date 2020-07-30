@@ -2,7 +2,7 @@ EdgeGallery uses Coverity to find security and quality defects in its code.
 
 [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) is a free cloud-based service for the open source community. It was originally derived from the Stanford Checker, a research tool for finding bugs through static analysis. In 2006 under a DHS contract, the tool was used to harden the open source software.During the first year of operation, over 6,000 software defects were fixed across 50 open source projects.After the Contract with DHS complete, Coverity got funding by Synopsys. And it has been used by organizations like CERN (European Organization for NuclearResearch), NASA and over 600 open source projects.
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/364041/Snipaste_2020-03-03_13-05-38.png?api=v2)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084935_e09a070a_5645267.jpeg "Snipaste_2020-03-03_13-05-38.jpg")
 
 ### Coverity scan workflow in EdgeGallery Jenkins CI
 
@@ -76,7 +76,7 @@ Currently Coverity support critical checkers for :
 
 You can find EdgeGallery project's Coverity scan badge on the project’s github repository. For example, in appstore-be repository you will find it like below.
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/364041/Snipaste_2020-03-03_15-49-32.png?api=v2)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084855_f8e21f97_5645267.png "Snipaste_2020-03-03_15-49-32.png")
 
 ### Access EdgeGallery Coverity defect report
 
@@ -88,12 +88,12 @@ Here we use developer-be project as an example.
 
    a. Click on _"Add me to project"_ and fill the form:
 
-      ![](https://edgegallery.atlassian.net/wiki/download/attachments/364041/Snipaste_2020-03-03_16-14-51.png?api=v2)
+      ![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084532_c25737e0_5645267.png "Snipaste_2020-03-03_16-14-51.png")
 
    b. Wait till the project administrators grant you appropriate permissions.
 
-      ![](https://edgegallery.atlassian.net/wiki/download/attachments/364041/Snipaste_2020-03-03_16-15-38.png?api=v2)
+      ![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084736_9b2fd84f_5645267.jpeg "Snipaste_2020-03-03_16-15-38.jpg")
 
 3. Click on _"View Defects"_ to view detailed report:
 
-![](https://edgegallery.atlassian.net/wiki/download/attachments/364041/Snipaste_2020-03-03_16-16-17.png?api=v2)
+       ![输入图片说明](https://images.gitee.com/uploads/images/2020/0730/084831_b3321168_5645267.jpeg "Snipaste_2020-03-03_16-16-17.jpg")
