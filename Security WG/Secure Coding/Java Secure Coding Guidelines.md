@@ -2,6 +2,8 @@
 
 This coding standard consists of rules and recommendations, collectively referred to as guidelines. Rules are meant to provide normative requirements for code, whereas recommendations are meant to provide guidance that, when followed, should improve the safety, reliability, and security of software systems.  
 
+For Detailed explanation of each of these Rule items please refer https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java
+
 ## Rule 00. Input Validation and Data Sanitization (IDS)  
 
 > ***IDS00-J.*** Prevent SQL injection.  
@@ -224,6 +226,41 @@ This coding standard consists of rules and recommendations, collectively referre
 > ***SEC08-J.*** Trusted code must discard or clean any arguments provided by untrusted code.  
 > ***SEC09-J.*** Never leak the results of certain standard API methods from trusted code to untrusted code.  
 > ***SEC10-J.*** Never permit untrusted code to invoke any API that may (possibly transitively) invoke the reflection APIs. 
+
+
+## Rule 16. Runtime Environment (ENV)
+
+> ***ENV00-J.*** Do not sign code that performs only unprivileged operations.  
+> ***ENV01-J.*** Place all security-sensitive code in a single JAR and sign and seal it.  
+> ***ENV02-J.*** Do not trust the values of environment variables.  
+> ***ENV03-J.*** Do not grant dangerous combinations of permissions.  
+> ***ENV04-J.*** Do not disable bytecode verification.  
+> ***ENV05-J.*** Do not deploy an application that can be remotely monitored.  
+> ***ENV06-J.*** Production code must not contain debugging entry points.  
+
+
+## Rule 17. Java Native Interface (JNI)
+
+> ***JNI00-J.*** Define wrappers around native methods.  
+> ***JNI01-J.*** Safely invoke standard APIs that perform tasks using the immediate caller's class loader instance (loadLibrary).  
+> ***JNI02-J.*** Do not assume object references are constant or unique.  
+> ***JNI03-J.*** Do not use direct pointers to Java objects in JNI code.  
+> ***JNI04-J.*** Do not assume that Java strings are null-terminated.  
+
+## Rule 49. Miscellaneous (MSC)
+
+> ***MSC00-J.*** Use SSLSocket rather than Socket for secure data exchange.  
+> ***MSC01-J.*** Do not use an empty infinite loop.  
+> ***MSC02-J.*** Generate strong random numbers.  
+> ***MSC03-J.*** Never hard code sensitive information.  
+> ***MSC04-J.*** Do not leak memory.  
+> ***MSC05-J.*** Do not exhaust heap space.  
+> ***MSC06-J.*** Do not modify the underlying collection when an iteration is in progress.  
+> ***MSC07-J.*** Prevent multiple instantiations of singleton objects.  
+> ***MSC08-J.*** Do not store nonserializable objects as attributes in an HTTP session.  
+> ***MSC09-J.*** For OAuth, ensure (a) relying party receiving user's ID in last step is same as (b) relying party the access token was granted to.  
+> ***MSC10-J.*** Do not use OAuth 2.0 implicit grant (unmodified) for authentication.  
+> ***MSC11-J.*** Do not let session information leak within a servlet.  
 
 
 
