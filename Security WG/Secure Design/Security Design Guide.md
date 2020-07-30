@@ -33,11 +33,13 @@ This document is developed based on industry standards and open source best prac
 
 ## 2. Secure Transmission  
 
-2.1 Sensitive data (including passwords, batch images, and voice data) or key service data (network structure, model parameters, and gradient data) must be transmitted across networks using secure transmission protocols or encrypted before transmission.  
+2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.  
 **Notice**: When data is transmitted across networks, it is vulnerable to theft or tampering by attackers. Therefore, important data must be protected.  
 
 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended.  
 **Notice**: Secure Sockets Layer (SSL) 2.0 and SSL 3.0 have been disabled by Internet Engineering Task Force (IETF) in March 2011 and June 2015 due to security issues. In Transport Layer Security (TLS) 1.0, the symmetric encryption algorithm supports only the RC4 algorithm and the cipher block chaining (CBC) mode of the block cipher algorithm. RC4 algorithm is regarded as insecure and is disabled by IETF in all TLS versions. The CBC mode of the symmetric encryption algorithm has the problem of predictable initialization vector (IV) and is vulnerable to BEAST attacks. Therefore, TLS 1.2 and TLS 1.3 are recommended.  
+
+2.3 Proper certification revocation, such as Online Certificate Status Protocol (OCSP) Stapling, must be enabled and configured.
 
 ## 3. Sensitive and Private Data Protection  
 
@@ -46,11 +48,15 @@ This document is developed based on industry standards and open source best prac
 3.2 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
 
-3.3 By default, data generated during training and inference cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
+3.3 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
 
 3.4 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
 **Notice**: If personal data is used for user profiling and marketing, explicit user authorization must be obtained so that users can choose whether to use their personal data for basic services. Products or systems sold to the EU, if involving user profiling and marketing, must inform users of the user profiling logic, consequences of rejecting to provide personal data, and whether personal data is transferred out of European Economic Area (EEA), apart from informing them of their right to reject.  
+
+3.5 Have a legal justification for your data processing activities as per GDPR policies.
+**Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/)
+
 
 ## 4. Encryption Algorithm and Key Management  
 
@@ -74,10 +80,17 @@ This document is developed based on industry standards and open source best prac
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.  
 
 
-## 5. Security Document  
+## 6. Security Document  
 
-5.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the low-level design (LLD) document.  
+6.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the low-level design (LLD) document.  
 **Notice**: All the preceding new interfaces must be described in the LLD document to help users better understand the corresponding modules.  
 
-5.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the LLD document. Dynamic listening ports must be limited to a proper range.  
+6.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the LLD document. Dynamic listening ports must be limited to a proper range.  
 **Notice**: If external communication ports are not described in the LLD document, user security configuration may be affected.  
+
+
+## References
+1. https://gdpr-info.eu/
+2. https://gitee.com/mindspore/community/tree/master/security
+3. http://cwe.mitre.org/data/definitions/1008.html
+4. https://github.com/devonfw/devonfw-security/wiki/guide-security-quick-owasp-asvs
