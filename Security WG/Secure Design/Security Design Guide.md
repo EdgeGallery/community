@@ -2,9 +2,9 @@
 
 This document is developed based on industry standards and open source best practices to guide developers in module design and avoid high security design risks.  
 
-## 1. Identification and Authentication  
+## 1. Identification, Authentication and Authorization  
 
-1.1 All machine-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.  
+1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.  
 **Notice**: Cross-network interfaces must support identity authentication to prevent spoofing access.  
 
 1.2 For each access request that requires authorization, the server must verify whether the user is authorized to perform this operation.  
