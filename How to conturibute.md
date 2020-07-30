@@ -8,7 +8,7 @@
 ## 开始您的贡献
 以下内容从易到难列举出贡献的形式，随着社区的发展，具体的贡献方式依旧在不断扩展中：
 
-* 找到您感兴趣的项目组或者工作组，参与进去。具体的参与方式 [社区项目组介绍](## EdgeGallery 社区项目组介绍) &[ 工作组介绍](## EdgeGallery社区工作组介绍) 
+* 找到您感兴趣的项目组或者工作组，参与进去。具体的参与方式 社区项目组介绍 & 工作组介绍
   - 如果您对了解特性和贡献代码感兴趣，请加入具体的项目组（PT）
   - 如果您对社区的实验室环境创建感兴趣，请加入 [Intergration WG](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
   - 如果您希望您的APP能够上车EdgeGallery，请加入[Intergration WG](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
