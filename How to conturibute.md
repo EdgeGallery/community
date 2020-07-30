@@ -33,6 +33,3 @@
 * Cloud Connection WG：工作组介绍*参与方式请参考此链接：[Cloud Connection](https://gitee.com/edgegallery/community/blob/master/Cloud%20Connection%20WG/introduction.md)
 * Test WG：工作组介绍*参与方式请参考此链接： [Test](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Introduction.md)
 
-
-
-如果您是开发者，请直接参考开发者指南（待补充链接）
