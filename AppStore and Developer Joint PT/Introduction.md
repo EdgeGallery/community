@@ -24,9 +24,12 @@
 | 邹玲莉    | 华为             | zoulingli@huawei.com   |                                 |   
 
 ## 项目会议
-* 每周二16点-17点（待定）
+* 每周一 16:30-17:30
+
+## 项目纪律
+* 每周一 16:30-17:30
 
 ## 项目联系方式
 * 邮件列表：使用Edge Gallery邮件列表： main@edgegallery.groups.io。
-* 其他： 请在邮件标题添加【AppStore&Dev Joint PT】用以区分
+* 其他： 请在邮件标题添加【App&Dev Joint PT】用以区分
 ** 
