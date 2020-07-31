@@ -101,6 +101,69 @@ For Detailed explanation of each of these Rule items please refer https://rules.
 > - alert(...) as well as confirm(...) and prompt(...) can be useful for debugging during development, but in production mode this kind of pop-up could expose sensitive information to attackers, and should never be displayed.
 
 
+
+How to Secure JavaScript Code
+=============================
+
+Knowing the most common attack vectors and vulnerabilities is an important step to securing your website. However, there are also JavaScript development best practices that should be followed to avoid these issues. While there is never a guarantee your code will be secure always, these steps will prevent many attacks by nature.
+
+**Avoid using eval()** 
+
+The eval() function is used by developers to run text as code, which is by nature a dangerous practice. In most cases, substitutions can be made to where these functions are not needed. Wherever possible, replace eval() with more secure functions.
+
+**Use SSL/HTTPS**
+
+SSL, or Secure Sockets Layer, is a way of encrypting the data users send across the web when interacting with your website. It is extremely important for pages where users input data (login pages, contact forms, cart, checkout, account) to be secured with SSL.
+
+**Use CORS Headers**
+
+CORS, or Cross-Origin Resource Sharing, is a header you can set that defines the sources allowed to reference your website’s resources. These rules can be placed in your Nginx configuration file, or if you use Apache, in your .htaccess file:
+
+Access-Control-Allow-Origin: http://foo.example
+
+**Define a Content Security Policy**
+
+A Content Security Policy is a header you can set in your Nginx configuration file, or if you use Apache, in your .htaccess file. This policy allows you to define allowed sources for JavaScript code, styles, fonts, frames, media, and more. Your header will generally look like this:
+
+Content-Security-Policy: default-src: 'self'; script-src: https://apis.google.com;
+
+The above policy says that by default all sources should be the Host/website itself, and for JavaScript it will also accept apis.google.com. All other sources would be rejected.
+
+
+JavaScript Best Practices
+==============================================
+
+**Cross-Site Scripting (XSS) Attacks**
+
+Cross-Site Scripting is one of the most common browser-side vulnerabilities. XSS in itself is a threat that is brought about by the internet security weaknesses of client-side scripting languages, such as HTML and JavaScript. In XSS, attackers are able to manipulate legitimate but vulnerable web applications into performing malicious tasks.
+
+XSS attacks can result in identity and data theft. They can even result in virus spreads and sometimes remote control over a user’s browser.
+
+Prevention
+    
+
+- Filter input on arrival — whenever you get an input from the user, filter it as strictly as possible based on what is expected or valid input.
+- Use appropriate response headers — to prevent XSS in HTTP responses that aren’t intended to contain any HTML or JavaScript, you can use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend it to.
+- Encode data when outputting — when user-entered data is output in HTTP responses, encode the output to prevent it from being recognized as active content.
+- Content Security Policy (CSP)— if you enforce the right set of CSP rules, you can prevent the browser from executing things like in-line JavaScript, eval(), setTimeout() or any JavaScript that comes from an untrusted URL.
+
+
+**Cross-Site Request Forgery (CSRF) Attacks**
+
+CSRF or XSRF is an attack where the hacker takes over or impersonates the victim’s identity by hijacking the session cookie. This is possible when target sites authenticate requests solely using cookies and thereby allowing hackers to steal or hijack the cookies and impersonate a legitimate user. This attack can lead to account tampering, data theft, fraud and more. Targets include web applications like social media, in-browser email clients, online banking and web interfaces for network devices.
+
+Prevention
+
+
+- Always use SameSite Cookie Attribute for session cookies
+- Referrer Header or Origin must be verified
+- Consider implementing user interaction based protection for highly sensitive operations — user interaction based protection include re-authentication (password or stronger), one-time token, CAPTCHA. These can act as strong CSRF defence if implemented correctly.
+
+
 ## Analyzer Tools
 > - SonarQube
 
+
+## References
+https://wpengine.com/resources/javascript-security/
+https://rules.sonarsource.com/javascript
