@@ -16,7 +16,7 @@ This document is uesd to capture the test case design suggestion for testing eac
 **Notice**: Unauthorized URL access is a typical web security vulnerability. Attackers can easily bypass the system permission control to access system resources and use system functions without authorization. To prevent users from directly entering a URL to request and execute some pages without authorization, the background needs to authenticate the permission of the user who requests the URL.
 
 测试用例设计思路：<br>
-1.构造测试用例：使用用户A创建资源，使用用户B进行资源查看/修改等操作，检查操作是否成功;<br>
+1.构造测试用例：使用用户A创建资源，使用用户B对用户A创建的资源进行资源查看/修改等操作，检查操作是否成功;<br>
 2.构造测试用例：使用用户A对权限范围外的资源进行操作，检查操作是否成功。
 
 1.3 The server must validate the size, type, length, and special characters of all untrusted data sources and reject any data that fails the validation.  
