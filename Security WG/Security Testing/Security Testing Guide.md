@@ -112,11 +112,13 @@ Test steps:
 **Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
 
 Test steps:
+1. Examine the system to check whether an interface to obtain data subjects' authorization for transferring data to third party is exist.
 
 3.6 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
 **Notice**: If personal data is used for user profiling and marketing, explicit user authorization must be obtained so that users can choose whether to use their personal data for basic services. Products or systems sold to the EU, if involving user profiling and marketing, must inform users of the user profiling logic, consequences of rejecting to provide personal data, and whether personal data is transferred out of European Economic Area (EEA), apart from informing them of their right to reject.  
 
 Test steps:
+1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
 
 3.7 Have a legal justification for your data processing activities as per GDPR policies.  
 **Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/). 
@@ -161,8 +163,8 @@ Test steps：
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.
 
 Test steps:
-1. Design user login scripts to implement brutal login attempts, confirm the user account will be lockout. 
-2. Use JMeter to implement DOS attcck against APIs, check the operation status of the system.
+1. Design user login scripts to simulate brutal login attempts, confirm the user account will be locked out. 
+2. Use JMeter to simulate DOS attcck against APIs, check the operational status of the system.
 
 Test tools:
 JMeter
@@ -170,6 +172,7 @@ JMeter
 5.2 The application must limit the number of active concurrent sessions.
 
 Test steps:
+1. 
 
 
 5.3 All input must be limited to an appropriate size limit.
