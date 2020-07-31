@@ -5,36 +5,41 @@ This document is used to guide developers to design test cases for testing each 
 ## 1. Identification, Authentication and Authorization  
 
 1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.  
-**Notice**: Cross-network interfaces must support identity authentication to prevent spoofing access.<br>
+**Notice**: Cross-network interfaces must support identity authentication to prevent spoofing access.
 
-测试用例设计思路：<br>
-1.检视采用的认证方案，确认认证在服务器端进行;<br>
-2.构造测试用例使用无效用户信息（未注册用户,错误密码）进行服务调用/资源操作测试是否可以绕过系统认证。
+Test steps:
+1. List all machine-to-machine and man-to-machine interfaces.
+2. Examine all interfaces to confirm the existence of authentication mechanisms and record the results.
 
+Test tools:
+telnet, snmp, ssh, ftp, sftp, netconf
 
 1.2 For each access request that requires authorization, the server must verify whether the user is authorized to perform this operation.  
 **Notice**: Unauthorized URL access is a typical web security vulnerability. Attackers can easily bypass the system permission control to access system resources and use system functions without authorization. To prevent users from directly entering a URL to request and execute some pages without authorization, the background needs to authenticate the permission of the user who requests the URL.
 
-测试用例设计思路：<br>
-1.构造测试用例：使用用户A创建资源，使用用户B对用户A创建的资源进行资源查看/修改等操作，检查操作是否成功;<br>
-2.构造测试用例：使用用户A对权限范围外的资源进行操作，检查操作是否成功。
+Test steps:
+1. Design horizontal privilege escalation test cases to verify the existence of authorization mechanism.
+2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism.
 
 1.3 The server must validate the size, type, length, and special characters of all untrusted data sources and reject any data that fails the validation.  
 **Notice**: To prevent attackers from intercepting and tampering with requests through a proxy to bypass the validity check of the client, data validation must be performed on the server.
 
-测试用例设计思路：<br>
-1.构造接口调用用例，分别带有无效类参数（请求payload大小/长度/类型超出允许范围），检查系统处理情况（可以通过检查系统日志或系统中资源进行验证）;<br>
-2.检视代码对API参数是否进行验证。
+Test steps:
+1. Review the code to confirm all APIs validate the size, type, length, and special characters of all untrusted data sources.
+2. Design test cases to invoke APIs with abnoraml data payload and confirm any data that fails the validation are rejected.
 
 1.4 Functions that allow access to the system or data while bypassing the system security mechanism (such as authentication, permission control, and log recording) are prohibited.  
 **Notice**: If a product has functions that allow access to the system or data without the system security mechanism, malicious personnel may be aware of the functions and perform operations without authorization, which greatly affects the system.  
 
-测试用例设计思路：
+Test steps:
+1. Review the code to confirm allow access to the system or data cannot bypassing the system security mechanism.
+2. Perfrom penetration tesing.
 
 1.5 According to the principle of least privilege, accounts used to run software programs are low-privilege OS accounts.  
 **Notice**: Privileged accounts such as root, administrator, and supervisor or high-level accounts cannot be used to run software programs. Instead, use common accounts to run software programs.  
 
-测试用例设计思路：<br>
+Test steps:
+1. 
 1.检查各组件Dockerfile是否使用non-root用户；
 2. 使用提权脚本进行测试，检查脚本属主，权限设置是否合适。
 
