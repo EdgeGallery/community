@@ -175,7 +175,8 @@ Test steps:
 5.3 All input must be limited to an appropriate size limit.
 
 Test steps:
-
+1. Examine the code to confirm input size validations are used for any data from untrusted resource.
+2. Design test cases to invoke APIs with oversized payload to confirm the input size validation is functional.
 
 ## 6. Session Management
 
@@ -189,21 +190,19 @@ Test steps:
 
 Test steps:
 
-
 6.3 Protect the application's sessions from information leakage. Make sure that a session's data is not used or visible by other sessions.
 
 Test steps:
-
 
 6.4 The session must be invalidated when the user logs out.
 
 Test steps:
 
-
 6.5 Successful authentication and re-authentication must generate a new session and session id.
 
 Test steps:
-
+1. Log in the system and record the session ID.
+2. Log out then log in the system again, compare the session ID with the previous one, confirm the session IDs are different.
 
 ## 7. Web Service Serurity
 
@@ -218,7 +217,7 @@ Test steps:
 
 Test steps:
 1. Examine the code to confirm XML and JSON schema validation is implemented.
-2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional.
+2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional, confirm any data that fails the validation are rejected.
 
 ## 8. Security Document  
 
