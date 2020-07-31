@@ -117,9 +117,23 @@ This document is developed based on industry standards and open source best prac
 8.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the port matrix document. Dynamic listening ports must be limited to a proper range.  
 **Notice**: If external communication ports are not described in the port matrix document, user security configuration may be affected. 
 
-## 9. Threat Modelling
+## 9 . Log Security
 
-9.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
+9.1 Do not log unsanitized user input.  
+**Notice**: Unsanitized loging can allow an attacker to forge log entries or inject malicious content into logs.
+
+9.2 Sufficient Logging.  
+**Notice**: Ensure that all security-related successes and failures be logged. When security-critical events are not logged properly, such as a failed login attempt, this can make malicious behavior more difficult to detect and may hinder forensic analysis after an attack succeeds.
+
+9.3 Do not add Sensitive Information into Log or Log file.  
+**Notice**: Consider seriously the sensitivity of the information written into log files. Do not write secrets into the log files. Remove debug log files before deploying the application into production. Protect log files against unauthorized read/write.
+
+9.4 Avoid Logging of Excessive Data.  
+**Notice**: Suppress large numbers of duplicate log messages and replace them with periodic summaries. For example, syslog may include an entry that states "last message repeated X times" when recording repeated events. Support a maximum size for the log file that can be controlled by the administrator. 
+
+## 10. Threat Modelling
+
+10.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
 
 **Notice**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
 
