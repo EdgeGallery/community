@@ -18,8 +18,8 @@ telnet, snmp, ssh, ftp, sftp, netconf
 **Notice**: Unauthorized URL access is a typical web security vulnerability. Attackers can easily bypass the system permission control to access system resources and use system functions without authorization. To prevent users from directly entering a URL to request and execute some pages without authorization, the background needs to authenticate the permission of the user who requests the URL.
 
 Test steps:
-1. Design horizontal privilege escalation test cases to verify the existence of authorization mechanism.
-2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism.
+1. Design horizontal privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to access user B's resources.
+2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to perform opertions out of permisson.
 
 1.3 The server must validate the size, type, length, and special characters of all untrusted data sources and reject any data that fails the validation.  
 **Notice**: To prevent attackers from intercepting and tampering with requests through a proxy to bypass the validity check of the client, data validation must be performed on the server.
@@ -32,37 +32,41 @@ Test steps:
 **Notice**: If a product has functions that allow access to the system or data without the system security mechanism, malicious personnel may be aware of the functions and perform operations without authorization, which greatly affects the system.  
 
 Test steps:
-1. Review the code to confirm allow access to the system or data cannot bypassing the system security mechanism.
-2. Perfrom penetration tesing.
+1. Review the code to confirm the founctions that allow access to the system or data cannot bypassing the system security mechanism.
+2. Perfrom penetration tesing for validation.
 
 1.5 According to the principle of least privilege, accounts used to run software programs are low-privilege OS accounts.  
 **Notice**: Privileged accounts such as root, administrator, and supervisor or high-level accounts cannot be used to run software programs. Instead, use common accounts to run software programs.  
 
 Test steps:
-1. 
-1.检查各组件Dockerfile是否使用non-root用户；
-2. 使用提权脚本进行测试，检查脚本属主，权限设置是否合适。
+1. Examine the Dockerfile to confirm Docker are run as a non-root user.
+2. Design privilege escalation scripts to test file permission and file owner settings.
 
 1.6 Account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism.
 
-测试用例设计思路：
+Test steps:
+1. 
 
 1.7 All authentication controls must fail securely..  
 **Notice**: The developer must just handle the displaying of the error message properly.
 
-测试用例设计思路：
+Test steps:
+1. 
 
 1.8 The forgotten password function and other recovery paths should not reveal the current password and the new password should not sent in clear text to the user.
 
-测试用例设计思路：
+Test Steps:
+1. Login the system and use the forgotten password function, examine the current password is not reveal and new password is encrypted. 
 
 1.9 The changing password functionality must include the old password, the new password, and a password confirmation.
 
-测试用例设计思路：
+Test Steps:
+1. Login the system and use the change password function, examine the interface include the old password, the new password, and a password confirmation. 
 
 1.10 Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases.
 
-测试用例设计思路：
+Test Steps:
+1. Login the system and use the change password function, try to change password to commnly chosen passwords and weak passphrases. Verify the operation will fail.
 
 ## 2. Secure Transmission  
 
@@ -76,12 +80,15 @@ Test steps:
 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended.  
 **Notice**: Secure Sockets Layer (SSL) 2.0 and SSL 3.0 have been disabled by Internet Engineering Task Force (IETF) in March 2011 and June 2015 due to security issues. In Transport Layer Security (TLS) 1.0, the symmetric encryption algorithm supports only the RC4 algorithm and the cipher block chaining (CBC) mode of the block cipher algorithm. RC4 algorithm is regarded as insecure and is disabled by IETF in all TLS versions. The CBC mode of the symmetric encryption algorithm has the problem of predictable initialization vector (IV) and is vulnerable to BEAST attacks. Therefore, TLS 1.2 and TLS 1.3 are recommended.  
 
-测试用例设计思路：<br>
-1.根据通信矩阵，使用openssl扫描各端口，检查各端口是否满足要求.
+Test steps:
+1. Use openssl to scan ports in the deployment environment, confirm SSL2.0, SSL3.0, TLS1.0 and TLS1.1 are disabled.
+
+Test tools:
+openssl
 
 2.3 Proper certification revocation, such as Online Certificate Status Protocol (OCSP) Stapling, must be enabled and configured.
 
-测试用例设计思路：
+Test steps:
 
 ## 3. Sensitive and Private Data Protection  
 
@@ -97,125 +104,142 @@ Test steps:
 
 3.3 All sensitive data is sent to the server in the HTTP message body (i.e., URL parameters are never used to send sensitive data).  
 
-测试用例设计思路：<br>
+Test steps:
 
 3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
 
-测试用例设计思路：<br>
+Test steps:
 
 3.5 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
 
-测试用例设计思路：<br>
+Test steps:
 
 3.6 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
 **Notice**: If personal data is used for user profiling and marketing, explicit user authorization must be obtained so that users can choose whether to use their personal data for basic services. Products or systems sold to the EU, if involving user profiling and marketing, must inform users of the user profiling logic, consequences of rejecting to provide personal data, and whether personal data is transferred out of European Economic Area (EEA), apart from informing them of their right to reject.  
 
-测试用例设计思路：<br>
+Test steps:
 
 3.7 Have a legal justification for your data processing activities as per GDPR policies.  
 **Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/). 
 
-测试用例设计思路：
+Test steps:
 
 ## 4. Encryption Algorithm and Key Management  
 
 4.1 Do not use proprietary and non-standard cryptographic algorithms.  
 **Notice**: Proprietary and non-standard cryptographic algorithms cannot be used in products. On the one hand, it is difficult to ensure the security strength of cryptographic algorithms designed by non-cryptography professionals. On the other hand, such algorithms are not analyzed and validated in the industry, and may have unknown defects. In addition, such design violates the open and transparent security design principles. It is recommended that common open-source password components in the industry, such as OpenSSL and OpenSSH, be used.  
 
-测试用例设计思路：<br>
-1.搜索代码中关键字进行查找，人工检视
+Test steps:
+1. Examine the code and confirm proprietary and non-standard cryptographic algorithms are not used.
 
 4.2 Do not use insecure cryptographic algorithms. Strong cryptographic algorithms are recommended.  
 **Notice**: With the development of cryptographic technologies and improvement of computing capabilities, some cryptographic algorithms no longer apply to the current security field, such as insecure symmetric encryption algorithms DES and RC4, insecure asymmetric encryption algorithm RSA-1024, insecure hash algorithms SHA-0, SHA-1, MD2, MD4, and MD5, and insecure key negotiation algorithms DH-1024. Instead, AES-256, RSA-3072, SHA-256, PBKDF2, or stronger cryptographic algorithms are recommended.  
 
-测试用例设计思路：<br>
-1.搜索代码中关键字进行查找，人工检视；<br>
-2.使用openssl扫描接口检查加密套件情况。
+Test steps:
+1. Examine the code and confirm strong cryoptograhic cipher suites are used.
+2. User openssl to scan each port to verify the cipher suites used.
         
 4.3 Keys used to encrypt data cannot be hard-coded.  
 **Notice**: Keys must be replaceable to prevent disclosure risks caused by long-term use.  
 
-测试用例设计思路：<br>
-1.搜索代码中关键字进行查找，人工检视
+Test steps：
+1. Examine the code and confirm keys are configurable.
 
 4.4 Use cryptographically secure random numbers for security purposes.  
 **Notice**: Random numbers are used for cryptographic algorithm purposes, such as the generation of IVs, salts, and keys. Insecure random numbers make keys and IVs partially or entirely predictable. Cryptographically secure random numbers must be unpredictable.  
 
-测试用例设计思路：<br>
-1. 搜索代码中关键字进行查找，人工检视
+Test steps：
+1. Examine the code and confirm cryptographically secure random numbers are used.
 
 4.5 Use a secure random number generator to generate keys.  
 **Notice**: If the key is generated by a random number generator, the random number generator must be secure. If an insecure random number generator is used, the obtained keys may be predicted. For example, you can use RAND_bytes in the OpenSSL library, /dev/random device interface in the Linux OS, and the RNG in the Trusted Platform Module (TPM).  
 
-测试用例设计思路：<br>
-1. 搜索代码中关键字进行查找，人工检视
+Test steps：
+1. Examine the code and confirm random number generator is used.
 
 ## 5. DOS Attack
 
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.
 
-测试用例设计思路：<br>
-1.构造登录脚本进行暴力登录测试，检查账户状态；<br>
-2.使用Jmeter进行DOS攻击测试，检查点包括系统服务运行情况是否受到影响。
+Test steps:
+1. Design user login scripts to implement brutal login attempts, confirm the user account will be lockout. 
+2. Use JMeter to implement DOS attcck against APIs, check the operation status of the system.
+
+Test tools:
+JMeter
 
 5.2 The application must limit the number of active concurrent sessions.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 5.3 All input must be limited to an appropriate size limit.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 ## 6. Session Management
 
 6.1 Authenticate a user, or otherwise for establishing a new user session. without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.  
 **Notice**: Invalidate any existing session identifiers prior to authorizing a new user session. 
 
-测试用例设计思路：<br>
+Test steps:
+
 
 6.2 Set sessions/credentials a valid expiration date.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 6.3 Protect the application's sessions from information leakage. Make sure that a session's data is not used or visible by other sessions.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 6.4 The session must be invalidated when the user logs out.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 6.5 Successful authentication and re-authentication must generate a new session and session id.
 
-测试用例设计思路：<br>
+Test steps:
+
 
 ## 7. Web Service Serurity
 
 7.1 The same encoding style must be between the client and the server.  
 **Notice**: Different encodings between client and server can have security implications and have been used in the past to bypass validation and WAFs to perform XSS attacks.
 
-测试用例设计思路：<br>
+Test steps:
+1. Examine the code to comfirm same encoding style is used.
 
 7.2 XML or JSON schema must be in place and verified before accepting input.  
 **Notice**: Schema validation is the first level of defence against attacks on the application logic.
 
-测试用例设计思路：<br>
+Test steps:
+1. Examine the code to confirm XML and JSON schema validation is implemented.
+2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional.
 
 ## 8. Security Document  
 
 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the product or application document.  
 **Notice**: All the preceding new interfaces must be described application document to help users better understand the corresponding modules.  
 
-测试用例设计思路：<br>
-1.人工检查文档中通信矩阵，API接口，默认用户名/密码的内容是否完整。
+Test steps:
+1. List all public function interfaces, RESTful interfaces, local function interfaces, command line interfaces.
+2. Examine all interfaces, default usernames and passwords used for identity authentication are described in the product or application document.  
 
 8.2 External communication connections are necessary for system running and maintenance. All communication ports used must be described in the port matrix document. Dynamic listening ports must be limited to a proper range.  
 **Notice**: If external communication ports are not described in the port matrix document, user security configuration may be affected. 
 
-测试用例设计思路：<br>
-1.使用nmap对部署环境进行扫描，人工检查是否与文档中通信矩阵一致。
+Test steps:
+1. Use NMap to scan ports in the deployment environment, compare the scanning results with the port matrix document. Verify all ports are documented in the port matrix document.
+
+Test tools:
+NMap
 
 ## 9. Threat Modelling
 
