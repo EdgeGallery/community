@@ -1,6 +1,6 @@
 # Security Testing Guidelines  
 
-This document is uesd to capture the test case design suggestion for testing each entry in the security design guide. 
+This document is used to guide developers to design test cases for testing each entry in the [Security Design Guide](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Security%20Design%20Guide.md). 
 
 ## 1. Identification, Authentication and Authorization  
 
