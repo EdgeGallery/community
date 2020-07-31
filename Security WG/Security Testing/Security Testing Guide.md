@@ -47,7 +47,7 @@ Test steps:
 Test steps:
 1. 
 
-1.7 All authentication controls must fail securely..  
+1.7 All authentication controls must fail securely.
 **Notice**: The developer must just handle the displaying of the error message properly.
 
 Test steps:
@@ -73,9 +73,8 @@ Test Steps:
 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.  
 **Notice**: When data is transmitted across networks, it is vulnerable to theft or tampering by attackers. Therefore, important data must be protected.  
 
-测试用例设计思路：<br>
-1.根据通信矩阵，使用openssl扫描各端口，检查是否默认开启了https；<br>
-2.使用openssl扫描各端口，查看端口加密套件是否符合要求。
+Test steps:
+1. According to the port communication document, use openssl to scan each port and confirm HTTPS is enabled by default.
 
 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended.  
 **Notice**: Secure Sockets Layer (SSL) 2.0 and SSL 3.0 have been disabled by Internet Engineering Task Force (IETF) in March 2011 and June 2015 due to security issues. In Transport Layer Security (TLS) 1.0, the symmetric encryption algorithm supports only the RC4 algorithm and the cipher block chaining (CBC) mode of the block cipher algorithm. RC4 algorithm is regarded as insecure and is disabled by IETF in all TLS versions. The CBC mode of the symmetric encryption algorithm has the problem of predictable initialization vector (IV) and is vulnerable to BEAST attacks. Therefore, TLS 1.2 and TLS 1.3 are recommended.  
@@ -92,15 +91,13 @@ Test steps:
 
 ## 3. Sensitive and Private Data Protection  
 
-3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted.   If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
+3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
 
-测试用例设计思路：
+Test steps:
 
 3.2 Avoid storing passwords in easily accessible locations. Consider storing cryptographic hashes of passwords as an alternative to storing in plaintext. 
 
-测试用例设计思路：<br>
-1.构造测试用例使用有效用户信息通过接口获取用户信息，获取成功；<br>
-2.构造测试用例使用无效用户信息通过接口获取用户信息，获取失败.
+Test steps:
 
 3.3 All sensitive data is sent to the server in the HTTP message body (i.e., URL parameters are never used to send sensitive data).  
 
