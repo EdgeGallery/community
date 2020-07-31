@@ -5,7 +5,7 @@ This document is uesd to capture the test case design suggestion for each entry 
 1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.
 Notice: Cross-network interfaces must support identity authentication to prevent spoofing access.
 测试用例设计思路：1.检视采用的认证方案，确认认证在服务器端进行；
-                2.构造测试用例使用无效用户信息（未注册用户,错误密码）进行服务调用/资源操作测试是否可以绕过系统认证。
+                  2.构造测试用例使用无效用户信息（未注册用户,错误密码）进行服务调用/资源操作测试是否可以绕过系统认证。
 
 1.2 For each access request that requires authorization, the server must verify whether the user is authorized to perform this operation.
 Notice: Unauthorized URL access is a typical web security vulnerability. Attackers can easily bypass the system permission control to access system resources and use system functions without authorization. To prevent users from directly entering a URL to request and execute some pages without authorization, the background needs to authenticate the permission of the user who requests the URL.
