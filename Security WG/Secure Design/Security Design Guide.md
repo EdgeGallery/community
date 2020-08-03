@@ -1,7 +1,7 @@
 # Security Design Guidelines  
 
 This document is developed based on industry standards and open source best practices to guide developers in module design and avoid high security design risks.  
-For each rule some test steps are provided to guide the developers to design and implement test cases.
+For each rule in this guide some test steps are provided to help the developers to design and implement test cases.
 
 ## 1. Identification, Authentication and Authorization  
 
