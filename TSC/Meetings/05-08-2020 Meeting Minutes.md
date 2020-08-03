@@ -38,7 +38,7 @@ release需求评审 | 章清洁
 
 
 ## Voting Items
-TSC Voting to Approve Chair and Co-Chair: 于洋（Chair）、龚永生（Co-Chair）
+TSC Voting to Approve ABC
 | **Name**          | **Affiliation**       | **Email**                |  **Voting Items (Y/N)** | 
 |-------------------|-----------------------|--------------------------|--------------------------------|
 | Name              | Company                   | Email           |         Y         |
