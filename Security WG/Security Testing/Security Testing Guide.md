@@ -172,7 +172,7 @@ JMeter
 5.2 The application must limit the number of active concurrent sessions.
 
 Test steps:
-1. 
+1. Design test case to establish as many concurtent sessions as possible and confirm that the number of acitve concurrent sessions is limited.
 
 
 5.3 All input must be limited to an appropriate size limit.
@@ -187,11 +187,15 @@ Test steps:
 **Notice**: Invalidate any existing session identifiers prior to authorizing a new user session. 
 
 Test steps:
+1. (User A) Log in the system, record the session identifier.
+2. (User A) Log in the system using another client.
+3. Confirm the seesion identifier generated in step 1 has been invalidated.
 
 
 6.2 Set sessions/credentials a valid expiration date.
 
 Test steps:
+1. Log in the system and confirm the session and credential have a valid expiration date.
 
 6.3 Protect the application's sessions from information leakage. Make sure that a session's data is not used or visible by other sessions.
 
@@ -200,6 +204,7 @@ Test steps:
 6.4 The session must be invalidated when the user logs out.
 
 Test steps:
+1. Log out the system and confirm the session has been invalidated.
 
 6.5 Successful authentication and re-authentication must generate a new session and session id.
 
@@ -243,5 +248,9 @@ NMap
 ## 9. Threat Modelling
 
 9.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
+ce**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
 
-**Notice**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
+Test Steps:
+For each mitigation methods:
+1. Design a test case to check the implementation correctness of the mitigation method;
+1. Design a test case to attck the system from an attacker's perspective and verify the effectiveness of the mitigation method.
