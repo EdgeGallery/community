@@ -104,7 +104,7 @@ Test steps:
 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
 
 Test steps:
-TBD
+1. Examine the credential encryption mechanism and confirm that user credentials are encrypted before stored.
 
 3.2 Avoid storing passwords in easily accessible locations. Consider storing cryptographic hashes of passwords as an alternative to storing in plaintext. 
 
@@ -114,7 +114,11 @@ TBD
 3.3 All sensitive data is sent to the server in the HTTP message body (i.e., URL parameters are never used to send sensitive data).  
 
 Test steps:
-TBD
+1. Review the code and confirm sensitive data are not transmitted as URL parametes.
+2. Use API tools such as Postman for validation.
+
+Test tools:
+Postman
 
 3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
