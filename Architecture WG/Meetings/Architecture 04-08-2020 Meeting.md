@@ -14,7 +14,7 @@
 |---|---|---|
 |  Project walk-through -- Developer  |     | 李松阳 |
 |  Project walk-through -- MECM  |    | 张倍源 |
-|  Architecture Requirements  |     | All |
+|  架构组选举  |     | All |
 
 ## Meeting Records
 - Video Recording
@@ -24,6 +24,6 @@
 ## Action Items
 |  Items | Assignee   |
 |---|---|
-| 分析MEPM 部署场景已经潜在的[需求](https://gitee.com/OSDT/dashboard/issues?id=I1PDXF)  | 范桂飓，陈传雨 |
+| TBA  | TBA|
 
 
