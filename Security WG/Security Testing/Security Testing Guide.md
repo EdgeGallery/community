@@ -45,13 +45,14 @@ Test steps:
 1.6 Account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism.
 
 Test steps:
-1. 
+TBD
 
 1.7 All authentication controls must fail securely.
 **Notice**: The developer must just handle the displaying of the error message properly.
 
 Test steps:
-1. 
+1. For each authentication scenario, try to implement various kind of authentication failures.
+2. Examine the error messages both displayed in the system interfaces and recorded in the logs, confirm the messages are proper.
 
 1.8 The forgotten password function and other recovery paths should not reveal the current password and the new password should not sent in clear text to the user.
 
@@ -94,19 +95,23 @@ Test steps:
 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
 
 Test steps:
+TBD
 
 3.2 Avoid storing passwords in easily accessible locations. Consider storing cryptographic hashes of passwords as an alternative to storing in plaintext. 
 
 Test steps:
+TBD
 
 3.3 All sensitive data is sent to the server in the HTTP message body (i.e., URL parameters are never used to send sensitive data).  
 
 Test steps:
+TBD
 
 3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
 
 Test steps:
+1. Examine the system to check whether an interface to obtain data subjects' consent and authorization for collecting personal data is exist.
 
 3.5 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
 **Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
@@ -124,6 +129,7 @@ Test steps:
 **Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/). 
 
 Test steps:
+TBD
 
 ## 4. Encryption Algorithm and Key Management  
 
@@ -174,7 +180,6 @@ JMeter
 Test steps:
 1. Design test case to establish as many concurtent sessions as possible and confirm that the number of acitve concurrent sessions is limited.
 
-
 5.3 All input must be limited to an appropriate size limit.
 
 Test steps:
@@ -190,7 +195,6 @@ Test steps:
 1. (User A) Log in the system, record the session identifier.
 2. (User A) Log in the system using another client.
 3. Confirm the seesion identifier generated in step 1 has been invalidated.
-
 
 6.2 Set sessions/credentials a valid expiration date.
 
@@ -245,9 +249,29 @@ Test steps:
 Test tools:
 NMap
 
-## 9. Threat Modelling
+## 9 . Log Security
 
-9.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
+9.1 Do not log unsanitized user input.  
+**Notice**: Unsanitized loging can allow an attacker to forge log entries or inject malicious content into logs.
+
+Test steps:
+1. Examine the system log and confirim there is no unsanitized user date included.
+
+9.2 Sufficient Logging.  
+**Notice**: Ensure that all security-related successes and failures be logged. When security-critical events are not logged properly, such as a failed login attempt, this can make malicious behavior more difficult to detect and may hinder forensic analysis after an attack succeeds.
+
+Test steps:
+1. Examine the system log and confirm all security-related successes and failures be logged.
+
+9.3 Do not add Sensitive Information into Log or Log file.  
+**Notice**: Consider seriously the sensitivity of the information written into log files. Do not write secrets into the log files. Remove debug log files before deploying the application into production. Protect log files against unauthorized read/write.
+
+9.4 Avoid Logging of Excessive Data.  
+**Notice**: Suppress large numbers of duplicate log messages and replace them with periodic summaries. For example, syslog may include an entry that states "last message repeated X times" when recording repeated events. Support a maximum size for the log file that can be controlled by the administrator. 
+
+## 10. Threat Modelling
+
+10.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
 ce**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
 
 Test Steps:
