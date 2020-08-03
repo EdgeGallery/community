@@ -19,7 +19,7 @@ telnet, snmp, ssh, ftp, sftp, netconf
 
 Test steps:
 1. Design horizontal privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to access user B's resources.
-2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to perform opertions out of permisson.
+2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to perform opertions or use functions out of his/her permisson scope.
 
 1.3 The server must validate the size, type, length, and special characters of all untrusted data sources and reject any data that fails the validation.  
 **Notice**: To prevent attackers from intercepting and tampering with requests through a proxy to bypass the validity check of the client, data validation must be performed on the server.
@@ -33,14 +33,17 @@ Test steps:
 
 Test steps:
 1. Review the code to confirm the founctions that allow access to the system or data cannot bypassing the system security mechanism.
-2. Perfrom penetration tesing for validation.
+2. Perfrom penetration tesing to validate there is no way to bypass the system security mechanism.
+
+Test tools：
+OWASP ZAP, Postman
 
 1.5 According to the principle of least privilege, accounts used to run software programs are low-privilege OS accounts.  
 **Notice**: Privileged accounts such as root, administrator, and supervisor or high-level accounts cannot be used to run software programs. Instead, use common accounts to run software programs.  
 
 Test steps:
-1. Examine the Dockerfile to confirm Docker are run as a non-root user.
-2. Design privilege escalation scripts to test file permission and file owner settings.
+1. Review the Dockerfile to confirm Docker are run as a non-root user.
+2. Design privilege escalation scripts to validatethe  file permission and file owner settings are proper.
 
 1.6 Account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism.
 
@@ -51,13 +54,14 @@ TBD
 **Notice**: The developer must just handle the displaying of the error message properly.
 
 Test steps:
-1. For each authentication scenario, try to implement various kind of authentication failures.
+1. For each authentication scenario, implement various kinds of authentication failures, i.e., non-exist user, incorrect password, user without permission.
 2. Examine the error messages both displayed in the system interfaces and recorded in the logs, confirm the messages are proper.
 
 1.8 The forgotten password function and other recovery paths should not reveal the current password and the new password should not sent in clear text to the user.
 
 Test Steps:
-1. Login the system and use the forgotten password function, examine the current password is not reveal and new password is encrypted. 
+1. Login the system and use the forgotten password function to reset password.
+2. Examine the current password is not reveal and new password is encrypted. 
 
 1.9 The changing password functionality must include the old password, the new password, and a password confirmation.
 
@@ -67,7 +71,8 @@ Test Steps:
 1.10 Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases.
 
 Test Steps:
-1. Login the system and use the change password function, try to change password to commnly chosen passwords and weak passphrases. Verify the operation will fail.
+1. Login the system and use the change password function, try to change password to commnly chosen passwords and weak passphrases.
+2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
 
 ## 2. Secure Transmission  
 
@@ -76,6 +81,9 @@ Test Steps:
 
 Test steps:
 1. According to the port communication document, use openssl to scan each port and confirm HTTPS is enabled by default.
+
+Test tools:
+openssl
 
 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended.  
 **Notice**: Secure Sockets Layer (SSL) 2.0 and SSL 3.0 have been disabled by Internet Engineering Task Force (IETF) in March 2011 and June 2015 due to security issues. In Transport Layer Security (TLS) 1.0, the symmetric encryption algorithm supports only the RC4 algorithm and the cipher block chaining (CBC) mode of the block cipher algorithm. RC4 algorithm is regarded as insecure and is disabled by IETF in all TLS versions. The CBC mode of the symmetric encryption algorithm has the problem of predictable initialization vector (IV) and is vulnerable to BEAST attacks. Therefore, TLS 1.2 and TLS 1.3 are recommended.  
@@ -89,6 +97,7 @@ openssl
 2.3 Proper certification revocation, such as Online Certificate Status Protocol (OCSP) Stapling, must be enabled and configured.
 
 Test steps:
+1. Review the code and confirm the implementation of certification revocation mechanism.
 
 ## 3. Sensitive and Private Data Protection  
 
