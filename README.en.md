@@ -24,5 +24,9 @@ EdgeGallery community uses mailing lists, Welink, and other online communication
 ## Community Security & vulnerability management
 If you want to report CVE, please refer to reporting CVE for the specific process
 
+## License 
+[Apache License Version 2.0](https://gitee.com/edgegallery/community/blob/master/license)
+
+[Creative Commons Corporation 4.0（CC-BY-4.0）](https://gitee.com/edgegallery/community/blob/master/license-cc-by-4.0)
 
 Other questions can be supported by visiting the community website: http://www.edgegallery.org/
