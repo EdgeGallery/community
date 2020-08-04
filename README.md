@@ -32,4 +32,5 @@ EdgeGallery社区使用 邮件列表、welink等多种线上沟通交流和会�
 
 ## 版权
 [Apache License Version 2.0](https://gitee.com/edgegallery/community/blob/master/license)
+
 [Creative Commons Corporation 4.0（CC-BY-4.0）](https://gitee.com/edgegallery/community/blob/master/license-cc-by-4.0)
