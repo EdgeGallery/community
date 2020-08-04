@@ -14,10 +14,9 @@
 |---|---|---|
 |  Project raised Requirements walk-through  |    | 陈传雨/张倍源 |
 |  MEPM部署场景讨论 |    | 范桂飓 |
+|  安全社区标准同步 |    | 安全工作组/吕京 |
 |  Project walk-through -- Developer  |     | 李松阳 |
-|  Project walk-through -- User Management |    | 张倍源 |
-
-|  架构组选举  |     | All |
+|  架构组选举  |  时间不允许的话推迟到下次   | All |
 
 ## Meeting Records
 - Video Recording
