@@ -32,4 +32,5 @@
 * Security WG：工作组介绍*参与方式请参考此链接：[Security](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Introduction.md)
 * Cloud Connection WG：工作组介绍*参与方式请参考此链接：[Cloud Connection](https://gitee.com/edgegallery/community/blob/master/Cloud%20Connection%20WG/introduction.md)
 * Test WG：工作组介绍*参与方式请参考此链接： [Test](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Introduction.md)
+Blockchain WG：工作组介绍*参与方式请参考此链接：[Blockchain](https://gitee.com/edgegallery/community/blob/master/Blockchain%20WG/Introduction.md)
 
