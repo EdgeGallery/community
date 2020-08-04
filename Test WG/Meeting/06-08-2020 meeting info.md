@@ -11,7 +11,8 @@
 -
 
 ## Topics议题
-
+1. CICD介绍；  彭育
+2. 安全工具集成介绍及落地； 程润东  chengruidong@huawei.com
 1. 问题反馈：
 -robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
 -研究结对测试，pict测试工具；  owner：彭育
