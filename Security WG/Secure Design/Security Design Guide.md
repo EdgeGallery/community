@@ -139,11 +139,6 @@ Test steps:
 Test steps:
 1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
 
-3.7 Have a legal justification for your data processing activities as per GDPR policies.  
-**Notice**: Art. 6 GDPR Lawfulness of processing define GDPR poicies (https://gdpr.eu/article-6-how-to-process-personal-data-legally/). 
-
-Test steps:
-TBD
 
 ## 4. Encryption Algorithm and Key Management  
 
