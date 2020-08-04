@@ -29,3 +29,7 @@ EdgeGallery社区使用 邮件列表、welink等多种线上沟通交流和会�
 如果您想要上报CVE，具体的流程请查阅[上报CVE](https://gitee.com/EdgeGallery/community/wikis/EdgeGallery%20Vulnerability%20Management?sort_id=2423622)
 
 其他问题可访问社区官网获得支持：[http://www.edgegallery.org/](http://www.edgegallery.org/)
+
+## 版权
+[Apache License Version 2.0](https://gitee.com/edgegallery/community/blob/master/license)
+[Creative Commons Corporation 4.0（CC-BY-4.0）](https://gitee.com/edgegallery/community/blob/master/license-cc-by-4.0)
