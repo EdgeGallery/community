@@ -13,7 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  Project walk-through -- Developer  |     | 李松阳 |
-|  Project walk-through -- MECM  |    | 张倍源 |
+|  Project walk-through -- User Management |    | 张倍源 |
 |  Project raised Requirements walk-through  |    | 陈传雨/张倍源 |
 |  架构组选举  |     | All |
 
