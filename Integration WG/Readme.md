@@ -10,7 +10,7 @@
 ## 工作组成员
 |   **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
 |-----------------------|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
-| 刘芷若     | 信通院   |  liuzhiruo@bifnc.cn   | Y  |   |
+| 刘芷若     | 信通院   |  liuzhiruo@caict.ac.cn   | Y  |   |
 | 苏锦烽     | 信通院   |  sujinfeng@bifnc.cn   |   |   |
 | 徐舒      | 联通    | xus15@chinaunicom.cn |                          |                                     |
 | 褚纬明     | 安恒           | weiming.chu@dbappsecurity.com.cn     |                               |                                     |
