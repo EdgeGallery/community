@@ -12,9 +12,11 @@
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
+|  Project raised Requirements walk-through  |    | 陈传雨/张倍源 |
+|  MEPM部署场景讨论 |    | 范桂飓 |
 |  Project walk-through -- Developer  |     | 李松阳 |
 |  Project walk-through -- User Management |    | 张倍源 |
-|  Project raised Requirements walk-through  |    | 陈传雨/张倍源 |
+
 |  架构组选举  |     | All |
 
 ## Meeting Records
