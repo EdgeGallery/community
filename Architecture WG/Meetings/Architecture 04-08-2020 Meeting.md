@@ -7,7 +7,20 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- TBA
+- 刘辉 （紫金山）
+- 彭育
+- Satish
+- vidya
+- 王龙（九州云）
+- 范桂飓（九州云）
+- 徐军杰（安恒）
+- 游永明（广州申迪）
+- 孙靖涵
+- 章清洁
+- 于洋
+- 李松阳
+- 张倍源
+- 张海龙
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
