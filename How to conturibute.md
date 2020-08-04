@@ -22,15 +22,15 @@
 
 
 ## EdgeGallery 社区项目组介绍：
-* MEP PT：项目介绍&参与方式请参考此链接： [MEP](https://gitee.com/edgegallery/community/blob/master/MEP_PT/introduction.md)
-* MECM PT： 项目介绍&参与方式请参考此链接： [MECM](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/introduction.md)
-* APP & Dev PT：项目介绍&参与方式请参考此链接：[AppStore & Developer Joint](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Introduction.md)  
+* MEP PT：项目介绍&参与方式请参考此链接： [MEP](https://gitee.com/edgegallery/community/blob/master/MEP_PT/Readme.md)
+* MECM PT： 项目介绍&参与方式请参考此链接： [MECM](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Readme.md)
+* APP & Dev PT：项目介绍&参与方式请参考此链接：[AppStore & Developer Joint](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Readme.md)  
 
 ## EdgeGallery社区工作组介绍：
 * Architecture WG：工作组介绍*参与方式请参考此链接： [Architecture](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/README.md)
-* Intergration WG：工作组介绍*参与方式请参考此链接： [Intergration](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Introduction.md)
-* Security WG：工作组介绍*参与方式请参考此链接：[Security](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Introduction.md)
-* Cloud Connection WG：工作组介绍*参与方式请参考此链接：[Cloud Connection](https://gitee.com/edgegallery/community/blob/master/Cloud%20Connection%20WG/introduction.md)
-* Test WG：工作组介绍*参与方式请参考此链接： [Test](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Introduction.md)
-Blockchain WG：工作组介绍*参与方式请参考此链接：[Blockchain](https://gitee.com/edgegallery/community/blob/master/Blockchain%20WG/Introduction.md)
+* Intergration WG：工作组介绍*参与方式请参考此链接： [Intergration](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Readme.md)
+* Security WG：工作组介绍*参与方式请参考此链接：[Security](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Readme.md)
+* Cloud Connection WG：工作组介绍*参与方式请参考此链接：[Cloud Connection](https://gitee.com/edgegallery/community/blob/master/Cloud%20Connection%20WG/Readme.md)
+* Test WG：工作组介绍*参与方式请参考此链接： [Test](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Readme.md)
+Blockchain WG：工作组介绍*参与方式请参考此链接：[Blockchain](https://gitee.com/edgegallery/community/blob/master/Blockchain%20WG/Readme.md)
 
