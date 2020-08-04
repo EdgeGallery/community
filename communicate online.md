@@ -7,6 +7,7 @@
 
 ## 微信
 请扫描EdgeGallery小助手微信号二维码，回复“EdgeGallery” 加入微信交流群
+
 ![EdgeGallery 小助手](https://images.gitee.com/uploads/images/2020/0804/151201_b200bc64_5578348.jpeg "EdgeGalleryweixin.jpg")
 
 
