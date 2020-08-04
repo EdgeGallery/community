@@ -40,9 +40,6 @@ The scope above and status related to the goals is summarized in the following t
 
 * Initial member signup now open
 
-## Rocket.Chat
-* [EdgeGallery Security Channel](https://rocketchat.edgegallery.org/channel/security)
-
 ## Mailing List
 
 * EdgeGallery security mailing list: security@edgegallery.groups.io
