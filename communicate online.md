@@ -7,7 +7,7 @@
 
 ## 微信
 请扫描EdgeGallery小助手微信号二维码，回复“EdgeGallery” 加入微信交流群
-（待补充图）
+![输入图片说明](https://gitee.com/edgegallery/community/blob/master/operation/EdgeGalleryweixin.jpg "在这里输入图片标题")
 
 
 ## 会议工具
