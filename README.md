@@ -23,7 +23,7 @@ EdgeGallery社区治理机构包含董事会、秘书处和技术指导委员会
 请阅读社区的[如何贡献](https://gitee.com/edgegallery/community/blob/master/How%20to%20conturibute.md)获得帮助
 
 ## 社区交流&讨论
-EdgeGallery社区使用 邮件列表、welink等多种线上沟通交流和会议工具，具体请参阅线上沟通
+EdgeGallery社区使用 邮件列表、welink等多种线上沟通交流和会议工具，具体请参[阅线上沟通](https://gitee.com/edgegallery/community/blob/master/communicate%20online.md)
 
 ## 社区安全&漏洞管理
 如果您想要上报CVE，具体的流程请查阅[上报CVE](https://gitee.com/EdgeGallery/community/wikis/EdgeGallery%20Vulnerability%20Management?sort_id=2423622)
