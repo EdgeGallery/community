@@ -22,6 +22,7 @@
 - 李松阳
 - 张倍源
 - 张海龙
+- 赵宁
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
