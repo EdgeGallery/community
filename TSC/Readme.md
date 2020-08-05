@@ -10,13 +10,13 @@ EdgeGallery开源项目将会在透明、公开、协作的方式指导下运作
 * 对社区版本的安全质量负责：批准社区的版本发布活动和维护流程，质量和安全漏洞的要求和管理机制；
 * 为满足社区需求，变更社区技术指导委员会的组织结构及运作方式，决策项目组和工作组的成立或者撤销，以及社区技术角色的设置和当选离任机制；
 ## TSC成员
-| **Name**          | **Affiliation**       | **Email**                |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
+| **Name**          | **Affiliation**       | **Email**                |  **Chair (Y/N)** | **Co-Chair (Y/N)** |
 |-------------------|-----------------------|--------------------------|--------------------------------|-------------------------------------|
 | 于洋              | 华为                   | gabriel.yuyang@huawei.com           |     Y             |                        |
 | 徐雷              | 联通                   |                                     |    |    | 
 | 刘芷若            | 信通院                 | liuzhiruo@caict.ac.cn               |   |   |
 | 丁韩宇            | 中移动                 | dinghanyu@chinamobile.com           |   |   |
-| 龚永生            | 九州云                 |  gong.yongsheng@99cloud.net         |  Y |  Y  |
+| 龚永生            | 九州云                 |  gong.yongsheng@99cloud.net         |   |  Y  |
 | 刘辉              | 紫金山                 | liuhui@pmlabs.com.cn                |   |   |
 | 袁国平            | 安恒                   | guoping.yuan@dbappsecurity.com.cn   |   |   |
 | 陈炜              | 腾讯                   | allenwchen@tencent.com              |   |   |
