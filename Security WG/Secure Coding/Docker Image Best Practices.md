@@ -117,3 +117,6 @@ COPY --chown=app:app . $APP_HOME
 # Change to the app user.
 USER app
 ```
+
+## Reference
+- CIS_Docker_1.13.0_Benchmark
