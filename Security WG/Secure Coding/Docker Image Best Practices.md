@@ -63,14 +63,14 @@ As each instruction in the Dockerfile is examined, the builder looks for an exis
 
 *   For example, when processing a `RUN apt-get -y update` command the files updated in the container are not examined to determine if a cache hit exists. In that case just the command string itself is used to find a match.
 
-### 9\. Add HEALTHCHECK instruction to the container image
+### 9\. Add `HEALTHCHECK` instruction to the container image
 
 Once the cache is invalidated, all subsequent Dockerfile commands generate new images and the cache is not used.
 
-One of the important security triads is availability. Adding HEALTHCHECK instruction to your container image ensures that the docker engine periodically checks the running container 
+One of the important security triads is availability. Adding `HEALTHCHECK` instruction to your container image ensures that the docker engine periodically checks the running container 
 instances against that instruction to ensure that the instances are still working. 
 
-Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones.One of the important security triads is availability. Adding HEALTHCHECK instruction to your 
+Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones.One of the important security triads is availability. Adding `HEALTHCHECK` instruction to your 
 container image ensures that the docker engine periodically checks the running container instances against that instruction to ensure that the instances are still working. 
 
 Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones.
