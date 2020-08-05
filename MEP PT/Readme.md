@@ -22,8 +22,6 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 |**Name**|**Email**|**Affiliation**|
 |:------:|:-------:|:-------------:|
 | 黎明江 | limingjiang@huawei.com | Huawei |
-| 彭康桓 | kris.peng@xeniro.io    | 讯琥   |
-| 范振伟 | charles.fan@xeniro.io  | 讯琥   |
 | 刘小飞 | xiaofei.liu@xeniro.io  | 讯琥   |
 | Libu Jacob Varghese | libu.jacob@huawei.com | Huawei |
 | 陈炜  | allenwchen@tencent.com |   腾讯 |
