@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| Wednesday   | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/847848355 |
+| Wednesday   | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/937675032 |
 
 ## Meeting Attendees
 
