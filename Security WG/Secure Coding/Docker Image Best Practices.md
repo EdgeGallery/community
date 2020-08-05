@@ -2,8 +2,6 @@ Container technology is a popular packaging method for developers and system adm
 
 This page captures and develops best practices, guidance, recommendations and common tools for the design of images built using Dockerfiles.
 
-* * *
-
 General Guidelines
 ------------------
 
@@ -63,31 +61,25 @@ As each instruction in the Dockerfile is examined, the builder looks for an exis
 
 *   For example, when processing a `RUN apt-get -y update` command the files updated in the container are not examined to determine if a cache hit exists. In that case just the command string itself is used to find a match.
 
-### 9\. Add `HEALTHCHECK` instruction to the container image
-
 Once the cache is invalidated, all subsequent Dockerfile commands generate new images and the cache is not used.
 
-One of the important security triads is availability. Adding `HEALTHCHECK` instruction to your container image ensures that the docker engine periodically checks the running container 
-instances against that instruction to ensure that the instances are still working. 
+### 9\. Add `HEALTHCHECK` instruction to the container image
 
-Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones.One of the important security triads is availability. Adding `HEALTHCHECK` instruction to your 
-container image ensures that the docker engine periodically checks the running container instances against that instruction to ensure that the instances are still working. 
+One of the important security triads is availability. Adding `HEALTHCHECK` instruction to your container image ensures that the docker engine periodically checks the running container instances against that instruction to ensure that the instances are still working. 
 
-Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones.
+Based on the reported health status, the docker engine could then exit non-working containers and instantiate new ones. 
 
 ### 10\. Do not use update instructions alone in the Dockerfile
 
 Adding the update instructions in a single line on the Dockerfile will cache the update layer.
 Thus, when you build any image later using the same instruction, previously cached update layer will be used. This could potentially deny any fresh updates to go in the later builds.
 
-Use update instructions along with install instructions (or any other) and version pinning for packages while installing them. This would bust the cache and force to extract the 
-required versions.
+Use update instructions along with install instructions (or any other) and version pinning for packages while installing them. This would bust the cache and force to extract the required versions.
 Alternatively, you could use --no-cache flag during docker build process to avoid using cached layers.
 
 ### 11\. Use `COPY` instead of `ADD` in Dockerfile
 
-`COPY` instruction just copies the files from the local host machine to the container file system. `ADD` instruction potentially could retrieve files from remote URLs and perform 
-operations such as unpacking. Thus, `ADD` instruction introduces risks such as adding malicious files from URLs without scanning and unpacking procedure vulnerabilities.
+`COPY` instruction just copies the files from the local host machine to the container file system. `ADD` instruction potentially could retrieve files from remote URLs and perform operations such as unpacking. Thus, `ADD` instruction introduces risks such as adding malicious files from URLs without scanning and unpacking procedure vulnerabilities.
 
 * * *
 
