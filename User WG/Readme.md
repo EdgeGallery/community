@@ -7,7 +7,20 @@
 - 工业现场、直播、视频、游戏等不同场景下对5G MEC的需求
 - 社区优先集成的应用场景及意向应用厂商
 ### 成员列表
-[成员列表](https://gitee.com/edgegallery/community/blob/master/User%20WG/%E5%B7%A5%E4%BD%9C%E7%BB%84%E6%88%90%E5%91%98.md)
+
+|Name   |Affiliation  |Email    |Self nominate as Chair (Y)   |Self Nominate as Co-Chair (Y/N)   |
+|---|---|---|---|---|
+| 陈炜 |腾讯|allenwchen@tencent.com  |   |   |
+|汪畅畅 |九州云|wang.changchang@99cloud.net   |   |   |
+|薛巍   |金山云  |Xuewei1@kingsoft.com   |   |   |
+|周睿   |金山云  |KANGYANLIN@kingsoft.com  |   |   |
+|李剑锋   |安恒  |hermit.li@dbappsecurity.com.cn  |   |   |
+| 张立岗  |云讯 |leon@yunex.com  |   |  
+ |丁智慧 |云讯|dingzhihui@yunex.com 
+ |彭育 |华为|perry.peng@huawei.com 
+|张倍源|华为|zhangbeiyuan@huawei.com||
+|黄文浩|紫金山实验室|huangwenhao@pmlabs.com.cn||
+
 ### 工作组会议
 
 每周四晚上7点-8点（待定）
