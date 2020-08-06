@@ -18,7 +18,7 @@ You can find the Gitee pull request compliance verification result on the pull r
 
 ![](https://edgegallery.atlassian.net/wiki/download/attachments/364094/Snipaste_2020-03-18_11-40-12.png?api=v2)
 
-* * *
+
 
 CheckStyle
 ----------
@@ -37,7 +37,41 @@ EdgeGallery projects use [Google Java Style](https://google.github.io/styleguide
 
 Our jenkins CI job will perform CheckStyle analysis on submitted code against https://github.com/EdgeGallery/infra/blob/master/configs/edgegallery_checks.xml. All ‘warning’ severity level is considered a violation.
 
-* * *
+### How to set up CheckStyle maven plugin as part of the build
+
+To explicitly execute the CheckStyle plugin and generate a report as part of the build, set the plugin in the <build> section of your POM as shown below:
+
+```
+<project>
+  ...
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-checkstyle-plugin</artifactId>
+              <version>3.1.1</version>
+              <configuration>
+                  <consoleOutput>true</consoleOutput>
+                  <failOnViolation>true</failOnViolation>
+                  <violationSeverity>warning</violationSeverity>
+                  <configLocation>
+                      https://raw.githubusercontent.com/EdgeGallery/infra/master/configs/edgegallery_checks.xml
+                  </configLocation>
+              </configuration>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+  </build>
+  ...
+</project>
+```
+
 
 PMD
 ---
@@ -66,11 +100,43 @@ PMD is able to detect flaws or possible flaws in source code, like:
 
 All PMD violations with priority level 1 (most severe) and 2 are required to be fixed before PR is merged.
 
+### How to set up PMD maven plugin as part of the build
+
+To explicitly execute the PMD plugin and generate a report as part of the build, set the plugin in the <build> section of your POM as shown below:
+
+```
+<project>
+  ...
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-pmd-plugin</artifactId>
+              <version>3.13.0</version>
+              <configuration>
+                  <failOnViolation>true</failOnViolation>
+                  <failurePriority>2</failurePriority>
+                  <maxAllowedViolations>0</maxAllowedViolations>
+                  <printFailingErrors>true</printFailingErrors>
+              </configuration>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+  </build>
+  ...
+</project>
+```
+
 #### Reference
 
 PMD Java rules: [https://pmd.github.io/latest/pmd\_rules\_java.html](https://pmd.github.io/latest/pmd_rules_java.html)
 
-* * *
 
 FindBugs
 --------
@@ -83,11 +149,40 @@ For EdgeGallery projects written in Java, we use [FindBugs](https://gleclaire.gi
 
 All FindBugs warnings are required to be fixed before PR is merged.
 
+### How to set up FindBugs maven plugin as part of the build
+
+To explicitly execute the FindBugs plugin and generate a report as part of the build, set the plugin in the <build> section of your POM as shown below:
+
+```
+<project>
+  ...
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>findbugs-maven-plugin</artifactId>
+              <version>3.0.4</version>
+              <configuration>
+                  <failOnError>true</failOnError>
+              </configuration>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+  </build>
+  ...
+</project>
+```
+
 #### Reference
 
 FindBugs Bug descriptor: [http://findbugs.sourceforge.net/bugDescriptions.html](http://findbugs.sourceforge.net/bugDescriptions.html)
 
-* * *
 
 ESLint
 ------
@@ -104,11 +199,55 @@ EdgeGallery uses eslint-plugin-vue [base rules](https://eslint.vuejs.org/rules/#
 
 All issues are required to be fixed before PR is merged.
 
+### How to set up and run ESLint
+
+To run ESLint, add the following content in your package.json file:
+
+```
+...
+"scripts": {
+  ...
+  "eslint": "eslint -f checkstyle --ext .js,.vue src -o eslint_result.xml"
+  ...
+},
+...
+"devDependencies": {
+  ...
+  "eslint": "^5.16.0",
+  "eslint-plugin-vue": "^5.2.3",
+  ...
+},
+"eslintConfig": {
+  "root": true,
+  "env": {
+  "node": true
+},
+  "extends": [
+    "plugin:vue/base",
+    "plugin:vue/essential",
+    "plugin:vue/strongly-recommended",
+    "@vue/standard"
+  ],
+  "rules": {},
+  "parserOptions": {
+  "parser": "babel-eslint"
+  }
+},
+...
+```
+
+To explicitly execute the ESLint and generate a report, execute the following CLI in your local development environment:
+
+```
+$ npm install
+
+$ npm run esint
+```
+
 #### Reference
 
 eslint-plugin-vue rules: [https://eslint.vuejs.org/rules/](https://eslint.vuejs.org/rules/)
 
-* * *
 
 golangci-lint
 -------------
@@ -120,6 +259,27 @@ golangci-lint is a linters aggregator. It's fast: on average 5 times faster than
 ### How EdgeGallery uses golangci-lint
 
 All golangci-lint issues are required to be fixed before PR is merged.
+
+### How to set up and run golangci-lint
+
+#### On your machine
+
+Install golangci-lint in your local development environment:
+
+```
+$ curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.30.0
+```
+
+Go to the source code directory and run golangci-lint:
+
+```
+$ cd <source_code_dir>
+$ golangci-lint run --out-format checkstyle > golangci.xml
+```
+
+#### GoLand IDE
+
+If you are using GoLand IDE, you can install and use the [Go Linter plugin](https://plugins.jetbrains.com/plugin/12496-go-linter) directly. 
 
 #### Reference
 
