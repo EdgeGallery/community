@@ -8,7 +8,7 @@
 - 彭育（华为）
 - 张阿利（中软）
 - 李媛媛（中软）
--
+- 许丹 （华为）
 
 ## Topics议题
 1. CICD介绍；  彭育
@@ -19,7 +19,8 @@
 2. 输出gitee使用指导；  owner：彭育 
 3. robotframework演示；   owner：彭育
 4. release 的各个mailstone 的输入输出；  owner：刘辉&侯敏熙
-5. **其他**
+5. 三方件管理方案介绍； owner：许丹
+6. **其他**
 
 ## meeting link
  https://welink-meeting.zoom.us/j/937675032
