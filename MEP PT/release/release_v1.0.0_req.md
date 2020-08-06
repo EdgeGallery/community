@@ -6,7 +6,14 @@ please input the requirements below:
 1. Provide DNS Configuration capabilities -- from Arch WG
    add dns rule mp1 APIs
 
-2. service heartbeat support -- from latest mec 011 draft
+2. Support service heartbeat for App -- refering to etsi mec 011 latest stable draft
+- serviceinfo add livenessInterval attributes
+- add ServiceLivenessInfo and ServiceLivenessUpdate object
+- add apis for app heartbeat in mep (etsi mec 011 chapter 8.2.10) 
+
+3. mepauth and mepagent provide ak/sk config interface for MECM to config ak/sk
+
+4. mep provide kubernetes manifest for one-key deploy
 
 
 
