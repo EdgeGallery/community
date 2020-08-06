@@ -1,7 +1,9 @@
 # release 1 requirements collection
 
-please input the requirements below:
+> please input the requirements below:
 
+
+## features
 
 1. Provide DNS Configuration capabilities -- from Arch WG
    add dns rule mp1 APIs
@@ -14,6 +16,10 @@ please input the requirements below:
 3. mepauth and mepagent provide ak/sk config interface for MECM to config ak/sk
 
 4. mep provide kubernetes manifest for one-key deploy
+
+## testing
+
+1. mep mp1 interfaces pass etsi robotframework test cases in ci
 
 
 
