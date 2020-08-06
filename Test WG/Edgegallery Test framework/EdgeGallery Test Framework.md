@@ -53,6 +53,6 @@ It provides all the cross-project infrastructure framework and DevOps toolchain 
 
 5、Other usefull link
 
-[How to build a CSIT in project](https://gitee.com/eg_dev/Wiki_Migrate/wikis/%20How%20to%20build%20a%20CSIT%20in%20project?sort_id=2428185)
+[How to build a CSIT in project](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Edgegallery%20Test%20framework/%20How%20to%20build%20a%20CSIT%20in%20project.md)
 
-[Tutorial: How to setup CSIT development environment and run CSIT on local windows](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Tutorial:%20How%20to%20setup%20CSIT%20development%20environment%20and%20run%20CSIT%20on%20local%20windows?sort_id=2428201)
+[Tutorial: How to setup CSIT development environment and run CSIT on local windows](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Edgegallery%20Test%20framework/Tutorial_%20How%20to%20setup%20CSIT%20development%20environment%20and%20run%20CSIT%20on%20local%20windows.md)
