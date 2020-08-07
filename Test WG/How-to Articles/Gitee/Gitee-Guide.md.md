@@ -1,6 +1,6 @@
 1. Developer/Tester:
 
-want to  **fork a repo**  ? follow this [document](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Fork-Guide?sort_id=2503026)
+want to  **fork a repo**  ? follow this [document](https://gitee.com/edgegallery/community/blob/master/Test%20WG/How-to%20Articles/Gitee/Fork-Guide.md)
 
 2. Developer/Tester:
 
