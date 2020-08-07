@@ -12,7 +12,7 @@ want to know how to  **raise a Pull Request**  ? follow this [document](https://
 
 4. Reviewer/Developer/Tester:
 
-want to know how to  **review a Pull Request**  ? follow this [document](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Review-PR-Guide?sort_id=2503035)
+want to know how to  **review a Pull Request**  ? follow this [document](https://gitee.com/edgegallery/community/blob/master/Test%20WG/How-to%20Articles/Gitee/Review-PR-Guide.md)
 
 5. CICD Engineer:
 
