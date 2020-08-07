@@ -13,16 +13,11 @@
 
 ## Topics议题
 
-1. CICD介绍；  彭育
-1. 安全工具集成介绍及落地； 程润东  chengruidong@huawei.com
-1. 三方件管理方案介绍； owner：许丹
-1. 问题反馈：
-- robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
-- 研究结对测试，pict测试工具；  owner：彭育
+1. 程润东介绍sonarqube安全工具集成介绍及落地；   
+1. 许丹介绍GO语言三方件管理方案介绍； 
 1. 输出gitee使用指导；  owner：彭育   done
  - refer to the [document](https://gitee.com/edgegallery/community/tree/master/Test%20WG/How-to%20Articles/Gitee)
-1. robotframework演示；   owner：彭育
-1. release 的各个mailstone 的输入输出；  owner：刘辉&侯敏熙
+1. 讨论了Test WG release 的各个mailstone 的输入输出，发布Test WG 各个milestone的活动和输入输出；  owner：刘辉&侯敏熙
 
 ## meeting link
  https://welink-meeting.zoom.us/j/937675032
@@ -32,4 +27,14 @@
 
 ## 遗留任务
 
-1. 
+
+1. 明天和release manager 确认需求澄清计划；  owner 刘辉& 侯敏熙&彭育
+1. 需要确认developer什么时候提供daily build；   owner 刘辉& 侯敏熙&彭育
+1. 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
+
+由于时间原因，以下议题下次会议讨论：
+1. Edgegallery CICD介绍； 
+1. robotframework演示；
+1. 问题反馈：
+- robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
+- 研究结对测试，pict测试工具；  owner：彭育
