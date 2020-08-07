@@ -8,7 +8,7 @@ Need some  **git clone, push, sync fork with upstream, commands**  ? refer this 
 
 3. Developer/Tester:
 
-want to know how to  **raise a Pull Request**  ? follow this [document](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Raise-PR-Guide?sort_id=2503032)
+want to know how to  **raise a Pull Request**  ? follow this [document](https://gitee.com/edgegallery/community/blob/master/Test%20WG/How-to%20Articles/Gitee/Raise-PR-Guide.md)
 
 4. Reviewer/Developer/Tester:
 
