@@ -1,1 +1,1 @@
-CICD Enginerr can refer [this document](https://gitee.com/eg_dev/Wiki_Migrate/wikis/Migration%20of%20Pull%20Request%20Verify%20Jenkins%20Jobs%20from%20Git%20to%20Gitee?sort_id=2470489) for integrating Gitee with Jenkins Jobs
+CICD Enginerr can refer [this document](https://gitee.com/edgegallery/community/tree/master/Test%20WG/How-to%20Articles/Jenkins) for integrating Gitee with Jenkins Jobs
