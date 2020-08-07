@@ -18,7 +18,7 @@
 -robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
 -研究结对测试，pict测试工具；  owner：彭育
 2. 输出gitee使用指导；  owner：彭育   done
- -refer to the [document](https://gitee.com/edgegallery/community/tree/master/Test%20WG/How-to%20Articles/Gitee)
+ - refer to the [document](http://)(https://gitee.com/edgegallery/community/tree/master/Test%20WG/How-to%20Articles/Gitee)
 3. robotframework演示；   owner：彭育
 4. release 的各个mailstone 的输入输出；  owner：刘辉&侯敏熙
 5. 三方件管理方案介绍； owner：许丹
