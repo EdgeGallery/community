@@ -4,7 +4,7 @@ want to  **fork a repo**  ? follow this [document](https://gitee.com/edgegallery
 
 2. Developer/Tester:
 
-Need some  **git clone, push, sync fork with upstream, commands**  ? refer this [document](https://gitee.com/eg_dev/Wiki_Migrate/wikis/pull%20push%20code?sort_id=2503049)
+Need some  **git clone, push, sync fork with upstream, commands**  ? refer this [document](https://gitee.com/edgegallery/community/blob/master/Test%20WG/How-to%20Articles/Gitee/pull%20push%20code.md)
 
 3. Developer/Tester:
 
