@@ -12,12 +12,12 @@
 - 孟璞辉(VMware)
 
 ## Topics议题
-
-1. 程润东介绍sonarqube安全工具集成介绍及落地；   
+1. 介绍Test WG release 的各个mailstone 的输入输出，发布Test WG 各个milestone的活动和输入输出；
+1. 程润东介绍代码质量检查工具sonarqube集成介绍及落地；   
 1. 许丹介绍GO语言三方件管理方案介绍； 
 1. 输出gitee使用指导；  owner：彭育   done
  - refer to the [document](https://gitee.com/edgegallery/community/tree/master/Test%20WG/How-to%20Articles/Gitee)
-1. 讨论了Test WG release 的各个mailstone 的输入输出，发布Test WG 各个milestone的活动和输入输出；  owner：刘辉&侯敏熙
+
 
 ## meeting link
  https://welink-meeting.zoom.us/j/937675032
