@@ -22,7 +22,7 @@
 
 
 ## EdgeGallery 社区项目组介绍：
-* MEP PT：项目介绍&参与方式请参考此链接： [MEP](https://gitee.com/edgegallery/community/blob/master/MEP_PT/Readme.md)
+* MEP PT：项目介绍&参与方式请参考此链接： [MEP](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Readme.md)
 * MECM PT： 项目介绍&参与方式请参考此链接： [MECM](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Readme.md)
 * APP & Dev PT：项目介绍&参与方式请参考此链接：[AppStore & Developer](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Readme.md)  
 
