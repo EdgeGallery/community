@@ -37,7 +37,15 @@ EdgeGallery 版本规划
   - APP Service支持通过非default CNI 对外暴露
 
 ### 业务流程
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/190744_46e41300_7786320.png "Selection_019.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/191706_22f56000_7786320.png "Selection_021.png")
 
+Solution for Service Isolation
+- Extend Service Definition with annotation to denote the network definition name (Network) on which this service would be supported.
+- Define a new NetworkAttachService Custom Controller which does below job:
+  - Create Client sets of k8s API service and support informers handling for Pod, Service, endpoint to handle their events when its resource is added/Modified or deleted.
+  - Based on informer messages, match the service annotation Network definition name with pods annotations name. 
+  - When there is a match, update the Service endpoints through the Kubernets ServiceAPI client. This would add this new interface/port to service endpoints so that all the packets to this service would be routed to this endpoint (Interface)
 
 ### 接口定义
 N/A
