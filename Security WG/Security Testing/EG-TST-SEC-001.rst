@@ -6,7 +6,7 @@ EdgeGallery Security Test Case 001
 | Privilege Escalation                                                        |
 |                                                                             |
 +--------------+--------------------------------------------------------------+
-|Test case ID  | EG-TC-SEC-001                                                |
+|Test case ID  | EG-TST-SEC-001                                                |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test purpose  | The purpose of test case SEC-001 is trying to escalate       |
