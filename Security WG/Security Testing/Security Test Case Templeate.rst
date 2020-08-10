@@ -17,7 +17,7 @@ EdgeGallery Security Test Case 001
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Describe the oveall methodology of this test case.           |
+|Test          | Describe the overall methodology of this test case.          |
 |description   |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
