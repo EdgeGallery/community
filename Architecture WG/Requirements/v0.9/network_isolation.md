@@ -37,8 +37,9 @@ EdgeGallery 版本规划
   - APP Service支持通过非default CNI 对外暴露
 
 ### 业务流程
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/190414_77179992_7786320.png "Selection_018.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/183710_fdd5549e_7786320.png "Selection_017.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/190744_46e41300_7786320.png "Selection_019.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/191048_4cbcb8f5_7786320.png "Selection_020.png")
+
 Solution for Service Isolation
 - Extend Service Definition with annotation to denote the network definition name (Network) on which this service would be supported.
 - Define a new NetworkAttachService Custom Controller which does below job:
