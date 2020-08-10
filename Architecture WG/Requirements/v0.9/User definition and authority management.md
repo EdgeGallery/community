@@ -19,7 +19,7 @@ EdgeGallery 版本规划
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/201752_5dfe416c_5659718.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/202202_d48f4cc0_5659718.png "屏幕截图.png")
 
-详细设计请参考：
+详细设计请参考：https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v0.9/User%20definition%20and%20authority%20management
 
 ### 接口定义
 N/A
