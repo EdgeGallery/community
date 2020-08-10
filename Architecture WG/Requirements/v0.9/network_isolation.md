@@ -37,7 +37,7 @@ EdgeGallery 版本规划
   - APP Service支持通过非default CNI 对外暴露
 
 ### 业务流程
-
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/155653_8e10b7b7_7786320.png "Selection_016.png")
 
 ### 接口定义
 N/A
