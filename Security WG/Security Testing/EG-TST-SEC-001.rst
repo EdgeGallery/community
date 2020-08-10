@@ -24,7 +24,7 @@ EdgeGallery Security Test Case 001
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | Open source privilege escalation scripts are executed on a   |
-|description   | target system to enumerates the system configuration and run |
+|description   | target system to enumerate the system configuration and run  |
 |              | privilege escalation checks against the following vectors.   |
 |              |                                                              |
 |              | Vectors of Privilege Escalation                              |
