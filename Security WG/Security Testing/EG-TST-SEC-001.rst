@@ -38,7 +38,7 @@ EdgeGallery Security Test Case 001
 |              | - Network Information (interfaces, arp, netstat)             |
 |              | - Running Processes                                          |
 |              | - Cronjobs                                                   |
-|              | - User’s Sudo Right                                          |
+|              | - User’s Sudo Right                                         |
 |              | - Wildcard Injection                                         |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
