@@ -1,4 +1,4 @@
-### EdgeGallery 开发需求
+### EdgeGallery web开发需求
 
 ### 需求来源
 
