@@ -14,7 +14,7 @@ EdgeGallery Security Test Case 002
 |              | vulnerabilities.                                             |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test tool     | OWASP zed attack proxy                                       |
+|Test tool     | OWASP Zed Attack Proxy                                       |
 |              |                                                              |
 |              | Zed Attack Proxy (ZAP) is a free, open-source penetration    |
 |              | testing tool being maintained under the umbrella of the Open |
