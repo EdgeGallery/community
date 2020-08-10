@@ -6,7 +6,7 @@ EdgeGallery Security Test Case 001
 |<Test case name>                                                             |
 |                                                                             |
 +--------------+--------------------------------------------------------------+
-|Test case ID  | EG-TST-SEC-001                                                |
+|Test case ID  | EG-TST-SEC-001                                               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test purpose  | Describe the test purpose of this test case.                 |
