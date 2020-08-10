@@ -27,7 +27,7 @@ EdgeGallery Security Test Case 001
 |description   | target system to enumerates the system configuration and run |
 |              | privilege escalation checks against the following vectors.   |
 |              |                                                              |
-|              | Vectors of Privilege Escalation                              |  
+|              | Vectors of Privilege Escalation                              |
 |              | - OS Detail & Kernel Version                                 |
 |              | - Any Vulnerable package installed or running                |
 |              | - Files and Folders with Full Control or Modify Access       |
@@ -38,7 +38,7 @@ EdgeGallery Security Test Case 001
 |              | - Network Information (interfaces, arp, netstat)             |
 |              | - Running Processes                                          |
 |              | - Cronjobs                                                   |
-|              | - User’s Sudo Right                                         |
+|              | - User’s Sudo Right                                          |
 |              | - Wildcard Injection                                         |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
