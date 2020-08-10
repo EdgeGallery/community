@@ -38,7 +38,7 @@ EdgeGallery 版本规划
 
 ### 业务流程
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/190744_46e41300_7786320.png "Selection_019.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/191048_4cbcb8f5_7786320.png "Selection_020.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/191706_22f56000_7786320.png "Selection_021.png")
 
 Solution for Service Isolation
 - Extend Service Definition with annotation to denote the network definition name (Network) on which this service would be supported.
