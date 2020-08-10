@@ -63,149 +63,94 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
 
 
 ```
-   "/applications/{appInstanceId}/dns_rules": {
-      "parameters": [
-        {
-          "$ref": "#/components/parameters/Path.AppInstanceId"
-        }
-      ],
-      "get": {
-        "description": "This method retrieves information about all the DNS rules associated with a MEC application instance.",
-        "operationId": "ApplicationsDnsRules_GET",
-        "tags": [
-          "appDnsRules"
-        ],
-        "responses": {
-          "200": {
-            "$ref": "#/components/responses/ApplicationsDnsRules.200"
-          },
-          "400": {
-            "$ref": "#/components/responses/Error.400"
-          },
-          "403": {
-            "$ref": "#/components/responses/Error.403"
-          },
-          "404": {
-            "$ref": "#/components/responses/Error.404"
-          }
-        }
+{
+  "/applications/{appInstanceId}/dns_rules": {
+    "parameters": [
+      {
+        "$ref": "#/components/parameters/Path.AppInstanceId"
       }
-    },
-    "/applications/{appInstanceId}/dns_rules/{dnsRuleId}": {
-      "parameters": [
-        {
-          "$ref": "#/components/parameters/Path.AppInstanceId"
-        },
-        {
-          "$ref": "#/components/parameters/Path.DnsRuleId"
-        }
+    ],
+    "get": {
+      "description": "This method retrieves information about all the DNS rules associated with a MEC application instance.",
+      "operationId": "ApplicationsDnsRules_GET",
+      "tags": [
+        "appDnsRules"
       ],
-      "get": {
-        "description": "This method retrieves information about a DNS rule associated with a MEC application instance.",
-        "operationId": "ApplicationsDnsRule_GET",
-        "tags": [
-          "appDnsRules"
-        ],
-        "responses": {
-          "200": {
-            "$ref": "#/components/responses/ApplicationsDnsRule.200"
-          },
-          "400": {
-            "$ref": "#/components/responses/Error.400"
-          },
-          "403": {
-            "$ref": "#/components/responses/Error.403"
-          },
-          "404": {
-            "$ref": "#/components/responses/Error.404"
-          }
-        }
-      },
-      "put": {
-        "description": "This method activates, de-activates or updates a traffic rule.",
-        "operationId": "ApplicationsDnsRule_PUT",
-        "tags": [
-          "appDnsRules"
-        ],
-        "responses": {
-          "200": {
-            "$ref": "#/components/responses/ApplicationsDnsRule.200"
-          },
-          "400": {
-            "$ref": "#/components/responses/Error.400"
-          },
-          "403": {
-            "$ref": "#/components/responses/Error.403"
-          },
-          "404": {
-            "$ref": "#/components/responses/Error.404"
-          },
-          "412": {
-            "$ref": "#/components/responses/Error.412"
-          }
+      "responses": {
+        "200": {
+          "$ref": "#/components/responses/ApplicationsDnsRules.200"
         },
-        "requestBody": {
-          "$ref": "#/components/requestBodies/ApplicationsDnsRule"
-        }
-      }
-    },
-    "/applications/{appInstanceId}/subscriptions": {
-      "parameters": [
-        {
-          "$ref": "#/components/parameters/Path.AppInstanceId"
-        }
-      ],
-      "get": {
-        "description": "The GET method may be used to request information about all subscriptions for this requestor. Upon success, the response contains entity body with all the subscriptions for the requestor.",
-        "operationId": "ApplicationsSubscriptions_GET",
-        "tags": [
-          "appSubscriptions"
-        ],
-        "responses": {
-          "200": {
-            "$ref": "#/components/responses/ApplicationsSubscriptions.200"
-          },
-          "400": {
-            "$ref": "#/components/responses/Error.400"
-          },
-          "403": {
-            "$ref": "#/components/responses/Error.403"
-          },
-          "404": {
-            "$ref": "#/components/responses/Error.404"
-          }
-        }
-      },
-      "post": {
-        "description": "The POST method may be used to create a new subscription. One example use case is to create a new subscription to the MEC service availability notifications. Upon success, the response contains entity body describing the created subscription.",
-        "operationId": "ApplicationsSubscriptions_POST",
-        "tags": [
-          "appSubscriptions"
-        ],
-        "responses": {
-          "201": {
-            "$ref": "#/components/responses/ApplicationsSubscriptions.201"
-          },
-          "400": {
-            "$ref": "#/components/responses/Error.400"
-          },
-          "403": {
-            "$ref": "#/components/responses/Error.403"
-          },
-          "404": {
-            "$ref": "#/components/responses/Error.404"
-          }
+        "400": {
+          "$ref": "#/components/responses/Error.400"
         },
-        "requestBody": {
-          "$ref": "#/components/requestBodies/ApplicationsSubscriptions"
+        "403": {
+          "$ref": "#/components/responses/Error.403"
         },
-        "callbacks": {
-          "appTerminationNotification": {
-            "$ref": "#/components/callbacks/AppTerminationNotification"
-          }
+        "404": {
+          "$ref": "#/components/responses/Error.404"
         }
       }
     }
+  },
+  "/applications/{appInstanceId}/dns_rules/{dnsRuleId}": {
+    "parameters": [
+      {
+        "$ref": "#/components/parameters/Path.AppInstanceId"
+      },
+      {
+        "$ref": "#/components/parameters/Path.DnsRuleId"
+      }
+    ],
+    "get": {
+      "description": "This method retrieves information about a DNS rule associated with a MEC application instance.",
+      "operationId": "ApplicationsDnsRule_GET",
+      "tags": [
+        "appDnsRules"
+      ],
+      "responses": {
+        "200": {
+          "$ref": "#/components/responses/ApplicationsDnsRule.200"
+        },
+        "400": {
+          "$ref": "#/components/responses/Error.400"
+        },
+        "403": {
+          "$ref": "#/components/responses/Error.403"
+        },
+        "404": {
+          "$ref": "#/components/responses/Error.404"
+        }
+      }
+    },
+    "put": {
+      "description": "This method activates, de-activates or updates a traffic rule.",
+      "operationId": "ApplicationsDnsRule_PUT",
+      "tags": [
+        "appDnsRules"
+      ],
+      "responses": {
+        "200": {
+          "$ref": "#/components/responses/ApplicationsDnsRule.200"
+        },
+        "400": {
+          "$ref": "#/components/responses/Error.400"
+        },
+        "403": {
+          "$ref": "#/components/responses/Error.403"
+        },
+        "404": {
+          "$ref": "#/components/responses/Error.404"
+        },
+        "412": {
+          "$ref": "#/components/responses/Error.412"
+        }
+      },
+      "requestBody": {
+        "$ref": "#/components/requestBodies/ApplicationsDnsRule"
+      }
+    }
+  }
+}
 
 ```
 
