@@ -28,6 +28,7 @@ EdgeGallery Security Test Case 001
 |              | privilege escalation checks against the following vectors.   |
 |              |                                                              |
 |              | Vectors of Privilege Escalation                              |
+|              |                                                              |
 |              | - OS Detail & Kernel Version                                 |
 |              | - Any Vulnerable package installed or running                |
 |              | - Files and Folders with Full Control or Modify Access       |
