@@ -1,5 +1,5 @@
 **********************************
-EdgeGallery Security Test Case 001
+EdgeGallery Security Test Case 002
 **********************************
 
 +-----------------------------------------------------------------------------+
@@ -9,16 +9,23 @@ EdgeGallery Security Test Case 001
 |Test case ID  | EG-TST-SEC-002                                               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test purpose  | The purpose of test case SEC-002 is to scan and attack a web |
-|              | application.                                                 |
+|Test purpose  | The purpose of test case SEC-002 is to perform penetration   |
+|              | testing on a web  application and find security              |
+|              | vulnerabilities.                                             |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test tool     | OWASP zed attack proxy                                       |
 |              |                                                              |
+|              | Zed Attack Proxy (ZAP) is a free, open-source penetration    |
+|              | testing tool being maintained under the umbrella of the Open |
+|              | Web Application Security Project (OWASP).                    |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Describe the oveall methodology of this test case.           |
-|description   |                                                              |
+|Test          | ZAP stands between the tester’s browser and the web          |
+|description   | application so that it can intercept and inspect messages    |
+|              | sent between browser and web application, modify the         |
+|              | contents if needed, and then forward those packets on to the |
+|              | destination.                                                 |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Configuration | Test tool and environment setup description                  |
