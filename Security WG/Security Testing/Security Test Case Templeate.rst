@@ -51,8 +51,8 @@ EdgeGallery Security Test Case 001
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Define the result of a test case execution.                  |
-|              | It has 5 possible values: none, pass, inconc, fail, error.   |
+|Test verdict  | Define the expected result when this test case FAIL and      |
+|              | PASS.                                                        |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |References    | Useful external reference URLs.                              |
