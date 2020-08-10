@@ -9,11 +9,15 @@ EdgeGallery Security Test Case 003
 |Test case ID  | EG-TST-SEC-003                                               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test purpose  |                                                              |
+|Test purpose  | The purpose of test case SEC-003 is to perform fuzz testing  |
+|              | on network services/ports.                                   |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test tool     |                                                              |
+|Test tool     | UniOFuzz                                                     |
 |              |                                                              |
+|              | UniOFuzz is an  open source universal fuzzing tool for       |
+|              | browsers, web services, files, programs and network          |
+|              | services/ports.                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          |                                                              |
