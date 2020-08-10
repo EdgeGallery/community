@@ -123,7 +123,7 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
       }
     },
     "put": {
-      "description": "This method activates, de-activates or updates a traffic rule.",
+      "description": "This method activates, de-activates a dns rule.",
       "operationId": "ApplicationsDnsRule_PUT",
       "tags": [
         "appDnsRules"
