@@ -51,8 +51,8 @@ EdgeGallery Security Test Case 001
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Define the expected result when this test case FAIL and      |
-|              | PASS.                                                        |
+|Test verdict  | Define the expected result when this test case FAIL and PASS |
+|              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |References    | Useful external reference URLs.                              |
