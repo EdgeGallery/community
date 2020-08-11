@@ -54,13 +54,15 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
    **step by step**  
     **1. config linux** 
 
-      `sysctl -w vm.max_map_count=262144`
-      `ulimit -n 65536`
-      `ulimit -u 5096`
+      sysctl -w vm.max_map_count=262144
+      ulimit -n 65536
+      ulimit -u 5096
 
-      `apt-get update`
+      apt-get update
 
-    **2.install postgreSQL and create database**
+    
+
+**2.install postgreSQL and create database**
         
         reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
 
@@ -68,6 +70,5 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
         sudo apt update 
         sudo apt -y install vim bash-completion wget
         sudo apt -y upgrade
-
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
