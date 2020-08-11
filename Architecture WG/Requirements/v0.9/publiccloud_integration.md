@@ -26,7 +26,7 @@ EdgeGallery 版本规划
     - EdgeGallery可调用公有云部署公有云应用
         - EdgeGallery管理面通过调用公有云部署应用倒边缘
         - EdgeGallery 管理面通过调用公有云运维监控模块（如果有，或者API）同步相关应用状态
-    - 公有云开放能力（包含边缘开放能力）可以通过EdgeGallery MEP暴露给边缘应用
+    - 公有云开放能力（包含边缘开放能力）可以通过EdgeGallery MEP暴露给边缘应用 
         - 即API/SDK相关能力均可通过API GW开放，为所有EdgeGallery边缘节点上的应用提供一致体验
     - EdgeGallery APPStore可以与公有云APPStore互通
 ### 业务流程
@@ -35,13 +35,17 @@ EdgeGallery 版本规划
 
 
 #### 待解决问题
-
+- KubEEdge部署
+    - 手动部署KubeEdge
+    - 自动化部署KubeEdge （stretch goal）
+- KubeEdge EdgeCore修改了Kublet，需要考虑是否可以再边缘复用此Kublet或者两个Kubelet同时存在
 
 ### 接口定义
 N/A
 
 ### 工作量评估
-TBA
+部署应用：1.2K
+API 能力集成开放：待评估
 
 ### 参考 Reference
-![KubeEdge_arc](https://images.gitee.com/uploads/images/2020/0811/153420_245e65e2_7624977.png "KubeEdge_arc")
+![KubeEdge_arc](https://images.gitee.com/uploads/images/2020/0811/153420_245e65e2_7624977.png  "KubeEdge_arc")
