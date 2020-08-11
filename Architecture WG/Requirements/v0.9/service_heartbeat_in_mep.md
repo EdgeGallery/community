@@ -6,21 +6,26 @@
 - Support service heartbeat in MEP for app service to keep liveness
 
 ### Usecase
-![Flow of MEC service deregistration](https://images.gitee.com/uploads/images/2020/0810/110313_dd5b9558_7624977.png "Configuration of DNS rules.png")
-![Service liveness update using PATCH](https://images.gitee.com/uploads/images/2020/0810/110346_359bafc3_7624977.png "activation.png")
+
+- MEC service deregistration
+
+![Flow of MEC service deregistration](https://images.gitee.com/uploads/images/2020/0811/170749_a5cc1989_7624956.png "mec_service_deregistration.png")
 
 
-#### 如图所示，典型Usecase
-- DNS Configuration
-    - The DNS rules can be configured by the NM over Mm2.
-    - The AppD along with DNS configurations can be querried from MEO over Mm3.
-- DNS 
-    - The DNS rules serving a particular application instance can be activated by the NM over Mm2.
-    - The DNS rules can be activated from MEC APP over Mp1.
-- DNS
-    - The DNS rules serving a particular application instance can be deactivated by the NM over Mm2.
-    - The DNS rules can be deactivated from MEC APP over Mp1.
+    - Each MEC service instance that has previously registered in MEC platform and is configured for heartbeat shall send heartbeat message to the MEC platform periodically in order to show that the MEC service instance is still operational.
+    - The time interval at which the MEC platform shall be contacted is deployment-specific, and is indicated by the MEC platform to the MEC service instance in a successful service registration.
+    - When the MEC platform has not received the heartbeat for a configurable amount of time, the MEC platform considers that the service instance can no longer be discovered. The MEC platform notifies the MEC service consumers subscribed to receive notifications of status change of the MEC service instance.
+    - MEC service heartbeat, as illustrated in above, consists of the following steps:
+        1)	MEC service instance sends a heartbeat message to the MEC platform periodically.
+        2)	The MEC platform returns a service heatbeat acknowledgement.
 
+
+- Service liveness update using PATCH
+
+1.	The MEC application instance that provides MEC service shall send a PATCH request to the resource URI representing the liveness of the service instance.
+2.	The MEC platform shall update the liveness resource as follows: It shall record the time when the message was received in the "timeStamp" attribute. Also, if the "state" attribute in the resource contains the value "SUSPENDED" and the "state" attribute in the payload body contains the value "ACTIVE", it shall set the value of the "state" attribute in the resource to that value. 
+3.	If there is no payload body to return upon successful execution, the MEC platform shall return "204 No Content". 
+4.	Alternatively, if the MEC platform intends to instruct the application to use a new liveness "interval" value for the service instance, it shall return "200 OK" along with the full ServiceLivenessInfo.
 
 ### 涉及模块 && EPIC && Story
 
@@ -31,8 +36,7 @@
 
 
 ### 业务流程
-![Service liveness update Flow](https://images.gitee.com/uploads/images/2020/0810/111242_57abb6a4_7624977.png "Configuration.png")
-
+![Service liveness update using PATCH](https://images.gitee.com/uploads/images/2020/0811/170835_62ba43c1_7624956.png "service_liveness_update.png")
 
 ### 接口定义
 #### 1. Mp1 (MECAPP -> MEP)
@@ -41,8 +45,6 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
 |---|---|---|
 | GET  | /applications/{appInstanceId}/service/{serviceId}/liveness| - |
 | PATCH  | /applications/{appInstanceId}/service/{serviceId}/liveness | {<br> "ServiceLivenessUpdate": {"state": "ACTIVE"<br>}<br>} |
-
-
 
 ```
       "responses": {
@@ -62,4 +64,4 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
 ```
 
 ### 工作量评估 Estimate effort
-1.5K Loc
+2K Loc
