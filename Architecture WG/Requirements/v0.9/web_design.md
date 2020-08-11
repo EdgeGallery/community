@@ -33,10 +33,11 @@
 - 模块状展示节点以及applcm、appstore列表  
 ![applcm设计](https://images.gitee.com/uploads/images/2020/0811/163837_0473576f_7625361.png "屏幕截图.png")
 - 优化app管理界面的列表展示，增加图标状态显示  
-支持批量分发、部署以及统一管理
+ ![增加图表以及部分图标](https://images.gitee.com/uploads/images/2020/0811/170616_4035b7b4_7625361.png "屏幕截图.png")
+- App管理支持批量分发、部署以及统一管理
 ### 业务流程
 
 ### 接口定义
 
 ### 工作量评估
-工作量：3k
+工作量：5k
