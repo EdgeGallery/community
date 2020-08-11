@@ -117,7 +117,35 @@ Execute the following script to start the server:
 
 On Linux/Mac OS: bin//sonar.sh start
 On Windows: bin/windows-x86-64/StartSonar.bat
-You can now browse SonarQube at http://localhost:9000(http://159.x.x.x:9000) (the default System administrator credentials are admin/admin).
+You can now browse SonarQube at http://localhost:9000 (http://159.x.x.x:9000) (the default System administrator credentials are admin/admin).
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/163231_90282e6c_7785218.png "屏幕截图.png")
+
+ **5.config Scanner** 
+
+   **SonarScanner for Jenkins** 
+   **1. Install the SonarScanner for Jenkins via the Jenkins Update Center.** 
+
+    ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164236_807c3260_7785218.png "屏幕截图.png")
+  
+   **2.config sonarqube in jenkins** 
+   
+    First, generate a token in SonarQube (PS: replace the username and password with the token)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164649_0f48b5f8_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164803_8fc52b0c_7785218.png "屏幕截图.png")
+
+
+Then, configure the address to connect to the sonarqube server in Jenkins, the token used here is the token created in sonarqube just now
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164953_39c33714_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/165101_88535eb4_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/165238_4a687d2f_7785218.png "屏幕截图.png")
+    
+Finally, configure the global tool configuration
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/170115_58db14f2_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/170242_0ebeafb8_7785218.png "屏幕截图.png")
+
+  ** 3. config job task** 
 
 
 Guide:
