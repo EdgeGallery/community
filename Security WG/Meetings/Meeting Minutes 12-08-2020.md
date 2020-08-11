@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 12-08-2020  | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/          |
+| 12-08-2020  | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/924233092 |
 
 ## Meeting Attendees
 ** **
@@ -17,6 +17,7 @@
 | ---- | ---- |
 | 安全测试方案讨论 | ALL |
 | 证书，秘钥，明文数据库密码等社区策略评审 | 陈传雨 |
+| 安全工作组Chair选举 | ALL |
 
 
 
