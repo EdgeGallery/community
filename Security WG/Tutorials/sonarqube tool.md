@@ -23,15 +23,18 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
 
 2.Developers push their code into their favourite SCM : git, SVN, TFVC, ...
 
-3.The Continuous Integration Server triggers an automatic build, and the execution of the SonarScanner required to run the SonarQube analysis.
+3.The Continuous Integration Server triggers an automatic build, and the execution of the SonarScanner required to run the 
+  SonarQube analysis.
 
 4.The analysis report is sent to the SonarQube Server for processing.
 
-5.SonarQube Server processes and stores the analysis report results in the SonarQube Database, and displays the results in the UI.
+5.SonarQube Server processes and stores the analysis report results in the SonarQube Database, and displays the results in the 
+  UI.
 
 6.Developers review, comment, challenge their Issues to manage and reduce their Technical Debt through the SonarQube UI.
 
-7.Managers receive Reports from the analysis. Ops use APIs to automate configuration and extract data from SonarQube. Ops use JMX to monitor SonarQube Server.
+7.Managers receive Reports from the analysis. Ops use APIs to automate configuration and extract data from SonarQube. Ops use             
+  JMX to monitor SonarQube Server.
 
 1. sonarLint
 2. soanrqube
