@@ -19,13 +19,14 @@ EdgeGallery 版本规划
 第三方应用使用k8s的ServiceName + Port的方式访问生态应用，并通过NameSpace进行网络隔离：
 - 1) 当应用单独部署时Service使用NodePort类型，可不创建NameSpace，使用Default NameSpace；
 - 2) 当应用作为生态应用部署时使用ClusterIP类型，并且生态应用与应用部署在单独的NameSpace中。
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/185320_dbf4db86_7625245.jpeg "1597143058(1).jpg")
 
 #### 【DEV】场景
 第三方应用使用k8s的ServiceName + Port的方式访问生态应用：
 - 1) 当应用选择成为生态应用时，DEV直接将其部署在模拟器环境中，Service类型可以选择NodePort：
 NodePort可以保证应用在开发阶段就可以通过 IP + Port 的形式，直接调用生态应用的api进行测试；提示开发者通过DEV进行部署验证时，要将代码中的 IP + Port 改为 ServiceName + Port。
 - 2) 当应用需要部署测试时，DEV直接将其部署在模拟器环境中，无需重复部署依赖应用（生态应用）。
-
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/185415_fe9fb8fb_7625245.jpeg "1597143238(1).jpg")
 
 ### 工作量评估
 5.8k
