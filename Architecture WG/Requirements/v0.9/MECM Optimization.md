@@ -23,8 +23,15 @@ EdgeGallery 版本规划
     - 1KLOC，goal
     - “应用管理”菜单下“应用包列表”和“应用包分发”合并为“应用包管理”
     - “应用包管理”页面优化
+        - 示意图：
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/150203_97fab3a6_7625241.png "屏幕截图.png")
     - 应用包部署
+        - 示意图：
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/150238_3f239d60_7625241.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/150251_dd7a46b1_7625241.png "屏幕截图.png")
     - 应用包详情页面优化
+        - 示意图：
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/150540_ba7ba3c4_7625241.png "屏幕截图.png")
 - 【MECM】应用包管理优化--查看应用包部署拓扑
     - 1KLOC，stretch goal
     - 补充通过应用查看部署拓扑的能力，展示方式优化
@@ -33,6 +40,8 @@ EdgeGallery 版本规划
     - “系统”菜单中删除“边缘节点注册系统”菜单项
     - “边缘节点”菜单下“边缘节点管理”
     - 新增边缘节点优化
+        - 示意图：
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/150628_f11a2ba9_7625241.png "屏幕截图.png")
     - 查看边缘节点上的应用实例
 
 ### 
