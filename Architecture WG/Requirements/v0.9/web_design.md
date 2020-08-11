@@ -13,6 +13,7 @@
 ![步骤弹框](https://images.gitee.com/uploads/images/2020/0811/164422_c6b3af25_7625361.png "屏幕截图.png")
 - 优化API使用指导，增加引导性文字内容  
 ![api增加使用说明](https://images.gitee.com/uploads/images/2020/0811/164517_2a349de7_7625361.png "屏幕截图.png")
+![参考示例](https://images.gitee.com/uploads/images/2020/0811/171118_326c3342_7625361.png "屏幕截图.png")
 
 2.应用商店需求
 
