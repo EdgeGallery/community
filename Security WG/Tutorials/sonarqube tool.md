@@ -52,8 +52,9 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
    get address: https://www.sonarqube.org/downloads/
 
    **step by step** 
+  **1. config linux** 
  
-    **1. config linux** 
+    
 
       sysctl -w vm.max_map_count=262144
       ulimit -n 65536
@@ -81,14 +82,25 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
   Step 4: Test PostgreSQL Connection
 
 **3.Setting the Access to the Database** 
-
-    Edit $SONARQUBE-HOME/conf/sonar.properties to configure the database settings. Templates are available for every supported 
+ Edit $SONARQUBE-HOME/conf/sonar.properties to configure the database settings. Templates are available for every supported 
     database. Just uncomment and configure the template you need
+
+    
 
     `Example for PostgreSQL
      sonar.jdbc.username=sonarqube
      sonar.jdbc.password=mypassword
      sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube`
+
+ **4.Configuring the Elasticsearch storage path** 
+
+By default, Elasticsearch data is stored in $SONARQUBE-HOME/data, but this is not recommended for production instances. Instead, you should store this data elsewhere, ideally in a dedicated volume with fast I/O. Beyond maintaining acceptable performance, doing so will also ease the upgrade of SonarQube.
+
+Edit $SONARQUBE-HOME/conf/sonar.properties to configure the following settings:
+
+     `sonar.path.data=/var/sonarqube/data
+
+      sonar.path.temp=/var/sonarqube/temp`
 
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
