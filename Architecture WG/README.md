@@ -21,7 +21,7 @@
 | 刘小飞 | 上海讯琥 |  xiaofei.liu@xeniro.io  | -   | -  |
 | Satish Karunanithi | Huawei |  satishk@huawei.com  | -   | -  |
 | Libu Jacob Varghese | Huawei | libu.jacob@huawei.com  | -   | -  |
-| 范桂飓 | 九州云 | fan.guiju@99cloud.net  | -   | -  |
+| 范桂飓 | 九州云 | fan.guiju@99cloud.net  | -  | Y  |
 | 刘辉 | 紫金山实验室 | liuhui@pmlabs.com.cn  | -   | -  |
 | 章清洁 | 华为 | zhangqingjie@huawei.com | - | - |
 
