@@ -8,10 +8,11 @@ EdgeGallery 版本规划
 
 ### 测试流程
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164327_a441f6e0_7625288.png "屏幕截图.png")
-
-详细设计
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/165340_9e65430e_7625288.png "屏幕截图.png")
+
+### 详细设计
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164327_a441f6e0_7625288.png "屏幕截图.png")
 
 ### 接口定义
 N/A
