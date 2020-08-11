@@ -51,7 +51,8 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
 
    get address: https://www.sonarqube.org/downloads/
 
-   **step by step**  
+   **step by step** 
+ 
     **1. config linux** 
 
       sysctl -w vm.max_map_count=262144
@@ -63,12 +64,31 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
     
 
 **2.install postgreSQL and create database**
+
+  reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
+    Step 1: Update system
         
-        reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
-
-
+        
         sudo apt update 
         sudo apt -y install vim bash-completion wget
         sudo apt -y upgrade
+        sudo reboot
+
+  Step 2: Add PostgreSQL 12 repository
+
+  Step 3: Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04 LTS
+
+  Step 4: Test PostgreSQL Connection
+
+**3.Setting the Access to the Database** 
+
+    Edit $SONARQUBE-HOME/conf/sonar.properties to configure the database settings. Templates are available for every supported 
+    database. Just uncomment and configure the template you need
+
+    `Example for PostgreSQL
+     sonar.jdbc.username=sonarqube
+     sonar.jdbc.password=mypassword
+     sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube`
+
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
