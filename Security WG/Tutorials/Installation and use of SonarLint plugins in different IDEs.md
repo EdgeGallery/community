@@ -63,6 +63,7 @@ Vs code中的sonarlint依赖于jdk,所以安装此插件之前，先在本地安
 如果有不符合Sonarlint插件的要求，会在Vs code底部的PROBLEMS中报错，双击报错，会跳转至具体的错误处
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/175045_c63565b5_5504908.png "v-u-1.png") 
 点击具体错误处的小黄灯，选择Open description of SonarLint rule ‘xxxx’，关于此错误的具体描述，解决办法等
+
 选择Deactivate rule ‘xxxx’，会排除此规则（意思就是你认为这个报错或者建议可以忽略）
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/175103_69c64e82_5504908.png "v-u-2.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/175113_b9b2d1a2_5504908.png "v-u-3.png")
