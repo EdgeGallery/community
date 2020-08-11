@@ -40,18 +40,26 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
  ** SoanrQube install and use ** 
   **Prerequisite:** 
    1.ubuntu 16.04
+
    2.huaweiJDK 11.0.8
+
    3.postgresql 12.3
+
    4.Sonarqube community8.4 
+
    5.sonar-scanner 
+
    get address: https://www.sonarqube.org/downloads/
 
    **step by step**  
     **1. config linux** 
-      `sysctl -w vm.max_map_count=262144
-       ulimit -n 65536
-       ulimit -u 5096
-       apt-get update`
+      `sysctl -w vm.max_map_count=262144`
+
+      `ulimit -n 65536`
+
+      `ulimit -u 5096`
+
+      `apt-get update`
 
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
