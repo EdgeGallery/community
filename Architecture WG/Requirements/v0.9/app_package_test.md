@@ -4,13 +4,17 @@
 EdgeGallery 版本规划
 
 ### 需求描述
-- app package 包的测试流程，单独开发一个专门负责package包测试的模块
+- app package 包的测试流程，单独开发一个专门负责package包测试的模块，appstore和deveolper可以共用该模块。
 
 ### 测试流程
 
-病毒扫描    遵从性测试   沙箱测试   审核
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164327_a441f6e0_7625288.png "屏幕截图.png")
 
 详细设计
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164012_f8aba4dd_7625288.png "屏幕截图.png")
+
+前端低保真设计
+
 
 ### 接口定义
 N/A
