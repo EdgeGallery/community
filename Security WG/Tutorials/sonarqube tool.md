@@ -64,10 +64,9 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
         reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
 
 
-        `sudo apt update` 
-        `sudo apt -y install vim bash-completion wget`
-        `sudo apt -y install vim bash-completion wget
-         sudo apt -y upgrade`
+        sudo apt update 
+        sudo apt -y install vim bash-completion wget
+        sudo apt -y upgrade
 
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
