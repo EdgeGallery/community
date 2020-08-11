@@ -149,6 +149,49 @@ Finally, configure the global tool configuration
 
   **3. config job task** 
 
+click “Add build step” and select "Execute sonarqube scanner"
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/171633_ab83c068_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/172010_9dda6489_7785218.png "屏幕截图.png")
+
+example:
+for java
+
+    `sonar.projectKey= user-mgmt-be
+     sonar.projectName= user-mgmt-be
+     sonar.projectVersion=1.0
+
+     sonar.language=java
+     sonar.sourceEncoding=UTF-8
+
+     sonar.sources=$WORKSPACE/user-mgmt/src
+     sonar.java.binaries=$WORKSPACE/user-mgmt/target/classes`
+
+for javascript
+
+     `sonar.projectKey= user-mgmt-fe
+      sonar.projectName= user-mgmt-fe
+      sonar.projectVersion=1.0
+
+      sonar.language=JavaScipt
+      sonar.sourceEncoding=UTF-8
+
+      sonar.sources=$WORKSPACE`
+
+for go
+
+      `sonar.projectKey= mep-agent
+       sonar.projectName= mep-agent
+       sonar.projectVersion=1.0
+
+       sonar.language=go
+
+       sonar.sources=$WORKSPACE`
+
+ **4. build job and check result by click sonarqube tag** 
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/172943_91f9c868_7785218.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/173249_ae303c7c_7785218.png "屏幕截图.png")
 
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
