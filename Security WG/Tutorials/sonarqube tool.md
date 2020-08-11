@@ -59,6 +59,7 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
       `ulimit -u 5096`
 
       `apt-get update`
+
     **2.install postgreSQL and create database**
         
         reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
