@@ -14,6 +14,9 @@ EdgeGallery 版本规划
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164327_a441f6e0_7625288.png "屏幕截图.png")
 
+### 界面设计
+[图片上传中…(image-SLsbFYKXZro4MCPVvleI)]
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/192508_82969013_7625288.png "屏幕截图.png")
 ### 接口定义
 N/A
 
