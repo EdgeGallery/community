@@ -122,7 +122,9 @@ You can now browse SonarQube at http://localhost:9000 (http://159.x.x.x:9000) (t
 
  **5.config Scanner** 
 
+
    **SonarScanner for Jenkins** 
+
    **1. Install the SonarScanner for Jenkins via the Jenkins Update Center.** 
 
     ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/164236_807c3260_7785218.png "屏幕截图.png")
@@ -145,7 +147,7 @@ Finally, configure the global tool configuration
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/170115_58db14f2_7785218.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/170242_0ebeafb8_7785218.png "屏幕截图.png")
 
-  ** 3. config job task** 
+  **3. config job task** 
 
 
 Guide:
