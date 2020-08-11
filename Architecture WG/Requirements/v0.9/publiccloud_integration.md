@@ -49,3 +49,10 @@ API 能力集成开放：待评估
 
 ### 参考 Reference
 ![KubeEdge_arc](https://images.gitee.com/uploads/images/2020/0811/153420_245e65e2_7624977.png  "KubeEdge_arc")
+
+
+
+### Review
+明确引入应用的场景
+- MEC应用
+- near Edge场景（不是4G/5G 接入点，而是以WIFI或者其他网络接入，如何支持）
