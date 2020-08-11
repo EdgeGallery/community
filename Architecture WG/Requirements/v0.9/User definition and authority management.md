@@ -35,3 +35,8 @@ N/A
     - 涉及OSS/BSS 对于资源offer的设计
 - APPStore
     - APPD 需要考虑跨运营商的适配
+- APP厂商与运营商的交互
+    - Day0/Day1/Day2的配置脚本
+    - APP的调优
+    - LCM的过程补充
+    - Flavor/Capacity的补充和映射
