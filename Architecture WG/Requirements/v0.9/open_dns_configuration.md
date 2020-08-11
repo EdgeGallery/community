@@ -174,7 +174,7 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
 
 
 ### 工作量评估 Estimate effort
-1 person*month
+1K Loc
 
 ### 技术选型 Selection
 - Introduce new DNS Server (miekg/dns)
