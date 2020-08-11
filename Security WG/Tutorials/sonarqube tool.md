@@ -102,5 +102,23 @@ Edit $SONARQUBE-HOME/conf/sonar.properties to configure the following settings:
 
       sonar.path.temp=/var/sonarqube/temp`
 
+The user used to launch SonarQube must have read and write access to those directories.
+
+5.Starting the Web Server
+
+The default port is "9000" and the context path is "/". These values can be changed in $SONARQUBE-HOME/conf/sonar.properties:
+
+
+     `sonar.web.host=192.0.0.1
+      sonar.web.port=80
+      sonar.web.context=/sonarqube`
+
+Execute the following script to start the server:
+
+On Linux/Mac OS: bin//sonar.sh start
+On Windows: bin/windows-x86-64/StartSonar.bat
+You can now browse SonarQube at http://localhost:9000(http://159.x.x.x:9000) (the default System administrator credentials are admin/admin).
+
+
 Guide:
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
