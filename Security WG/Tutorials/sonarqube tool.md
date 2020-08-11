@@ -194,4 +194,6 @@ for go
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/173249_ae303c7c_7785218.png "屏幕截图.png")
 
 Guide:
+  reference link :[https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/)
+
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
