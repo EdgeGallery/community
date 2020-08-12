@@ -11,13 +11,13 @@ Zoom Meeting ID
 TSC members who attended:
 
 - 徐雷（联通 毋涛代表）
-- 刘芷若（信通院） 
-- 丁韩宇（中移动）
-- 龚永生（九州云 范桂飓代表）    
-- 刘辉（紫金山）
-- 袁国平（安恒）
-- 陈炜（腾讯）
-- 于洋（华为） 
+-  **刘芷若（信通院）**  
+-  **丁韩宇（中移动）** 
+-  **龚永生（九州云 范桂飓代表）**     
+-  **刘辉（紫金山）** 
+-  **袁国平（安恒** ）
+-  **陈炜（腾讯 Garin Chen代表）** 
+-  **于洋（华为） ** 
 
 ## Agenda Items
 
@@ -33,7 +33,7 @@ release需求评审 | 章清洁
 
 ## Discussion Items
 
--Item
+-通过需求评审
 
 
 
@@ -48,6 +48,7 @@ TSC Voting to Approve ABC
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
 | | item | who | due_date |
+|N| 里程碑分解 | 章清洁，于洋| 14-08 |
 
 ## Other Notes & Information
 N/A
