@@ -6,8 +6,13 @@
 
 ## Meeting Attendees
 ** **
-- 
-- 
+- 吕京 （华为）
+- Gaurav （华为）
+- 程润东 （华为）
+- Satish （华为）
+- Swarup （华为）
+- Khemendra (华为）
+
 
 
 
