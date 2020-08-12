@@ -49,4 +49,4 @@ SEC Voting to Approve XYZ:
 |       | item | who         | due_date |
 
 ## Other Notes & Information
-N/A
+讨论同意社区证书，秘钥，明文数据库密码等使用策略：部署过程中用到的密码或证书以明文方式配置在K8S部署manifest中，和其他开源社区保持一致。对于系统中用到的密码等通过加密形式保存。
