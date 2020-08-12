@@ -21,6 +21,7 @@
 - 研究结对测试，pict测试工具；  owner：彭育
 - 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
 4. 需求澄清跟踪工作分配（和release manager 确认需求澄清计划）；  owner 刘辉& 侯敏熙&彭育
+- 讨论社区安全测试如何与测试组其他测试协作进行（包括用例设计/实现/执行，分工情况） 
 5. 需要确认developer什么时候提供daily build；   owner 刘辉& 侯敏熙&彭育
 
 ## meeting link
