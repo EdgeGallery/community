@@ -12,7 +12,8 @@
 - Satish （华为）
 - Swarup （华为）
 - Khemendra (华为）
-
+- 彭育 （华为）
+- 刘慧玲 （华为）
 
 
 
@@ -28,7 +29,9 @@
 
 ## Discussion Items and Minutes
 ** **
-- 
+- 吕京介绍了安全工具准备情况
+- 吕京介绍了安全测试方案，安全测试目前包含三个部分：安全渗透测试，安全设计规范检查项测试，Fuzz测试。
+- Khemendra提出社区明文密码策略：密码或证书以明文方式在K8S部署manifest中，和其他开源社区保持一致。
 
 
 ## Voting Items
