@@ -10,9 +10,11 @@
 - 李媛媛（中软）
 - 许丹 （华为）
 - 孟璞辉(VMware)
+- Prakash(prakash.e@huawei.com)
+- Kanagaraj(kanagaraj.manickam@huawei.com)
 
 ## Topics议题
-1. Edgegallery CICD介绍； 
+1. Edgegallery CICD介绍/jenkins JJB introduction；  owner 彭育&prakash.e@huawei.com
 2. robotframework演示；
 3. 问题反馈：
 - robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
