@@ -17,7 +17,7 @@ TSC members who attended:
 -  **刘辉（紫金山）** 
 -  **袁国平（安恒** ）
 -  **陈炜（腾讯 Garin Chen代表）** 
--  **于洋（华为） ** 
+-  **于洋（华为）** 
 
 ## Agenda Items
 
