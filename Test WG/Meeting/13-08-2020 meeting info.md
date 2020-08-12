@@ -22,7 +22,6 @@
 - 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
 4. 需求澄清跟踪工作分配（和release manager 确认需求澄清计划）；  owner 刘辉& 侯敏熙&彭育
 5. 需要确认developer什么时候提供daily build；   owner 刘辉& 侯敏熙&彭育
-6. 确认各个组件测试单元测试 功能测试覆盖情况；  owner 姜伟
 
 ## meeting link
  https://welink-meeting.zoom.us/j/937675032
