@@ -16,7 +16,7 @@ File->Settings->Plugins，搜索Sonar，选择安装SonarLint,然后重启IDE即
 此项测试基于eclipse 2020-06(4.16)版本
 
 ## 先决条件
-根据此链接[ttps://marketplace.eclipse.org/content/sonarlint](ttps://marketplace.eclipse.org/content/sonarlint)判断你的eclipse版本是否判断此插件
+根据此链接[https://marketplace.eclipse.org/content/sonarlint](ttps://marketplace.eclipse.org/content/sonarlint)判断你的eclipse版本是否判断此插件
 
 判断方法：点击连链接打开页面的下载按钮，会出现eclispe版本列表，如果你的版本在其中，则说明可用
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0811/174038_f958a5b1_5504908.png "eclipse.png")
