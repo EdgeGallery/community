@@ -12,9 +12,9 @@
     - the mini scope f test case
     - the R0.9 Requirement test case 
         - installation test；  owner zhaobaohui
-        - MEP DNS test;    
+        - MEP DNS test;  owner mengpuhui  
         - docs test
-        - network isolation test;
+        - network isolation test; owner houminxi
         - GUI test
         - 【MECM/APPStore】Edgegallery生态能力优化 test
         - 【MEP/MECM]】AK/SK配置接口 
