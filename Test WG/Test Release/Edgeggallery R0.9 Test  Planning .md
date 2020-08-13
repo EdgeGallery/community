@@ -7,8 +7,8 @@
     - L4- E2E Test Case;
     - the mini scope f test case
     - the R0.9 Requirement test case 
-        - installation test；
-        - MEP DNS test;
+        - installation test；  owner zhaobaohui
+        - MEP DNS test;    
         - docs test
         - network isolation test;
         - GUI test
