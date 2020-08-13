@@ -1,4 +1,6 @@
 - Overview
+- Test strategy
+- Test aim in R0.9
 - Test Scope
     - L1 Unit testcase /Gating/static check
     - Test Case
@@ -7,7 +9,7 @@
     - Integration Test Case
     - E2E Test Case;
     - the desgin of R0.9 Requirement test case 
-- Epic
+- Delivery Epic
     - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
     - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
 - [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)
