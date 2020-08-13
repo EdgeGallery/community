@@ -8,11 +8,19 @@ EdgeGallery Security Test Case 004
 |Test case ID  | EG-TST-SEC-004                                               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test purpose  | The purpose of test case SEC-004 is                          |
+|Test purpose  | The purpose of test case SEC-004 is to run vulnerability     |
+|              | scanner against a target system to learn about how well the  |
+|              | servers are guarded against known attack vectors.            |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test tool     | OpenVas                                                      |
+|Test tool     | OpenVAS                                                      |
 |              |                                                              |
+|              | OpenVAS is a full-featured vulnerability scanner. Its        |
+|              | capabilities include unauthenticated testing, authenticated  |
+|              | testing, various high level and low level Internet and       |
+|              | industrial protocols, performance tuning for large-scale     |
+|              | scans and a powerful internal programming language to        |
+|              | implement any type of vulnerability test.                    |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          |                                                              |
