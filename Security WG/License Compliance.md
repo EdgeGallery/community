@@ -5,7 +5,7 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 
 ## Example of license headers
 
-### Apache 2.0
+### Apache License Version 2.0
 
 ```
 /*
@@ -25,8 +25,7 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
  */
 ```
 
-### CC 4.0
-
+### Creative Commons License 4.0
 
 ```
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
