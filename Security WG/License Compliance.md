@@ -7,7 +7,7 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 
 ```
 /*
- *    Copyright 2020 Huawei Technologies Co., Ltd.
+ *    Copyright <year, i.e. 2020> <developer's organization info, i.e. Huawei Technologies Co., Ltd.>
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
