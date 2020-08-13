@@ -40,4 +40,4 @@
         - 5GC env + Integration test；
         -
 - Known Defects and Issues
-- [test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)
+- [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)
