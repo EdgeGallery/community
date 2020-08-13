@@ -28,4 +28,4 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 - MIT
 - BSD
 
-If an alternative inbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the EdgeGallery Project's objectives, the TSC may approve the use of an alternative license for inbound contributions on an exception basis.
+If an alternative inbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the EdgeGallery Project's objectives, the TSC may approve the use of an alternative license for inbound contributions on an exception basis.In order to get an approval on alternative license, please submit a topic in the TSC meeting.
