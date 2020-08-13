@@ -3,7 +3,9 @@
 All outbound code in EdgeGallery shall be made available under the Apache License, Version 2.0. All documentation shall be received and made available by the EdgeGallery Project under the Creative Commons Attribution 4.0 International License. 
 
 
-## Example of license header
+## Example of license headers
+
+### Apache 2.0
 
 ```
 /*
@@ -21,6 +23,15 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
+```
+
+### CC 4.0
+
+
+```
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. SPDX-License-Identifier: CC-BY-4.0
+.. (c) <year, i.e. 2020> <developer's organization info, i.e. Huawei Technologies Co., Ltd.>
 ```
 
 
