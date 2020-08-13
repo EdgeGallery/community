@@ -8,8 +8,22 @@
     - Func Test Case
     - Integration Test Case
     - E2E Test Case;
-    - the desgin of R0.9 Requirement test case 
-    - the mini scope f test case 
+    - the mini scope f test case
+    - the R0.9 Requirement test case 
+        - installation test；
+        - MEP DNS test;
+        - docs test
+        - network isolation test;
+        - GUI test
+        - 【MECM/APPStore】Edgegallery生态能力优化 test
+        - 【MEP/MECM]】AK/SK配置接口 
+        - 【MEP】支持APP服务的心跳 
+        - 【Developer】优化APP的构建+测试+发布过程
+        - 【MECM】 application management& verification
+        - 【MEP/MECM】 Public cloud Integration
+        - 【Test】安装部署支持all-in-one/支持离线部署
+        - 【Test】Jenkins job 支持JJB部署；
+        - 【Poc/Test feature】 5G 网元集成      
 - Delivery Epic
     - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
     - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
