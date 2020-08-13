@@ -41,3 +41,7 @@
         -
 - Known Defects and Issues
 - [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)
+
+| Version | Date       | remark  |
+|---------|------------|---------|
+| v0.1    | 2020/08/13 | initial |
