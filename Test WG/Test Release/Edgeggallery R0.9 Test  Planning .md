@@ -6,7 +6,7 @@
         - Test coverage Rate
         - code coverage Rate
 - Test Scope
-    _ L1/L2--func/API/Unit testcase /Gating/static check_ 
+    _L1/L2--func/API/Unit testcase /Gating/static check_
     - L3--Integration Test Case
     - L4- E2E Test Case;
     - the mini scope f test case
