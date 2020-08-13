@@ -2,12 +2,9 @@
 - Test strategy
     - Test target in R0.9
 - Test Scope
-    - L1 Unit testcase /Gating/static check
-    - Test Case
-    - API Test Case
-    - Func Test Case
-    - Integration Test Case
-    - E2E Test Case;
+    - L1/L2--func/API/Unit testcase /Gating/static check
+    - L3--Integration Test Case
+    - L4- E2E Test Case;
     - the mini scope f test case
     - the R0.9 Requirement test case 
         - installation test；
