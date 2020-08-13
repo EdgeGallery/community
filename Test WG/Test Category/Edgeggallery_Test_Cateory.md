@@ -1,6 +1,6 @@
 Please refer to the edgegallery test Cateory
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0813/101127_e6b2a388_7624512.png "测试领域分类-v0.1.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0813/162951_fcdd40c7_7624512.png "测试领域分类-v0.1.png")
 
 | Date       | verison | remark  |
 |------------|---------|---------|
