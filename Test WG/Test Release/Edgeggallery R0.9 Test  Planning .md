@@ -1,6 +1,6 @@
 - Overview
 - Test strategy
-- Test aim in R0.9
+    - Test target in R0.9
 - Test Scope
     - L1 Unit testcase /Gating/static check
     - Test Case
