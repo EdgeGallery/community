@@ -1,6 +1,8 @@
 - Overview
 - Test strategy
     - Test target in R0.9
+        - Test coverage Rate
+        - code coverage Rate
 - Test Scope
     - L1/L2--func/API/Unit testcase /Gating/static check
     - L3--Integration Test Case
