@@ -22,8 +22,8 @@
         - 【Developer】优化APP的构建+测试+发布过程【李媛媛】
         - 【MECM】 application management& verification 【张阿利】
         - 【MEP/MECM】 Public cloud Integration
-        - 【Test】安装部署支持all-in-one/支持离线部署
-        - 【Test】Jenkins job 支持JJB部署；
+        - 【Test】安装部署支持all-in-one/支持离线部署 owner 彭育
+        - 【Test】Jenkins job 支持JJB部署；  owenr 彭育
         - 【Poc/Test feature】 5G 网元集成      
 - Delivery Epic
     - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
