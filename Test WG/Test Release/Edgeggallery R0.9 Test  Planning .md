@@ -8,7 +8,7 @@
 - Test Scope
     - _L1/L2--func/API/Unit testcase /Gating/static check_
     - L3--Integration Test Case
-    - L4- E2E Test Case;
+    - L4- E2E Test Case--ETSI interface test;
     - the mini scope f test case
     - the R0.9 Requirement test case 
         - installation test；  owner zhaobaohui
