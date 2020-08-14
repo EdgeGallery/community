@@ -8,9 +8,9 @@
 - Test Scope
     - _L1/L2--func/API/Unit testcase /Gating/static check_
     - L3--Integration Test Case 
-        - ETSI interface test;
+        - ETSI interface test;    - 待定  刘辉找人研究
     - L4- E2E Test Case
-        - usecase1 zoomminder
+        - usecase1 zoomminder     - 待定 等待需求测试用例输出，再讨论
         - usecase2 
     - the mini scope of testcases  --testcases 定稿后，筛选；
     - the R0.9 Requirement testcases
