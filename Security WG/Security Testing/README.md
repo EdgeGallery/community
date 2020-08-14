@@ -1,6 +1,6 @@
 # R2 安全测试规划
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0810/104535_6162dae0_5645267.png "安全测试领域分类.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0814/111024_641ff307_5645267.png "测试领域分类-v0.2.png")
 
 # R2 安全测试工作
 
