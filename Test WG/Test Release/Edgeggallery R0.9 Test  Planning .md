@@ -19,7 +19,7 @@
         - 【MECM/APPStore】Edgegallery生态能力优化 test
         - 【MEP/MECM]】AK/SK配置接口   【姜伟】
         - 【MEP】支持APP服务的心跳      【姜伟】
-        - 【Developer】优化APP的构建+测试+发布过程
+        - 【Developer】优化APP的构建+测试+发布过程【李媛媛】
         - 【MECM】 application management& verification 【张阿利】
         - 【MEP/MECM】 Public cloud Integration
         - 【Test】安装部署支持all-in-one/支持离线部署
