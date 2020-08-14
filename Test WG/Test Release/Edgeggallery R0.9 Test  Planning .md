@@ -7,21 +7,24 @@
         - code coverage Rate
 - Test Scope
     - _L1/L2--func/API/Unit testcase /Gating/static check_
-    - L3--Integration Test Case
-    - L4- E2E Test Case--ETSI interface test;
-    - the mini scope f test case
-    - the R0.9 Requirement test case 
-        - installation test；  owner zhaobaohui
-        - MEP DNS test;  owner mengpuhui  
-        - docs test
-        - network isolation test; owner houminxi
-        - GUI test
-        - 【MECM/APPStore】Edgegallery生态能力优化 test
+    - L3--Integration Test Case 
+        - ETSI interface test;
+    - L4- E2E Test Case
+        - usecase1 zoomminder
+        - usecase2 
+    - the mini scope of testcases  --testcases 定稿后，筛选；
+    - the R0.9 Requirement testcases
+        - installation test；   owner:zhaobaohui
+        - MEP DNS test;         owner:mengpuhui  
+        - docs test;          all 
+        - network isolation test; owner:houminxi
+        - GUI test            owner:liuhui
+        - 【MECM/APPStore】Edgegallery生态能力优化 test owner:liuhui
         - 【MEP/MECM]】AK/SK配置接口   【姜伟】
         - 【MEP】支持APP服务的心跳      【姜伟】
         - 【Developer】优化APP的构建+测试+发布过程【李媛媛】
         - 【MECM】 application management& verification 【张阿利】
-        - 【MEP/MECM】 Public cloud Integration
+        - 【MEP/MECM】 Public cloud Integration owner:liuhui
         - 【Test】安装部署支持all-in-one/支持离线部署 owner 彭育
         - 【Test】Jenkins job 支持JJB部署；  owenr 彭育
         - 【Poc/Test feature】 5G 网元集成      owenr 彭育
