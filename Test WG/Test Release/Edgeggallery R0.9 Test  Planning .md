@@ -17,8 +17,8 @@
         - network isolation test; owner houminxi
         - GUI test
         - 【MECM/APPStore】Edgegallery生态能力优化 test
-        - 【MEP/MECM]】AK/SK配置接口 
-        - 【MEP】支持APP服务的心跳 
+        - 【MEP/MECM]】AK/SK配置接口   【姜伟】
+        - 【MEP】支持APP服务的心跳      【姜伟】
         - 【Developer】优化APP的构建+测试+发布过程
         - 【MECM】 application management& verification
         - 【MEP/MECM】 Public cloud Integration
