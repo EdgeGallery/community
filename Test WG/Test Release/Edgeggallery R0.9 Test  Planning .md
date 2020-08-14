@@ -24,7 +24,7 @@
         - 【MEP/MECM】 Public cloud Integration
         - 【Test】安装部署支持all-in-one/支持离线部署 owner 彭育
         - 【Test】Jenkins job 支持JJB部署；  owenr 彭育
-        - 【Poc/Test feature】 5G 网元集成      
+        - 【Poc/Test feature】 5G 网元集成      owenr 彭育
 - Delivery Epic
     - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
     - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
