@@ -103,6 +103,7 @@ Test steps:
 ## 3. Sensitive and Private Data Protection  
 
 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption.  
+**Notice**: Authentication credentials like database passwords, certificates, etc., can be passed in during user installation and can be in plain text. 
 
 Test steps:
 1. Examine the credential encryption mechanism and confirm that user credentials are encrypted before stored.
