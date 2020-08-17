@@ -27,12 +27,19 @@ EdgeGallery Security Test Case 003
 |Configuration | Test tool and environment setup description                  |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
+|step 1        | Bash into the target docker container as root user           |
 |              |                                                              |
+|              | docker exec -it -u root <contaienr_name> /bin/bash           |
 |              |                                                              |
+|              | Note: if Bash is not available in the target docker          |
+|              | contianer, use sh instead.                                   |
 +--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
+|step 2        | Download the UniOFuzz script to the target docker container  |
+|              | via wget command                                             |
 |              |                                                              |
+|              | For example:                                                 |
+|              | wget raw.githubusercontent.com/nullsecuritynet/tools/master/ |
+|              | fuzzer/uniofuzz/release/uniofuzz.py                          |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | Test step description and expected result                    |
