@@ -19,7 +19,7 @@
 - 研究结对测试，pict测试工具；  owner：彭育
 - 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
 2. 需求澄清跟踪工作情况汇总讨论及test case设计讨论（和release manager 确认需求澄清计划）；  owner 刘辉& 侯敏熙&彭育
-  姓名  | 任务  |   |
+|  姓名  | 任务  |  
 |---|---|
 |  刘辉 | ETSI interface test；GUI test；public cloud integration；EG 生态能力优化test  |
 |侯敏熙   |network isoliation test；   |
