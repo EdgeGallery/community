@@ -11,6 +11,8 @@
 |Name   |Affiliation  |Email    |Self nominate as Chair (Y)   |Self Nominate as Co-Chair (Y/N)   |
 |---|---|---|---|---|
 | 陈炜 |腾讯|allenwchen@tencent.com  |   |   |
+| 陈燕军 |中移动|  |   |   |
+| 傅文军 |中移动| |   |   |
 |汪畅畅 |九州云|wang.changchang@99cloud.net   |   |   |
 |薛巍   |金山云  |Xuewei1@kingsoft.com   |   |   |
 |周睿   |金山云  |KANGYANLIN@kingsoft.com  |   |   |
@@ -23,7 +25,7 @@
 
 ### 工作组会议
 
-每周四晚上7点-8点（待定）
+每周四下午17点-18点
 ### 工作组联系方式
 
 邮件列表：用户场景工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
