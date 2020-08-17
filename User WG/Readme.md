@@ -11,7 +11,7 @@
 |Name   |Affiliation  |Email    |Self nominate as Chair (Y)   |Self Nominate as Co-Chair (Y/N)   |
 |---|---|---|---|---|
 | 陈炜 |腾讯|allenwchen@tencent.com  |   |   |
-| 陈燕军 |中移动|  |   |   |
+| 陈燕军 |中移动|chenyanjunyjy@chinamobile.com  |   |   |
 | 傅文军 |中移动| |   |   |
 |汪畅畅 |九州云|wang.changchang@99cloud.net   |   |   |
 |薛巍   |金山云  |Xuewei1@kingsoft.com   |   |   |
