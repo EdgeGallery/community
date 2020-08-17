@@ -66,11 +66,11 @@ EdgeGallery Security Test Case 002
 |step 2        | View alerts and alerts details                               |
 |              |                                                              |
 |              | To view the alerts created during your test:                 |
-|              | 1. Click the Alerts tab in the Information Window.           |
-|              | 2. Click each alert displayed in that window to display the  |
-|              | 3. URL and the vulnerability detected in the right side of   |
+|              | 1.Click the Alerts tab in the Information Window.            |
+|              | 2.Click each alert displayed in that window to display the   |
+|              | 3.URL and the vulnerability detected in the right side of    |
 |              | the Information Window.                                      |
-|              | 4. In the Workspace Windows, click the Response tab to see   |
+|              | 4.In the Workspace Windows, click the Response tab to see    |
 |              | the contents of the header and body of the response. The     |
 |              | part of the response that generated the alert will be        |
 |              | highlighted.                                                 |
