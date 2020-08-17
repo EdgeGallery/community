@@ -21,7 +21,7 @@ EdgeGallery Security Test Case 002
 |              | Web Application Security Project (OWASP).                    |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | ZAP stands between the tester’s browser and the web          |
+|Test          | ZAP stands between the tester's browser and the web          |
 |description   | application so that it can intercept and inspect messages    |
 |              | sent between browser and web application, modify the         |
 |              | contents if needed, and then forward those packets on to the |
@@ -49,15 +49,15 @@ EdgeGallery Security Test Case 002
 |step 1        | Running an automated scan                                    |
 |              |                                                              |
 |              | To run a Quick Start Automated Scan:                         |
-|              | 1. Start ZAP and click the Quick Start tab of the Workspace  |
+|              | 1.Start ZAP and click the Quick Start tab of the Workspace   |
 |              | Window                                                       |
-|              | 2. Click the large Automated Scan button                     |
-|              | 3. In the URL to attack text box, enter the full URL of the  |
+|              | 2.Click the large Automated Scan button                      |
+|              | 3.In the URL to attack text box, enter the full URL of the   |
 |              | web application you want to attack                           |
 |              | 4.Click the Attack                                           |
 |              |                                                              |
 |              | As ZAP spiders the web application, it constructs a map of   |
-|              | the web applications’ pages and the resources used to render |
+|              | the web applications' pages and the resources used to render |
 |              | those pages. Then it records the requests and responses sent |
 |              | to each page and creates alerts if there is something        |
 |              | potentially wrong with a request or response.                |
