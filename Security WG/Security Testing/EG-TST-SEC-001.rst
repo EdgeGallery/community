@@ -55,7 +55,8 @@ EdgeGallery Security Test Case 001
 |              | target docker container via wget command                     |
 |              |                                                              |
 |              | For example:                                                 |
-|              | wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh |
+|              | wget https://raw.githubusercontent.com/rebootuser/LinEnum/ma |
+|              | ster/LinEnum.sh                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | Test step description and expected result                    |
