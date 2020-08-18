@@ -9,4 +9,5 @@
 | Related files           | List all related files need to be tested. For example, for rule like 4.2 please provide a list of source code files with cryptographic algorithms |
 | Related GUI URLs        | List all GUI urls need to be tested                          |
 | GUI testing steps       | For example, for rule like 3.4 please provide a basic steps on how to obtain data subjects' authorization or how to change data subjects' authorization in system |
+| GUI input example       | Provie the example parameter to input in the GUI             |
 | Additional Info         | Please provide any additional information for testing usage, for example, how to generate token for testing APIs |
