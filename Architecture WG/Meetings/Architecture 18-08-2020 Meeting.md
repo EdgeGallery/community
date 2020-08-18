@@ -2,7 +2,7 @@
 
 | Meeting Day  |  Meeting Time  | Conference Bridge  |
 |---|---|---|
-| Tuesdays  | 7:00 PM to 8:00 PM (UTC+8:00)   |  https://welink-meeting.zoom.us/j/147404887 |
+| Tuesdays  | 7:00 PM to 8:00 PM (UTC+8:00)   |  https://welink-meeting.zoom.us/j/638661847 |
 
 
 ## Meeting Attendees
