@@ -26,7 +26,7 @@
 | TSC | #tsc |
 | MEP PT | #mep  |
 | MECM PT |#mecm   |
-| APP & Dev PT | #app&dev  |
+| APP & Dev PT | #appdev  |
 | Architecture WG |#architecture   |
 | Intergration WG |#intergration   |
 | Security WG |#security   |
