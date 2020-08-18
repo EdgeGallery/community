@@ -28,7 +28,7 @@
 | APP & Dev PT | #app&dev  |
 | Architecture WG |#architecture   |
 | Intergration WG |#intergration   |
-| Security WG |   |#security
+| Security WG |   |#security   |
 | Cloud Connection WG |#cloud   |
 | Test WG |#test   |
 | Blockchain WG |#Blockchain   |
