@@ -19,17 +19,17 @@
 ## 项目组 & 工作组例会
 - 请参考Community仓的具体工作组的Readme.md文档获得信息
 - 项目组合工作组的邮件列表中均设置有标签，各项目组的邮件在发送的时候，请在标题添加#标签
-| 组  | 标签  |
-|---|---|
-| TSC  | #tsc  |
-| MEP PT  | #mep  |
-| MECM PT  |#mecm   |
-| APP & Dev PT  | #app&dev  |
-| Architecture WG  |#architecture   |
-| Intergration WG  |#intergration   |
-| Security WG  |   |#security
-| Cloud Connection WG  |#cloud   |
-| Test WG  |#test   |
-| Blockchain WG  |#Blockchain   |
-| User WG  |#user   |
+| 组   | 标签   |
+|-----|------|
+| TSC | #tsc |
+| MEP PT | #mep  |
+| MECM PT |#mecm   |
+| APP & Dev PT | #app&dev  |
+| Architecture WG |#architecture   |
+| Intergration WG |#intergration   |
+| Security WG |   |#security
+| Cloud Connection WG |#cloud   |
+| Test WG |#test   |
+| Blockchain WG |#Blockchain   |
+| User WG |#user   |
 
