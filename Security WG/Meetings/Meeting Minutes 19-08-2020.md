@@ -16,6 +16,8 @@
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
 | 各项目代码优化情况审视同步         | ALL    |
+| 安全设计合规测试计划澄清           | ALL    |
+| 安全工作组Chair选举               | ALL    |
 
 
 ## Discussion Items and Minutes
