@@ -27,8 +27,10 @@ Discussion about requirement clarification
 |mengpuhui|dns test；|
 |zhaobaohui|installation test；|
 |all|doc test；|
+
 2.test case设计讨论(模板/计划/管理方式)--owner 刘辉& 侯敏熙&彭育
 discussion about test case design（template&plan&tools）
+
 3.问题反馈：
 - robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
 - 研究结对测试，pict测试工具；  owner：彭育
