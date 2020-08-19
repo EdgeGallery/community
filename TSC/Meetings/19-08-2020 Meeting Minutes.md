@@ -29,7 +29,6 @@ Item | Owner
 测试组进展 | 刘辉
 用户组进展 | 王彬
 区块链组进展 | 冯杰
-Cloud Integration HLT Discussion | Satish
 release里程碑以及进展讨论 | 章清洁
 
 ## Discussion Items
