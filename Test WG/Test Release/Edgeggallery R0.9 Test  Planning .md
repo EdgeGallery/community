@@ -34,6 +34,15 @@
     - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
     - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
     - third part component management（GO）
+- [Test&relative Tools]
+
+|Tool Name|Version|Address | comments  |
+|---|---|---|---|
+|SonarQube| |  ||
+|Jacoco|  | |   |
+|  - | - |- | -  |
+|Jenkins|  | |需联系彭育申请账号，当前每组的PTL有一个账号|
+
 - [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)
 - Resource dependency
     - Jenkins addr：http://jenkins.edgegallery.org/
