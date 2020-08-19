@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 19-08-2020  | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/          |
+| 19-08-2020  | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/924233092 |
 
 ## Meeting Attendees
 ** **
@@ -15,9 +15,9 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| 各项目代码优化情况审视同步         | ALL    |
-| 安全设计合规测试计划澄清           | ALL    |
-| 安全工作组Chair选举               | ALL    |
+| 各项目代码优化情况审视同步            | ALL    |
+| 安全设计合规测试计划澄清              | ALL    |
+| 安全工作组Chair选举                  | ALL    |
 
 
 ## Discussion Items and Minutes
