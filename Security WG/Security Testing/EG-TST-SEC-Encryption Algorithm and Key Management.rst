@@ -11,7 +11,7 @@ Encryption Algorithm and Key Management Test Case
 |Test case ID  | EG-TST-SEC-001                                               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test purpose  | Describe the test purpose of this test case.                 |
+|Test purpose  | Verify that the password is a standard password.                 |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
@@ -19,7 +19,7 @@ Encryption Algorithm and Key Management Test Case
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Describe the overall methodology of this test case.          |
+|Test          | Verify that the password is a standard password.          |
 |description   |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
