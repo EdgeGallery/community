@@ -42,7 +42,7 @@ EdgeGallery Security Compliance Test Case 2-2
 |              | shows the preferred encryption algorithm suite negotiated    |
 |              | with the target. Tester need to view the preferred           |
 |              | encryption whether the algorithm suite is secure; The third  |
-|              | part displays the information of the received certificate.   |                     |
+|              | part displays the information of the received certificate.   |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | The use of SSL2.0 and SSL3.0 protocols is prohibited. TLS1.0 |
