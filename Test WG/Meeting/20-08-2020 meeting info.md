@@ -18,14 +18,13 @@
 Discussion about requirement clarification
 |姓名|任务|  
 |---|---|
-|刘辉| ETSI interface test；GUI test；public cloud integration；EG 生态能力优化test  |
-|侯敏熙   |network isoliation test；|
-|彭育   | 安装部署支持All-in-one/支持离线部署;支持JJB部署；5G网元集成  |
-|李媛媛|app构建测试发布过程 test；|
-|zhangali|app管理验证；|
+|刘辉| ETSI interface test；AppStore GUI test；EG 生态能力优化test  |
+|侯敏熙   |network isolation test；public cloud integration；|
+|彭育   | 安装部署支持All-in-one/支持离线部署;支持JJB部署；5G网元集成 ;installation test； |
+|李媛媛|app构建测试发布过程 test；developer GUI测试|
+|zhangali|app管理验证；MECM GUI测试|
 |姜伟|ak/sk；app心跳 |
 |mengpuhui|dns test；|
-|zhaobaohui|installation test；|
 |all|doc test；|
 
 2.test case设计讨论(模板/计划/管理方式)--owner 刘辉& 侯敏熙&彭育
@@ -34,18 +33,20 @@ discussion about test case design（template&plan&tools）
 3.版本发布质量指标讨论
 
 4.问题反馈：
-- robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
-- 研究结对测试，pict测试工具；  owner：彭育
-- 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
-- 讨论社区安全测试如何与测试组其他测试协作进行（包括用例设计/实现/执行，分工情况） 
-- 需要确认developer什么时候提供daily build；   owner 刘辉& 侯敏熙&彭育
+- robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利（不可以）
+- 研究结对测试，pict测试工具；  owner：彭育（TBD）
+- 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育(不可实现)
+- 讨论社区安全测试如何与测试组其他测试协作进行（包括用例设计/实现/执行，分工情况）（已完成） 
+- 需要确认developer什么时候提供daily build；   owner 刘辉& 侯敏熙&彭育（近3天研发dailybuild成功率100%后转测试）
 
 ## meeting link
  https://welink-meeting.zoom.us/j/937675032
 ## Minutes纪要
 ## 纪要人
- 彭育
+刘辉
 
 ## 遗留任务
 
-
+1.AK/SK测试由测试组还是安全组负责--liuhui
+2.介绍ETSI Plugtest --owner pengyu
+3.测试组内工作指标讨论 --owner all
