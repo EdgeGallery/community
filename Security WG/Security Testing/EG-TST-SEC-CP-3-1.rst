@@ -33,7 +33,9 @@ EdgeGallery Security Compliance Test Case 3-1
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Password used in the software installation phase is not      |
+|Test verdict  | Password is not stored in plaintext                          |
+|              |                                                              |
+|              | Password used in the software installation phase is not      |
 |              | bound by this test.                                          |
 |              |                                                              |
 |              | The plaintext of the authentication credentials in the       |
