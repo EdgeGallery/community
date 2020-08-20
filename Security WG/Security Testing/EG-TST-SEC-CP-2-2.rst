@@ -37,12 +37,12 @@ EdgeGallery Security Compliance Test Case 2-2
 |              |                                                              |
 |              | The first part shows the support of all encryption algorithm |
 |              | suites, among which Accepted means support, Failed means not |
-|              | support, mainly depends on whether the supported encryption  |
-|              | algorithm suite is safe; the second part shows the preferred |
-|              | encryption algorithm suite negotiated with the target,       |
-|              | mainly to view the preferred encryption Whether the          |
-|              | algorithm suite is secure; the third part displays the       |
-|              | information of the received certificate.                     |
+|              | support. Tester need to check whether the supported          |
+|              | encryption algorithm suite is safe or not; The second part   |
+|              | shows the preferred encryption algorithm suite negotiated    |
+|              | with the target. Tester need to view the preferred           |
+|              | encryption whether the algorithm suite is secure; The third  |
+|              | part displays the information of the received certificate.   |                     |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | The use of SSL2.0 and SSL3.0 protocols is prohibited. TLS1.0 |
