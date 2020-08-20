@@ -1,13 +1,17 @@
- **1.Overview** 
-    - [release milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
-    - [requirement list](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
- **2.Test strategy** 
+**1. Prerequisites** 
+
+- [release milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
+- [requirement list](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
+
+**2. Test strategy** 
+
     - Test target in R0.9
         - Test coverage Rate
             - integration test coverage rage: xx%
         - code coverage Rate
             - unit test coverage rage: 30%
- **3.Test Scope** 
+**3. Test Scope** 
+
     - _L1/L2--func/API/Unit testcase /Gating/static check_
     - L3--Integration Test Case 
         - ETSI interface test;    - 待定  刘辉找人研究
@@ -32,11 +36,14 @@
         - 【Poc/Test feature】 5G 网元集成      owenr 彭育
 - S3P test scope
     - N/A
- **4.Delivery Epic** 
-    - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
-    - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
-    - third part component management（GO）
- **5.relative Tools** 
+
+**4. Delivery Epic** 
+
+- [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
+- [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
+- third part component management（GO）
+
+**5. relative Tools** 
 
 |Tool Name|Version|Address | comments  |
 |---|---|---|---|
@@ -44,7 +51,7 @@
 |Jacoco|  | |   |
 |wiremock|  | |   |
 
- **6.Test development info** 
+**6. Test development info** 
 
 | tools&Language | version | remark | link |
 |----------------|---------|--------|------|
@@ -54,7 +61,7 @@
 | IDE ride       |         |        |      |
 | IDE pycharm    |         |        |      |
 
- **7.Test env info** 
+**7. Test env info** 
 
 | infra  | Version | address | remarks |
 |--------|---------|---------|---------|
@@ -65,16 +72,19 @@
 | ....   | ......  |         |         |
 
 
- **8.[Test Planning]** (https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)
-**9.Risk analysis about testing** 
+**8. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
-**10.Resource dependency** 
+**9. Risk analysis about testing** 
+
+**10. Resource dependency** 
+
     - Jenkins addr：http://jenkins.edgegallery.org/
     - repo
-        - [integration-testing](https://gitee.com/EdgeGallery_group/integration-testing)
+        - [integration-testing](https://gitee.com/EdgeGallery_group/integration-testing)()
         - [ci-management](https://gitee.com/edgegallery/ci-management)
         - [platform-mgmt](https://gitee.com/EdgeGallery_group/platform-mgmt)
         - [helm-charts](https://gitee.com/EdgeGallery_group/helm-charts)
+
     - Test env
         - daily build jenkins
         - Weekly build Jenkins
@@ -82,8 +92,9 @@
     - Lab
         - 5GC env + Integration test；
         -
- **11.Known Defects and Issues** 
- **12.[Test category reference]** (https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)
+**11. Known Defects and Issues** 
+
+**12. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
 | Version | Date       | remark  |
 |---------|------------|---------|
