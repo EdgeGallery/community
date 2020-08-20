@@ -4,7 +4,9 @@
 - Test strategy
     - Test target in R0.9
         - Test coverage Rate
+            - integration test coverage rage: xx%
         - code coverage Rate
+            - unit test coverage rage: 30%
 - Test Scope
     - _L1/L2--func/API/Unit testcase /Gating/static check_
     - L3--Integration Test Case 
