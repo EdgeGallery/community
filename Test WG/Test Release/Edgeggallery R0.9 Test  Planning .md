@@ -41,7 +41,7 @@
 |SonarQube| |  ||
 |Jacoco|  | |   |
 |robotframework| - |- | -  |
-|  - | - |- | -  |
+| python | - |- | -  |
 |Jenkins|  | |需联系彭育申请账号，当前每组的PTL有一个账号|
 - [Test env info]
 
