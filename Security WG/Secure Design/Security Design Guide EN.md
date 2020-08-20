@@ -90,10 +90,10 @@ openssl
 **Notice**: Secure Sockets Layer (SSL) 2.0 and SSL 3.0 have been disabled by Internet Engineering Task Force (IETF) in March 2011 and June 2015 due to security issues. In Transport Layer Security (TLS) 1.0, the symmetric encryption algorithm supports only the RC4 algorithm and the cipher block chaining (CBC) mode of the block cipher algorithm. RC4 algorithm is regarded as insecure and is disabled by IETF in all TLS versions. The CBC mode of the symmetric encryption algorithm has the problem of predictable initialization vector (IV) and is vulnerable to BEAST attacks. Therefore, TLS 1.2 and TLS 1.3 are recommended.  
 
 Test steps:
-1. Use openssl to scan ports in the deployment environment, confirm SSL2.0, SSL3.0, TLS1.0 and TLS1.1 are disabled.
+1. Use sslscan to scan IP in the deployment environment, confirm SSL2.0, SSL3.0, TLS1.0 and TLS1.1 are disabled.
 
 Test tools:
-openssl
+sslscan
 
 2.3 Proper certification revocation, such as Online Certificate Status Protocol (OCSP) Stapling, must be enabled and configured.
 
