@@ -85,6 +85,7 @@
         - PTL确认项目完成开发者自验证
         - PTL确认三方件归一化扫描结果
         - PTL确认代码许可证合规扫结果
+        - 近3天每日构建成功率100%
 
     - Ending Criteria for test execution
 
