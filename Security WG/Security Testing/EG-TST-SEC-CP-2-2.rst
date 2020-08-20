@@ -8,7 +8,6 @@ EdgeGallery Security Compliance Test Case 2-2
 +--------------+--------------------------------------------------------------+
 |Test tool     | sslscan                                                      |
 |              |                                                              |
-|              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | TLS (or SSL) protocol default configuration check            |
 |description   |                                                              |
@@ -18,7 +17,6 @@ EdgeGallery Security Compliance Test Case 2-2
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
 |step 1        | Install sslscan in the target deployment environment         |
-|              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | Test step description and expected result                    |
@@ -44,16 +42,17 @@ EdgeGallery Security Compliance Test Case 2-2
 |              | encryption algorithm suite negotiated with the target,       |
 |              | mainly to view the preferred encryption Whether the          |
 |              | algorithm suite is secure; the third part displays the       |
-|              | information of the received certificate;                     |
+|              | information of the received certificate.                     |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | The use of SSL2.0 and SSL3.0 protocols is prohibited. TLS1.0 |
 |              | can only be left behind in scenarios such as backward        |
-|              | compatibility and third-party docking                        |
+|              | compatibility and third-party docking.                       |
 |              |                                                              |
 |              | The use of anonymous authentication (that is, no identity    |
 |              | authentication) or weak identity authentication (such as     |
 |              | RSA/DSA keys with a key length of less than 2048 bits) is    |
 |              | prohibited in the cryptographic protocol; the use of cipher  |
-|              | suites with asymmetric encryption is prohibited;             |
+|              | suites with asymmetric encryption is prohibited.             |
+|              |                                                              |
 +--------------+--------------------------------------------------------------+
