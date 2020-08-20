@@ -43,6 +43,15 @@
 |robotframework| - |- | -  |
 |  - | - |- | -  |
 |Jenkins|  | |需联系彭育申请账号，当前每组的PTL有一个账号|
+- [Test env info]
+| infra  | Version | address | remarks |
+|--------|---------|---------|---------|
+| K8S    | v1.18.4 |         |         |
+| k3s    | v1.18.4 |         |         |
+| docker | v19.03.12|         |         |
+| helm   | v3.2.4  |         |         |
+| ....   | ......  |         |         |
+
 
 - [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)
 - Resource dependency
