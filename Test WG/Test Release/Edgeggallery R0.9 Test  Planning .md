@@ -3,12 +3,20 @@
 - [release milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
 - [requirement list](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
 
-**2. Test strategy** 
-    - Test target in R0.9
-        - Test coverage Rate
-            - integration test coverage rage: xx%
-        - code coverage Rate
-            - unit test coverage rage: 30%
+**2. Test target** 
+    
+     - Quality Index for R0.9
+
+|指标|目标值|备注|
+|---|---|---|
+|需求完成率|90%|实际完成的需求个数/计划完成的需求个数|
+|遗留DI|10|1、本迭代发现的不影响本迭代只影响下个迭代的问题，也要计入本迭代的遗留DI中；2、本迭代发布时说明遗留问题的影响及对策，版本经理同意后可特例发布；"	∑(提示问题个数*0.1+一般问题个数*1+严重问题个数*3+致命问题个数*10)
+|严重及以上问题数|≤1	|严重≤1，致命0;∑(严重问题个数+致命问题个数)|
+|开源软件禁选|0|开源软件禁选个数为0|
+|代码静态检查告警|0|代码静态检查告警个数|
+|测试用例执行率|90%|计划执行的测试用例数/实际执行的测试用例数|
+|单元测试代码覆盖率|	>=60%|
+
 
 **3. Test Scope** 
 
