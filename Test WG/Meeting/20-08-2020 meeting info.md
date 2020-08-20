@@ -31,7 +31,9 @@ Discussion about requirement clarification
 2.test case设计讨论(模板/计划/管理方式)--owner 刘辉& 侯敏熙&彭育
 discussion about test case design（template&plan&tools）
 
-3.问题反馈：
+3.版本发布质量指标讨论
+
+4.问题反馈：
 - robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利
 - 研究结对测试，pict测试工具；  owner：彭育
 - 确认bug和builder 版本关联关系；  owner 刘辉& 侯敏熙&彭育
