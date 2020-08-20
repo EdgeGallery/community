@@ -4,12 +4,12 @@
 - [requirement list](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
 
 **2. Test strategy** 
-
     - Test target in R0.9
         - Test coverage Rate
             - integration test coverage rage: xx%
         - code coverage Rate
             - unit test coverage rage: 30%
+
 **3. Test Scope** 
 
     - _L1/L2--func/API/Unit testcase /Gating/static check_
@@ -74,9 +74,28 @@
 
 **8. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
-**9. Risk analysis about testing** 
+**9. Criteria for Test Execution** 
 
-**10. Resource dependency** 
+    - Starting Criteria for test excution
+        - 完成详细设计/架构更新        
+        - PTL确认所有task关闭
+        - PTL确认gitee门户外部bug类问题关闭
+        - PTL确认所有新开发代码都有自动化测试用例
+        - PTL确认满足单元测试覆盖率要求
+        - PTL确认项目完成开发者自验证
+        - PTL确认三方件归一化扫描结果
+        - PTL确认代码许可证合规扫结果
+
+    - Ending Criteria for test execution
+
+        - PTL确认bug单关闭
+        - 所有测试活动完整，测试通过
+        - 无阻塞性及严重性问题遗留
+        - 确认所有依赖软件都在本地库中
+
+**10. Risk analysis about testing** 
+
+**11. Resource dependency** 
 
     - Jenkins addr：http://jenkins.edgegallery.org/
     - repo
@@ -92,9 +111,9 @@
     - Lab
         - 5GC env + Integration test；
         -
-**11. Known Defects and Issues** 
+**12. Known Defects and Issues** 
 
-**12. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
+**Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
 | Version | Date       | remark  |
 |---------|------------|---------|
