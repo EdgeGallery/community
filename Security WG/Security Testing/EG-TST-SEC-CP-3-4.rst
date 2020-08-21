@@ -28,15 +28,15 @@ EdgeGallery Security Compliance Test Case 3-4
 |              | personal data.                                               |
 |              |                                                              |
 |              | For R2, only user's mobile number, company, email address    |
-|              | and gender are collected during user registrtion.            |
+|              | and gender are collected during user registration.           |
 |              |                                                              |
 |              | Try to create a new user account by visiting the user        |
 |              | registration interface.                                      |
 |              |                                                              |
-|              | User registrtion URL:                                        |
+|              | User registration URL:                                       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | Fill in the use info without agree the privacy policy.       |
+|step 2        | Fill in the use info without agreeing the privacy policy.    |
 |              |                                                              |
 |              | Click the 'create' button and verify user account creation   |
 |              | failed.                                                      |
@@ -49,7 +49,7 @@ EdgeGallery Security Compliance Test Case 3-4
 |              | verify user account creation succeed.                        |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | User registrtion should only allowed when data subjects'     |
+|Test verdict  | User registration should only allowed when data subjects'    |
 |              | consent and authorization is obtained for personal data      |
 |              | collection.                                                  |
 |              |                                                              |
