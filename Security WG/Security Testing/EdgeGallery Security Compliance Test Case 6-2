@@ -10,9 +10,8 @@ EdgeGallery Security Compliance Test Case 6-2
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Check that data that 
-Set the session/voucher to a valid expiration date                            |
-|description   |                                                              |
+|Test          | Check that data that Set the session/voucher to a valid      |
+|description   |   expiration date                                            |               
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Configuration | Test tool and environment setup description                  |
