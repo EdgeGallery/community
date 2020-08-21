@@ -29,13 +29,20 @@ EdgeGallery Security Compliance Test Case 3-4
 |              | registrtion interface.                                       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | Fill the use info without agree the personal data collection |
-|              | authorization.                                               |
+|step 2        | Fill in the use info without agree the personal data         |
+|              | collection authorization.                                    |
+|              |                                                              |
 |              | Click the 'create' button and verify user account ceration   |
 |              | failed.                                                      |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Define the expected result when this test case FAIL and PASS |
+|step 3        | Agree the personal data collection authorization and click   |
+|              | the 'create' button and verify user account ceration         |
+|              | succeed.                                                     |
 |              |                                                              |
++--------------+--------------------------------------------------------------+
+|Test verdict  | User registrtion should only allow when data subjects'       |
+|              | consent and authorization is obtained for personal data      |
+|              | collection.                                                  |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
