@@ -19,10 +19,15 @@ EdgeGallery Security Compliance Test Case 2-2
 |step 1        | Install sslscan in the target deployment environment         |
 |              |                                                              |
 |              | git clone https://github.com/rbsec/sslscan.git               |
+|              |                                                              |
 |              | cd sslscan/                                                  |
+|              |                                                              |
 |              | # Install the OpenSSL build dependencies                     |
+|              |                                                              |
 |              | apt-get install build-essential git zlib1g-dev               |
+|              |                                                              |
 |              | apt-get build-dep openssl                                    |
+|              |                                                              |
 |              | make static                                                  |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
