@@ -37,7 +37,7 @@ EdgeGallery Security Compliance Test Case 2-2
 |step 1        | Use the sslscan to scan the target IP addresses:port         |
 |              |                                                              |
 |              | For example:                                                 |
-|              |     ./sslscan 10.x.x.2:port                                  |
+|              |     ``./sslscan 10.x.x.2:port``                              |
 |              |                                                              |
 |              | The returned result is mainly composed of three parts:       |
 |              | 1.Supported server cipher(s)                                 |
