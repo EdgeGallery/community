@@ -6,45 +6,32 @@ EdgeGallery Security Compliance Test Case 2-1
 |Test case ID  | EG-TST-SEC-CP-2-1                                            |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test tool     | Describe the tool used by this test case.                    |
+|Test tool     | N/A                                                          |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Describe the overall methodology of this test case.          |
-|description   |                                                              |
+|Test          | Check that data is encrypted before transmitted across       |
+|description   | networks.                                                    |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Configuration | Test tool and environment setup description                  |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
-|              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
-|              |                                                              |
+|step 1        | N/A                                                          |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test          | Test step description and expected result                    |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
-|              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
-|              |                                                              |
+|step 1        | List and evaluate all encrypted transmission scenarios and   |
+|              | check if there are omissive scenarios.                       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 3        |                                                              |
-|              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
-|step 4        |                                                              |
-|              |                                                              |
+|step 2        | Scan the source code or search with keywords to check that   |
+|              | there is no hard-coded key in the source code.               |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Define the expected result when this test case FAIL and PASS |
-|              |                                                              |
+|Test verdict  | The key configured in the deployment scripts during the      |
+|              | installation phase is not bound by this test.                |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
