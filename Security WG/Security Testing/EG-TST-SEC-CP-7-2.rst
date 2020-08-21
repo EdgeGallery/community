@@ -28,10 +28,10 @@ EdgeGallery Security Compliance Test Case 7-2
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | Design test cases to invoke APIs with abnormal JSON payload  |
-|              | to verify the schema validation is functional, confirm any   |
-|              | data that fails the validation are rejected.                 |
-|              |                                                              |
+|step 2        | Design test cases to invoke APIs with abnormal JSON payload( |
+|              | JSON injection) to verify the schema validation is           |
+|              | functional, confirm any data that fails the validation are   |
+|              | rejected.                                                    |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
