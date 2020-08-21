@@ -47,10 +47,6 @@ EdgeGallery Security Compliance Test Case 3-3
 |              | incorrect SMS verification code                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 3        |                                                              |
-|              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
 |Test verdict  | Define the expected result when this test case FAIL and PASS |
 |              |                                                              |
 |              |                                                              |
