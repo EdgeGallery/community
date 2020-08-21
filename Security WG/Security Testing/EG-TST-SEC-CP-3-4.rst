@@ -42,7 +42,10 @@ EdgeGallery Security Compliance Test Case 3-4
 |              | failed.                                                      |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 3        | Agree the privacy policy and click the 'create' button and   |
+|step 3        | Evaluate the privacy policy, the personal data collected     |
+|              | should be stated in the privacy statement.                   |
+|              |                                                              |
+|              | Agree the privacy policy and click the 'create' button and   |
 |              | verify user account creation succeed.                        |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
