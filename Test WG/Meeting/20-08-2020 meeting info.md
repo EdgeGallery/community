@@ -29,8 +29,10 @@ Discussion about requirement clarification
 
 2.test case设计讨论(模板/计划/管理方式)--owner 刘辉& 侯敏熙&彭育
 discussion about test case design（template&plan&tools）
+【test case由gitee上录入并管理，每条gitee记录对应一条test case】
 
 3.版本发布质量指标讨论
+【参见[test plan](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Edgeggallery%20R0.9%20Test%20%20Planning%20.md)】
 
 4.问题反馈：
 - robotframework 执行时候的failed是否可以自动化创建bug trace list； owner ： 张阿利（不可以）
@@ -47,6 +49,8 @@ discussion about test case design（template&plan&tools）
 
 ## 遗留任务
 
-1.AK/SK测试由测试组还是安全组负责--liuhui
-2.介绍ETSI Plugtest --owner pengyu
-3.测试组内工作指标讨论 --owner all
+
+1. AK/SK测试由测试组还是安全组负责--liuhui【据吕京反馈ak/sk安全组会基于安全角度测试，测试组从功能角度测试】
+2. 介绍ETSI Plugtest --owner pengyu
+3. 测试组内工作指标讨论 --owner all
+
