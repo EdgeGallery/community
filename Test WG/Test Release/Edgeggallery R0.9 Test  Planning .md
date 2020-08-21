@@ -63,11 +63,12 @@
 
 | tools&Language | version | remark | link |
 |----------------|---------|--------|------|
-| Robotframework |         |        |      |
-| selenium       |         |        |      |
-| python         |         |        |      |
-| IDE ride       |         |        |      |
+| Robotframework | v3.2.1        |        |      |
+| selenium       | v3.141.0        |        |      |
+| python         | v3.7.2        |        |      |
+| IDE ride       | v1.7.4.2        |        |      |
 | IDE pycharm    |         |        |      |
+| visual studio code(user)    | 1.48.0        |        |      |
 
 **7. Test env info** 
 
