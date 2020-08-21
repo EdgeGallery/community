@@ -37,7 +37,6 @@ EdgeGallery Security Compliance Test Case 3-5
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | Persona data transfer should only allowed when data          |
-|              | subjects' consent and authorization is obtained for personal |
-|              | data collection.                                             |
+|              | subjects' consent and authorization is obtained.             |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
