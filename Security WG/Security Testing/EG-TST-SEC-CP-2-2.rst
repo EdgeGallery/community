@@ -18,7 +18,7 @@ EdgeGallery Security Compliance Test Case 2-2
 +--------------+--------------------------------------------------------------+
 |step 1        | Install sslscan in the target deployment environment         |
 |              |                                                              |
-|              | git clone https://github.com/rbsec/sslscan.git               |
+|              | ``git clone https://github.com/rbsec/sslscan.git``           |
 |              |                                                              |
 |              | cd sslscan/                                                  |
 |              |                                                              |
