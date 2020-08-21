@@ -10,8 +10,9 @@ EdgeGallery Security Compliance Test Case 6-2
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Check that data subjects' consent and authorization is       |
-|description   | obtained for personal data collection.                       |
+|Test          | Check that data that 
+Set the session/voucher to a valid expiration date                            |
+|description   |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Configuration | Test tool and environment setup description                  |
