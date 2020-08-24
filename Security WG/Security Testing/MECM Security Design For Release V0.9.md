@@ -2,12 +2,49 @@
 |需求名称|涉及的规则项|
 |----|----|
 |[【MECM】添加边缘节点具备位置关联出坐标的能力](https://gitee.com/OSDT/dashboard?issue_id=I1QXQD) <br> [【MECM】地图具备打开省/市/区县的能力，在大地图时显示统计数据，小地图时显示拓扑数据](https://gitee.com/OSDT/dashboard?issue_id=I1QXQG)| Rule 1.1|
-|[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) | Rule 1.1|
+|[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) | Rule 1.1,Rule1.2|
 |[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Rule 3.1, Rule3.3|
 
-## [【MECM】添加边缘节点具备位置关联出坐标的能力](https://gitee.com/OSDT/dashboard?issue_id=I1QXQD)
-## [【MECM】地图具备打开省/市/区县的能力，在大地图时显示统计数据，小地图时显示拓扑数据](https://gitee.com/OSDT/dashboard?issue_id=I1QXQG)
+## [【MECM】添加边缘节点具备位置关联出坐标的能力](https://gitee.com/OSDT/dashboard?issue_id=I1QXQD)  [【MECM】地图具备打开省/市/区县的能力，在大地图时显示统计数据，小地图时显示拓扑数据](https://gitee.com/OSDT/dashboard?issue_id=I1QXQG)
+***
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. If plaintext does not need to be restored, use the irreversible PBKDF2 algorithm for encryption. If plaintext needs to be restored, you can use the AES-256 GCM algorithm for encryption   |
+| Implemetation details   | 1. SK is a sensitive data. SK will be saved to database as encrypted data. |
+| Related APIs            | NA                      |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA                          |
+| GUI testing steps       | 1. Instantiate any app . And a new AK/SK will be allocated for this app instance. |
+| GUI input example       | NA             |
+| Additional Info         | Check the database table for saving SK data, it shall be encrypted data. |
 
+## [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) 
+***
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.   |
+| Implemetation details   | 1. Use the user/password to authenticate. The user-management module can provide these function. |
+| Related APIs            | NA                      |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA                          |
+| GUI testing steps       | 1. login system , select a app store , and select any applications, then synchronize |
+| GUI input example       | NA             |
+| Additional Info         | NA |
+
+***
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.2 For each access request that requires authorization, the server must verify whether the user is authorized to perform this operation.  |
+| Implemetation details   | 1. Use the user/password to authenticate. The user-management module can provide these function. |
+| Related APIs            | NA                      |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA                          |
+| GUI testing steps       | 1. login system , select a app store , and select any applications, then synchronize |
+| GUI input example       | NA             |
+| Additional Info         | NA |
 
 ## [【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) 
 
