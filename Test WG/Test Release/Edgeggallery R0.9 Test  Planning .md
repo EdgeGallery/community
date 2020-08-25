@@ -32,7 +32,7 @@
         - MEP DNS test;         owner:mengpuhui  
         - docs test;          all 
         - network isolation test; owner:houminxi
-        - GUI test            owner:dev GUI 李媛媛；appstore gui liuhui；mecm gui 张阿利
+        - GUI test            owner:dev&appstore GUI 李媛媛；mecm gui 张阿利
         - 【MECM/APPStore】Edgegallery生态能力优化 test owner:liuhui
         - 【MEP/MECM]】AK/SK配置接口   【姜伟】
         - 【MEP】支持APP服务的心跳      【姜伟】
