@@ -57,6 +57,7 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 测试用例均在Gitee上创建并管理，关联EPIC任务。在测试用例标题中填入ID和测试目的。具体参见[操作指南](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20case%20template/Gitee_test_case_template.md)。
 
+测试用例评审：召集社区的研发、测试等相关人员评审测试用例，确保测试用例有效、多方理解一致且覆盖版本需求。评审后，调整补充完善测试用例。可针对不同epic或不同模块分别组织评审会，每次会议不超30分钟。
 
 **5. Delivery Epic** 
 
@@ -133,7 +134,13 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 **11. Risk analysis about testing** 
 
-**12. Known Defects and Issues** 
+- 针对需求/设计调整和细化延迟的风险，尽可能提前接入需求分析，准备用例；
+- 针对测试人员不足的风险，尽可能发挥现有人员的积极性，加强培训，提高自动化测试占比，提高效率。
+
+**12. Test Summary** 
+
+- Test Report（测试执行完毕后，出具测试报告，含Known Issues&Defects，为项目发布服务）
+- Test Work Summary（总结每位组员贡献，分享经验和不足，提出工作优化建议）
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
@@ -141,3 +148,4 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 |---------|------------|---------|
 | v0.1    | 2020/08/13 | initial |
 | v0.2    | 2020/08/20 | enhanced |
+| v0.3    | 2020/08/25 | enhanced |
