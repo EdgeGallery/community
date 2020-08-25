@@ -47,10 +47,11 @@
 
 **4. Test Case Management** 
 
-A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test steps, desired Test Results, actual test Results.
-测试用例包括：ID，测试目的，测试工具，前置条件，测试数据，测试步骤，预期结果，实际结果等。
+A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test steps, desired Test Results, actual test Results, Test Verdict.
+测试用例包括：ID，测试目的，测试工具，前置条件，测试数据，测试步骤，预期结果，实际结果，测试结果等。
 
-测试用例ID：EG-[EPIC ID]-TC-ID(ID三位数，从001开始)。
+- 测试用例ID：EG-[EPIC ID]-TC-ID(ID三位数，从001开始)。
+- 测试结果：pass/fail。
 
 测试用例如无EPIC关联，则ID中的EPIC ID用模块缩写代替，如MEP、MECM等；同时测试用例关联对应story。
 
