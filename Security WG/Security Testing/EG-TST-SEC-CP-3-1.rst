@@ -39,7 +39,7 @@ EdgeGallery Security Compliance Test Case 3-1
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |step 4        | Use the GUI to instantiate a mec app.                        |
-|              | Check the as/sk for the new a mec app instance is stored in  |                                      |
+|              | Check the as/sk for the new a mec app instance is stored in  |
 |              | the database(encrypted).                                     |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
