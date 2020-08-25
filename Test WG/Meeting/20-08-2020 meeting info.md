@@ -18,10 +18,10 @@
 Discussion about requirement clarification
 |姓名|任务|  
 |---|---|
-|刘辉| AppStore GUI test；EG 生态能力优化test  |
+|刘辉| EG 生态能力优化test  |
 |侯敏熙   |network isolation test；public cloud integration；|
 |彭育   | 安装部署支持All-in-one/支持离线部署;支持JJB部署；5G网元集成 ;installation test； |
-|李媛媛|app构建测试发布过程 test；developer GUI测试|
+|李媛媛|app构建测试发布过程 test；developer&AppStore GUI测试|
 |zhangali|app管理验证；MECM GUI测试|
 |姜伟|ak/sk；app心跳 |
 |mengpuhui|dns test；|
