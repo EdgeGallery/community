@@ -7,25 +7,7 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- 李松阳
-- Gaurav
-- Libu
-- 李开（九州云）
-- 刘辉（紫金山）
-- 刘慧玲
-- 鹿鑫
-- 吕京
-- 彭育
-- Puhui Meng（VMware)
-- Satish
-- 张倍源
-- 张阿利
-- 陈传雨
-- 于洋
-- 范桂飓（九州云）
-- Charles（迅琥）
-- 刘小飞（迅琥）
-- 彭康桓（迅琥）
+-
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
