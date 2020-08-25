@@ -102,13 +102,15 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
         - [platform-mgmt](https://gitee.com/EdgeGallery_group/platform-mgmt)
         - [helm-charts](https://gitee.com/EdgeGallery_group/helm-charts)
 
-    - Test env
-        - daily build jenkins
-        - Weekly build Jenkins
+    - Reference env
+        - daily build jenkins：daily.developer.edgegallery.org;daily.appstore.edgegallery.org;daily.mecm.edgegallery.org
+        - Weekly build Jenkins:weekly.developer.edgegallery.org;weekly.appstore.edgegallery.org;weekly.mecm.edgegallery.org
         - ......
     - Lab
         - 5GC env + Integration test；
         -
+
+基于测试环境选定的软件版本，在社区CI/CD环境上完成测试环境搭建相关配置，自动搭建测试目标，以支撑自动测试(开发相应自动化测试脚本)或人工测试。
 
 **9. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
