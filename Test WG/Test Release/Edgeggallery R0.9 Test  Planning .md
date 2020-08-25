@@ -45,13 +45,27 @@
 - S3P test scope
     - N/A
 
-**4. Delivery Epic** 
+**4. Test Case Management** 
+
+A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test steps, desired Test Results, actual test Results.
+测试用例包括：ID，测试目的，测试工具，前置条件，测试数据，测试步骤，预期结果，实际结果等。
+
+测试用例ID：EG-[EPIC ID]-TC-ID(ID三位数，从001开始)。
+
+测试用例均在Gitee上创建并管理，关联EPIC任务。
+
+测试用例如无EPIC关联，则ID中的EPIC ID用模块缩写代替，如MEP、MECM等；同时测试用例关联对应story。
+
+![TEST CASE CREATION 1](https://images.gitee.com/uploads/images/2020/0825/164955_bc272a68_7529853.png "屏幕截图.png")
+![TEST CASE CREATION 2](https://images.gitee.com/uploads/images/2020/0825/165057_75ad958b_7529853.png "屏幕截图.png")
+
+**5. Delivery Epic** 
 
 - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
 - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
 - third part component management（GO）
 
-**5. relative Tools** 
+**6. relative Tools** 
 
 |Tool Name|Version|Address | comments  |
 |---|---|---|---|
@@ -59,7 +73,7 @@
 |Jacoco|  | |   |
 |wiremock|  | |   |
 
-**6. Test development info** 
+**7. Test development info** 
 
 | tools&Language | version | remark | link |
 |----------------|---------|--------|------|
@@ -70,7 +84,7 @@
 | IDE pycharm    |         |        |      |
 | visual studio code(user)    | 1.48.0        |        |      |
 
-**7. Test env info** 
+**8. Test env info** 
 
 | infra  | Version | address | remarks |
 |--------|---------|---------|---------|
@@ -96,9 +110,9 @@
         - 5GC env + Integration test；
         -
 
-**8. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
+**9. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
-**9. Criteria for Test Execution** 
+**10. Criteria for Test Execution** 
 
     - Starting Criteria for test excution
         - 完成详细设计/架构更新        
@@ -118,9 +132,9 @@
         - 无阻塞性及严重性问题遗留
         - 确认所有依赖软件都在本地库中
 
-**10. Risk analysis about testing** 
+**11. Risk analysis about testing** 
 
-**11. Known Defects and Issues** 
+**12. Known Defects and Issues** 
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
