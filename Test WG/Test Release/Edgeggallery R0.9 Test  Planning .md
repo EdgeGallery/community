@@ -81,6 +81,21 @@
 | ....   | ......  |         |         |
 
 
+    - Jenkins addr：http://jenkins.edgegallery.org/
+    - repo
+        - [integration-testing](https://gitee.com/EdgeGallery_group/integration-testing)()
+        - [ci-management](https://gitee.com/edgegallery/ci-management)
+        - [platform-mgmt](https://gitee.com/EdgeGallery_group/platform-mgmt)
+        - [helm-charts](https://gitee.com/EdgeGallery_group/helm-charts)
+
+    - Test env
+        - daily build jenkins
+        - Weekly build Jenkins
+        - ......
+    - Lab
+        - 5GC env + Integration test；
+        -
+
 **8. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
 **9. Criteria for Test Execution** 
@@ -105,23 +120,7 @@
 
 **10. Risk analysis about testing** 
 
-**11. Resource dependency** 
-
-    - Jenkins addr：http://jenkins.edgegallery.org/
-    - repo
-        - [integration-testing](https://gitee.com/EdgeGallery_group/integration-testing)()
-        - [ci-management](https://gitee.com/edgegallery/ci-management)
-        - [platform-mgmt](https://gitee.com/EdgeGallery_group/platform-mgmt)
-        - [helm-charts](https://gitee.com/EdgeGallery_group/helm-charts)
-
-    - Test env
-        - daily build jenkins
-        - Weekly build Jenkins
-        - ......
-    - Lab
-        - 5GC env + Integration test；
-        -
-**12. Known Defects and Issues** 
+**11. Known Defects and Issues** 
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
