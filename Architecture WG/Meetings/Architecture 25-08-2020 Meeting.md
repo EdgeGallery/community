@@ -7,7 +7,15 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
--
+- 刘辉（紫金山）
+- Satish
+- Swarup
+- Leo（腾讯）
+- 陈共龙（腾讯）
+- 于洋
+- 吕京
+- Charles（迅琥）
+- 游永明（广州申迪）
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
