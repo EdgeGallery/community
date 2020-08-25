@@ -13,6 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  EdgeGallery 技术规划讨论 |    | 高维涛 |
+|  需求详细设计Walkthrough -- MECM |    | MECM项目组，陈传雨 |
 
 
 ## Meeting Records
