@@ -43,13 +43,21 @@ EdgeGallery Security Compliance Test Case 3-3
 |              | with example body:                                           |
 |              |                                                              |
 |              | ``{``                                                        |
-|              | ``   "authInfo":{``                                          |
-|              | ``       "credentials":{``                                   |
+|              |                                                              |
+|              |    ``"authInfo":{``                                          |
+|              |                                                              |
+|              |       `` "credentials":{``                                   |
+|              |                                                              |
 |              | ``           "accessKeyId":"QVUJMSUMgS0VZLS0tLS0",``         |
+|              |                                                              |
 |              | ``           "secretKey":"DXPb4sE1KhcHe07Kw5uorayETwId1JOj`` |
+|              |                                                              |
 |              |                         ``jOIRomRs5wyszoCR5R7AtVa28KT31Sc"   |
+|              |                                                              |
 |              | ``        }``                                                |
+|              |                                                              |
 |              | ``    }``                                                    |
+|              |                                                              |
 |              | `` }``                                                       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
