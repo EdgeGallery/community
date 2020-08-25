@@ -55,10 +55,8 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 测试用例如无EPIC关联，则ID中的EPIC ID用模块缩写代替，如MEP、MECM等；同时测试用例关联对应story。
 
-测试用例均在Gitee上创建并管理，关联EPIC任务。在测试用例标题中填入ID和测试目的。
+测试用例均在Gitee上创建并管理，关联EPIC任务。在测试用例标题中填入ID和测试目的。具体参见[操作指南](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20case%20template/Gitee_test_case_template.md)。
 
-![TEST CASE CREATION 1](https://images.gitee.com/uploads/images/2020/0825/164955_bc272a68_7529853.png "屏幕截图.png")
-![TEST CASE CREATION 2](https://images.gitee.com/uploads/images/2020/0825/165057_75ad958b_7529853.png "屏幕截图.png")
 
 **5. Delivery Epic** 
 
