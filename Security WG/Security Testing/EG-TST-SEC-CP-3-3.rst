@@ -36,7 +36,24 @@ EdgeGallery Security Compliance Test Case 3-3
 |              | -                                                            |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | For the error information returned by the application, check |
+|step 2        | Test applcm ak/sk config API                                 |
+|              |                                                              |
+|              | PUT /mec/v1/applcm/app_instance/{app_instance_id}/confs      |
+|              |                                                              |
+|              | with example body:                                           |
+|              |                                                              |
+|              | ``{``                                                        |
+|              | ``   "authInfo":{``                                          |
+|              | ``       "credentials":{``                                   |
+|              | ``           "accessKeyId":"QVUJMSUMgS0VZLS0tLS0",``         |
+|              | ``           "secretKey":"DXPb4sE1KhcHe07Kw5uorayETwId1JOj`` |
+|              |                         ``jOIRomRs5wyszoCR5R7AtVa28KT31Sc"   |
+|              | ``        }``                                                |
+|              | ``    }``                                                    |
+|              | `` }``                                                       |
+|              |                                                              |
++--------------+--------------------------------------------------------------+
+|step 3        | For the error information returned by the application, check |
 |              | whether there is any sensitive information in plaintext,     |
 |              | including: plaintext or ciphertext of password, key, bank    |
 |              | account number, session ID, etc.                             |
