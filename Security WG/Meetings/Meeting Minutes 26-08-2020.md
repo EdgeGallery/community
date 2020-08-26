@@ -26,7 +26,8 @@
 ## Discussion Items and Minutes
 
 ** **
-- Satish介绍了MEPM和MEP server之间Mm5的安全，方案1.通过API GW实现，涉及DNS server的安全目前主要考虑认证/鉴权
+- Satish介绍了MEPM和MEP server之间Mm5接口的安全方案，当前方案考虑通过API GW实现。涉及DNS server的安全目前主要考虑认证/鉴权，其他安全能力待进一步分析。整体方案计划这个版本完成设计，提交架构组评审。下个版本落地实现。
+- 吕京与程润东讨论了当前安全合规测试用例设计的进度，当前风险为appstore,developer的文档要周五才能完成，对策是安全工作组先完成用例基本测试步骤的设计，带开发项目文档完成后，实例化用例。
 
 ## Voting Items
 
