@@ -41,4 +41,7 @@
 
 ## 遗留任务
 
+1.跟维涛确认public cloud integration研发负责人 -刘辉&彭育&敏熙
+2.appstore设计冻结确认 -李媛媛
+3.network isolation设计确认 -minxi&彭育
 
