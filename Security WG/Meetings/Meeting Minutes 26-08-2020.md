@@ -6,8 +6,11 @@
 
 ## Meeting Attendees
 ** **
-- 
-- 
+- 吕京
+- Satish
+- Libu
+- 程润东
+- 袁国平
 
 
 
@@ -23,7 +26,7 @@
 ## Discussion Items and Minutes
 
 ** **
-- 
+- Satish介绍了MEPM和MEP server之间Mm5的安全，方案1.通过API GW实现，涉及DNS server的安全目前主要考虑认证/鉴权
 
 ## Voting Items
 
