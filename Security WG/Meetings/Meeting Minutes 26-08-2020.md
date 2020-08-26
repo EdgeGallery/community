@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 26-08-2020  | 11:00 AM to 12:00 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/ |
+| 26-08-2020  | 11:00 AM to 12:00 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/827579047 |
 
 ## Meeting Attendees
 ** **
