@@ -9,7 +9,7 @@
 | **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
 |-------------------|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
 | 彭育     | 华为           | perry.peng@huawei.com     |                               |                                     |
-| 侯敏熙     | 红帽           | 18515041014@163.com     |                               |Y                                     |
+| 侯敏熙     | 红帽           | mhou@redhat.com     |                               |Y                                     |
 | 姜伟     | 紫金山实验室           | jiangwei@pmlabs.com.cn     |                               |                                     
 | 刘辉     | 紫金山实验室           | liuhui@pmlabs.com.cn     | Y                              |      
 | 张怡     | 联想                  | zhangyil@lenovo.com       |                               |
