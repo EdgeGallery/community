@@ -24,6 +24,7 @@
 | 邹玲莉    | 华为             | zoulingli@huawei.com   |                                 |   
 | 陈辉    | 九州云             | chen.hui@99cloud.net   |                                 |   
 | 孙友伟    | 九州云             | sun.youwei@99cloud.net   |                                 |   
+| 丁宇卿    | 紫金山实验室      | dingyuqing@pmlabs.com.cn   |                                 |   
 
 ## 项目会议
 * 每周一 16:30-17:30
