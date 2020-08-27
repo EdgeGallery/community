@@ -16,6 +16,7 @@
 | 张阿利     | 中软                  | a_lizhang@163.com       |                               |
 | 李媛媛     | 中软                  | jasmine-Lyy@outlook.com       |                               |  
 | 孟璞辉     | VMware                  | pmeng@vmware.com       |                               |  
+| 丁宇卿     | 紫金山实验室                  | dingyuqing@pmlabs.com.cn       |                               |  
 
 ## 工作组会议
 * 每周四晚上7-8点周例会；
