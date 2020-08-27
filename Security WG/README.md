@@ -18,6 +18,14 @@ The overall goal for EdgeGallery security working group is to ensure secure and 
 - Trust in MEC applications
 - Vulnerability management
 
+## Acceptance Criteria for new feature/PR
+
+All contributors must check and make sure the below criteria's are met before raising Merge/Pull Request. If any violations the request can be rejected.
+
+- No Major Security vulnerabilities exist in the project/code. (Design guideline issues or Critical and Major static check issues)
+- No known CVE security vulnerabilites exist in project/code. Known CVE security vulnerability not resolved in the industry can be exception for this.
+- All static check tools Critical, Major and Minor issues must be resolve and cleared.
+
 ## Current Status
 
 The scope above and status related to the goals is summarized in the following table.
