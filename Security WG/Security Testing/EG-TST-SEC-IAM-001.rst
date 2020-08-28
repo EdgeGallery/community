@@ -50,6 +50,19 @@
 |                                  | reported by the API in response  |
 |                                  | http status code.                |
 +----------------------------------+----------------------------------+
-| References                       | TBD (add reference to eg micro   |
-|                                  | service REST API document URL)   |
+| References                       | Refer API samples below section  |
 +----------------------------------+----------------------------------+
+
+
+Samples API to Refer
+--------------------
+As an reference, consider MECM REST API as provided here and for every API, iterate above test cases with required Headers, query params and response body as defined in actual MECM REST API document.
+
+* /apm/v1/tenants/{tenant_id}/packages
+* /appo/v1/tenants/{tenant_id}/app_instance_infos
+* /appo/v1/tenants/{tenant_id}/app_instances
+* /inventory/v1/tenants/{tenant_id}/applcms
+* /inventory/v1/tenant/{tenant_id}/appstores
+* /inventory/v1/tenant/{tenant_id}/mechosts
+
+NOTE: if any of the API is defined without authendication token header, then it should not be passed by test case unless its required for an usecase.
