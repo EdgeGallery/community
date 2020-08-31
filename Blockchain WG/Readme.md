@@ -17,6 +17,7 @@
 |张建华      | 云讯智能            |jianhua@yunex.com   |   |   |
 |刘小飞      |迅琥科技             |xiaofei.liu@xeniro.io   |   |   |
 |游永明      |广州申迪             |youym@189.cn   |   |   |
+|付月霞      |中国移动 |fuyuexia@chinamobile.com|   |   |
 
 -  **工作组主席Chair：冯杰（西电），  工作组副主席Co-Chair： 刘小飞（迅琥）**     	
 # 工作组会议
