@@ -26,6 +26,12 @@ EdgeGallery Security Compliance Test Case 7-2
 |step 1        | Examine and record the encoding style of frontend and        |
 |              | backend                                                      |
 |              |                                                              |
+|              | Visit ftrontend interface, for example                       |
+|              | URL: https://daily.appstore.edgegallery.org/#/index          |
+|              | On the page, click right mouse click, choose 'inspect page   |
+|              | source code', you can find the frontend encoding style in    |
+|              | <meta charset>                                               |
+|              |                                                              |                
 +--------------+--------------------------------------------------------------+
 |step 2        | Compare the encoding style is consistent between frontend    |
 |              | and frontend                                                 |
