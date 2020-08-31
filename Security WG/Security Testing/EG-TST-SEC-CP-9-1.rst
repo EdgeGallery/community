@@ -2,7 +2,7 @@
 | Do not log unsanitized user      |                                  |
 | input.                           |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-LOG-001               |
+| Test case ID                     | EG-TST-SEC-CP-9-1                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Unsanitized loging can allow an  |
 |                                  | attacker to forge log entries or |
