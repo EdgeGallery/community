@@ -1,7 +1,7 @@
 +---------------------+-----------------------------------------------+
 | Sufficient Logging. |                                               |
 +=====================+===============================================+
-| Test case ID        | EG-TST-SEC-LOG-002                            |
+| Test case ID        | EG-TST-SEC-CP-9-2                             |
 +---------------------+-----------------------------------------------+
 | Test purpose        | Ensure that all security-related successes    |
 |                     | and failures be logged. When                  |
