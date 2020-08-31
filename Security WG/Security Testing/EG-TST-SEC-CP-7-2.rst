@@ -35,8 +35,8 @@ EdgeGallery Security Compliance Test Case 7-2
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 3        |                                                              |
-|              |                                                              |
+|step 3        | Examine the source code to confirm KUBECONFIG file is        |
+|              | validated                                                    |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | Define the expected result when this test case FAIL and PASS |
