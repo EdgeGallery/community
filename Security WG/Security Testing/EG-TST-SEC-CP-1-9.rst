@@ -1,7 +1,7 @@
 +----------------------------------+----------------------------------+
 | Password should be super complex |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-009               |
+| Test case ID                     | EG-TST-SEC-CP-1-9                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Password should include          |
 |                                  | different complexity to avoid    |
@@ -11,7 +11,7 @@
 +----------------------------------+----------------------------------+
 | Test tool                        |                                  |
 +----------------------------------+----------------------------------+
-| Test description                 | Verify the user’s password       |
+| Test description                 | Verify the user’s password      |
 |                                  | complexity to include predefined |
 |                                  | policies such as including       |
 |                                  | special char, alphanumeric       |
@@ -23,7 +23,7 @@
 +----------------------------------+----------------------------------+
 | Test steps                       |                                  |
 +----------------------------------+----------------------------------+
-| step 1                           | Set the user’s password with all |
+| step 1                           | Set the user's password with all |
 |                                  | defined policies and length      |
 +----------------------------------+----------------------------------+
 | Test verdict                     | make sure 200 status code is     |
