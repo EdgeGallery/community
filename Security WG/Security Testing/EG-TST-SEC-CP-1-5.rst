@@ -4,7 +4,7 @@
 | Test case ID                  | EG-TST-SEC-CP-1-5                   |
 +-------------------------------+-------------------------------------+
 | Test purpose                  | Deny user to access to unauthorized |
-|                               | EG service’s operation.            |
+|                               | EG service's operation.             |
 |                               |                                     |
 |                               | Effect: -ve                         |
 +-------------------------------+-------------------------------------+
@@ -14,7 +14,7 @@
 |                               | enabled with proper authorization   |
 |                               | to make sure the eg resource's does |
 |                               | not allowed for accessing beyond    |
-|                               | the user’s access level defined by |
+|                               | the user's access level defined by  |
 |                               | authorization roles, etc            |
 +-------------------------------+-------------------------------------+
 | Configuration steps           |                                     |
@@ -41,7 +41,7 @@
 |                               | details, generate the user token by |
 |                               | following login/token API.          |
 +-------------------------------+-------------------------------------+
-| step 2                        |  Perform the given API with token   |
+| step 2                        | Perform the given API with token    |
 |                               | generated in step 1                 |
 +-------------------------------+-------------------------------------+
 | Test verdict                  | make sure 403 status code is        |
