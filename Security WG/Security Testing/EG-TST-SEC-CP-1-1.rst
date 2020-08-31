@@ -2,7 +2,7 @@
 | Must Authendicate eg users       |                                  |
 | successfully                     |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-001               |
+| Test case ID                     | EG-TST-SEC-CP-1-1                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Allown only audendicated eg user |
 |                                  | for accessing EG service         |
