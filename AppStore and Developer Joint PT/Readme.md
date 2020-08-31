@@ -9,10 +9,7 @@
 
 ## 项目成员
 | **Name**  | **Affiliation** |         **Email**         |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
-|-----------|-----------------|---------------------------|---------------------------------|-------------------------------------|
-| 毛健      | 赛特斯           | maoj@certusnet.com.cn     |                                 |                                     
-| 王立中    | 赛特斯           | wanglz@certusnet.com.cn   |                                 |                                     
-| 马伟      | 赛特斯           | mawei@certusnet.com.cn    |                                 |                                     
+|-----------|-----------------|---------------------------|---------------------------------|-------------------------------------|                                  
 | 张倍源      | 华为           | zhangbeiyuan@huawei.com    |                                 |                                     
 | 孙靖涵    | 华为             | sunjinghan1@huawei.com    |                                 |                                     
 | 李治谦    | 华为             | lizhiqian1@huawei.com     |                                 |   
