@@ -31,7 +31,10 @@ EdgeGallery Security Compliance Test Case 7-2
 |              | On the page, click right mouse click, choose 'inspect page   |
 |              | source code', you can find the frontend encoding style in    |
 |              | <meta charset>                                               |
-|              |                                                              |                
+|              |                                                              |
+|              | Examine the source code of corresponding backend project,    |
+|              | use code search tool to search 'encoding' and find out the   |
+|              | encoding style                                               |
 +--------------+--------------------------------------------------------------+
 |step 2        | Compare the encoding style is consistent between frontend    |
 |              | and frontend                                                 |
