@@ -11,7 +11,7 @@
 +----------------------------------+----------------------------------+
 | Test tool                        |                                  |
 +----------------------------------+----------------------------------+
-| Test description                 | Verify the user’s password      |
+| Test description                 | Verify the user's password       |
 |                                  | complexity to include predefined |
 |                                  | policies such as including       |
 |                                  | special char, alphanumeric       |
