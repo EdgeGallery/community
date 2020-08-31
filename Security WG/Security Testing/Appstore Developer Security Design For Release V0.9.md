@@ -14,7 +14,7 @@
 | 相关文件           | 不涉及 |
 | 相关GUI URL        |     https://daily.developer.edgegallery.org/                      |
 | GUI测试步骤      | 1.F12<br> 2.在浏览器输入GUI URL<br>3.输入正确的用户名、密码，拖动验证条，完成验证,点击登录<br>4.进入developer首页，查看访问方式为https单向访问，经服务器端已生成token <br>5.选择导航栏测试-测试应用，按照要求成功上传一个csar格式的app<br> 6.上传完成，自动调整至测试-测试任务管理页面，等待测试状态为COMPLETED，点击上传<br>7.显示上传成功，则成功上传到appstore|
-| GUI输入示例       | Provie the example parameter to input in the GUI             |
+| GUI输入示例       | 不涉及             |
 | 附加信息         | 不涉及 |
 ### 1.2 对于每个需要授权的访问请求，服务器必须验证用户是否被授权执行此操作。
 
