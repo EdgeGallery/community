@@ -1,7 +1,7 @@
 +---------------------------+-----------------------------------------+
 | Do not allow invalid data |                                         |
 +===========================+=========================================+
-| Test case ID              | EG-TST-SEC-IAM-007                      |
+| Test case ID              | EG-TST-SEC-CP-1-7                       |
 +---------------------------+-----------------------------------------+
 | Test purpose              | Verify the eg service API to make sure  |
 |                           | it does not allow invalid data which    |
