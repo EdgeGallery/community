@@ -2,7 +2,7 @@
 | Forgot password should include   |                                  |
 | verification methods             |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-011               |
+| Test case ID                     | EG-TST-SEC-CP-1-11               |
 +----------------------------------+----------------------------------+
 | Test purpose                     | When password is required to     |
 |                                  | reset dueto forgotton password,  |
