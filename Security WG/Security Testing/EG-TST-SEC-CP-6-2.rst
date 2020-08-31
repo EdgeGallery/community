@@ -10,8 +10,8 @@ EdgeGallery Security Compliance Test Case 3-5
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Check whether a mechanism exists for re-login after the      |
-|description   |   browser window times out                                   |
+|Test          | Check whether a mechanism exists for re-login after the browser window times out     |
+|description   |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Configuration | Test tool and environment setup description                  |
