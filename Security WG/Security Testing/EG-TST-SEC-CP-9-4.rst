@@ -1,7 +1,7 @@
 +----------------------------------+----------------------------------+
 | Avoid Logging of Excessive Data. |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-LOG-004               |
+| Test case ID                     | EG-TST-SEC-CP-9-4                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Suppress large numbers of        |
 |                                  | duplicate log messages and       |
