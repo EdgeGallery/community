@@ -3,18 +3,22 @@ EdgeGallery Security Compliance Test Case 3-5
 *********************************************
 
 +--------------+--------------------------------------------------------------+
-|Test case ID  | EG-TST-SEC-CP-3-5                                            |
+|Test case ID  | EG-TST-SEC-CP-6-2                                            |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test tool     | N/A                                                          |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test          | Check whether a mechanism exists for re-login after the browser window times out     |
-|description   |                                                              |
+|Test          | Check whether a mechanism exists for re-login after the      |
+|description   | browser window times out                                                             |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Configuration | Test tool and environment setup description                  |
+|Configuration | 1.	Known website address
+2.	Web services are running properly.
+3.	The login authentication module is available for web services.
+4.	The user name and password are always correct.
+                  |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
 |step 1        | N/A                                                          |
