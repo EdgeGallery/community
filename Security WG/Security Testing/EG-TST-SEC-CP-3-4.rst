@@ -33,7 +33,9 @@ EdgeGallery Security Compliance Test Case 3-4
 |              | Try to create a new user account by visiting the user        |
 |              | registration interface.                                      |
 |              |                                                              |
-|              | User registration URL:                                       |
+|              | User registration URL: https://daily.auth.edgegallery.org/?  |
+|              | enable_sms=true& return_to=https://daily.developer.edgegalle |
+|              | ry.org#/mecm/ register                                       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |step 2        | Fill in the use info without agreeing the privacy policy.    |
