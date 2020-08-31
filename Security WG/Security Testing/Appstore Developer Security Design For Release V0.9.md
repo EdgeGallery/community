@@ -8,12 +8,12 @@
 | 内容                | 相关信息                                      |
 | ----------------------- | ------------------------------------------------------------ |
 | 安全设计规则编号 | 1.1  所有用于跨网络传输的机器对机器和人对机器接口都必须具有访问认证机制，并且认证过程必须在服务器上执行。<br>注意：跨网络接口必须支持身份验证，以防止欺骗访问。              |
-| 实施细节   | **代填**  |
-| 相关API          | User-mgmt为其他平台提供认证鉴权，用户名和密码校验生成jwt token,https单向认证，用户角色权限管理，认证过程在服务器端，Appstore/Developer/MECM所有人机接口提供token认证，https访问<br>【**机机接口**】从dev上传csar包到app，mecm从app拉取csar包，具有认证机制|
-| API有效负载示例     | 机机接口样例（待确定）：<br>{    <br>    "authInfo":{<br>        "credentials":{<br>            "accessKeyId":"QVUJMSUMgS0VZLS0tLS0",<br>           "secretKey":"DXPb4sE1KhcHe07Kw5uorayETwId1JOjjOIRomRs5wyszoCR5R7AtVa28KT31Sc"<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          }<br>    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>}<br>人机接口：<br>xxx|
+| 实施细节   | **User-mgmt为其他平台提供认证鉴权，用户名和密码校验生成jwt token,https单向认证，用户角色权限管理，认证过程在服务器端，Appstore/Developer/MECM所有人机接口提供token认证，https访问**  |
+| 相关API          | 1.user-mgmt生成token(此api是后台之间互相调用，后续改进之后前台页面不会看到token)<br>2.从dev上传csar包到app（post: /mec/developer/v1/apps/{appId}/action/upload）<br>3.mecm从app拉取csar包(目前mecm暂未实现，调用的是appstore的获取列表接口，get: /mec/appstore/v1/apps/)|
+| API有效负载示例     | 不涉及|
 | 相关文件           | 不涉及 |
-| 相关GUI URL        |                           |
-| GUI测试步骤      | 1.在浏览器输入GUI URL<br>2.输入正确的用户名、密码，拖动验证条，完成验证,点击登录<br>3.进入某一模块（usermgmt或者appstore或者developer或者mecm）首页，F12，查看访问方式为https单向访问，经服务器端已生成token |
+| 相关GUI URL        |     https://daily.developer.edgegallery.org/                      |
+| GUI测试步骤      | 1.F12<br> 2.在浏览器输入GUI URL<br>3.输入正确的用户名、密码，拖动验证条，完成验证,点击登录<br>4.进入developer首页，查看访问方式为https单向访问，经服务器端已生成token <br>5.选择导航栏测试-测试应用，按照要求成功上传一个csar格式的app<br> 6.上传完成，自动调整至测试-测试任务管理页面，等待测试状态为COMPLETED，点击上传<br>7.显示上传成功，则成功上传到appstore|
 | GUI输入示例       | Provie the example parameter to input in the GUI             |
 | 附加信息         | 不涉及 |
 ### 1.2 对于每个需要授权的访问请求，服务器必须验证用户是否被授权执行此操作。
