@@ -2,7 +2,7 @@
 | Must unauthedicate unknown eg    |                                  |
 | user                             |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-002               |
+| Test case ID                     | EG-TST-SEC-CP-1-2                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Reject access to EG service from |
 |                                  | unknown eg user.                 |
