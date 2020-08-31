@@ -1,7 +1,7 @@
 +----------------------------------+----------------------------------+
 | Password should be super complex |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-010               |
+| Test case ID                     | EG-TST-SEC-CP-1-10               |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Password should include          |
 |                                  | different complexity to avoid    |
@@ -11,7 +11,7 @@
 +----------------------------------+----------------------------------+
 | Test tool                        |                                  |
 +----------------------------------+----------------------------------+
-| Test description                 | Verify when user’s password      |
+| Test description                 | Verify when user’s password     |
 |                                  | complexity is not met, system    |
 |                                  | failed the request for password  |
 |                                  | update                           |
@@ -24,7 +24,7 @@
 +----------------------------------+----------------------------------+
 | Test steps                       |                                  |
 +----------------------------------+----------------------------------+
-| step 1                           | Set the user’s password with     |
+| step 1                           | Set the user’s password with    |
 |                                  | violating characters or length   |
 +----------------------------------+----------------------------------+
 | Test verdict                     | make sure 400 status code is     |
