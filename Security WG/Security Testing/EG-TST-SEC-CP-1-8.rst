@@ -2,7 +2,7 @@
 | Over privileged access for       |                                  |
 | system user should be prohibited |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-008               |
+| Test case ID                     | EG-TST-SEC-CP-1-8                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | When eg service are deployed     |
 |                                  | make sure that system is         |
