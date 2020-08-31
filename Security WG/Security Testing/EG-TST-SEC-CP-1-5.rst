@@ -1,10 +1,10 @@
 +-------------------------------+-------------------------------------+
 | Deny unauthorized user access |                                     |
 +===============================+=====================================+
-| Test case ID                  | EG-TST-SEC-IAM-005                  |
+| Test case ID                  | EG-TST-SEC-CP-1-5                   |
 +-------------------------------+-------------------------------------+
 | Test purpose                  | Deny user to access to unauthorized |
-|                               | EG service’s operation.             |
+|                               | EG service’s operation.            |
 |                               |                                     |
 |                               | Effect: -ve                         |
 +-------------------------------+-------------------------------------+
@@ -12,9 +12,9 @@
 +-------------------------------+-------------------------------------+
 | Test description              | Every micro service eg should be    |
 |                               | enabled with proper authorization   |
-|                               | to make sure the eg resource’s does |
+|                               | to make sure the eg resource's does |
 |                               | not allowed for accessing beyond    |
-|                               | the user’s access level defined by  |
+|                               | the user’s access level defined by |
 |                               | authorization roles, etc            |
 +-------------------------------+-------------------------------------+
 | Configuration steps           |                                     |
