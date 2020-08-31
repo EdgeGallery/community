@@ -2,10 +2,10 @@
 | Allow only Authorized user       |                                  |
 | access                           |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-IAM-003               |
+| Test case ID                     | EG-TST-SEC-CP-1-3                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Allow user to access only        |
-|                                  | permitted Guard EG service’s     |
+|                                  | permitted Guard EG service’s    |
 |                                  | operation.                       |
 |                                  |                                  |
 |                                  | Effect: +ve                      |
@@ -15,7 +15,7 @@
 | Test description                 | Every micro service eg should be |
 |                                  | enabled with proper              |
 |                                  | authorization to make sure the   |
-|                                  | eg resource’s access is allowed  |
+|                                  | eg resource’s access is allowed |
 |                                  | ONLY based on the authorization  |
 |                                  | level, which current user has.   |
 +----------------------------------+----------------------------------+
