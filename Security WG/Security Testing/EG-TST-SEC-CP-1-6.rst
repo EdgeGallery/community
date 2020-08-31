@@ -1,7 +1,7 @@
 +-----------------------+---------------------------------------------+
 | Allow only valid data |                                             |
 +=======================+=============================================+
-| Test case ID          | EG-TST-SEC-IAM-006                          |
+| Test case ID          | EG-TST-SEC-CP-1-6                           |
 +-----------------------+---------------------------------------------+
 | Test purpose          | Verify the eg service API to make sure it   |
 |                       | allows only valid data with required format |
