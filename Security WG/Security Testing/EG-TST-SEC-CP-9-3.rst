@@ -2,7 +2,7 @@
 | Do not add Sensitive Information |                                  |
 | into Log or Log file.            |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-LOG-003               |
+| Test case ID                     | EG-TST-SEC-CP-9-3                |
 +----------------------------------+----------------------------------+
 | Test purpose                     | Consider seriously the           |
 |                                  | sensitivity of the information   |
