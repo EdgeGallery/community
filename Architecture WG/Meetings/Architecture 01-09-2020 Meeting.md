@@ -13,6 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  Requirements walkthrough - APPStore/测试平台/Developer/Usermanagement  |     | 张倍源/李松阳/孙靖涵/张海龙/李治谦 |
+|  代码门禁/静态检查规则讨论（含测试代码，如UT等）   |    | 张倍源 |
 |  文档系统搭建进展Updates   |    | 高维涛 |
 |  EdgeGallery技术规划讨论   |    | 高维涛 |
 
