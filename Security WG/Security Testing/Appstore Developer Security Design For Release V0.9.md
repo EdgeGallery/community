@@ -63,7 +63,7 @@
 | 实施细节   |   **部署user/app/dev平台项目时，需要新建非root用户去启动镜像（当前未实现），mecm待分析**|
 | 相关API          |不涉及 |
 | API有效负载示例     | 不涉及|
-| 相关文件           | 不涉及 |
+| 相关文件           | user-mgmt/docker/Dockerfile<br> appstore-be/docker/Dockerfile<br>developer-be/docker/Dockerfile |
 | 相关GUI URL        |        不涉及                   |
 | GUI测试步骤      | 不涉及|
 | GUI输入示例       |     不涉及        |
@@ -87,11 +87,11 @@
 | ----------------------- | ------------------------------------------------------------ |
 | 安全设计规则编号 | 1.7 所有身份验证控件必须安全失败。<br>注意:开发人员必须正确处理错误消息的显示             |
 | 实施细节   | **user平台日志记录中不能有敏感信息，登录失败需要模糊提示，app/dev模块校验token失败需要增加日志记录，mecm待分析**  |
-| 相关API          |不涉及 |
+| 相关API          |user框架自带的login in接口<br>appstore平台所有接口<br>developer平台所有接口 |
 | API有效负载示例     | 不涉及|
 | 相关文件           | 基于日构建环境，日志文件位置<br>user: /var/log/user-mgmt/user-mgmt-be.log <br>app: /var/log/appstore/appstore-be.log <br>dev: /var/log/developer/developer-be.log|
-| 相关GUI URL        |        不涉及                   |
-| GUI测试步骤      | 不涉及|
+| 相关GUI URL        |        https://daily.developer.edgegallery.org/<br>https://daily.appstore.edgegallery.org/                   |
+| GUI测试步骤      | user平台登录失败测试<br>1.在浏览器输入上述的developer或者appstore的GUI URL<br>2.在登录页面随便输入用户名和密码，导致登录失败，在日构建环境的日志文件（位置已在上述相关文件中描述）中查看是否具有日志记录<br>app/dev校验token失败测试<br>方法一<br>1.在浏览器输入上述的developer或者appstore的GUI URL<br>2.在登录页面输入正确的用户名、密码、拉动滑块完成验证，点击登录，成功登入app或者dev首页<br>3.不要做什么操作，过一个小时后再来操作，提示token过期,去日志文件位置查看对应的日志中是否有记录token过期<br>方法二<br>可以咨询测试人员，利用api（接口）测试怎么校验token失败，从而去检查日志|
 | GUI输入示例       |     不涉及        |
 | 附加信息         | 不涉及 |
 ### 1.8 忘记的密码功能和其他恢复路径不应泄露当前密码，新密码也不应以明文形式发送给用户。
@@ -100,12 +100,12 @@
 | ----------------------- | ------------------------------------------------------------ |
 | 安全设计规则编号 | 1.8 忘记的密码功能和其他恢复路径不应泄露当前密码，新密码也不应以明文形式发送给用户。             |
 | 实施细节   | **user平台当前通过手机验证码重置密码，app/dev/mecm不涉及**  |
-| 相关API          |不涉及 |
+| 相关API          |user平台忘记密码（PUT）：/v1/users/password |
 | API有效负载示例     | 不涉及|
 | 相关文件           | 不涉及 |
-| 相关GUI URL        |        不涉及                   |
-| GUI测试步骤      | 同1.6|
-| GUI输入示例       |      同1.6       |
+| 相关GUI URL        |        https://daily.appstore.edgegallery.org                   |
+| GUI测试步骤      | 1.浏览器输入GUI URL<br>2.点击登录页右下角的忘记密码链接，进入重置密码页<br>3.输入已注册账号的电话号码，获取验证码，填写新密码以及密码确认，点击提交按钮，观察是否可以修改成功<br>4.如果修改成功，利用新密码登录，观察是否可以成功登入|
+| GUI输入示例       |      不涉及      |
 | 附加信息         | 不涉及 |
 ### 1.9 更改密码功能必须包括旧密码、新密码和密码确认。
 
