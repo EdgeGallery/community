@@ -33,15 +33,15 @@
         - docs test;          all 
         - network isolation test; owner:houminxi
         - GUI test            owner:dev&appstore GUI 李媛媛；mecm gui 张阿利
-        - 【MECM/APPStore】Edgegallery生态能力优化 test owner:liuhui
-        - 【MEP/MECM]】AK/SK配置接口   【姜伟】
+        -  _【MECM/APPStore】Edgegallery生态能力优化 test owner:liuhui【移入ReleaseV1.0】_ 
+        - 【MEP/MECM]】AK/SK配置接口   【姜伟】【移入ReleaseV1.0】
         - 【MEP】支持APP服务的心跳      【姜伟】
         - 【Developer】优化APP的构建+测试+发布过程【李媛媛】
         - 【MECM】 application management& verification 【张阿利】
         - 【MEP/MECM】 Public cloud Integration owner:侯敏熙
         - 【Test】安装部署支持all-in-one/支持离线部署 owner 彭育
         - 【Test】Jenkins job 支持JJB部署；  owenr 彭育
-        - 【Poc/Test feature】 5G 网元集成      owenr 彭育
+        -  _【Poc/Test feature】 5G 网元集成      owenr 彭育【移入ReleaseV1.0】_ 
 - S3P test scope
     - N/A
 
