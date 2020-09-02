@@ -23,7 +23,7 @@ TSC members who attended:
 
 Item | Owner
 ---- | ----
-Milestone 1.4需求、目标、开放仓库审视 | PT：张倍源、陈传雨、黎明江<br>WG：测试WG，安全WG，集成WG 
+Milestone 1.4需求、目标、开放仓库审视 | RM：章清洁、张倍源、陈传雨、黎明江<br>WG：测试WG，安全WG，集成WG 
 架构组进展 | 高维涛（华为）
 安全组进展 | 袁国平（安恒）
 集成组进展 | 刘芷若（信通院）
