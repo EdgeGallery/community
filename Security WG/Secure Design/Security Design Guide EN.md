@@ -20,21 +20,21 @@ telnet, snmp, ssh, ftp, sftp, netconf
 
 Test steps:
 1. Design horizontal privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to access user B's resources.
-2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to perform opertions or use functions out of his/her permisson scope.
+2. Design vertical privilege escalation test cases to verify the existence of authorization mechanism. e.g. User A try to perform operations or use functions out of his/her permission scope.
 
 1.3 The server must validate the size, type, length, and special characters of all untrusted data sources and reject any data that fails the validation.  
 **Notice**: To prevent attackers from intercepting and tampering with requests through a proxy to bypass the validity check of the client, data validation must be performed on the server.
 
 Test steps:
 1. Review the code to confirm all APIs validate the size, type, length, and special characters of all untrusted data sources.
-2. Design test cases to invoke APIs with abnoraml data payload and confirm any data that fails the validation are rejected.
+2. Design test cases to invoke APIs with abnormal data payload and confirm any data that fails the validation are rejected.
 
 1.4 Functions that allow access to the system or data while bypassing the system security mechanism (such as authentication, permission control, and log recording) are prohibited.  
 **Notice**: If a product has functions that allow access to the system or data without the system security mechanism, malicious personnel may be aware of the functions and perform operations without authorization, which greatly affects the system.  
 
 Test steps:
-1. Review the code to confirm the founctions that allow access to the system or data cannot bypassing the system security mechanism.
-2. Perfrom penetration tesing to validate there is no way to bypass the system security mechanism.
+1. Review the code to confirm the functions that allow access to the system or data cannot bypassing the system security mechanism.
+2. Perform penetration teasing to validate there is no way to bypass the system security mechanism.
 
 Test tools：
 OWASP ZAP, Postman
@@ -44,7 +44,7 @@ OWASP ZAP, Postman
 
 Test steps:
 1. Review the Dockerfile to confirm Docker are run as a non-root user.
-2. Design privilege escalation scripts to validatethe  file permission and file owner settings are proper.
+2. Design privilege escalation scripts to validate the  file permission and file owner settings are proper.
 
 1.6 Account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism.
 
@@ -72,7 +72,7 @@ Test Steps:
 1.10 Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases.
 
 Test Steps:
-1. Login the system and use the change password function, try to change password to commnly chosen passwords and weak passphrases.
+1. Login the system and use the change password function, try to change password to commonly chosen passwords and weak passphrases.
 2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
 
 ## 2. Secure Transmission  
@@ -153,7 +153,7 @@ Test steps:
 **Notice**: With the development of cryptographic technologies and improvement of computing capabilities, some cryptographic algorithms no longer apply to the current security field, such as insecure symmetric encryption algorithms DES and RC4, insecure asymmetric encryption algorithm RSA-1024, insecure hash algorithms SHA-0, SHA-1, MD2, MD4, and MD5, and insecure key negotiation algorithms DH-1024. Instead, AES-256, RSA-3072, SHA-256, PBKDF2, or stronger cryptographic algorithms are recommended.  
 
 Test steps:
-1. Examine the code and confirm strong cryoptograhic cipher suites are used.
+1. Examine the code and confirm strong cryptographic cipher suites are used.
 2. User openssl to scan each port to verify the cipher suites used.
         
 4.3 Keys used to encrypt data cannot be hard-coded.  
@@ -180,7 +180,7 @@ Test steps：
 
 Test steps:
 1. Design user login scripts to simulate brutal login attempts, confirm the user account will be locked out. 
-2. Use JMeter to simulate DOS attcck against APIs, check the operational status of the system.
+2. Use JMeter to simulate DOS attack against APIs, check the operational status of the system.
 
 Test tools:
 JMeter
@@ -188,7 +188,7 @@ JMeter
 5.2 The application must limit the number of active concurrent sessions.
 
 Test steps:
-1. Design test case to establish as many concurtent sessions as possible and confirm that the number of acitve concurrent sessions is limited.
+1. Design test case to establish as many concurrent sessions as possible and confirm that the number of active concurrent sessions is limited.
 
 5.3 All input must be limited to an appropriate size limit.
 
@@ -204,7 +204,7 @@ Test steps:
 Test steps:
 1. (User A) Log in the system, record the session identifier.
 2. (User A) Log in the system using another client.
-3. Confirm the seesion identifier generated in step 1 has been invalidated.
+3. Confirm the session identifier generated in step 1 has been invalidated.
 
 6.2 Set sessions/credentials a valid expiration date.
 
@@ -232,25 +232,25 @@ Test steps:
 **Notice**: Different encodings between client and server can have security implications and have been used in the past to bypass validation and WAFs to perform XSS attacks.
 
 Test steps:
-1. Examine the code to comfirm same encoding style is used.
+1. Examine the code to confirm same encoding style is used.
 
 7.2 XML or JSON schema must be in place and verified before accepting input.  
-**Notice**: Schema validation is the first level of defence against attacks on the application logic.
+**Notice**: Schema validation is the first level of defense against attacks on the application logic.
 
 Test steps:
 1. Examine the code to confirm XML and JSON schema validation is implemented.
 2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional, confirm any data that fails the validation are rejected.
 
-7.3 Session ID of web application must be random and after authentication new session id must be genereated. (This rule will take effect in R1.0)
+7.3 Session ID of web application must be random and after authentication new session id must be generated. (*This rule will take effect in R1.0**)
 
 Test steps:
 1. Log in the system and record the session ID.
 2. Log out then log in the system again, compare the session ID with the previous one, confirm the session IDs are different.
 
-7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.  (This rule will take effect in R1.0)
+7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.  (**This rule will take effect in R1.0**)
 
 Test steps:
-1. Upload the files with restricted file extenstions.
+1. Upload the files with restricted file extensions.
 2. Examine that upload should fail with proper response.
 
 ## 8. Security Document  
@@ -274,10 +274,10 @@ NMap
 ## 9 . Log Security 
 
 9.1 Do not log unsanitized user input.
-**Notice**: Unsanitized loging can allow an attacker to forge log entries or inject malicious content into logs.
+**Notice**: Unsanitized logging can allow an attacker to forge log entries or inject malicious content into logs.
 
 Test steps:
-1. Examine the system log and confirim there is no unsanitized user date included.
+1. Examine the system log and confirm there is no unsanitized user date included.
 
 9.2 Sufficient Logging.  
 **Notice**: Ensure that all security-related successes and failures be logged. When security-critical events are not logged properly, such as a failed login attempt, this can make malicious behavior more difficult to detect and may hinder forensic analysis after an attack succeeds.
@@ -299,13 +299,13 @@ Test steps:
 
 ## 10. Database Security
 
-10.1 Default password provided by database vendor must not be used and password must be complex and unused Default Database accounts must be disabled/deleted. (This rule will take effect in R1.0)
+10.1 Default password provided by database vendor must not be used and password must be complex and unused Default Database accounts must be disabled/deleted. (**This rule will take effect in R1.0**)
 
 Test steps:
 1. Try login with default password. It must fail.
-2. Query all the database accounts. Account which are no longer requried must not exist.
+2. Query all the database accounts. Account which are no longer required must not exist.
 
-10.2 Each database account must have proper authorization privialges set. Assign only the least privilage required for the task. (This rule will take effect in R1.0) 
+10.2 Each database account must have proper authorization privileges set. Assign only the least privilege required for the task. (**This rule will take effect in R1.0**) 
 
 Test steps:
 1. Try the operations of admin using user account, it must not allow.
@@ -319,7 +319,7 @@ Test steps:
 Test Steps:
 For each mitigation methods:
 1. Design a test case to check the implementation correctness of the mitigation method;
-2. Design a test case to attck the system from an attacker's perspective and verify the effectiveness of the mitigation method.
+2. Design a test case to attack the system from an attacker's perspective and verify the effectiveness of the mitigation method.
 
 ## References
 1. https://gdpr-info.eu/
