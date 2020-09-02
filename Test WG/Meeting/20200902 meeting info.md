@@ -15,8 +15,10 @@
 
 ## Topics议题
 1.现有test case设计总结、问题交流及后续工作讨论； owner all
-      Discussion about current design results of test cases.
-【已同Dev-Appstore组、MECM组review了相应测试用例】
+
+Discussion about current design results of test cases and following works.
+
+【已同Dev-Appstore组、MECM组review了相应测试用例；同MEP相关人员沟通了DNS、网络隔离等设计要求】
 
 |姓名|任务|  
 |---|---|
@@ -33,7 +35,7 @@
 2.测试组内工作指标讨论
 
 ## meeting link
- https://welink-meeting.zoom.us/j/937675032
+ https://welink-meeting.zoom.us/j/527698434﻿
 ## Minutes纪要
 ## 纪要人
 刘辉
