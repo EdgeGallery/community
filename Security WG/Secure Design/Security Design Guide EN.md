@@ -241,13 +241,13 @@ Test steps:
 1. Examine the code to confirm XML and JSON schema validation is implemented.
 2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional, confirm any data that fails the validation are rejected.
 
-7.3 Session ID of web application must be random and after authentication new session id must be genereated.
+7.3 Session ID of web application must be random and after authentication new session id must be genereated. (This rule will take effect in R1.0)
 
 Test steps:
 1. Log in the system and record the session ID.
 2. Log out then log in the system again, compare the session ID with the previous one, confirm the session IDs are different.
 
-7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.
+7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.  (This rule will take effect in R1.0)
 
 Test steps:
 1. Upload the files with restricted file extenstions.
@@ -271,9 +271,9 @@ Test steps:
 Test tools:
 NMap
 
-## 9 . Log Security
+## 9 . Log Security 
 
-9.1 Do not log unsanitized user input.  
+9.1 Do not log unsanitized user input.
 **Notice**: Unsanitized loging can allow an attacker to forge log entries or inject malicious content into logs.
 
 Test steps:
@@ -299,13 +299,13 @@ Test steps:
 
 ## 10. Database Security
 
-10.1 Default password provided by database vendor must not be used and password must be complex and unused Default Database accounts must be disabled/deleted.  
+10.1 Default password provided by database vendor must not be used and password must be complex and unused Default Database accounts must be disabled/deleted. (This rule will take effect in R1.0)
 
 Test steps:
 1. Try login with default password. It must fail.
 2. Query all the database accounts. Account which are no longer requried must not exist.
 
-10.2 Each database account must have proper authorization privialges set. Assign only the least privilage required for the task.  
+10.2 Each database account must have proper authorization privialges set. Assign only the least privilage required for the task. (This rule will take effect in R1.0) 
 
 Test steps:
 1. Try the operations of admin using user account, it must not allow.
