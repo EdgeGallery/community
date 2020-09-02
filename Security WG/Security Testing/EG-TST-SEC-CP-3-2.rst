@@ -24,9 +24,10 @@ EdgeGallery Security Compliance Test Case 3-2
 |Test          | Test step description and expected result                    |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        | Log into the database                                        |
+|step 1        | Log into the database with credentials                       |
 |              |                                                              |
-|              |                                                              |
+|              | The credentials can be found in the EdgeGallery Kubernetes   |
+|              | deployment manifests                                         |
 +--------------+--------------------------------------------------------------+
 |step 2        | Verify that user passwords/sk are stored in the database in  |
 |              | encrypted form                                               |
