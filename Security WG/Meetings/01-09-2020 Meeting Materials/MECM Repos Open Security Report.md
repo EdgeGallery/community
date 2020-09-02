@@ -39,7 +39,7 @@
 | 6.5成功的身份验证和重新身份验证必须生成新的会话和会话ID。    | 满足 | 重新登录会生成新的会话，usermanagement统一管理。 |
 | 7.1客户端和服务器之间必须具有相同的编码样式。         | 满足 | 前后端均使用UTF-8编码 |
 | 7.2必须接受XML或JSON模式，并在接受输入之前对其进行验证。 | 满足                         |   目前使用JSON格式。 |
-| 8.1所有公共功能接口，RESTful接口，本地功能接口，命令行接口以及用于身份验证的默认用户名和密码都必须在产品或应用程序文档中进行描述。   | 满足 |  [API接口文档链接](https://gitee.com/edgegallery/docs/blob/master/Projects/MECM/MECM%20API%20Document.md)  |
+| 8.1所有公共功能接口，RESTful接口，本地功能接口，命令行接口以及用于身份验证的默认用户名和密码都必须在产品或应用程序文档中进行描述。   | 满足 |  [API接口文档链接](https://gitee.com/edgegallery/docs/tree/master/Projects/MECM/MECM%20APIs)  |
 | 8.2系统运行和维护需要外部通讯连接。必须在端口矩阵文档中描述所有使用的通信端口。动态监听端口必须限制在适当范围内。     |    满足             | [端口矩阵文档链接](https://gitee.com/edgegallery/docs/blob/master/Projects/MECM/MECM%20Port%20Metrix.md) |
 | 9.1请勿记录未经消毒的用户输入。    | 满足 |  目前未记录敏感用户输入 |
 | 9.2足够的日志记录。   |  满足                      | 当前已经记录必要的满足审计要求的日志。 |
