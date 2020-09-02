@@ -24,17 +24,17 @@ EdgeGallery Security Compliance Test Case 3-2
 |Test          | Test step description and expected result                    |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
+|step 1        | Log into the database                                        |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
-|              |                                                              |
+|step 2        | Verify that user passwords are stored in the database in     |
+|              | encrypted form                                               |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 3        |                                                              |
-|              |                                                              |
+|step 3        | Scan the source code to verify that no password is           |
+|              | hard-coded                                                   |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | Define the expected result when this test case FAIL and PASS |
