@@ -226,7 +226,7 @@ Test steps:
 1. Log in the system and record the session ID.
 2. Log out then log in the system again, compare the session ID with the previous one, confirm the session IDs are different.
 
-## 7. Web Service Serurity
+## 7. Web Service Security
 
 7.1 The same encoding style must be between the client and the server.  
 **Notice**: Different encodings between client and server can have security implications and have been used in the past to bypass validation and WAFs to perform XSS attacks.
@@ -240,6 +240,18 @@ Test steps:
 Test steps:
 1. Examine the code to confirm XML and JSON schema validation is implemented.
 2. Design test cases to invoke APIs with abnormal XML or JSON payload to verify the schema validation is functional, confirm any data that fails the validation are rejected.
+
+7.3 Session ID of web application must be random and after authentication new session id must be genereated.
+
+Test steps:
+1. Log in the system and record the session ID.
+2. Log out then log in the system again, compare the session ID with the previous one, confirm the session IDs are different.
+
+7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.
+
+Test steps:
+1. Upload the files with restricted file extenstions.
+2. Examine that upload should fail with proper response.
 
 ## 8. Security Document  
 
@@ -285,10 +297,24 @@ Test steps:
 Test steps:
 1. Examine the system log and confirm only minimum data are logged.
 
-## 10. Threat Modelling
+## 10. Database Security
 
-10.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
-ce**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
+10.1 Default password provided by database vendor must not be used and password must be complex and unused Default Database accounts must be disabled/deleted.  
+
+Test steps:
+1. Try login with default password. It must fail.
+2. Query all the database accounts. Account which are no longer requried must not exist.
+
+10.2 Each database account must have proper authorization privialges set. Assign only the least privilage required for the task.  
+
+Test steps:
+1. Try the operations of admin using user account, it must not allow.
+
+
+## 11. Threat Modelling
+
+11.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
+**Notice**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
 
 Test Steps:
 For each mitigation methods:
