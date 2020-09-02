@@ -28,7 +28,7 @@ EdgeGallery Security Compliance Test Case 3-2
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | Verify that user passwords are stored in the database in     |
+|step 2        | Verify that user passwords/sk are stored in the database in  |
 |              | encrypted form                                               |
 |              |                                                              |
 |              |                                                              |
@@ -37,7 +37,7 @@ EdgeGallery Security Compliance Test Case 3-2
 |              | hard-coded                                                   |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Test verdict  | Define the expected result when this test case FAIL and PASS |
-|              |                                                              |
+|Test verdict  | User passwords/sk are securely encrypted and stored in the   |
+|              | database                                                     |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
