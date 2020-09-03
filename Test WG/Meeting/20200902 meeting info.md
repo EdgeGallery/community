@@ -34,6 +34,8 @@ Discussion about current design results of test cases and following works.
 
 2.测试组内工作指标讨论
 
+3.代码覆盖率测试工具使用指南讨论
+
 ## meeting link
  https://welink-meeting.zoom.us/j/527698434﻿
 ## Minutes纪要
