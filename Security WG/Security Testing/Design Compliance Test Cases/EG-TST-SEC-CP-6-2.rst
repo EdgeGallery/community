@@ -1,5 +1,5 @@
 *********************************************
-EdgeGallery Security Compliance Test Case 3-5
+EdgeGallery Security Compliance Test Case 6-2
 *********************************************
 
 +--------------+--------------------------------------------------------------+
@@ -17,7 +17,7 @@ EdgeGallery Security Compliance Test Case 3-5
 |Configuration | 1. Known website address                                     |
 |steps         | 2. Web services are running properly.                        |
 |              | 3. The login authentication module is available for web      |
-|              |  services.                                                   |
+|              | services.                                                    |
 |              | 4. The user name and password are always correct.            |
 |              |                                                              |
 |              |                                                              |
