@@ -51,7 +51,20 @@ API 能力集成开放：待评估
 ![KubeEdge_arc](https://images.gitee.com/uploads/images/2020/0811/153420_245e65e2_7624977.png  "KubeEdge_arc")
 
 
+### Public Cloud Integration Level 0 Design
 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0902/193443_e1100448_7625689.png "Integration.png")
+
+- Integrate KubeEdge EdgeCore on the edge side along with MEP Server.
+- Leverage the kubeEdge openess capabilities(for example, device management capabilities) through MP1 interface.
+- KubeEdge Capabilities to be registered to MEP Server.
+- Any application deployed in Edge which need these KubeEdge services can subscribe and get its services.
+
+###  v0.9 Requirement scope 
+v0.9 Requirement scope (To validate how to deploy kubeedge and understand it features and deploy sample app)
+    - Deploy the kubeedge(both cloudcore and edgecore components) with automated scripts.
+    - Deploy sample application in edge through kubeedge NBI.
+ 
 ### Review
 明确引入应用的场景
 - MEC应用
