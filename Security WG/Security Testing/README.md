@@ -16,33 +16,21 @@
 
 安全合规测试用例：
 1. AppStore:
+ - Identification, Authentication and Authorization
  - Secure Transmission: 2.1, 2.2
- - 3.2
- - 3.3
- - 7.1
- - 7.2
+ - Sensitive and Private Data Protection: 3.2, 3.3
+ - Web Service Security: 7.1, 7.2
 2. Developer
- - 2.1
- - 2.2
- - 3.2
- - 3.3
- - 7.1
- - 7.2
+ - Identification, Authentication and Authorization
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.2, 3.3
+ - Web Service Security: 7.1, 7.2
 3. User-mgmt
- - 2.1
- - 2.2
- - 3.1
- - 3.2
- - 3.3
- - 3.4
- - 7.1
- - 7.2
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.1, 3.2, 3.3, 3.4
+ - Web Service Security: 7.1, 7.2
 4. MECM
- - 2.1
- - 2.2
- - 3.1
- - 3.2
- - 3.3
- - 7.1
- - 7.2
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.1, 3.2, 3.3
+ - Web Service Security: 7.1, 7.2
 
