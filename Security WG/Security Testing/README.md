@@ -4,4 +4,4 @@
 
 # R2 安全测试工作
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0812/153220_ee10fb0e_5645267.png "安全测试流程.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0903/105153_5584ba84_5645267.png "安全测试流程.png")
