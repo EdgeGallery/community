@@ -16,8 +16,7 @@
 
 安全合规测试用例：
 1. AppStore:
- - 2.1
- - 2.2
+ - Secure Transmission: 2.1, 2.2
  - 3.2
  - 3.3
  - 7.1
