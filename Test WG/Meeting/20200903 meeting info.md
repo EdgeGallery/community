@@ -16,6 +16,7 @@
 Discussion about current design results of test cases and following works.
 
 【已同Dev-Appstore组、MECM组review了相应测试用例；同MEP相关人员沟通了DNS、网络隔离等设计要求】
+
 【后续准备自动化测试脚本，测试报告模板，为9月14日代码冻结后的测试做准备】
 
 |姓名|任务|  
@@ -45,12 +46,15 @@ Discussion about current design results of test cases and following works.
 刘辉
 
 ## 遗留任务
-1、开展测试用例分析（9月4日明确哪些TC自动化测试，哪些人工），逐步开展自动化测试脚本开发 --owner all
+1.开展测试用例分析（9月4日明确哪些TC自动化测试，哪些人工），逐步开展自动化测试脚本开发 --owner all
 - 基于Selenium开发界面自动化测试脚本
 - api自动化测试脚本开发
-2、分享vmware测试开发框架  -- owner mengpuhui
-3、分享openstack测试管理 -- owner houminxi
-4、app心跳同研发团队核实 -- owner jiangwei
-5、5g网元集成同维涛核实  -- owner pengyu
-6、mecm app管理验证 同研发团队核实 -- owner zhangali
-7、准备测试报告模板          --owner liuhui houminxi  pengyu
+
+
+2. 分享vmware测试开发框架  -- owner mengpuhui
+3. 分享openstack测试管理 -- owner houminxi
+4. app心跳同研发团队核实 -- owner jiangwei
+5. 5g网元集成同维涛核实  -- owner pengyu
+6. mecm app管理验证 同研发团队核实 -- owner zhangali
+7. 准备测试报告模板          --owner liuhui houminxi  pengyu
+
