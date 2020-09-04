@@ -1,6 +1,6 @@
 This document is used to capture the test result for pre-code-freeze testing.
 
-| Compliance Test Cases | AppStore | Developer | User\-Mgmt | MECM |
+| Compliance Test Cases | AppStore | Developer | User\-mgmt | MECM |
 |-----------------------|----------|-----------|------------|------|
 | 1\.1                  |          |           |            |      |
 | 1\.2                  |          |           |            |      |
