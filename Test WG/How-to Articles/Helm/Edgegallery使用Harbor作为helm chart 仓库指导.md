@@ -2,11 +2,12 @@
 ### 1. 简介
 
 由于Edgegallery平台使用不能Github的helm repo，当前采用自建helm chart repo方案。
-helm version：
+
+- helm version：
 
 `version.BuildInfo{Version:"v3.0.2", GitCommit:"19e47ee3283ae98139d98460de796c1be1e3975f", GitTreeState:"clean", GoVersion:"go1.13.5"}`
 
-kubectl version:
+- kubectl version:
 
 ```
 Client Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCommit:"e19964183377d0ec2052d1f1fa930c4d7575bd50", GitTreeState:"clean", BuildDate:"2020-08-26T14:30:33Z", GoVersion:"go1.15", Compiler:"gc", Platform:"linux/amd64"}
