@@ -1,5 +1,6 @@
 ### Edgegallery使用Harbor作为helm chart 仓库指导
-1. 简介
+### 1. 简介
+
 由于Edgegallery平台使用不能Github的helm repo，当前采用自建helm chart repo方案。
 helm version：
 `version.BuildInfo{Version:"v3.0.2", GitCommit:"19e47ee3283ae98139d98460de796c1be1e3975f", GitTreeState:"clean", GoVersion:"go1.13.5"}`
@@ -11,7 +12,8 @@ Server Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCom
 
 ```
 
-1. Helm 3 新特性
+### 2. Helm 3 新特性
+
 
 - 移除了 Tiller
 - 不同的 namespace 可以使用相同的 Release Name
@@ -33,7 +35,8 @@ go 导入路径改变 k8s.io/helm --> helm.sh/helm
 支持存储 helm charts
 ...
 
-1. 安装部署预置条件
+### 3. 安装部署预置条件
+
 - 确保kubernetes环境可用
 1. 下载并初始化 helm 3  （本文以v3.0.2为例）
 [在helm官方地址下载需要的版本](https://github.com/helm/helm/releases)
@@ -48,7 +51,9 @@ cp helm /usr/local/bin
 初始化helm
 `helm init`
 默认添加官方 `repo stable https://kubernetes-charts.storage.googleapis.com`
-1. 安装 harbor 1.6+
+
+### 4. 安装 harbor 1.6+
+
 添加harbor repo
 `helm repo add goharbor https://helm.goharbor.io`
 在安装之前我们需要配置一下 kube config context
@@ -75,7 +80,8 @@ helm -n helm-repo install harbor goharbor/harbor --set persistence.enabled=false
 
 
 
-1. 添加 harbor 中的 chartrepo 到 helm 3 中
+### 5. 添加 harbor 中的 chartrepo 到 helm 3 中
+
 harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 harbor, harbor 的默认账号密码是 admin/Harbor12345 
 
 
