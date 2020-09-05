@@ -3,8 +3,10 @@
 
 由于Edgegallery平台使用不能Github的helm repo，当前采用自建helm chart repo方案。
 helm version：
+
 `version.BuildInfo{Version:"v3.0.2", GitCommit:"19e47ee3283ae98139d98460de796c1be1e3975f", GitTreeState:"clean", GoVersion:"go1.13.5"}`
- kubectl version:
+
+kubectl version:
 
 ```
 Client Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCommit:"e19964183377d0ec2052d1f1fa930c4d7575bd50", GitTreeState:"clean", BuildDate:"2020-08-26T14:30:33Z", GoVersion:"go1.15", Compiler:"gc", Platform:"linux/amd64"}
@@ -30,8 +32,10 @@ Server Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCom
     - helm fetch -> helm pull
 - go 导入路径改变 k8s.io/helm --> helm.sh/helm
 
-[ the new feature in helm3](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1) 
-[the helm docs](https://v3.helm.sh/docs/)
+
+- [the new feature in helm3](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1) 
+- [the helm docs](https://v3.helm.sh/docs/)
+
 ### 3. Harbor v1.6.0 新特性
 
 
@@ -98,10 +102,10 @@ harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 har
 `helm repo add helm-chart http://192.168.100.143:30002/chartrepo/edgegallery_helm_chart`
 
 ### 8. 安装使用 helm-push 插件
-helm plugin install https://github.com/chartmuseum/helm-push
+`helm plugin install https://github.com/chartmuseum/helm-push`
 
 ### 9. 安装好插件之后，就可以push charts 到 harbor 里面了
-helm push grafana-0.0.2.tgz helm-chart --username helm-chart--password xxx
+`helm push grafana-0.0.2.tgz helm-chart --username helm-chart--password xxx`
 
 ### 10.Edgegallery平台的helm-chart会在jenkins 上daily build 并且push到Edgegallery的helm chart repo
 
