@@ -25,17 +25,20 @@ Server Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCom
 - 移除 helm serve
 - 命令行变化（将原先的命令保留为别名Aliases）
 
--     helm delete --> helm uninstall
--     helm inspect -> helm show
--     helm fetch -> helm pull
-go 导入路径改变 k8s.io/helm --> helm.sh/helm
+    - helm delete --> helm uninstall
+    - helm inspect -> helm show
+    - helm fetch -> helm pull
+- go 导入路径改变 k8s.io/helm --> helm.sh/helm
 
-[ the new feature in helm3](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1) :[the helm docs](https://v3.helm.sh/docs/)
-1. Harbor v1.6.0 新特性
-支持存储 helm charts
-...
+[ the new feature in helm3](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1) 
+[the helm docs](https://v3.helm.sh/docs/)
+### 3. Harbor v1.6.0 新特性
 
-### 3. 安装部署预置条件
+
+- 支持存储 helm charts
+- ... 
+
+### 4. 安装部署预置条件
 
 - 确保kubernetes环境可用
 1. 下载并初始化 helm 3  （本文以v3.0.2为例）
@@ -52,7 +55,7 @@ cp helm /usr/local/bin
 `helm init`
 默认添加官方 `repo stable https://kubernetes-charts.storage.googleapis.com`
 
-### 4. 安装 harbor 1.6+
+### 5. 安装 harbor 1.6+
 
 添加harbor repo
 `helm repo add goharbor https://helm.goharbor.io`
@@ -80,11 +83,26 @@ helm -n helm-repo install harbor goharbor/harbor --set persistence.enabled=false
 
 
 
-### 5. 添加 harbor 中的 chartrepo 到 helm 3 中
+### 6. 添加 harbor 中的 chartrepo 到 helm 3 中
 
 harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 harbor, harbor 的默认账号密码是 admin/Harbor12345 
+创建Edgegallery_helm_chart
 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/170927_3d2d8227_7624512.png "helm-repo.png")
 
+创建一个helm-chart用户
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/171224_18bedda5_7624512.png "helm-repo-user.png")
 
+###7.  添加 repo 到 helm 中
 
+`helm repo add helm-chart http://192.168.100.143:30002/chartrepo/edgegallery_helm_chart`
 
+### 8. 安装使用 helm-push 插件
+helm plugin install https://github.com/chartmuseum/helm-push
+
+### 9. 安装好插件之后，就可以push charts 到 harbor 里面了
+helm push grafana-0.0.2.tgz helm-chart --username helm-chart--password xxx
+
+### 10.Edgegallery平台的helm-chart会在jenkins 上daily build 并且push到Edgegallery的helm chart repo
+
+[Edgegallery的helm chart repo](http://119.8.55.191:30002/)
