@@ -42,7 +42,48 @@
 | org.jmockit |  jmockit |  1.19 |  |  是 | 
 | org.jmockit |  jmockit-coverage |  1.19 |  |  是 | 
 | com.h2database |  h2 |  1.4.199 |  |  是 | 
-
+|  org.apache.servicecomb |  spring-boot2-starter |  1.3.0 |  |  否 | 
+|  org.apache.servicecomb |  transport-rest-servlet |  1.3.0 |  |  否 | 
+|  javax.servlet |  javax.servlet-api |  4.0.1 |  |  否 | 
+|  org.springframework.boot |  spring-boot-starter |  2.2.9.RELEASE |  |  否 | 
+|  org.springframework.boot |  spring-boot-starter-json |  2.2.9.RELEASE |  |  否 | 
+|  org.springframework.boot |  spring-boot-starter-validation |  2.2.9.RELEASE |  |  否 | 
+|  org.springframework |  spring-web |  5.2.8.RELEASE |  |  否 | 
+|  org.springframework |  spring-webmvc |  5.2.8.RELEASE |  |  否 | 
+|  com.zaxxer |  HikariCP |  3.4.5 |  |  否 | 
+|  org.springframework |  spring-jdbc |  5.2.8.RELEASE |  |  否 | 
+|  org.springframework |  spring-tx |  5.2.8.RELEASE |  |  否 | 
+|  org.springframework |  spring-aop |  5.2.8.RELEASE |  |  否 | 
+|  com.fasterxml.jackson.core |  jackson-annotations |  2.10.5 |  |  否 | 
+|  javax.xml.bind |  jaxb-api |  2.3.1 |  |  否 | 
+|  org.springframework.boot |  spring-boot |  2.2.9.RELEASE |  |  否 | 
+|  org.springframework.boot |  spring-boot-autoconfigure |  2.2.9.RELEASE |  |  否 | 
+|  org.glassfish.jaxb |  jaxb-runtime |  2.3.3 |  |  否 | 
+|  org.glassfish.jaxb |  txw2 |  2.3.3 |  |  否 | 
+|  com.sun.istack |  istack-commons-runtime |  3.0.11 |  |  否 | 
+|  com.sun.activation |  jakarta.activation |  1.2.2 |  |  否 | 
+|  org.bouncycastle |  bcpkix-jdk15on |  1.64 |  |  否 | 
+|  org.springframework |  spring-beans |  5.2.8.RELEASE |  |  否 | 
+|  org.springframework |  spring-core |  5.2.8.RELEASE |  |  否 | 
+|  org.springframework |  spring-context |  5.2.8.RELEASE |  |  否 | 
+|  com.fasterxml.jackson.core |  jackson-core |  2.10.5 |  |  否 | 
+|  org.springframework |  spring-expression |  5.2.8.RELEASE |  |  否 | 
+|  org.mybatis.spring.boot |  mybatis-spring-boot-autoconfigure |  2.1.1 |  |  否 | 
+|  org.mybatis |  mybatis |  3.5.3 |  |  否 | 
+|  org.mybatis |  mybatis-spring |  2.0.3 |  |  否 | 
+|  org.apache.tomcat.embed |  tomcat-embed-core |  9.0.37 |  |  否 | 
+|  org.apache.tomcat.embed |  tomcat-embed-el |  9.0.37 |  |  否 | 
+|  org.eclipse.jdt |  ecj |  3.18.0 |  |  否 | 
+|  org.slf4j |  slf4j-api |  1.7.30 |  |  否 | 
+|  commons-logging |  commons-logging |  1.2 |  |  否 | 
+|  io.netty |  netty-common |  4.1.51.Final |  |  否 | 
+|  io.netty |  netty-handler |  4.1.51.Final |  |  否 | 
+|  io.netty |  netty-transport |  4.1.51.Final |  |  否 | 
+|  org.reactivestreams |  reactive-streams |  1.0.3 |  |  否 | 
+|  org.checkerframework |  checker-qual |  3.5.0 |  |  否 | 
+|  org.apache.httpcomponents |  httpcore |  4.4.13 |  |  否 | 
+|  org.apache.servicecomb |  transport-rest-client |  1.3.0 |  |  否 | 
+|  org.apache.servicecomb |  foundation-vertx |  1.3.0 |  |  否 | 
 
 ## AppStore 三方件使用清单
 | groupId| artifactId | version  |license   | 是否主动依赖 |
