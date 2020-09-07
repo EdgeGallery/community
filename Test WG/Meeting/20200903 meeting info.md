@@ -23,10 +23,10 @@ Discussion about current design results of test cases and following works.
 |---|---|
 |刘辉| EG 生态能力优化test 【移入ReleaseV1.0】 |
 |侯敏熙   |network isolation test；public cloud integration；|
-|彭育   | 安装部署支持All-in-one/支持离线部署;支持JJB部署；5G网元集成 ;installation test； |
+|彭育   | 安装部署支持All-in-one;支持JJB部署；5G网元集成 ;installation test； |
 |李媛媛|app构建测试发布过程 test【移入ReleaseV1.0】 ；developer&AppStore GUI测试|
 |zhangali|app管理验证；MECM GUI测试|
-|姜伟|ak/sk【移入ReleaseV1.0】；app心跳 |
+|姜伟|ak/sk【移入ReleaseV1.0】；app心跳【移入ReleaseV1.0】；离线部署测试 |
 |mengpuhui|dns test；|
 |丁宇卿|ETSI interface test；|
 |all|doc test；|
@@ -53,8 +53,8 @@ Discussion about current design results of test cases and following works.
 
 2. 分享vmware测试开发框架  -- owner mengpuhui
 3. 分享openstack测试管理 -- owner houminxi
-4. app心跳同研发团队核实 -- owner jiangwei
-5. 5g网元集成同维涛核实  -- owner pengyu
+4. app心跳同研发团队核实 -- owner jiangwei【移入ReleaseV1.0】
+5. 5g网元集成同维涛核实  -- owner pengyu【保留在ReleaseV0.9】
 6. mecm app管理验证 同研发团队核实 -- owner zhangali
 7. 准备测试报告模板          --owner liuhui houminxi  pengyu
 
