@@ -20,6 +20,36 @@
 |400 | 错误的请求 |
 |403 | 禁止访问 |
 |404 | 未找到资源 |
+```
+Response Entity
+{
+  "trafficRuleId": "TrafficRule123",
+  "serName": "ExampleService",
+  "filterType": "FLOW",
+  "priority": 1,
+  "trafficFilter": [
+    {
+      "srcAddress": [
+        "192.168.2.0/24",
+        "192.168.3.0/24"
+      ],
+      "dstAddress": [
+        "192.127.4.100/32"
+      ],
+      "dstPort": [
+        "80"
+      ]
+    }
+  ],
+  "action": "FORWARD_DECAPSULATED",
+  "dstInterface": {
+    "interfaceType": "IP",
+    "dstIpAddress": "20.1.1.1"
+  },
+  "state": "ACTIVE"
+}
+```
+
 
 ## /applications/{appInstanceId}/traffic_rules/{trafficRuleId} GET
 此方法查询有关与MEC应用程序实例关联的所有流量规则的信息。
