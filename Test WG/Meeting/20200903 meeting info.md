@@ -25,7 +25,7 @@ Discussion about current design results of test cases and following works.
 |侯敏熙   |network isolation test；public cloud integration；|
 |彭育   | 安装部署支持All-in-one;支持JJB部署；5G网元集成 ;installation test； |
 |李媛媛|app构建测试发布过程 test【移入ReleaseV1.0】 ；developer&AppStore GUI测试|
-|zhangali|app管理验证；MECM GUI测试|
+|zhangali|app管理验证【移入ReleaseV1.0】；MECM GUI测试|
 |姜伟|ak/sk【移入ReleaseV1.0】；app心跳【移入ReleaseV1.0】；离线部署测试 |
 |mengpuhui|dns test；|
 |丁宇卿|ETSI interface test；|
