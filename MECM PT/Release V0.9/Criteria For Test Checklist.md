@@ -11,3 +11,7 @@
 |确认三方件归一化扫描结果 3rd party components are all scanned and have consistent versions  |     OK          |         |
 |确认代码许可证合规扫描结果   licenses for 3rd party components are all scanned and their compliance is ensured|         |        
 |近3天日构建成功率100%  daily build for last 3 days are all succeeded.   |      OK                  |
+
+
+### License for thirdparty
+
