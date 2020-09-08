@@ -38,7 +38,7 @@ Discussion about current design progress of autotest scripts for test cases.
 5.分享openstack测试管理 -- owner houminxi
 
 ## meeting link
- https://welink-meeting.zoom.us/j/527698434﻿
+ https://welink-meeting.zoom.us/j/272204082
 
 ## Minutes纪要
 ## 纪要人
