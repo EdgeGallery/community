@@ -539,3 +539,23 @@ mecm-fe:
 |dependencies|vue-router|3.2.0|MIT | OK |
 |devDependencies|vue-template-compiler|2.6.11| MIT| OK|
 |dependencies|vuex|3.4.0| MIT | OK |
+
+mecm-applcm:
+|name                    | version      | License |       Check  Result |
+|---------------|------------|---------------|---------------------|
+|github.com/astaxie/beego|       v1.12.2|       Apache License, Version 2.0| OK  |
+|github.com/dgrijalva/jwt-go|       v3.2.0+incompatible|       MIT License|OK  |
+|github.com/ghodss/yaml|       v1.0.0|       MIT License|OK  |
+|github.com/go-playground/validator/v10|       v10.3.0|       MIT License|OK  |
+|github.com/golang/protobuf|       v1.4.2|       BSD 3-Clause "New" or "Revised" License|OK  |
+|github.com/lib/pq|       v1.7.0|       MIT License|OK  |
+|github.com/natefinch/lumberjack|       v2.0.0+incompatible|       MIT License|OK  |
+|github.com/sirupsen/logrus|       v1.6.0|       MIT License|OK  |
+|github.com/spf13/viper|       v1.4.0|       MIT License |OK  |
+|google.golang.org/grpc|       v1.31.0|       Apache License Version 2.0|OK  |
+|google.golang.org/protobuf|       v1.25.0|       BSD-3-Clause|OK  |
+|helm.sh/helm/v3|       v3.3.0|       Apache License Version 2.0|OK  |
+|k8s.io/api|       v0.18.4|        Apache 2.0|OK  |
+|k8s.io/apimachinery|       v0.18.4|        Apache 2.0|OK  |
+|k8s.io/client-go|       v0.18.4|        Apache 2.0|OK  |
+|k8s.io/metrics|       v0.18.4|        Apache 2.0|OK  |
