@@ -504,7 +504,7 @@ mecm-apm:
 
 mecm-fe:
 |type|name|version|LICENSE| Check Result|
-|----|----|-----|------|--------|---------|
+|----|----|-----|------|--------|
 |devDependencies|@vue/cli-plugin-babel|4.3.1|MIT| OK  |
 |devDependencies|@vue/cli-plugin-eslint|4.3.1|  MIT|OK|
 |devDependencies|@vue/cli-plugin-unit-jest|4.3.1| MIT |OK|
