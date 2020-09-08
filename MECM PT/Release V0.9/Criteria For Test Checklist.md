@@ -80,19 +80,19 @@ mecm-inventory:
 |  TBD  |     (Eclipse Distribution License - v 1.0) JAXB Runtime (org.glassfish.jaxb:jaxb-runtime:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-runtime-parent/jaxb-runtime)  |
 |  TBD  |     (Eclipse Distribution License - v 1.0) TXW2 Runtime (org.glassfish.jaxb:txw2:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-txw-parent/txw2)  |
 |  OK  |     (BSD License 3) Hamcrest (org.hamcrest:hamcrest:2.2 - http://hamcrest.org/JavaHamcrest/)  |
-|  OK  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)  |
-|  OK  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)  |
+|  TBD  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)  |
+|  TBD  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)  |
 |  OK  |     (Apache License 2.0) Hibernate Validator Engine (org.hibernate.validator:hibernate-validator:6.1.5.Final - http://hibernate.org/validator/hibernate-validator)  |
 |  OK  |     (Apache License 2.0) (LGPL 2.1) (MPL 1.1) Javassist (org.javassist:javassist:3.24.0-GA - http://www.javassist.org/)  |
 |  OK  |     (Apache License, Version 2.0) Java Annotation Indexer (org.jboss:jandex:2.1.3.Final - http://www.jboss.org/jandex)  |
 |  OK  |     (Apache License, version 2.0) JBoss Logging 3 (org.jboss.logging:jboss-logging:3.4.1.Final - http://www.jboss.org)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter (Aggregator) (org.junit.jupiter:junit-jupiter:5.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter API (org.junit.jupiter:junit-jupiter-api:5.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter Engine (org.junit.jupiter:junit-jupiter-engine:5.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter Params (org.junit.jupiter:junit-jupiter-params:5.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Platform Commons (org.junit.platform:junit-platform-commons:1.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Platform Engine API (org.junit.platform:junit-platform-engine:1.6.2 - https://junit.org/junit5/)  |
-|  OK  |     (Eclipse Public License v2.0) JUnit Vintage Engine (org.junit.vintage:junit-vintage-engine:5.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter (Aggregator) (org.junit.jupiter:junit-jupiter:5.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter API (org.junit.jupiter:junit-jupiter-api:5.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter Engine (org.junit.jupiter:junit-jupiter-engine:5.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter Params (org.junit.jupiter:junit-jupiter-params:5.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Platform Commons (org.junit.platform:junit-platform-commons:1.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Platform Engine API (org.junit.platform:junit-platform-engine:1.6.2 - https://junit.org/junit5/)  |
+|  TBD  |     (Eclipse Public License v2.0) JUnit Vintage Engine (org.junit.vintage:junit-vintage-engine:5.6.2 - https://junit.org/junit5/)  |
 |  OK  |     (The Apache Software License, Version 2.0) MapStruct Core (org.mapstruct:mapstruct:1.2.0.Final - http://mapstruct.org/mapstruct/)  |
 |  OK  |     (The MIT License) mockito-core (org.mockito:mockito-core:3.3.3 - https://github.com/mockito/mockito)  |
 |  OK  |     (The MIT License) mockito-junit-jupiter (org.mockito:mockito-junit-jupiter:3.3.3 - https://github.com/mockito/mockito)  |
