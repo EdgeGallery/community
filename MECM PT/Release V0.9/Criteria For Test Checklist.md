@@ -142,7 +142,7 @@ mecm-inventory:
 |  OK  |     (Apache 2.0) OAuth2 for Spring Security (org.springframework.security.oauth:spring-security-oauth2:2.3.8.RELEASE - https://docs.spring.io/spring-security/oauth/spring-security-oauth2)  |
 |  OK  |     (The Apache Software License, Version 2.0) spring-security-oauth2-autoconfigure (org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.2.RELEASE - https://spring.io/spring-security)  |
 |  OK  |     (The Apache Software License, Version 2.0) org.xmlunit:xmlunit-core (org.xmlunit:xmlunit-core:2.7.0 - https://www.xmlunit.org/)  |
-|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)
+|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)|
 
 
 mecm-appo:
@@ -335,7 +335,7 @@ mecm-appo:
 |  OK  |     (Apache 2.0) OAuth2 for Spring Security (org.springframework.security.oauth:spring-security-oauth2:2.3.8.RELEASE - https://docs.spring.io/spring-security/oauth/spring-security-oauth2)
 |  OK  |     (The Apache Software License, Version 2.0) spring-security-oauth2-autoconfigure (org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.2.RELEASE - https://spring.io/spring-security)
 |  OK  |     (The Apache Software License, Version 2.0) org.xmlunit:xmlunit-core (org.xmlunit:xmlunit-core:2.7.0 - https://www.xmlunit.org/)
-|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)
+|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org) |
 
 mecm-apm:
 |  Check Result    | License of third party components  |
@@ -500,5 +500,4 @@ mecm-apm:
 |  OK  |     (Apache 2.0) OAuth2 for Spring Security (org.springframework.security.oauth:spring-security-oauth2:2.3.8.RELEASE - https://docs.spring.io/spring-security/oauth/spring-security-oauth2)
 |  OK  |     (The Apache Software License, Version 2.0) spring-security-oauth2-autoconfigure (org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.2.RELEASE - https://spring.io/spring-security)
 |  OK  |     (The Apache Software License, Version 2.0) org.xmlunit:xmlunit-core (org.xmlunit:xmlunit-core:2.7.0 - https://www.xmlunit.org/)
-|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)
-|  OK  |
+|  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)|  
