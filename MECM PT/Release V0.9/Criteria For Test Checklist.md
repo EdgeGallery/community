@@ -29,10 +29,10 @@ mecm-inventory:
 |  OK  |     (The Apache Software License, Version 2.0) Jackson-module-parameter-names (com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.2 - https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names)  |
 |  OK  |     (Apache 2.0) Gson (com.google.code.gson:gson:2.8.2 - https://github.com/google/gson/gson)  |
 |  OK  |     (The Apache Software License, Version 2.0) Guava: Google Core Libraries for Java (com.google.guava:guava:20.0 - https://github.com/google/guava/guava)  |
-|  TBD  |     (MPL 2.0, and EPL 1.0) H2 Database Engine (com.h2database:h2:1.4.190 - http://www.h2database.com)  |
+|  OK  |     (MPL 2.0, and EPL 1.0) H2 Database Engine (com.h2database:h2:1.4.190 - http://www.h2database.com)  |
 |  OK  |     (The Apache Software License, Version 2.0) project ':json-path' (com.jayway.jsonpath:json-path:2.4.0 - https://github.com/jayway/JsonPath)  |
-|  TBD  |     (EDL 1.0) Jakarta Activation (com.sun.activation:jakarta.activation:1.2.2 - https://github.com/eclipse-ee4j/jaf/jakarta.activation)  |
-|  TBD  |     (Eclipse Distribution License - v 1.0) istack common utility code runtime (com.sun.istack:istack-commons-runtime:3.0.11 - https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime)  |
+|  OK  |     (EDL 1.0) Jakarta Activation (com.sun.activation:jakarta.activation:1.2.2 - https://github.com/eclipse-ee4j/jaf/jakarta.activation)  |
+|  OK  |     (Eclipse Distribution License - v 1.0) istack common utility code runtime (com.sun.istack:istack-commons-runtime:3.0.11 - https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime)  |
 |  OK  |     (Apache License 2.0) JSON library from Android SDK (com.vaadin.external.google:android-json:0.0.20131108.vaadin1 - http://developer.android.com/sdk)  |
 |  OK  |     (The Apache Software License, Version 2.0) HikariCP (com.zaxxer:HikariCP:3.4.5 - https://github.com/brettwooldridge/HikariCP)  |
 |  OK  |     (Apache License, Version 2.0) Apache Commons Codec (commons-codec:commons-codec:1.14 - https://commons.apache.org/proper/commons-codec/)  |
@@ -48,15 +48,15 @@ mecm-inventory:
 |  OK  |     (The Apache Software License, Version 2.0) springfox-swagger2 (io.springfox:springfox-swagger2:2.9.2 - https://github.com/springfox/springfox)  |
 |  OK  |     (Apache License 2.0) swagger-annotations (io.swagger:swagger-annotations:1.5.20 - https://github.com/swagger-api/swagger-core/modules/swagger-annotations)  |
 |  OK  |     (Apache License 2.0) swagger-models (io.swagger:swagger-models:1.5.20 - https://github.com/swagger-api/swagger-core/modules/swagger-models)  |
-|  TBD  |     (EDL 1.0) Jakarta Activation API jar (jakarta.activation:jakarta.activation-api:1.2.2 - https://github.com/eclipse-ee4j/jaf/jakarta.activation-api)  |
-|  TBD  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Annotations API (jakarta.annotation:jakarta.annotation-api:1.3.5 - https://projects.eclipse.org/projects/ee4j.ca)  |
-|  TBD  |     (Eclipse Distribution License v. 1.0) (Eclipse Public License v. 2.0) Jakarta Persistence API (jakarta.persistence:jakarta.persistence-api:2.2.3 - https://github.com/eclipse-ee4j/jpa-api)  |
-|  TBD  |     (EPL 2.0) (GPL2 w/ CPE) javax.transaction API (jakarta.transaction:jakarta.transaction-api:1.3.3 - https://projects.eclipse.org/projects/ee4j.jta)  |
+|  OK  |     (EDL 1.0) Jakarta Activation API jar (jakarta.activation:jakarta.activation-api:1.2.2 - https://github.com/eclipse-ee4j/jaf/jakarta.activation-api)  |
+|  OK  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Annotations API (jakarta.annotation:jakarta.annotation-api:1.3.5 - https://projects.eclipse.org/projects/ee4j.ca)  |
+|  OK  |     (Eclipse Distribution License v. 1.0) (Eclipse Public License v. 2.0) Jakarta Persistence API (jakarta.persistence:jakarta.persistence-api:2.2.3 - https://github.com/eclipse-ee4j/jpa-api)  |
+|  OK  |     (EPL 2.0) (GPL2 w/ CPE) javax.transaction API (jakarta.transaction:jakarta.transaction-api:1.3.3 - https://projects.eclipse.org/projects/ee4j.jta)  |
 |  OK  |     (Apache License 2.0) Jakarta Bean Validation API (jakarta.validation:jakarta.validation-api:2.0.2 - https://beanvalidation.org)  |
-|  TBD  |     (Eclipse Distribution License - v 1.0) Jakarta XML Binding API (jakarta.xml.bind:jakarta.xml.bind-api:2.3.3 - https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api)  |
-|  TBD  |     (CDDL/GPLv2+CE) JavaBeans Activation Framework API jar (javax.activation:javax.activation-api:1.2.0 - http://java.net/all/javax.activation-api/)  |
-|  TBD  |     (CDDL 1.1) (GPL2 w/ CPE) jaxb-api (javax.xml.bind:jaxb-api:2.3.1 - https://github.com/javaee/jaxb-spec/jaxb-api)  |
-|  TBD  |     (Eclipse Public License 1.0) JUnit (junit:junit:4.13 - http://junit.org)  |
+|  OK  |     (Eclipse Distribution License - v 1.0) Jakarta XML Binding API (jakarta.xml.bind:jakarta.xml.bind-api:2.3.3 - https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api)  |
+|  OK  |     (CDDL/GPLv2+CE) JavaBeans Activation Framework API jar (javax.activation:javax.activation-api:1.2.0 - http://java.net/all/javax.activation-api/)  |
+|  OK  |     (CDDL 1.1) (GPL2 w/ CPE) jaxb-api (javax.xml.bind:jaxb-api:2.3.1 - https://github.com/javaee/jaxb-spec/jaxb-api)  |
+|  OK  |     (Eclipse Public License 1.0) JUnit (junit:junit:4.13 - http://junit.org)  |
 |  OK  |     (Apache License, Version 2.0) Byte Buddy (without dependencies) (net.bytebuddy:byte-buddy:1.10.14 - https://bytebuddy.net/byte-buddy)  |
 |  OK  |     (Apache License, Version 2.0) Byte Buddy agent (net.bytebuddy:byte-buddy-agent:1.10.14 - https://bytebuddy.net/byte-buddy-agent)  |
 |  OK  |     (The Apache Software License, Version 2.0) ASM based accessors helper used by json-smart (net.minidev:accessors-smart:1.2 - http://www.minidev.net/)  |
@@ -70,15 +70,15 @@ mecm-inventory:
 |  OK  |     (Apache License, Version 2.0) tomcat-embed-core (org.apache.tomcat.embed:tomcat-embed-core:9.0.37 - https://tomcat.apache.org/)  |
 |  OK  |     (Apache License, Version 2.0) tomcat-embed-websocket (org.apache.tomcat.embed:tomcat-embed-websocket:9.0.37 - https://tomcat.apache.org/)  |
 |  OK  |     (The Apache License, Version 2.0) org.apiguardian:apiguardian-api (org.apiguardian:apiguardian-api:1.1.0 - https://github.com/apiguardian-team/apiguardian)  |
-|  TBD  |     (Eclipse Public License - v 1.0) AspectJ weaver (org.aspectj:aspectjweaver:1.9.6 - https://www.eclipse.org/aspectj/)  |
+|  OK  |     (Eclipse Public License - v 1.0) AspectJ weaver (org.aspectj:aspectjweaver:1.9.6 - https://www.eclipse.org/aspectj/)  |
 |  OK  |     (Apache License, Version 2.0) AssertJ fluent assertions (org.assertj:assertj-core:3.16.1 - http://assertj.org/assertj-core)  |
 |  TBD  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
 |  TBD  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
 |  OK  |     (BSD 3-clause New License) dom4j (org.dom4j:dom4j:2.1.3 - http://dom4j.github.io/)  |
 |  OK  |     (Apache License, Version 2.0) flyway-core (org.flywaydb:flyway-core:6.4.4 - https://flywaydb.org/flyway-core)  |
-|  TBD  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Expression Language 3.0 (org.glassfish:jakarta.el:3.0.3 - https://projects.eclipse.org/projects/ee4j.el)  |
-|  TBD  |     (Eclipse Distribution License - v 1.0) JAXB Runtime (org.glassfish.jaxb:jaxb-runtime:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-runtime-parent/jaxb-runtime)  |
-|  TBD  |     (Eclipse Distribution License - v 1.0) TXW2 Runtime (org.glassfish.jaxb:txw2:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-txw-parent/txw2)  |
+|  OK  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Expression Language 3.0 (org.glassfish:jakarta.el:3.0.3 - https://projects.eclipse.org/projects/ee4j.el)  |
+|  OK  |     (Eclipse Distribution License - v 1.0) JAXB Runtime (org.glassfish.jaxb:jaxb-runtime:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-runtime-parent/jaxb-runtime)  |
+|  OK  |     (Eclipse Distribution License - v 1.0) TXW2 Runtime (org.glassfish.jaxb:txw2:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-txw-parent/txw2)  |
 |  OK  |     (BSD License 3) Hamcrest (org.hamcrest:hamcrest:2.2 - http://hamcrest.org/JavaHamcrest/)  |
 |  TBD  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)  |
 |  TBD  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)  |
@@ -86,13 +86,13 @@ mecm-inventory:
 |  OK  |     (Apache License 2.0) (LGPL 2.1) (MPL 1.1) Javassist (org.javassist:javassist:3.24.0-GA - http://www.javassist.org/)  |
 |  OK  |     (Apache License, Version 2.0) Java Annotation Indexer (org.jboss:jandex:2.1.3.Final - http://www.jboss.org/jandex)  |
 |  OK  |     (Apache License, version 2.0) JBoss Logging 3 (org.jboss.logging:jboss-logging:3.4.1.Final - http://www.jboss.org)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter (Aggregator) (org.junit.jupiter:junit-jupiter:5.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter API (org.junit.jupiter:junit-jupiter-api:5.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter Engine (org.junit.jupiter:junit-jupiter-engine:5.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Jupiter Params (org.junit.jupiter:junit-jupiter-params:5.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Platform Commons (org.junit.platform:junit-platform-commons:1.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Platform Engine API (org.junit.platform:junit-platform-engine:1.6.2 - https://junit.org/junit5/)  |
-|  TBD  |     (Eclipse Public License v2.0) JUnit Vintage Engine (org.junit.vintage:junit-vintage-engine:5.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter (Aggregator) (org.junit.jupiter:junit-jupiter:5.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter API (org.junit.jupiter:junit-jupiter-api:5.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter Engine (org.junit.jupiter:junit-jupiter-engine:5.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Jupiter Params (org.junit.jupiter:junit-jupiter-params:5.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Platform Commons (org.junit.platform:junit-platform-commons:1.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Platform Engine API (org.junit.platform:junit-platform-engine:1.6.2 - https://junit.org/junit5/)  |
+|  OK  |     (Eclipse Public License v2.0) JUnit Vintage Engine (org.junit.vintage:junit-vintage-engine:5.6.2 - https://junit.org/junit5/)  |
 |  OK  |     (The Apache Software License, Version 2.0) MapStruct Core (org.mapstruct:mapstruct:1.2.0.Final - http://mapstruct.org/mapstruct/)  |
 |  OK  |     (The MIT License) mockito-core (org.mockito:mockito-core:3.3.3 - https://github.com/mockito/mockito)  |
 |  OK  |     (The MIT License) mockito-junit-jupiter (org.mockito:mockito-junit-jupiter:3.3.3 - https://github.com/mockito/mockito)  |
@@ -143,3 +143,7 @@ mecm-inventory:
 |  OK  |     (The Apache Software License, Version 2.0) spring-security-oauth2-autoconfigure (org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.2.RELEASE - https://spring.io/spring-security)  |
 |  OK  |     (The Apache Software License, Version 2.0) org.xmlunit:xmlunit-core (org.xmlunit:xmlunit-core:2.7.0 - https://www.xmlunit.org/)  |
 |  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)
+
+
+mecm-appo:
+
