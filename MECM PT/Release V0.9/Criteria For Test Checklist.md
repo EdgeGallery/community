@@ -501,3 +501,41 @@ mecm-apm:
 |  OK  |     (The Apache Software License, Version 2.0) spring-security-oauth2-autoconfigure (org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.2.RELEASE - https://spring.io/spring-security)
 |  OK  |     (The Apache Software License, Version 2.0) org.xmlunit:xmlunit-core (org.xmlunit:xmlunit-core:2.7.0 - https://www.xmlunit.org/)
 |  OK  |     (Apache License, Version 2.0) SnakeYAML (org.yaml:snakeyaml:1.26 - http://www.snakeyaml.org)|  
+
+mecm-fe:
+|type|name|version|LICENSE| Check Result|
+|----|----|-----|------|--------|---------|
+|devDependencies|@vue/cli-plugin-babel|4.3.1|MIT| OK  |
+|devDependencies|@vue/cli-plugin-eslint|4.3.1|  MIT|OK|
+|devDependencies|@vue/cli-plugin-unit-jest|4.3.1| MIT |OK|
+|devDependencies|@vue/cli-service|4.3.1| MIT | OK|
+|devDependencies|@vue/eslint-config-standard|4.0.0| MIT | OK|
+|devDependencies|@vue/test-utils|1.0.0-beta.31| MIT | OK |
+|dependencies|a|2.1.2| MIT | OK |
+|dependencies|area-data-vue|1.0.9|  MIT | OK|
+|dependencies|area-linkage-vue|5.1.2| MIT | OK |
+|dependencies|axios|0.19.2| MIT | OK |
+|devDependencies|babel-eslint|10.1.0| MIT | OK|
+|dependencies|core-js|3.6.5| MIT  | OK |
+|dependencies|echarts|4.1.0|Aphche| OK |
+|dependencies|el-table-pagination|0.4.38| MIT | OK|
+|dependencies|element-ui|2.13.2| MIT | OK|
+|dependencies|elliptic|6.5.3| MIT | OK |
+|devDependencies|eslint|5.16.0| MIT | OK|
+|devDependencies|eslint-plugin-vue|5.2.3| MIT  | OK |
+|dependencies|http-proxy-agent|4.0.1|  MIT |  OK |
+|devDependencies|less|3.11.1| Apache-2.0 | OK|
+|dependencies|less-loader|5.0.0|  MIT | OK |
+|dependencies|lodash|4.17.19| MIT| OK|
+|dependencies|mavon-editor|2.9.0| MIT | OK |
+|devDependencies|mockjs|1.1.0| MIT  | OK|
+|dependencies|sass-loader|8.0.2| MIT | OK |
+|dependencies|serialize-javascript|3.1.0| BSD-3-Clause | OK |
+|dependencies|v-charts|1.19.0| MIT | OK |
+|dependencies|vue|2.6.11| MIT  | OK|
+|dependencies|vue-amap|0.5.10| MIT | OK |
+|dependencies|vue-generate-component|2.1.1|  ISC | OK|
+|dependencies|vue-i18n|8.17.7| MIT | OK|
+|dependencies|vue-router|3.2.0|MIT | OK |
+|devDependencies|vue-template-compiler|2.6.11| MIT| OK|
+|dependencies|vuex|3.4.0| MIT | OK |
