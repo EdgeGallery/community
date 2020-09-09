@@ -1,4 +1,4 @@
-## mecm-fe 三方件使用清单
+## user-mgmt-fe 三方件使用清单
 
 |	type	|	name	|	version	|	LICENSE	|	direct import	|
 |	---	|	---	|	---	|	---	|	---	|
