@@ -8,13 +8,13 @@
 ** **
 - 吕京
 - 程润东
-- Meng Puhui
 - 黎明江
 - 陈传雨
 - 李剑锋
 - Luxin
 - 张倍源
 - Libu
+- 赵宁
 
 
 ## Meeting Agenda
