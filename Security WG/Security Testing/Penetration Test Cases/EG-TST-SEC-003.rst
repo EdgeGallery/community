@@ -45,27 +45,25 @@ EdgeGallery Security Test Case 003
 |Test          | Test step description and expected result                    |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
+|step 1        | Run the test script to implement network servive/port        |
+|              | fuzzing                                                      |
 |              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
-|              |                                                              |
-|              |                                                              |
-+--------------+--------------------------------------------------------------+
-|step 3        |                                                              |
-|              |                                                              |
+|              | Usage:                                                       |
+|              | python uniofuzz.py -n -i 0.01 -ip xx.xx.xx.xx -port xx       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 4        |                                                              |
+|step 2        | The test script will run against the target port until an    |                                                             |
+|              | error is encountered                                         |
 |              |                                                              |
+|              | Fpr each port, a minimum 100000 times iteration is           |
+|              | recommended                                                  |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
 |Test verdict  | Define the result of a test case execution.                  |
 |              | It has 5 possible values: none, pass, inconc, fail, error.   |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|References    | Useful external reference URLs.                              |
+|References    | https://en.kali.tools/all/?tool=1478                         |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
