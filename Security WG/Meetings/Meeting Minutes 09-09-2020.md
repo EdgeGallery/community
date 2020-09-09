@@ -37,6 +37,7 @@
 - 黎明江介绍了三个需要作为例外的sonarqube告警，经讨论安全工作组同意对这三个告警进行排除。
 - 讨论通过SonarQube之后程润东统一进行例外告警设置。
 - 吕京检查mecm-applcm自生成文件是否排除。
+- 讨论通过PR验证中SonarQube结果不作为门禁。
 
 ## Voting Items
 
