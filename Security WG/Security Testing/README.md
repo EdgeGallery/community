@@ -52,3 +52,8 @@
  - Web Service Security: 7.1, 7.2
  - Log Security: 9.1, 9.2, 9.3, 9.4
 
+**MEP Project is exclude in pre-code-freeze test**
+
+5. MEP
+ - Identification, Authentication and Authorization: 1.2
+ - Secure Transmission: 2.1
