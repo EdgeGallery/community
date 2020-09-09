@@ -49,3 +49,4 @@ Discussion about current design progress of autotest scripts for test cases.
 1、测试环境准备 --owner pengyu
 2、将测试报告移入gitee --owner liuhui
 3、完善自动化测试脚本 -- owner all
+4、提醒项目组在9月12日开始确保3天dailybuild成功 -- owner liuhui
