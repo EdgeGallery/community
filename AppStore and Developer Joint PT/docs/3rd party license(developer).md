@@ -40,7 +40,7 @@
 |	com.netflix.spectator	|	spectator-api	|	0.83.0 	|	The Apache Software License, Version 2.0	|		|
 |	com.netflix.spectator	|	spectator-reg-servo	|	0.83.0 	|	The Apache Software License, Version 2.0	|		|
 |	com.spencerwi	|	Either.java	|	2.1.0 	|	The MIT License 	|		|
-|	com.sun.istack	|	istack-commons-runtime	|	3.0.7 	|	GPL2	|		|
+|	com.sun.istack	|	istack-commons-runtime	|	3.0.7 	|	CDDL 1.1GPL 1.1|		|
 |	com.sun.xml.fastinfoset	|	FastInfoset	|	1.2.15 	|	Apache License, Version 2.0	|		|
 |	com.vaadin.external.google	|	android-json	|	0.0.20131108.vaadin1 	|	Apache License 2.0	|		|
 |	com.zaxxer	|	HikariCP	|	3.2.0 	|	The Apache Software License, Version 2.0	|		|
@@ -84,15 +84,15 @@
 |	io.zipkin.brave	|	brave	|	5.6.0 	|	The Apache Software License, Version 2.0	|		|
 |	io.zipkin.reporter2	|	zipkin-reporter	|	2.5.0 	|	The Apache Software License, Version 2.0	|		|
 |	io.zipkin.zipkin2	|	zipkin	|	2.9.3 	|	The Apache Software License, Version 2.0	|		|
-|	javax.activation	|	javax.activation-api	|	1.2.0 	|	CDDL/GPLv2+CE	|		|
-|	javax.annotation	|	javax.annotation-api	|	1.3.2 	|	CDDL + GPLv2 with classpath exception	|		|
+|	javax.activation	|	javax.activation-api	|	1.2.0 	|	CDDL/GPL2.0	|		|
+|	javax.annotation	|	javax.annotation-api	|	1.3.2 	|	CDDL + GPLv2.0 	|		|
 |	javax.inject	|	javax.inject	|	1	|	The Apache Software License, Version 2.0	|		|
-|	javax.servlet	|	javax.servlet-api	|	4.0.1 	|	CDDL + GPLv2 with classpath exception	|		|
+|	javax.servlet	|	javax.servlet-api	|	4.0.1 	|	CDDL + GPLv2.0	|		|
 |	javax.validation	|	validation-api	|	2.0.1.Final 	|	Apache License 2.0	|		|
-|	javax.ws.rs	|	javax.ws.rs-api	|	2.0.1 	|	CDDL 1.1 GPL2 w/ CPE	|		|
-|	javax.xml.bind	|	jaxb-api	|	2.3.1 	|	CDDL 1.1 GPL2 w/ CPE	|		|
+|	javax.ws.rs	|	javax.ws.rs-api	|	2.0.1 	|	CDDL 1.1GPL 1.1	|		|
+|	javax.xml.bind	|	jaxb-api	|	2.3.1 	|	CDDL 1.1	|		|
 |	junit	|	junit	|	4.12	|	Eclipse Public License 1.0	|		|
-|	log4j	|	log4j	|	1.1.3 	|	Unknown license	|		|
+|	log4j	|	log4j	|	1.1.3 	|	Apache	|		|
 |	net.bytebuddy	|	byte-buddy	|	1.9.13	|	Apache License, Version 2.0	|		|
 |	net.bytebuddy	|	byte-buddy-agent	|	1.9.13 	|	Apache License, Version 2.0	|		|
 |	net.java.dev.jna	|	jna	|	4.5.2 	|	Apache License v2.0 LGPL, version 2.1	|		|
@@ -100,7 +100,7 @@
 |	net.lingala.zip4j	|	zip4j	|	2.4.0 	|	Apache License, Version 2.0	|		|
 |	net.minidev	|	accessors-smart	|	1.2	|	The Apache Software License, Version 2.0	|		|
 |	net.minidev	|	json-smart	|	2.3	|	The Apache Software License, Version 2.0	|		|
-|	org.abego.treelayout	|	org.abego.treelayout.core	|	1.0.3 	|	BSD 3-Clause "New" or "Revised" License 	|		|
+|	org.abego.treelayout	|	org.abego.treelayout.core	|	1.0.3 	|	BSD 3-Clause "New" abego Software GmbH, Germany 	|		|
 |	org.antlr	|	ST4	|	4.0.8 	|	BSD licence	|		|
 |	org.antlr	|	antlr-runtime	|	3.5.2 	|	BSD licence	|		|
 |	org.antlr	|	antlr4	|	4.7	|	The BSD License	|		|
