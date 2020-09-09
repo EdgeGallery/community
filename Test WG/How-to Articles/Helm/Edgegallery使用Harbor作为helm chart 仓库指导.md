@@ -106,7 +106,8 @@ harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 har
 `helm plugin install https://github.com/chartmuseum/helm-push`
 
 ### 9. 安装好插件之后，就可以push charts 到 harbor 里面了
-`helm push grafana-0.0.2.tgz helm-chart --username helm-chart--password xxx`
+`helm push  --username=helm-chart  --password=xxxxx appstore-1.0.1.tgz    helm-chart`
+ _helm-chart用户必须有admin权限_ 
 
 ### 10.Edgegallery平台的helm-chart会在jenkins 上daily build 并且push到Edgegallery的helm chart repo
 
