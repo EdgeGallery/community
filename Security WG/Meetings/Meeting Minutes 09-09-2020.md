@@ -15,7 +15,7 @@
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
 | Update on community license compliance | 吕京 |
-| Pre-code-freeze 测试进展     | 袁国平，吕京 |
+| Pre-code-freeze 测试进展     | All |
 | mep project sonarqube issues exception list discuss | mingjiang, libu |
 
 
