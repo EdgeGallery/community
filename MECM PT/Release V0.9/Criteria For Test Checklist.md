@@ -72,16 +72,16 @@ mecm-inventory:
 |  OK  |     (The Apache License, Version 2.0) org.apiguardian:apiguardian-api (org.apiguardian:apiguardian-api:1.1.0 - https://github.com/apiguardian-team/apiguardian)  |
 |  OK  |     (Eclipse Public License - v 1.0) AspectJ weaver (org.aspectj:aspectjweaver:1.9.6 - https://www.eclipse.org/aspectj/)  |
 |  OK  |     (Apache License, Version 2.0) AssertJ fluent assertions (org.assertj:assertj-core:3.16.1 - http://assertj.org/assertj-core)  |
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)  |
 |  OK  |     (BSD 3-clause New License) dom4j (org.dom4j:dom4j:2.1.3 - http://dom4j.github.io/)  |
 |  OK  |     (Apache License, Version 2.0) flyway-core (org.flywaydb:flyway-core:6.4.4 - https://flywaydb.org/flyway-core)  |
 |  OK  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Expression Language 3.0 (org.glassfish:jakarta.el:3.0.3 - https://projects.eclipse.org/projects/ee4j.el)  |
 |  OK  |     (Eclipse Distribution License - v 1.0) JAXB Runtime (org.glassfish.jaxb:jaxb-runtime:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-runtime-parent/jaxb-runtime)  |
 |  OK  |     (Eclipse Distribution License - v 1.0) TXW2 Runtime (org.glassfish.jaxb:txw2:2.3.3 - https://eclipse-ee4j.github.io/jaxb-ri/jaxb-txw-parent/txw2)  |
 |  OK  |     (BSD License 3) Hamcrest (org.hamcrest:hamcrest:2.2 - http://hamcrest.org/JavaHamcrest/)  |
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)  |
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)  |
+|  OK Dynamic link.it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)  |
+|  OK Dynamic link.it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)  |
 |  OK  |     (Apache License 2.0) Hibernate Validator Engine (org.hibernate.validator:hibernate-validator:6.1.5.Final - http://hibernate.org/validator/hibernate-validator)  |
 |  OK  |     (Apache License 2.0) (LGPL 2.1) (MPL 1.1) Javassist (org.javassist:javassist:3.24.0-GA - http://www.javassist.org/)  |
 |  OK  |     (Apache License, Version 2.0) Java Annotation Indexer (org.jboss:jandex:2.1.3.Final - http://www.jboss.org/jandex)  |
@@ -217,8 +217,8 @@ mecm-appo:
 |  OK  |     (Eclipse Public License - v 1.0) AspectJ weaver (org.aspectj:aspectjweaver:1.9.6 - https://www.eclipse.org/aspectj/)
 |  OK  |     (Apache License, Version 2.0) AssertJ fluent assertions (org.assertj:assertj-core:3.16.1 - http://assertj.org/assertj-core)
 |  OK  |     (The Apache Software License, Version 2.0) jose4j (org.bitbucket.b_c:jose4j:0.7.2 - https://bitbucket.org/b_c/jose4j/)
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
 |  OK  |     (The Apache Software License, Version 2.0) camunda BPM - engine (org.camunda.bpm:camunda-engine:7.12.0 - http://www.camunda.org/camunda-database-settings/camunda-engine)
 |  OK  |     (The Apache Software License, Version 2.0) camunda BPM - engine - REST JAX RS 2.0 (org.camunda.bpm:camunda-engine-rest-jaxrs2:7.12.0 - http://www.camunda.org/camunda-database-settings/camunda-engine-rest-root/camunda-engine-rest-jaxrs2)
 |  OK  |     (The Apache Software License, Version 2.0) camunda BPM - engine - Spring (org.camunda.bpm:camunda-engine-spring:7.12.0 - http://www.camunda.org/camunda-database-settings/camunda-engine-spring)
@@ -265,8 +265,8 @@ mecm-appo:
 |  OK  |     (Apache License, 2.0) (BSD 2-Clause) (EDL 1.0) (EPL 2.0) (GPL2 w/ CPE) (MIT license) (Modified BSD) (Public Domain) (W3C license) (jQuery license) jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.30.1 - https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-media-jaxb)
 |  OK  |     (Apache License, 2.0) (EPL 2.0) (The GNU General Public License (GPL), Version 2, With Classpath Exception) jersey-media-json-jackson (org.glassfish.jersey.media:jersey-media-json-jackson:2.30.1 - https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-media-json-jackson)
 |  OK  |     (BSD License 3) Hamcrest (org.hamcrest:hamcrest:2.2 - http://hamcrest.org/JavaHamcrest/)
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0 |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)
+|  OK Dynamic link. it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0 |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)
+|  OK Dynamic link. it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)
 |  OK  |     (Apache License 2.0) Hibernate Validator Engine (org.hibernate.validator:hibernate-validator:6.1.5.Final - http://hibernate.org/validator/hibernate-validator)
 |  OK  |     (Apache License 2.0) (LGPL 2.1) (MPL 1.1) Javassist (org.javassist:javassist:3.24.0-GA - http://www.javassist.org/)
 |  OK  |     (Apache License, Version 2.0) Java Annotation Indexer (org.jboss:jandex:2.1.3.Final - http://www.jboss.org/jandex)
@@ -420,8 +420,8 @@ mecm-apm:
 |  OK  |     (Eclipse Public License - v 1.0) AspectJ weaver (org.aspectj:aspectjweaver:1.9.6 - https://www.eclipse.org/aspectj/)
 |  OK  |     (Apache License, Version 2.0) AssertJ fluent assertions (org.assertj:assertj-core:3.16.1 - http://assertj.org/assertj-core)
 |  OK  |     (Apache 2.0) Awaitility (org.awaitility:awaitility:4.0.3 - http://awaitility.org)
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
-|  TBD  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
+|  OK  |     (Bouncy Castle Licence) Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.64 - https://www.bouncycastle.org/java.html)
 |  OK  |     (BSD 3-clause New License) dom4j (org.dom4j:dom4j:2.1.3 - http://dom4j.github.io/)
 |  OK  |     (Apache License, Version 2.0) flyway-core (org.flywaydb:flyway-core:6.4.4 - https://flywaydb.org/flyway-core)
 |  OK  |     (EPL 2.0) (GPL2 w/ CPE) Jakarta Expression Language 3.0 (org.glassfish:jakarta.el:3.0.3 - https://projects.eclipse.org/projects/ee4j.el)
@@ -438,8 +438,8 @@ mecm-apm:
 |  OK  |     (Apache License, 2.0) (EPL 2.0) (Public Domain) (The GNU General Public License (GPL), Version 2, With Classpath Exception) jersey-core-common (org.glassfish.jersey.core:jersey-common:2.30.1 - https://projects.eclipse.org/projects/ee4j.jersey/jersey-common)
 |  OK  |     (Apache License, 2.0) (BSD 2-Clause) (EDL 1.0) (EPL 2.0) (GPL2 w/ CPE) (MIT license) (Modified BSD) (Public Domain) (W3C license) (jQuery license) jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.30.1 - https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-hk2)
 |  OK  |     (BSD License 3) Hamcrest (org.hamcrest:hamcrest:2.2 - http://hamcrest.org/JavaHamcrest/)
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)
-|  OK it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0 |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)
+|  OK Dynamic link. it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0  |     (GNU Library General Public License v2.1 or later) Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.4.20.Final - http://hibernate.org/orm)
+|  OK Dynamic link. it's not derectly imported. involed by spring-boot-starter-data-jpa which is apache license 2.0 |     (GNU Library General Public License v2.1 or later) Hibernate Commons Annotations (org.hibernate.common:hibernate-commons-annotations:5.1.0.Final - http://hibernate.org)
 |  OK  |     (Apache License 2.0) Hibernate Validator Engine (org.hibernate.validator:hibernate-validator:6.1.5.Final - http://hibernate.org/validator/hibernate-validator)
 |  OK  |     (Apache License 2.0) (LGPL 2.1) (MPL 1.1) Javassist (org.javassist:javassist:3.24.0-GA - http://www.javassist.org/)
 |  OK  |     (Apache License, Version 2.0) Java Annotation Indexer (org.jboss:jandex:2.1.3.Final - http://www.jboss.org/jandex)
