@@ -36,7 +36,7 @@ EdgeGallery Security Compliance Test Case 2-2
 +--------------+--------------------------------------------------------------+
 |step 1        | Use the sslscan to scan the cluster IP address:port          |
 |              |                                                              |
-|              | Test environment: 159.138.49.97                              |
+|              | Test environment: Daily deployment enviroment                |
 |              |                                                              |
 |              | For example:                                                 |
 |              |     ``./sslscan 10.x.x.2:port``                              |
