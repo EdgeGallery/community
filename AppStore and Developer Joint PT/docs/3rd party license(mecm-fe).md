@@ -30,7 +30,7 @@
 |	devDependencies	|	@vue/cli-service	|	4.3.1	|	MIT	|	Y	|
 |	devDependencies	|	@vue/eslint-config-standard	|	4.0.0	|	MIT	|	Y	|
 |	devDependencies	|	@vue/test-utils	|	1.0.0-beta.31	|	MIT	|	Y	|
-|	devDependencies	|	babel-eslint	|	10.1.0	|		|	Y	|
+|	devDependencies	|	babel-eslint	|	10.1.0	|	MIT	|	Y	|
 |	devDependencies	|	eslint	|	5.16.0	|	MIT	|	Y	|
 |	devDependencies	|	eslint-plugin-vue	|	5.2.3	|	MIT	|	Y	|
 |	devDependencies	|	less	|	3.11.1	|	Apache-2.0	|	Y	|
