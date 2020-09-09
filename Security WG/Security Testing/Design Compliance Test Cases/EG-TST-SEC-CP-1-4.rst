@@ -7,8 +7,8 @@
 | Test purpose                     | Allow user (who is having more   |
 |                                  | access level than required       |
 |                                  | level, e.g admin accessing       |
-|                                  | user’s resource) to access only |
-|                                  | permitted Guard EG service’s    |
+|                                  | user’s resource) to access only  |
+|                                  | permitted Guard EG service’s     |
 |                                  | operation.                       |
 |                                  |                                  |
 |                                  | Effect: +ve                      |
@@ -18,7 +18,7 @@
 | Test description                 | Every micro service eg should be |
 |                                  | enabled with proper              |
 |                                  | authorization to make sure the   |
-|                                  | eg resource’s access is allowed |
+|                                  | eg resource’s access is allowed  |
 |                                  | ONLY based on the authorization  |
 |                                  | level, which current user has.   |
 +----------------------------------+----------------------------------+
