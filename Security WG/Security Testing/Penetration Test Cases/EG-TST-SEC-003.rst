@@ -52,7 +52,7 @@ EdgeGallery Security Test Case 003
 |              | python uniofuzz.py -n -i 0.01 -ip xx.xx.xx.xx -port xx       |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        | The test script will run against the target port until an    |                                                             |
+|step 2        | The test script will run against the target port until an    |
 |              | error is encountered                                         |
 |              |                                                              |
 |              | Fpr each port, a minimum 100000 times iteration is           |
