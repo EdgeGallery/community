@@ -111,4 +111,6 @@ harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 har
 
 ### 10.Edgegallery平台的helm-chart会在jenkins 上daily build 并且push到Edgegallery的helm chart repo
 
+### 11 helm searh repo xxx， 执行search 命令按照关键字查找repo的helm chart file
+
 [Edgegallery的helm chart repo](http://119.8.55.191:30002/)
