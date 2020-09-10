@@ -1,13 +1,14 @@
 *   [带宽服务接口说明](#带宽服务接口说明)
     *   [功能介绍](#功能介绍)
+
 *   [接口清单](#接口清单)
     *   [bwm](#bwm)
-        *   [/bw_allocations GET](#/bw_allocations GET)
-        *   [/bw_allocations POST](#/bw_allocations POST)
-        *   [/bw_allocations/{allocationId} GET](#/bw_allocations/{allocationId} GET)
-        *   [/bw_allocations/{allocationId} PUT](#/bw_allocations/{allocationId} PUT)
-        *   [/bw_allocations/{allocationId} PATCH](#/bw_allocations/{allocationId} PATCH)
-        *   [/bw_allocations/{allocationId} DELETE](#/bw_allocations/{allocationId} DELETE)
+    *   [/bw_allocations GET](#/bw_allocations GET)
+    *   [/bw_allocations POST](#/bw_allocations POST)
+    *   [/bw_allocations/{allocationId} GET](#/bw_allocations/{allocationId} GET)
+    *   [/bw_allocations/{allocationId} PUT](#/bw_allocations/{allocationId} PUT)
+    *   [/bw_allocations/{allocationId} PATCH](#/bw_allocations/{allocationId} PATCH)
+    *   [/bw_allocations/{allocationId} DELETE](#/bw_allocations/{allocationId} DELETE)
    
 
 # 带宽服务接口说明
