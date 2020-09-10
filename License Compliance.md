@@ -35,29 +35,60 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 
 
 ## Approved 3rd Party Open Source Software License
-- MIT License
-- BSD License
-- FreeBSD License
-- OpenBSD License
-- Apache License
-- Openssl License
-- Zope Public License
-- Boost Software License V1
-- Python License
-- Zlib License
-- Code Project Open License（CPOL）
+
+- Apache License 2.0
+- Apache Software License 1.1. Including variants
+- BSD (without advertising clause). Including variants
+- MIT/X11
+- ICU
+- University of Illinois/NCSA
+- W3C Software License
+- W3C Community Contributor License Agreement - if at least 45 days after publication
+- X.Net
+- zlib/libpng
+- FSF autoconf license
+- DejaVu Fonts (Bitstream Vera/Arev licenses)
+- Academic Free License 3.0
+- Service+Component+Architecture+Specifications
+- OOXML XSD ECMA License
+- Microsoft Public License (MsPL)
+- Creative Commons Copyright-Only Dedication
+- Python Software Foundation License
+- Python Imaging Library Software License
+- Adobe Postcript(R) AFM files
+- Boost Software License Version 1.0
+- License for CERN packages in COLT but note that this applies only to CERN packages in COLT and not others
+- UK Open Government Licence. This license allows the licensor to provide a custom attribution notice. If one is provided, include in the NOTICE. If one is not provided, include 'Contains public sector information licensed under the Open Government Licence v3.0.' in the NOTICE.
+- WTF Public License
+- The Romantic WTF public license
+- UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
+- Zope Public License 2.0
+- ACE license
+- Oracle Universal Permissive License (UPL) Version 1.0
+- Open Grid Forum License
+- Google "Additional IP Rights Grant (Patents)" file
+- The Unlicense
+- Historical Permission Notice and Disclaimer
+- Mulan Permissive Software License，Version 2
+
 
 ### Approved 3rd Party Open Source Software License When no code modifications are made
-- NOSL V1.0
-- IBM Public License V1.0
-- Sun Public License
-- Nokia Open Source License
-- NPL
-- CDDL
-- EPL V1
-- Common Public License V1
-- Mozilla Public License
-- Creative Commons Public Domain License
+
+- Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1
+- Common Public License: CPL 1.0
+- Eclipse Public License: EPL 1.0
+- IBM Public License: IPL 1.0
+- Mozilla Public Licenses: MPL 1.0, MPL 1.1, and MPL 2.0
+- Sun Public License: SPL 1.0
+- Open Software License 3.0
+- Erlang Public License
+- UnRAR License (only for unarchiving)
+- SIL Open Font License
+- Ubuntu Font License Version 1.0
+- IPA Font License Agreement v1.0
+- Ruby License (including the older version when GPLv2 was a listed alternative Ruby 1.9.2 license)
+- Eclipse Public License 2.0: EPL 2.0
+
 
  **Note: software under multiple licenses allows the user to pick the license terms that they prefer.** 
 
