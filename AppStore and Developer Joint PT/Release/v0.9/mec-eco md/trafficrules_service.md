@@ -1,10 +1,10 @@
-*   [App Traffic Rules API](#App Traffic Rules API)
+*   [定位服务](#定位服务)
     *   [功能介绍](#功能介绍)
 
 *   [接口清单](#接口清单)
      *   [appTrafficRules](#appTrafficRules)
 
-# App Traffic Rules API
+# 定位服务
 ## 功能介绍
 
 为APP提供定位服务。
