@@ -13,10 +13,10 @@
 |	dependencies	|	elliptic	|	6.5.3	|	MIT	|	Y	|
 |	dependencies	|	http-proxy-agent	|	4.0.1	|	MIT	|	Y	|
 |	dependencies	|	less-loader	|	5.0.0	|	MIT	|	Y	|
-|	dependencies	|	lodash	|	4.17.19	|	MIT	|	Y	|
+|	dependencies	|	lodash	|	4.17.20	|	MIT	|	Y	|
 |	dependencies	|	mavon-editor	|	2.9.0	|	MIT	|	Y	|
 |	dependencies	|	sass-loader	|	8.0.2	|	MIT	|	Y	|
-|	dependencies	|	serialize-javascript	|	3.1.0	|	BSD-3-Clause	|	Y	|
+|	dependencies	|	serialize-javascript	|	4.0.0	|	BSD-3-Clause	|	Y	|
 |	dependencies	|	v-charts	|	1.19.0	|	MIT	|	Y	|
 |	dependencies	|	vue	|	2.6.11	|	MIT	|	Y	|
 |	dependencies	|	vue-amap	|	0.5.10	|	MIT	|	Y	|
