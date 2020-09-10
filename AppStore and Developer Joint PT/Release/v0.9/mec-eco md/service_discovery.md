@@ -1,4 +1,10 @@
-[TOC]
+*   [服务发现接口说明](#服务发现接口说明)
+    *   [功能介绍](#功能介绍)
+
+*   [接口清单](#接口清单)
+     *   [appSubscriptions](#appSubscriptions)
+     *   [appServices](#appServices)
+
 # 服务发现接口说明
 ## 功能介绍
 
