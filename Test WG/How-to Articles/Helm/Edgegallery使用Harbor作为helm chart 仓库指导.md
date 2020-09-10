@@ -98,7 +98,8 @@ harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 har
 创建一个helm-chart用户
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/171224_18bedda5_7624512.png "helm-repo-user.png")
 
-###7.  添加 repo 到 helm 中
+
+### 7. 添加 repo 到 helm 中
 
 `helm repo add helm-chart http://192.168.100.143:30002/chartrepo/edgegallery_helm_chart`
 
