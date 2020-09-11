@@ -1,9 +1,6 @@
 # 三方件漏洞排查情况
-
 ## 1. website-gateway三方件依赖排查结果
-
 已经确认的漏洞如下（说明：依赖的三方件已经是最新版本。若其包含的漏洞无法解决。）：
-
 | 模块      |  依赖组件  |版本| 漏洞         |  漏洞级别             |   漏洞描述 |  是否解决 |    说明    |
 | ---------| --------------------|----------------------|----------------|----------------- |----------------|-----------------|---------------------------------|
 |websitite-gateway|log4j   | 1.2.17 | CVE-2019-17571     | Critical        |Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions up to 1.2 up to 1.2.17.| 否  | Sevicecomb组件引入的被动依赖，升级会导致servicecomb启动失败 |
