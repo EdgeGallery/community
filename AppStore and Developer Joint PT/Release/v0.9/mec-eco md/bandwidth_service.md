@@ -3,7 +3,7 @@
 
 *   [接口清单](#接口清单)
     *   [bwm](#bwm)
-    *   [/bw_allocations GET](#/bw_allocations GET)
+    *   [/bw_allocations GET](#/bw-allocations-GET)
     *   [/bw_allocations POST](#/bw_allocations POST)
     *   [/bw_allocations/{allocationId} GET](#/bw_allocations/{allocationId} GET)
     *   [/bw_allocations/{allocationId} PUT](#/bw_allocations/{allocationId} PUT)
