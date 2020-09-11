@@ -47,27 +47,26 @@
 
 2020年9月14日至9月28日。
 
-|需求点|测试活动|计划工作量（人天）|实际工作量（人天）|负责人|
-|---|---|---|---|---|
-|各个项目提测确认|APP/MECM/developer |1人天 | |刘辉/彭育/侯敏熙 |
-|冒烟测试|APP/MECM/developer |1人天 | |刘辉/彭育/侯敏熙 |
-|network isolation test|1.xx | | | |
-|network isolation test|2.xx | | | |
-|network isolation test|3.xx | | | |
-|public cloud integration| | | | |
-|安装部署支持All-in-one|1.ARM/X86环境准备|1人天| | Pengyu|
-|安装部署支持All-in-one|2.ARM 环境部署测试|1人天| | Pengyu|
-|安装部署支持All-in-one|3.X86 环境部署测试|1人天| | Pengyu|
-|安装部署支持All-in-one|4.问题确认和回归测试|2人天| | Pengyu|
-|安装部署支持All-in-one| | | | |
-|离线部署测试| | | | |
-|支持JJB部署| | | | |
-|installation test| | | | |
-|developer&AppStore测试| | | | |
-|MECM测试| | | | | 
-|dns test| | | | |
-|5G网元集成| | | | |
-|ETSI interface test| | | | |
+|需求点|测试活动|计划工作量（人天）|计划完成时间（人天）|负责人|Progress|
+|---|---|---|---|---|---|
+|各个项目提测确认|APP/MECM/developer |1人天 |2020/09/14 |刘辉/彭育/侯敏熙 | 0%|
+|冒烟测试|APP/MECM/developer |1人天 |2020/09/14 |刘辉/彭育/侯敏熙 |0%|
+|network isolation test|1.xx | | | |0%|
+|network isolation test|2.xx | | | |0%|
+|network isolation test|3.xx | | | |0%|
+|public cloud integration| | | | |0%|
+|安装部署支持All-in-one|1.ARM/X86环境准备|1人天| 2020/09/14| Pengyu|0%|
+|安装部署支持All-in-one|2.ARM 环境部署测试|1人天| 2020/09/15| Pengyu|0%|
+|安装部署支持All-in-one|3.X86 环境部署测试|1人天| 2020/09/16| Pengyu|0%|
+|安装部署支持All-in-one|4.问题确认和回归测试|2人天| 2020/09/17| Pengyu|0%|
+|离线部署测试| | | | |0%|
+|支持JJB部署| | | | |0%|
+|installation test| | | | |0%|
+|developer&AppStore测试| | | | |0%|
+|MECM测试| | | | | 0%|
+|dns test| | | | |0%|
+|5G网元集成| | | | |0%|
+|ETSI interface test| | | | | 0%|
 
 3.1.3 测试用例执行统计 analysis of Test Case execution
 
