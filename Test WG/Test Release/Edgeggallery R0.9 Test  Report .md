@@ -61,7 +61,8 @@
 |安装部署支持All-in-one|4.问题确认和回归测试|2人天| 2020/09/17| Pengyu|0%|
 |离线部署测试| | | | |0%|
 |支持JJB部署| | | | |0%|
-|installation test| | | | |0%|
+|installation test|1.ARM/X86环境准备|1人天| 2020/09/18| Pengyu|0%|
+|installation test|1.ARM/X86平台测试|1人天| 2020/09/19| Pengyu|0%|
 |developer&AppStore测试| | | | |0%|
 |MECM测试| | | | | 0%|
 |dns test| | | | |0%|
