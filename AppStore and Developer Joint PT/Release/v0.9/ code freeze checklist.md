@@ -2,8 +2,8 @@
 
 |user|appstore|developer|检查项|
 |---|---|---|---|
-|   |   | 无新特性  |  完成详细设计/架构更新Complete detail design/architecture updating                                                                  |
-|   |   |   |  PTL确认所有task关闭（PTL confirm ）all tasks are closed                                                                            |
+|   |   | 无新特性  |  完成详细设计/架构更新Complete detail design/architecture updating                                           |
+|OK,文档store下周关闭 |   |   |  PTL确认所有task关闭（PTL confirm ）all tasks are closed                                                                            |
 | OK  | OK  | OK |  PTL确认gitee门户外部bug类问题关闭（PTL confirm） bugs（vital/blocked） out of gitee are all closed                                 |
 |OK   | OK  | OK  |  PTL确认所有新开发代码都有自动化测试用例（PTL）confirm all recently developed code has autotest cases                               |
 |OK   | OK  | OK  |  PTL确认满足单元测试覆盖率要求（PTL confirm） satisfy code coverage rate for unit test                                              |
