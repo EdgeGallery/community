@@ -8,7 +8,7 @@
 
 1.4 测试版本 Test Version
 
-1.5 术语和缩略词
+1.5 术语和缩略词 Terms and Abbreviations
 
 1.6 参考资料 References
 
@@ -24,15 +24,13 @@
 
 2.3 测试方法和工具 Test Method and Tools
 
-三、测试结果及缺陷分析
+三、测试结果及缺陷分析 Test Results and Defects Analysis
 
 3.1 测试执行情况及记录Test exceuction and Records
 
 3.1.1 测试组织 Test Organizing
 
 测试组负责人：刘辉。
-
-
 
 | 姓名 | 任务分工 |
 |---|---|
