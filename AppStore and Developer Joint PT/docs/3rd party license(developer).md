@@ -175,7 +175,7 @@
 |	org.mybatis.spring.boot	|	mybatis-spring-boot-starter	|	2.1.1 	|	The Apache Software License, Version 2.0	|	Y	|
 |	org.objenesis	|	objenesis	|	2.6	|	Apache 2	|	N	|
 |	org.osgi	|	org.osgi.core	|	4.3.1 	|	Apache License, Version 2.0	|	N	|
-|	org.osgi	|	org.osgi.enterprise	|	4.2.0 	|	Unknown license	|	N	|
+|	org.osgi	|	org.osgi.enterprise	|	4.2.0 	|	OSGI Utilities	|	N	|
 |	org.ow2.asm	|	asm	|	5.0.4 	|	BSD	|		|
 |	org.postgresql	|	postgresql	|	42.2.13 	|	BSD-2-Clause	|	Y	|
 |	org.projectlombok	|	lombok	|	1.18.10 	|	The MIT License	|	Y	|
