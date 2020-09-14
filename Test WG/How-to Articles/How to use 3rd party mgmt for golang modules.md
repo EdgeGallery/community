@@ -27,7 +27,7 @@ parts,  _mepauth_  and  _mepserver_ . The `main.go` file is under the same direc
 
 In this part, we will take the project  _mep_  as the example. When you are adding a new direct module
 (for example  **github.com/stretchr/testify** ) to its  _mepserver/go.mod_  file, and then create a PR to  _mep_  project,
-there is a Jenkins Job named "3rdParty-mep-pr-modules-check" triggered as the gating job. Only if this job build
+there is a Jenkins Job named "3rdParty-mep-pr-modules-check" triggered as the gating job. Only when this job build
 successfully, this PR can be merged. This job checks all direct modules list in all go.mod files
 (_mepserver/go.mod_ and _mepauth/go.mod_) of project _mep_ and all other indirect modules list in all go.sum files
 (_mepserver/go.sum_ and _mepauth/go.sum_) of project _mep_.
