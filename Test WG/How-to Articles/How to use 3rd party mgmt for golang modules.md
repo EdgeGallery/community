@@ -60,6 +60,8 @@ what EdgeGallery require. Please following the checklist below and provide the s
 when submitting the request.
 
 - License of this module
+- <Other requirements>
+- <Need the input from EdgeGallery TSC>
 
 After getting all supporting materials, please add the new module and all its related indirect modules
 to [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
