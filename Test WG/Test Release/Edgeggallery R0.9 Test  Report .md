@@ -56,11 +56,11 @@
 |---|---|---|---|---|---|---|---|
 |各个项目提测确认|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 | 0%|
 |冒烟测试|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 |Delay|
-|network isolation test|1.NetworkAttachServic生命周期测试（6 test cases） | | | | | |0%|
-|network isolation test|2.应用服务生命周期测试(4 test cases)| | | | |  |0%|
-|network isolation test|3.带宽测试(2 test cases)| | | | | |0%|
-|public cloud integration|1.部署kubeedge测试 | | | | | |0%|
-|public cloud integration|1.部署示例应用程序测试 | | | | | |0%|
+|network isolation test|1.NetworkAttachServic生命周期测试（6 test cases） |2人天 | | | | |0%|
+|network isolation test|2.应用服务生命周期测试(4 test cases)|2人天 | | | |  |0%|
+|network isolation test|3.带宽测试(2 test cases)|2人天 | | | | |0%|
+|public cloud integration|1.部署kubeedge测试 |1人天 | | | | |0%|
+|public cloud integration|1.部署示例应用程序测试 |1人天 | | | | |0%|
 |安装部署支持All-in-one|1.ARM/X86环境准备|1人天| 2020/09/14| | | Pengyu|Delay|
 |安装部署支持All-in-one|2.ARM 环境部署测试|1人天| 2020/09/15| | | Pengyu|0%|
 |安装部署支持All-in-one|3.X86 环境部署测试|1人天| 2020/09/16| | | Pengyu|0%|
