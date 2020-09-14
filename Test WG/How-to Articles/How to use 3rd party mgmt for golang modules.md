@@ -65,6 +65,6 @@ Also project _ci-management_ has a gating job named "3rdParty-JJB-PR-modules-ver
     - There could be several versions of one indirect module
     - There could be a module that is both direct and indirect modules, because it's direct for one project but indirect for another project
 - The new modules you are adding won't break all other Golang projects
-    - This is test by build the projects with the updated global modules scope
+    - This is test by trying to build the projects with the updated global modules scope
 
 
