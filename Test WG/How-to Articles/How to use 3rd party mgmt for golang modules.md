@@ -43,8 +43,10 @@ exit status 1
 ```
 
 What the console output means is that, module **github.com/stretchr/testify** hasn't been accepted by EdgeGallery community
-as direct modules. With this reason, this PR can't be merged until solving this issue. There could be 2 ways to do this,
-1) replace this module with another module which has been accepted by the community, second, 2) raise a request to add this module in.
+as direct modules. With this reason, this PR can't be merged until solving this issue. There could be 2 ways to do this:
+
+1. Replace this module with another module which has been accepted by the community
+2. Raise a request to add this module in
 
 ## Add a New Module into the Whole Scope
 
