@@ -1,10 +1,10 @@
-### 3rd Party Management for Golang Modules
+# 3rd Party Management for Golang Modules
 
 All Golang modules imported by the Golang projects in EdgeGallery are separated into 2 parts, direct modules and indirect
 modules. What EdgeGallery community concerned is all direct modules including the module name, its version and its hash value.
 Currently for one direct module, there is only one version accepted by the community.
 
-### Golang Projects Developer
+# Golang Projects Developer
 
 For Golang projects (e.g. mep and mep-agent) developers, please try your best to use the modules and the versions
 which have been accepted by the community. You can go to the file [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
@@ -13,7 +13,7 @@ which list the whole scope of Golang modules including both the direct and indir
 If it necessarily to use another module that haven't accept by the community, please following the guide below to add them
 and their related indirect modules into the [community's global module scope](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
 
-#### Check All Direct and Indirect Modules
+## Check All Direct and Indirect Modules
 
 In this part, we will take the project MEP as the example. When you add a new direct module
 (for example  **github.com/stretchr/testify** ) to its  _mepserver/go.mod_  file, and then create a PR to MEP project,
@@ -37,7 +37,7 @@ What the console output means is that, module **github.com/stretchr/testify** ha
 as direct modules. With this reason, this PR can't be merged until solving this issue. There could be 2 ways to do this,
 1) replace this module with another module which has been accepted by the community, second, 2) raise a request to add this module in.
 
-#### Add a New Module into the Whole Scope
+## Add a New Module into the Whole Scope
 
 Before adding the new module, you need to make sure that this module meets the requirements of what EdgeGallery require.
 Please following the checklist below and provide the supporting materials when submit the request.
