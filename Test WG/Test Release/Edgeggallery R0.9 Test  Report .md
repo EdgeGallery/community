@@ -21,6 +21,13 @@
 2.1 测试用例及脚本设计 Test Cases and Auto test scripts
 
 2.2 测试环境与配置 Test Env and related Configuration
+| server ip |Usage   | password |
+|-----------|---|----------|
+| 159.138.30.89| edge  |xxxx |
+| 119.8.36.45 | 中心  | xxxx    |
+|           |   |          |
+|           |   |          |
+
 
 2.3 测试方法和工具 Test Method and Tools
 
