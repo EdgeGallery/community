@@ -13,6 +13,10 @@
 |近3天日构建成功率100%  daily build for last 3 days are all succeeded.   |      OK                  |   http://jenkins.edgegallery.org/view/GITEE-MEC-PLATFORM-BUILD/  |
 
 
+### Jenkins status:  
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0914/091606_abae8c73_7624954.png "dailymecm.png")
+
 
 
 ### License for thirdparty
