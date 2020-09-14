@@ -76,7 +76,8 @@
 |developer功能测试| |3人天| 2020/09/21| | |李媛媛|0%|
 |AppStore功能测试| |2人天| 2020/09/21| | |李媛媛|0%|
 |MECM功能测试| |5人天| 2020/09/21| | |张阿利|0%|
-|dns test| | | | | | |0%|
+|dns test|1.deploy dns-service|1人天|2020/09/14| | |pmeng|50%|
+|dns test|2.dns system testing|5人天|2020/09/21| | |pmeng|0%|
 |5G网元集成| | | | | | |0%|
 |ETSI interface test| | | | | | | 0%|
 
