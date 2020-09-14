@@ -17,7 +17,7 @@ and its related indirect modules into the [community's global module scope](http
 ## Add New Golang Projects
 
 Currently, there are only 2 projects using Golang, mep and mep-agent. And there is a [project file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/projects.yaml)
-list all these projects. If your project is not including in this file, please add it here.
+list all these projects. If your project is not included in this file, please add it here.
 
 There is a section  **main** in this file, and it should be the directory used to run the `go build` command.
 For example, for project  _mep-agent_ , it's `./src/main/main.go`. And for project  _mep_ , there are 2 independent
