@@ -67,4 +67,6 @@ Also project _ci-management_ has a gating job named "3rdParty-JJB-PR-modules-ver
 - The new modules you are adding won't break all other Golang projects
     - This is test by trying to build the projects with the updated global modules scope
 
-
+After the community reviewing the PR creating in project _ci-management_ and then merging it, the new modules have been
+approved by the community. Then please re-trigger the gating job of your own project and it should be successful, which
+means your PR to add the new modules is ready to be merged now.
