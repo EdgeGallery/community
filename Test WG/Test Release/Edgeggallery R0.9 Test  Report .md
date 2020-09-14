@@ -55,12 +55,12 @@
 |需求点|测试活动|计划工作量（人天）|计划完成时间|实际完成时间|实际工作量（人天）|负责人|Progress|
 |---|---|---|---|---|---|---|---|
 |各个项目提测确认|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 | 0%|
-|冒烟测试|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 |0%|
+|冒烟测试|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 |Delay|
 |network isolation test|1.xx | | | | | |0%|
 |network isolation test|2.xx | | | | |  |0%|
 |network isolation test|3.xx | | | | | |0%|
 |public cloud integration| | | | | | |0%|
-|安装部署支持All-in-one|1.ARM/X86环境准备|1人天| 2020/09/14| | | Pengyu|0%|
+|安装部署支持All-in-one|1.ARM/X86环境准备|1人天| 2020/09/14| | | Pengyu|Delay|
 |安装部署支持All-in-one|2.ARM 环境部署测试|1人天| 2020/09/15| | | Pengyu|0%|
 |安装部署支持All-in-one|3.X86 环境部署测试|1人天| 2020/09/16| | | Pengyu|0%|
 |安装部署支持All-in-one|4.问题确认和回归测试|2人天| 2020/09/17| | | Pengyu|0%|
