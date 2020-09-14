@@ -51,7 +51,7 @@ as direct modules. With this reason, this PR can't be merged until solving this 
 ## Add a New Module into the Whole Scope
 
 Before adding the new module, you need to make sure that this module meets the requirements of what EdgeGallery require.
-Please following the checklist below and provide the supporting materials when submit the request.
+Please following the checklist below and provide the supporting materials when submitting the request.
 
 After getting all supporting materials, please add the new module and all its related indirect modules to [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
 After that you can create a PR to project  _ci-management_  and attach your supporting materials for reviewing.
