@@ -54,7 +54,7 @@
 
 |需求点|测试活动|计划工作量（人天）|计划完成时间|实际完成时间|实际工作量（人天）|负责人|Progress|
 |---|---|---|---|---|---|---|---|
-|各个项目提测确认|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 | 0%|
+|各个项目提测确认|APP/MECM/developer |1人天 |2020/09/14|20200915 | 1|刘辉/彭育/侯敏熙 | 100%|
 |冒烟测试|APP/MECM/developer |1人天 |2020/09/14| | |刘辉/彭育/侯敏熙 |Delay|
 |network isolation test|1.NetworkAttachServic生命周期测试（6 test cases） |3人天 |2020/09/15 | | | |0%|
 |network isolation test|2.应用服务生命周期测试(4 test cases)|2人天 |2020/09/18 | | |  |0%|
