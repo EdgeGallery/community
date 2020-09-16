@@ -14,7 +14,7 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| 合规测试进展     | Jing Lu |
+| 合规测试进展及发现问题同步     | Jing Lu |
 
 
 ## Discussion Items and Minutes
