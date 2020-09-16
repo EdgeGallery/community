@@ -38,8 +38,6 @@ Review test detail plan.
 
 Discussion about software defects found during test.
 
-4.Go语言三方件管理进展，JAVA语言三房间管理方案
-
 ## meeting link
  https://welink-meeting.zoom.us/j/319404821
 
