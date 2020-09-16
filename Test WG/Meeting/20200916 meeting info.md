@@ -9,6 +9,7 @@
 - 张阿利（中软）
 - 李媛媛（中软）
 - 孟璞辉(VMware)
+- 许丹（华为）
 
 ## Topics议题
 1.现有test环境及测试执行情况/问题汇总； owner all
@@ -36,6 +37,8 @@ Review test detail plan.
 3.测试过程发现的软件问题情况讨论
 
 Discussion about software defects found during test.
+
+4.Go语言三方件管理进展，JAVA语言三房间管理方案
 
 ## meeting link
  https://welink-meeting.zoom.us/j/319404821
