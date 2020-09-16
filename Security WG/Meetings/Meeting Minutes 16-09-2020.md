@@ -6,7 +6,10 @@
 
 ## Meeting Attendees
 ** **
-- 
+- Jing Lu
+- Kanag Manickam
+- Cheng Rundong
+
 
 
 ## Meeting Agenda
