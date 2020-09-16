@@ -56,4 +56,4 @@
 
 5. MEP
  - Identification, Authentication and Authorization: 1.2
- - Secure Transmission: 2.1
+ -  Sensitive and Private Data Protection: 3.1
