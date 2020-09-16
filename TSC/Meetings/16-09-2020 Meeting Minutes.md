@@ -51,6 +51,8 @@ Milestone 1.5代码冻结以及RC计划审视
 - 安全工作组更新Apache兼容协议
 - 集成工作组讨论资源需求、分类申请资源与5G测试卡号进行对应
 
+通过9月9日的会议纪要
+
 ## Voting Items
 TSC Voting to Approve ABC
 | **Name**          | **Affiliation**       | **Email**                |  **Voting Items (Y/N)** |
