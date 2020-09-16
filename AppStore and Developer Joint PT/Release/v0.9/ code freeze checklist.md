@@ -20,5 +20,6 @@
 | OK  | OK  | OK  |所有repo中的文件需要有Copyright声明保护  |
 | OK  | OK  | OK  |SonarQube 静态检查问题清零  |
 | OK  | OK  | OK  |三方件使用清单，确定没有GPL或LGPL等商业不友好的三方件  |
-| OK  | OK  | OK  |三方件高危漏洞清理，已经升级到最新版本还不能解决的需要输出清单  |
+| [OK](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/user-manager%203rd%20party.md)  | [OK](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/appstore%203rd%20party.md)  | [OK](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/developer%203rd%20party.md)  |三方件高危漏洞清理，已经升级到最新版本还不能解决的需要输出清单  |
 
+[前台三方件漏洞](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/%E5%89%8D%E5%8F%B0%E4%BB%A3%E7%A0%81%E4%B8%89%E6%96%B9%E4%BB%B6%E6%8E%92%E6%9F%A5%E6%83%85%E5%86%B5.md)
