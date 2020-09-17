@@ -36,6 +36,8 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 
 ## Approved 3rd Party Open Source Software License
 
+The following licenses are referenced from https://www.apache.org/legal/resolved.html
+
 - Apache License 2.0
 - Apache Software License 1.1. Including variants
 - BSD (without advertising clause). Including variants
@@ -74,6 +76,8 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 
 ### Approved 3rd Party Open Source Software License When no code modifications are made
 
+The following licenses are referenced from https://www.apache.org/legal/resolved.html
+
 - Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1
 - Common Public License: CPL 1.0
 - Eclipse Public License: EPL 1.0
@@ -88,7 +92,6 @@ All outbound code in EdgeGallery shall be made available under the Apache Licens
 - IPA Font License Agreement v1.0
 - Ruby License (including the older version when GPLv2 was a listed alternative Ruby 1.9.2 license)
 - Eclipse Public License 2.0: EPL 2.0
-
 
  **Note: software under multiple licenses allows the user to pick the license terms that they prefer.** 
 
