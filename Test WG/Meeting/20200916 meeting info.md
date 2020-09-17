@@ -44,3 +44,7 @@ Discussion about software defects found during test.
 ## Minutes纪要
 ## 纪要人
 刘辉
+
+#遗留任务
+1.build的镜像文件名中加时间戳 -- owner pengyu
+2.离线部署安装说明中文版 --owner jiangwei， pengyu
