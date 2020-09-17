@@ -29,6 +29,13 @@
 
 2.3 测试方法和工具 Test Method and Tools
 
+a.单元测试代码覆盖率工具：Jacoco（Java语言）、GoTest（Go语言）
+【基于当前实际情况，本次版本前端代码不做单元测试及代码覆盖率检查，改为界面检视】
+  代码覆盖率测试结果分析（SonarQube）：http://159.138.132.188:9000/projects?sort=-analysis_date
+
+b.CICD工具Jenkins：http://119.8.34.36:8080/
+
+
 三、测试结果及缺陷分析 Test Results and Defects Analysis
 
 3.1 测试执行情况及记录Test exceuction and Records
