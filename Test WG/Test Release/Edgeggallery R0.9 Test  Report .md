@@ -64,11 +64,11 @@ b.CICD工具Jenkins：http://119.8.34.36:8080/
 |---|---|---|---|---|---|---|---|---|---|
 |各个项目提测确认|APP/MECM/developer |1人天 | |2020/09/14| |20200915 | 1|刘辉/彭育/侯敏熙 | 100%|
 |冒烟测试|APP/MECM/developer |1人天 | |2020/09/14| | | |刘辉/彭育/侯敏熙 |100%|
-|network isolation test|1.NetworkAttachServic生命周期测试（6 test cases） |3人天 | |2020/09/15 | | | | 侯敏熙|0%|
-|network isolation test|2.应用服务生命周期测试(4 test cases)|2人天 | |2020/09/18 | | | | 侯敏熙|0%|
-|network isolation test|3.带宽测试(2 test cases)|2人天 | |2020/09/22 | | | | 侯敏熙|0%|
-|public cloud integration|1.部署kubeedge测试 |1人天 | |2020/09/24 | | | | 侯敏熙|0%|
-|public cloud integration|1.部署示例应用程序测试 |1人天 | |2020/09/25 | | | | 侯敏熙|0%|
+|network isolation test|1.NetworkAttachServic生命周期测试（6 test cases） |3人天 | |2020/09/15 | | | | 侯敏熙|100%|
+|network isolation test|2.应用服务生命周期测试(4 test cases)|2人天 | |2020/09/17 | | | | 侯敏熙|100%|
+|network isolation test|3.带宽测试(2 test cases)|2人天 | |2020/09/18 | | | | 侯敏熙|0%|
+|public cloud integration|1.部署kubeedge测试 |1人天 | |2020/09/19 | | | | 侯敏熙|0%|
+|public cloud integration|1.部署示例应用程序测试 |1人天 | |2020/09/19 | | | | 侯敏熙|0%|
 |安装部署支持All-in-one|1.ARM/X86环境准备|1人天| | 2020/09/14|09/14 |09/15 |2人天 | Pengyu|100%|
 |安装部署支持All-in-one|2.ARM 环境部署测试|1人天|  |2020/09/15| | | | Pengyu|0%|
 |安装部署支持All-in-one|3.X86 环境部署测试|1人天| | 2020/09/16| 09/15 |09/18 |3人天  | Pengyu|80%|
