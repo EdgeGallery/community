@@ -60,8 +60,7 @@ what EdgeGallery require. Please following the checklist below and provide the s
 when submitting the request.
 
 - License of this module
-- Other requirements
-- Need the input from EdgeGallery TSC
+- CVE Score (NA if couldn't find this module)
 
 After getting all supporting materials, please add the new module and all its related indirect modules
 to [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
@@ -78,6 +77,6 @@ Also project _ci-management_ has a gating job named "3rdParty-JJB-PR-modules-ver
 - The new modules you are adding won't break all other Golang projects
     - This is test by trying to build the projects with the updated global modules scope
 
-After the community reviewing the PR creating in project _ci-management_ and then merging it, the new modules have been
-approved by the community. Then please re-trigger the gating job of your own project and it should be successful, which
-means your PR to add the new modules is ready to be merged now.
+After the community (Test WG) reviewing the PR creating in project _ci-management_ and then merging it,
+the new modules have been approved by the community. Then please re-trigger the gating job of your own
+project and it should be successful, which means your PR to add the new modules is ready to be merged now.
