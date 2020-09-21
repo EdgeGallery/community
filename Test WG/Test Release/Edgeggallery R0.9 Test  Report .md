@@ -92,8 +92,8 @@ b.CICD工具Jenkins：http://119.8.34.36:8080/
 |AppStore UI自动化测试脚本开发| |5人天| |2020/09/28 | | | |李媛媛|0%|
 |MECM功能测试| |5人天| | 2020/09/21| | | |张阿利|0%|
 |mecm UI自动化测试脚本开发| |5人天| |2020/09/28| | | |张阿利|0%|
-|dns test|1.deploy dns-service|1人天| |2020/09/14| | | |pmeng|50%|
-|dns test|2.dns system testing|5人天| |2020/09/21| | | |pmeng|0%|
+|dns test|1.deploy dns-service|1人天| |2020/09/14| | | |pmeng|100%|
+|dns test|2.dns system testing|5人天| |2020/09/21| | | |pmeng|100%|
 |5G网元集成| | | | | | | | |0%|
 |ETSI interface test| | | | | | | | | 0%|
 
