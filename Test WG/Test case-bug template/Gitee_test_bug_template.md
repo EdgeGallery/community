@@ -1,5 +1,7 @@
-bug均再Gitee中录入
+bug均在Gitee中录入
+
 从edgegallery社区进入，选择Test WG，点击“新建任务”，任务类型选择“缺陷（bug）”，如下图所示：
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0921/113202_f21bc0fd_7529853.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0921/113308_853dd925_7529853.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0921/113106_a04c1f9c_7529853.png "屏幕截图.png")
