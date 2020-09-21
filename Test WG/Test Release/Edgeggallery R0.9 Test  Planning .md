@@ -55,17 +55,28 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 测试用例如无EPIC关联，则ID中的EPIC ID用模块缩写代替，如MEP、MECM等；同时测试用例关联对应story。
 
-测试用例均在Gitee上创建并管理，关联EPIC任务。在测试用例标题中填入ID和测试目的。具体参见[操作指南](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20case%20template/Gitee_test_case_template.md)。
+测试用例均在Gitee上创建并管理，关联EPIC任务。在测试用例标题中填入ID和测试目的。具体参见[操作指南](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20case-bug%20template/Gitee_test_case_template.md)。
 
 测试用例评审：召集社区的研发、测试等相关人员评审测试用例，确保测试用例有效、多方理解一致且覆盖版本需求。评审后，调整补充完善测试用例。可针对不同epic或不同模块分别组织评审会，每次会议不超30分钟。
 
-**5. Delivery Epic** 
+**5. 缺陷管理 Bug Management** 
+
+缺陷统一在Gitee中录入，点击[操作指南](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20case-bug%20template/Gitee_test_bug_template.md)。
+
+bug优先级为：严重、主要、次要、一般。
+
+严重bug尽可能1个工作日内解决；
+主要bug尽可能3个工作日内解决；
+次要bug尽可能5个工作日内解决。
+
+
+**6. Delivery Epic** 
 
 - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
 - [Support JJB in jenkins jobs](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md)
 - third part component management（GO）
 
-**6. relative Tools** 
+**7. relative Tools** 
 
 |Tool Name|Version|Address | comments  |
 |---|---|---|---|
@@ -74,7 +85,7 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 |wiremock|  | |   |
 |go test|  | |   |
 
-**7. Test development info** 
+**8. Test development info** 
 
 | tools&Language | version | remark | link |
 |----------------|---------|--------|------|
@@ -85,7 +96,7 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 | IDE pycharm    |         |        |      |
 | visual studio code(user)    | 1.48.0        |        |      |
 
-**8. Test env info** 
+**9. Test env info** 
 
 | infra  | Version | address | remarks |
 |--------|---------|---------|---------|
@@ -113,9 +124,9 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 基于测试环境选定的软件版本，在社区CI/CD环境上完成测试环境搭建相关配置，自动搭建测试目标，以支撑自动测试(开发相应自动化测试脚本)或人工测试。
 
-**9. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
+**10. [Test Planning](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/Test%20WG%20%20R0.9%20Release%20milestone.md)** 
 
-**10. Criteria for Test Execution** 
+**11. Criteria for Test Execution** 
 
     - Starting Criteria for test excution
         - 完成详细设计/架构更新Complete detail design/architecture updating        
@@ -135,12 +146,12 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
         - 无阻塞性及严重性问题遗留 No blocked or vital problems/bugs are left。
         - 确认所有依赖软件都在本地库中 confirm all dependent softwares are all stored locally
 
-**11. Risk analysis about testing** 
+**12. Risk analysis about testing** 
 
 - 针对需求/设计调整和细化延迟的风险，尽可能提前接入需求分析，准备用例；
 - 针对测试人员不足的风险，尽可能发挥现有人员的积极性，加强培训，提高自动化测试占比，提高效率。
 
-**12. Test Summary** 
+**13. Test Summary** 
 
 - Test Report（测试执行完毕后，出具测试报告，含Known Issues&Defects，为项目发布服务）
 - Test Work Summary（总结每位组员贡献，分享经验和不足，提出工作优化建议）
