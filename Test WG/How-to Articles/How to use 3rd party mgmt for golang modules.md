@@ -26,6 +26,13 @@ For example, for project  _mep-agent_ , it's `./src/main/main.go`. And for proje
 there are 2 independent parts,  _mepauth_  and  _mepserver_ . The `main.go` file is under the same directory
 as `go.mod`, so the value of section main is `./`.
 
+After adding the project into [project file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/projects.yaml), please use  **generate**  command to automatically
+add all modules that new in this new project but haven't been added into [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
+
+```
+root@ubuntu:~/requirements/go# go run requirements -m generate -f ./conf/global_requirements.yaml
+```
+
 ## Check All Direct and Indirect Modules
 
 In this part, we will take the project  _mep_  as the example. When you are adding a new direct module
