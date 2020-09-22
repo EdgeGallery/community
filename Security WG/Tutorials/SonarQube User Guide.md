@@ -225,5 +225,6 @@ for go
 
 Guide:
   reference link :[https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/)
+analize project by sonarqube: [输入链接说明](https://docs.sonarqube.org/latest/user-guide/issues/)
 
   [Code Style Configuration for Intellij](https://github.com/SonarSource/sonar-developer-toolset)
