@@ -46,7 +46,9 @@ Discussion about software defects found during test.
 刘辉
 
 #遗留任务
+
 1.build的镜像文件名中加时间戳 -- owner pengyu
 【已解决，见http://159.138.137.155/】
+
 2.离线部署安装说明中文版 --owner jiangwei， pengyu
 【李强已提交：https://gitee.com/edgegallery/platform-mgmt/blob/master/offline/README-cn.md】
