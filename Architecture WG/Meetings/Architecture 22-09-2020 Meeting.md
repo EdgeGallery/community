@@ -13,6 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  v1.0 版本需求规划讨论   |    | 高维涛 |
+|  上海HC大会EdgeGallery相关信息   |    | 高维涛 |
 |  EdgeFramework 讨论   |     | 高维涛 |
 
 
