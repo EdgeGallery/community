@@ -65,10 +65,11 @@ A Test Case contains: ID, purpose, test tools, Prerequisites, test data, test st
 
 bug优先级为：严重、主要、次要、一般。
 
-严重bug尽可能1个工作日内解决；
-主要bug尽可能3个工作日内解决；
-次要bug尽可能5个工作日内解决。
+严重bug尽可能1个工作日内解决（非强制，需协商）；
+主要bug尽可能3个工作日内解决（非强制，需协商）；
+次要bug尽可能5个工作日内解决（非强制，需协商）。
 
+测试执行阶段，每天邮件发送bug清单汇总，并对超期未关闭bug重点提醒。
 
 **6. Delivery Epic** 
 
