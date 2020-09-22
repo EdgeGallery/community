@@ -66,18 +66,44 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
 
 **2.install postgreSQL and create database**
 
-  reference:https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
     Step 1: Update system
-        
-        
-        sudo apt update 
-        sudo apt -y install vim bash-completion wget
-        sudo apt -y upgrade
-        sudo reboot
+ `	sudo apt update
+	sudo apt -y install vim bash-completion wget
+	sudo apt -y upgrade`
 
-  Step 2: Add PostgreSQL 12 repository
+Step 2: Add PostgreSQL 12 repository
+	`wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+	echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list`
 
-  Step 3: Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04 LTS
+Step 3: Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04 LTS
+	`sudo apt update
+	sudo apt -y install postgresql-12 postgresql-client-12
+	systemctl status postgresql.service
+	systemctl status postgresql@12-main.service
+	systemctl is-enabled postgresql`
+
+Step 4: Test PostgreSQL Connection
+	`sudo su - postgres`
+	 修改PostgreSQL数据库默认用户postgres的密码,这个和linux的用户不一样。
+	`psql -c "alter user postgres with password 'ExampleStrongAdminP@ssw0rd'"` 
+	 
+	`psql`
+	下面创建一个测试数据库和用户，看看它是否正常运行,必须带分号。
+
+
+	`postgres=# CREATE DATABASE sonardb;
+	postgres=# CREATE USER sonaruser WITH ENCRYPTED PASSWORD 'ExampleStrongAdminP@ssw0rd';
+	postgres=# GRANT ALL PRIVILEGES ON DATABASE sonardb to sonaruser;
+	\l  (查看数据库和用户)
+	\c sonardb  (连接数据库)`
+
+
+	
+	`createuser linuxsonar --password
+	PlanB@61^OSDT
+	createdb linuxdb -O linuxsonar
+	psql -l`
+	
 
   Step 4: Test PostgreSQL Connection
 
