@@ -67,15 +67,18 @@ The following schema shows how SonarQube integrates with other ALM tools and whe
 **2.install postgreSQL and create database**
 
     Step 1: Update system
+
  `	sudo apt update
 	sudo apt -y install vim bash-completion wget
 	sudo apt -y upgrade`
 
 Step 2: Add PostgreSQL 12 repository
+
 	`wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 	echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list`
 
 Step 3: Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04 LTS
+
 	`sudo apt update
 	sudo apt -y install postgresql-12 postgresql-client-12
 	systemctl status postgresql.service
@@ -83,6 +86,7 @@ Step 3: Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04 LTS
 	systemctl is-enabled postgresql`
 
 Step 4: Test PostgreSQL Connection
+
 	`sudo su - postgres`
 	 修改PostgreSQL数据库默认用户postgres的密码,这个和linux的用户不一样。
 	`psql -c "alter user postgres with password 'ExampleStrongAdminP@ssw0rd'"` 
