@@ -36,6 +36,7 @@ a.单元测试代码覆盖率工具：Jacoco（Java语言）、GoTest（Go语言
 
 b.CICD工具Jenkins：http://119.8.34.36:8080/
 
+c.镜像库：http://159.138.137.155/
 
 三、测试结果及缺陷分析 Test Results and Defects Analysis
 
