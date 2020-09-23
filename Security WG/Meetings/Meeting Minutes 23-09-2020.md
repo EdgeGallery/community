@@ -6,7 +6,13 @@
 
 ## Meeting Attendees
 ** **
-
+- 吕京
+- Gaurav Agrawal
+- 鹿鑫
+- 陈传雨
+- Kanag
+- 杨阳
+- 程润东
 
 
 
@@ -22,7 +28,8 @@
 ## Discussion Items and Minutes
 
 ** **
-
+1. 吕京介绍了当前问题单的状态，R0.9版本共19个问题单，当前3个问题单待解决，一个问题单正在修复中，其余问题单已完成修复并通过回归测试
+2. 关于问题单“Deploy Prometheus and Graphana with HTTPS enabled”，Gaurav介绍了当前边缘节点上prometheus和grafana之间的交互使用的是HTTP，中心节点上MECM FE与Grafana之间的交互使用的是HTTP。结论：对于R0.9版本MECM FE与Grafana接口需要开启HTTPS。prometheus和grafana间的接口因在同一边缘节点网络中仍使用HTTP。
 
 ## Voting Items
 
