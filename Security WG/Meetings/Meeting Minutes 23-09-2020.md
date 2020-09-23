@@ -16,6 +16,7 @@
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
 | 合规测试问题单状态评审             | Jing Lu |
+| 合规测试用例R1.0优化计划           | ALL     |
 
 
 ## Discussion Items and Minutes
