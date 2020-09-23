@@ -30,9 +30,12 @@ Discussion about results from the first round of test execution.
 |丁宇卿|ETSI interface test；|
 |all|doc test；|
 
+【完成bug回归验证；完善自动化测试；加强安装部署的测试；】
+
 2.第二轮测试详细计划review确认【基于测试报告的章节细化】 -- owner all
 
 Review test detail plan （the 2nd Round）.
+【完善第二轮测试时间】
 
 3.基于Gitee的三方件管理流程 -- owner 许丹
 
@@ -46,3 +49,5 @@ Discussion about  management process （based on gitee）of 3rd-party components
 刘辉
 
 #遗留任务
+1、联系安全组确认安装部署脚本的安全性 --owner pengyu
+2、master版、修订版维护的cicd、bug管理跟踪等 -- owner liuhui pengyu
