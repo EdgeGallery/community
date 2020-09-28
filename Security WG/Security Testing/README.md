@@ -20,7 +20,7 @@
  - Secure Transmission: 2.1, 2.2
  - Sensitive and Private Data Protection: 3.2, 3.3
  - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
- - DOS attack 5.3
+ - DOS attack 5.1, 5.3
  - Session management 6.2, 6.3
  - Web Service Security: 7.1, 7.2
  - Log Security: 9.1, 9.2, 9.3, 9.4
@@ -29,7 +29,7 @@
  - Secure Transmission: 2.1, 2.2
  - Sensitive and Private Data Protection: 3.2, 3.3
  - Encryption algorithm and key management 4.1, 4.3, 4.4
- - DOS attack 5.3
+ - DOS attack 5.1, 5.3
  - Session management 6.2, 6.3
  - Web Service Security: 7.1, 7.2
  - Log Security: 9.1, 9.2, 9.3, 9.4
@@ -38,7 +38,7 @@
  - Secure Transmission: 2.1, 2.2
  - Sensitive and Private Data Protection: 3.1, 3.2, 3.3, 3.4
  - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
- - DOS attack 5.3
+ - DOS attack 5.1, 5.3
  - Session management 6.2, 6.3, 6.4, 6.5
  - Web Service Security: 7.1, 7.2
  - Log Security: 9.1, 9.2, 9.3, 9.4
@@ -56,4 +56,4 @@
 
 5. MEP
  - Identification, Authentication and Authorization: 1.2
- -  Sensitive and Private Data Protection: 3.1
+ - Secure Transmission: 2.1

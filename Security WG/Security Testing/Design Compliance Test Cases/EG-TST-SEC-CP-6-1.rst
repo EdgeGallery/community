@@ -2,12 +2,12 @@
 | Must Authendicate eg users       |                                  |
 | successfully                     |                                  |
 +==================================+==================================+
-| Test case ID                     | EG-TST-SEC-CP-6-1                |
+| Test case ID                     | EG-TST-SEC-CP-6-2               |
 +----------------------------------+----------------------------------+
-| Test purpose                     | Allown only audendicated eg user |
-|                                  | for accessing EG service         |
+| Test purpose                     |                                  |
 |                                  |                                  |
-|                                  | Effect: +ve                      |
+|                                  |  Setting the Session/Certificate to a Valid Expiration Time                                |
+|                                  |                                  |
 +----------------------------------+----------------------------------+
 | Test tool                        | Any HTTP based tool such as Curl |
 +----------------------------------+----------------------------------+
@@ -17,7 +17,7 @@
 |                                  | Basic Authendication, password,  |
 |                                  | Token based, etc for machine/man |
 |                                  | access via HTTP API. Allow       |
-|                                  | authendicated user               |
+|                                  | authendica                       |
 +----------------------------------+----------------------------------+
 | Configuration steps              |                                  |
 +----------------------------------+----------------------------------+
