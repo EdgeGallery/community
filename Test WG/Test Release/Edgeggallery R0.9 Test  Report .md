@@ -224,7 +224,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 - [I1VUWJ](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VUWJ) -- EG-TST-SEC-CP-1-7(Expected status Code as 400)
 - [I1VCL2](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VCL2) -- Deploy Prometheus and Graphana with HTTPS enabled
 
-渗透测试详细测试报告见[输入链接说明](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
+渗透测试详细测试报告见[EdgeGallery R0.9渗透测试结果.docx](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
 
 3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
 
