@@ -139,6 +139,8 @@ c.镜像库：http://159.138.137.155/
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
+请点击[缺陷清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&labels=ReleaseV0.9)查看详情。
+
 3.3.1 缺陷汇总 Defects Summary
 
 已剔除6个无效bug后，总缺陷数量：71（含18个安全类缺陷），已解决数量：66个；未解决bug5个（含1个known issue，遗留到下一版本解决）。
