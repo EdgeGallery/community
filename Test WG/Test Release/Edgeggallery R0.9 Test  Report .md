@@ -2,15 +2,15 @@
 
 1.1 编写目的Writing Purpose
 
+本测试报告为EdgeGallery Release0.9的测试报告，在于总结测试阶段的测试情况以及分析结果，描述预定需求的符合性及预定质量指标的符合性。作为测试质量参考文档提供给开源社区开发人员、测试人员、管理人员及感兴趣的其他人员等参考。
+
 1.2 项目背景 Project Background
 
-1.3 系统简介 System Overview
+EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边缘的资源、应用、安全、管理的基础框架和网络开放服务的事实标准，并实现同公有云的互联互通。在兼容边缘基础设施异构差异化的基础上，构建起统一的MEC应用生态系统。
 
-1.4 测试版本 Test Version
+1.3 [系统简介 System Overview](https://gitee.com/edgegallery/docs/blob/master/Get%20Started/Start%20from%20A%20Demo%20on%20EdgeGallery.md)
 
-1.5 术语和缩略词 Terms and Abbreviations
-
-1.6 参考资料 References
+1.4 参考资料 References
 
 1.[Release V0.9需求](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
 
@@ -112,6 +112,24 @@ c.镜像库：http://159.138.137.155/
 软件实现100%覆盖Release V0.9需求。
 
 3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test
+
+根据TSC20200923会议决定，本次测试版本暂不考虑前端代码覆盖率，关注后台代码覆盖率。
+| 模块  | 代码覆盖率  |
+|---|---|
+|developer-be   | 48.1%  |
+| appstore-be  | 64.9% |
+|user-mgmt-be|44.4%|
+| mecm-inventory|53.3%|
+| mecm-apm  | 57.9% |
+| mecm-appo  |52.8% |
+| memc-mepm-k8splugin | 51.6% |
+| mecm-applcm-be  |59.1%|
+| mecm-inventory |53.3%|
+| mep-mepserver|57.5%|
+| mep-mepauth|48.7%|
+| mep-dnsserver|70.6%|
+| mep-agent|48.4%|
+
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
