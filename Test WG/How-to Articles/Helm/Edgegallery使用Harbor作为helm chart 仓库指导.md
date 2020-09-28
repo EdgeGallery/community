@@ -92,7 +92,7 @@ harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 har
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/170927_3d2d8227_7624512.png "helm-repo.png")
 
-创建一个helm-chart用户
+创建一个helm-chart用户,并且设置此用户为管理员
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/171224_18bedda5_7624512.png "helm-repo-user.png")
 
 
