@@ -14,7 +14,7 @@ EdgeGallery Security Compliance Test Case 6-2
 |description   | browser window times out                                     |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|Configuration | 1. Known website address                                     |
+|Configuration | 1. Known website address <br>                                   |
 |steps         | 2. Web services are running properly.                        |
 |              | 3. The login authentication module is available for web      |
 |              | services.                                                    |
@@ -29,11 +29,12 @@ EdgeGallery Security Compliance Test Case 6-2
 |Test          | Test step description and expected result                    |
 |steps         |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 1        |                                                              |
+|step 1        |   Log in to the system using a normal user name and password.                                                           |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
-|step 2        |                                                              |
+|step 2        |Increase the idle time of the browser window (11 minutes)<br> by one minute.
+Note: Currently, the validity period is one day.                                                             |
 |              |                                                              |
 |              |                                                              |
 +--------------+--------------------------------------------------------------+
