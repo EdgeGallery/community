@@ -206,7 +206,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/162150_1cf79707_5645267.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/162232_290b5230_5645267.png "屏幕截图.png")
 
 渗透测试详细测试报告见[输入链接说明](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
 
