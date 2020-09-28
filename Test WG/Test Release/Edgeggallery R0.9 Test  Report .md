@@ -20,6 +20,8 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 
 2.1 测试用例及脚本设计 Test Cases and Auto test scripts
 
+设计测试用例共计237个。
+
 2.2 测试环境与配置 Test Env and related Configuration
 | server ip |Usage   | password |
 |-----------|---|----------|
@@ -95,14 +97,17 @@ c.镜像库：http://159.138.137.155/
 |mecm UI自动化测试脚本开发| |5人天| |2020/09/28| | | |张阿利|0%|
 |dns test|1.deploy dns-service|1人天| |2020/09/14| | | |pmeng|100%|
 |dns test|2.dns system testing|5人天| |2020/09/21| | | |pmeng|100%|
-|5G网元集成| | | | | | | | |0%|
-|ETSI interface test| | | | | | | | | 0%|
+|5G网元集成| | | | | | | | |不在必须测试范围内|
+|ETSI interface test| | | | | | | | | 不在必须测试范围内|
 
 3.1.3 测试用例执行统计 analysis of Test Case execution
 
 |需求点|TC总数|成功个数|失败个数|未执行个数|TC成功率|
 |--|--|--|--|--|--|
-|  |  |  |  |  |  |
+| dev-appstore-usermgnt | 182 |  |  |  |  |
+| mecm|51 |  |  |  |  |
+| mep-dns|1 |  |  |  |  |
+| 部署相关|3 |  |  |  |  |
 
 
 3.2 覆盖分析 Coverage Analysis
@@ -135,12 +140,12 @@ c.镜像库：http://159.138.137.155/
 
 3.3.1 缺陷汇总 Defects Summary
 
-总缺陷数量：，已解决数量：。
+已剔除6个无效bug后，总缺陷数量：71（含18个安全类缺陷），已解决数量：66个；未解决bug5个（含1个known issue，遗留到下一版本解决）。
 
 3.3.2 缺陷分析 Defects Analysis
 
-按缺陷类型分析
-按缺陷严重级别分析
+按缺陷类型分析：安全类bug18个；其他类bug53个。
+按缺陷严重级别分析：严重bug6个；主要bug23个；次要bug28个；不指定14个。
 按需求点分析
 缺陷收敛性分析
 
@@ -148,7 +153,7 @@ c.镜像库：http://159.138.137.155/
 
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
-|  |  |  |  |  |
+| 无 | - | - | - | - |
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
