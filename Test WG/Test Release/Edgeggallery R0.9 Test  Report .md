@@ -134,16 +134,70 @@ c.镜像库：http://159.138.137.155/
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
+EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全渗透测试
+
 3.4.1 安全测试组织Security Test Organizing
+
+安全测试由安全工作组执行
 
 3.4.2 安全测试执行情况 Security Test Execution
 
+EdgeGallery R0.9 安全设计合规测试
+
+时间：2020.09.14 ~ 2020.09.20
+
+测试项目： AppStore, Developer, User-mgmt, MECM，MEP
+
+测试人员： 吕京, 程润东，Kanag， Prakash
+
+安全合规测试用例：
+1. AppStore:
+ - Identification, Authentication and Authorization: 1.1, 1.2, 1.3, 1.4, 1.7, 1.8
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.2, 3.3
+ - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
+ - DOS attack 5.1, 5.3
+ - Session management 6.2, 6.3
+ - Web Service Security: 7.1, 7.2
+ - Log Security: 9.1, 9.2, 9.3, 9.4
+2. Developer
+ - Identification, Authentication and Authorization: 1.1, 1.2, 1.3, 1.4, 1.7, 1.8
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.2, 3.3
+ - Encryption algorithm and key management 4.1, 4.3, 4.4
+ - DOS attack 5.1, 5.3
+ - Session management 6.2, 6.3
+ - Web Service Security: 7.1, 7.2
+ - Log Security: 9.1, 9.2, 9.3, 9.4
+3. User-mgmt
+ - Identification, Authentication and Authorization: 1.1, 1.2, 1.4, 1.6, 1.7, 1.8, 1.10
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.1, 3.2, 3.3, 3.4
+ - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
+ - DOS attack 5.1, 5.3
+ - Session management 6.2, 6.3, 6.4, 6.5
+ - Web Service Security: 7.1, 7.2
+ - Log Security: 9.1, 9.2, 9.3, 9.4
+4. MECM
+ - Identification, Authentication and Authorization: 1.1, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8
+ - Secure Transmission: 2.1, 2.2
+ - Sensitive and Private Data Protection: 3.1, 3.2, 3.3
+ - Encryption algorithm and key management 4.1, 4.2, 4.3
+ - DOS attack 5.3
+ - Session management 6.2, 6.3, 6.4, 6.5
+ - Web Service Security: 7.1, 7.2
+ - Log Security: 9.1, 9.2, 9.3, 9.4
+
+5. MEP
+ - Identification, Authentication and Authorization: 1.2
+ - Secure Transmission: 2.1
+
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
-3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/161401_e4160728_5645267.png "屏幕截图.png")
 
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
-|  |  |  |  |  |
+| I1VY5P | Password is exposed  | 遗留 | 改密码有servicecomb框架生成 | 遗留到R1.0版本处理 |
 
 四、测试结论及建议 Test Conclusion and Suggestion
