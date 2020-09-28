@@ -21,6 +21,7 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 2.1 测试用例及脚本设计 Test Cases and Auto test scripts
 
 设计测试用例共计237个。
+请点击[测试用例清单](https://gitee.com/OSDT/dashboard/programs/114631/issues?issue_type_id=232575&labels=ReleaseV0.9)查看详情。
 
 2.2 测试环境与配置 Test Env and related Configuration
 | server ip |Usage   | password |
