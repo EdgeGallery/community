@@ -88,7 +88,7 @@ helm -n helm-repo install harbor goharbor/harbor --set persistence.enabled=false
 ### 6. 添加 harbor 中的 chartrepo 到 helm 3 中
 
 harbor 装好之后，我们访问 http://192.168.100.143:30002 进行登录 harbor, harbor 的默认账号密码是 admin/Harbor12345 
-创建Edgegallery_helm_chart
+创建edgegallery_helm_chart
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0905/170927_3d2d8227_7624512.png "helm-repo.png")
 
