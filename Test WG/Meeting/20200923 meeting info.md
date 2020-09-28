@@ -52,4 +52,6 @@ Discussion about  management process （based on gitee）of 3rd-party components
 
 #遗留任务
 1、联系安全组确认安装部署脚本的安全性 --owner pengyu
+【已确认，并发现一个的安全问题（暴漏公网ip），彭育已解决】
+
 2、master版、修订版维护的cicd、bug管理跟踪等 -- owner liuhui pengyu
