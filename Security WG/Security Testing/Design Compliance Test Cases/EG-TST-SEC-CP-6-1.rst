@@ -9,7 +9,7 @@
 |                                  |  Setting the Session/Certificate to a Valid Expiration Time                                |
 |                                  |                                  |
 +----------------------------------+----------------------------------+
-| Test tool                        | Any HTTP based tool such as Curl |
+| Test tool                        | N/A |
 +----------------------------------+----------------------------------+
 | Test description                 | Every micro service eg should be |
 |                                  | enabled with proper              |
