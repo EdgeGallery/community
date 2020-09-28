@@ -142,7 +142,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 3.4.2 安全测试执行情况 Security Test Execution
 
-EdgeGallery R0.9 安全设计合规测试
+3.4.2.1 EdgeGallery R0.9 安全设计合规测试
 
 时间：2020.09.14 ~ 2020.09.20
 
@@ -192,12 +192,28 @@ EdgeGallery R0.9 安全设计合规测试
  - Identification, Authentication and Authorization: 1.2
  - Secure Transmission: 2.1
 
+3.4.2.2 EdgeGallery R0.9 安全渗透测试
+
+时间：2020.09.21 ~ 2020.09.24
+
+测试人员： 吕京
+
+安全渗透测试用例：
+
+- EG-TST-SEC-001
+- EG-TST-SEC-002
+- EG-TST-SEC-003
+
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/161401_e4160728_5645267.png "屏幕截图.png")
 
+渗透测试详细测试报告见[输入链接说明](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
+
+3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
+
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
-| I1VY5P | Password is exposed  | 遗留 | 改密码有servicecomb框架生成 | 遗留到R1.0版本处理 |
+| I1VY5P | Password is exposed  | 遗留 | 该密码由servicecomb框架生成，当前没有好的修复方案 | 遗留到R1.0版本处理 |
 
 四、测试结论及建议 Test Conclusion and Suggestion
