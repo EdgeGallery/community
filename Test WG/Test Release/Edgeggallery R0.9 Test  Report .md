@@ -207,6 +207,22 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/162232_290b5230_5645267.png "屏幕截图.png")
+*Fixed Security Issues*
+
+- [I1VFV9](https://gitee.com/OSDT/dashboard/issues?id=I1VFV9) -- 两次密码输入不一致，也可以注册成功
+- [I1VN01](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VN01) -- mecm平台，点击注销时候报 network error，页面不会改变，注销不生效
+- [I1VG05](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VG05) -- appstore模块退出登录后，在develop里面点击插件列表，依然可以操作，查看插件列表
+- [I1VG3M](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VG3M) -- developer注销页面没有改变，点击刷新才跳转登录页面
+- [I1VG7F](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VG7F) -- developer前台 上传应用文件前台类型没有做限制
+- [I1VG5S](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VG5S) -- 登录后，使用拦截工具可以拦截到用户名和密码
+- [I1VY62](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VY62) -- developer swagger-data
+- [I1VY5F](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VY5F) -- Duplicate data in log
+- [I1VY4B](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VY4B) -- Security password is exposed
+- [I1VVW4](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VVW4) -- "#invalid data(EG-TST-SEC-CP-1-7)
+- [I1VZG7](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VZG7) -- MECM-FE容器未使用non-root用户运行
+- [I1VCGN](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VCGN) -- MECM HELM Charts Bug Fixes/Optimizations
+- [I1VUWJ](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VUWJ) -- EG-TST-SEC-CP-1-7(Expected status Code as 400)
+- [I1VCL2](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VCL2) -- Deploy Prometheus and Graphana with HTTPS enabled
 
 渗透测试详细测试报告见[输入链接说明](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
 
