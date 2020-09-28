@@ -56,9 +56,6 @@ cd linux-amd64
 cp helm /usr/local/bin
 ```
 
-初始化helm
-`helm init`
-默认添加官方 `repo stable https://kubernetes-charts.storage.googleapis.com`
 
 ### 5. 安装 harbor 1.6+
 
