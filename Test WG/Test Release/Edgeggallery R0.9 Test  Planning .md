@@ -71,6 +71,11 @@ bug优先级为：严重、主要、次要、一般。
 
 测试执行阶段，每天邮件发送bug清单汇总，并对超期未关闭bug重点提醒。
 
+
+- 对于研发人员自己提的bug，建议bug修复后PTL协调研发人员交叉验证，通过后设置bug状态为“已验收”。
+- 针对访客提的bug，如果访客自己验证通过后给出comments且忘记将bug置为“已验收”，则测试人员/研发人员辅助修改bug状态为“已验收”；如果访客无任何反馈，则研发人员/测试人员回归验证后设置bug为“已验收”。
+
+
 **6. Delivery Epic** 
 
 - [安装部署支持all-in-one部署/离线部署](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md)
