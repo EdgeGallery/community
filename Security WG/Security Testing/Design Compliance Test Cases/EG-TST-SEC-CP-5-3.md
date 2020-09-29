@@ -13,7 +13,6 @@
 |Step 5   |Click Browse, select the csar folder with a high compression ratio greater than 100 MB, and upload the folder. Log in to the tested system to check whether the CPU usage, memory usage, and disk usage increase abruptly. note: If the product has no bomb attack design, this step can be omitted |
 |Input validate test   |   |
 |Step 1   |Check the code to check whether the length of the input parameter is verified.   |
-|Step 2   |Add the interface document based on the interfaces involved in the interface document.
-Use Postman to send a request, transfer parameters whose lengths are beyond the specified length, and check whether the request fails to be sent.   |
+|Step 2   |Add the interface document based on the interfaces involved in the interface document.<br>Use Postman to send a request, transfer parameters whose lengths are beyond the specified length, and check whether the request fails to be sent.   |
 |Step 3   |Log in to the web page and test the length of all parameters that need to be entered to check whether the parameter length meets requirements or an error is reported.   |
 |Test verdict   |The system checks the size of a file to be uploaded. If the file size is too large, the system cannot be attacked and files other than the .csar format cannot be uploaded.<br>The request for transferring a parameter whose length is beyond the specified length fails, and a message is displayed indicating that the parameter length is too large.   |
