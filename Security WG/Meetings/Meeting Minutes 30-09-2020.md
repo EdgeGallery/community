@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 30-09-2020  | 16:00 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/ |
+| 30-09-2020  | 16:00 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/271202783 |
 
 ## Meeting Attendees
 ** **
