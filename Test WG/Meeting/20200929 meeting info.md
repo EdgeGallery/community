@@ -39,7 +39,9 @@ Discussion about results from the first round of test execution.
 
 Review test report.
 
+3.访客所提bug处理过程讨论 --owner all
 
+Discuss how to process bugs proposed by visitors.
 
 ## meeting link
 https://welink-meeting.zoom.us/j/148578716
