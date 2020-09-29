@@ -106,7 +106,7 @@ c.镜像库：http://159.138.137.155/
 |需求点|TC总数|成功个数|失败个数|未执行个数|TC成功率|
 |--|--|--|--|--|--|
 | dev-appstore-usermgnt | 182 |  |  |  |  |
-| mecm|51 |  |  |  |  |
+| mecm|51 |34  |17  | 0 | 66.67% |
 | mep-dns|1 |  |  |  |  |
 | 部署相关|4 |  |  |  |  |
 | network isolation;public cloud integration|16 |  |  |  |  |
