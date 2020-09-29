@@ -156,7 +156,7 @@ c.镜像库：http://159.138.137.155/
 
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
-| 无 | - | - | - | - |
+| I1W7NB |developer-fe portal redirects to different ip|遗留 | clienturl must public IP | 遗留到1.0版处理 |
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
