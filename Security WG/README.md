@@ -44,7 +44,8 @@ The scope above and status related to the goals is summarized in the following t
 | Jing Lu （co-chair）  | Huawei          | lvjing5@huawei.com |               -                   |                 Y                   |
 | Satish Karunanithi  | Huawei          | satishk@huawei.com |               -                    |                 -                   |
 | Rundong Cheng  | Huawei          | chengruidong@huawei.com |               -                    |                 -       
-| 彭育  | Huawei          | perry.peng@huawei.com |               -                    |                 -       
+| 彭育  | Huawei          | perry.peng@huawei.com |               -                    |                 -         |
+| 扈冰  | Huawei          | hubing62@huawei.com   |               -                    |                 -         | 
 
 
 * Initial member signup now open
