@@ -40,10 +40,10 @@ The scope above and status related to the goals is summarized in the following t
 ## Members
 | **Name** | **Affiliation** | **Email**          |  **Self Nominate as Chair (Y/N)** | **Self Nominate as Co-Chair (Y/N)** |
 |----------|-----------------|--------------------|-----------------------------------|-------------------------------------|
-| 袁国平 （chair）  | 安恒          | guoping.yuan@dbappsecurity.com.cn |               -                   |                 -                   |
-| Jing Lu （co-chair）  | Huawei          | lvjing5@huawei.com |               -                   |                 Y                   |
-| Satish Karunanithi  | Huawei          | satishk@huawei.com |               -                    |                 -                   |
-| Rundong Cheng  | Huawei          | chengruidong@huawei.com |               -                    |                 -       
+| 袁国平 （chair）   | 安恒          | guoping.yuan@dbappsecurity.com.cn |               -                   |                 -                   |
+| 吕京 （co-chair）  | Huawei          | lvjing5@huawei.com |               -                   |                 Y                   |
+| Satish Karunanithi | Huawei          | satishk@huawei.com |               -                    |                 -                   |
+| 程润东  | Huawei          | chengruidong@huawei.com |               -                    |                 -       
 | 彭育  | Huawei          | perry.peng@huawei.com |               -                    |                 -         |
 | 扈冰  | Huawei          | hubing62@huawei.com   |               -                    |                 -         | 
 
