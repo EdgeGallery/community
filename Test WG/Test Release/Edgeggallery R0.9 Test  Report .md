@@ -136,6 +136,7 @@ c.镜像库：http://159.138.137.155/
 | mep-mepauth|48.7%|
 | mep-dnsserver|70.6%|
 | mep-agent|48.4%|
+| plugins|73%|
 
 *website-gateway代码覆盖率低的解释：website-gateway本身是一个框架工程只有200多行代码，没有业务逻辑，而且大部分代码都是实现spring的配置类，ut运行不到。目前我们只能多其中的login和logout接口做测试，所以覆盖率达不到40%。
 
