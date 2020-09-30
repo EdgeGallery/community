@@ -14,7 +14,8 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| R1.0版本安全需求收集               | ALL    |
+| Plugin 仓库开放安全评审              | 吕京   |
+| R1.0版本安全需求收集                 | ALL    |
 
 
 ## Discussion Items and Minutes
