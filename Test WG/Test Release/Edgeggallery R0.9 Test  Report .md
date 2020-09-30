@@ -236,7 +236,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/162232_290b5230_5645267.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0930/090022_fd5e111c_5645267.png "屏幕截图.png")
 
 *Fixed Security Issues*
 
