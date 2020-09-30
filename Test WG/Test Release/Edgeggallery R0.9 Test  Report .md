@@ -260,5 +260,6 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
 | I1VY5P | Password is exposed  | 遗留 | 该问题是因为引入Spring Security组件后，如果没有设置账号，会使用默认账号，并随机生成一个默认密码，默认账号名是user，生成的默认密码会打印在日志中，是一个随机的uuid，每次启动不同。 Appstore-be和developer-be引入了Spring Security组件，但只用来做jwttoken的解析校验，没有使用到/login接口，浏览器也不会直接访问到后台的/login接口（会在website-gateway被拦截，转发到user-mgmt的/login做登陆）。 User-mgmt使用了Spring Security组件，但是user-mgmt实现了/login接口，对securityconfig的配置，所以不会有该问题。 | 遗留到R1.0版本处理 |
+| I1XA0N | edgegallery-secondary-ep-controller container not run by non-root user | 遗留 | 该问题经过安全工作组评审，将在R0.9版本发布后通过补丁形式修复 | 在R0.9版本发布后通过补丁形式修复 |
 
 四、测试结论及建议 Test Conclusion and Suggestion
