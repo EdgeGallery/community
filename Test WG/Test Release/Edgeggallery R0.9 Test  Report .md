@@ -157,6 +157,8 @@ c.镜像库：http://159.138.137.155/
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
 | I1W7NB |developer-fe portal redirects to different ip|遗留 | clienturl must public IP | 遗留到1.0版处理 |
+| I1UHDN |https://[ip]:8443/mepauth/mepauth/v1/token一直提示Invalid account credential| known issues |  |  |
+| I1XA0N |In test env，node port not exposed in the deployment for prometheus| known issues |需要修改部署脚本  |  |
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
