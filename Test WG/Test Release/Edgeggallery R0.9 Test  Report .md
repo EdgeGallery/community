@@ -106,9 +106,9 @@ c.镜像库：http://159.138.137.155/
 |需求点|TC总数|成功个数|失败个数|未执行个数|TC成功率|
 |--|--|--|--|--|--|
 | dev-appstore-usermgnt | 182 |  |  |  |  |
-| mecm|51 |34  |17  | 0 | 66.67% |
+| mecm|51 |  |  |  |  |
 | mep-dns|1 |  |  |  |  |
-| 部署相关|4 |  |  |  |  |
+| 部署相关|4 | 4 |0  | 0 | 4 |
 | network isolation;public cloud integration|16 |  |  |  |  |
 
 3.2 覆盖分析 Coverage Analysis
@@ -125,7 +125,6 @@ c.镜像库：http://159.138.137.155/
 |developer-be   | 48.1%  |
 | appstore-be  | 64.9% |
 |user-mgmt-be|44.4%|
-| website-gateway|31%|
 | mecm-inventory|53.3%|
 | mecm-apm  | 57.9% |
 | mecm-appo  |52.8% |
@@ -136,9 +135,7 @@ c.镜像库：http://159.138.137.155/
 | mep-mepauth|48.7%|
 | mep-dnsserver|70.6%|
 | mep-agent|48.4%|
-| plugins|73%|
 
-*website-gateway代码覆盖率低的解释：website-gateway本身是一个框架工程只有200多行代码，没有业务逻辑，而且大部分代码都是实现spring的配置类，ut运行不到。目前我们只能多其中的login和logout接口做测试，所以覆盖率达不到40%。
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
@@ -146,22 +143,20 @@ c.镜像库：http://159.138.137.155/
 
 3.3.1 缺陷汇总 Defects Summary
 
-已剔除6个无效bug后，总缺陷数量：81（含16个安全类缺陷），已解决数量：77个；未解决bug4个（含1个known issue，遗留到下一版本解决）。
+已剔除6个无效bug后，总缺陷数量：71（含18个安全类缺陷），已解决数量：66个；未解决bug5个（含1个known issue，遗留到下一版本解决）。
 
 3.3.2 缺陷分析 Defects Analysis
 
-按缺陷类型分析：安全类bug20个；其他类bug67个。
-按缺陷严重级别分析：严重bug10个；主要bug27个；次要bug30个；不指定20个。
+按缺陷类型分析：安全类bug18个；其他类bug53个。
+按缺陷严重级别分析：严重bug6个；主要bug23个；次要bug28个；不指定14个。
 按需求点分析
-缺陷收敛性分析：总计87个bug（含6个无效bug；含安全类bug）；第一轮65个bug（含5个无效bug）；第二轮个22bug（含1个无效bug）
+缺陷收敛性分析：总计77个bug（含6个无效bug；含安全类bug）；第一轮58个bug（含5个无效bug）；第二轮个19bug（含1个无效bug）
 
 3.3.3 遗留缺陷及未解决问题 Residual Defects and known issues
 
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
-| I1W7NB |developer-fe portal redirects to different ip   |遗留   | clienturl must public IP | 遗留到1.0版处理 |
-| I1X7IH |测试环境概述界面按钮没有弹出管理弹窗及获取k8s资源接口有问题   |修复中   | 测试环境缺少组件 | 2020/9/29处理完成 |
-
+| I1W7NB |developer-fe portal redirects to different ip|遗留 | clienturl must public IP | 遗留到1.0版处理 |
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
@@ -237,7 +232,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0930/090022_fd5e111c_5645267.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0928/162232_290b5230_5645267.png "屏幕截图.png")
 
 *Fixed Security Issues*
 
@@ -255,7 +250,6 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 - [I1VCGN](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VCGN) -- MECM HELM Charts Bug Fixes/Optimizations
 - [I1VUWJ](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VUWJ) -- EG-TST-SEC-CP-1-7(Expected status Code as 400)
 - [I1VCL2](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1VCL2) -- Deploy Prometheus and Graphana with HTTPS enabled
--[I1WPWW](https://gitee.com/OSDT/dashboard/programs/114640/issues?labels=bug&issue_id=I1WPWW) -- There is a public IP address in the deployment file
 
 渗透测试详细测试报告见[EdgeGallery R0.9渗透测试结果.docx](https://gitee.com/edgegallery/community/blob/master/Security%20WG/%20Release%20V0.9/EdgeGallery%20R0.9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)
 
@@ -266,5 +260,3 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 | I1VY5P | Password is exposed  | 遗留 | 该问题是因为引入Spring Security组件后，如果没有设置账号，会使用默认账号，并随机生成一个默认密码，默认账号名是user，生成的默认密码会打印在日志中，是一个随机的uuid，每次启动不同。 Appstore-be和developer-be引入了Spring Security组件，但只用来做jwttoken的解析校验，没有使用到/login接口，浏览器也不会直接访问到后台的/login接口（会在website-gateway被拦截，转发到user-mgmt的/login做登陆）。 User-mgmt使用了Spring Security组件，但是user-mgmt实现了/login接口，对securityconfig的配置，所以不会有该问题。 | 遗留到R1.0版本处理 |
 
 四、测试结论及建议 Test Conclusion and Suggestion
-
-测试用例100%执行，ReleaseV0.9需求全部覆盖（不含POC需求），代码覆盖率满足预期指标，安全性要求满足预期要求，known issue已明确，无严重遗留问题。
