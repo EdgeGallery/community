@@ -2,7 +2,7 @@
 
 ## EdgeGallery Vision
 ### Technology Vision
-Focus on the Operators MEC scenario， build the basic framework of resource, application, security, and management of MEC edge and the de facto standard of network open service through open-source cooperation, and realize the interconnection with the public cloud. On the basis of compatible edge infrastructure heterogeneous differentiation, a unified MEC application ecosystem is constructed.
+The EdgeGallery community focuses on the 5G MEC platform framework, and builds the basic framework of resources, applications, security, and management of the MEC edge through open source collaboration and the de facto standard for network open services, and realizes interconnection with public clouds. Build a unified MEC application ecosystem based on the heterogeneous differentiation of compatible edge infrastructure.
 ### Industry Vision
 Focus on promoting 5G application ecology, organize and operate in accordance with the principles of voluntariness, fairness, transparency, and openness, Gather Industrial forces including operators, vendors, application developers, R & D institutions and industrial organizations, and build a mutually beneficial and win-win edge computing business ecology.
 ## Code of conduct
