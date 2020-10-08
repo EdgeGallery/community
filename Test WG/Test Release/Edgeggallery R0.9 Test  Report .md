@@ -109,7 +109,7 @@ c.镜像库：http://159.138.137.155/
 | mecm|51 | 34 | 17 | 0 | 66.67% |
 | mep-dns|1 |  |  |  |  |
 | 部署相关|4 | 4 |0  | 0 | 4 |
-| network isolation;public cloud integration|16 |  |  |  |  |
+| network isolation;public cloud integration|16 |15 | 1 | 15 | 93.75% |
 
 3.2 覆盖分析 Coverage Analysis
 
