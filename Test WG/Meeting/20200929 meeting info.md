@@ -52,3 +52,4 @@ https://welink-meeting.zoom.us/j/148578716
 
 #遗留任务
 1、master版、修订版维护的cicd、bug管理跟踪等 -- owner liuhui pengyu
+【master版为社区最新版本代码，修订版由v0.9.x跟踪维护；已启动v0.9.x的开发计划】
