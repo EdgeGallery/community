@@ -22,4 +22,4 @@
 | OK  | OK  |三方件使用清单，确定没有GPL或LGPL等商业不友好的三方件  |
 | [OK](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/appstore%203rd%20party.md)  | [OK](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Meetings/01-09-2020%20Meeting%20Materials/developer%203rd%20party.md)  |三方件高危漏洞清理，已经升级到最新版本还不能解决的需要输出清单  |
 
-**toolchain不存在前台，不涉及前台三方件漏洞**
+**toolchain/api-emulator不存在前台，不涉及前台三方件漏洞**
