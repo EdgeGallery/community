@@ -15,13 +15,13 @@ Zoom Meeting ID
 TSC members who attended:
 
 - 徐雷（联通 毋涛代表）
-- 刘芷若（信通院）     
-- 丁韩宇   （中移动）    
-- 龚永生 （九州云 范桂飓代表）      
-- 刘辉（紫金山）    
+-  **刘芷若** （信通院）     
+-  **丁韩宇**    （中移动）    
+-  **龚永生**  （九州云 范桂飓代表）      
+-  **刘辉** （紫金山）    
 - 袁国平  （安恒 李剑锋代表） 
-- 陈炜（腾讯 Leo代表）   
-- 于洋（华为）    
+-  **陈炜** （腾讯 Leo代表）   
+-  **于洋** （华为）    
 
 ## Agenda Items
 
@@ -31,7 +31,7 @@ TSC members who attended:
 
 ## Discussion Items
 
-- Item
+- 回顾了整个版本，形成措施，【补充链接】
 
 ## Voting Items
 
