@@ -34,6 +34,8 @@ Restrospection of TEST WORK for Release v0.9.
 
 2.review v0.9.x版需求 -- owner all
 
+3. 鹿鑫需求澄清MEP AK/SK实现  ---鹿鑫
+
 Review requirements for v0.9.x.
 
 
