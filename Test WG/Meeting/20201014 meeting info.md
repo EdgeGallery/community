@@ -4,20 +4,22 @@
 - 刘辉（紫金山实验室）
 - 姜伟（紫金山实验室）
 - 侯敏熙（Redhat）
-- 张怡（联想）
+ _- 张怡（联想）_ 
 - 彭育（华为）
 - 张阿利（中软）
 - 李媛媛（中软）
-- 孟璞辉(VMware)
-- 许丹（华为）
-- 于洋（华为）
+ _- 孟璞辉(VMware)_ 
+ _- 许丹（华为）_ 
+ _- 于洋（华为）_ 
 - 丁宇卿（紫金山实验室）
+- 李强（华为）
 
 ## Topics议题
 1.Release V0.9版测试工作回顾； owner all
 
 Restrospection of TEST WORK for Release v0.9.
 
+【基于彭育提供的ppt讨论】
 
 |姓名|任务|  
 |---|---|
@@ -34,10 +36,12 @@ Restrospection of TEST WORK for Release v0.9.
 
 2.review v0.9.x版需求 -- owner all
 
-3. 鹿鑫需求澄清MEP AK/SK实现  ---鹿鑫
-
 Review requirements for v0.9.x.
 
+【可不用单独做测试计划】
+
+3. 鹿鑫需求澄清MEP AK/SK实现  ---鹿鑫
+【mepauth新增的api测试放入单元测试中】
 
 ## meeting link
 https://welink-meeting.zoom.us/j/868312388
@@ -47,4 +51,5 @@ https://welink-meeting.zoom.us/j/868312388
 刘辉
 
 #遗留任务
-
+1、能否采用bugzilla等开源bug管理工具，同时能同gitee集成？--owner pengyu minxi等
+2、Test Platform研发讨论？ -owner all
