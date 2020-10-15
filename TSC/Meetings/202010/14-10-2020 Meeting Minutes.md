@@ -31,7 +31,7 @@ TSC members who attended:
 
 ## Discussion Items
 
-- 回顾了整个版本，形成措施，【补充链接】
+- 回顾了整个版本，形成措施，[回顾材料](https://gitee.com/edgegallery/community/blob/master/TSC/Meetings/202010/EdgeGallery%20V0.9%E7%89%88%E6%9C%AC%E5%9B%9E%E9%A1%BE%E5%BC%95%E5%AF%BC%E6%9D%90%E6%96%99.pptx)
 
 ## Voting Items
 
