@@ -20,6 +20,6 @@
 | OK  | OK  |所有repo中的文件需要有Copyright声明保护  |
 | OK  |OK  |SonarQube 静态检查问题清零  |
 | OK  |OK  |三方件使用清单，确定没有GPL或LGPL等商业不友好的三方件  |
-| [OK](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Release/v0.9x/Api-emulator%20and%20Toolchain%20CheckList/Toolchain%203rd%20party.md)  | [OK](http://)  |三方件高危漏洞清理，已经升级到最新版本还不能解决的需要输出清单  |
+| [OK](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Release/v0.9x/Api-emulator%20and%20Toolchain%20CheckList/Toolchain%203rd%20party.md)  | [OK](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Release/v0.9x/Api-emulator%20and%20Toolchain%20CheckList/Api-emulator%203rd%20party.md)  |三方件高危漏洞清理，已经升级到最新版本还不能解决的需要输出清单  |
 
 **toolchain/api-emulator不存在前台，不涉及前台三方件漏洞**
