@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 14-10-2020  | 16:30 PM to 17:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/453536859 |
+| 21-10-2020  | 15:30 PM to 16:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/696579743 |
 
 ## Meeting Attendees
 ** **
@@ -20,8 +20,8 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| 安全设计规范扩展                     | 程润东  |
-| EG项目Slow-DOS漏洞挖掘及利用遗留问题解决         | 扈冰    |
+| 安全设计规范扩展初稿讨论                     | 程润东  |
+| EG项目Slow-DOS遗留问题         | 扈冰    |
 
 
 
