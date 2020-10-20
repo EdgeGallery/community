@@ -13,6 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  ATP介绍  |     | 刘慧玲 |
+|  MEP Heartbeat 需求介绍  |     | Satish，鹿鑫 |
 
 ## Meeting Records
 - Video Recording
