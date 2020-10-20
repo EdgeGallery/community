@@ -15,16 +15,18 @@
 - 李强（华为）
 
 ## Topics议题
-1.测试平台的设计； owner kanaga
+1.测试平台的设计讨论； owner kanaga
 
-Design for Test Platform.
+Discuss Test Platform Design.
 
 
 2.初步讨论1.0版的测试计划（非定稿） -- owner all
 
 Discuss test plan （non-final） for Release V1.0.
 
+3.Rv0.9遗留问题跟踪 --owner all
 
+Track known issues for ReleaseV0.9.
 
 ## meeting link
 https://welink-meeting.zoom.us/j/452820032
