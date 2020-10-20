@@ -14,6 +14,7 @@
 |---|---|---|
 |  ATP介绍  |     | 刘慧玲 |
 |  MEP Heartbeat 需求介绍  |     | Satish，鹿鑫 |
+|  1.0 需求概览介绍  |     | 章清洁 |
 
 ## Meeting Records
 - Video Recording
