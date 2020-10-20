@@ -7,6 +7,18 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
+- 刘慧玲（华为）
+- Libu（华为）
+- 刘辉（紫金山)
+- Satish（华为）
+- 刘小飞（迅琥）
+- 于洋（华为）
+- 张海龙（华为）
+- 章清洁（华为）
+- 陈共龙（腾讯）
+- 范桂飓（九州云)
+- 鹿鑫（华为）
+- 游永明（广州申迪）
 
 
 ## Meeting Agenda & Minutes
