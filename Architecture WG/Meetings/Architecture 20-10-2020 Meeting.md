@@ -20,6 +20,8 @@
 - 鹿鑫（华为）
 - 游永明（广州申迪）
 - 余宇清（中移上海产业研究院）
+- Khemendra（Huawei）
+
 
 
 ## Meeting Agenda & Minutes
