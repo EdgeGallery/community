@@ -20,13 +20,13 @@
 * 您可以尝试创建Pull Request进行代码贡献，请参考[如何参与EdgeGallery社区开发](https://gitee.com/edgegallery/community/wikis/Tutorial%EF%BC%9A%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E%20EdgeGallery%20%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91?sort_id=2658820)
 * 您可以通过订阅社区[邮件列表](https://edgegallery.groups.io/g/main)参与社区讨论
 
-
-## EdgeGallery 社区项目组介绍：
+## 参与已有项目、工作组贡献：
+### EdgeGallery 社区项目组介绍：
 * MEP PT：项目介绍&参与方式请参考此链接： [MEP](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Readme.md)
 * MECM PT： 项目介绍&参与方式请参考此链接： [MECM](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Readme.md)
 * APP & Dev PT：项目介绍&参与方式请参考此链接：[AppStore & Developer](https://gitee.com/edgegallery/community/blob/master/AppStore%20and%20Developer%20Joint%20PT/Readme.md)  
 
-## EdgeGallery社区工作组介绍：
+### EdgeGallery社区工作组介绍：
 * Architecture WG：工作组介绍*参与方式请参考此链接： [Architecture](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/README.md)
 * Intergration WG：工作组介绍*参与方式请参考此链接： [Intergration](https://gitee.com/edgegallery/community/blob/master/Integration%20WG/Readme.md)
 * Security WG：工作组介绍*参与方式请参考此链接：[Security](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Readme.md)
@@ -35,4 +35,12 @@
 * Blockchain WG：工作组介绍*参与方式请参考此链接：[Blockchain](https://gitee.com/edgegallery/community/blob/master/Blockchain%20WG/Readme.md)
 * User WG：工作组介绍*参与方式请参考此链接： [User](https://gitee.com/edgegallery/community/blob/master/User%20WG/Readme.md)
 
-## EdgeGallery社区 TSC工作组介绍
+## 主导新建项目、工作组贡献：
+如果您经过参与社区有更加深入的参与诉求，比如主导创建新项目，工作组或其他，您可以通过社区最高技术决策机构提出您的诉求并讨论：
+### EdgeGallery社区 TSC职责和参与方式：
+TSC参与方式：TSC例行每周三
+### 新项目/工作组 创建流程
+
+
+
+
