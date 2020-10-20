@@ -35,3 +35,4 @@
 * Blockchain WG：工作组介绍*参与方式请参考此链接：[Blockchain](https://gitee.com/edgegallery/community/blob/master/Blockchain%20WG/Readme.md)
 * User WG：工作组介绍*参与方式请参考此链接： [User](https://gitee.com/edgegallery/community/blob/master/User%20WG/Readme.md)
 
+## EdgeGallery社区 TSC工作组介绍
