@@ -36,7 +36,7 @@
 * User WG：工作组介绍*参与方式请参考此链接： [User](https://gitee.com/edgegallery/community/blob/master/User%20WG/Readme.md)
 
 ## 主导新建项目、工作组贡献：
-如果您经过参与社区有更加深入的参与诉求，比如主导创建新项目，工作组或其他，您可以通过社区最高技术决策机构提出您的诉求并讨论：
+如果您经过参与社区有更加深入的参与诉求，比如主导创建新项目，工作组或其他，您可以参考[项目的生命周期](https://gitee.com/edgegallery/community/blob/master/TSC/Project%20Life-Cycle.md)中的项目申请流程提出您的诉求并讨论：
 ### EdgeGallery社区 TSC职责和参与方式：
 TSC参与方式：TSC例行每周三
 ### 新项目/工作组 创建流程
