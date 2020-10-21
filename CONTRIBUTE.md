@@ -38,7 +38,8 @@
 ## 主导新建项目、工作组贡献：
 如果您经过参与社区有更加深入的参与诉求，比如主导创建新项目，工作组或其他，您可以参考[项目的生命周期](https://gitee.com/edgegallery/community/blob/master/TSC/Project%20Life-Cycle.md)中的项目申请流程提出您的诉求并讨论：
 ### EdgeGallery社区 TSC职责和参与方式：
-TSC参与方式：TSC例行每周三
+[TSC 介绍](https://gitee.com/edgegallery/community/blob/master/TSC/Readme.md)
+TSC参与方式：TSC例行每周三晚上，可以通过[订阅邮件列表](http://www.edgegallery.org/%e6%b2%9f%e9%80%9a%e4%ba%a4%e6%b5%81)获取信息
 ### 新项目/工作组 创建流程
 
 
