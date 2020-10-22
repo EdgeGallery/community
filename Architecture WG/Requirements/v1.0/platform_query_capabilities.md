@@ -33,6 +33,9 @@ MECM handles the infrastructure capabilities query
     - Support Platform Capabilities query over Mm5 interface.
     - Provide list of capabilities registered to MEP along with it's consumers list at that moment.
 
+### MECM Solution for Hardware & Software Capability
+https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx
+
 
 ### 业务流程
 ![Query flow](https://images.gitee.com/uploads/images/2020/1022/142744_6786886c_7625394.png "query_flow.png")
