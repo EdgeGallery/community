@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 28-10-2020  | 15:30 PM to 16:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/696579743 |
+| 28-10-2020  | 15:30 PM to 16:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/397714662 |
 
 ## Meeting Attendees
 ** **
