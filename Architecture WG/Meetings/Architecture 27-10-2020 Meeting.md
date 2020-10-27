@@ -14,6 +14,7 @@
 |---|---|---|
 |  Requirement Walkthrough:developer开发者流程优化  |     | 张海龙 |
 |  Requirement Walkthrough:用户管理分权分域设置  |    | 张倍源 |
+|  Requirement Walkthrough:Edge Gallery Test Platform (edgeT). for Integration Testing & Security Testing & app testing | | Kanag & Pengyu & liuhuiling|
 
 
 ## Meeting Records
