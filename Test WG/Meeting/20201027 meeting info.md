@@ -1,4 +1,4 @@
-**meeting 会议时间**: 20201021 16:30-17:30
+**meeting 会议时间**: 20201027 15:30-16:30
 
 ## attendee参与人员
 - 刘辉（紫金山实验室）
@@ -38,7 +38,7 @@ Discuss time/HR plan for test platform development.
 
 
 ## meeting link
-https://welink-meeting.zoom.us/j/452820032
+https://welink-meeting.zoom.us/j/601622342
 
 ## Minutes纪要
 ## 纪要人
