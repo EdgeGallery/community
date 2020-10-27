@@ -51,7 +51,7 @@ Test steps:
 Test steps:
 TBD
 
-1.7 All authentication controls must fail securely.
+1.7 All authentication controls must fail securely.  
 **Notice**: The developer must just handle the displaying of the error message properly.
 
 Test steps:
@@ -74,6 +74,18 @@ Test Steps:
 Test Steps:
 1. Login the system and use the change password function, try to change password to commonly chosen passwords and weak passphrases.
 2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
+
+1.11 Password Aging mechanism must be in place.  
+**Notice**: If no mechanism is in place for managing password aging, users will have no incentive to update passwords in a timely manner.
+As part of a product's design, require users to change their passwords regularly and avoid reusing previous passwords. (This rule will take effect in R1.0*)
+
+1.12 Ensure no capture-replay attack posible.  
+**Notice**: A capture-replay flaw exists when the design of the software makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server
+Utilize some sequence or time stamping functionality along with a checksum which takes this into account in order to ensure that messages can be parsed only once. (This rule will take effect in R1.0*)
+
+1.13 Role based Access control.  
+**Notice**: Role based access control must be defined and followed to access the resources in the system. Applicable for users as well as Applications. (This rule will take effect in R1.0*)
+
 
 ## 2. Secure Transmission  
 
@@ -174,6 +186,10 @@ Test steps：
 Test steps：
 1. Examine the code and confirm random number generator is used.
 
+4.6 Reusing a Nonce, Key Pair in Encryption is prohibited.  
+**Notice**: Nonces should be used for the present occasion and only once.
+Use techniques such as requiring incrementing, time based and/or challenge response to assure uniqueness of nonces. (This rule will take effect in R1.0*)  
+
 ## 5. DOS Attack
 
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.
@@ -253,6 +269,12 @@ Test steps:
 1. Upload the files with restricted file extensions.
 2. Examine that upload should fail with proper response.
 
+7.5 Avoid using cookie data for a security-related decision.   (**This rule will take effect in R1.0**)
+**Notice**: Attackers can easily modify cookies, within the browser or by implementing the client-side code outside of the browser. Attackers can bypass protection mechanisms such as authorization and authentication by modifying the cookie to contain an expected value.
+
+
+
+
 ## 8. Security Document  
 
 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the product or application document.  
@@ -320,6 +342,12 @@ Test Steps:
 For each mitigation methods:
 1. Design a test case to check the implementation correctness of the mitigation method;
 2. Design a test case to attack the system from an attacker's perspective and verify the effectiveness of the mitigation method.
+
+
+## 12. Container Security
+
+12.1 Do not run application processes/containers as root. Containers must be required to run as non-root users.  (**This rule will take effect in R1.0**)
+
 
 ## References
 1. https://gdpr-info.eu/
