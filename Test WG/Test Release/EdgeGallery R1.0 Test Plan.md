@@ -157,8 +157,4 @@ bug优先级为：严重、主要、次要、一般。
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
-| Version | Date       | remark  |
-|---------|------------|---------|
-| v0.1    | 2020/10/20 | initial |
-| v0.2    | 2020/10/27 | 增加发版后发现bug的管理方式 |
 
