@@ -9,7 +9,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       | 1/ accessed the appstore/developer/mecm Dockerfile <br>2/ create a non-root account,its username and groupname must be non-root. <br>3/ Set this account as the default user to log in to docker or k8s pod. <br>4/ Enter the project's home directory, create some useful directories, such as configuration directory, log directory, certificate directory, etc., set the permissions to 750 or 700 according to the rules, and set the user as the newly created user in the previous step, and copy the project result file or Initialize files to these directories.<br>5/ Use the USER command to switch to the newly created non-root user, and then use the java -jar command to run the program|
+| GUI testing steps       | 1. accessed the appstore/developer/mecm Dockerfile <br>2. create a non-root account,its username and groupname must be non-root. <br>3. Set this account as the default user to log in to docker or k8s pod. <br>4. Enter the project's home directory, create some useful directories, such as configuration directory, log directory, certificate directory, etc., set the permissions to 750 or 700 according to the rules, and set the user as the newly created user in the previous step, and copy the project result file or Initialize files to these directories.<br>5. Use the USER command to switch to the newly created non-root user, and then use the java -jar command to run the program|
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
@@ -23,7 +23,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       | 1/ go to login home page. 2/ in put the right username and wrong password. 3/ can not login, and repeated login failed three times, will locked this account. 4/ unlock in 5 minutes.  |
+| GUI testing steps       | 1. go to login home page. <br>2. in put the right username and wrong password. <br>3. can not login, and repeated login failed three times, will locked this account. <br>4. unlock in 5 minutes.  |
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
