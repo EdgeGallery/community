@@ -62,6 +62,21 @@ Reference: https://forge.etsi.org/rep/mec/gs011-app-enablement-api/blob/master/M
         }
 
 ```
+#### MEP Server changes:
+
+1. MP1 interface to support the New heartbeat messages.
+
+2. MEP Server Support to handle these new feature of heartbeat and its corresponding registrations to ServiceComb.
+
+#### MEP Agent:
+1. By Default we would support for Heart Beat. Two messages for GET and PATCH must be supported in MEP Agent as well.
+2. Immediately after Registration of Service is successful, Send regular PATCH message to MEP server on the received URL of Registration response message.
+
+
+####  Security Design applicability:
+1. No seperate Security to be considered for this Feature other than Log security as MP1 is already secured channel.
+
+
 
 ### 工作量评估 Estimate effort
 2K Loc

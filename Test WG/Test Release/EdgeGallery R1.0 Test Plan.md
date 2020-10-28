@@ -15,7 +15,7 @@
 |开源软件禁选|0|开源软件禁选个数为0|
 |代码静态检查告警|0|代码静态检查告警个数（findbugs、stylecheck、dependency check、PWD）|
 |测试用例执行率|90%|计划执行的测试用例数/实际执行的测试用例数|
-|单元测试代码覆盖率|	>=40%|
+|单元测试代码覆盖率|	>=50%|
 
 
 **3. Test Scope** 
@@ -67,6 +67,7 @@ bug优先级为：严重、主要、次要、一般。
 - 针对于研发人员自己提的bug，建议bug修复后PTL协调研发人员交叉验证，通过后设置bug状态为“已验收”。
 - 针对访客提的bug，由PTL安排人员跟踪修复，研发人员回归验证后设置bug为“已验收”。
 
+版本发布后，针对测试人员/研发人员/访客提的bug，标签为已发布的版本号，如果研发人员确认该bug在下一版本修订，则将该bug同时打上下一版本号的标签，便于跟踪。针对已发布版本中新发现的bug，每周/两周发邮件提醒。
 
 **6. Delivery Epic** 
 
@@ -156,7 +157,4 @@ bug优先级为：严重、主要、次要、一般。
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
 
-| Version | Date       | remark  |
-|---------|------------|---------|
-| v0.1    | 2020/10/20 | initial |
 

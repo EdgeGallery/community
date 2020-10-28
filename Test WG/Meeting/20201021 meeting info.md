@@ -44,4 +44,11 @@ https://welink-meeting.zoom.us/j/452820032
 
 #遗留任务
 1、能否采用bugzilla等开源bug管理工具，同时能同gitee集成？--owner pengyu minxi等
+
 2、ReleaseV1.0质量指标讨论 --owner all
+
+3、测试平台的设计讨论； --owner kanaga
+【10月23日下午已讨论一次，需进一步讨论时间及人员安排】
+
+4、同项目组开会澄清0.9.x中“api模拟器和工具链、plugin仓库”测试需求 --owner beiyuan pengyu liuhui jiangwei等
+【10月23日下午已开会讨论：api模拟器仅针对mep api通过类swagger界面测试接口；工具链仅针对演示页面进行测试；】【同MEP项目组确认：plugin仓库本次不测试】
