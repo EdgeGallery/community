@@ -1,5 +1,5 @@
 
-## need user non-root user to start and run app  
+## a non-root user is added to the dockerfile, a non-root user is used to start, and the file directory Permission 
 ***
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
@@ -9,7 +9,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       | xxxxxxxxxxxxxx |
+| GUI testing steps       |  |
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
