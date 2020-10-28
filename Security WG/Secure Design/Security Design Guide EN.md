@@ -79,8 +79,16 @@ Test Steps:
 **Notice**: A capture-replay flaw exists when the design of the software makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server
 Utilize some sequence or time stamping functionality along with a checksum which takes this into account in order to ensure that messages can be parsed only once. (This rule will take effect in R1.0*)
 
+Test Steps:
+1. By snooping the authentication packet and try to replay it with same content should not be allowed to login and authentication must fail.
+
+
 1.12 Role based Access control.  
 **Notice**: Role based access control must be defined and followed to access the resources in the system. Applicable for users as well as Applications. (This rule will take effect in R1.0*)
+
+Test Steps:
+1. Set Different user different privileges.
+2. Cross check only the privilaged users can access the resource.
 
 
 ## 2. Secure Transmission  
@@ -186,6 +194,9 @@ Test steps：
 **Notice**: Nonces should be used for the present occasion and only once.
 Use techniques such as requiring incrementing, time based and/or challenge response to assure uniqueness of nonces. (This rule will take effect in R1.0*)  
 
+Test steps：
+1. Examine the code and confirm Nonce is always regenerated and not reused.
+
 ## 5. DOS Attack
 
 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks.
@@ -268,6 +279,9 @@ Test steps:
 7.5 Avoid using cookie data for a security-related decision.   (**This rule will take effect in R1.0**)
 **Notice**: Attackers can easily modify cookies, within the browser or by implementing the client-side code outside of the browser. Attackers can bypass protection mechanisms such as authorization and authentication by modifying the cookie to contain an expected value.
 
+Test steps：
+1. Try to login to the system without deleting or clearing the cookies.
+2. Make sure cookie is no way involved in authentication process, that is the whole authentication is carried out with Password or other valid authentic mechanism.
 
 
 
