@@ -325,6 +325,13 @@ Cookie是否由包含不同信息的不同子部分组成？各个部分如何�
 **注意** ：应用程序应正确的使用了每个属性，比如 安全属性；httpOnly属性；路径属性；过期属性；可以使用拦截代理来查看Cookie，也可以通过查看浏览器的Cookie来查
 
 
+7.5 测试跨站请求伪造：攻击者可能会迫使Web应用程序的用户执行攻击者选择的操作，确定是否有可能代表用户发起不是由用户发起的请求，
+   1.在服务端验证HTTP Referer字段比如request.getHeader("Referer").
+   2.在请求地址中添加token验证，比如session.getAttribue("token"),然后将token放在seesion里面，获取攻击者发送过来的请求里面的token进行 
+     比较.
+
+7.6
+
 
 
 ## 8.安全文件
@@ -387,3 +394,5 @@ Cookie是否由包含不同信息的不同子部分组成？各个部分如何�
 3. http://cwe.mitre.org/data/definitions/1008.html
 4. https://github.com/devonfw/devonfw-security/wiki/guide-security-quick-owasp-asvs
 5. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/
+6.https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.md
+7.https://wiki.owasp.org/index.php/OWASP_Testing_Project
