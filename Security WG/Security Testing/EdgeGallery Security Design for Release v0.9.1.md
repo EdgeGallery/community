@@ -1,10 +1,10 @@
 
-## need user no-root user to start and run app  
+## need user non-root user to start and run app  
 ***
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID |  |
-| Implemetation details   |  |
+| Security design rule ID | 1.5 According to the principle of least privilege, accounts used to run software programs are low-privilege OS accounts. |
+| Implemetation details   | Review the Dockerfile to confirm Docker are run as a non-root user |
 | Related APIs            | NA                      |
 | Example API payload     | NA |
 | Related files           | NA |
@@ -17,8 +17,8 @@
 ***
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID |  |
-| Implemetation details   |  |
+| Security design rule ID | 5.1 Anti-automation must be in place to prevent breached credential testing, brute forcing, and account lockout attacks. |
+| Implemetation details   | Design user login scripts to simulate brutal login attempts, confirm the user account will be locked out.  |
 | Related APIs            | NA                      |
 | Example API payload     | NA |
 | Related files           | NA |
@@ -31,8 +31,8 @@
 ***
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID |  |
-| Implemetation details   |  |
+| Security design rule ID | Sufficient Logging |
+| Implemetation details   | 9.2 Ensure that all security-related successes and failures be logged. When security-critical events are not logged properly, such as a failed login attempt, this can make malicious behavior more difficult to detect and may hinder forensic analysis after an attack succeeds |
 | Related APIs            | NA                      |
 | Example API payload     | NA |
 | Related files           | NA |
@@ -46,13 +46,13 @@
 ***
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID |  |
-| Implemetation details   |  |
+| Security design rule ID | 5.2 The application must limit the number of active concurrent sessions. |
+| Implemetation details   | Design test case to establish as many concurrent sessions as possible and confirm that the number of active concurrent sessions is limited. |
 | Related APIs            | NA                      |
 | Example API payload     | NA |
 | Related files           | NA |
-| Related GUI URLs        | NA                          |
-| GUI testing steps       |  |
+| Related GUI URLs        | NA |
+| GUI testing steps       | the default max link number is 200 in the springboot, and we(hubing) have a test over 200 links that will can not get a new link. no need to modify this number. |
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
