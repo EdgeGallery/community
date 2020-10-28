@@ -9,7 +9,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       | 1. accessed the appstore/developer/mecm Dockerfile <br>2. create a non-root account,its username and groupname must be non-root. <br>3. Set this account as the default user to log in to docker or k8s pod. <br>4. Enter the project's home directory, create some useful directories, such as configuration directory, log directory, certificate directory, etc., set the permissions to 750 or 700 according to the rules, and set the user as the newly created user in the previous step, and copy the project result file or Initialize files to these directories.<br>5. Use the USER command to switch to the newly created non-root user, and then use the java -jar command to run the program|
+| GUI testing steps       | 1.Use kubectl exec -it [pod name] sh command to enter the project pod.<br>2.Use the whoami command to check whether the current default login user is a non-root account.<br>3.Use the ls -l command to view the permissions of the configuration/log/certificate directories and files in the current directory, as well as the users and user groups they belong to, and whether they comply with the rules.|
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
