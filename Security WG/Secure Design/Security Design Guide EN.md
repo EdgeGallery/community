@@ -75,15 +75,11 @@ Test Steps:
 1. Login the system and use the change password function, try to change password to commonly chosen passwords and weak passphrases.
 2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
 
-1.11 Password Aging mechanism must be in place.  
-**Notice**: If no mechanism is in place for managing password aging, users will have no incentive to update passwords in a timely manner.
-As part of a product's design, require users to change their passwords regularly and avoid reusing previous passwords. (This rule will take effect in R1.0*)
-
-1.12 Ensure no capture-replay attack posible.  
+1.11 Ensure no capture-replay attack posible.  
 **Notice**: A capture-replay flaw exists when the design of the software makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server
 Utilize some sequence or time stamping functionality along with a checksum which takes this into account in order to ensure that messages can be parsed only once. (This rule will take effect in R1.0*)
 
-1.13 Role based Access control.  
+1.12 Role based Access control.  
 **Notice**: Role based access control must be defined and followed to access the resources in the system. Applicable for users as well as Applications. (This rule will take effect in R1.0*)
 
 
@@ -342,11 +338,6 @@ Test Steps:
 For each mitigation methods:
 1. Design a test case to check the implementation correctness of the mitigation method;
 2. Design a test case to attack the system from an attacker's perspective and verify the effectiveness of the mitigation method.
-
-
-## 12. Container Security
-
-12.1 Do not run application processes/containers as root. Containers must be required to run as non-root users.  (**This rule will take effect in R1.0**)
 
 
 ## References
