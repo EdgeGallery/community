@@ -2,7 +2,7 @@
 
 Please Refer to Laboratory Environment Plan
 
-![Please Refer to Laboratory Environment Plan](https://images.gitee.com/uploads/images/2020/1028/162928_b21f6177_7791645.png "lab infra plan.png")
+![Please Refer to Laboratory Environment Plan](https://images.gitee.com/uploads/images/2020/1028/183207_d59da014_7791645.png "图片1.png")
 
 Users will access to the laboratory through VPN.
 
