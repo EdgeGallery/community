@@ -9,7 +9,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       |  |
+| GUI testing steps       | 1/ accessed the appstore/developer/mecm Dockerfile <br>2/ create a non-root account,its username and groupname must be non-root. <br>3/ Set this account as the default user to log in to docker or k8s pod. <br>4/ Enter the project's home directory, create some useful directories, such as configuration directory, log directory, certificate directory, etc., set the permissions to 750 or 700 according to the rules, and set the user as the newly created user in the previous step, and copy the project result file or Initialize files to these directories.<br>5/ Use the USER command to switch to the newly created non-root user, and then use the java -jar command to run the program|
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
@@ -37,7 +37,7 @@
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA                          |
-| GUI testing steps       | accuessed the appstore/developer/mecm, and then login to the host to find the user-mgmt/appstore-fe/developer-fe/mecm-fe logs, all of the api logs have been added the clientIP. |
+| GUI testing steps       | accessed the appstore/developer/mecm, and then login to the host to find the user-mgmt/appstore-fe/developer-fe/mecm-fe logs, all of the api logs have been added the clientIP. |
 | GUI input example       | NA             |
 | Additional Info         | NA |
 
