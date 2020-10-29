@@ -31,6 +31,12 @@
 渗透测试问题，扈冰介绍了渗透测试的定义，测试内容，常用工具，常规测试步骤等，并列举了建议进行渗透测试的项目，后续计划尽快形成渗透测试用例并进行评估。
 - api-emulator;toolchain;plugins开仓讨论，张倍源从sonarqube， dependency check ，license方面和安全组进行讨论，并展示检查报告，除过plugin没有dependeny check，其他都是没问题，结论：satish找Gaurav确定plugin的dependency check 结果，并发送是否开仓结论。
 
+Conclusion:
+  - Reports of api-emulator, toolchain, plugins are checked and it is ok. Plugin repo to check for Fossid issue and fix it.
+  - Security testing is pending. Kanag/Pengu to check on it and complete it before the release which Beiyun shared.
+
+  After above issues closed, the repos api-emulator;toolchain;plugins can be released.
+
 ## Voting Items
 
 ** **
