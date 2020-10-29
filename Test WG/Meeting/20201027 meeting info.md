@@ -27,7 +27,7 @@ Discuss test plan for Release V1.0 (including quality index；bug management aft
 
 3.安排0.9.x版测试任务--owner all
 
-【根据项目组会议纪要，本周四转测】
+【【根据项目组会议纪要，本周四转测；不输出测试计划和报告；发现的bug直接提在gitee上并打标签ReleaseV0.9.x】】
 
 Plan test task for ReleaseV0.9.x.
 
@@ -46,3 +46,7 @@ https://welink-meeting.zoom.us/j/601622342
 
 #遗留任务
 1、能否采用bugzilla等开源bug管理工具，同时能同gitee集成？--owner pengyu minxi等
+
+2、本周讨论确定test platform是否加入1.0版进程，及时间和人员计划 --owner pengyu kanaga等
+
+3、0.9版中的POC 集成5G网关是否延续到1.0版 --owner liuhui gaoweitao tsc
