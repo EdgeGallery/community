@@ -38,7 +38,7 @@ https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Cap
 
 
 ### 业务流程
-![Query flow](https://images.gitee.com/uploads/images/2020/1022/142744_6786886c_7625394.png "query_flow.png")
+![Query flow](https://images.gitee.com/uploads/images/2020/1029/152205_3918141b_7625394.png "quwery_flow1.png")
 
 ### 接口定义 (Interface Definition)
 #### 1. Mp1 (MECAPP/5G/aPaaS -> MEP)
