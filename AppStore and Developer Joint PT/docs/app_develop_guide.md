@@ -57,9 +57,11 @@ app: cuber
 操作步骤：
 1)	注册EdgeGallery帐户：访问EdgeGallery Developer网站<https://daily.developer.edgegallery.org>，系统将跳转至登录界面，点击“免费注册”，填写合规的用户名、密码和手机验证码等信息，点击“提交”，相同用户名或者电话号码无法重复注册；
 
- ![注册](https://images.gitee.com/uploads/images/2020/1029/200248_d64cafea_7786397.png "3.png")
+ ![注册](https://images.gitee.com/uploads/images/2020/1029/201918_774c362a_7786397.png "3.png")
+
 2)	登录EdgeGallery平台，可以使用用户名或手机号登录；
- ![登录](https://images.gitee.com/uploads/images/2020/1029/200259_7d48a914_7786397.png "4.png")
+![登录](https://images.gitee.com/uploads/images/2020/1029/201947_bca4cec3_7786397.png "4.png")
+
 3)	点击“创建项目”，并选择“新建项目”；
  ![创建项目](https://images.gitee.com/uploads/images/2020/1029/200316_5314a118_7786397.png "5.png")![新建项目](https://images.gitee.com/uploads/images/2020/1029/200326_cf840783_7786397.png "6.png")
 4)	填写基本信息，应用名称填写规划的应用名称，上传或选择图标，填写描述（不超过500个字符），填写完成后点击“下一步”；
