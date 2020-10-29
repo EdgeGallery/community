@@ -64,29 +64,49 @@ app: cuber
 
 3)	点击“创建项目”，并选择“新建项目”；
 
- ![创建项目](https://images.gitee.com/uploads/images/2020/1029/200316_5314a118_7786397.png "5.png")!
-[新建项目](https://images.gitee.com/uploads/images/2020/1029/200326_cf840783_7786397.png "6.png")
+ ![创建项目](https://images.gitee.com/uploads/images/2020/1029/200316_5314a118_7786397.png "5.png")
+![新建项目](https://images.gitee.com/uploads/images/2020/1029/200326_cf840783_7786397.png "6.png")
 
 4)	填写基本信息，应用名称填写规划的应用名称，上传或选择图标，填写描述（不超过500个字符），填写完成后点击“下一步”；
+
  ![填写基本信息](https://images.gitee.com/uploads/images/2020/1029/200335_e0d2a880_7786397.png "7.png")
+
 5)	选择能力，默认勾选“Service Discovery”，本应用无需其他能力，点击“下一步”；
+
  ![选择能力](https://images.gitee.com/uploads/images/2020/1029/200353_64a0a50d_7786397.png "8.png")
+
 6)	在如下界面，点击“下一步”；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200407_411cf723_7786397.png "9.png")
+
 7)	点击“确认”，创建项目成功，自动进入项目详情页面；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200418_4400cf2e_7786397.png "10.png")
+
 8)	点击“构建&测试”，在方式2添加一个镜像，名称、版本号及内部端口号如图所填，外部端口号填写之前规划的端口号，输入完成后点击“添加”按钮；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200430_6787a9b5_7786397.png "11.png")
-9)	点击上传Yaml，上传编辑好的cuber.yaml文件
+
+9)	点击上传Yaml，上传编辑好的cuber.yaml文件；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200450_4fd0ce01_7786397.png "12.png")
+
 10)	上传API，此处可将cuber.yaml再次上传；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200459_fcbaed38_7786397.png "13.png")
+
 11)	此处添加镜像可以不用选择。服务框是对外显示的服务名、链接和端口号，可以根据图示中内容填写，完成点击“下一步”；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200508_f4061052_7786397.png "14.png")
+
 12)	选择部署的服务器，默认选择119.8.125.174，点击“下一步”；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200530_8f1e1da5_7786397.png "15.png")
+
 13)	等待测试部署完成，出现如下画面，代表部署成功，此时可以使用浏览器访问测试魔方主页面，如图中所示即为<http://119.8.125.174:32580>；
+
  ![输入图片说明](https://images.gitee.com/uploads/images/2020/1029/200542_d63ab0b3_7786397.png "16.png")
+
 14)	点击完成测试，勾选发布APP到EdgeGallery应用商店，点击确认；
 
 3.	完成集成
