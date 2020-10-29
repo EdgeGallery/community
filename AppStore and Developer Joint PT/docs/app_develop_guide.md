@@ -63,7 +63,10 @@ app: cuber
 ![登录](https://images.gitee.com/uploads/images/2020/1029/201947_bca4cec3_7786397.png "4.png")
 
 3)	点击“创建项目”，并选择“新建项目”；
- ![创建项目](https://images.gitee.com/uploads/images/2020/1029/200316_5314a118_7786397.png "5.png")![新建项目](https://images.gitee.com/uploads/images/2020/1029/200326_cf840783_7786397.png "6.png")
+
+ ![创建项目](https://images.gitee.com/uploads/images/2020/1029/200316_5314a118_7786397.png "5.png")!
+[新建项目](https://images.gitee.com/uploads/images/2020/1029/200326_cf840783_7786397.png "6.png")
+
 4)	填写基本信息，应用名称填写规划的应用名称，上传或选择图标，填写描述（不超过500个字符），填写完成后点击“下一步”；
  ![填写基本信息](https://images.gitee.com/uploads/images/2020/1029/200335_e0d2a880_7786397.png "7.png")
 5)	选择能力，默认勾选“Service Discovery”，本应用无需其他能力，点击“下一步”；
