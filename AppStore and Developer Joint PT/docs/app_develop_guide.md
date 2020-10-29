@@ -55,7 +55,7 @@ app: cuber
 
 2.	通过Developer平台进行集成测试
 操作步骤：
-1)	注册EdgeGallery帐户：访问EdgeGallery Developer网站https://daily.developer.edgegallery.org，系统将跳转至登录界面，点击“免费注册”，填写合规的用户名、密码和手机验证码等信息，点击“提交”，相同用户名或者电话号码无法重复注册；
+1)	注册EdgeGallery帐户：访问EdgeGallery Developer网站<https://daily.developer.edgegallery.org>，系统将跳转至登录界面，点击“免费注册”，填写合规的用户名、密码和手机验证码等信息，点击“提交”，相同用户名或者电话号码无法重复注册；
  
 2)	登录EdgeGallery平台，可以使用用户名或手机号登录；
  
@@ -80,10 +80,10 @@ app: cuber
  
 12)	选择部署的服务器，默认选择119.8.125.174，点击“下一步”；
  
-13)	等待测试部署完成，出现如下画面，代表部署成功，此时可以使用浏览器访问测试魔方主页面，如图中所示即为http://119.8.125.174:32580；
+13)	等待测试部署完成，出现如下画面，代表部署成功，此时可以使用浏览器访问测试魔方主页面，如图中所示即为<http://119.8.125.174:32580>；
  
 14)	点击完成测试，勾选发布APP到EdgeGallery应用商店，点击确认；
 
 3.	完成集成
-地址：https://daily.appstore.edgegallery.org
+地址：<https://daily.appstore.edgegallery.org>
  
