@@ -25,7 +25,7 @@
 
 ## 项目会议
 * 每周一 16:30-17:30
-* 会议链接：https://welink-meeting.zoom.us/j/531038090
+* 会议链接：每周一早上通过main@edgegallery.groups.io邮件发送
 
 ## 会议纪律
 * 1 会前需要做充足的准备，输出方案的详细设计，线下已经沟通过，线上更加关注方案的可行性和实现落地；
@@ -33,5 +33,5 @@
 
 ## 项目联系方式
 * 邮件列表：使用Edge Gallery邮件列表： main@edgegallery.groups.io。
-* 其他： 请在邮件标题添加【App&Dev Joint PT】用以区分
+* 其他： 请在邮件标题添加【#app-dev】用以区分
 ** 
