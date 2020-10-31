@@ -9,6 +9,8 @@
 -  拓展区块链技术在实际场景中的应用落地。（待定）
 
 # 工作组成员
+-  **工作组主席Chair：冯杰（西电），  工作组副主席Co-Chair： 刘小飞（迅琥）**  
+
 | Name | Affiliation | Email  |Self nominate as Chair (Y)  | Self Nominate as Co-Chair (Y/N)  |
 |------|-------------|---|---|---|
 |赵冬晓     |西电             |bigctime@163.com   |   |   |
@@ -18,8 +20,9 @@
 |刘小飞      |迅琥科技             |xiaofei.liu@xeniro.io   |   |   |
 |游永明      |广州申迪             |youym@189.cn   |   |   |
 |付月霞      |中国移动 |fuyuexia@chinamobile.com|   |   |
+|陈道清      |华为 |chendaoqing@huawei.com|   |   |  
 
--  **工作组主席Chair：冯杰（西电），  工作组副主席Co-Chair： 刘小飞（迅琥）**     	
+   	
 # 工作组会议
 -  **工作组例会**：      
 -  每周例会时间：每周一下午16:00-17:00，每周四下班前在wiki上完成下次议题申报。     
