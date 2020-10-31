@@ -4,7 +4,7 @@
 -  **Join (Host)**: http://imeeting.huawei.com/meeting/startzoom?id=2c9028687579070901757c5680101734&app=welink
 -  **Join (Guest)**: http://imeeting.huawei.com/meeting/joinzoom?id=622724486&app=welink
 -  **Join (External)** : https://welink-meeting.zoom.us/j/622724486
--  ** 会议ID** : 622 724 486 
+-  **会议ID**: 622 724 486 
 
 **纪要人:** 冯杰  
 
