@@ -26,4 +26,4 @@
 * 待补充
 ## 工作组联系方式
 * 邮件列表：测试工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
-* 其他： 请在邮件标题添加【TEST】用以区分
+* 其他： 请在邮件标题#TEST用以区分
