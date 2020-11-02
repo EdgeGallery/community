@@ -403,5 +403,5 @@ Cookie是否由包含不同信息的不同子部分组成？各个部分如何�
 3. http://cwe.mitre.org/data/definitions/1008.html
 4. https://github.com/devonfw/devonfw-security/wiki/guide-security-quick-owasp-asvs
 5. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.md 
-6. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/ 
-7.https://wiki.owasp.org/index.php/OWASP_Testing_Project
+6. https://wiki.owasp.org/index.php/OWASP_Testing_Project 
+7. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/ 
