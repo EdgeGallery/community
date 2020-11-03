@@ -3,7 +3,7 @@
 |需求名称|涉及的规则项|
 |----|----|
 |[【MEP】MEP Support to query the capabilities.](https://gitee.com/edgegallery/mep/issues/I1W7UU) | Rule 1.1, Rule 8.1, Rule 9.4|
-|[【MEP】Mep Server add app heartbeat API](https://gitee.com/OSDT/dashboard?issue_id=I1QXQD)|Rule 1.2 |
+|[【MEP】Mep Server add app heartbeat API](https://gitee.com/OSDT/dashboard?issue_id=I1QGUZ)|Rule 1.2 |
 
 ## 【MEP】MEP Support to query the capabilities
 
