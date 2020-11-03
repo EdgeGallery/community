@@ -34,7 +34,7 @@
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
-|  v1.0 Requirement walkthrough  |   | 孙靖涵，Libu，张倍源，杨阳，陈传雨 |
+|  v1.0 Requirement walkthrough  | 靖涵介绍了生态应用的流程设计与相关API设计，目标主要是为后续EdgeGallery平台的三方应用能够提供一个E2E的流程介绍。<br> Libu & Gaurav introduce the capabilities exposure flow on MECM and MEP, the suggestion is MECM need to consider the capabilities show during instantiating and app instance list. <br> 倍源介绍了与51OpenLab的合作项目。 <br> Gaurav introduce the MECM remaining requirements, all the requirements development already started. <br> 传雨介绍了1.0~1.x版本EdgeGallery与UPF的集成需求，目前还没有设计完成，预计下周会在架构组会议介绍完整E2E的需求设计。| 孙靖涵，Libu，张倍源，杨阳，陈传雨 |
 
 ## Meeting Records
 - Video Recording
@@ -44,7 +44,7 @@
 ## Action Items
 |  Items | Assignee   |
 |---|---|
-|  TBA | TBA |
+|  介绍E2E的EdgeGallery 与 UPF的集成需求| 陈传雨 |
 
 
 
