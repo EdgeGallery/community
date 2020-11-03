@@ -25,12 +25,13 @@
 - 陈共龙（腾讯）
 - 于洋（华为）
 - 游永明（广州申迪）
+- 范桂飓（九州云）
 
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
-|  v1.0 Requirement walktrough  |   | 孙靖涵，Libu，张倍源，杨阳，陈传雨 |
+|  v1.0 Requirement walkthrough  |   | 孙靖涵，Libu，张倍源，杨阳，陈传雨 |
 
 ## Meeting Records
 - Video Recording
