@@ -48,5 +48,7 @@ https://welink-meeting.zoom.us/j/601622342
 1、能否采用bugzilla等开源bug管理工具，同时能同gitee集成？--owner pengyu minxi等
 
 2、本周讨论确定test platform是否加入1.0版进程，及时间和人员计划 --owner pengyu kanaga等
+【】
 
 3、0.9版中的POC 集成5G网关是否延续到1.0版 --owner liuhui gaoweitao tsc
+【会在1.0版集成，11月7/8日传雨会梳理出并分享一版UPF接口】
