@@ -171,7 +171,7 @@ Test steps:
 Test steps:
 1. Check the system to check whether there is an interface for obtaining authorization from the data subject and an interface for revoking authorization by the data subject.
 
-3.7 Test browser cache is insufficient version: v1.0
+3.7 Test whether the browser history and cache cache sensitive information version: v1.0
 Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
 
 3.8 Testing for unsafe direct object references version: v1.0
@@ -257,6 +257,9 @@ Test steps:
 1. (User A) Log in to the system and record the session ID.
 2. (User A) Use another client to log in to the system.
 3. Confirm that the penetration identifier generated in step 1 is invalid.
+The following is used in version: v1.0 
+4. To test for caching vulnerabilities, whenever the session ID is passed, instructions should be used to prevent intermediate caches or even local caches from caching it. 
+5. GET and POST vulnerabilities, GET requests should not be used, because the session ID may be exposed in the proxy or firewall logs
 
 6.2 Set the session/voucher to a valid expiration date.
 
@@ -299,33 +302,17 @@ Test steps:
 1. Check the code to confirm that the XML and JSON schema validation has been implemented.
 2. Design test cases to call APIs with abnormal XML or JSON payloads to verify that the schema verification is valid, and confirm that all data that fails the verification will be rejected.
 
-7.3 Test session management architecture version: v1.0
-**Note**: The tester wants to check whether cookies and other session tokens have been created in a safe and unpredictable way. An attacker who can predict and forge weak cookies can easily hijack the sessions of legitimate users.
-Test items:
-Are there any cookie operations performed through unencrypted transmission?
-Can cookies be forced through unencrypted transmission?
-Are there any persistent cookies?
-Which parts of the session ID are static?
-What clear text confidential information is stored in the session ID? For example username/UID, IP address
-What confidential information is stored that is easy to decode?
-What information can be inferred from the structure of the session ID?
-For the same login condition, which part of the session ID is static?
-What are the obvious patterns in the overall or individual parts of the session ID?
-Can the session ID be proved to be random in nature? Can the result value be reproduced?
-Does the same input condition produce the same ID in subsequent runs?
-Is the session ID proven to resist statistics or cryptanalysis?
-Which elements of the session ID are time-related?
-Which parts of the session ID are predictable?
-With a complete understanding of the generation algorithm and the previous ID, can the next ID be inferred?
-Does the cookie consist of different sub-parts containing different information? How are the parts separated? Which delimiter to use?
+7.3 The test session cannot be predicted version: v1.0 Note: The tester wants to check whether cookies and other session tokens have been created in a safe and unpredictable way. An attacker who can predict and forge weak cookies can easily hijack the sessions of legitimate users.
 
 Test steps:
-1. Check the id itself to ensure its quality, randomness, uniqueness, resistance to statistics and cryptanalysis, and information leakage from a security perspective.
-2. Perform it manually, or use a cryptanalysis tool to infer any patterns in the Session ID content to determine whether there are any recognizable or predictable patterns. Check which elements of the session ID are time-related? Which parts of the session ID are predictable?
 
-7.4 All cookies have been set and the correct security configuration is being implemented. version: v1.0
-  
-**Note**: The application should use each attribute correctly, such as security attributes; httpOnly attributes; path attributes; expired attributes; you can use intercepting agents to view cookies, or you can check cookies by viewing browsers
+Check the id itself to ensure its quality, randomness, uniqueness, resistance to statistics and cryptanalysis, and information leakage from a security perspective. 2. Perform it manually, or use a cryptanalysis tool to infer any patterns in the Session ID content to determine whether there are any recognizable or predictable patterns. Check which elements of the session ID are time-related? Which parts of the session ID are predictable.
+
+7.4 Test whether the session attributes are set normally. version: v1.0
+
+Note: The application should use each attribute correctly, such as security attributes; httpOnly attributes; path attributes; expired attributes;
+
+Test steps: 1. Use blocking proxy to view cookies, 2. Check by viewing browser cookies
 
 7.5 Avoid using cookie data for security-related decisions. version: v1.0
 (This rule will take effect in R1.0) Note: Attackers can easily modify cookies in the browser or by implementing client-side code outside the browser. An attacker can bypass protection mechanisms such as authorization and authentication by modifying the cookie to contain expected values.
