@@ -156,6 +156,16 @@ Test steps:
 Test steps:
 1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
 
+3.7 Test whether the browser history and cache cache sensitive information version: v1.0
+
+Test steps:
+1.Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
+
+3.8 Unauthorized test version: v1.0 Penetration test 
+
+Test steps: 
+1. Perform horizontal override test. , The user accesses another user with the same level of authority to obtain information 
+2. Perform a vertical unauthorized test, and the user accesses another user with a higher level of authority to obtain information
 
 ## 4. Encryption Algorithm and Key Management  
 
