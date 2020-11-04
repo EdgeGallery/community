@@ -297,6 +297,7 @@ Test steps:
 1. Upload the files with restricted file extensions.
 2. Examine that upload should fail with proper response.
 
+tag: version v1.0
 7.5 Avoid using cookie data for a security-related decision.   (**This rule will take effect in R1.0**)
 **Notice**: Attackers can easily modify cookies, within the browser or by implementing the client-side code outside of the browser. Attackers can bypass protection mechanisms such as authorization and authentication by modifying the cookie to contain an expected value.
 
@@ -304,7 +305,31 @@ Test steps：
 1. Try to login to the system without deleting or clearing the cookies.
 2. Make sure cookie is no way involved in authentication process, that is the whole authentication is carried out with Password or other valid authentic mechanism.
 
+tag: version v1.0
+penetration test
+7.6 Testing cross-site request forgery:  
+   The attacker may force the user of the web application to perform an action chosen by the attacker to determine whether it is possible to initiate a request on behalf of the user that was not initiated by the user.
+   1. Verify the HTTP Referer field on the server side, such as request.getHeader("Referer").
+   2. Add token verification in the request address, such as session.getAttribue("token"), and then put the token in Seesion to get the token in the request sent by the attacker
+     Compare.
 
+tag: version v1.0
+7.7 The test session cannot be predicted 
+penetration test
+**Note**: The tester wants to check whether cookies and other session tokens have been created in a safe and unpredictable way. An attacker who can predict and forge weak cookies can easily hijack the sessions of legitimate users.
+
+Test steps:
+1. Check the id itself to ensure its quality, randomness, uniqueness, resistance to statistics and cryptanalysis, and information leakage from a security perspective.
+2. Perform it manually, or use a cryptanalysis tool to infer any patterns in the Session ID content to determine whether there are any recognizable or predictable patterns. Check which elements of the session ID are time-related? Which parts of the session ID are predictable?
+
+tag: version v1.0
+7.8 Test whether the session attributes are properly set. 
+  
+**Note**: The application should use each attribute correctly, such as security attributes; httpOnly attributes; path attributes; expired attributes;
+
+Test steps:
+1. Use blocking proxy to view cookies,
+2. Check by viewing the cookies of your browser
 
 ## 8. Security Document  
 
