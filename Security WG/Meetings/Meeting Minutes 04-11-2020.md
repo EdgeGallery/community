@@ -18,7 +18,7 @@
 | 合规测试用例用例步骤评审 | 程润东 |
 | 渗透测试用例用例步骤评审 | 扈冰 |
 |安全测试路标对齐 | All |
-
+|MEP release version 1.0 security check review | LiBu Satish |
 
 ## Discussion Items and Minutes
 
