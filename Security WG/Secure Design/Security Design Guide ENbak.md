@@ -75,6 +75,7 @@ Test Steps:
 1. Login the system and use the change password function, try to change password to commonly chosen passwords and weak passphrases.
 2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
 
+tag: version v1.0
 1.11 Ensure no capture-replay attack posible.  
 **Notice**: A capture-replay flaw exists when the design of the software makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server
 Utilize some sequence or time stamping functionality along with a checksum which takes this into account in order to ensure that messages can be parsed only once. (This rule will take effect in R1.0*)
@@ -82,7 +83,7 @@ Utilize some sequence or time stamping functionality along with a checksum which
 Test Steps:
 1. By snooping the authentication packet and try to replay it with same content should not be allowed to login and authentication must fail.
 
-
+tag: version v1.0
 1.12 Role based Access control.  
 **Notice**: Role based access control must be defined and followed to access the resources in the system. Applicable for users as well as Applications. (This rule will take effect in R1.0*)
 
@@ -156,12 +157,15 @@ Test steps:
 Test steps:
 1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
 
-3.7 Test whether the browser history and cache cache sensitive information version: v1.0
+tag: version v1.0
+3.7 Test whether the browser history and cache cache sensitive information 
 
 Test steps:
 1.Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
 
-3.8 Unauthorized test version: v1.0 Penetration test 
+tag: version v1.0
+Penetration test
+3.8 Unauthorized test  
 
 Test steps: 
 1. Perform horizontal override test. , The user accesses another user with the same level of authority to obtain information 
@@ -200,6 +204,7 @@ Test steps：
 Test steps：
 1. Examine the code and confirm random number generator is used.
 
+tag: version v1.0
 4.6 Reusing a Nonce, Key Pair in Encryption is prohibited.  
 **Notice**: Nonces should be used for the present occasion and only once.
 Use techniques such as requiring incrementing, time based and/or challenge response to assure uniqueness of nonces. (This rule will take effect in R1.0*)  
@@ -231,6 +236,7 @@ Test steps:
 
 ## 6. Session Management
 
+tag: version v1.0
 6.1 Authenticate a user, or otherwise for establishing a new user session. without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.  
 **Notice**: Invalidate any existing session identifiers prior to authorizing a new user session. 
 
@@ -238,6 +244,11 @@ Test steps:
 1. (User A) Log in the system, record the session identifier.
 2. (User A) Log in the system using another client.
 3. Confirm the session identifier generated in step 1 has been invalidated.
+
+The following is used in version: v1.0 
+4. To test for caching vulnerabilities, whenever the session ID is passed, instructions should be used to prevent intermediate caches or even local caches from caching it. 
+5. GET and POST vulnerabilities, GET requests should not be used, because the session ID may be exposed in the proxy or firewall logs
+
 
 6.2 Set sessions/credentials a valid expiration date.
 
