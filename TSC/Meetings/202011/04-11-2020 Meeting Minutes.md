@@ -1,6 +1,6 @@
 | Meeting Day | Meeting Time                                 | Note Taker |
 | ----------- | -------------------------------------------- | ---------- |
-| Wednesdays  | 9:30 AM to 10:30 AM (UTC + 8，Beijing Time） |            |
+| Wednesdays  | 7:00 PM to 8:00 PM (UTC + 8，Beijing Time） |            |
 
 #### Conference Bridge
 
