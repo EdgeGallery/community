@@ -159,7 +159,7 @@ Test steps:
 Test steps:
 1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
 
-tag: version v1.0
+tag: version v1.0                                                                                                                                                         
 3.7 Test whether the browser history and cache cache sensitive information 
 
 Test steps:
