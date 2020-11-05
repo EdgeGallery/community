@@ -207,6 +207,7 @@ Test steps：
 1. Examine the code and confirm random number generator is used.
 
 tag: version v1.0
+
 4.6 Reusing a Nonce, Key Pair in Encryption is prohibited.  
 **Notice**: Nonces should be used for the present occasion and only once.
 Use techniques such as requiring incrementing, time based and/or challenge response to assure uniqueness of nonces. (This rule will take effect in R1.0*)  
@@ -239,6 +240,7 @@ Test steps:
 ## 6. Session Management
 
 tag: version v1.0
+
 6.1 Authenticate a user, or otherwise for establishing a new user session. without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.  
 **Notice**: Invalidate any existing session identifiers prior to authorizing a new user session. 
 
@@ -300,6 +302,7 @@ Test steps:
 2. Examine that upload should fail with proper response.
 
 tag: version v1.0
+
 7.5 Avoid using cookie data for a security-related decision.   (**This rule will take effect in R1.0**)
 **Notice**: Attackers can easily modify cookies, within the browser or by implementing the client-side code outside of the browser. Attackers can bypass protection mechanisms such as authorization and authentication by modifying the cookie to contain an expected value.
 
@@ -325,6 +328,7 @@ Test steps:
 2. Perform it manually, or use a cryptanalysis tool to infer any patterns in the Session ID content to determine whether there are any recognizable or predictable patterns. Check which elements of the session ID are time-related? Which parts of the session ID are predictable?
 
 tag: version v1.0
+
 7.8 Test whether the session attributes are properly set. 
   
 **Note**: The application should use each attribute correctly, such as security attributes; httpOnly attributes; path attributes; expired attributes;
