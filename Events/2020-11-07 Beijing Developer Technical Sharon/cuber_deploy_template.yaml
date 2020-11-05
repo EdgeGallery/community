@@ -1,0 +1,42 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cuber32580
+  namespace: default
+  labels:
+    app: cuber32580
+spec:
+  selector:
+    matchLabels:
+      app: cuber32580
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: cuber32580
+    spec:
+      containers:
+        - name: cuber32580
+          image: swr.cn-north-1.myhuaweicloud.com/edgegallery/cuber:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cuber32580-svc
+  namespace: default
+  labels:
+    svc: cuber32580-svc
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      name: function1
+      targetPort: 80
+      protocol: TCP
+      nodePort: 32580
+  selector:
+    app: cuber32580
