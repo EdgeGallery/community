@@ -1,7 +1,7 @@
 **1. Prerequisites** 
 
-- [release milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
-- [requirement list](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v0.9/%E7%89%88%E6%9C%AC%E9%9C%80%E6%B1%82.md)
+- [release milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v1.0/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
+- [requirement list](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.0)
 
 **2. Test target** 
     
