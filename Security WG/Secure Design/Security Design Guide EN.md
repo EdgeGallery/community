@@ -76,6 +76,7 @@ Test Steps:
 2. Confirm the operation will fail due to use of commonly chosen passwords and weak passphrases.
 
 tag: version v1.0
+
 1.11 Ensure no capture-replay attack posible.  
 **Notice**: A capture-replay flaw exists when the design of the software makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server
 Utilize some sequence or time stamping functionality along with a checksum which takes this into account in order to ensure that messages can be parsed only once. (This rule will take effect in R1.0*)
@@ -84,6 +85,7 @@ Test Steps:
 1. By snooping the authentication packet and try to replay it with same content should not be allowed to login and authentication must fail.
 
 tag: version v1.0
+
 1.12 Role based Access control.  
 **Notice**: Role based access control must be defined and followed to access the resources in the system. Applicable for users as well as Applications. (This rule will take effect in R1.0*)
 
