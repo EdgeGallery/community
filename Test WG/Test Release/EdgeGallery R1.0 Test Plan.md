@@ -20,22 +20,40 @@
 
 **3. Test Scope** 
 
-    - _L1/L2--func/API/Unit testcase /Gating/static check_
-    - L3--Integration Test Case 
-        - ETSI interface test;    - xxx
-    - L4- E2E Test Case
-        - usecase1 zoomminder     - 待定 等待需求测试用例输出，再讨论
-        - usecase2 
-    - the mini scope of testcases  --testcases 定稿后，筛选；
-    - the R0.9 Requirement testcases
-        - installation test；   owner:彭育
-        - MEP DNS test;         owner:mengpuhui  
-        - network isolation test; owner:houminxi
-        -  _【MECM/APPStore】Edgegallery生态能力优化 test owner:liuhui【移入ReleaseV1.0】_ 
-        - 【MEP/MECM]】AK/SK配置接口   【姜伟】【移入ReleaseV1.0】
-        -  _【Poc/Test feature】 5G 网元集成      owenr 彭育【ReleaseV0.9 POC】_ 
-- S3P test scope
-    - N/A
+
+ **3.1 第一次迭代需求** 
+
+
+- 【UserMgmt】EdgeGallery平台需要优化用户管理，进行分权分域设置
+- 【ATP】App应用的测试能力增强
+- 【USER】51OpenLab集成EdgeGallery平台
+- 【Developer】构建测试详情界面优化
+- 【Developer】应用开发界面优化
+- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化
+- 【MEP/MECM】ak/sk配置接口
+- 【AppStore】Optimization for the existing features
+
+
+ **3.2 第二次迭代需求** 
+
+
+- 【ATP】App应用的测试能力增强
+- 【Developer】构建测试界面优化
+- 【Developer】API界面优化，分析多语言SDK，集成到开发者平台
+- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化
+- 【Lab】搭建社区实验室管理服务平台
+- 【Test】 Provide the health check for Edgegallery platform in one-click deployment
+- 【Test】The optimization of edgegallery installation package
+
+
+ **3.3 第三次迭代需求** 
+
+- 【ATP】App应用的测试能力增强
+- 【Developer】应用发布界面优化
+- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化
+- 【Developer/MECM/MEP】支持与UPF集成
+- 【Lab】搭建社区实验室管理服务平台
+
 
 **4. Test Case Management** 
 
@@ -124,6 +142,16 @@ bug优先级为：严重、主要、次要、一般。
 基于测试环境选定的软件版本，在社区CI/CD环境上完成测试环境搭建相关配置，自动搭建测试目标，以支撑自动测试(开发相应自动化测试脚本)或人工测试。
 
 **10. [Test Planning]** 
+
+| 时间  | 迭代研发  | 迭代测试  |
+|---|---|---|
+|1102-1114   | 第一次迭代  |   |
+|1116-1128   | 第二次迭代  |第一次   |
+|1130-1212   | 第三次迭代  |第二次   |
+|1214-1226   | 修改bug  |第三次   |
+|1227-1231   | 准备并发布  |准备并发布   |
+
+
 
 **11. Criteria for Test Execution** 
 
