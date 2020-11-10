@@ -25,7 +25,6 @@
 
 
 - 【UserMgmt】EdgeGallery平台需要优化用户管理，进行分权分域设置  【张阿利】
-- 【ATP】App应用的测试能力增强   【张阿利】(问过开发，ATP迭代一要做的，放到了迭代二)
 - 【USER】51OpenLab集成EdgeGallery平台  【姜伟】
 - 【Developer】构建测试详情界面优化        【李媛媛】
 - 【Developer】应用开发界面优化           【李媛媛】
