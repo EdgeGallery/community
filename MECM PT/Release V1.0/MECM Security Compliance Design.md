@@ -336,7 +336,7 @@ Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. <br/> 9.2 Sufficient Logging. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
@@ -348,14 +348,43 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】Edge Repo Support Test
 
-### Rule 1.7, 8.1, 5.3
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the application Onboarding interfaces that includes support over HTTPS, JWT based authentication. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | Application onboard interface has been recorded in the API documents. |
+| Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 3.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 3.1 Authentication credentials (such as passwords and keys) cannot be stored in plaintext in the system and must be encrypted. Notice: Authentication credentials like database passwords, certificates, etc., can be passed in during user installation and can be in plain text. |
+| Implementation details  | All security measures applied for this feature including getting repo username and repo password passed in during deployment. |
+| Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
