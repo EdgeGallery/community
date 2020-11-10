@@ -25,8 +25,8 @@ Note: All three rules are related to input parameter validations of REST request
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the query software capability interfaces that includes support over HTTPS, JWT based authentication. |
+| Security design rule ID | 1.1, 5.3, 9.1  Input Validation, All input must be limited to an appropriate size limit, Do not log unsanitized user input. |
+| Implementation details  | All security measures applied to the query software capability interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
 | Example API payload     | NA |
 | Related files           | NA |
@@ -49,12 +49,13 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 9.4
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. |
-| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Security design rule ID | 9.2, 9.4 Sufficient Logging, Avoid Logging of Excessive Data. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
 | Example API payload     | NA |
 | Related files           | NA |
