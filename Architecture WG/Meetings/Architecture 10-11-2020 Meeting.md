@@ -26,8 +26,8 @@
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
-|  Architecture Review Proposal  | | 高维涛 |
-|  实验室管理平台 Requirement Review| | 章清洁|
+|  Architecture Review Proposal  | 会上大家讨论了 [架构Review的模板](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Architecture%20Review/v1.0/Sample%20v1.0%20Architecture%20Review.md)，针对于架构Review的时间点建议为详细设计开始的第一周后输出，这样子可以保证需求、API、架构的互锁，同时也不浪费具体的时间。 | 高维涛 |
+|  实验室管理平台 Requirement Review| 清洁介绍了实验室管理平台的概要设计以及低保真，大家针对平台提出了相应的意见与建议  | 章清洁|
 
 
 ## Meeting Records
@@ -38,7 +38,8 @@
 ## Action Items
 |  Items | Assignee   |
 |---|---|
-|  TBA| TBA |
+|  针对实验室管理平台的Review意见，拉通集成工作组、紫金山、信通院等相关同时进行端到端的分析和设计 | 章清洁 |
+|  准备架构Review模板，在下周的架构组会议上进行Review | All PTLs |
 
 
 
