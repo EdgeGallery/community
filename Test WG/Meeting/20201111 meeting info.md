@@ -22,7 +22,6 @@
 
 Trace test execution for ReleaseV0.9.x.
 
-
 2.ReleaseV1.0待测需求分工； --owner all
 
 Assignment for ReleaseV1.0 testing task.
@@ -31,8 +30,11 @@ Assignment for ReleaseV1.0 testing task.
 
 3.讨论RV1.0第一次迭代待测需求澄清/测试用例设计评审情况 -- owner all
 
-Discuss requirement clarification for the first iteration of ReleaseV1).
+Discuss requirement clarification for the first iteration of ReleaseV1.
 
+4.再次审视R1.0 test plan中的版本质量目标和测试准入和结束判断依据
+
+Review test target and starting/ending criteria fo iterative test in TEST PLAN R1.0.
 
 ## meeting link
 https://welink-meeting.zoom.us/j/119280905
