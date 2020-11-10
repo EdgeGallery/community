@@ -141,7 +141,7 @@ bug优先级为：严重、主要、次要、一般。
 
 基于测试环境选定的软件版本，在社区CI/CD环境上完成测试环境搭建相关配置，自动搭建测试目标，以支撑自动测试(开发相应自动化测试脚本)或人工测试。
 
-**10. [Test Planning]** 
+**10. Test Planning** 
 
 | 时间  | 迭代研发  | 迭代测试  |
 |---|---|---|
@@ -151,22 +151,22 @@ bug优先级为：严重、主要、次要、一般。
 |1214-1226   | 修改bug  |第三次   |
 |1227-1231   | 准备并发布  |准备并发布   |
 
+针对测试人员，在第i次迭代测试开始前（即第i-1次测试过程中），需同研发人员澄清本轮测试需求，完成测试用例设计及评审；在第i次迭代测试执行中需执行所设计的测试用例（含自动化测试脚本），记录bug（及提出需求优化建议等），同时完成第i-1轮bug的回归测试。
 
+**11. Criteria for Iterative Test Execution** 
 
-**11. Criteria for Test Execution** 
-
-    - Starting Criteria for test excution
-        - 完成详细设计/架构更新Complete detail design/architecture updating        
-        - PTL确认所有task关闭（PTL confirm ）all tasks are closed
-        - PTL确认gitee门户外部bug类问题关闭（PTL confirm） bugs（vital/blocked） out of gitee are all closed
+    - Starting Criteria for Iterative test excution
+        - 完成本次迭代的详细设计/架构更新Complete detail design/architecture updating for current iteration        
+        - PTL确认所有task关闭（PTL confirm ）all tasks in current iteration are closed
+        - PTL确认gitee门户外部bug类问题关闭（PTL confirm） bugs（vital/blocked in current iteration ） out of gitee are all closed
         - PTL确认所有新开发代码都有自动化测试用例（PTL）confirm all recently developed code has autotest cases
         - PTL确认满足单元测试覆盖率要求（PTL confirm） satisfy code coverage rate for unit test
         - PTL确认项目完成开发者自验证（PTL confirm）complete self-verification of project
         - PTL确认三方件归一化扫描结果（PTL confirm） 3rd-party components  are all scanned and have consistent versions
         - PTL确认代码许可证合规扫结果（PTL confirm）licenses for 3rd-party components are all scanned and their compliance is ensured
-        - 近3天每日构建成功率100% daily build for last 3 days is all succeeded
+        - 近1天每日构建成功率100% daily build for last 1 days is all succeeded
 
-    - Ending Criteria for test execution
+    - Ending Criteria for test execution in Final Iteration
 
         - PTL确认bug单关闭（PTL confirm） vital/blocked bugs are all closed
         - 所有测试活动完整，测试通过 all test activities are completed and test results are passed
@@ -180,7 +180,7 @@ bug优先级为：严重、主要、次要、一般。
 
 **13. Test Summary** 
 
-- Test Report（测试执行完毕后，出具测试报告，含Known Issues&Defects，为项目发布服务）
+- Test Report（最后一次迭代测试执行完毕后，出具测试报告，含Known Issues&Defects，为项目发布服务）
 - Test Work Summary（总结每位组员贡献，分享经验和不足，提出工作优化建议）
 
 **Appendix. [Test category reference](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Category/Edgeggallery_Test_Cateory.md)** 
