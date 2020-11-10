@@ -1,4 +1,4 @@
-# MEP V1.0版本相关需求安全规则项涉及情况  
+# MECM V1.0 Security Design
 
 |Story Name |Related Security Design Rule|
 |----|----|
