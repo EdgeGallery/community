@@ -15,7 +15,7 @@
 | [【MECM】MECM支持限制活动的并发会话数 Session Limitaion for Security](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K) |     |  
 | [【MECM】MECM支持权限处理，避免横向越权 Authentication limite for Secuirty](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T) |     | 
 | [【Example APP】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |     |   
-| [【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN) |   Rule1.1,   |  
+| [【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN) |   Rule: 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3, 8.1, 9.4  |  
 | [【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF) |     | 
 
 
@@ -64,8 +64,6 @@
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-
-
 ## 【MEP】mepserver add app heartbeat API
 
 ### Rule 1.2
@@ -75,6 +73,94 @@
 | Security design rule ID | 1.2 For each access request that requires authorization, the server must verify whether the user is authorized to perform this operation.  |
 | Implementation details  | already support ak/sk mechanism to verify if the app have the permission to call mp1 interfaces |
 | Related APIs            | PUT mepauth/mepserver/v1/applications/${AppInstanceId}/liveness                     |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+## 【MECM】MECM Support to query software capabilities
+
+### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
+| Implementation details  | All security measures applied to the query software capability interfaces that includes support over HTTPS, JWT based authentication. |
+| Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | New query software capability interface has been recorded in the API documents. |
+| Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.4 Avoid recording too much data. |
+| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+## 【MECM】MECM Support for hardware capabilities
+
+### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
+| Implementation details  | All security measures applied to the hardware capability interfaces that includes support over HTTPS, JWT based authentication. |
+| Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | New hardware capability interface has been recorded in the API documents. |
+| Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.4 Avoid recording too much data. |
+| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
 | Example API payload     | NA |
 | Related files           | NA |
 | Related GUI URLs        | NA |
