@@ -215,6 +215,34 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
+### Rule 3.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 3.3 All sensitive data is sent to the server in the HTTP message body and not in URL. |
+| Implementation details  | All security measures applied to the instantiation interfaces it includes sensitive data to be part of request body. |
+| Related APIs            | GRPC InstantiateRequest   |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 4.5
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 4.5 Use a secure random number generator to generate keys. |
+| Implementation details  | All security measures applied while generation AS/SK keys. |
+| Related APIs            | GRPC InstantiateRequest   |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
 ### Rule 1.12
 
 | Content                 | Related Information                                          |
