@@ -5,7 +5,7 @@
 | [【MECM】【Docs】Finalize MECM v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V93) |  NA  |  
 | [Health-check support for eg components(using liveliness & readiness probes)--mecm](https://gitee.com/OSDT/dashboard?issue_id=I23CZC) |    |   
 | [【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700) |    Rule1.1,  |
-| [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) |     | 
+| [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   | 
 | [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |    |  
 | [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |  
 | [【MECM】提供ak/sk分配功能 Support](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1, 3.3, 4.5    |
