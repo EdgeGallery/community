@@ -298,3 +298,18 @@
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+## 【MECM】Edge Repo Support Test
+
+### Rule 1.7, 8.1, 5.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
+| Implementation details  | All security measures applied to the application Onboarding interfaces that includes support over HTTPS, JWT based authentication. |
+| Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages  |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
