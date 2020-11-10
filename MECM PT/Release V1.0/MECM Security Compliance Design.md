@@ -35,6 +35,20 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | New query software capability interface has been pre authorized for the role MECM_TENANT. |
+| Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html| |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
 ### Rule 8.1
 
 | Content                 | Related Information                                          |
@@ -81,6 +95,20 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | Hardware capability interfaces has been pre authorized for the role MECM_TENANT. |
+| Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html| |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
 ### Rule 8.1
 
 | Content                 | Related Information                                          |
@@ -119,6 +147,20 @@ Note: All three rules are related to input parameter validations of REST request
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
 | Implementation details  | All security measures applied to the application batch deploy interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | Batch deploy interfaces has been pre authorized for the role MECM_TENANT. |
 | Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
 | Related files           | NA |
@@ -173,6 +215,20 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | AK/SK interfaces has been pre authorized for the role MECM_TENANT. |
+| Related APIs            | GRPC InstantiateRequest  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
 ### Rule 8.1
 
 | Content                 | Related Information                                          |
@@ -211,6 +267,20 @@ Note: All three rules are related to input parameter validations of REST request
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
 | Implementation details  | All security measures applied to the application Onboarding interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | APM Onboard interface has been pre authorized for the role MECM_TENANT. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
