@@ -25,10 +25,10 @@ Note: All three rules are related to input parameter validations of REST request
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1, 5.3, 9.1  Input Validation, All input must be limited to an appropriate size limit, Do not log unsanitized user input. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
 | Implementation details  | All security measures applied to the query software capability interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html|
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -42,7 +42,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
 | Implementation details  | New query software capability interface has been recorded in the API documents. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html| |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -54,10 +54,10 @@ Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.2, 9.4 Sufficient Logging, Avoid Logging of Excessive Data. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html| |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -66,14 +66,15 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】MECM Support for hardware capabilities
 
-### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+### Rule 1.3, 5.3, 9.1
+Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the hardware capability interfaces that includes support over HTTPS, JWT based authentication. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Implementation details  | All security measures applied to the hardware capability interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/>http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -87,21 +88,22 @@ Note: Both rules are related to logging and thereby combining the same.
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
 | Implementation details  | New hardware capability interface has been recorded in the API documents. |
 | Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/>http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 9.4
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Logs are taken care to record only failure scenarios. |
 | Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/>http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -110,14 +112,15 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】MECM Support for application batch deploy
 
-### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+### Rule 1.3, 5.3, 9.1
+Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the application batch deploy interfaces that includes support over HTTPS, JWT based authentication. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Implementation details  | All security measures applied to the application batch deploy interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -131,36 +134,39 @@ Note: Both rules are related to logging and thereby combining the same.
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
 | Implementation details  | Batch application deploy interface has been recorded in the API documents. |
 | Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 9.4
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Logs are taken care to record only failure scenarios. |
 | Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+
 ## 【MECM】MECM Support AK/SK
 
-### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+### Rule 1.3, 5.3, 9.1
+Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the interfaces that includes support over HTTPS, JWT based authentication for AK/SK support. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Implementation details  | All security measures applied to the interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GRPC InstantiateRequest   |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -174,21 +180,22 @@ Note: Both rules are related to logging and thereby combining the same.
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
 | Implementation details  | Interface update for AK/SK support has been recorded in the API documents. |
 | Related APIs            | GRPC InstantiateRequest   |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 9.4
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Logs are taken care to record only failure scenarios. |
 | Related APIs            | GRPC InstantiateRequest   |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -197,14 +204,15 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】MECM Support ATP LCM test features: Solution & Implementation
 
-### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+### Rule 1.3, 5.3, 9.1
+Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
-| Implementation details  | All security measures applied to the application Onboarding interfaces that includes support over HTTPS, JWT based authentication. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Implementation details  | All security measures applied to the application Onboarding interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
@@ -218,21 +226,22 @@ Note: Both rules are related to logging and thereby combining the same.
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
 | Implementation details  | New application onboard interface has been recorded in the API documents. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 9.4
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.4 Avoid recording too much data. |
 | Implementation details  | Logs are taken care to record only failure scenarios. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
-| Example API payload     | NA |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps       | NA |
