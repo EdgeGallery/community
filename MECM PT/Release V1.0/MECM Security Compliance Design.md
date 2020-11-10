@@ -101,7 +101,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
-| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | GET /inventory/v1/tenants/{tenant_id}/mechosts<br/> POST /inventory/v1/tenants/{tenant_id}/mechosts<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> PUT /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> DELETE /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}<br/> POST /appo/v1/tenants/{tenant_id}/app_instances<br/> POST /appo/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/app<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities<br/> GET /inventory/v1/tenants/{tenant_id}/mechosts/ {mechost_ip}/capabilities/{capability_type}/applications  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html<br/>http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
@@ -147,7 +147,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
-| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | POST /appo/v1/tenants/{{tenant-id}}/app_instances/create<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/instantiate<br/> GET /appo/v1/tenants/{{tenant-id}}/app_instance_infos?appInstId=uuid1&appInstId=uuid2<br/> POST /appo/v1/tenants/{{tenant-id}}/app_instances/terminate  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html |
 | Related files           | NA |
@@ -193,7 +193,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
-| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | GRPC InstantiateRequest   |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
 | Related files           | NA |
@@ -239,7 +239,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.4 Avoid recording too much data. |
-| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
@@ -247,6 +247,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+
 ## 【MECM】Edge Repo Support Test
 
 ### Rule 1.7, 8.1, 5.3
