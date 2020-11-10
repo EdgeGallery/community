@@ -88,62 +88,47 @@ EdgeGallery R0.9.1版本安全测试主要分为安全设计合规测试与安�
 
 3.3.2 安全测试执行情况 Security Test Execution
 
-3.3.2.1 EdgeGallery R0.9 安全设计合规测试
+3.3.2.1 EdgeGallery R0.9.1 安全设计合规测试
 
 时间：2020年10月28日至11月6日。
 
-测试项目： AppStore, Developer, User-mgmt, MECM，MEP
+测试项目： AppStore, Developer, User-mgmt, MECM
 
 测试人员： 程润东，扈冰
 
 安全合规测试用例：
 1. AppStore:
- - Identification, Authentication and Authorization: 1.1, 1.2, 1.3, 1.4, 1.7, 1.8
- - Secure Transmission: 2.1, 2.2
- - Sensitive and Private Data Protection: 3.2, 3.3
- - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
- - DOS attack 5.1, 5.3
- - Session management 6.2, 6.3
- - Web Service Security: 7.1, 7.2
- - Log Security: 9.1, 9.2, 9.3, 9.4
+ - Identification, Authentication and Authorization: 1.5
+ - DOS attack 5.1, 5.2
+ - Log Security: 9.3
 2. Developer
- - Identification, Authentication and Authorization: 1.1, 1.2, 1.3, 1.4, 1.7, 1.8
- - Secure Transmission: 2.1, 2.2
- - Sensitive and Private Data Protection: 3.2, 3.3
- - Encryption algorithm and key management 4.1, 4.3, 4.4
- - DOS attack 5.1, 5.3
- - Session management 6.2, 6.3
- - Web Service Security: 7.1, 7.2
- - Log Security: 9.1, 9.2, 9.3, 9.4
+ - Identification, Authentication and Authorization: 1.5
+ - DOS attack 5.1, 5.2
+ - Log Security: 9.3
 3. User-mgmt
- - Identification, Authentication and Authorization: 1.1, 1.2, 1.4, 1.6, 1.7, 1.8, 1.10
- - Secure Transmission: 2.1, 2.2
- - Sensitive and Private Data Protection: 3.1, 3.2, 3.3, 3.4
- - Encryption algorithm and key management 4.1, 4.2, 4.3, 4.4
- - DOS attack 5.1, 5.3
- - Session management 6.2, 6.3, 6.4, 6.5
- - Web Service Security: 7.1, 7.2
- - Log Security: 9.1, 9.2, 9.3, 9.4
+ - Identification, Authentication and Authorization: 1.5
+ - DOS attack 5.1, 5.2
+ - Log Security: 9.3
 4. MECM
- - Identification, Authentication and Authorization: 1.1, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8
- - Secure Transmission: 2.1, 2.2
- - Sensitive and Private Data Protection: 3.1, 3.2, 3.3
- - Encryption algorithm and key management 4.1, 4.2, 4.3
- - DOS attack 5.3
- - Session management 6.2, 6.3, 6.4, 6.5
- - Web Service Security: 7.1, 7.2
- - Log Security: 9.1, 9.2, 9.3, 9.4
+ - Identification, Authentication and Authorization: 1.5
+ - DOS attack 5.1, 5.2
+ - Log Security: 9.3
 
-5. MEP
- - Identification, Authentication and Authorization: 1.2
- - Secure Transmission: 2.1
+3.3.3 安全缺陷汇总分析 summary analysis for Security bugs
 
-3.3.2.2 EdgeGallery R0.9 安全渗透测试
+共发现安全缺陷总数量：3个； 已解决数量：2个； 遗留到下版本解决：1个。
 
+请点击[缺陷清单](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&program_id=114640)查看详情。
+
+| 序号 | 任务ID | 任务标题 |状态|
+| -- | -- | -- | -- |
+| 1 | I23DU6 | 用户登录失败后，滑动条没有复原| 已完成 |
+| 2 | I23DT4 | 用户超过3次的多次登录账户没有锁定| 已完成 |
 
 3.3.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
-
-
+|BugID|Bug描述|状态|未解决说明|预计处理安排|
+|--|--|--|
+|I23DY8|mecm-postgresql;developer-fe ;user-mgmt-redis-0 项目默认登录用户为root用户|遗留|该问题经过安全工作组评审，将在R1.0版本修复|遗留到R1.0版本处理|
 
 
 四、测试结论及建议 Test Conclusion and Suggestion
