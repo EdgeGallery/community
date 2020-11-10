@@ -211,3 +211,46 @@
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+## 【MECM】MECM Support AK/SK
+
+### Rule 1.1, 1.3, 1.7, 1.12, 2.1, 2.2, 3.3, 4.5, 5.3, 6.2, 9.1. 9.2, 9.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
+| Implementation details  | All security measures applied to the interfaces that includes support over HTTPS, JWT based authentication for AK/SK support. |
+| Related APIs            | GRPC InstantiateRequest   |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | Interface update for AK/SK support has been recorded in the API documents. |
+| Related APIs            | GRPC InstantiateRequest   |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.4 Avoid recording too much data. |
+| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Related APIs            | GRPC InstantiateRequest   |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
