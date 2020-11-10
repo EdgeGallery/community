@@ -16,7 +16,7 @@
 |---|---|---|
 |  Architecture Review Proposal  | | 高维涛 |
 |  实验室管理平台 Requirement Review| | 章清洁|
-|  Network isolation Requirement Review| | Swarup|
+
 
 ## Meeting Records
 - Video Recording
