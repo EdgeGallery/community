@@ -308,7 +308,7 @@ Note: Both rules are related to logging and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 9.4 Avoid recording too much data. |
+| Security design rule ID | 9.4 Avoid recording too much data. <br/> 9.2 Sufficient Logging. |
 | Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
