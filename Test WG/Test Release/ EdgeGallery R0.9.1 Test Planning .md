@@ -80,7 +80,7 @@ b.镜像库：http://159.138.137.155/
 
 3.3 安全测试执行情况及记录（安全工作组负责）
 
-EdgeGallery R0.9.1版本安全测试主要分为安全设计合规测试与安全渗透测试
+EdgeGallery R0.9.1版本安全测试主要为安全设计合规测试
 
 3.3.1 安全测试组织Security Test Organizing
 
@@ -127,7 +127,7 @@ EdgeGallery R0.9.1版本安全测试主要分为安全设计合规测试与安�
 
 3.3.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
-|--|--|--|
+|--|--|--|--|--|
 |I23DY8|mecm-postgresql;developer-fe ;user-mgmt-redis-0 项目默认登录用户为root用户|遗留|该问题经过安全工作组评审，将在R1.0版本修复|遗留到R1.0版本处理|
 
 
