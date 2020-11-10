@@ -390,3 +390,63 @@ Note: Both rules are related to logging and thereby combining the same.
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+
+## 【MECM】MECM Support APP Rule Config During APP Orchestration
+
+### Rule 1.3, 5.3, 9.1
+Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Implementation details  | Feature design in-progress. |
+| Related APIs            | Feature design in-progress |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 1.12
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.12 Role based Access control. |
+| Implementation details  | Feature design in-progress. |
+| Related APIs            | Feature design in-progress |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | Feature design in-progress. |
+| Related APIs            | Feature design in-progress |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.2, 9.4
+Note: Both rules are related to logging and thereby combining the same.
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
+| Implementation details  | Feature design in-progress. |
+| Related APIs            | Feature design in-progress |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
