@@ -16,5 +16,8 @@
 列出所有API的介绍
 ### 接口API参考文档 Reference to the interfaces
 列出对应的swagger yaml即可
+- 如有标准参考，可以附上标准文档链接
+- 具体实现的Swaggeryaml，也附上对应的docs链接即可。
+
 ### 系统的限制目前有哪些 What are the system limits
 如操作系统，用户权限等等
