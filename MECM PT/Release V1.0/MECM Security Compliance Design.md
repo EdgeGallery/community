@@ -8,8 +8,8 @@
 | [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) |     | 
 | [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |    |  
 | [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |  
-| [【MECM】提供ak/sk分配功能 Support](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1    |
-| [【MECM】边缘仓库能力支持 Edge Repo Support Test](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY) |     |   
+| [【MECM】提供ak/sk分配功能 Support](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1, 3.3, 4.5    |
+| [【MECM】边缘仓库能力支持 Edge Repo Support Test](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 1.3, 5.3, 9.1, 6.2<br/> New applicable rules: (9.2, 9.4), 8.1, 3.1   |   
 | [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情 Portal Enhancement for APM](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) |   Rule1.1,   | 
 | [【MECM】外部系统显示优化 Portal Enhancement for ESR](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ) |   Rule1.1,   |  
 | [【MECM】MECM支持限制活动的并发会话数 Session Limitaion for Security](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K) |     |  
