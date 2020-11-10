@@ -89,16 +89,16 @@
 | Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
 | Implementation details  | All security measures applied to the query software capability interfaces that includes support over HTTPS, JWT based authentication. |
 | Related APIs            | GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities<br/> GET /appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capabilityId}<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities<br/> GET /lcmcontroller/v1/tenants/{tenantId}/hosts/{hostIp}/mep_capabilities/{capability_id} |
-| Example API payload     | {
-                            	"capabilityId": "ServiceInstance123",
-                            	"capabilityName": "ExampleService",
-                            	"status": "ACTIVE",
-                            	"version": "1.0",
-                            	"consumers": [
-                            		{
-                            			"applicationInstanceId": "5abe4782-2c70-4e47-9a4e-0ee3a1a0fd1f"
-                            		}
-                            	]
+| Example API payload     | {<br/>
+                            	"capabilityId": "ServiceInstance123",<br/>
+                            	"capabilityName": "ExampleService",<br/>
+                            	"status": "ACTIVE",<br/>
+                            	"version": "1.0",<br/>
+                            	"consumers": [<br/>
+                            		{<br/>
+                            			"applicationInstanceId": "5abe4782-2c70-4e47-9a4e-0ee3a1a0fd1f"<br/>
+                            		}<br/>
+                            	]<br/>
                             } |
 | Related files           | NA |
 | Related GUI URLs        | NA |
