@@ -6,6 +6,17 @@
 
 ## Meeting Attendees
 ** **
+- Shashi （华为）
+- Gaurav （华为）
+- Satish （华为）
+- Rama （华为）
+- 张倍源 (华为）
+- 刘慧玲 （华为）
+- 鹿鑫 （华为）
+- 张海龙 （华为）
+- 杨阳 （华为）
+- 扈冰 （华为）
+- 程润东 （华为）
 
 
 
@@ -18,11 +29,15 @@
 | Compliance test case use case step evaluation | 程润东 |
 | App Store Security review | 张倍源 |
 | MECM Security review | Gaurav Shashi |
+| APT Security review | 刘慧玲 |
 
 ## Discussion Items and Minutes
 
 ** **
-
+- Shashi Gaurav Rama介绍了mecm在1.0版本里面增加的需求情况，并将和安全用例规则的匹配结果进行讲解和展示， 并讲解了需求里面测试所需要测试的api。
+- 张倍源介绍了app store 在1.0版本里面增加的需求情况，并将和安全用例规则的匹配结果进行讲解和展示， 并讲解了需求里面测试所需要测试的api,
+- 刘慧玲介绍了APT 在1.0版本里面涉及到的功能需求，并将和安全用例规则的匹配结果进行讲解和展示
+- 程润东介绍了合规用例测试步骤已经全部完成，渗透测试用例在周五完成之前所统计的3个
 
 
 ## Voting Items
