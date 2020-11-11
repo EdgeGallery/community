@@ -3,20 +3,36 @@
 |Story Name |Related Security Design Rule|
 |----|----|
 | [【MECM】【Docs】Finalize MECM v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V93) |  NA  |  
-| [Health-check support for eg components(using liveliness & readiness probes)--mecm](https://gitee.com/OSDT/dashboard?issue_id=I23CZC) |    |   
-| [【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700) |    Rule:1.1,1.2,1.3,3.2,3.3,6.1,6.4,6.5,7.1,7.2,7.3  |
+| [Health-check support for eg components(using liveliness & readiness probes)--mecm](https://gitee.com/OSDT/dashboard?issue_id=I23CZC) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists) <br/> New applicable rules: 8.1  |   
+| [【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700) |    Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |
 | [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   | 
-| [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |    |  
+| [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |  Existing API only logic changes. Rule 8.1, (9.2, 9.4)  |  
 | [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |  
 | [【MECM】提供ak/sk分配功能 Support](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1, 3.3, 4.5    |
 | [【MECM】边缘仓库能力支持 Edge Repo Support Test](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 1.3, 5.3, 9.1, 6.2<br/> New applicable rules: (9.2, 9.4), 8.1, 3.1   |   
-| [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情 Portal Enhancement for APM](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) |   Rule:1.1,1.2,1.3,3.2,3.3,6.1,6.4,6.5,7.1,7.2,7.3(New requirement:batch deployment)   | 
-| [【MECM】外部系统显示优化 Portal Enhancement for ESR](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ) |   Rule:1.1,6.1,6.4,6.5,7.1,7.2,7.3(Only UI enhancement)   |  
-| [【MECM】MECM支持限制活动的并发会话数 Session Limitaion for Security](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K) |     |  
-| [【MECM】MECM支持权限处理，避免横向越权 Authentication limite for Secuirty](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T) |     | 
+| [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情 Portal Enhancement for APM](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) |   No new rule application (only some logic change)   | 
+| [【MECM】外部系统显示优化 Portal Enhancement for ESR](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ) |   No new rule application (only some logic change)   |  
+| [【MECM】MECM支持限制活动的并发会话数 Session Limitation for Security](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K) |  Rule 5.2   |  
+| [【MECM】MECM支持权限处理，避免横向越权 Authentication limit for Secuirty](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T) | Rule 1.2  | 
 | [【Example APP】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |  Covered in separate document   |   
 | [【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN) |   Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |  
 | [【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1    | 
+
+## [Health-check support for eg components(using liveliness & readiness probes)--mecm]
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | New health check interface to be recorded in the API documents. |
+| Related APIs            | TBD |
+| Example API payload     | TBD |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
 
 ## 【MECM】MECM Support to query software capabilities
 
@@ -391,7 +407,7 @@ Note: Both rules are related to logging and thereby combining the same.
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-## 【MECM】MECM Support APP Rule Config During APP Orchestration
+## 【MECM】MECM Support APP Rule Config During APP Orchestration & 【MECM】MECM Support APP Rule Cofing From Portal]
 
 ### Rule 1.3, 5.3, 9.1
 Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
