@@ -31,7 +31,7 @@
 - 【Developer】应用开发界面优化           【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【MEP/MECM】ak/sk配置接口
-- 【AppStore】Optimization for the existing features
+- 【AppStore】Optimization for the existing features【刘辉】
 
 
  **3.2 第二次迭代需求** 
