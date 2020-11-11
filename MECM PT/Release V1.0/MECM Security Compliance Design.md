@@ -7,7 +7,7 @@
 | [【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700) |    Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |
 | [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   | 
 | [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |  Existing API only logic changes. Rule 8.1, (9.2, 9.4)  |  
-| [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |  
+| [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1, 7.4   |  
 | [【MECM】提供ak/sk分配功能 Support](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2 <br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1, 3.3, 4.5    |
 | [【MECM】边缘仓库能力支持 Edge Repo Support Test](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 1.3, 5.3, 9.1, 6.2<br/> New applicable rules: (9.2, 9.4), 8.1, 3.1   |   
 | [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情 Portal Enhancement for APM](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5) |   No new rule application (only some logic change)   | 
@@ -354,6 +354,20 @@ Note: Both rules are related to logging and thereby combining the same.
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 9.2 Sufficient Logging.<br/> 9.4 Avoid Logging of Excessive Data. |
 | Implementation details  | Sufficient logs added in the success flows and excessive logging is taken care by adding logs only in failure scenarios. |
+| Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 7.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 7.4 Server must have mechanism to restrict the file types during uploading of files to the directories which contain web page files.|
+| Implementation details  | Application package csar will be provided in the input, implementation should handle validating file types, file size and tar bomb etc...|
 | Related APIs            | POST /apm/v1/tenants/{tenant_id}/packages/upload  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
 | Related files           | NA |
