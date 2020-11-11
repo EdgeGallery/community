@@ -18,7 +18,7 @@ TSC members who attended:
 -  **龚永生**    （九州云 范桂飓代表）      
 -  **刘辉**   （紫金山）    
 - 袁国平   （安恒 李剑锋代表） 
-- 陈炜  （腾讯 陈共龙代表）   
+-  **陈炜**   （腾讯 陈共龙代表）   
 -  **于洋**    （华为）    
 
 ## Agenda Items
@@ -38,7 +38,18 @@ TSC members who attended:
 
 ## Discussion Items
 
-- Items
+- v0.9.1版本发布讨论，建议在官网上增加各个版本发布的链接
+- edgeT以及ATP repo申请新建，评审通过
+- v1.0版本需求计划，评审通过
+    - 需求/story等都在Gitee上分解、跟踪，各开发组PTL本周把story打上交付迭代的标签
+- Example APPs开仓申请，评审通过
+    - MEC应用集的仓库，当前做的是类似Hello world
+- 架构组完成版本review措施讨论，以后每个版本定时进行架构review
+- 集成组
+    - 计划新采购GPU等
+    - 信通院MEC开发者大赛启动邀请
+    - ATP说明文档已讨论未定稿
+- 测试组完成当前版本测试计划及迭代开始/结束检查点的更新
 
 ## Voting Items
 
