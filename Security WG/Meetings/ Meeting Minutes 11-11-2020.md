@@ -38,7 +38,9 @@
 - 张倍源介绍了app store 在1.0版本里面增加的需求情况，并将和安全用例规则的匹配结果进行讲解和展示， 并讲解了需求里面测试所需要测试的api,进行评审
 - 刘慧玲介绍了APT 在1.0版本里面涉及到的功能需求，并将和安全用例规则的匹配结果进行讲解和展示，进行评审。
 - 程润东介绍了合规用例测试步骤完成情况，合规测试步骤编写已经全部完成，渗透测试用例在周五完成之前所统计的3个，并讲解了渗透测试用例后续开发计划， 每周5个。
-
+- MECM, ATP and Development portal secuity design is reviewed.
+- Monitoring Appication Repo would be newly added which has few security violations. As we are planning to release this repo also as part of Version 1.0 these issues cannot be open.
+- Chuanyu/Gaurav Raise topic to TSC to get approval for Monitoring Appication Repo's open security issues.
 
 ## Voting Items
 
