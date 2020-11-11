@@ -50,7 +50,7 @@
 - 【ATP】App应用的测试能力增强      【张阿利】
 - 【Developer】应用发布界面优化               【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
-- 【Lab】搭建社区实验室管理服务平台   【姜伟】
+- 【Lab】搭建社区实验室管理服务平台   
 
 
 **4. Test Case Management** 
