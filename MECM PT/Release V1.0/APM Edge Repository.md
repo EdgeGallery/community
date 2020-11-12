@@ -52,8 +52,6 @@ Initial password can be found in data directory
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125736_75b5ef48_7639205.png "nexus_configure_docker_proxy2.png")
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125752_b02520c5_7639205.png "nexus_configure_docker_proxy3.png")
-
 configure docker hub/swr repo username and password
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125810_0f4940d0_7639205.png "nexus_configure_docker_proxy4.png")
 
