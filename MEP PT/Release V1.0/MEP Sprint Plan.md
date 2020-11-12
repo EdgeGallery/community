@@ -12,7 +12,7 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 | [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E) |  Sprint3  |     |   |    |    |    |
 | [mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX) |  Sprint3 |    |   |    |    |    |
 | [【MEP】AK/SK config api](https://gitee.com/OSDT/dashboard?issue_id=I1QT40) |  Sprint1   |   code  finished and wait for integrated test with MECM |   |    |    |    |
-| [mepagent中添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48) | Sprint2    |   NA  |   |    |    |    |
+| [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48) | Sprint2    |   NA  |   |    |    |    |
 | [【MEP】增加route注册接口](https://gitee.com/OSDT/dashboard?issue_id=I23QX2) | Sprint2    | coding 60%  |   |    |    |    |
 | [【MEP-Agent】增加注册route功能](https://gitee.com/OSDT/dashboard?issue_id=I23QX4) | Sprint2    |   NA  |   |    |    |    |
 | [【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard?issue_id=I23QX8) | Sprint3    |   NA  |   |    |    |    |
