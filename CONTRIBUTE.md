@@ -36,6 +36,7 @@
 * User WG：工作组介绍*参与方式请参考此链接： [User](https://gitee.com/edgegallery/community/blob/master/User%20WG/Readme.md)
 
 ### 各项目组、工作组的例行会议时间
+具体的会议信息参加各组的meeting目录
 ![各技术组例行会议日历](https://images.gitee.com/uploads/images/2020/1112/142003_ff3288f0_5578348.png "屏幕截图.png")
 
 ## 主导新建项目、工作组贡献：
