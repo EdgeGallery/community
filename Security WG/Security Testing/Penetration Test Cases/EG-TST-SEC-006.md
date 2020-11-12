@@ -4,7 +4,7 @@
 
 | Test Case ID            | EG-TST-SEC-006                                               |
 | :---------------------- | :----------------------------------------------------------- |
-| **Test case name**      | Replay Attack Vulnerability                                  |
+| **Test case name**      |  **Replay Attack Vulnerability**                                   |
 | Test purpose            | The tester simulates the attacker to resend the request that the server has received, and then check if the request is correctly responded. If it can be responded correctly, it may be exploited by attackers to cause user identity disguise, DOS attack and other harm. |
 | Test description        | The two most likely functions for replay attacks:<br/>① User login;<br/>② File upload;<br/>This test case will test the above two functions separately. |
 | Test tool               | BurpSuite (hereinafter referred to as "Burp")<br/>Note: It is recommended to use Burp's built-in browser to cooperate with the  browser used by Burp (the capture result is more stable),  the  opening method is: Proxy -> Intercept -> Open Broswer |
