@@ -1,11 +1,10 @@
 Enable Edge Repository
 -------------------
-
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/apm_edge_repo.png "apm_edge_repo.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125331_35ea97cd_7639205.png "apm_edge_repo.png")
 
 APM Flow diagram 
 -------------------  
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/apm_flow_diagram.png.png "apm_flow_diagram.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125440_188d65c7_7639205.png "apm_flow_diagram.png")
 
 Steps to enable the edge repository
 ------------------- 
@@ -23,7 +22,7 @@ mkdir -p /nexus/nexus3/data
    cd /nexus/nexus3/
 
 #### 4. create docker-compose.yml file
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_docker_compose.png "nexus_docker_compose.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125514_61fb25eb_7639205.png "nexus_docker_compose.png")
 
 #### 5. Launch nexus:
 docker-compose up -d
@@ -37,26 +36,26 @@ Initial password can be found in data directory
 #### 8.  Click proxy repository
 
 ##### a.  Click on cogwheel
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/edge_repo_home_page.png "edge_repo_home_page.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125539_34c46314_7639205.png "edge_repo_home_page.png")
 
 ##### b. Click on repository
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_repo_repositories.png "nexus_repo_repositories.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125603_b6b47bc9_7639205.png "nexus_repo_repositories.png")
 
 ##### c. Click on create repository
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_create_Repository.png "nexus_create_Repository.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125628_2f372cba_7639205.png "nexus_create_Repository.png")
 
 ##### d. click on docker proxy
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_docker_proxy.png "nexus_docker_proxy.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125654_e78d0037_7639205.png "nexus_docker_proxy.png")
 
 ##### e.  Configure proxy repo
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_configure_docker_proxy1.png "nexus_configure_docker_proxy1.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125715_d9aa856e_7639205.png "nexus_configure_docker_proxy.png")
 
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_configure_docker_proxy2.png "nexus_configure_docker_proxy2.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125736_75b5ef48_7639205.png "nexus_configure_docker_proxy2.png")
 
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_configure_docker_proxy3.png "nexus_configure_docker_proxy3.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125752_b02520c5_7639205.png "nexus_configure_docker_proxy3.png")
 
 configure docker hub/swr repo username and password
-![.](https://images.gitee.com/uploads/images/2020/edge_repo/nexus_configure_docker_proxy4.png "nexus_configure_docker_proxy4.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1112/125810_0f4940d0_7639205.png "nexus_configure_docker_proxy4.png")
 
 #### 9. Configure insecure registry in /etc/docker/daemon.json and restart docker service
 
