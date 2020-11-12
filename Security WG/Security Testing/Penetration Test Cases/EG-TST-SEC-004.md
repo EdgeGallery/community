@@ -20,6 +20,6 @@
 | Test step 4             | ④Upload allowed files, use Burp to capture the package, modify the  content-type to disallowed format, and check if the upload is successful, to determine if the  back-end checks the "content-type" request header of the uploaded file;<br/> |
 | Test step 5             | ⑤Close the browser JavaScript, upload oversized files, and check if the upload is successful, to determine if the back-end has limited upload file size;<br/> |
 | Test step 6             | ⑥Upload allowed files. After the upload is  successful, use following 2 methods to determine if the upload file path can be leaked: <br/>a)  Check the page/source code; <br/>b)  Check the response content of the request;<br/>In addition: if the file path is available, Check if the file name is randomly renamed;<br/> |
-| **Expected result**     | In test step 2, file upload failed; <br/>In test step 3, file upload of the .jsp file format failed; <br/>In test step 4, file upload failed; <br/>In test step 5, file upload failed; <br/>In test step 6, the file path could not be obtained. |
+| **Expected result**     | In test step 2, file upload failed; <br/>In test step 3, file upload of the .jsp and .12345 suffix all failed; <br/>In test step 4, file upload failed; <br/>In test step 5, file upload failed; <br/>In test step 6, the file path could not be obtained. |
 | References              |                                                              |
 
