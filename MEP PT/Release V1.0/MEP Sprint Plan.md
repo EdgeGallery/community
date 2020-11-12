@@ -12,12 +12,12 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 | [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E) |  Sprint3  |  code 50%   | code 90%  |    |    |    |
 | [mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX) |  Sprint3 |  code 50%  | code 90%  |    |    |    |
 | [【MEP】AK/SK config api](https://gitee.com/OSDT/dashboard?issue_id=I1QT40) |  Sprint1   |   code  finished and wait for integrated test with MECM |   |    |    |    |
-| [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48) | Sprint2    |   NA  |   |    |    |    |
+| [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48) | Sprint2    |   NA  | NA  |    |    |    |
 | [【MEP】增加route注册接口](https://gitee.com/OSDT/dashboard?issue_id=I23QX2) | Sprint2    | NA  |  coding 60% |    |    |    |
-| [【MEP-Agent】增加注册route功能](https://gitee.com/OSDT/dashboard?issue_id=I23QX4) | Sprint2    |   NA  |   |    |    |    |
-| [【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard?issue_id=I23QX8) | Sprint3    |   NA  |   |    |    |    |
+| [【MEP-Agent】增加注册route功能](https://gitee.com/OSDT/dashboard?issue_id=I23QX4) | Sprint2    |   NA  | NA  |    |    |    |
+| [【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard?issue_id=I23QX8) | Sprint3    |   NA  |  NA |    |    |    |
 | Task:Security Design CheckList for Every Story. | Sprint1    |  done  |   |    |    |    |
-| Task:Third Party Dependencies Unification Work. | Original dependencies Sprint2. New involved dependency in Sprint3    |   NA  |   |    |    |    |
+| Task:Third Party Dependencies Unification Work. | Original dependencies Sprint2. New involved dependency in Sprint3    |   NA  | NA  |    |    |    |
 
 
 
