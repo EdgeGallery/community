@@ -1,58 +1,84 @@
 Liveness & Readiness Probe Solution
 -----------------------------------
 
-Leverage K8s to perform Liveness/Readiness probe: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+Leverage K8s to perform Liveness/Readiness probe:
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 
-#MECM component
+# MECM component
 1. Add health-check GET API for all MECM container
 
-Example:
-http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
-        w.WriteHeader(200)
-        w.Write([]byte("ok"))
+Example:<br/>
+http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {<br/>
+        w.WriteHeader(200)<br/>
+        w.Write([]byte("ok"))<br/>
 })
 
 2. Update HELM charts to add liveness and readiness probe to above defined API
 
-Probe configuration parameters
-livenessProbe:
-  path: /health
-  scheme: HTTP // or HTTPS, wherein kubelet skip certificate verification
-  initialDelaySeconds: 600
-  periodSeconds: 60
-  timeoutSeconds: 10
-  successThreshold: 1
-  FailureThreshold: 3
-readinessProbe:
-  path: /health
-  scheme: HTTP // or HTTPS, wherein kubelet skip certificate verification
-  initialDelaySeconds: 15
-  periodSeconds: 10
-  timeoutSeconds: 5
+Probe configuration parameters<br/>
+livenessProbe:<br/>
+  path: /health<br/>
+  scheme: HTTP // or HTTPS, wherein kubelet skip certificate verification<br/>
+  initialDelaySeconds: 600<br/>
+  periodSeconds: 60<br/>
+  timeoutSeconds: 10<br/>
+  successThreshold: 1<br/>
+  FailureThreshold: 3<br/>
+readinessProbe:<br/>
+  path: /health<br/>
+  scheme: HTTP // or HTTPS, wherein kubelet skip certificate verification<br/>
+  initialDelaySeconds: 15<br/>
+  periodSeconds: 10<br/>
+  timeoutSeconds: 5<br/>
 
-Probe configurations
-livenessProbe:  httpGet:    path: {{ index .Values.livenessProbe.path}}    port: {{ index .Values.containerPort }}    scheme: {{ index .Values.livenessProbe.scheme}}  initialDelaySeconds: {{ index .Values.livenessProbe.initialDelaySeconds}}  periodSeconds: {{ index .Values.livenessProbe.periodSeconds}}  timeoutSeconds: {{ index .Values.livenessProbe.timeoutSeconds}}  successThreshold: {{ index .Values.livenessProbe.successThreshold}}  failureThreshold: {{ index .Values.livenessProbe.failureThreshold}}
+Probe configurations<br/>
+livenessProbe: <br/>
+path: {{ index .Values.livenessProbe.path}}<br/>
+port: {{ index .Values.containerPort }}<br/>
+scheme: {{ index .Values.livenessProbe.scheme}}<br/>
+initialDelaySeconds: {{ index .Values.livenessProbe.initialDelaySeconds}}<br/>
+periodSeconds: {{ index .Values.livenessProbe.periodSeconds}}<br/>
+timeoutSeconds: {{ index .Values.livenessProbe.timeoutSeconds}}<br/>
+successThreshold: {{ index .Values.livenessProbe.successThreshold}}<br/>
+failureThreshold: {{ index .Values.livenessProbe.failureThreshold}}<br/>
 
-readinessProbe:
-  httpGet:    path: {{ index .Values.readinessProbe.path}}    port: {{ index .Values.containerPort }}    scheme: {{ index .Values.readinessProbe.scheme}}  initialDelaySeconds: {{ index .Values.readinessProbe.initialDelaySeconds}}  periodSeconds: {{ index .Values.readinessProbe.periodSeconds}}  timeoutSeconds: {{ index .Values.readinessProbe.timeoutSeconds}}
+readinessProbe:<br/>
+  httpGet:<br/>
+  path: {{ index .Values.readinessProbe.path}}<br/>
+  port: {{ index .Values.containerPort }}<br/>
+  scheme: {{ index .Values.readinessProbe.scheme}}<br/>
+  initialDelaySeconds: {{ index .Values.readinessProbe.initialDelaySeconds}}<br/>
+  periodSeconds: {{ index .Values.readinessProbe.periodSeconds}}<br/>
+  timeoutSeconds: {{ index .Values.readinessProbe.timeoutSeconds}}<br/>
 
 
-#DB component
+# DB component
 
 1. Update HELM charts to add command based liveness and readiness probe
 
-Probe configuration parameters
-liveness:
-  initialDelaySeconds: 30
-  periodSeconds: 10
-  timeoutSeconds: 5
-  # necessary to disable liveness probe when setting breakpoints
-  # in debugger so K8s doesn't restart unresponsive container
-  enabled: true
-readiness:
-  initialDelaySeconds: 15
-  periodSeconds: 10
-  timeoutSeconds: 5
+Probe configuration parameters<br/>
+liveness:<br/>
+  initialDelaySeconds: 30<br/>
+  periodSeconds: 10<br/>
+  timeoutSeconds: 5<br/>
+  enabled: true // necessary to disable liveness probe when setting breakpoints in debugger so K8s doesn't restart unresponsive container<br/>
+readiness:<br/>
+  initialDelaySeconds: 15<br/>
+  periodSeconds: 10<br/>
+  timeoutSeconds: 5<br/>
 
-Probe configurations
-readinessProbe:  exec:    command:      - /usr/share/container-scripts/mysql/readiness-probe.sh  initialDelaySeconds: {{ .Values.readiness.initialDelaySeconds }}  periodSeconds: {{ .Values.readiness.periodSeconds }}  timeoutSeconds: {{ .Values.readiness.timeoutSeconds }}  {{- if eq .Values.liveness.enabled true }}livenessProbe:  exec:    command: ["mysqladmin", "ping"]  initialDelaySeconds: {{ .Values.liveness.initialDelaySeconds }}  periodSeconds: {{ .Values.liveness.periodSeconds }}  timeoutSeconds: {{ .Values.liveness.timeoutSeconds }}
+Probe configurations<br/>
+readinessProbe:<br/>
+exec:<br/>
+command:<br/>
+-/usr/share/container-scripts/mysql/readiness-probe.sh<br/>
+initialDelaySeconds: {{ .Values.readiness.initialDelaySeconds }}<br/>
+periodSeconds: {{ .Values.readiness.periodSeconds }}<br/>
+timeoutSeconds: {{ .Values.readiness.timeoutSeconds }}<br/>
+{{- if eq .Values.liveness.enabled true }}<br/>
+livenessProbe:<br/>
+exec:<br/>
+command: ["mysqladmin", "ping"]<br/>
+initialDelaySeconds: {{ .Values.liveness.initialDelaySeconds }}<br/>
+periodSeconds: {{ .Values.liveness.periodSeconds }}<br/>
+timeoutSeconds: {{ .Values.liveness.timeoutSeconds }}<br/>
