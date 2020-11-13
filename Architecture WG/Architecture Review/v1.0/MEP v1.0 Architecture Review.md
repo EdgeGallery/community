@@ -41,4 +41,4 @@ None
 * Heartbeat [interface](https://gitee.com/edgegallery/docs/blob/master/Projects/MEP/MEP_Interfaces.md)
 
 ### 系统的限制目前有哪些 What are the system limits
-None
+Heartbeat feature limitation: MEP use servicecomb (3rd party libraray) for rest server which doesn't support rest PATCH message. So we use PUT instead of PATCH for "/applications/{appInstanceId}/service/{serviceId}/liveness" . Though it is PUT, the behaviour is same as PATCH.
