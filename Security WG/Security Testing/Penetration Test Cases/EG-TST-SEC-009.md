@@ -13,7 +13,7 @@
 | Test Mode               | Manual                                                       |
 | **Test steps**          | **Test step description and expected result**                |
 | Test step 1             | ① Identify all scenarios where stored-XSS may occur, such as comment area, message board, user information modification, etc.<br/> |
-| Test step 2             | ② Submit XSS_payload in the above scenarios, such as "<scirpt>alert(1)</script>", "<img src='' onerror=alert(1)/>", etc.;<br/>Note: After submission, you can view the source code of the front-end page to determine ifr it is necessary to add some closing symbols such as ">" or quotation marks before XSS_payload.<br/> |
+| Test step 2             | ② Submit XSS_payload in the above scenarios, such as "< scirpt>alert(1)</script>", "< img src='' onerror=alert(1)/>", etc.;<br/>Note: After submission, you can view the source code of the front-end page to determine ifr it is necessary to add some closing symbols such as ">" or quotation marks before XSS_payload.<br/> |
 | Test step 3             | ③ After submission, try to obtain the XSS_payload just submitted in the above scenario (read XSS_payload from the back-end database), and determine if the obtained XSS_payload can be parsed and executed by the browser (such as a pop-up warning-message-box);<br/>Note: You can combine viewing the source code of the front-end page, to determine if the syntax structure of XSS_payload was escaped.<br/> |
 | **Expected result**     | In test step 3: All XSS_payload cannot be parsed and executed.<br/> |
 | References              |                                                              |
