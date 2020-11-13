@@ -18,3 +18,7 @@
  **接口API参考文档** :
 [atp yaml文档](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Architecture%20Review/v1.0/atp.yaml)
 
+ **系统的限制** 
+目前接口需要租户权限才能访问
+atp服务没有自己的平台页面,作为服务，可以嵌入到任何平台中。
+
