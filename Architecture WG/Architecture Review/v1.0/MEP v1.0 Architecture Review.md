@@ -12,7 +12,7 @@ MEP(MEC Platform) implmentation based on ETSI specification. The MEP server inte
 None
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-* Pleatform Capability(service) Query on Mm5 interface. [Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.0/platform_query_capabilities.md)
+* Platform Capability(service) Query on Mm5 interface. [Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.0/platform_query_capabilities.md)
 * Heartbeat feature for MEC apps on Mp1 interface. [Design](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.0/service_heartbeat.md)
 
 ### 新增或者修改的接口 New or modified interfaces
