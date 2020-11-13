@@ -1,0 +1,334 @@
+---
+swagger: '2.0'
+info:
+  description: ATP REST API
+  version: 1.0.0
+  title: ATP REST API
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+basePath: "/"
+paths:
+  "/edgegallery/atp/v1/tasks":
+    get:
+      tags:
+      - TaskController
+      summary: get all test task
+      operationId: getAllTasks
+      produces:
+      - application/json
+      parameters:
+      - name: appName
+        in: query
+        description: application name
+        required: false
+        type: string
+      - name: status
+        in: query
+        description: test task status
+        required: false
+        type: string
+      responses:
+        '200':
+          description: get all test task succeed
+          schema:
+            type: string  
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+              [{
+                 "id":"",
+                 "appName":"",
+                 "appVersion":"",
+                 "status":"",
+                 "createTime":123456789,
+                 "endTime":123456789,
+                 "user":{
+                     "userId"："",
+                     "userName":""
+                 }
+               "testCaseDetail": {
+                      "virusScanningTest": [{
+                         "virusScan": {
+                              "result": "success",
+                              "reason": ""
+                          }
+                      }],
+                      "complianceTest": [{
+                          "SourcePath": {
+                              "result": "success",
+                              "reason": ""
+                          },
+                          "ToscaFile": {
+                              "result": "success",
+                              "reason": ""
+                          }
+                      }],
+                      "sandboxTest": [{
+                          "UnInstantiate": {
+                              "result": "failed",
+                              "reason": "inner exception, please check the log."
+                          }
+                      }]
+                  }
+              }]
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+    post:
+      tags:
+      - TaskController
+      summary: create test task
+      operationId: startTest
+      consumes:
+      - multipart/form-data
+      produces:
+      - application/json
+      parameters:
+      - in: formData
+        name: packageList
+        description: application package list
+        required: true
+        type: file
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+             [{
+               "id":"",
+               "appName":"",
+               "appVersion":"",
+               "status":"running",
+               "createTime":20201113,
+               "user":{
+                   "userId"："",
+                   "userName":""
+               }
+                "testCaseDetail": {
+                    "virusScanningTest": [{
+                       "virusScan": {
+                            "result": "success",
+                            "reason": ""
+                        }
+                    }],
+                    "complianceTest": [{
+                        "SourcePath": {
+                            "result": "running",
+                            "reason": ""
+                        },
+                        "ToscaFile": {
+                            "result": "running",
+                            "reason": ""
+                        }
+                    }],
+                    "sandboxTest": [{
+                        "UnInstantiate": {
+                            "result": "running",
+                            "reason": "inner exception, please check the log."
+                        }
+                    }]
+                }
+            }]
+
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+      
+  "/edgegallery/atp/v1/tasks/{taskId}":
+    get:
+      tags:
+      - TaskController
+      summary: get task by taskId
+      operationId: getTaskById
+      produces:
+      - application/json
+      parameters:
+      - name: taskId
+        in: path
+        description: task id
+        required: true
+        type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+              {
+                 "id":"",
+                 "appName":"",
+                 "appVersion":"",
+                 "status":"running",
+                 "createTime":20201113,
+                 "user":{
+                     "userId"："",
+                     "userName":""
+                 }
+                  "testCaseDetail": {
+                      "virusScanningTest": [{
+                         "virusScan": {
+                              "result": "success",
+                              "reason": ""
+                          }
+                      }],
+                      "complianceTest": [{
+                          "SourcePath": {
+                              "result": "success",
+                              "reason": ""
+                          },
+                          "ToscaFile": {
+                              "result": "success",
+                              "reason": ""
+                          }
+                      }],
+                      "sandboxTest": [{
+                          "UnInstantiate": {
+                              "result": "failed",
+                              "reason": "inner exception, please check the log."
+                          }
+                      }]
+                  }
+            }
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+      
+  "/edgegallery/atp/v1/tasks/{taskId}/action/download":
+    get:
+      tags:
+      - TaskController
+      summary: download test report
+      operationId: downloadTestReport
+      produces:
+      - application/json
+      parameters:
+      - name: taskId
+        in: path
+        description: task id
+        required: true
+        type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+            task1:
+              virusScanningTest:
+                testCaseName1: {result: success, reason: ''}
+                testCaseName2: {result: success, reason: ''}
+              complianceTest:
+                testCaseName3: {result: success, reason: ''}
+                testCaseName4: {result: success, reason: ''}
+              sandboxTest:
+                testCaseName5: {result: success, reason: ''}
+                testCaseName6: {result: success, reason: ''}
+
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false  
+
+  "/edgegallery/atp/v1/testcases":
+    get:
+      tags:
+      - TestCaseController
+      summary: get all test cases
+      operationId: getAllTestCases
+      produces:
+      - application/json
+      parameters:
+      - name: type
+        in: query
+        description: test case type
+        required: false
+        type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+             [{
+               "id":"id",
+               "name":"name",
+               "type":"type",
+               "className":"classPath",
+               "description":"description"
+              }]
+
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  "/edgegallery/atp/v1/common-action/analysis-app":
+    post:
+      tags:
+      - TaskController
+      summary: analysis application information
+      operationId: dependencyCheck
+      consumes:
+      - multipart/form-data
+      produces:
+      - application/json
+      parameters:
+      - in: formData
+        name: packageList
+        description: application package list
+        required: true
+        type: file
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+          x-examples: |
+            HTTP/1.1 200 OK 
+            Content-Type:application/json
+            {
+              "dependency":{
+                  "appName1":"1.0",
+                  "appName2":"2.0"
+              }
+            }
+
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+
