@@ -31,7 +31,7 @@ v1.0需求
 ### 新增或者修改的接口  New or modified interfaces
 
 | API | 方法 | API说明 | 修改或新增 | 说明 |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | /mec/developer/v1/hosts | POST | 上传边缘节点信息 | 修改 | 新增userId,开发者可以配置自己的节点 |
 | /mec/developer/v1/filescheck | POST | 部署文件校验接口 | 新增 | 用于yaml文件的校验 |
 | /mec/developer/v1/projects/{projectId}/test-config | POST | 部署详情接口 | 修改| 新增 deploy_file_id， platform, pod,部署文件信息、平台信息、pod状态信息|
