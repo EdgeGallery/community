@@ -28,7 +28,7 @@
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | Unauthorized test |
-| Implementation details  | Add the new role GUEST for AppStore/Developer/MECM platform, GUEST can not create or modify anything in the platfrom, read only |
+| Implementation details  | Add the new role GUEST for AppStore/Developer/MECM platform, GUEST can not create or modify anything in the platfrom, read only. GUEST can not get the data of tenant or admin. |
 | Related APIs            | All GET APIs need to be add the GUEST role, and other type APIs can not |
 | Example API payload     | NA |
 | Related files           | NA |

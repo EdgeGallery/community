@@ -2,29 +2,174 @@
 - 2020.12.31
 
 ### 项目概述 Project Overview
-User Management 用户管理模块，为EdgeGallery提供了基本的用户增删改查功能，定义了用户的角色与权限，并且包含了两个关键特性：手机验证和单点登录（Single Sign On）能力。
 
-架构图：
-![输入图片说明](https://images.gitee.com/uploads/images/2020/1116/103814_b26820ac_5659718.png "屏幕截图.png")
 
-#### 角色定义
-- **用户/租户** 系统内的用户，可以根据业务角色不同，指定不同的类型，当前有tenant（租户）和developer（开发者）
-- **用户管理员** 系统的用户管理员，可以对其他用户进行管理，修改用户信息与权限；
-- **访客** 用户直接访问的场景下，默认是访客权限，只能浏览各平台的基本功能，不能做编辑或创建数据。
 
-### v1.0架构变化 Architecture changes from last release
-- 无
+### 从上一个版本开始架构的变化 Architecture changes from last release
+- 无变化
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
 - 1 增加Guest默认账号，首次访问链接使用Guest登录。Guest用户只能查看AppStore、Developer、MECM、ATP功能，不能编辑修改
-- 2 增加ATP和LAB平台的用户定义，分为ADMIN、TENANT、GUEST角色
-- 3 增加用户管理员的操作权限：修改用户信息/删除用户/查询用户
+- 2 增加ATP平台的用户定义，分为ADMIN、TENANT、GUEST角色
+- 3 增加修改用户、修改密码
 
 ### 新增或者修改的接口 New or modified interfaces
 #### 新增接口
-- 1 查询账号
-- 2 修改账号
-- 3 删除账号
+##### 2.4 查询用户
+
+用户管理员查询所有的用户信息
+
+```
+Resource URI: /v1/users
+Method: GET
+Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
+```
+
+| Name      | Definition |type   | Required|Describe |
+| --------- | ---------- |-------|---------|-------- |
+
+
+Example request:
+```json
+{
+  "username": "TestUser1",
+  "telephone": "13812345678"
+}
+```
+
+Example response:
+```json
+response 200 OK
+[
+  {
+    "username": "TestUser1",
+    "company": "company",
+    "gender": "male",
+    "telephone": "13812345678",
+    "userId": "37423702-051a-46b4-bf2b-f190759cc0b8",
+    "permissions": [
+      {
+        "platform": "APPSTORE",
+        "role": "GUEST"
+      }
+    ]
+  }
+]
+
+response 400 Bad Request
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+
+response 403 FORBIDDEN
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+```
+
+##### 2.5 删除用户
+
+用户管理员可以根据用户ID删除任何用户
+
+```
+Resource URI: /v1/users/{userId}
+Method: DELETE
+Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
+```
+
+| Name      | Definition |type   | Required|Describe |
+| --------- | ---------- |-------|---------|-------- |
+| userId    | 用户ID      | path  | 是      |uuid     |
+
+Example request:
+```json
+```
+
+Example response:
+```json
+response 200 OK
+
+response 400 Bad Request
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+
+response 403 FORBIDDEN
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+```
+
+
+##### 2.6 修改用户
+
+用户管理员可以根据用户ID修改用户信息，返回修改后的信息。
+
+```
+Resource URI: /v1/users/{userId}
+Method: PUT
+Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
+```
+
+| Name      | Definition |type   | Required|Describe |
+| --------- | ---------- |-------|---------|-------- |
+| userId    | 用户ID      | path  | 是      |uuid     |
+
+Example request:
+```json
+{
+  "username": "TestUser1",
+  "company": "company",
+  "gender": "male",
+  "telephone": "13812345678",
+  "permissions": [
+    {
+      "platform": "APPSTORE",
+      "role": "GUEST"
+    }
+  ]
+}
+```
+
+Example response:
+```json
+response 200 OK
+{
+  "username": "TestUser1",
+  "company": "company",
+  "gender": "male",
+  "telephone": "13812345678",
+  "userId": "37423702-051a-46b4-bf2b-f190759cc0b8",
+  "permissions": [
+    {
+      "platform": "APPSTORE",
+      "role": "GUEST"
+    }
+  ]
+}
+
+response 400 Bad Request
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+
+response 403 FORBIDDEN
+{
+  "code": 0,
+  "message": "string",
+  "detail": "string"
+}
+```
 
 #### 修改接口
 - 无
