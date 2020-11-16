@@ -23,8 +23,8 @@
 
  **3.1 第一次迭代需求** 
 
-
-- 【UserMgmt】EdgeGallery平台需要优化用户管理，进行分权分域设置  【张阿利】
+- 【Developer】构建测试界面优化                              【李媛媛】
+- 【UserMgmt】EdgeGallery平台需要优化用户管理，进行分权分域设置(访客模式)  【张阿利】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
 - 【AppStore】Optimization for the existing features【刘辉】
@@ -32,9 +32,8 @@
 
  **3.2 第二次迭代需求** 
 
-
-- 【ATP】App应用的测试能力增强    【张阿利】
 - 【Developer】构建测试界面优化                              【李媛媛】
+- 【ATP】App应用的测试能力增强    【张阿利】
 - 【Developer】构建测试能力详情优化        【李媛媛】
 - 【Developer】应用发布界面优化    【李媛媛】
 - 【Developer】API界面优化，分析多语言SDK，集成到开发者平台    【李媛媛】
@@ -156,10 +155,8 @@ bug优先级为：严重、主要、次要、一般。
     - Starting Criteria for Iterative test excution
         - 完成本次迭代的详细设计/架构更新Complete detail design/architecture updating for current iteration        
         - PTL确认所有task关闭（PTL confirm ）all tasks in current iteration are closed
-        - PTL确认gitee门户外部bug类问题关闭（PTL confirm） bugs（vital/blocked in current iteration ） out of gitee are all closed
         - PTL确认所有新开发代码都有自动化测试用例（PTL）confirm all recently developed code has autotest cases
-        - PTL确认项目完成开发者自验证（PTL confirm）complete self-verification of project
-        - PTL确认代码许可证合规扫结果（PTL confirm）licenses for 3rd-party components are all scanned and their compliance is ensured
+        - PTL确认项目完成开发者自验证（PTL confirm）complete self-verification of project （including bugs from gitee visitors）
         - 近1天镜像自动构建成功率100% daily build for last 1 days is all succeeded【First Iteration】
         - 近1天镜像CICD成功率100% daily build for last 1 days is all succeeded【Second Iteration】  
         - 近1天镜像CICD成功率100%（含自动测试） daily build for last 1 days is all succeeded【Third Iteration】
@@ -171,7 +168,7 @@ bug优先级为：严重、主要、次要、一般。
         - 无阻塞性及严重性问题遗留 No blocked or vital problems/bugs are left。
         - 确认所有依赖软件都在本地库中 confirm all dependent softwares are all stored locally
         - PTL确认满足单元测试覆盖率>=50%要求（PTL confirm） satisfy code coverage rate for unit test
-        - PTL确认三方件归一化扫描结果（PTL confirm） 3rd-party components  are all scanned and have consistent versions
+        - PTL确认三方件归一化扫描结果（PTL confirm） 3rd-party components  are all scanned and have consistent versions（including license compliance）
 
 **12. Risk analysis about testing** 
 
