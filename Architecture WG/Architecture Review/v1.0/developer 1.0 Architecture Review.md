@@ -29,6 +29,7 @@ v1.0的目标：
 v1.0需求
 
 ### 新增或者修改的接口  New or modified interfaces
+
 | API | 方法 | API说明 | 修改或新增 | 说明 |
 | --- | --- | --- | --- |
 | /mec/developer/v1/hosts | POST | 上传边缘节点信息 | 修改 | 新增userId,开发者可以配置自己的节点 |
@@ -47,6 +48,11 @@ v1.0需求
 
 ### 接口API简述 interface naming
 
+https://gitee.com/edgegallery/docs/blob/master/Projects/Developer/Developer_Interfaces.md
+
+### 系统的限制目前有哪些  What are the system limits
+如操作系统，用户权限等等
+有关admin权限的操作暂时不支持
 
 
 
