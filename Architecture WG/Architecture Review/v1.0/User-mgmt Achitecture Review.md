@@ -2,7 +2,8 @@
 - 2020.12.31
 
 ### 项目概述 Project Overview
-
+User Management 用户管理模块，为EdgeGallery提供了基本的用户增删改查功能，定义了用户的角色与权限，并且包含了两个关键特性：手机验证和单点登录（Single Sign On）能力。
+结构图：
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1116/103814_b26820ac_5659718.png "屏幕截图.png")
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
