@@ -2,7 +2,8 @@
 - 2020.12.31
 
 ### 项目概述 Project Overview
-包含项目描述以及内部架构图
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1116/103814_b26820ac_5659718.png "屏幕截图.png")
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
 - 无变化
