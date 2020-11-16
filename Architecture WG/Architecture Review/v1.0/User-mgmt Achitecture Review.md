@@ -174,16 +174,10 @@ response 403 FORBIDDEN
 #### 修改接口
 - 无
 
-#### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
-
-
-### 接口API 简述 interface naming
-列出所有API的介绍
-
 ### 接口API参考文档 Reference to the interfaces
-列出对应的swagger yaml即可
-- 如有标准参考，可以附上标准文档链接
-- 具体实现的Swaggeryaml，也附上对应的docs链接即可。
+https://gitee.com/edgegallery/docs/blob/master/Projects/User%20Management/User_Interfaces.md
 
-### 系统的限制目前有哪些 What are the system limits
-如操作系统，用户权限等等
+### 系统约束 What are the system limits
+- 1 登录时5次密码输入错误，账号锁定5分钟
+- 2 生成的token有效时间默认1小时，超时后需要重新登录获取新的token
+- 3 未开启短信功能时，不能找回密码
