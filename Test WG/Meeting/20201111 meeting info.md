@@ -50,5 +50,8 @@ https://welink-meeting.zoom.us/j/119280905
 
 #遗留任务
 1、dns、network isolation迭代周期确定 -- puhui、minxi
+【network isolation第一轮迭代进行测试；dns未定】
+
 2、developer计划第一轮输出是否可测试，需要明确 -- tsc、倍源等
+【Dev-Appstore项目组于11月16日周例会上已明确可测试内容】
 
