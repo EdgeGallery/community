@@ -9,7 +9,7 @@
 - 无变化
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-- 1 增加Guest默认账号，首次访问链接使用Guest登录。Guest用户只能查看AppStore、Developer、MECM、ATP功能，不能编辑修改
+- 1 增加Guest默认账号，首次访问链接使用Guest登录。Guest用户只能查看AppStore、Developer、MECM、ATP、实验室平台功能，不能编辑修改
 - 2 增加ATP平台的用户定义，分为ADMIN、TENANT、GUEST角色
 - 3 增加修改用户、修改密码
 
