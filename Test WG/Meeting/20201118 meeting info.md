@@ -27,6 +27,8 @@ Review progress for the first iterative test.
 
 Review test cases for the first iterative test.
 
+3、待测系统构造方法讨论 --owner all
+Discuss construction method for target systems to be  tested.
 
 ## meeting link
 https://welink-meeting.zoom.us/j/524232351
