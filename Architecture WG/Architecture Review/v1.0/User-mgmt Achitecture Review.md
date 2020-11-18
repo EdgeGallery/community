@@ -2,7 +2,8 @@
 - 2020.12.31
 
 ### 项目概述 Project Overview
-
+User Management 用户管理模块，为EdgeGallery提供了基本的用户增删改查功能，定义了用户的角色与权限，并且包含了两个关键特性：手机验证和单点登录（Single Sign On）能力。
+目前支持的用户角色有：Admin/Tenatn/Guest，支持的平台有：AppStore/Developer/MECM/ATP/LAB。其中ATP（App测试认证平台）和LAB（实验室管理平台）是v1.0新增的两个平台。
 
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
@@ -11,7 +12,7 @@
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
 - 1 增加Guest默认账号，首次访问链接使用Guest登录。Guest用户只能查看AppStore、Developer、MECM、ATP、实验室平台功能，不能编辑修改
 - 2 增加ATP平台的用户定义，分为ADMIN、TENANT、GUEST角色
-- 3 增加修改用户、修改密码
+- 3 增加修改用户/修改密码/删除用户接口
 
 ### 新增或者修改的接口 New or modified interfaces
 #### 新增接口
