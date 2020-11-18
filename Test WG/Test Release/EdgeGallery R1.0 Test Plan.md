@@ -29,6 +29,7 @@
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
 - 【AppStore】Optimization for the existing features【刘辉】
 - 【installtaion】installation script （several modes）【李治谦】
+- 【mep】network isolation 【敏熙】
 
  **3.2 第二次迭代需求** 
 
