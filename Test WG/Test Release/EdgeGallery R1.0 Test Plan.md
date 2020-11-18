@@ -28,7 +28,7 @@
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
 - 【AppStore】Optimization for the existing features【刘辉】
-
+- 【installtaion】installation script （several modes）【李治谦】
 
  **3.2 第二次迭代需求** 
 
@@ -43,6 +43,7 @@
 - 【Test】The optimization of edgegallery installation package  【姜伟】
 - 【USER】51OpenLab集成EdgeGallery平台  【姜伟】
 - 【MECM】Application Managment & Topology Enhancement  【张阿利】
+- 【installtaion】installation script （several modes）【李治谦】
 
  **3.3 第三次迭代需求** 
 
@@ -50,7 +51,7 @@
 - 【Developer】应用发布界面优化               【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【Lab】搭建社区实验室管理服务平台   
-
+- 【installtaion】installation script （several modes）【李治谦】
 
 **4. Test Case Management** 
 
