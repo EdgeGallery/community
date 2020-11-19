@@ -45,6 +45,7 @@
 - 【USER】51OpenLab集成EdgeGallery平台  【姜伟】
 - 【MECM】Application Managment & Topology Enhancement  【张阿利】
 - 【installtaion】installation script （several modes）【李治谦】
+- 【mep】mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft【敏熙】
 
  **3.3 第三次迭代需求** 
 
@@ -53,6 +54,7 @@
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【Lab】搭建社区实验室管理服务平台   
 - 【installtaion】installation script （several modes）【李治谦】
+- 【Test】develop the Test Platform for supporting testcase management 
 
 **4. Test Case Management** 
 
