@@ -5,7 +5,7 @@ New APPD Alignment Impact
 1. Accessing MainServiceTemplate.mf
 Changes: MainServiceTemplate.mf --> positioning-service.mf
 
-2. Accessing feilds from MainServiceTemplate.mf
+2. Accessing feilds from MainServiceTemplate.mf <br/>
 a. DeploymentType 
 Changes: It doesn't exists anymore - Change implementation to use HELM as default if there is no deploymentType for release 1.0
 
@@ -21,7 +21,7 @@ Pre-Requisite
 1. Accessing MainServiceTemplate
 Changes: Definitions/MainServiceTemplate.yaml --> APPD/Definitions/MainServiceTemplate.yaml
 
-2. In MainServiceTemplate YAML checking feild
+2. In MainServiceTemplate YAML checking feild <br/>
 a. Image & version Name
 Changes: 
 topology_template/node_templates/vdu_compute_type_node/image
