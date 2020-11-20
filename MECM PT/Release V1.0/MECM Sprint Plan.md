@@ -25,6 +25,7 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 | [【APPLCM】适配新版csar包结构，能够正确部署应用 APP Package Updates support](https://gitee.com/OSDT/dashboard?issue_id=I24W9I) | Sprint2    |  NA  |  NA |    |    |    |
 | [【APPLCM】增加查询应用是否实例化接口 APPLCM support query instances of appd](https://gitee.com/OSDT/dashboard?issue_id=I1QWVN) | Sprint3    |  NA  |  NA |    |    |    |
 | [【APPLCM】增加对helm install时附加参数的支持 suppport secrets params for k8s. ak/sk/appinstanceid](https://gitee.com/OSDT/dashboard?issue_id=I23R13) |  Sprint3    |   NA  |  NA |    |    |    |
+| [Task:need to add the role of GUEST for all of GET APIs in MECM](https://gitee.com/OSDT/dashboard?issue_id=I24IKE) |  Sprint3    |   NA  |  NA |    |    |    |
 
 
 
