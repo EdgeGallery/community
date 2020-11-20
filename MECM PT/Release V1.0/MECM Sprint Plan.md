@@ -22,6 +22,11 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 | [【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF) | Sprint2    |  1.Batch distribution is finished, and batch deployment is to start.   | 1. Batch deploy only been designed is prepared and coding not yet start.  |    |    |    |
 | Task:Security Design CheckList for Every Story. | Sprint1    |  1. Plan to finished the checklist for example app and all new requirements and report to security team. Frontend also need to be involved.  |  Finished. |    |    |    |
 | Task:Third Party Dependencies Unification Work. | Original dependencies Sprint2. New involved dependency in Sprint3    |   NA  |  NA |    |    |    |
+| [【APPLCM】适配新版csar包结构，能够正确部署应用 APP Package Updates support](https://gitee.com/OSDT/dashboard?issue_id=I24W9I) | Sprint2    |  NA  |  NA |    |    |    |
+| [【APPLCM】增加查询应用是否实例化接口 APPLCM support query instances of appd](https://gitee.com/OSDT/dashboard?issue_id=I1QWVN) | Sprint3    |  NA  |  NA |    |    |    |
+| [【APPLCM】增加对helm install时附加参数的支持 suppport secrets params for k8s. ak/sk/appinstanceid](https://gitee.com/OSDT/dashboard?issue_id=I23R13) |  Sprint3    |   NA  |  NA |    |    |    |
+
+
 
 ## MECM V1.0 + Requirtments
 
