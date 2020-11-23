@@ -16,7 +16,7 @@
 | 褚纬明     | 安恒           | weiming.chu@dbappsecurity.com.cn     |                               |                                     |
 | 姜伟       | 紫金山  | jiangwei@pmlabs.com.cn  |                               |                                     |
 | 丁宇卿       | 紫金山  | dingyuqing@pmlabs.com.cn  |                               |                                     |
-| 侯敏熙      | 联想  | 18515041014@163.com|                               |                                     |
+| 侯敏熙      | 红帽  | mhou@redhat.com|                               |                                     |
 | 周俊      | 华为  | zhoujun8@huawei.com |                               |                                     |
 |丁智慧    |  云迅智能  | dingzhihui@yunex.com  |  |  |
 |彭育    |  华为 | perry.peng@huawei.com  |  |  |
