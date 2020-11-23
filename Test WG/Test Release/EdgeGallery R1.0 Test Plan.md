@@ -42,7 +42,6 @@
 - 【Lab】搭建社区实验室管理服务平台   
 - 【Test】 Provide the health check for Edgegallery platform in one-click deployment【暂定】
 - 【Test】The optimization of edgegallery installation package  【姜伟】
-- 【USER】51OpenLab集成EdgeGallery平台  【姜伟】
 - 【MECM】Application Managment & Topology Enhancement  【张阿利】
 - 【installtaion】installation script （several modes）【李治谦】
 - 【mep】mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft【敏熙】
