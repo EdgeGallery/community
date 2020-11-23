@@ -40,7 +40,7 @@
 - 【Developer】API界面优化，分析多语言SDK，集成到开发者平台    【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【Lab】搭建社区实验室管理服务平台   
-- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【暂定】
+- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】
 - 【Test】The optimization of edgegallery installation package  【姜伟】
 - 【MECM】Application Managment & Topology Enhancement  【张阿利】
 - 【installtaion】installation script （several modes）【李治谦】
