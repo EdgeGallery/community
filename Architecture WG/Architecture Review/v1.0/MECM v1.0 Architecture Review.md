@@ -61,6 +61,7 @@ yes
 ### 接口API参考文档 Reference to the interfaces
 * Platform Software Capability Query. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
 * Platform Hardware Capability. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html)
+* AK/SK Support. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html#)
 * ATP Integration. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html)
 * Application Batch Deploy. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
 * UPF Integration documentation: In-progress 
