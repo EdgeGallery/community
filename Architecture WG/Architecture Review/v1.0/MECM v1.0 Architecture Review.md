@@ -17,6 +17,7 @@ None
 * AK/SK Support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Automated%20AkSk%20Management%20Solution.pptx)
 * ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
 * Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Application%20deployment%20on%20multiple-edges.pptx)
+* UPF integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Modified inventory API to support hardware capability.
