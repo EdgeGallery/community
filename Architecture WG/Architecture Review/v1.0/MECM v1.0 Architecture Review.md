@@ -12,8 +12,12 @@ MECM (multi access edge compute manager) provides orchestration and life cycle m
 None
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-* Platform Capability(service) Query on Mm5 interface. [Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.0/platform_query_capabilities.md)
-* Heartbeat feature for MEC apps on Mp1 interface. [Design](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.0/service_heartbeat.md)
+* Platform Software Capability Query. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* Platform Hardware Capability. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* AK/SK Support. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* Sample Application. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* ATP Integration. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* Application Batch Deploy. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Modified Mp1 to support application heartbeat.
