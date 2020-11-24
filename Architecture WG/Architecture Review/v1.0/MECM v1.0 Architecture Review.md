@@ -51,6 +51,9 @@ yes
 | POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
 | PUT  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
 | DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
+| POST  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
+| PUT  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
+| DELETE  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
 
 
 ### 接口API参考文档 Reference to the interfaces
