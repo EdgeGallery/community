@@ -20,25 +20,24 @@ None
 * Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 
 ### 新增或者修改的接口 New or modified interfaces
-* Modified Mp1 to support application heartbeat.
-* Modified Mm5 for platform capability query.
+* Modified inventory API to support hardware capability.
+* APM new Onboard interface for ATP Integration.
+* Modified APPO create interface to support capability.
+* APPO new interfaces added to support application batch deploy.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
-None
+yes
 
 ### 接口API 简述 interface naming
 
-#### Mp1
 |  Method | URL  | Description|
 |---|---|---|
-| GET  | /applications/\{appInstanceId\}/service/\{serviceId\}/liveness | Get individual liveness information for a service |
-| PUT  | /applications/\{appInstanceId\}/service/\{serviceId\}/liveness | Send heartbeat message to MEP |
-
-#### Mm5
-|  Method | URL  | Description|
-|---|---|---|
-| GET  | /mepcfg/mec_platform_config/v1/capabilities | Get all capabilities |
-| GET  | /mepcfg/mec_platform_config/v1/capabilities/\{capabilityId\} | Get individual capabilities |
+| POST  | /apm/v1/tenants/\{tenant_id\}/packages/upload | Onboard application package |
+| GET  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/capabilities | Retrieves edge host capabilities |
+| GET  | /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/capabilities/{capability_type}/applications | Retrieves applications matching capability |
+| POST  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps | Adds application record |
+| DELETE  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps/\{app_id\} | Deletes application record |
+| PUT  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps/\{app_id\} | Updates application record |
 
 ### 接口API参考文档 Reference to the interfaces
 * Query capability [interface](http://docs.edgegallery.org/zh_CN/latest/Projects/MEP/MEP_Interfaces.html#query-platform-capabilities-services)
