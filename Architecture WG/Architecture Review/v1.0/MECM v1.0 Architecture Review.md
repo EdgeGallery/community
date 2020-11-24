@@ -12,12 +12,12 @@ MECM (multi access edge compute manager) provides orchestration and life cycle m
 None
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-* Platform Software Capability Query. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
-* Platform Hardware Capability. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
-* AK/SK Support. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
-* Sample Application. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
-* ATP Integration. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
-* Application Batch Deploy. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html#interface-designs)
+* Platform Software Capability Query. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* AK/SK Support. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* Sample Application. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* ATP Integration. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Modified Mp1 to support application heartbeat.
