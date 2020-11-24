@@ -33,7 +33,7 @@ Discuss development progress for edgeT (test platform).
 
 
 ## meeting link
-
+https://welink-meeting.zoom.us/j/480057563
 
 ## Minutes纪要
 ## 纪要人
