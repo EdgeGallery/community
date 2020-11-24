@@ -19,6 +19,7 @@ Application Rule Manager (AppRuleMgr) will be added in Release 1.0
 * ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
 * Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Application%20deployment%20on%20multiple-edges.pptx)
 * UPF Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
+* Edge Repo support. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/Edge_Repository_Enablement_Guide.html)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Software Capability: New APIs in APPLCM & APPO.
