@@ -31,6 +31,8 @@ Review requirement clarification progress, test cases for the second iterative t
 3、edgeT开发进展 --owner 李治谦
 Discuss development progress for edgeT (test platform).
 
+4、CI/CD/CT进展及介绍 --owner 许丹
+
 
 ## meeting link
 https://welink-meeting.zoom.us/j/480057563
