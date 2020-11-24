@@ -12,11 +12,11 @@ MECM (multi access edge compute manager) provides orchestration and life cycle m
 None
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-* Platform Software Capability Query. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
-* Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
-* AK/SK Support. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
-* ATP Integration. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
-* Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
+* Platform Software Capability Query. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx)
+* Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx)
+* AK/SK Support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Automated%20AkSk%20Management%20Solution.pptx)
+* ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
+* Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Application%20deployment%20on%20multiple-edges.pptx)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Modified inventory API to support hardware capability.
@@ -41,6 +41,7 @@ yes
 | POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_instantiate | Batch instantiate application instances |
 | DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_terminate | Batch delete application instances |
 | GET  | /appo/v1/tenants/\{tenant_id\}/app_instance_infos?appInstId=uuid1&appInstId=uuid2 | Retrieves application instances |
+| GET  | /appo/v1/tenants/{tenant_id}/hosts/\{host_ip\}/mep_capabilities/\{capability_id\} | Retrieves MEP software capabilities |
 
 ### 接口API参考文档 Reference to the interfaces
 * Query capability [interface](http://docs.edgegallery.org/zh_CN/latest/Projects/MEP/MEP_Interfaces.html#query-platform-capabilities-services)
