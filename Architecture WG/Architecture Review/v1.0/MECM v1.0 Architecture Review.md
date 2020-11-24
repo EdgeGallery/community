@@ -50,4 +50,4 @@ yes
 * Application Batch Deploy. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
 
 ### 系统的限制目前有哪些 What are the system limits
-Heartbeat feature limitation: MEP use servicecomb (3rd party libraray) for rest server which doesn't support rest PATCH message. So we use PUT instead of PATCH for "/applications/{appInstanceId}/service/{serviceId}/liveness" . Though it is PUT, the behaviour is same as PATCH.
+NA
