@@ -44,6 +44,14 @@ yes
 | DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_terminate | Batch delete application instances |
 | GET  | /appo/v1/tenants/\{tenant_id\}/app_instance_infos?appInstId=uuid1&appInstId=uuid2 | Retrieves application instances |
 | GET  | /appo/v1/tenants/{tenant_id}/hosts/\{host_ip\}/mep_capabilities/\{capability_id\} | Retrieves MEP software capabilities |
+| GET  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Retrieves APPD configurations |
+| POST  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
+| DELETE  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
+| PUT  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
+| POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
+| PUT  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
+| DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
+
 
 ### 接口API参考文档 Reference to the interfaces
 * Platform Software Capability Query. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
