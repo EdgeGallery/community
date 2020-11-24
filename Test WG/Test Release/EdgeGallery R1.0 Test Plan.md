@@ -30,6 +30,7 @@
 - 【AppStore】Optimization for the existing features【刘辉】
 - 【installtaion】installation script （several modes）【李治谦】
 - 【mep】network isolation 【敏熙】
+- 【ATP】App应用的测试能力增强    【张阿利】
 
  **3.2 第二次迭代需求** 
 
