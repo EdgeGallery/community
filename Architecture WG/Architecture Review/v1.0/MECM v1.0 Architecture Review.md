@@ -15,7 +15,6 @@ None
 * Platform Software Capability Query. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 * Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 * AK/SK Support. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
-* Sample Application. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 * ATP Integration. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 * Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/tree/master/MECM%20PT/Release%20V1.0)
 
