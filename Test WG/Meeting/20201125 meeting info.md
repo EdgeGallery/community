@@ -26,7 +26,7 @@ Review progress for the first iterative test.
 
 2.Review第二轮迭代需求澄清、测试用例及评审情况等； --owner all
 
-Review requirement clarification progress, test cases for the first iterative test.
+Review requirement clarification progress, test cases for the second iterative test.
 
 3、edgeT开发进展 --owner 李治谦
 Discuss development progress for edgeT (test platform).
