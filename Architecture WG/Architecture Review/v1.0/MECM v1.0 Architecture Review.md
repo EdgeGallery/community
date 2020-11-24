@@ -17,13 +17,14 @@ None
 * AK/SK Support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Automated%20AkSk%20Management%20Solution.pptx)
 * ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
 * Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Application%20deployment%20on%20multiple-edges.pptx)
-* UPF integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
+* UPF Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Modified inventory API to support hardware capability.
 * APM new Onboard interface for ATP Integration.
 * Modified APPO create interface to support capability.
 * APPO new interfaces added to support application batch deploy.
+* Support Traffic rules and DNS rules configuration API for UPF integration.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
 yes
@@ -49,6 +50,7 @@ yes
 * Platform Hardware Capability. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html)
 * ATP Integration. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html)
 * Application Batch Deploy. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
+* UPF Integration documentation in-progress 
 
 ### 系统的限制目前有哪些 What are the system limits
 NA
