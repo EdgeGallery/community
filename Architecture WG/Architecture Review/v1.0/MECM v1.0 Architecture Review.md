@@ -21,11 +21,12 @@ Application Rule Manager (AppRuleMgr) will be added in Release 1.0
 * UPF Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
 
 ### 新增或者修改的接口 New or modified interfaces
-* Modified inventory API to support hardware capability.
-* APM new Onboard interface for ATP Integration.
-* Modified APPO create interface to support capability.
-* APPO new interfaces added to support application batch deploy.
-* Support Traffic rules and DNS rules configuration API for UPF integration.
+* Software Capability: New APIs in APPLCM & APPO.
+* Hardware Capability: New/Modified API in Inventory & APPO.
+* Automated AK/SK Management: Modified API in K8s Plugin.
+* ATP Integration: New API in APM.
+* Application Batch Deploy: APPO new interfaces added to support application batch deploy.
+* UPF Integration: Support Traffic rules and DNS rules configuration API for UPF integration in APPO, Inventory & App Rule Manager.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
 yes
@@ -52,9 +53,9 @@ yes
 | POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
 | PUT  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
 | DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
-| POST  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
-| PUT  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
-| DELETE  | /mepm/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
+| POST  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
+| PUT  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
+| DELETE  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
 
 
 ### 接口API参考文档 Reference to the interfaces
@@ -62,7 +63,7 @@ yes
 * Platform Hardware Capability. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html)
 * ATP Integration. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html)
 * Application Batch Deploy. [interface](http://docs.edgegallery.org/en/latest/Projects/MECM/Appo_Interfaces_en.html)
-* UPF Integration documentation in-progress 
+* UPF Integration documentation: In-progress 
 
 ### 系统的限制目前有哪些 What are the system limits
-NA
+No Change
