@@ -8,7 +8,7 @@ A micro-services to manage, execute, run test cases (developed in different run-
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
 
-[图片上传中…(image-d1WbnUzHf6cQF1NjYcTq)]
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1125/125248_4fc929ca_7639331.png "屏幕截图.png")
 
 ### 接口API参考文档 Reference to the interfaces
 
@@ -18,6 +18,6 @@ A micro-services to manage, execute, run test cases (developed in different run-
   - name: Testcase
   - name: Execution
 
-列出对应的swagger yaml即可
+### 列出对应的swagger yaml即可
 
 https://gitee.com/edgegallery/edgeT -> RESTful API
