@@ -19,14 +19,13 @@
 | 侯敏熙      | 红帽  | mhou@redhat.com|                               |                                     |
 | 周俊      | 华为  | zhoujun8@huawei.com |                               |                                     |
 |丁智慧    |  云迅智能  | dingzhihui@yunex.com  |  |  |
-|彭育    |  华为 | perry.peng@huawei.com  |  |  |
+
+
 ## 工作组会议
 * 每周例会时间定在：每周二下午16:00-17:00，  每周五下班前在wiki上申报议题。
 
-* 第一次集成组例会：
-会议时间：2020年7月21日16:00-17:00
-会议链接：https://welink-meeting.zoom.us/j/989530379
-会议议题：各方提诉求，讨论明确Edge Gallery集成组工作范围和目标
+* 会议方式：zoom电话会议
+
 
 ## 工作组联系方式
 * 邮件列表：main@edgegallery.groups.io
