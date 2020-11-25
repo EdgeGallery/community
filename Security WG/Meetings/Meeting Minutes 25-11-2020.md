@@ -2,7 +2,7 @@
 
 | Meeting Day | Meeting Time                    | Conference Bridge                          |
 | ----------- | ------------------------------- | ------------------------------------------ |
-| 18-11-2020  | 15:30 PM to 16:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/780920865 |
+| 25-11-2020  | 15:30 PM to 16:30 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/761034852 |
 
 ## Meeting Attendees
 ** **
@@ -16,7 +16,7 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| scurity test plan confirm | All |
+| scurity test case confirm | All |
 
 
 ## Discussion Items and Minutes
