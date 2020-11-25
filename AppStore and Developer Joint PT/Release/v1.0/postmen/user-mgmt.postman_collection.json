@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "f5a399df-80f3-40e4-93c7-daf8919f68cd",
+		"name": "user-mgmt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-xsrf-token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "97633ef5-38cc-4741-bbcc-76ccb8ba2d51",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8067/auth/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8067",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-XSRF-TOKEN",
+						"value": "43a3a753-4608-426d-8ca0-3fe8ad4ba4a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"zhangby001\",\r\n    \"password\": \"zhang123@\",\r\n    \"telephone\": \"18092553049\",\r\n    \"company\": \"hehe\",\r\n    \"gender\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8067/v1/users/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8067",
+					"path": [
+						"v1",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8067/v1/users/6bdb1699-414d-4488-9c87-c522555b6e57",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8067",
+					"path": [
+						"v1",
+						"users",
+						"6bdb1699-414d-4488-9c87-c522555b6e57"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modifyUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"username\": \"guest\",\r\n        \"company\": \"company\",\r\n        \"gender\": \"1\",\r\n        \"telephone\": \"138000000100\",\r\n        \"userId\": \"de3565b1-a7c2-42b9-b281-3f032af29ff7\",\r\n        \"allowed\": true,\r\n        \"permissions\": [\r\n            {\r\n                \"platform\": \"APPSTORE\",\r\n                \"role\": \"GUEST\"\r\n            },\r\n            {\r\n                \"platform\": \"DEVELOPER\",\r\n                \"role\": \"GUEST\"\r\n            },\r\n            {\r\n                \"platform\": \"MECM\",\r\n                \"role\": \"GUEST\"\r\n            },\r\n            {\r\n                \"platform\": \"ATP\",\r\n                \"role\": \"GUEST\"\r\n            },\r\n            {\r\n                \"platform\": \"LAB\",\r\n                \"role\": \"GUEST\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8067/v1/users/de3565b1-a7c2-42b9-b281-3f032af29ff7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8067",
+					"path": [
+						"v1",
+						"users",
+						"de3565b1-a7c2-42b9-b281-3f032af29ff7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "current login info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8067/auth/login-info",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8067",
+					"path": [
+						"auth",
+						"login-info"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
