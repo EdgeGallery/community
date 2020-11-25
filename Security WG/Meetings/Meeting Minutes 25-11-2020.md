@@ -16,7 +16,7 @@
 ** **
 | Item                               | Owner  |
 | ---------------------------------- | ------ |
-| scurity test case confirm | All |
+| 安全测试准备清零确认   | All |
 
 
 ## Discussion Items and Minutes
