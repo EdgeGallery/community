@@ -16,8 +16,9 @@
 - 扈冰（华为）
 -  kanaga（华为） 
 -  _shashikanth（华为）_ 
-- 蔡舒豪（华为）
-- 徐军杰（九州云）
+-  _蔡舒豪（华为）_ 
+-  _徐军杰（九州云）_ 
+- yangyang、zhangbeiyuan、zhoujun、chenchuanyu、chenruidong（华为）
 
 ## Topics议题
 1.review第一轮迭代测试进展、问题及总结--owner all
@@ -29,17 +30,25 @@ Review progress for the first iterative test.
 【测试用例当前gitee上针对ReleaseV1.0共计81个（不含无效TC），第一次迭代35个，第二次迭代30个，尚有16个TC未标识迭代轮次】
 
 
+
 2.Review第二轮迭代需求澄清、测试用例及评审情况等； --owner all
 
 Review requirement clarification progress, test cases for the second iterative test.
+
 
 3.edgeT开发进展 --owner 李治谦
 
 Discuss development progress for edgeT (test platform).
 
+【edgeT种子代码已按计划入库】
+
 4.CI/CD/CT进展及介绍 --owner 许丹
 
+【CICD在jenkins已经完成，需要配置到具体测试环境】
+
 5.测试用例关联问题讨论 --owner 李治谦
+
+【确定“关联仓库”下拉列表大家可选后，可以在操作指南里明确为必选】
 
 ## meeting link
 https://welink-meeting.zoom.us/j/480057563
@@ -50,7 +59,7 @@ https://welink-meeting.zoom.us/j/480057563
 
 #遗留任务
 1、dns迭代周期确定 -- puhui、minxi
-【dns暂定迭代3】
+【dns暂定迭代3；传雨同mep组沟通dns epic关联story的问题】
 
 2、安装脚本同印度研发沟通 --owner zhiqian、xudan、kanag
-
+【延到下周】
