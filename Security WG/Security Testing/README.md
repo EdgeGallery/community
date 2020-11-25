@@ -4,7 +4,7 @@
 
 # R1.0 安全测试工作
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0903/105153_5584ba84_5645267.png "安全测试流程.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1125/115446_aaf615c4_7785218.png "安全测试流程.png")
 
 # R1.0 安全摸底测试计划
 
