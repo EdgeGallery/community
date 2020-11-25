@@ -136,7 +136,7 @@ For a more detailed test plan, please check Security WG Milestone.
 | 11.25 - 11.29 | Sprint 2 coding  | Sprint 1 security pre-test            |             |
 | 11.30 - 12.13 | Sprint 3 coding  | Sprint 2 security pre-test            |             |
 | 12.14 - 12.18 | Bug-fixing       | Sprint 3 security pre-test            | Sprint 1,2 security pregress-test            |
-| 12.21 - 12.25 |                  | compliance test and penetratrion test | Sprint 3 security pregress-test            |
+| 12.23 - 12.26 |                  |  | Sprint 3 security pregress-test            |
 | 12.28 - 12.31 | Ready to release | Ready to release                      |             |
 
 #### 9.测试总结 Test Summary
