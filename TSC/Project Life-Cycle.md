@@ -17,11 +17,14 @@ EdgeGallery社区对项目的定义：有明确的范围和任务的相对长期
 项目在每个状态之间转移均需要在社区TSC评审通过，具体的评审标准TSC负责制定和维护
 
 ## 项目申请流程
-1.	完成项目申请模板并提交项目申请
+
+项目申请一般涉及两类情况：1）新建项目；2）已有代码仓库升级与项目。两种情况均需要遵循以下流程：
+
+1.	完成[项目申请模板](http://https://gitee.com/edgegallery/community/blob/master/TSC/Templates/New%20Project%20Team%20Proposal%20v1.pptx)并提交项目申请
 2.	进入项目申请评议阶段，跟相关的项目组的PTL完成关联沟通
 3.	在架构组完成项目跟整个社区的技术架构匹配度的评估
 4.	架构组评估通过后申请TSC议题，汇报立项
-5.	TSC决策通过后，项目正式进入孵化阶段
+5.	TSC决策通过后，项目正式进入孵化阶段，并进行PTL以及Committer选举
 
 ## 代码仓新建流程
 
@@ -29,7 +32,7 @@ EdgeGallery社区对项目的定义：有明确的范围和任务的相对长期
 
 1.	在项目组或工作组内部讨论技术方案以及涉及的新建仓库
 2.	架构组评审技术方案
-3.	完成新建仓库申请模板
+3.	完成[新建仓库申请模板](http://https://gitee.com/edgegallery/community/blob/master/TSC/Templates/New%20Repo%20Application%20v1.pptx)
 4.	申请TSC议题，汇报评审
 5.	TSC决策通过后，正式新建仓库
 
