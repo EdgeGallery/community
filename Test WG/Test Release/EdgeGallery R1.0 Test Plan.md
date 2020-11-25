@@ -26,7 +26,6 @@
 - 【Developer】构建测试界面优化                              【李媛媛】
 - 【UserMgmt】EdgeGallery平台需要优化用户管理，进行分权分域设置(访客模式)  【张阿利】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
-- 【MEP/MECM】ak/sk配置接口【丁宇卿】
 - 【AppStore】Optimization for the existing features【刘辉】
 - 【installtaion】installation script （several modes）【李治谦】
 - 【mep】network isolation 【敏熙】
@@ -54,6 +53,7 @@
 - 【Lab】搭建社区实验室管理服务平台   
 - 【installtaion】installation script （several modes）【李治谦】
 - 【Test】develop the Test Platform for supporting testcase management 
+- 【MEP/MECM】ak/sk配置接口【丁宇卿】
 
 **4. Test Case Management** 
 
