@@ -41,7 +41,7 @@ This test involves a total number of x test cases. Please click [Security Compli
 
 #### 2.3 测试人员 Testers
 
-本次测试人员包括： xxx，xxx，xxx。
+本次测试人员包括： Satish，程润东，扈冰。
 
 The testers include: xxx, xxx, xxx.
 
