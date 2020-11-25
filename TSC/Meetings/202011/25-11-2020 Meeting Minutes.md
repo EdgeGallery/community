@@ -36,7 +36,7 @@ TSC members who attended:
 | 测试工作组进展           | 刘辉（紫金山）                                   |
 | 用户组进展               | 陈燕军（中移动）                                 |
 | 区块链组进展             | 冯杰（西电）                                     |
-| EdgeGallery dashboar介绍| 王俊恒（华为）                                     |
+
 
 ## Discussion Items
 
