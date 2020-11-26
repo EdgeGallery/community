@@ -126,9 +126,9 @@ The priority of bugs/vulnerabilities is divided into: serious, major, minor, and
 
 #### 8.测试计划 Test Plain
 
-更详细测试计划，请查看 Security WG Milestone 。
+更详细测试计划，请查看 [Security WG Milestone](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Testing/README.md) 。
 
-For a more detailed test plan, please check Security WG Milestone.
+For a more detailed test plan, please check [Security WG Milestone](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Testing/README.md).
 
 | Date          | Sprint Coding    | Sprint Security pre-Testing               | Sprint Security pregress-Testing               |
 | ------------- | ---------------- | ------------------------------------- | ------------------------------------- |
