@@ -1,4 +1,4 @@
-# EdgeGallery R1.0 Security Test Plain
+# EdgeGallery R1.0 Security Test Plan
 
 ## EdgeGallery R1.0 安全测试计划
 
