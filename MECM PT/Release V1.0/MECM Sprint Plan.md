@@ -5,11 +5,11 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 ## MECM V1.0 Requirtments
 | Story Name | Target Sprint | 2020-11-2 ~ 2020-11-6 | 2020-11-9 ~ 2020-11-13 | 2020-11-16 ~ 2020-11-20 | 2020-11-23 ~ 2020-11-27 | 2020-11-30 ~ 2020-12-4 | 2020-12-7 ~ 2020-12-11 |
 |-----------|-------------|----------|-----------|-------------|----------|----------|----------|
-| [【MECM】【Docs】Finalize MECM v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V93) | Sprint3   |   NA   |  NA |   NA |    |    |
+| [【MECM】【Docs】Finalize MECM v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V93) | Sprint3   |   NA   |  NA |   NA |  NA  |    |
 | [Health-check support for eg components(using liveliness & readiness probes)--mecm](https://gitee.com/OSDT/dashboard?issue_id=I23CZC) | Sprint3   |   NA  |  The Solution has already beed prepared. |  NA  |  NA  |    |
 | [【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700) |  Sprint3   |   1.High Level design  already there 2.Start to design the UI  |  1. The FE coding has already been finished. 2.Low level design is ongoing for BE.  |  1.Lovel design is already finished. Need to discuss about the open items.  |  NA  |    |
 | [【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD) | Sprint3    |  1.High Level design  already there   |  1.Low level design is ongoing for BE.  |  NA  |   1.Lovel design is already finished. Need to discuss about the open items.   |    |
-| [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |  Sprint3  |  1.Already clarification to 21CN developers.  2. High level design is finished.   | discuss  |    |    |    |
+| [【MECM】应用实例化功能优化](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) |  Sprint3  |  1.Already clarification to 21CN developers.  2. High level design is finished.   |   |    |  Discuss later  |    |
 | [【MECM 】MECM Support ATP LCM test features: Solution & Implementation](https://gitee.com/OSDT/dashboard?issue_id=I1YRXF) |  Sprint1  |   1.Coding Finished. Waiting for ATP developer to do the pair test  |  1. ATP plan to finish next week. we will do pair-test with them.  |   Coding is already finished and testing is going on. |  DONE  |    |
 | [【MECM】提供ak/sk分配功能 ak/sk Spport](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY) |  Sprint2   |   1.Design and API coding is finished and coding the the logic is ongoing  |  1. developerment is ongoing, we plan to finish the coding next week. |  Coding already completed. documentation and  testing will be started next week. |  DONE  |    |
 | [【MECM】边缘仓库能力支持 Edge Repo Support Test](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY) | Sprint2    |   NA  |  1.document has been prepared and uploaded to MECM PT. need to check how to archive the docs.  |  No updates. Do a pretest and deliver to test team.  |  Start Testing(dicuss with Chuanyu later)  |    |
@@ -25,7 +25,7 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 | [【APPLCM】适配新版csar包结构，能够正确部署应用 APP Package Updates support](https://gitee.com/OSDT/dashboard?issue_id=I24W9I) | Sprint2    |  NA  |  NA |  Already analysis is already finished. Coding will be started next week. |  DONE  |    |
 | [【APPLCM】增加查询应用是否实例化接口 APPLCM support query instances of appd](https://gitee.com/OSDT/dashboard?issue_id=I1QWVN) | Sprint3    |  NA  |  NA |  Coding is on going. APPO already have this information. |  NA  |    |
 | [【APPLCM】增加对helm install时附加参数的支持 suppport secrets params for k8s. ak/sk/appinstanceid](https://gitee.com/OSDT/dashboard?issue_id=I23R13) |  Sprint2    |   NA  |  NA |  Coding already completed. documentation and  testing will be started next week.  |  DONE  |    |
-| [Task:need to add the role of GUEST for all of GET APIs in MECM](https://gitee.com/OSDT/dashboard?issue_id=I24IKE) |  Sprint3    |   NA  |  NA |  NA  |    |    |
+| [Task:need to add the role of GUEST for all of GET APIs in MECM](https://gitee.com/OSDT/dashboard?issue_id=I24IKE) |  Sprint3    |   NA  |  NA |  NA  |  NA  |    |
 
 
 
