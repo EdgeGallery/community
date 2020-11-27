@@ -21,7 +21,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 ##### 3.1  sprint1:
 
 
-| Story        | 开发   | 涉及合规用例 |  合规安全测试  | 渗透安全测试  |
+| Story        | 开发   | 关联合规用例 |  合规安全测试  | 渗透安全测试  |
 | --------   | -----:  | :----: | :----:  | :----:  |
 | [need to add the role of GUEST for all of GET APIs in Developer](https://gitee.com/OSDT/dashboard?issue_id=I24IMF)      | 已完成 | 3.8 |   未开始     |   测试中     |
 | [need to add the role of GUEST for all of GET APIs in AppStore](https://gitee.com/OSDT/dashboard?issue_id=I24IKL)        |   已完成   | 3.8 |   未开始   |测试中     |
