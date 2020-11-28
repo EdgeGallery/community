@@ -28,10 +28,10 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 | [访客模式登录后，header需要保留“登录”入口，点击“登录”跳转到登录界面](https://gitee.com/OSDT/dashboard?issue_id=I23VQ7)       |   已完成 | 不涉及  |  无  |无     |
 | [用户管理模块中需要支持用户的角色定义](https://gitee.com/OSDT/dashboard?issue_id=I23FRE)      |    已完成  | 3.8 |  未开始  | 测试中     |
 | [用户管理支持guest访客用户，在界面上只有只读权限](https://gitee.com/OSDT/dashboard?issue_id=I23FRC)     |    开发中 |  3.8 |  未开始  | 未开始     |
-| [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU)        |    已完成    | 1.1， 8.1， 9.4 |  测试中  | 未开始     |
+| [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU)        |    已完成    | 1.1， 8.1， 9.4 |  全部通过  | 未开始     |
 | [【Developer】应用开发界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDI2)        |    已完成    | 不涉及 |  无  | 无     |
 | [【Developer】构建测试详情界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDHC)       |    已完成    | 不涉及 |  无  | 无     |
-| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)        |   已完成   | 1.2 |  未开始  |  未开始     |
+| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)        |   已完成   | 1.2 |  测试中  |  未开始     |
 
 
 ##### 3.2  sprint2:
