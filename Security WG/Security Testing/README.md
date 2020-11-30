@@ -19,8 +19,11 @@
  - Sensitive and Private Data Protection: 3.8
  
 2. ATP
- - Identification, Authentication and Authorization: 1.1, 1.2, 1.3, 1.4, 1.7, 1.8
- - Secure Transmission: 2.1, 2.2
+ - Identification, Authentication and Authorization: 1.1, 1.3, 1.12
+ - Secure Transmission: 2.2
+ - DOS attack : 5.3
+ - Security Document: 8.1
+ - Log Security: 9.1, 9.2, 9.4
  
 3. User-mgmt
 - Sensitive and Private Data Protection: 3.8
