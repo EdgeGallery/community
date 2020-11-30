@@ -31,7 +31,7 @@ Review progress for the second iterative test.
 introduce installation modes.
 
 
-4.CI/CD/CT与测试环境集成 --owner 许丹
+3.CI/CD/CT与现有测试环境集成进展 --owner 许丹
 
 
 ## meeting link
@@ -42,5 +42,3 @@ introduce installation modes.
 刘辉
 
 #遗留任务
-1、dns迭代周期确定 -- puhui、minxi
-【dns暂定迭代3；传雨同mep组沟通dns epic关联story的问题】
