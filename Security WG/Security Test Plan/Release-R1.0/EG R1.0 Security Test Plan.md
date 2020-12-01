@@ -31,7 +31,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 | [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU)        |    已完成    | 1.1， 8.1， 9.4 |  全部通过  | 未开始     |
 | [【Developer】应用开发界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDI2)        |    已完成    | 不涉及 |  无  | 无     |
 | [【Developer】构建测试详情界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDHC)       |    已完成    | 不涉及 |  无  | 无     |
-| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  测试中  |  未开始    |
+| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  通过  |  未开始    |
 
 
 ##### 3.2  sprint2:
