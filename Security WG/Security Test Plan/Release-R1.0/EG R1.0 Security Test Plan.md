@@ -39,27 +39,27 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 
 | Story        | 开发   | 关联合规用例 |  合规安全测试  | 渗透安全测试  |
 | --------   | -----:  | :----: | :----:  | :----:  |
-| [构建测试界面优化及联调](https://gitee.com/OSDT/dashboard?issue_id=I262FG)      | 已完成|    |   未开始     |   未开始     |
-| [多语言SDK的集成](https://gitee.com/OSDT/dashboard?issue_id=I262E6)       |   已完成|    |   未开始   |未开始     |
-| [【Developer】csar包的优化](https://gitee.com/OSDT/dashboard?issue_id=I25OQA)       |   已完成|    |  未开始  |未开始     |
-| [【Developer】构建测试相关接口实现](https://gitee.com/OSDT/dashboard?issue_id=I25OPG)     |    已完成|    |  未开始  | 未开始     |
-| [【AppStore】适配新版csar包结构，能够正确读取csar包信息](https://gitee.com/OSDT/dashboard?issue_id=I24W83)    |    已完成|    |  未开始  | 未开始     |
+| [构建测试界面优化及联调](https://gitee.com/OSDT/dashboard?issue_id=I262FG)      | 已完成|  不涉及  |   -     |   -     |
+| [多语言SDK的集成](https://gitee.com/OSDT/dashboard?issue_id=I262E6)       |   已完成|  不涉及  |   -   |-     |
+| [【Developer】csar包的优化](https://gitee.com/OSDT/dashboard?issue_id=I25OQA)       |   已完成| 不涉及   |  -  |-     |
+| [【Developer】构建测试相关接口实现](https://gitee.com/OSDT/dashboard?issue_id=I25OPG)     |    已完成|  不涉及  |  -  | -     |
+| [【AppStore】适配新版csar包结构，能够正确读取csar包信息](https://gitee.com/OSDT/dashboard?issue_id=I24W83)    |    已完成| 不涉及   |  -  | -     |
 | [【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF)        |    已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4    |  未开始  | 未开始     |
-| [【MEP-Agent】修改服务注册逻辑，允许不注册服务](https://gitee.com/OSDT/dashboard?issue_id=I23QX4)       |    已完成|    |  未开始  | 未开始     |
-| [【MEP】修改服务注册逻辑，为服务增加默认路由转发](https://gitee.com/OSDT/dashboard?issue_id=I23QX2)       |    已完成|    |  未开始  | 未开始     |
-|  [迭代2移除【Developer】API界面优化，分析多语言SDK，集成到开发者平台](https://gitee.com/OSDT/dashboard?issue_id=I22V1U)        |   待办|   |  未开始  |  未开始     |
-|  [【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN)        |   已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4   |  未开始  |  未开始     |
-|  [【Example APP】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ)        |   开发中|   |  未开始  |  未开始     |
-|  [【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成|   |  未开始  |  未开始     |
-|  [【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|   |  未开始  |  未开始     |
+| [【MEP-Agent】修改服务注册逻辑，允许不注册服务](https://gitee.com/OSDT/dashboard?issue_id=I23QX4)       |    已完成| 不涉及   |  -  | -     |
+| [【MEP】修改服务注册逻辑，为服务增加默认路由转发](https://gitee.com/OSDT/dashboard?issue_id=I23QX2)       |    已完成|  不涉及  |  -  | -     |
+|  [Epic【Developer】API界面优化，分析多语言SDK，集成到开发者平台](https://gitee.com/OSDT/dashboard?issue_id=I22V1U)    |  待办|不涉及  |  -  |  -  |
+|  [【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN)       |   已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4   |  未开始  |  未开始     |
+|  [【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及 | - | - |
+|  [【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -  |  -     |
+|  [【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  -  |  -     |
 |  [【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4   |   未开始     |   未开始     |
-|   [mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)   | 已完成|   |   未开始     |   未开始     |
+|   [mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   未开始     |   未开始     |
 |  [【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  未开始  |  未开始     |
 | [【MECM】边缘仓库能力支持](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY)       |   开发中|9.2 9.4 8.1 3.1   |  未开始  |  未开始     |
 |  [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  未开始  |  未开始     |
-|  [【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|   |  未开始  |  未开始     |
+|  [【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -  |  -     |
 |   [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成|   |   未开始     |   未开始     |
-|  [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   开发中|   |  未开始  |  未开始     |
+|  [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   开发中| 不涉及  |  -  |  -     |
 
 
 
