@@ -37,7 +37,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 ##### 3.2  sprint2:
 
 
-| Story        | 开发   | 关联合规用例 |  合规安全测试  | 渗透安全测试  |
+| Story        | 开发状态   | 关联合规用例 |  合规安全测试  | 渗透安全测试  |
 | --------   | -----:  | :----: | :----:  | :----:  |
 | [构建测试界面优化及联调](https://gitee.com/OSDT/dashboard?issue_id=I262FG)      | 已完成|  不涉及  |   -     |   -     |
 | [多语言SDK的集成](https://gitee.com/OSDT/dashboard?issue_id=I262E6)       |   已完成|  不涉及  |   -   |-     |
@@ -58,7 +58,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 | [【MECM】边缘仓库能力支持](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY)       |   开发中|9.2 9.4 8.1 3.1   |  未开始  |  未开始     |
 |  [【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  未开始  |  未开始     |
 |  [【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -  |  -     |
-|   [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成|   |   未开始     |   未开始     |
+|   [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始     |   未开始     |
 |  [【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   开发中| 不涉及  |  -  |  -     |
 
 
