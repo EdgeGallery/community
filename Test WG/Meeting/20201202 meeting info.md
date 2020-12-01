@@ -21,21 +21,20 @@
 - yangyang、zhangbeiyuan、zhoujun、chenchuanyu、chenruidong（华为）
 
 ## Topics议题
-1.review第二轮迭代测试进展、问题及总结--owner all
 
-Review progress for the second iterative test.
-
-
-2.介绍安装脚本模式 --owner zhaobaohui
+1.介绍安装脚本模式 --owner zhaobaohui
 
 introduce installation modes.
 
+2.review第二轮迭代测试进展、问题及总结--owner all
+
+Review progress for the second iterative test.
 
 3.CI/CD/CT与现有测试环境集成进展 --owner 许丹
 
 
 ## meeting link
-
+https://welink-meeting.zoom.us/j/206721417
 
 ## Minutes纪要
 ## 纪要人
