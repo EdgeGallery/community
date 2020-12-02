@@ -23,15 +23,15 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 
 | Story        | 开发状态   | 关联合规用例 |  合规安全测试  |关联渗透用例| 渗透测试状态  |
 | --------   | -----:  | :----: | :----: |  :----: | :----:  |
-| [need to add the role of GUEST for all of GET APIs in Developer](https://gitee.com/OSDT/dashboard?issue_id=I24IMF)      | 已完成 | 3.8 |  测试中     | EG-TST-SEC-007 |   测试中     |
-| [need to add the role of GUEST for all of GET APIs in AppStore](https://gitee.com/OSDT/dashboard?issue_id=I24IKL)        |   已完成   | 3.8 |   测试中   | EG-TST-SEC-007 |测试中     |
+| [need to add the role of GUEST for all of GET APIs in Developer](https://gitee.com/OSDT/dashboard?issue_id=I24IMF)      | 已完成 | 3.8 |  测试中     | EG-TST-SEC-007 |   测试中  |
+| [need to add the role of GUEST for all of GET APIs in AppStore](https://gitee.com/OSDT/dashboard?issue_id=I24IKL)        |   已完成   | 3.8 |   测试中   | EG-TST-SEC-007 |通过     |
 | [访客模式登录后，header需要保留“登录”入口，点击“登录”跳转到登录界面](https://gitee.com/OSDT/dashboard?issue_id=I23VQ7)       |   已完成 | 不涉及  |  无  | 不涉及|无     |
 | [用户管理模块中需要支持用户的角色定义](https://gitee.com/OSDT/dashboard?issue_id=I23FRE)    |  已完成  | 3.8 |  测试中 | EG-TST-SEC-007 | 测试中     |
 | [用户管理支持guest访客用户，在界面上只有只读权限](https://gitee.com/OSDT/dashboard?issue_id=I23FRC) | 开发中 | 3.8 | 测试中 | EG-TST-SEC-007 | 测试中 |
-| [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU) |已完成 | 1.1， 8.1， 9.4 |全部通过|  | |
+| [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU) |已完成 | 1.1， 8.1， 9.4 |全部通过| EG-TST-SEC-005 | 测试中 |
 | [【Developer】应用开发界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDI2)        |    已完成    | 不涉及 |  无  | 不涉及 |无     |
 | [【Developer】构建测试详情界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDHC)       |    已完成    | 不涉及 |  无 | 不涉及 | 无     |
-| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  通过  |   |    |
+| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  通过  | EG-TST-SEC-007  |  测试中  |
 
 
 ##### 3.2  sprint2:
@@ -51,10 +51,10 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及|-|不涉及 | - |
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
 |[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  - |不涉及 |  -  |
-|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2  |   未开始  |   |        |
+|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2  |   未开始  | EG-TST-SEC-007  |  未开始      |
 |[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  未开始  |  未开始     |
-|[【MECM】边缘仓库能力支持](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY)       |   开发中|9.2 9.4 8.1 3.1 <br/> 1.1 2.1 2.2 5.3 1.3 5.3 9.1 6.2 |  未开始 | |       |
+|[【MECM】边缘仓库能力支持](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY)       |   开发中|9.2 9.4 8.1 3.1 <br/> 1.1 2.1 2.2 5.3 1.3 5.3 9.1 6.2 |  未开始 | EG-TST-SEC-007 |  未开始 |
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始     |
