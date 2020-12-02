@@ -11,7 +11,7 @@ NA
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/1125/125248_4fc929ca_7639331.png "屏幕截图.png")
+![输入图片说明](https://gitee.com/edgegallery/edgeT/raw/master/docs/arch.PNG "屏幕截图.png")
 
 ### 新增或者修改的接口 New or modified interfaces
 
