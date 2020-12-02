@@ -6,6 +6,8 @@
 |[【MEP】Mep Server add app heartbeat API](https://gitee.com/OSDT/dashboard?issue_id=I1QGUZ)|Rule 1.2 |
 |[【MEP】修改服务注册逻辑，为服务增加默认路由转发](https://gitee.com/OSDT/dashboard?issue_id=I23QX2)|不涉及 |
 |[【MEP-Agent】修改服务注册逻辑，允许不注册服务](https://gitee.com/OSDT/dashboard?issue_id=I23QX4)|不涉及 |
+|[【MEP-Agent】mep-agent get token interface](https://gitee.com/OSDT/dashboard?issue_id=I23QX8)| Rule 1.1, 2.1, 8.1, 9.2, 9.4  |
+|[【MEP-Agent】AK/SK configuration](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)| Rule 9.3 |
 
 ## 【MEP】MEP Support to query the capabilities
 
