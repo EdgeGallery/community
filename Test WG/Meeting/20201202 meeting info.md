@@ -30,8 +30,11 @@ introduce installation modes.
 
 Review progress for the second iterative test.
 
+【当前累计49个bug：27个已修复，21个修复中，1个取消；严重bug4个，2个修复中，1个已修复，1个取消；主要bug13个；次要bug19个；其余bug13个】
+
 3.CI/CD/CT与现有测试环境集成进展 --owner 许丹
 
+4.edgeT进展 --owner 李治谦
 
 ## meeting link
 https://welink-meeting.zoom.us/j/206721417
