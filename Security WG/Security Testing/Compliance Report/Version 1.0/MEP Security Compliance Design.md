@@ -68,3 +68,89 @@
 | GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
+
+## 【MEP-Agent】mep-agent get token interface
+
+### Rule 1.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and human-to-machine interfaces used for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on the server. |
+| Implementation details  | Mep-agent providing an API to get the token to the application which will run along with it in same pod. Since both of them running in same pod, this rule is not applicable. No user authentication is required.|
+| Related APIs            | GET /mep-agent/v1/token |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 2.1
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission. |
+| Implementation details  | Mep-agent providing an API to get the token to the application which will run along with it in same pod. Since both of them running in same pod, this rule is not applicable. We use http to get the token. And the port is internal to POD and not exposed outside. |
+| Related APIs            | GET /mep-agent/v1/token |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 8.1
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
+| Implementation details  | New get token interface has been recorded in the API documents. [link](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.0/mep_agent_token_api.md)|
+| Related APIs            | GET /mep-agent/v1/token |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.2
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | Sufficient Logging |
+| Implementation details  | Logs are taken care to record only failure scenarios and some events. |
+| Related APIs            | GET /mep-agent/v1/token |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.4 Avoid recording too much data. |
+| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Related APIs            | GET /mep-agent/v1/token |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+## 【MEP-Agent】AK/SK configuration
+
+### Rule 9.3
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.3 Do not add Sensitive Information into Log or Log file.  | No logs added to print AK/SK values. |
+| Related APIs            | NA |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
