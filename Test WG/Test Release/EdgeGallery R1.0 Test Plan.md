@@ -52,8 +52,10 @@
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【Lab】搭建社区实验室管理服务平台   
 - 【installtaion】installation script （several modes）【李治谦】
-- 【Test】develop the Test Platform for supporting testcase management 
+- 【Test】develop the Test Platform for supporting testcase management【孟璞辉】 
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
+- 【Test】The optimization of edgegallery installation package  【姜伟】
+- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】
 
 **4. Test Case Management** 
 
