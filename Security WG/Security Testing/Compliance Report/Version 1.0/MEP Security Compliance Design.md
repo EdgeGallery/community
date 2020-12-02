@@ -4,6 +4,8 @@
 |----|----|
 |[【MEP】MEP Support to query the capabilities.](https://gitee.com/edgegallery/mep/issues/I1W7UU) | Rule 1.1, Rule 8.1, Rule 9.4|
 |[【MEP】Mep Server add app heartbeat API](https://gitee.com/OSDT/dashboard?issue_id=I1QGUZ)|Rule 1.2 |
+|[【MEP】修改服务注册逻辑，为服务增加默认路由转发](https://gitee.com/OSDT/dashboard?issue_id=I23QX2)|不涉及 |
+|[【MEP-Agent】修改服务注册逻辑，允许不注册服务](https://gitee.com/OSDT/dashboard?issue_id=I23QX4)|不涉及 |
 
 ## 【MEP】MEP Support to query the capabilities
 
