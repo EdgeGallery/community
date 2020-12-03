@@ -5,8 +5,8 @@ Sprint3: 2020-11-30 ~ 2020-12-11
 ## MEP V1.0 Requirtments
 | Story Name | Target Sprint | 2020-11-2 ~ 2020-11-6 | 2020-11-9 ~ 2020-11-13 | 2020-11-16 ~ 2020-11-20 | 2020-11-23 ~ 2020-11-27 | 2020-11-30 ~ 2020-12-4 | 2020-12-7 ~ 2020-12-11 |
 |-----------|-------------|----------|-----------|-------------|----------|----------|----------|
-| [【MEP】【Docs】Finalize MEP v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V9G) | Sprint3   |   NA   |  NA |  NA  |    |    |
-| [Health-check support for eg components(using liveliness & readiness probes)--mep](https://gitee.com/OSDT/dashboard?issue_id=I23CZD) | Sprint3   |   NA  |  NA |  NA  |    |    |
+| [【MEP】【Docs】Finalize MEP v1.0 Documentation](https://gitee.com/OSDT/dashboard?issue_id=I23V9G) | Sprint3   |   NA   |  NA |  NA  |   NA |    |
+| [Health-check support for eg components(using liveliness & readiness probes)--mep](https://gitee.com/OSDT/dashboard?issue_id=I23CZD) | Sprint3   |   NA  |  NA |  NA  |  NA  |    |
 | [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU) |  Sprint1   |   code finished and wait for MECM to integrated test  |   |  MECM will finish sprint3 and integrated test |    |    |
 | [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P) | Sprint1    |  done  |   |    |    |    |
 | [mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E) |  Sprint2  |  code 50%   | code 90%  |  code finished  |    |    |
