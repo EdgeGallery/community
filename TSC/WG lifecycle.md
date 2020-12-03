@@ -19,7 +19,7 @@ WG在每个状态之间转移均需要在社区TSC评审通过，具体的评审
 
 WG申请一般涉及两类情况：1）新建工作组；2）已有WG或者项目组变化（重组，拆分等）。两种情况均需要遵循以下流程：
 
-1.	完成[项目申请模板](http://https://gitee.com/edgegallery/community/blob/master/TSC/Templates/New%20Project%20Team%20Proposal%20v1.pptx)并提交项目申请
+1.	完成WG申请模板并提交项目申请
 2.	进入WG申请评议阶段，跟相关的项目组或者WG完成关联沟通
 3.	在TSC汇报申请，TSC决策通过后，WG正式进入执行阶段，之后根据章程组织工作组主席，副主席的选举
 
