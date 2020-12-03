@@ -32,9 +32,10 @@ EdgeGallery社区对项目的定义：有明确的范围和任务的相对长期
 
 1.	在项目组或工作组内部讨论技术方案以及涉及的新建仓库
 2.	架构组评审技术方案
-3.	完成[新建仓库申请模板](https://gitee.com/edgegallery/community/blob/master/TSC/Templates/New%20Repo%20Application%20v1.1.pptx)
+3.	完成[新建仓库申请模板](https://gitee.com/edgegallery/community/tree/master/TSC/Templates)
 4.	申请TSC议题，汇报评审
 5.	TSC决策通过后，正式新建仓库
+6.	如果模板中仓库type选择的是internal open，意味新建立的仓库只在团队内公开；如果后续对外开放，需要在安全工作组评估遵从度后，TSC申报决策。
 
 
 ## 闭门项目转正流程（临时-09-30 已失效）
