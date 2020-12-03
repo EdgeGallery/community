@@ -1,6 +1,6 @@
 # EdgeGallery Jenkins Introduction
 
-## JJB to manage all Jenkins Jobs
+## JJB to Manage all Jenkins Jobs
 
 All EdgeGallery Jenkins jobs have been managed by [Jenkin Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/)
 now instead of manually configured. That means all jobs you see in [EdgeGallery Jenkins Portal](http://http://jenkins.edgegallery.org)
@@ -74,6 +74,7 @@ Each project are free to define what its PR submit job should do (e.g. do unit t
 in which case it can say the new code submitted are fully test and can be merged. The results of this kind of
 job will be comment back to the PR page after several seconds (could be minutes if the pr check take a long time).
 Before you merge the PR, please make sure it get a PASS for the PR submit check job.
+
 ![pr-submit-check-pass](https://images.gitee.com/uploads/images/2020/1203/104226_c0bc5b74_7634758.png "pr-results-comment-back.png")
 
 ## 3rdparty Dependency Check Jobs
