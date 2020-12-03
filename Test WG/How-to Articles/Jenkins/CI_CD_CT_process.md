@@ -30,34 +30,34 @@ the example. The following figure shows the view of project website-gateway.
 In order to make sure the CI team can get the right people as well as letting Jenkins to send the jobs failure
 email to him/her, following is a table to list all contact people for each project. Please feel free to add your name in.
 
-| Project Name        | Contacts             |
-|---------------------|----------------------|
-| api-emulator        |                      |
-| appstore-be         |                      |
-| appstore-fe         |                      |
-| atp                 | liuhuiling           |
-| atp-fe              | liuhuiling           |
-| ci-management       | xudan                |
-| developer-be        | zhanghailong         |
-| developer-fe        |                      |
-| docs                |                      |
-| edgeT               | Kanag                |
-| example             |                      |
-| helm-chart          |                      |
-| integration-testing | zhangali, liyuanyuan |
-| mecm-apm            |                      |
-| mecm-applcm         |                      |
-| mecm-appo           |                      |
-| mecm-fe             |                      |
-| mecm-inventory      |                      |
-| mep                 | luxin                |
-| mep-agent           |                      |
-| platform-mgmt       |                      |
-| plugins             |                      |
-| toolchain           |                      |
-| user-mgmt           |                      |
-| user-mgmt-fe        |                      |
-| website-gateway     |                      |
+| Project Name        | Contacts             | Email                |
+|---------------------|----------------------|----------------------|
+| api-emulator        |                      |                      |
+| appstore-be         |                      |                      |
+| appstore-fe         |                      |                      |
+| atp                 | liuhuiling           |                      |
+| atp-fe              | liuhuiling           |                      |
+| ci-management       | xudan                | xudan16@huawei.com   |
+| developer-be        | zhanghailong         |                      |
+| developer-fe        |                      |                      |
+| docs                |                      |                      |
+| edgeT               | Kanag                |                      |
+| example             |                      |                      |
+| helm-chart          |                      |                      |
+| integration-testing | zhangali, liyuanyuan |                      |
+| mecm-apm            |                      |                      |
+| mecm-applcm         |                      |                      |
+| mecm-appo           |                      |                      |
+| mecm-fe             |                      |                      |
+| mecm-inventory      |                      |                      |
+| mep                 | luxin                |                      |
+| mep-agent           |                      |                      |
+| installer           |                      |                      |
+| plugins             |                      |                      |
+| toolchain           |                      |                      |
+| user-mgmt           |                      |                      |
+| user-mgmt-fe        |                      |                      |
+| website-gateway     |                      |                      |
 
 # EdgeGallery CI/CD/CT Process
 
