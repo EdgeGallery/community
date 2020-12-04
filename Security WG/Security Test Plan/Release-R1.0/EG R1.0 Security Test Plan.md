@@ -54,7 +54,6 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2  |   未开始  | EG-TST-SEC-007  |  未开始      |
 |[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  未开始  |  未开始     |
-|[【MECM】边缘仓库能力支持](https://gitee.com/OSDT/dashboard?issue_id=I1QXSY)       |   开发中|9.2 9.4 8.1 3.1 <br/> 1.1 2.1 2.2 5.3 1.3 5.3 9.1 6.2 |  未开始 | EG-TST-SEC-007 |  未开始 |
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始     |
