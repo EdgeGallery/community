@@ -58,7 +58,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始     |
-|[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 不涉及  |  - |不涉及 |  -     |
+|[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  未开始 |不涉及 |  -     |
 
 
 
@@ -77,7 +77,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 待办|不涉及   | -   |  -    |
 |[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 待办|1.3 5.3 9.1 9.2 9.4 1.12 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   未开始     |   未开始     |
 |[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 待办| 1.3 5.3 9.1 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   未开始     |   未开始     |
-|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|不涉及 |-|- |
+|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |未开始|- |
 |[【Developer】CSAR包结构重构](https://gitee.com/OSDT/dashboard?issue_id=I23QX0)   | 待办| 不涉及  |  -  |  -  |
 |[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 待办| 不涉及  |  -   |  -  |
 |[【Developer】应用发布界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1XZMT)    | 待办| 不涉及  |  -   |  -  |
