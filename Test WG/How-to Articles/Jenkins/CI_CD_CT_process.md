@@ -43,8 +43,8 @@ email to him/her, following is a table to list all contact people for each proje
 | docs                |                      |                          |
 | edgeT               | Kanag                | kanagaraj.manickam@huawei.com|
 | example             |                      |                          |
-| helm-chart          | Kanag                | kanagaraj.manickam@huawei.com|
-| integration-testing | zhangali, liyuanyuan |                          |
+| helm-chart          | lizhiqian            | lizhiqian1@huawei.com|
+| integration-testing | zhangali, liyuanyuan | zhangali@huawei.com,  liyuanyuan57@huawei.com|
 | mecm-apm            |                      |                          |
 | mecm-applcm         |                      |                          |
 | mecm-appo           |                      |                          |
@@ -52,12 +52,12 @@ email to him/her, following is a table to list all contact people for each proje
 | mecm-inventory      |                      |                          |
 | mep                 | luxin                | luxin7@huawei.com        |
 | mep-agent           | luxin                | luxin7@huawei.com        |
-| installer           |                      |                          |
+| installer           | Kanag, B Sharath Kumar Reddy| kanagaraj.manickam@huawei.com, bs.reddy@huawei.com|
 | plugins             | swarup               | swarup.nayak1@huawei.com |
 | toolchain           | helongfei            | helongfei6@huawei.com    |
 | user-mgmt           | zhangbeiyuan         | zhangbeiyuan@huawei.com  |
 | user-mgmt-fe        | zhangbeiyuan         | zhangbeiyuan@huawei.com  |
-| website-gateway     | zhangbeiyuan         | zhangbeiyuan@huawei.com                           |
+| website-gateway     | zhangbeiyuan         | zhangbeiyuan@huawei.com |
 
 # EdgeGallery CI/CD/CT Process
 
