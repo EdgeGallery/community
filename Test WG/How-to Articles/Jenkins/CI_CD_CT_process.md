@@ -48,6 +48,7 @@ email to him/her, following is a table to list all contact people for each proje
 | mecm-apm            | Vidyashree Rama      | Vidyashree.Rama@huawei.com|
 | mecm-applcm         | Rama Subba Reddy S   | Rama.Subba.Reddy.S@huawei.com|
 | mecm-appo           | Shashikanth V H      | shashikanth.vh@huawei.com|
+| mecm-apprulemgr     | Gaurav               | gaurav.agrawal@huawei.com|
 | mecm-fe             | yangyang             | yangyang263@huawei.com   |
 | mecm-inventory      | Vidyashree Rama      | Vidyashree.Rama@huawei.com|
 | mep                 | luxin                | luxin7@huawei.com        |
