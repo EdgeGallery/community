@@ -45,11 +45,11 @@ email to him/her, following is a table to list all contact people for each proje
 | example             |                      |                          |
 | helm-chart          | lizhiqian            | lizhiqian1@huawei.com|
 | integration-testing | zhangali, liyuanyuan | zhangali@huawei.com,  liyuanyuan57@huawei.com|
-| mecm-apm            |                      |                          |
-| mecm-applcm         |                      |                          |
-| mecm-appo           |                      |                          |
-| mecm-fe             |                      |                          |
-| mecm-inventory      |                      |                          |
+| mecm-apm            | Vidyashree Rama      | Vidyashree.Rama@huawei.com|
+| mecm-applcm         | Rama Subba Reddy S   | Rama.Subba.Reddy.S@huawei.com|
+| mecm-appo           | Shashikanth V H      | shashikanth.vh@huawei.com|
+| mecm-fe             | yangyang             | yangyang263@huawei.com   |
+| mecm-inventory      | Vidyashree Rama      | Vidyashree.Rama@huawei.com|
 | mep                 | luxin                | luxin7@huawei.com        |
 | mep-agent           | luxin                | luxin7@huawei.com        |
 | installer           | Kanag, B Sharath Kumar Reddy| kanagaraj.manickam@huawei.com, bs.reddy@huawei.com|
