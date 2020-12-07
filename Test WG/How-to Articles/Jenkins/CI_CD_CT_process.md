@@ -32,18 +32,18 @@ email to him/her, following is a table to list all contact people for each proje
 
 | Project Name        | Contacts             | Email                    |
 |---------------------|----------------------|--------------------------|
-| api-emulator        |                      |                          |
-| appstore-be         |                      |                          |
-| appstore-fe         |                      |                          |
+| api-emulator        | zhanghailong         | zhanghailong22@huawei.com|
+| appstore-be         | sunjinghan           | sunjinghan@huawei.com    |
+| appstore-fe         | sunjinghan           | sunjinghan@huawei.com    |
 | atp                 | liuhuiling           | liuhuiling4@huawei.com   |
 | atp-fe              | liuhuiling           | liuhuiling4@huawei.com   |
 | ci-management       | xudan                | xudan16@huawei.com       |
-| developer-be        | zhanghailong         |                          |
-| developer-fe        |                      |                          |
+| developer-be        | zhanghailong         | zhanghailong22@huawei.com|
+| developer-fe        | zhanghailong         | zhanghailong22@huawei.com|
 | docs                |                      |                          |
-| edgeT               | Kanag                |                          |
+| edgeT               | Kanag                | kanagaraj.manickam@huawei.com|
 | example             |                      |                          |
-| helm-chart          |                      |                          |
+| helm-chart          | Kanag                | kanagaraj.manickam@huawei.com|
 | integration-testing | zhangali, liyuanyuan |                          |
 | mecm-apm            |                      |                          |
 | mecm-applcm         |                      |                          |
@@ -54,10 +54,10 @@ email to him/her, following is a table to list all contact people for each proje
 | mep-agent           | luxin                | luxin7@huawei.com        |
 | installer           |                      |                          |
 | plugins             | swarup               | swarup.nayak1@huawei.com |
-| toolchain           |                      |                          |
-| user-mgmt           |                      |                          |
-| user-mgmt-fe        |                      |                          |
-| website-gateway     |                      |                          |
+| toolchain           | helongfei            | helongfei6@huawei.com    |
+| user-mgmt           | zhangbeiyuan         | zhangbeiyuan@huawei.com  |
+| user-mgmt-fe        | zhangbeiyuan         | zhangbeiyuan@huawei.com  |
+| website-gateway     | zhangbeiyuan         | zhangbeiyuan@huawei.com                           |
 
 # EdgeGallery CI/CD/CT Process
 
