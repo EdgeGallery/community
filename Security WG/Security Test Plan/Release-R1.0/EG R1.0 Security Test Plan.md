@@ -44,10 +44,10 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Developer】csar包的优化](https://gitee.com/OSDT/dashboard?issue_id=I25OQA)       |   已完成| 不涉及   |  -  |不涉及|-     |
 |[【Developer】构建测试相关接口实现](https://gitee.com/OSDT/dashboard?issue_id=I25OPG)     |    已完成|  不涉及  |  - |不涉及 | -     |
 |[【AppStore】适配新版csar包结构，能够正确读取csar包信息](https://gitee.com/OSDT/dashboard?issue_id=I24W83)  |  已完成| 不涉及 |  - |不涉及 | - |
-|[【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF)        |    已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 | 1.3，2.1，8.1，9.1,9.2,9.4 通过   | EG-TST-SEC-007 | 未开始 |
+|[【MECM】MECM Support Batch Distribution and Batch Deployment](https://gitee.com/OSDT/dashboard?issue_id=I249AF)        |    已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 | 1.3，2.1，8.1，9.1,9.2,9.4 通过   | EG-TST-SEC-007 | 测试中 |
 |[【MEP-Agent】修改服务注册逻辑，允许不注册服务](https://gitee.com/OSDT/dashboard?issue_id=I23QX4)     |    已完成| 不涉及   |  - |不涉及 | -  |
 |[【MEP】修改服务注册逻辑，为服务增加默认路由转发](https://gitee.com/OSDT/dashboard?issue_id=I23QX2)    |   已完成|  不涉及  |  - |不涉及 | - |
-|[【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN)       |   已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 6.2 |  2.1,8.1，9.1,9.2,9.4 通过 <br> 1.3 5.3 不通过 [I2808A](https://gitee.com/OSDT/dashboard/issues?id=I2808A)  | EG-TST-SEC-005<br/>EG-TST-SEC-007 |  通过     |
+|[【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN)       |   已完成|1.3 5.3 9.1 1.12 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 6.2 |  2.1,8.1，9.1,9.2,9.4 通过 <br> 1.3 5.3 不通过 [I2808A](https://gitee.com/OSDT/dashboard/issues?id=I2808A)  | EG-TST-SEC-005<br/>EG-TST-SEC-007 |  全部通过     |
 |[【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及|-|不涉及 | - |
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
 |[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  - |不涉及 |  -  |
