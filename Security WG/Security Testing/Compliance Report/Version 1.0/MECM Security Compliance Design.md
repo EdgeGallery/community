@@ -216,12 +216,12 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】MECM Support AK/SK
 
-### Rule 1.3, 5.3, 9.1
+### Rule 1.3, 5.3
 Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
+| Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit. |
 | Implementation details  | All security measures applied to the interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GRPC InstantiateRequest   |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html |
