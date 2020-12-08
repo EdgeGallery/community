@@ -14,6 +14,7 @@
 - 范桂飓（九州云）
 - 鹿鑫（华为）
 - 余宇清（中移上海产研院）
+- Zeloas
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
