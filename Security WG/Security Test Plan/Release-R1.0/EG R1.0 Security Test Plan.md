@@ -51,7 +51,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及|-|不涉及 | - |
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
 |[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  - |不涉及 |  -  |
-|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  |   1.3通过 <br>5.3未通过 | EG-TST-SEC-007  |  未开始      |
+|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 9.1 3.3 4.5 1.12 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  |   1.3，5.3通过  | EG-TST-SEC-007  |  未开始      |
 |[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  未开始  |  未开始     |
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
