@@ -57,7 +57,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   未开始     |
-|[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  未开始 |不涉及 |  -     |
+|[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  通过 |不涉及 |  -     |
 
 
 
