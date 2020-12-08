@@ -60,3 +60,4 @@ https://welink-meeting.zoom.us/j/206721417
 刘辉
 
 #遗留任务
+1.当前同紫金山测试环境集成时出现一定异常中断，需要跟踪 --owner liuhui xudan jiangwei
