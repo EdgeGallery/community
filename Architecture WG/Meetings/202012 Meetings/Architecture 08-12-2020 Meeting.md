@@ -7,7 +7,13 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- TBA
+- 于洋（华为）
+- 刘辉（紫金山）
+- 张海龙（华为）
+- 陈共龙（腾讯）
+- 范桂飓（九州云）
+- 鹿鑫（华为）
+- 余宇清（中移上海产研院）
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
