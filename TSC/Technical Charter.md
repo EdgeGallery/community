@@ -108,7 +108,7 @@ EdgeGallery社区由多个不同的项目组成。每个项目由来自多个公
   * integration-testing：版本发布的测试用例
   * edget：版本的自动化测试框架
   * platform-mgmt：离线安全脚本
-* 集成与IT组：负责EdgeGallery的社区基础设施建设，包括但不限于，社区实验室建设，社区CICD建设，社区基础设施IT维护等，同时负责维护以下代码仓：
+* 集成与IT组：负责EdgeGallery的社区基础设施建设，包括但不限于，社区实验室建设，社区CICD建设，社区基础设施IT维护等，同时负责维护代码仓（更多信息见[集成与IT组页面](https://gitee.com/edgegallery/community/tree/master/Integration%20WG)）：
   * atp：应用认证平台
 * 云链接组：负责拓展EdgeGallery的云边协同
 * 用户组：主要负责讨论、管理用户，应用场景，应用集成计划等
