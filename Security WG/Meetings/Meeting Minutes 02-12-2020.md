@@ -6,7 +6,13 @@
 
 ## Meeting Attendees
 ** **
-
+- Satish 华为
+- 程润东  华为
+- 扈冰 华为
+- 张倍源 华为
+- 鹿鑫 华为
+- 张阿利 华为
+- 张海龙 华为
 
 
 
@@ -23,8 +29,7 @@
 ## Discussion Items and Minutes
 
 ** **
-- 
-
+- 程润东 介绍了当前测试进展，与测试出来的问题 ， 与大家进行澄清讨论， Satish进行评论，把关。
 ## Voting Items
 
 ** **
