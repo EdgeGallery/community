@@ -31,7 +31,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 | [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU) |已完成 | 1.1， 8.1， 9.4 |全部通过| EG-TST-SEC-005 | 通过 |
 | [【Developer】应用开发界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDI2)        |    已完成    | 不涉及 |  无  | 不涉及 |无     |
 | [【Developer】构建测试详情界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDHC)       |    已完成    | 不涉及 |  无 | 不涉及 | 无     |
-| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  通过  | EG-TST-SEC-007  |  测试中  |
+| [mepserver app heartbeat design documentation](https://gitee.com/OSDT/dashboard?issue_id=I1QT6P)      |   已完成   | 1.2 |  通过  | 不涉及 | 无  |
 
 
 ##### 3.2  sprint2:
@@ -51,7 +51,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及|-|不涉及 | - |
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
 |[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  - |不涉及 |  -  |
-|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 3.3 4.5 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  | 全部通过  | EG-TST-SEC-007  |  未开始      |
+|[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 3.3 4.5 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  | 全部通过  | EG-TST-SEC-007  |  通过   |
 |[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   测试中   | EG-TST-SEC-007 |   未开始 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  -  |  -     |
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
