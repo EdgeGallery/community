@@ -14,7 +14,7 @@
 - 丁宇卿（紫金山实验室）
 -  _李强（华为）_ 
 -  _扈冰（华为）_ 
--   _kanaga（华为） _ 
+-    _kanaga（华为）_  
 -  _shashikanth（华为）_ 
 -  _蔡舒豪（华为）_ 
 -  _徐军杰（九州云）_ 
@@ -50,13 +50,13 @@ Review progress for the second iterative test.
 
 - 【ATP】App应用的测试能力增强 【张阿利】（开发提供ppt，在了解）
 - 【Developer】应用发布界面优化 【李媛媛】（本周可能无法结束）
-- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
+- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】（预估10天提测）
 - 【Lab】搭建社区实验室管理服务平台
 - 【installtaion】installation script （several modes）【李治谦】
 - 【Test】develop the Test Platform for supporting testcase management【孟璞辉】（需要自行build，启动测试）
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】（本周需要确认）
 - 【Test】The optimization of edgegallery installation package 【姜伟】（包含多个story，预计本周结束时完成3个story；其余需要延期到后几周）
-- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】
+- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】（本周研发可结束）
 
 
 3.edgeT测试进展 --owner 孟璞辉
