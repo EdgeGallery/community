@@ -26,19 +26,21 @@
 
 Review progress for the second iterative test.
 
-【当前累计62个bug（其中9个安全类bug）：27个修复中，32个已修复，3个取消；严重bug5个，3个修复中，1个已修复，1个取消；主要bug17个；次要bug23个；其余bug17个】
+【当前累计62个bug（其中10个安全类bug）：29个修复中，30个已修复，3个取消；严重bug5个(3个修复中，1个已修复，1个取消)；主要bug17个；次要bug23个；其余bug17个】
 
-【Developer】构建测试界面优化 【李媛媛】
-【ATP】App应用的测试能力增强 【张阿利】
-【Developer】构建测试能力详情优化 【李媛媛】（app部署流程在测试环境下不通，开发环境下ok）
-【Developer】应用发布界面优化 【李媛媛】（放到迭代3）
-【Developer】API界面优化，分析多语言SDK，集成到开发者平台 【李媛媛】
-【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】（可测功能已提单；其余放到迭代3）
-【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】（放入迭代3）
-【Test】The optimization of edgegallery installation package 【姜伟】（有2个story可测；其他放入迭代3）
-【MECM】Application Managment & Topology Enhancement 【张阿利】（not ready）
-【installtaion】installation script （several modes）【李治谦】
-【mep】mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft【敏熙】（研发环境ready，测试环境等待更新）
+
+- 【Developer】构建测试界面优化 【李媛媛】
+- 【ATP】App应用的测试能力增强 【张阿利】
+- 【Developer】构建测试能力详情优化 【李媛媛】（app部署流程在测试环境下不通，开发环境下ok）
+- 【Developer】应用发布界面优化 【李媛媛】（放到迭代3）
+- 【Developer】API界面优化，分析多语言SDK，集成到开发者平台 【李媛媛】
+- 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】（可测功能已提单；其余放到迭代3）
+- 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】（放入迭代3）
+- 【Test】The optimization of edgegallery installation package 【姜伟】（有2个story可测；其他放入迭代3）
+- 【MECM】Application Managment & Topology Enhancement 【张阿利】（not ready）
+- 【installtaion】installation script （several modes）【李治谦】
+- 【mep】mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft【敏熙】（研发环境ready，测试环境等待更新）
+
 
 2、第三次迭代测试需求澄清进展 --owner all
 
