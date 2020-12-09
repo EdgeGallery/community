@@ -26,8 +26,8 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 | [need to add the role of GUEST for all of GET APIs in Developer](https://gitee.com/OSDT/dashboard?issue_id=I24IMF)      | 已完成 | 3.8 |  不通过     | EG-TST-SEC-007 |   [未通过 I281KP](https://gitee.com/OSDT/dashboard?issue_id=I281KP)  |
 | [need to add the role of GUEST for all of GET APIs in AppStore](https://gitee.com/OSDT/dashboard?issue_id=I24IKL)        |   已完成   | 3.8 |   通过   | EG-TST-SEC-007 |通过     |
 | [访客模式登录后，header需要保留“登录”入口，点击“登录”跳转到登录界面](https://gitee.com/OSDT/dashboard?issue_id=I23VQ7)       |   已完成 | 不涉及  |  无  | 不涉及|无     |
-| [用户管理模块中需要支持用户的角色定义](https://gitee.com/OSDT/dashboard?issue_id=I23FRE)    |  已完成  | 3.8 |  测试中 | EG-TST-SEC-007 | 通过     |
-| [用户管理支持guest访客用户，在界面上只有只读权限](https://gitee.com/OSDT/dashboard?issue_id=I23FRC) | 开发中 | 3.8 | 通过 | EG-TST-SEC-007 | 测试中<br>(开发未完毕) |
+| [用户管理模块中需要支持用户的角色定义](https://gitee.com/OSDT/dashboard?issue_id=I23FRE)    |  已完成  | 3.8 |  通过 | EG-TST-SEC-007 | 通过     |
+| [用户管理支持guest访客用户，在界面上只有只读权限](https://gitee.com/OSDT/dashboard?issue_id=I23FRC) | 开发中 | 3.8 | 测试中 | EG-TST-SEC-007 | 测试中<br>(开发未完毕) |
 | [【MEP】MEP Support to query the capabilities.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UU) |已完成 | 1.1， 8.1， 9.4 |全部通过| EG-TST-SEC-005 | 通过 |
 | [【Developer】应用开发界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDI2)        |    已完成    | 不涉及 |  无  | 不涉及 |无     |
 | [【Developer】构建测试详情界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDHC)       |    已完成    | 不涉及 |  无 | 不涉及 | 无     |
