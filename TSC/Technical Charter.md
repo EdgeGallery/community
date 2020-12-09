@@ -99,10 +99,10 @@ EdgeGallery社区由多个不同的项目组成。每个项目由来自多个公
 * 工作组需要在Community/WG下创建自己的子目录，存放本工作组的相关文档和成员信息 
 
 ### 当前设置的工作组如下：
-* 架构组：负责EdgeGallery的架构设计和竞争力维护，拉通各子项目的整体架构设计，同时负责维护以下代码仓：
+* 架构组：负责EdgeGallery的架构设计和竞争力维护，拉通各子项目的整体架构设计，同时负责维护代码仓（更多信息见[架构组页面](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG)）：
   * docs：版本的文档仓库
 * 安全组：EdgeGallery安全工作组致力于通过架构、文档、代码审查和漏洞管理来改进EdgeGallery安全。总体目标是确保EdgeGallery平台和通过它贡献的MEC应用程序的安全可靠运行。主要工作包括：漏洞管理，MEP平台的安全、平台部署的安全，上车应用的安全认证等。
-* 测试组：主要负责EdgeGallery社区跨项目的集成测试工作，保障版本的发布，同时负责维护以下代码仓：
+* 测试组：主要负责EdgeGallery社区跨项目的集成测试工作，保障版本的发布，同时负责维护代码仓（更多信息见[测试组页面](https://gitee.com/edgegallery/community/tree/master/Test%20WG)）：
   * helm-charts：PT的helm安装包，提供给离线部署以及CD流水线
   * ci-management：版本发布的CI流水线
   * integration-testing：版本发布的测试用例
