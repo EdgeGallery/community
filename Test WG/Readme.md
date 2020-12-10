@@ -19,11 +19,16 @@
 | 丁宇卿     | 紫金山实验室                  | dingyuqing@pmlabs.com.cn       |                               |  
 
 ## 工作组会议
-* 每周四晚上7-8点周例会；
+* 每周三16：30-17：30周例会；
 * 每周二前在meeting下反馈下次例会议题；
 
 ## 工作组repo
-* 待补充
+* helm-charts：PT的helm安装包，提供给离线部署以及CD流水线
+* ci-management：版本发布的CI流水线
+* integration-testing：版本发布的测试用例
+* edget：版本的自动化测试框架
+* platform-mgmt：离线安全脚本
+
 ## 工作组联系方式
 * 邮件列表：测试工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
 * 其他： 请在邮件标题#TEST用以区分
