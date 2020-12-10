@@ -49,7 +49,7 @@
 - 【ATP】App应用的测试能力增强      【张阿利】
 - 【Developer】应用发布界面优化               【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
-- 【Lab】搭建社区实验室管理服务平台   
+-  _【Lab】搭建社区实验室管理服务平台_     
 - 【installtaion】installation script （several modes）【李治谦】
 - 【Test】develop the Test Platform for supporting testcase management【孟璞辉】 
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
