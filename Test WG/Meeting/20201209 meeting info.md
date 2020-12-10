@@ -57,7 +57,7 @@ Review progress for the second iterative test.
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】（本周需要确认）
 - 【Test】The optimization of edgegallery installation package 【姜伟】（包含多个story，预计本周结束时完成3个story；其余需要延期到后几周）
 - 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】（本周研发可结束）
-- 【developer/mecm/mep】支持与UPF集成（规则配置）【孟璞辉】（同研发确认dns等规则配置实现进度）
+
 
 
 3.edgeT测试进展 --owner 孟璞辉
