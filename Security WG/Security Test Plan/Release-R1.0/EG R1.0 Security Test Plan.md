@@ -58,7 +58,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   测试中     |
 |[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  通过 |不涉及 |  -     |
-|【ATP】创建任务、查询任务、测试报告下载、获取依赖应用、查询测试用例接口开发| 已完成|1.1 1.3 1.12 2.2 5.3 8.1 9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-004<br/>EG-TST-SEC-005<br>EG-TST-SEC-007|测试中|
+|【ATP】创建任务、查询任务、测试报告下载、获取依赖应用、查询测试用例接口开发| 已完成|1.1 1.3 1.12 2.2 5.3 8.1 9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-004<br/>EG-TST-SEC-005<br>EG-TST-SEC-007|[I28UOG未通过](https://gitee.com/OSDT/dashboard?issue_id=I28UOG),其他全部通过|
 |【ATP】定时删除过期数据、处理异常的运行中用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
 |【ATP】遵从性测试用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
 |【ATP】支持对依赖的生态应用一起实例化、卸载|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
@@ -77,10 +77,10 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【developer】能力中心界面优化](https://gitee.com/OSDT/dashboard?issue_id=I27WR4)|已完成|不涉及|-|不涉及|-|
 |[【developer】能力发布接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27NKW)  |已完成 |不涉及 |- |不涉及 |- |
 |[【developer】能力中心优化](https://gitee.com/OSDT/dashboard?issue_id=I27NKF)|已完成|不涉及|-|不涉及|- |
-|[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|开发中|不涉及|-|不涉及|- |
-|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|不涉及|- |
-|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|不涉及|- |
-|[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|已完成|不涉及|-|不涉及|- |
+|[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|开发中|不涉及|-|EG-TST-SEC-007|未开始 |
+|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|EG-TST-SEC-007|未开始 |
+|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|EG-TST-SEC-007|未开始 |
+|[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|已完成|不涉及|-|EG-TST-SEC-007|未开始 |
 |[【AppStore】优化csar包存储模式](https://gitee.com/OSDT/dashboard?issue_id=I2750S)|已完成|不涉及|-|不涉及|- |
 |[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 已完成|不涉及   | -   |  不涉及    |- |
 |[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 开发中|1.3 5.3 9.1 9.2 9.4 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   未开始     |   -     |未开始 |
