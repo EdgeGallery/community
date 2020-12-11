@@ -50,7 +50,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【MECM 】MECM Support to query the capabilities](https://gitee.com/OSDT/dashboard?issue_id=I1Z3CN)       |   已完成|1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 6.2 |  1.1，2.1,2.2，8.1，9.1,9.2,9.4 通过 <br> 1.3 5.3 不通过 [I2808A](https://gitee.com/OSDT/dashboard/issues?id=I2808A)  | EG-TST-SEC-005<br/>EG-TST-SEC-007 |  全部通过     |
 |[【Example APP/MECM】support positioning service as an example app.](https://gitee.com/OSDT/dashboard?issue_id=I1W7UJ) |已完成|不涉及|-|不涉及 | - |
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
-|[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   开发中|不涉及   |  - |不涉及 |  -  |
+|[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   已完成|不涉及   |  - |不涉及 |  -  |
 |[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 3.3 4.5 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  | 全部通过  | EG-TST-SEC-007  |  通过   |
 |[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   测试中   | EG-TST-SEC-007 |   测试中 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  -  |  -     |
@@ -59,38 +59,41 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |   未开始   | EG-TST-SEC-007 |   测试中     |
 |[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  通过 |不涉及 |  -     |
 |【ATP】创建任务、查询任务、测试报告下载、获取依赖应用、查询测试用例接口开发| 已完成|1.1 1.3 1.12 2.2 5.3 8.1 9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-004<br/>EG-TST-SEC-005<br>EG-TST-SEC-007|测试中|
-|【ATP】定时删除过期数据、处理异常的运行中用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-007|未开始|
-|【ATP】遵从性测试用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-007|未开始|
-|【ATP】支持对依赖的生态应用一起实例化、卸载|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-007|未开始|
-|【ATP】病毒扫描用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-007|未开始|
-|【ATP】沙箱测试用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|EG-TST-SEC-007|未开始|
+|【ATP】定时删除过期数据、处理异常的运行中用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
+|【ATP】遵从性测试用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
+|【ATP】支持对依赖的生态应用一起实例化、卸载|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
+|【ATP】病毒扫描用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
+|【ATP】沙箱测试用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
 
 
 
 ##### 3.3  sprint3:
 
-| Story        | 开发   | 关联合规用例 |  合规安全测试  | 渗透安全测试  |
-| --------   | -----:  | :----: | :----:  | :----:  |
-|[【developer】能力发布接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27NKW)  |已确认 |不涉及 |- |- |
-|[【developer】能力中心优化](https://gitee.com/OSDT/dashboard?issue_id=I27NKF)|设计中|不涉及|-|-|
-|[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|待办|不涉及|-|-|
-|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|开发中|不涉及|-|-|
-|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|-|
-|[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|待办|不涉及|-|-|
-|[【AppStore】优化csar包存储模式](https://gitee.com/OSDT/dashboard?issue_id=I2750S)|已完成|不涉及|-|-|
-|[【APPLCM】Support download application log interface](https://gitee.com/OSDT/dashboard?issue_id=I25M0K) | 待办|  不涉及 |  -   | -   |
-|[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 待办|不涉及   | -   |  -    |
-|[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 待办|1.3 5.3 9.1 9.2 9.4 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   未开始     |   未开始     |
-|[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 待办| 1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   未开始     |   未开始     |
-|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |未开始|- |
-|[【Developer】CSAR包结构重构](https://gitee.com/OSDT/dashboard?issue_id=I23QX0)   | 待办| 不涉及  |  -  |  -  |
-|[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 待办| 不涉及  |  -   |  -  |
-|[【Developer】应用发布界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1XZMT)    | 待办| 不涉及  |  -   |  -  |
-|[【MECM】MECM支持限制活动的并发会话数](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K)    | 待办|5.2   |   未开始     |   未开始     |
-|[【MECM】MECM支持权限处理，避免横向越权](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T)    | 待办| 1.2  |   未开始     |   未开始     |
-|[【MECM】增加对依赖应用的查询与部署提示](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL)    | 待办|8.1 9.2 9.4   |   未开始     |   未开始     |
-|[【Developer】打通应用成为无状态生态应用前后端流程](https://gitee.com/OSDT/dashboard?issue_id=I1QWV9)   | 待办| 不涉及  |  -    | - |
-
+| Story        | 开发状态   | 关联合规用例 |  合规测试状态  | 关联渗透用例  | 渗透测试状态 |
+| --------   | -----:  | :----: | :----:  | :----:  | :----:  |
+|[【AppStore】appstore增加对atp模块的适配](https://gitee.com/OSDT/dashboard?issue_id=I27X1V) |开发中|不涉及|-|不涉及|-|
+|[【developer】能力组接口修改](https://gitee.com/OSDT/dashboard?issue_id=I27WT6)|已完成|不涉及|-|不涉及|-|
+|[【develoepr】创建项目能力选择界面优化设计](https://gitee.com/OSDT/dashboard?issue_id=I27WRF)|待办|不涉及|-|不涉及|-|
+|[【developer】能力中心界面优化](https://gitee.com/OSDT/dashboard?issue_id=I27WR4)|已完成|不涉及|-|不涉及|-|
+|[【developer】能力发布接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27NKW)  |已完成 |不涉及 |- |不涉及 |- |
+|[【developer】能力中心优化](https://gitee.com/OSDT/dashboard?issue_id=I27NKF)|已完成|不涉及|-|不涉及|- |
+|[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|开发中|不涉及|-|不涉及|- |
+|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|不涉及|- |
+|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|不涉及|- |
+|[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|已完成|不涉及|-|不涉及|- |
+|[【AppStore】优化csar包存储模式](https://gitee.com/OSDT/dashboard?issue_id=I2750S)|已完成|不涉及|-|不涉及|- |
+|[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 已完成|不涉及   | -   |  不涉及    |- |
+|[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 开发中|1.3 5.3 9.1 9.2 9.4 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   未开始     |   -     |未开始 |
+|[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 已完成| 1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   未开始     |   -     |-未开始|
+|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |未开始|EG-TST-SEC-007 |未开始 |
+|[【Developer】CSAR包结构重构](https://gitee.com/OSDT/dashboard?issue_id=I23QX0)   | 已完成| 不涉及  |  -  |  不涉及  |- |
+|[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 待办| 不涉及  |  -   |  不涉及  |- |
+|[【Developer】应用发布界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1XZMT)    | 开发中| 不涉及  |  -   |  -  |- |
+|[【MECM】MECM支持限制活动的并发会话数](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K)    | 待办|5.2   |   未开始     |  -  |未开始 |
+|[【MECM】MECM支持权限处理，避免横向越权](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T)    | 待办| 1.2  |   未开始     | EG-TST-SEC-007  |未开始 |
+|[【MECM】增加对依赖应用的查询与部署提示](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL)    | 开发中|8.1 9.2 9.4   |   未开始     | - |未开始 |
+|[【Developer】打通应用成为无状态生态应用前后端流程](https://gitee.com/OSDT/dashboard?issue_id=I1QWV9)   | 待办| 不涉及  |  -    | 不涉及 |- |
+|[【APPLCM】Support download application log interface](https://gitee.com/OSDT/dashboard?issue_id=I25M0K) | 已从迭代3移除|  - |  -   | -   |- |
 
 #### 4.安全测试用例管理 Security Test Case Management
 
