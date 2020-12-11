@@ -230,7 +230,7 @@ Postman
 
 测试步骤：
 1.设计用户登录脚本以模拟残酷的登录尝试，确认用户帐户将被锁定。
-2.使用JMeter针对API模拟DOS attcck，检查系统的运行状态。
+2.使用JMeter针对API模拟DOS attack，检查系统的运行状态。
 
 测试工具：
 JMeter
