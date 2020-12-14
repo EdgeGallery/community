@@ -10,15 +10,15 @@ Currently for one direct module, there is only one version accepted by the commu
 
 For Golang projects (e.g. mep and mep-agent) developers, please try your best to use the modules
 and the versions which have been accepted by the community. You can go to the file
-[global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml),
+[global modules file](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/global_requirements.yaml),
 which lists the whole scope of Golang modules including both the direct and indirect modules.
 
 If it's necessary to use another module that haven't accepted by the community, please following
-the guide below to add it and its related indirect modules into the [community's global module scope](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
+the guide below to add it and its related indirect modules into the [community's global module scope](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/global_requirements.yaml).
 
 ## Add New Golang Projects
 
-Currently, there are only 2 projects using Golang, mep and mep-agent. And there is a [project file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/projects.yaml)
+There is a [project file](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/projects.yaml)
 list all these projects. If your project is not included in this file, please add it here.
 
 There is a section  **main** in this file, and it should be the directory used to run the `go build` command.
@@ -26,8 +26,9 @@ For example, for project  _mep-agent_ , it's `./src/main/main.go`. And for proje
 there are 2 independent parts,  _mepauth_  and  _mepserver_ . The `main.go` file is under the same directory
 as `go.mod`, so the value of section main is `./`.
 
-After adding the project into [project file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/projects.yaml), please use  **generate**  command to automatically
-add all modules that new in this new project but haven't been added into [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
+After adding the project into [project file](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/projects.yaml),
+please use  **generate**  command to automatically
+add all modules that new in this new project but haven't been added into [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/global_requirements.yaml).
 
 ```
 root@ubuntu:~/requirements/go# go run requirements -m generate -f ./conf/global_requirements.yaml
@@ -70,7 +71,7 @@ when submitting the request.
 - CVE Score (NA if couldn't find this module)
 
 After getting all supporting materials, please add the new module and all its related indirect modules
-to [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/jjb/scripts/requirements/go/conf/global_requirements.yaml).
+to [global modules file](https://gitee.com/edgegallery/ci-management/blob/master/3rdparty-check/go/conf/global_requirements.yaml).
 After that you can create a PR to project  _ci-management_  and attach your supporting materials for reviewing.
 
 Also project _ci-management_ has a gating job named "3rdParty-JJB-PR-modules-verify-and-affect". Please make sure this job successful which means:
