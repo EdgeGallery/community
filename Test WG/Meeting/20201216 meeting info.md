@@ -54,10 +54,10 @@ Review progress for the third iterative test.
 
 2.edgeT测试进展 --owner 孟璞辉
 
-
+3.test report preparation -- owner liuhui lizhiqian lvjing
 
 ## meeting link
-
+https://welink-meeting.zoom.us/j/786921560
 
 ## Minutes纪要
 ## 纪要人
