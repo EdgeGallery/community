@@ -36,7 +36,6 @@
 - 【Developer】构建测试界面优化                              【李媛媛】
 - 【ATP】App应用的测试能力增强    【张阿利】
 - 【Developer】构建测试能力详情优化        【李媛媛】
-- 【Developer】应用发布界面优化    【李媛媛】
 - 【Developer】API界面优化，分析多语言SDK，集成到开发者平台    【李媛媛】
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】
 - 【Test】The optimization of edgegallery installation package  【姜伟】
