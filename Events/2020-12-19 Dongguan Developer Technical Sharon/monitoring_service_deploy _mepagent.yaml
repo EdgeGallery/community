@@ -1,0 +1,135 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: monitoring-be-service-32115       #参数 service名
+  labels:
+    app: monitoring-be-service-32115
+spec:
+  type: NodePort
+  ports:
+  - port: 9997
+    targetPort: 9997
+    nodePort: 32115        #参数  service端口
+    name: http
+  selector:
+    app: monitoring-be-32115       #参数 labels、selector一致，都为镜像名
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monitoring-be-32115  #参数 pod名
+  labels: 
+    app: monitoring-be-32115
+spec:
+  containers:
+  - name: monitoring-be-service-32115-deployment
+    image: swr.ap-southeast-1.myhuaweicloud.com/edgegallery/monitoring-be-service10:latest        #参数 ip+镜像名：版本
+    imagePullPolicy: IfNotPresent
+    ports:
+      - containerPort: 9997                            #参数
+    env:
+      - name: LISTEN_IP
+        value: 0.0.0.0
+   {{- if .Values.global.mepagent.enabled }}
+  - name: mep-agent
+    image: swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent:latest
+    imagePullPolicy: Always
+    env:
+      - name: ENABLE_WAIT
+        value: "true"
+      - name: MEP_IP
+        value: "mep-api-gw.mep"
+      - name: MEP_APIGW_PORT
+        value: "8443"
+      - name: CA_CERT_DOMAIN_NAME
+        value: "edgegallery"
+      - name: CA_CERT
+        value: /usr/mep/ssl/ca.crt
+      - name: AK
+        valueFrom:
+          secretKeyRef:
+            name: {{ .Values.appconfig.aksk.secretname }}
+            key: accesskey
+      - name: SK
+        valueFrom:
+          secretKeyRef:
+            name: {{ .Values.appconfig.aksk.secretname }}
+            key: secretkey
+      - name: APPINSTID
+        valueFrom:
+          secretKeyRef:
+            name: {{ .Values.appconfig.aksk.secretname }}
+            key: appInsId
+    volumeMounts:
+      - name: mep-agent-service-config-volume
+        mountPath: /usr/mep/conf/app_instance_info.yaml
+        subPath: app_instance_info.yaml
+              
+  volumes:
+    - name: mep-agent-service-config-volume
+      configMap:
+        name: {{ .Values.global.mepagent.configmapname }}   
+  {{- end }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: monitoring-fe-service-32116       #参数 service名
+  labels:
+    app: monitoring-fe-service-32116
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
+    nodePort: 32116        #参数  service端口
+    name: http
+
+  selector:
+    app: monitoring-fe-32116       #参数 labels、selector一致，都为镜像名
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monitoring-fe-32116   #参数 pod名
+  labels: 
+    app: monitoring-fe-32116
+spec:
+  containers:
+  - name: monitoring-fe-service-32116-deployment
+    image: swr.ap-southeast-1.myhuaweicloud.com/edgegallery/monitoring-fe-service:latest        #参数 ip+镜像名：版本
+    imagePullPolicy: IfNotPresent
+    ports:
+      - containerPort: 8080                            #参数
+---
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: monitoring-proxy-service-32117       #参数 service名
+  labels:
+    app: monitoring-proxy-service-32117
+spec:
+  type: NodePort
+  ports:
+  - port: 5000
+    targetPort: 5000
+    nodePort: 32117        #参数  service端口
+    name: http
+  selector:
+    app: monitoring-proxy-32117        #参数 labels、selector一致，都为镜像名
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monitoring-proxy-32117    #参数 pod名
+  labels: 
+    app: monitoring-proxy
+spec:
+  containers:
+  - name: monitoring-proxy-service-32117-deployment
+    image: swr.ap-southeast-1.myhuaweicloud.com/edgegallery/monitoring-proxy-service:latest        #参数 ip+镜像名：版本
+    imagePullPolicy: IfNotPresent
+    ports:
+      - containerPort: 5000                            #参数      
+  
