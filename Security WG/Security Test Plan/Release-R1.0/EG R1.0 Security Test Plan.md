@@ -90,7 +90,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 开发中| 不涉及  |  -   |  不涉及  |- |
 |[【Developer】应用发布界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1XZMT)    | 已完成| 不涉及  |  -   |  -  |- |
 |[【MECM】MECM支持限制活动的并发会话数](https://gitee.com/OSDT/dashboard?issue_id=I1TH8K)    | 开发中|5.2   |   通过     |  -  |- |
-|[【MECM】MECM支持权限处理，避免横向越权](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T)    | 已完成| 1.2  |   未开始     | EG-TST-SEC-007  |未开始 |
+|[【MECM】MECM支持权限处理，避免横向越权](https://gitee.com/OSDT/dashboard?issue_id=I1TH3T)    | 已完成| 1.2  |   通过     | EG-TST-SEC-007  |通过 |
 |[【MECM】增加对依赖应用的查询与部署提示](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL)    | 开发中|8.1 9.2 9.4   |   未开始     | - |未开始 |
 |[【Developer】打通应用成为无状态生态应用前后端流程](https://gitee.com/OSDT/dashboard?issue_id=I1QWV9)   | 已完成| 不涉及  |  -    | 不涉及 |- |
 |[【APPLCM】Support download application log interface](https://gitee.com/OSDT/dashboard?issue_id=I25M0K) | 已从迭代3移除|  - |  -   | -   |- |
