@@ -127,7 +127,7 @@ c.镜像库：http://159.138.137.155/
 
 软件实现100%覆盖Release V1.0需求。
 
-3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test
+3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test --owner xudan
 
 根据TSC20200923会议决定，本次测试版本不考虑前端代码覆盖率，关注后台代码覆盖率。
 | 模块  | 代码覆盖率  |
@@ -185,7 +185,7 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 测试项目： AppStore, Developer, User-mgmt, MECM，MEP
 
-测试人员： 吕京, 程润东，Kanag， Prakash
+测试人员： 程润东，Kanag， Prakash
 
 安全合规测试用例：
 
