@@ -79,12 +79,12 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【developer】能力中心优化](https://gitee.com/OSDT/dashboard?issue_id=I27NKF)|已完成|不涉及|-|不涉及|- |
 |[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|已完成|不涉及|-|EG-TST-SEC-007<br>EG-TST-SEC-004|[I29KLQ](https://gitee.com/OSDT/dashboard?issue_id=I29KLQ), [I29I0W](https://gitee.com/OSDT/dashboard?issue_id=I29I0W), [I29IBI](https://gitee.com/OSDT/dashboard?issue_id=I29IBI), [I29H0A](https://gitee.com/OSDT/dashboard?issue_id=I29H0A), [I295JQ](https://gitee.com/OSDT/dashboard?issue_id=I295JQ)不通过 |
 |[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|EG-TST-SEC-007|[I29WET](https://gitee.com/OSDT/dashboard?issue_id=I29WET)不通过 |
-|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|EG-TST-SEC-007|测试中 |
+|[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|EG-TST-SEC-007|通过 |
 |[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|已完成|不涉及|-|EG-TST-SEC-007<br/>EG-TST-SEC-004|[I291P4](https://gitee.com/OSDT/dashboard?issue_id=I291P4), [I291TD](https://gitee.com/OSDT/dashboard?issue_id=I291TD) 不通过，其他通过 |
 |[【AppStore】优化csar包存储模式](https://gitee.com/OSDT/dashboard?issue_id=I2750S)|已完成|不涉及|-|不涉及|- |
 |[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 已完成|不涉及   | -   |  不涉及    |- |
 |[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 开发中|1.3 5.3 9.1 9.2 9.4 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   全部通过     |   -     |[I292XQ](https://gitee.com/OSDT/dashboard?issue_id=I292XQ)不通过 |
-|[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 已完成| 1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   8.1不通过[I29QDU](https://gitee.com/OSDT/dashboard?issue_id=I29QDU)，其他全部通过     |   -     |-未开始|
+|[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 已完成| 1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   8.1不通过[I29QDU](https://gitee.com/OSDT/dashboard?issue_id=I29QDU)，其他全部通过     |   -     |-|
 |[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |未开始|EG-TST-SEC-007 |未开始 |
 |[【Developer】CSAR包结构重构](https://gitee.com/OSDT/dashboard?issue_id=I23QX0)   | 已完成| 不涉及  |  -  |  不涉及  |- |
 |[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 开发中| 不涉及  |  -   |  不涉及  |- |
