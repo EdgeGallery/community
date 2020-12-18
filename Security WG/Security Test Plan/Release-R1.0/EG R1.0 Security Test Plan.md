@@ -78,7 +78,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【developer】能力发布接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27NKW)  |已完成 |不涉及 |- |不涉及 |- |
 |[【developer】能力中心优化](https://gitee.com/OSDT/dashboard?issue_id=I27NKF)|已完成|不涉及|-|不涉及|- |
 |[【develoepr】应用发布界面，发布到appstore接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ETO)|已完成|不涉及|-|EG-TST-SEC-007<br>EG-TST-SEC-004|[I29KLQ](https://gitee.com/OSDT/dashboard?issue_id=I29KLQ), [I29I0W](https://gitee.com/OSDT/dashboard?issue_id=I29I0W), [I29IBI](https://gitee.com/OSDT/dashboard?issue_id=I29IBI), [I29H0A](https://gitee.com/OSDT/dashboard?issue_id=I29H0A), [I295JQ](https://gitee.com/OSDT/dashboard?issue_id=I295JQ)不通过 |
-|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|EG-TST-SEC-007|测试中 |
+|[【developer】应用发布界面，release-config接口的实现](https://gitee.com/OSDT/dashboard?issue_id=I27ET4)|已完成|不涉及|-|EG-TST-SEC-007|[I29WET](https://gitee.com/OSDT/dashboard?issue_id=I29WET)不通过 |
 |[【developer】应用发布界面，应用包详情接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ESM)|已完成|不涉及|-|EG-TST-SEC-007|测试中 |
 |[【Developer】应用发布界面，ATP测试接口实现](https://gitee.com/OSDT/dashboard?issue_id=I27ERS)|已完成|不涉及|-|EG-TST-SEC-007<br/>EG-TST-SEC-004|[I291P4](https://gitee.com/OSDT/dashboard?issue_id=I291P4), [I291TD](https://gitee.com/OSDT/dashboard?issue_id=I291TD) 不通过，其他通过 |
 |[【AppStore】优化csar包存储模式](https://gitee.com/OSDT/dashboard?issue_id=I2750S)|已完成|不涉及|-|不涉及|- |
