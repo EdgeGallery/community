@@ -67,7 +67,7 @@ Before adding the new module, you need to make sure that this module meets the r
 what EdgeGallery require. Please following the checklist below and provide the supporting materials
 when submitting the request.
 
-- License of this module
+- License of this module, shoule be approved by community and list in the [License Compliance Document](https://gitee.com/edgegallery/community/blob/master/License%20Compliance.md)
 - CVE Score (NA if couldn't find this module)
 
 After getting all supporting materials, please add the new module and all its related indirect modules
