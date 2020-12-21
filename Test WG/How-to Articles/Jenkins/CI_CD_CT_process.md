@@ -33,8 +33,8 @@ email to him/her, following is a table to list all contact people for each proje
 | Project Name        | Contacts             | Email                    |
 |---------------------|----------------------|--------------------------|
 | api-emulator        | zhanghailong         | zhanghailong22@huawei.com|
-| appstore-be         | sunjinghan           | sunjinghan@huawei.com    |
-| appstore-fe         | sunjinghan           | sunjinghan@huawei.com    |
+| appstore-be         | sunjinghan           | sunjinghan1@huawei.com    |
+| appstore-fe         | sunjinghan           | sunjinghan1@huawei.com    |
 | atp                 | liuhuiling           | liuhuiling4@huawei.com   |
 | atp-fe              | liuhuiling           | liuhuiling4@huawei.com   |
 | ci-management       | xudan                | xudan16@huawei.com       |
