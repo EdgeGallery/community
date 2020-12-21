@@ -43,7 +43,7 @@ email to him/her, following is a table to list all contact people for each proje
 | docs                |                      |                          |
 | edgeT               | Kanag                | kanagaraj.manickam@huawei.com|
 | example             |                      |                          |
-| helm-chart          | lizhiqian            | lizhiqian1@huawei.com|
+| helm-chart          | lizhiqian, Kanag     | lizhiqian1@huawei.com, kanagaraj.manickam@huawei.com|
 | integration-testing | zhangali, liyuanyuan | zhangali@huawei.com,  liyuanyuan57@huawei.com|
 | mecm-apm            | Vidyashree Rama      | Vidyashree.Rama@huawei.com|
 | mecm-applcm         | Rama Subba Reddy S   | Rama.Subba.Reddy.S@huawei.com|
@@ -122,5 +122,4 @@ The whole CI/CD/CT pipeline is triggered in the midnight everyday because there 
 
 If you have any question or suggestion about this, please contact one of the following people
 - xudan
-- prakash
 - kanag
