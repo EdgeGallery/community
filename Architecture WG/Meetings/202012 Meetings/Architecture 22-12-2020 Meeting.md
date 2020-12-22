@@ -13,7 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  EdgeNative：EdgeFramework 讨论  |    | All |
-| TBA | TBA |
+|  1.1 版本需求收集 | TBA |
 
 
 ## Meeting Records
