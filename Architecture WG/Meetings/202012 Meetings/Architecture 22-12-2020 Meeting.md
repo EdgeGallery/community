@@ -13,7 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  EdgeNative：EdgeFramework 讨论  |    | All |
-|  1.1 版本需求收集 | TBA |
+|  1.1 版本需求收集 | Openvswitch/DPDK 网络平面加速的落地分析 | TBA |
 
 
 ## Meeting Records
