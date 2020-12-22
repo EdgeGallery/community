@@ -52,11 +52,11 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【Developer】优化API管理，支持生态API的删除](https://gitee.com/OSDT/dashboard?issue_id=I1TDJF)        |   已完成| 不涉及  |  -|不涉及  |  -     |
 |[【Developer】界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1TDIS)        |   已完成|不涉及   |  - |不涉及 |  -  |
 |[【MECM】提供ak/sk分配功能](https://gitee.com/OSDT/dashboard?issue_id=I1R5LY)   | 已完成|1.3 5.3 3.3 4.5 8.1 9.2 9.4 <br/> 1.1 2.1  6.2  | 全部通过  | EG-TST-SEC-007  |  通过   |
-|[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   测试中   | EG-TST-SEC-007 |   通过 |
+|[mepagent call mepserver service liveness api to keep heartbeat for app service](https://gitee.com/OSDT/dashboard?issue_id=I1R0VX)  | 已完成| 1.2  |   通过   | EG-TST-SEC-007 |   通过 |
 |[【MECM】外部系统显示优化](https://gitee.com/OSDT/dashboard?issue_id=I1QYJJ)        |   已完成|不涉及   |  -  |  -     |
 |[【MECM】应用包管理优化--菜单项+应用包列表+应用包详情](https://gitee.com/OSDT/dashboard?issue_id=I1QXS5)        |   已完成|不涉及   |  -|不涉及  |  -   |
 |[【MECM】首页显示全局告警/监控/统计/资源状态数据图，单节点数据通过拓扑中单边缘节点详细信息查看](https://gitee.com/OSDT/dashboard?issue_id=I1QXQP)       |   已完成|不涉及   |  -|不涉及  |  -     |
-|[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |  测试中  | EG-TST-SEC-007 |   通过     |
+|[mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft](https://gitee.com/OSDT/dashboard?issue_id=I1QT6E)   | 已完成| 1.2  |  通过  | EG-TST-SEC-007 |   通过     |
 |[【MEP-Agent】添加ak/sk配置接口](https://gitee.com/OSDT/dashboard?issue_id=I1QT48)       |   已完成| 9.3  |  通过 |不涉及 |  -     |
 |【ATP】创建任务、查询任务、测试报告下载、获取依赖应用、查询测试用例接口开发| 已完成|1.1 1.3 1.12 2.2 5.3 8.1 9.1 9.2 9.4|1.1,1.3,1.12,2.2,8.1,9.1,9.4通过,9.2未通过|EG-TST-SEC-004<br/>EG-TST-SEC-005<br>EG-TST-SEC-007|[I28UOG未通过](https://gitee.com/OSDT/dashboard?issue_id=I28UOG),其他全部通过|
 |【ATP】定时删除过期数据、处理异常的运行中用例开发|已完成|9.1 9.2 9.4|9.1,9.4通过,9.2未通过|不涉及|-|
