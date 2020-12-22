@@ -85,7 +85,7 @@ This test plan is the EdgeGallery Release 1.0 security test plan. The purpose is
 |[【APPLCM】适配新版csar包结构，能够正确部署应用](https://gitee.com/OSDT/dashboard?issue_id=I24W9I)   | 已完成|不涉及   | -   |  不涉及    |- |
 |[【MECM】MECM Support APP Rule Cofing From Portal](https://gitee.com/OSDT/dashboard?issue_id=I24700)| 开发中|1.3 5.3 9.1 9.2 9.4 8.1 <br/>1.1 2.1 2.2 5.3 6.2   |   全部通过     |   -     |[I292XQ](https://gitee.com/OSDT/dashboard?issue_id=I292XQ), [I29XX3](https://gitee.com/OSDT/dashboard?issue_id=I29XX3)不通过 |
 |[【MECM】MECM Support APP Rule Config During APP Orchestration](https://gitee.com/OSDT/dashboard?issue_id=I246ZD)    | 已完成| 1.3 5.3 9.1 8.1 9.2 9.4 <br/> 1.1 2.1 2.2 5.3 6.2 |   8.1[I29QDU](https://gitee.com/OSDT/dashboard?issue_id=I29QDU), 6.2[I2A17N](https://gitee.com/OSDT/dashboard?issue_id=I2A17N) 不通过，其他全部通过     | EG-TST-SEC-007 |通过|
-|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |未开始|EG-TST-SEC-007 |未开始 |
+|[【MEP-Agent】增加获取token接口](https://gitee.com/OSDT/dashboard/issues?sort=created_at%20desc&labels=Sprint3&id=I23QX8) | 已完成|1.1 2.1 8.1 9.2 9.4 |测试中|不涉及 |- |
 |[【Developer】CSAR包结构重构](https://gitee.com/OSDT/dashboard?issue_id=I23QX0)   | 已完成| 不涉及  |  -  |  不涉及  |- |
 |[【Developer】部署应用流程适配，增加对依赖项的检测](https://gitee.com/OSDT/dashboard?issue_id=I23QWU)    | 开发中| 不涉及  |  -   |  不涉及  |- |
 |[【Developer】应用发布界面优化](https://gitee.com/OSDT/dashboard?issue_id=I1XZMT)    | 已完成| 不涉及  |  -   |  -  |- |
