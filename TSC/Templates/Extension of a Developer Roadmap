@@ -1,0 +1,277 @@
+# My Skills for Web Developer
+
+> Using [Web Developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
+### Legends for proficiency
+- :sparkling_heart:: Proficient, Used in main project
+- :sparkles:: Experienced, Used in side/personal project
+
+
+## Legends
+
+- `Added by me`
+- **Personal Recommendation!**
+- Possibilities
+- *Pick any!*
+- Stage N: Now build something
+
+
+## Required for any path
+
+- **Git - Version Control** :sparkling_heart:
+- **SSH** :sparkling_heart:
+- **HTTP/HTTPS and APIs** :sparkling_heart:
+- **Basic Terminal Usage** :sparkling_heart:
+- **Learn to Research** :sparkling_heart:
+- **Data Structures & Algorithms** :sparkles:
+- **Character Encodings** :sparkles:
+- Design Patterns :sparkles:
+- **GitHub** :sparkling_heart:
+
+
+## Front-end
+
+- Stage 1 (Learn the Basics)
+  - **HTML** :sparkling_heart:
+  - **CSS** :sparkling_heart:
+  - **JavaScript** :sparkling_heart:
+- Stage 2 (Getting Deeper)
+  - **Javascript** :sparkling_heart:
+    - **ES6** :sparkling_heart:
+    - Task Runners
+      - **npm scripts** :sparkling_heart:
+      - **gulp** :sparkles:
+      - Grunt
+    - Package Manager
+      - **Yarn** :sparkling_heart:
+      - **npm** :sparkling_heart:
+    - Choose a Framework
+      - **Angular**
+        - **RxJS**
+        - **TypeScript**
+      - **React** :sparkling_heart:
+        - Flux
+        - **Redux** :sparkling_heart:
+        - *Mobx* :sparkling_heart:
+      - *Vue.js* :sparkles:
+      - Preact
+      - Ember JS
+  - Testing
+    - *Jest* :sparkling_heart:
+    - *Mocha*
+    - Jasmine
+    - Enzyme
+  - Module Loader/Bundler
+    - **webpack** :sparkling_heart:
+    - *rollup*
+    - Parcel
+    - RequireJS / AMD
+    - Browserify
+  - **TypeScript** :sparkling_heart:
+  - Flow
+- **CSS**
+  - **Responsive Web** :sparkling_heart:
+  - Preprocessors
+    - **Sass** :sparkling_heart:
+    - Less
+    - Stylus
+    - PostCSS
+  - Choose Framework
+    - Foundation
+    - **Bootstrap** :sparkling_heart:
+    - *Materialize CSS*
+    - *Semantic UI* :sparkles:
+- Stage 3
+  - **CSS**
+    - Methodologies
+      - `CSS Modules` :sparkling_heart:
+      - SUITCSS
+      - **BEM** :sparkles:
+      - OOCSS
+      - SMACSS
+      - Systematic CSS
+    - **Dive Deep CSS3**
+      - Flexbox :sparkling_heart:
+      - Gradients :sparkles:
+      - Grids
+      - Rotate :sparkling_heart:
+      - Transform :sparkling_heart:
+      - Skew :sparkling_heart:
+      - Scale :sparkling_heart:
+      - Transitions :sparkling_heart:
+  - SVG
+    - D3 :sparkles:
+  - **JavaScript**
+    - Design Patterns
+    - Regex :sparkling_heart:
+    - GOF design Patterns
+    - Learn different testing techniques :sparkling_heart:
+
+
+## Back-end
+
+- Stage 1
+  - ~~*Ruby*~~
+  - *Python*
+    - `PySpark` :sparkles:
+    - Package Manager
+      - **Pip** :sparkles:
+    - Teseting
+      - tox
+      - nose
+      - doctest
+      - **py.test**
+      - **unittest/pyUnit**
+    - Frameworks
+      - Sync
+        - *Flask*
+        - **Django**
+        - Pyramid
+      - Async
+        - Sonic
+        - Tornado
+        - gevent
+        - **aiohttp**
+  - *Node.js*
+    - Package Manager
+      - **npm** :sparkling_heart:
+      - **Yarn** :sparkling_heart:
+    - Framework
+      - **Express** :sparkling_heart:
+      - Loopback
+      - hapi
+      - Koa :sparkling_heart:
+      - Sails.js
+    - Testing
+      - *Jest* :sparkling_heart:
+      - **Mocha**
+      - Enzyme
+      - *Chai*
+      - Jasmine
+      - Ava
+  - ~~*PHP7*~~
+  - ~~*C# (.NET)*~~
+  - ~~*Java (Grails, Spring, Play)*~~
+  - ~~*Go*~~
+- Stage 2
+  - **Web Server**
+    - Caddy
+    - Apache
+    - **Nginx** :sparkles:
+  - **RESTful APIs** :sparkling_heart:
+  - **Authentication**
+    - **JWT** :sparkling_heart:
+    - **OAuth 2.0** :sparkles:
+  - **SOLID, YAGNI, KISS etc** :sparkles:
+  - **Regular Expressions** :sparkling_heart:
+  - GraphQL :sparkling_heart:
+  - **Docker** :sparkling_heart:
+- Stage 3
+  - Message Brokers
+    - **RabbitMQ** :sparkling_heart:
+    - *Apache Kafka*
+  - **Storage**
+    - Caching
+      - **Memcached**
+      - **Rails**
+    - Relational Databases
+      - Oracle
+      - **PostgreSQL** :sparkles:
+      - **MariaDB**
+      - **MySQL** :sparkles:
+      - MSSQL
+    - NoSQL Databases
+      - **Redis**
+      - **MongoDB** :sparkling_heart:
+      - Cassandra
+      - RethinkDB
+      - Couchbase
+- Stage 4 (Up your Game further!)
+  - **Search Engines**
+    - Solr
+    - Sphinx
+    - **ElasticSearch**
+  - **GOF Design Patterns**
+  - **Architectural Patterns**
+  - **Give DDD a shot**
+  - **Learn different testing techniques** :sparkling_heart:
+
+
+## DevOps
+
+- Stage 1
+  - **Operating System**
+    - *Linux* :sparkling_heart:
+    - *Unix* :sparkles:
+  - **Automation**
+    - *AWS Cloud Formation*
+    - *Terraform*
+    - CF Engine
+    - Packer
+    - SaltStack
+    - Chef
+    - *Ansible*
+    - *Puppet*
+  - **Cloud**
+    - Cloud Foundry
+    - Rackspace
+    - **AWS** :sparkles:
+    - Heroku :sparkles:
+    - Azure
+    - Google Cloud Platform :sparkles:
+    - Digitalocean
+  - **CI / CD**
+    - `GitLab CI` :sparkling_heart:
+    - *Jenkins* :sparkles:
+    - *Travis*
+    - *CircleCI*
+    - Drone
+    - Bamboo :sparkling_heart:
+- Stage 2
+  - **Monitoring and Alerting**
+    - *AppDynamics*
+    - *Nagios*
+    - *New Relic* :sparkles:
+    - *PagerDuty*
+    - *Munin*
+    - Graphite
+    - Prometheus
+    - Zabbix
+  - **Log Management & Analysis**
+    - Papertrail :sparkles:
+    - **ELK**
+    - Graylog
+    - Splunk
+  - **Cluster Managers**
+    - *Kubernetes*
+    - *Mesosphere*
+    - *Mesos*
+    - *Docker Swarm*
+    - *Nomad*
+  - **Love for Terminal**
+    - **Compiling apps from source (gcc, make and other related stuff)**  :sparkles:
+    - **Bash Scripts** :sparkles:
+    - **Vim / Nano** :sparkling_heart:
+    - **Commands/Tools**
+      - **Text Manipulation** :sparkles:
+      - **Process Monitoring** :sparkles:
+      - **System Performance** :sparkles:
+      - **Network** :sparkles:
+  - **Containers**
+    - **Docker** :sparkling_heart:
+    - *rkt*
+    - LXC
+  - **Web Servers**
+    - **Apache** :sparkles:
+    - **Nginx** :sparkles:
+    - *Tomcat*
+    - *IIS*
+    - *Caddy*
+- Stage 3
+  - **OSI Model. TCP/IP/UDP Common ports**
+  - **Knowledge about different file systems**
+  - **Setting up a Reverse Proxy (Ngnix, ...)**
+  - **Setting up caching Server (Squid, Nginx, ...)**
+  - **Setting up a load balancer (HAProxy, Nginx, ...)**
+  - **Setting up a firewall** :sparkling_heart:
+  - **TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP** :sparkles:
+  - **Postmortem analysis when something bad happens** :sparkles:
