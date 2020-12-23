@@ -1,0 +1,294 @@
+# [Web Developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
+
+
+## Legends
+
+- **Personal Recommendation!**
+- Possibilities
+- *Pick any!*
+- Stage N: Now build something
+
+
+## Required for any path
+
+- **Git - Version Control**
+- **SSH**
+- **HTTP/HTTPS and APIs**
+- **Basic Terminal Usage**
+- **Learn to Research**
+- **Data Structures & Algorithms**
+- **Character Encodings**
+- Design Patterns
+- **GitHub**
+
+
+## Front-end
+
+- Stage 1 (Learn the Basics)
+  - **HTML**
+  - **CSS**
+  - **JavaScript**
+- Stage 2 (Getting Deeper)
+  - **Javascript**
+    - **ES6**
+    - Task Runners
+      - **npm scripts**
+      - **gulp**
+      - Grunt
+    - Package Manager
+      - **Yarn**
+      - **npm**
+    - Choose a Framework
+      - **Angular**
+        - **RxJS**
+        - **TypeScript**
+      - **React**
+        - Flux
+        - **Redux**
+        - *Mobx*
+      - *Vue.js*
+      - Preact
+      - Ember JS
+  - Testing
+    - *Jest*
+    - *Mocha*
+    - Jasmine
+    - Enzyme
+  - Module Loader/Bundler
+    - **webpack**
+    - *rollup*
+    - Parcel
+    - RequireJS / AMD
+    - Browserify
+  - **TypeScript**
+  - Flow
+- **CSS**
+  - **Responsive Web**
+  - Preprocessors
+    - **Sass**
+    - Less
+    - Stylus
+    - PostCSS
+  - Choose Framework
+    - Foundation
+    - **Bootstrap**
+    - *Materialize CSS*
+    - *Semantic UI*
+- Stage 3
+  - **CSS**
+    - Methodologies
+      - SUITCSS
+      - **BEM**
+      - OOCSS
+      - SMACSS
+      - Systematic CSS
+    - **Dive Deep CSS3**
+      - Flexbox
+      - Gradients
+      - Grids
+      - Rotate
+      - Transform
+      - Skew
+      - Scale
+      - Transitions
+  - SVG
+    - D3
+  - **JavaScript**
+    - Design Patterns
+    - Regex
+    - GOF design Patterns
+    - Learn different testing techniques
+
+
+## Back-end
+
+- Stage 1
+  - *Ruby*
+    - Framework
+      - Sinatra
+      - **Ruby on Rails**
+    - Testing
+      - **RSpec**
+    - Package Manager
+      - **RubyGems**
+    - ByeBug
+  - *Python*
+    - Package Manager
+      - **Pip**
+    - Teseting
+      - tox
+      - nose
+      - doctest
+      - **py.test**
+      - **unittest/pyUnit**
+    - Frameworks
+      - Sync
+        - *Flask*
+        - **Django**
+        - Pyramid
+      - Async
+        - Sonic
+        - Tornado
+        - gevent
+        - **aiohttp**
+  - *Node.js*
+    - Package Manager
+      - **npm**
+      - **Yarn**
+    - Framework
+      - **Express**
+      - Loopback
+      - hapi
+      - Koa
+      - Sails.js
+    - Testing
+      - *Jest*
+      - **Mocha**
+      - Enzyme
+      - *Chai*
+      - Jasmine
+      - Ava
+  - *PHP7*
+    - Package Manager
+      - **Composer**
+    - Debugger/Profiler
+      - xDebug
+      - XHProf
+      - New Relic
+      - Blackfire
+    - **PSRs**
+    - Framework
+      - **Laravel**
+      - *Symfony*
+        - Slim
+        - *Lumen*
+    - Testing
+      - **PHPUnit**
+      - *phpspec*
+      - *codeception*
+        - **Mockery**
+  - *C# (.NET)*
+  - *Java (Grails, Spring, Play)*
+  - *Go*
+- Stage 2
+  - **Web Server**
+    - Caddy
+    - Apache
+    - **Nginx**
+  - **RESTful APIs**
+  - **Authentication**
+    - **JWT**
+    - **OAuth 2.0**
+  - **SOLID, YAGNI, KISS etc**
+  - **Regular Expressions**
+  - GraphQL
+  - **Docker**
+- Stage 3
+  - Message Brokers
+    - **RabbitMQ**
+    - *Apache Kafka*
+  - **Storage**
+    - Caching
+      - **Memcached**
+      - **Rails**
+    - Relational Databases
+      - Oracle
+      - **PostgreSQL**
+      - **MariaDB**
+      - **MySQL**
+      - MSSQL
+    - NoSQL Databases
+      - **Redis**
+      - **MongoDB**
+      - Cassandra
+      - RethinkDB
+      - Couchbase
+- Stage 4 (Up your Game further!)
+  - **Search Engines**
+    - Solr
+    - Sphinx
+    - **ElasticSearch**
+  - **GOF Design Patterns**
+  - **Architectural Patterns**
+  - **Give DDD a shot**
+  - **Learn different testing techniques**
+
+
+## DevOps
+
+- Stage 1
+  - **Operating System**
+    - *Linux*
+    - *Unix*
+  - **Automation**
+    - *AWS Cloud Formation*
+    - *Terraform*
+    - CF Engine
+    - Packer
+    - SaltStack
+    - Chef
+    - *Ansible*
+    - *Puppet*
+  - **Cloud**
+    - Cloud Foundry
+    - Rackspace
+    - **AWS**
+    - Heroku
+    - Azure
+    - Google Cloud Platform
+    - Digitalocean
+  - **CI / CD**
+    - *Jenkins*
+    - *Travis*
+    - *CircleCI*
+    - Drone
+    - Bamboo
+- Stage 2
+  - **Monitoring and Alerting**
+    - *AppDynamics*
+    - *Nagios*
+    - *New Relic*
+    - *PagerDuty*
+    - *Munin*
+    - Graphite
+    - Prometheus
+    - Zabbix
+  - **Log Management & Analysis**
+    - Papertrail
+    - **ELK**
+    - Graylog
+    - Splunk
+  - **Cluster Managers**
+    - *Kubernetes*
+    - *Mesosphere*
+    - *Mesos*
+    - *Docker Swarm*
+    - *Nomad*
+  - **Love for Terminal**
+    - **Compiling apps from source (gcc, make and other related stuff)**
+    - **Bash Scripts**
+    - **Vim / Nano**
+    - **Commands/Tools**
+      - **Text Manipulation**
+      - **Process Monitoring**
+      - **System Performance**
+      - **Network**
+  - **Containers**
+    - **Docker**
+    - *rkt*
+    - LXC
+  - **Web Servers**
+    - **Apache**
+    - **Nginx**
+    - *Tomcat*
+    - *IIS*
+    - *Caddy*
+- Stage 3
+  - **OSI Model. TCP/IP/UDP Common ports**
+  - **Knowledge about different file systems**
+  - **Setting up a Reverse Proxy (Ngnix, ...)**
+  - **Setting up caching Server (Squid, Nginx, ...)**
+  - **Setting up a load balancer (HAProxy, Nginx, ...)**
+  - **Setting up a firewall**
+  - **TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP**
+  - **Postmortem analysis when something bad happens**
