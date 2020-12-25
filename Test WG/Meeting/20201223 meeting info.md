@@ -35,7 +35,7 @@ Review progress for the third iterative test.
 - 【Test】The optimization of edgegallery installation package 【姜伟】（打标签的story已完成，发现安装包太大（已有5.6G，当前尚未有改观），在测；其他story放入后续版本）【许丹后续跟踪安装包缩减的问题】
 - 【MECM】Application Managment & Topology Enhancement 【张阿利】（流规则/dns规则需要内部跟进在clab环境测试，同developer）
 - 【installtaion】installation script （several modes）【李治谦】（离线安装脚本jjb每天运行，比较稳定；姜伟在测离线安装包；大问题放在1.1版改造）
-- 【mep】network isolation【敏熙】（维持上周状态；鹿鑫-支持多work节点部署，敏熙会后确认）
+- 【mep】network isolation【敏熙】（敏熙已确认一个网络平面可以跨一个边缘节点（一个k8s集群）的多个worker节点；但一个网络平面是否可跨多个边缘节点（即跨多个k8s集群），还需进一步确认）
 - 【ATP】App应用的测试能力增强 【张阿利】（在测；【倍源】无阻塞问题）
 - 【Developer】应用发布界面优化 【李媛媛】（应用发布界面持续修改中；【倍源：当前已有稳定版，可测】）
 -  _【Lab】搭建社区实验室管理服务平台_ 
