@@ -37,6 +37,12 @@ a.单元测试代码覆盖率工具：Jacoco（Java语言）、GoTest（Go语言
   
 代码覆盖率测试结果分析（SonarQube）：http://159.138.132.188:9000/projects?sort=-analysis_date
 
+|Tool Name|Version|Address | comments  |
+|---|---|---|---|
+|SonarQube|8.4.2 |http://159.138.132.188:9000/projects  ||
+|Jacoco|0.7.7.201606060606  |None |   |
+|go test| 1.15.5 |None |   |
+
 b.CICD工具Jenkins：http://119.8.34.36:8080/
 
 c.镜像库：http://159.138.137.155/
