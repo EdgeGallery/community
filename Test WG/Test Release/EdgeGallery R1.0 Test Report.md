@@ -63,7 +63,7 @@ c.镜像库：http://159.138.137.155/
 | 李媛媛 | developer&AppStore测试 |
 | 张阿利 | MECM测试、ATP测试 |
 | 姜伟 | 离线部署测试 |
-| mengpuhui | dns test |
+| mengpuhui | EdgeT 测试 |
 | 丁宇卿 | ETSI interface test |
 | all | doc test |
 
@@ -132,9 +132,9 @@ c.镜像库：http://159.138.137.155/
 | usermgmt | 24 | 20 | 4 |0  | 83.3% |
 | mecm|64 |40  | 10 | 14 | 62.5% |
 | 生态能力优化 | 4 | 4 | 0 | 0 | 100% |
-| mep-dns|1 |  |  |  |  |
-| 部署相关|4 | 4 |0  | 0 | 4 |
-| network isolation;public cloud integration|16 |15 | 1 | 15 | 93.75% |
+| EdgeT |2 |  |  |  |  |
+| 离线部署相关|2 |  |0  | 0 |  |
+| 其他|2 |2 |  |  | 93.75% |
 
 3.2 覆盖分析 Coverage Analysis
 
