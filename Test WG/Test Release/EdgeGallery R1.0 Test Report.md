@@ -52,9 +52,10 @@ c.镜像库：http://159.138.137.155/
 | 姓名 | 任务分工 |
 |---|---|
 | 侯敏熙 | network isolation test；public cloud integration； |
-| 彭育 | 安装部署支持All-in-one;支持JJB部署；5G网元集成;installation test； |
+| 李治谦 | 生态能力优化测试 |
+| 许丹 | 支持JJB部署； |
 | 李媛媛 | developer&AppStore测试 |
-| zhangali | MECM测试 |
+| 张阿利 | MECM测试 |
 | 姜伟 | 离线部署测试 |
 | mengpuhui | dns test； |
 | 丁宇卿 | ETSI interface test； |
