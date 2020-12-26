@@ -178,7 +178,7 @@ c.镜像库：http://159.138.137.155/
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
-EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全渗透测试
+EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全渗透测试
 
 3.4.1 安全测试组织Security Test Organizing
 
@@ -188,25 +188,23 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 
 3.4.2.1 EdgeGallery R1.0 安全设计合规测试
 
-时间：2020.09.14 ~ 2020.09.20
+时间：2020.11.25 ~ 2020.12.25
 
-测试项目： AppStore, Developer, User-mgmt, MECM，MEP
+测试项目： AppStore, Developer, User-mgmt, MECM，MEP，Apt,Toolchain
 
-测试人员： 程润东，Kanag， Prakash
+测试人员： 程润东，扈冰
 
 安全合规测试用例：
 
-3.4.2.2 EdgeGallery R0.9 安全渗透测试
+[EG R1.0 Security Test Plan.md](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.0/EG%20R1.0%20Security%20Test%20Plan.md)
 
-时间：2020.09.21 ~ 2020.09.24
-
-测试人员： 吕京
 
 安全渗透测试用例：
 
-- EG-TST-SEC-001
-- EG-TST-SEC-002
-- EG-TST-SEC-003
+[森头测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
+- EG-TST-SEC-004
+- EG-TST-SEC-005
+- EG-TST-SEC-007
 
 3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
@@ -214,13 +212,15 @@ EdgeGallery R0.9版本安全测试主要分为安全设计合规测试与安全�
 *Fixed Security Issues*
 
 
-渗透测试详细测试报告见[EdgeGallery R1.0渗透测试结果.docx]()
+渗透测试详细测试报告见：[合规测试&渗透测试](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.0)
 
 3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
 
 |BugID|Bug描述|状态|未解决说明|预计处理安排|
 |--|--|--|--|--|
+详见：[安全测试问题单](https://gitee.com/OSDT/dashboard/issues?search=%E3%80%90Security%20Test%E3%80%91)
 
 
 四、测试结论及建议 Test Conclusion and Suggestion
+测试主要聚焦在会话， 日志，敏感信息，权限认证，受攻击等角度进行测试，权限认证和会话测试在0.9版本里进行测试， 1.0版本基本延续同样的代码设计问题不大，这一次主要集中在日志和敏感信息以及少量的安全攻击方面的问题，测试结果包括大部分功能问题单外，少量安全问题都有issue进行跟踪，安全测试总共发现问题39个，35个bug，4个漏洞，其中安全问题重放攻击改动较大建议遗留，炸弹攻击已做修改，并作测试验证通过，其余bug问题, 张阿莉每天邮件日报一并统计，并跟踪确保解决。
 
