@@ -57,15 +57,15 @@ c.镜像库：http://159.138.137.155/
 
 | 姓名 | 任务分工 |
 |---|---|
-| 侯敏熙 | network isolation test；public cloud integration； |
-| 李治谦 | 生态能力优化测试 |
-| 许丹 | 支持JJB部署； |
+| 侯敏熙 | network isolation test, public cloud integration |
+| 李治谦 | 生态能力优化测试, 健康检查需求测试 |
+| 许丹 | 支持JJB部署 |
 | 李媛媛 | developer&AppStore测试 |
 | 张阿利 | MECM测试、ATP测试 |
 | 姜伟 | 离线部署测试 |
-| mengpuhui | dns test； |
-| 丁宇卿 | ETSI interface test； |
-| all | doc test； |
+| mengpuhui | dns test |
+| 丁宇卿 | ETSI interface test |
+| all | doc test |
 
 3.1.2 测试时间（各负责人daily更新） Test Schedule
 
@@ -116,6 +116,7 @@ c.镜像库：http://159.138.137.155/
 |【MEP/MECM】ak/sk配置接口| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 丁宇卿|%|
 |【Test】The optimization of edgegallery installation package| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 姜伟|%|
 |【Test】 Provide the health check for Edgegallery platform in one-click deployment| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 李治谦|%|
+|【专项测试】 Developer部署测试失败场景专项测试分析| |1 |2020/12/23 |2020/12/24 |2020/12/23 |2020/12/24 |1 | 李治谦|%|
 |【MECM】Application Managment & Topology Enhancement | |3 |2020/12/14 |2020/12/19 |2020/12/06 |2020/12/19 |4 | 张阿利|100%|
 |UI自动化脚本开发| |3 |2020/12/23 |2020/12/25 |2020/12/23 |2020/12/25 |3 |李媛媛|100%|
 |developer模块api自动化脚本维护| |5人天 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19|5 |李媛媛|100%|
