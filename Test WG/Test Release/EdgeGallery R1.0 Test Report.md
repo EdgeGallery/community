@@ -110,18 +110,18 @@ c.镜像库：http://159.138.137.155/
 |冒烟测试|APP/MECM/developer/atp/edgeT |1 | |2020/12/14| |20201216 | |刘辉/李治谦/侯敏熙 |100%|
 |【ATP】App应用的测试能力增强| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 张阿利|100%|
 |【Developer】应用发布界面优化| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 |李媛媛|100%|
-|【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化| |3 |2020/12/14 |2020/12/19 |2020/12/23 |2020/12/24 |1 | 李治谦|%|
-|【installtaion】installation script （several modes）| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 李治谦|%|
-|【Test】develop the Test Platform for supporting testcase management| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 孟璞辉|%|
-|【MEP/MECM】ak/sk配置接口| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 丁宇卿|%|
-|【Test】The optimization of edgegallery installation package| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 姜伟|%|
-|【Test】 Provide the health check for Edgegallery platform in one-click deployment| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 李治谦|%|
-|【专项测试】 Developer部署测试失败场景专项测试分析| |1 |2020/12/23 |2020/12/24 |2020/12/23 |2020/12/24 |1 | 李治谦|%|
+|【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化| |3 |2020/12/14 |2020/12/19 |2020/12/23 |2020/12/24 |1 | 李治谦|100%|
+|【installtaion】installation script （several modes）| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 李治谦|100%|
+|【Test】develop the Test Platform for supporting testcase management| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 孟璞辉|100%|
+|【MEP/MECM】ak/sk配置接口| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 丁宇卿|100%|
+|【Test】The optimization of edgegallery installation package| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 姜伟|100%|
+|【Test】 Provide the health check for Edgegallery platform in one-click deployment| |3 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19 |4 | 李治谦|100%|
+|【专项测试】 Developer部署测试失败场景专项测试分析| |1 |2020/12/23 |2020/12/24 |2020/12/23 |2020/12/24 |1 | 李治谦|100%|
 |【MECM】Application Managment & Topology Enhancement | |3 |2020/12/14 |2020/12/19 |2020/12/06 |2020/12/19 |4 | 张阿利|100%|
 |UI自动化脚本开发| |3 |2020/12/23 |2020/12/25 |2020/12/23 |2020/12/25 |3 |李媛媛|100%|
 |developer模块api自动化脚本维护| |5人天 |2020/12/14 |2020/12/19 |2020/12/14 |2020/12/19|5 |李媛媛|100%|
 |appstore、mecm模块api自动化脚本维护| |10|2020/12/14|2020/12/26 |2020/12/14 |2020/12/26 |10 |张阿利 |100%|
-|【专项测试】EdgeGallery后台服务资源占用情况专项测试分析| |2 |2020/12/25 |2020/12/26 |2020/12/25 |2020/12/26 |2 | 张阿利|%|
+|【专项测试】EdgeGallery后台服务资源占用情况专项测试分析| |2 |2020/12/25 |2020/12/26 |2020/12/25 |2020/12/26 |2 | 张阿利|100%|
  
 
 3.1.3 测试用例执行统计 analysis of Test Case execution
