@@ -131,25 +131,32 @@ c.镜像库：http://159.138.137.155/
 
 软件实现100%覆盖Release V1.0需求。
 
-3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test --owner xudan
+3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test
 
 根据TSC20200923会议决定，本次测试版本不考虑前端代码覆盖率，关注后台代码覆盖率。
-| 模块  | 代码覆盖率  |
-|---|---|
-|developer-be   | %  |
-| appstore-be  | % |
-|user-mgmt-be|%|
-|website-gateway|%|
-| mecm-inventory|%|
-| mecm-apm  | % |
-| mecm-appo  |% |
-| memc-mepm-k8splugin | % |
-| mecm-applcm-be  |%|
-| mecm-inventory |%|
-| mep-mepserver|%|
-| mep-mepauth|%|
-| mep-dnsserver|%|
-| mep-agent|%|
+所有数据来自于北京时间 2020.12.26 15:00 [SonarQube页面查询结果](http://159.138.132.188:9000/projects?sort=name)。
+
+| 模块                      | 代码覆盖率 |
+|---------------------------|-----------|
+| api-emulator              | 55.3%     |
+| appstore-be               | 60.2%     |
+| atp-be                    | 52.8%     |
+| developer-be              | 50.5%     |
+| mecm-apm                  | 56.8%     |
+| memc-applcm-k8splugin     | 57.3%     |
+| memc-applcm-lcmcontroller | 59.8%     |
+| mecm-appo                 | 57.4%     |
+| mecm-apprulemgr           | 67.2%     |
+| mecm-inventory            | 54.3%     |
+| mep-agent                 | 58.9%     |
+| mep-dnsserver             | 70.3%     |
+| mep-mepauth               | 52.4%     |
+| mep-mepserver             | 56.3%     |
+| plugins                   | 70.4%     |
+| toolchain                 | 44.7%     |
+| user-mgmt-be              | 59.3%     |
+| website-gateway           | 29.2%     |
+
 
 *注：website-gateway代码覆盖率低的解释：website-gateway本身是一个框架工程只有200多行代码，没有业务逻辑，而且大部分代码都是实现spring的配置类，ut运行不到。目前我们只能多其中的login和logout接口做测试，所以覆盖率达不到40%。
 
