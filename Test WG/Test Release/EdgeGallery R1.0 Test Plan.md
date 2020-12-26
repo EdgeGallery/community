@@ -98,10 +98,9 @@ bug优先级为：严重、主要、次要、一般。
 
 |Tool Name|Version|Address | comments  |
 |---|---|---|---|
-|SonarQube| |  ||
-|Jacoco|  | |   |
-|wiremock|  | |   |
-|go test|  | |   |
+|SonarQube|8.4.2 |http://159.138.132.188:9000/projects  ||
+|Jacoco|0.7.7.201606060606  |None |   |
+|go test| 1.15.5 |None |   |
 
 **8. Test development info** 
 
