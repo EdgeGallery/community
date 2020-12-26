@@ -217,7 +217,7 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 安全渗透测试用例：
 
-[森头测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
+[渗透测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
 - EG-TST-SEC-004
 - EG-TST-SEC-005
 - EG-TST-SEC-007
@@ -239,7 +239,6 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 四、测试结论及建议 Test Conclusion and Suggestion
 
-    测试主要聚焦在会话， 日志，敏感信息，权限认证，受攻击等角度进行测试，权限认证和会话测试在0.9版本里进行测试， 1.0版本基本延续同样的代码设计，问题不大。
-    这一次主要集中在日志和敏感信息以及少量的安全攻击方面的问题，测试结果包括大部分功能问题单外，少量安全问题都有issue进行跟踪，安全测试总共发现问题39个，35个bug，4个漏洞，
-    其中安全问题重放攻击改动较大建议遗留，炸弹攻击已做修改，并作测试验证通过，其余bug问题,进行跟踪并全部完成回归。
+    安全测试主要聚焦在会话，日志，敏感信息，权限认证，受攻击等角度进行测试，权限认证和会话测试在0.9版本里进行测试， 1.0版本基本延续同样的代码设计，问题不大。
+    这一次主要集中在日志和敏感信息以及少量的安全攻击方面的问题，测试结果包括大部分功能问题单外，少量安全问题都有issue进行跟踪，安全测试总共发现问题39个，35个bug，4个漏洞，其中安全问题重放攻击改动较大建议遗留，炸弹攻击已做修改，并作测试验证通过，其余bug问题,进行跟踪并全部完成回归。
 
