@@ -58,7 +58,7 @@ c.镜像库：http://159.138.137.155/
 | 姓名 | 任务分工 |
 |---|---|
 | 侯敏熙 | network isolation test, public cloud integration |
-| 李治谦 | 生态能力优化测试, 健康检查需求测试 |
+| 李治谦 | 生态能力优化测试、健康检查需求测试 |
 | 许丹 | 支持JJB部署 |
 | 李媛媛 | developer&AppStore测试 |
 | 张阿利 | MECM测试、ATP测试 |
