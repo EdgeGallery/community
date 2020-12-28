@@ -66,7 +66,7 @@ c.镜像库：http://159.138.137.155/
 | mengpuhui | EdgeT 测试 |
 | 丁宇卿 | ETSI interface test |
 | all | doc test |
-
+| PTL | POC需求测试|
 3.1.2 测试时间（各负责人daily更新） Test Schedule
 
 第一轮迭代测试2020年11月16日至11月28日。
