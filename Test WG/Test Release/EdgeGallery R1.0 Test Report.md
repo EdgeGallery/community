@@ -172,6 +172,7 @@ c.镜像库：http://159.138.137.155/
 
 **Note:** 1、website-gateway代码覆盖率低的解释：website-gateway本身是一个框架工程只有200多行代码，没有业务逻辑，而且大部分代码都是实现spring的配置类，ut运行不到。目前我们只能多其中的login和logout接口做测试，所以覆盖率达不到40%。
 2、toolchain代码覆盖率低的解释：toolchain后台是集成的代码分析工具，只做了接口调用的封装，业务逻辑少，所以覆盖率没有到达50%，由于功能简单，后期也不会有功能开发，所以维持现状，后期也不会补充。
+{: .note}
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
