@@ -164,8 +164,8 @@ All the problems found during the security test have been in the gitee issues (t
 | ---- | -------- | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ | -------------------------- | -------------- |
 | 1    | I2A17N   | [【Security Test】Mecm会话超时后，依然可以操作AppLCM、AppRule、边缘节点注册等功能](https://gitee.com/OSDT/dashboard?issue_id=I2A17N) | Remaining | 由于业务功能需要，目前token有效期为12小时，但是有效期过长的token会存在一定的安全隐患。建议暂时将此问题遗留。 | Remaining to next version. | 一般性安全问题 |
 | 2    | I28F84   | [【Security Test】Developer插件上传功能存在重放攻击漏洞](https://gitee.com/OSDT/dashboard?issue_id=I28F84) | Remaining | 目前采用hash值校验方法进行防御。后续版本可能增加同步时间戳、存储空间上限等方法进行防御。 | Remaining to next version. | 安全漏洞       |
-| 3    | I23DY8   | [【Security Test】mecm-postgresql;developer-fe ;user-mgmt-redis-0 项目默认登录用户为root用户](https://gitee.com/OSDT/dashboard?issue_id=I23DY8) | Remaining |                                                              | Remaining to next version. |                |
-| 4    | I1VY5P   | [【Security Test】【developer】Password is exposed](https://gitee.com/OSDT/dashboard?issue_id=I1VY5P) | Remaining |                                                              | Remaining to next version. |                |
+| 3    | I23DY8   | [【Security Test】mecm-postgresql;developer-fe ;user-mgmt-redis-0 项目默认登录用户为root用户](https://gitee.com/OSDT/dashboard?issue_id=I23DY8) | Remaining |                                                              | Remaining to next version. |  一般性安全问题             |
+| 4    | I1VY5P   | [【Security Test】【developer】Password is exposed](https://gitee.com/OSDT/dashboard?issue_id=I1VY5P) | Remaining |                                                              | Remaining to next version. |    一般性安全问题            |
 
 
 
