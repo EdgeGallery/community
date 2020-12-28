@@ -188,12 +188,9 @@ c.镜像库：http://159.138.137.155/
 按需求点分析
 缺陷收敛性分析：总计211 个bug（含 9个无效bug；含安全类bug 35）；迭代一 22 个bug（含 1个无效bug）；迭代二 84 个bug（含 5个无效bug）；迭代三 79 个bug（含 2个无效bug）；未制定迭代 26 个bug（含 1个无效bug）
 
-3.3.3 遗留缺陷及未解决问题 Residual Defects and known issues
+3.3.3 经评审遗留缺陷及未解决问题 Residual Defects and known issues
 
-|BugID|Bug描述|状态|未解决说明|预计处理安排|
-|--|--|--|--|--|
-|I24GTE|【developer】插件上传页面，‘上传API’功能为必填项，建议优化|遗留|--|--|
-|I28U3B|【developer】部署调测页面下载日志功能未实现 |遗留|当前版本没有实现日志下载的接口|放在下一个版本|
+请点击[遗留清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&issue_state_ids=826576&labels=ReleaseV1.0,bug)
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
