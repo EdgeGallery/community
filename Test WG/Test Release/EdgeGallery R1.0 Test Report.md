@@ -237,12 +237,19 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 *Fixed Security Issues*
 
 
-渗透测试详细测试报告见：[合规测试&渗透测试](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.0)
+安全测试总结报告见：[EdgeGallery v1.0.0 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.0/EG%20v1.0.0%20Security%20Test%20Report.md)
 
 3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
 
 
 详见：[安全测试问题单](https://gitee.com/OSDT/dashboard/issues?search=%E3%80%90Security%20Test%E3%80%91)
+安全问题遗留清单：
+| 序号  | Issue编号 | Issue标题        | 状态    | 原因             | 完成计划             | 备注           |
+| ---- | -------- | ------------------ | --------- | ----------------------- | ------------------ | -------------- |
+| 1    | I2A17N   | [【Security Test】Mecm会话超时后，依然可以操作AppLCM、AppRule、边缘节点注册等功能](https://gitee.com/OSDT/dashboard?issue_id=I2A17N) | Remaining | 由于业务功能需要，目前token有效期为12小时，但是有效期过长的token会存在一定的安全隐患。建议暂时将此问题遗留。 | Remaining to next version. | 一般性安全问题 |
+| 2    | I28F84   | [【Security Test】Developer插件上传功能存在重放攻击漏洞](https://gitee.com/OSDT/dashboard?issue_id=I28F84) | Remaining | 目前采用hash值校验方法进行防御。后续版本可能增加同步时间戳、存储空间上限等方法进行防御。 | Remaining to next version. | 安全漏洞       |
+| 3    | I23DY8   | [【Security Test】mecm-postgresql;developer-fe ;user-mgmt-redis-0 项目默认登录用户为root用户](https://gitee.com/OSDT/dashboard?issue_id=I23DY8) | Remaining |                                                              | Remaining to next version. |  一般性安全问题             |
+| 4    | I1VY5P   | [【Security Test】【developer】Password is exposed](https://gitee.com/OSDT/dashboard?issue_id=I1VY5P) | Remaining |                                                              | Remaining to next version. |    一般性安全问题            |
 
 
 四、测试结论及建议 Test Conclusion and Suggestion
