@@ -62,8 +62,6 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 | atp| 4| 4| 0 | 0| 100% |
 | crane-framework| 5| 5| 0 | 0| 100% |
 | 服务治理前台页面展示| 4| 4| 0 | 0| 100% |
-| 其他| 0| 0| 0 | 0| 0% |
-
 
 
 四、测试结论及建议 Test Conclusion and Suggestion
