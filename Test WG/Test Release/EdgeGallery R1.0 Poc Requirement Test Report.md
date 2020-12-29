@@ -19,6 +19,7 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 二、测试概要 Test Overview
 
 2.1 测试用例及脚本设计 Test Cases and Auto test scripts
+
 2.2 测试环境与配置 Test Env and related Configuration
 参考主测试报告。
 
