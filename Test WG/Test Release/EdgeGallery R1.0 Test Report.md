@@ -61,10 +61,11 @@ c.镜像库：http://159.138.137.155/
 | 李治谦 | 生态能力优化测试、健康检查需求测试 |
 | 许丹 | 支持JJB部署 |
 | 李媛媛 | developer&AppStore测试 |
-| 张阿利 | MECM测试、ATP测试 |
+| 张阿利 | MECM测试、ATP测试、example app测试 |
 | 姜伟 | 离线部署测试 |
 | mengpuhui | EdgeT 测试 |
 | 丁宇卿 | ETSI interface test |
+| 刘辉 | appstore优化已有feature测试 |
 | all | doc test |
 | PTL | POC需求测试|
 3.1.2 测试时间（各负责人daily更新） Test Schedule
