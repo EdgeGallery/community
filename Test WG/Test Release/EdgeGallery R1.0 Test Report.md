@@ -232,8 +232,7 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
 
-|BugID|Bug描述|状态|未解决说明|预计处理安排|
-|--|--|--|--|--|
+
 详见：[安全测试问题单](https://gitee.com/OSDT/dashboard/issues?search=%E3%80%90Security%20Test%E3%80%91)
 
 
