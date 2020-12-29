@@ -242,7 +242,7 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 - 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&labels=ReleaseV1.0)）25/25=100%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&labels=ReleaseV1.0),剔除无效story后）90/95=95%, 满足版本发布质量要求。
 - 未解决的严重问题<=1,满足版本发布质量要求。
-- 遗留Defect Index，即DI=2*0.1+5*1+1*3=8.2<10，满足版本发布质量要求。
+- 遗留Defect Index，即DI=2 * 0.1+5 * 1+1 * 3=8.2<10，满足版本发布质量要求。
 - 测试用例执行率，单元测试代码覆盖率等指标满足版本发布质量要求。
 
 
