@@ -192,6 +192,14 @@ c.镜像库：http://159.138.137.155/
 3.3.3 经评审遗留缺陷及未解决问题 Residual Defects and known issues
 
 请点击[遗留清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&labels=ReleaseV1.0&issue_state_ids=826576)
+非安全问题遗留清单：
+|BugID|Bug描述|状态|未解决说明|预计处理安排|
+|--|--|--|--|--|
+| I29CJM |appstore集成嵌套atp页面,appstore登陆后，概率性出现atp页面接口不通，报错token expired  |遗留 | 非必现问题 |  |
+| I1XZLD |user-mgmt pod has openssl version dependency  |遗留 | 非必现问题 |  |
+| I29XWW |developer平台，对于已发布应用，再次点击发布按钮，应该提示“应用已发布”，而非“应用发布失败” |遗留 |  | 遗留到下个版处理 |
+| I24GTE |developer平台，插件上传页面，‘上传API’功能为必填项，建议优化 |遗留 |  | 遗留到下个版处理 |
+| I28U3B |developer平台，部署调测页面下载日志功能未实现 |遗留 |当前版本没有实现日志下载的接口  | 遗留到下个版处理 |
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
