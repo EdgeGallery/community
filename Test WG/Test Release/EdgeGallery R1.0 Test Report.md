@@ -61,10 +61,11 @@ c.镜像库：http://159.138.137.155/
 | 李治谦 | 生态能力优化测试、健康检查需求测试 |
 | 许丹 | 支持JJB部署 |
 | 李媛媛 | developer&AppStore测试 |
-| 张阿利 | MECM测试、ATP测试 |
+| 张阿利 | MECM测试、ATP测试、example app测试 |
 | 姜伟 | 离线部署测试 |
 | mengpuhui | EdgeT 测试 |
 | 丁宇卿 | ETSI interface test |
+| 刘辉 | appstore优化已有feature测试 |
 | all | doc test |
 | PTL | POC需求测试|
 3.1.2 测试时间（各负责人daily更新） Test Schedule
@@ -238,7 +239,7 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 四、测试结论及建议 Test Conclusion and Suggestion
 
-测试主要包括交付需求测试，分别从系统功能性、稳定性、易用性以及安全性（详见安全测试报告）方面进行测试，同时针对个别场景进行专项测试，问题单提单量总计219个，其中安全类问题39个，经评审遗留9个，其中安全测试问题3个，功能性问题6个。
+测试主要包括交付需求测试，分别从系统功能性、稳定性、易用性以及安全性（详见安全测试报告）方面进行测试，同时针对个别场景进行专项测试，问题单提单量总计219个，其中安全类问题39个，经评审遗留10个，其中安全测试问题3个，功能性问题7个。
 
 - 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&labels=ReleaseV1.0)）25/25=100%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&labels=ReleaseV1.0),剔除无效story后）90/95=95%, 满足版本发布质量要求。
 - 未解决的严重问题<=1,满足版本发布质量要求。
