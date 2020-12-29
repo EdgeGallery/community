@@ -54,6 +54,7 @@
 - 【MEP/MECM】ak/sk配置接口【丁宇卿】
 - 【Test】The optimization of edgegallery installation package  【姜伟】
 - 【Test】 Provide the health check for Edgegallery platform in one-click deployment【李治谦】
+- 【Example APP】EdgeGallery Example APP Support【张阿利】
 
 
 **4. Test Case Management** 
