@@ -191,7 +191,7 @@ c.镜像库：http://159.138.137.155/
 
 3.3.3 经评审遗留缺陷及未解决问题 Residual Defects and known issues
 
-请点击[遗留清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&issue_state_ids=826576&labels=ReleaseV1.0,bug)
+请点击[遗留清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&labels=ReleaseV1.0&issue_state_ids=826576)
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
@@ -239,7 +239,7 @@ EdgeGallery R1.0 版本安全测试主要分为安全设计合规测试与安全
 
 四、测试结论及建议 Test Conclusion and Suggestion
 
-测试主要包括交付需求测试，分别从系统功能性、稳定性、易用性以及安全性（详见安全测试报告）方面进行测试，同时针对个别场景进行专项测试，问题单提单量总计219个，其中安全类问题39个，经评审遗留10个，其中安全测试问题3个，功能性问题7个。
+测试主要包括交付需求测试，分别从系统功能性、稳定性、易用性以及安全性（详见安全测试报告）方面进行测试，同时针对个别场景进行专项测试，问题单提单量总计219个，其中安全类问题39个，经评审遗留8个，其中安全测试问题3个，功能性问题5个。
 
 - 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&labels=ReleaseV1.0)）25/25=100%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&labels=ReleaseV1.0),剔除无效story后）90/95=95%, 满足版本发布质量要求。
 - 未解决的严重问题<=1,满足版本发布质量要求。
