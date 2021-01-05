@@ -19,6 +19,7 @@
 | 侯敏熙      | 红帽  | mhou@redhat.com|                               |                                     |
 | 周俊      | 华为  | zhoujun8@huawei.com |                               |                                     |
 |丁智慧    |  云迅智能  | dingzhihui@yunex.com  |  |  |
+|陈晨    |  西安电子科技大学  | cc2000@mail.xidian.edu.cn  |  |  |
 
 
 ## 工作组会议
