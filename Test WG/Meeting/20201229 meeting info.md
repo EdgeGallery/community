@@ -1,5 +1,5 @@
 本次会议同TSC、架构组联合召开
-会议纪要参见：
+会议纪要参见：https://gitee.com/edgegallery/community/blob/master/TSC/Meetings/202012/29-12-2020%20Meeting%20Minutes.md
 
 ### Topic(测试组相关)
 
