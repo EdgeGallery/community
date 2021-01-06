@@ -38,9 +38,9 @@ Summarize problems for 1.0 and suggest requirement spec for 1.1.
 - 【MECM】Application Managment & Topology Enhancement 【张阿利】（流规则/dns规则需要内部跟进在clab环境测试，同developer）
 
 
-- 【MEP/MECM】ak/sk配置接口【丁宇卿】（鹿鑫-通过mecm测试；利用postman测试意义不大）
+- 【MEP/MECM】ak/sk配置接口【丁宇卿】
 
-- 【mep】network isolation 【敏熙】- 【mep】network isolation【敏熙】（敏熙已确认一个网络平面可以跨一个边缘节点（一个k8s集群）的多个worker节点；但一个网络平面是否可跨多个边缘节点（即跨多个k8s集群），还需进一步确认）
+- 【mep】network isolation 【敏熙】- 【mep】network isolation【敏熙】（敏熙已确认一个网络平面可以跨一个边缘节点（一个k8s集群）的多个worker节点；）
 - 【mep】mepserver add app heartbeat API, referring to etsi mec 011 latest stable draft【敏熙】
 
 - 【Dev/MECM/App/Atp/MEP/APPLCM】EdgeGallery生态能力优化【李治谦】（无严重bug）
