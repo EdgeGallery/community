@@ -27,7 +27,7 @@
 * ci-management：版本发布的CI流水线
 * integration-testing：版本发布的测试用例
 * edget：版本的自动化测试框架
-* platform-mgmt：离线安全脚本
+* installer：邊緣畫廊安裝程序
 
 ## 工作组联系方式
 * 邮件列表：测试工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
