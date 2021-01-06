@@ -50,7 +50,7 @@ Please click [Release1.0 story decomposition](https://gitee.com/OSDT/dashboard/i
 
 Please click [R1.0 Secuirty Compliance Design](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Compliance%20Report/Version%201.0) to check the match between the security requirements of each module and the compliance test cases.
 
-Please click [R1.0 Security Test Plan](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.0/EG%20R1.0%20Security %20Test%20Plan.md) to view the test progress of each iteration story and whether the test results pass.
+Please click [R1.0 Security Test Plan](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.0/EG%20R1.0%20Security%20Test%20Plan.md) to view the test progress of each iteration story and whether the test results pass.
 
 #### 2.3 测试用例 Test Cases
 
