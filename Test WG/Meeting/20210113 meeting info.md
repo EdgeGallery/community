@@ -27,14 +27,14 @@
 Auto Test Sharing.
 
 
-2.1.0版发布后的问题情况--owner all
+2.R1.0版发布后的问题情况--owner all
 
 issues after V1.0 release. --owner zhangali
 
 
-3.测试指标分享 --owner Yuyang/Gaoweitao
+3.R1.1版需求审视 --owner Yuyang/Gaoweitao
 
-
+Review requirements for R1.1.
 
 ## meeting link
 https://welink-meeting.zoom.us/j/562950171
