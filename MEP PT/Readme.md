@@ -21,12 +21,11 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 
 |**Name**|**Email**|**Affiliation**|
 |:------:|:-------:|:-------------:|
-| 黎明江 | limingjiang@huawei.com | Huawei |
-| 刘小飞 | xiaofei.liu@xeniro.io  | 讯琥   |
+| 鹿鑫 | luxin7@huawei.com | Huawei |
 | Libu Jacob Varghese | libu.jacob@huawei.com | Huawei |
-| 陈炜  | allenwchen@tencent.com |   腾讯 |
-| 彭育  |  perry.peng@huawei.com | Huawei  |
-|   |   |   |
+| Bhanu Soni | bhanu.soni@huawei.com | Huawei |
+| Satish Karunanithi | satishk@huawei.com | Huawei |
+| Swarup Nayak | swarup.nayak1@huawei.com | Huawei |
 
 ## Useful Info 有用信息
 
@@ -37,4 +36,4 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 
 [1] [ETSI GS MEC 011 V2.1.1](https://www.etsi.org/deliver/etsi_gs/MEC/001_099/011/02.01.01_60/gs_MEC011v020101p.pdf) 
 
-[2] [Edgegallery MEP repo](https://gitee.com/EdgeGallery_group/mep)
+[2] [Edgegallery MEP repo](https://gitee.com/EdgeGallery/mep)
