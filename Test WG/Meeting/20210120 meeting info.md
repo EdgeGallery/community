@@ -22,12 +22,11 @@
 
 ## Topics议题
 
-1.review test report for R1.1--owner all
-
-
-2.测试指标分享--owner Yuyang/Gao Weitao
+1.测试指标分享--owner Yuyang/Gao Weitao
 
 Share test specification. --owner Yuyang/Gao Weitao
+
+2.review test report for R1.1--owner all
 
 3.R1.1版需求第一次迭代审视 --owner all
 
