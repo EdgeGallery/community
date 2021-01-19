@@ -12,7 +12,9 @@
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
-|  1.1 版本架构组工作计划讨论 |  | All |
+|  1.1 版本架构组工作计划 | 完成需求设计 | All |
+|  1.1 版本架构组工作计划 | 完成架构Review | All |
+|  1.1 版本架构组工作计划 | EdgeNative 讨论 | All |
 
 
 ## Meeting Records
