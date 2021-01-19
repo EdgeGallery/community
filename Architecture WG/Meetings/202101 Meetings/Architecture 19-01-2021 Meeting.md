@@ -7,7 +7,15 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- TBA
+- 范桂飓（九州云）
+- 刘辉（紫金山）
+- 游永明（广州申迪）
+- 荆子耕（腾讯）
+- 张倍源
+- 刘慧玲
+- 张海龙
+- 鹿鑫
+- 罗小云
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
