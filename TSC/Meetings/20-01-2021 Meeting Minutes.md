@@ -13,7 +13,7 @@ Zoom Meeting ID
 
 TSC members who attended:
 
-- 徐雷（联通 毋涛代表）
+- 徐雷 （联通 毋涛代表）
 - 刘芷若       （信通院）     
 - 丁韩宇          （中移动）    
 - 龚永生         （九州云 范桂飓代表）      
