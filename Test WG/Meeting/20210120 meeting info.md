@@ -22,16 +22,24 @@
 
 ## Topics议题
 
-1.测试指标分享--owner Yuyang/Gao Weitao
+1.测试指标分享--owner Yuyang
 
-Share test specification. --owner Yuyang/Gao Weitao
+Share test specification. --owner Yuyang
+
 
 2.review test report for R1.1--owner all
+
+【后期根据tsc明确的迭代需求和计划调整测试范围和计划】
 
 3.R1.1版需求第一次迭代审视 --owner all
 
 Review requirements for R1.1-First Iteration/Spirit.
 
+【放入下周讨论】
+
+4、开发过程中需求变动会测试工作影响 --owner minxi
+
+【治谦同gitee团队联系是否能够将epic或story的变更及时邮件给测试组相关人员】
 
 ## meeting link
 https://welink-meeting.zoom.us/j/708633267
