@@ -8,7 +8,7 @@
 ## 工作组成员
 | **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
 |-------------------|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
-| 彭育     | 华为           | perry.peng@huawei.com     |                               |                                     |
+| 李治谦     | 华为           | lizhiqian3@huawei.com     |                               |                                     |
 | 侯敏熙     | 红帽           | mhou@redhat.com     |                               |Y                                     |
 | 姜伟     | 紫金山实验室           | jiangwei@pmlabs.com.cn     |                               |                                     
 | 刘辉     | 紫金山实验室           | liuhui@pmlabs.com.cn     | Y                              |      
@@ -27,7 +27,7 @@
 * ci-management：版本发布的CI流水线
 * integration-testing：版本发布的测试用例
 * edget：版本的自动化测试框架
-* installer：邊緣畫廊安裝程序
+* installer：离线安裝脚本及指导
 
 ## 工作组联系方式
 * 邮件列表：测试工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
