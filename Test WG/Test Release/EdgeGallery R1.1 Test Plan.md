@@ -130,7 +130,9 @@ bug优先级为：严重、主要、次要、一般。
 
 针对测试人员，在第i次迭代测试开始前（即第i-1次测试过程中），需同研发人员澄清本轮测试需求，完成测试用例设计及评审；在第i次迭代测试执行中需执行所设计的测试用例（含自动化测试脚本），记录bug（及提出需求优化建议等），同时完成第i-1轮bug的回归测试。
 
-**10. Criteria for Iterative Test Execution** 
+**10. CI/CD Configuration Plan** 
+
+**11. Criteria for Iterative Test Execution** 
 
     - Starting Criteria for Iterative test excution
         - 完成本次迭代的详细设计/架构更新Complete detail design/architecture updating for current iteration        
@@ -150,12 +152,12 @@ bug优先级为：严重、主要、次要、一般。
         - PTL确认满足单元测试覆盖率>=50%要求（PTL confirm） satisfy code coverage rate for unit test
         - PTL确认三方件归一化扫描结果（PTL confirm） 3rd-party components  are all scanned and have consistent versions（including license compliance）
 
-**11. Risk analysis about testing** 
+**12. Risk analysis about testing** 
 
 - 针对需求/设计调整和细化延迟的风险，尽可能提前接入需求分析，准备用例；
 - 针对测试人员不足的风险，尽可能发挥现有人员的积极性，加强培训，提高自动化测试占比，提高效率。
 
-**12. Test Summary** 
+**13. Test Summary** 
 
 - Test Report（最后一次迭代测试执行完毕后，出具测试报告，含Known Issues&Defects，为项目发布服务）
 - Test Work Summary（总结每位组员贡献，分享经验和不足，提出工作优化建议）
