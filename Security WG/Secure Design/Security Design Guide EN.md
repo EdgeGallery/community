@@ -93,6 +93,22 @@ Test Steps:
 1. Set Different user different privileges.
 2. Cross check only the privilaged users can access the resource.
 
+1.13 When using a role-based access control mechanism, authorization and user role data must be stored on the server side, and authentication processing must also be completed on the server side.<br/>
+**Notice**: It is forbidden to store authorization and role data in the client (such as cookies or hidden fields) to prevent tampering.
+
+Test Steps:<br/>
+Check cookie or hidden field, whether there is authorization and role data.
+
+tag: version v1.1
+
+1.14 The contents in the password box cannot be displayed and copied/cut out, and the password field should disable autocomplete.<br/>
+**Notice**: The password cannot be copied/cut out, otherwise it is easy to cause the leakage of password information. Browsers have the ability to automatically save user input data and auto-fill data, in order to ensure the security of user names and passwords, the auto-fill function must be turned off.
+
+Test Steps:<br/>
+1. Try to copy/cut out the contents of the password box, and check whether the input type is password: < input type="password"> <br/>
+2. When entering the password, check whether there is an auto-fill function, and check whether the input parameter is < input autocomplete="off">
+
+tag: version v1.1
 
 ## 2. Secure Transmission  
 
@@ -147,31 +163,13 @@ Postman
 Test steps:
 1. Examine the system to check whether an interface to obtain data subjects' consent and authorization for collecting personal data is exist.
 
-3.5 By default, data generated during application processing cannot be transferred to a third party. If necessary, provide an interface to obtain data subjects' authorization.  
-**Notice**: Before transferring personal data of data subjects to a third party, provide a reasonable method to notify the data subjects of the types of personal data to be transferred, transfer purposes, and information about the data recipients, and obtain the consent of the data subjects.  
-
-Test steps:
-1. Examine the system to check whether an interface to obtain data subjects' authorization for transferring data to third party is exist.
-
-3.6 If personal data needs to be used for marketing, user profiling, and market survey, provide an interface to obtain data subjects' authorization and provide an interface for data subjects to withdraw their authorization at any time.  
-**Notice**: If personal data is used for user profiling and marketing, explicit user authorization must be obtained so that users can choose whether to use their personal data for basic services. Products or systems sold to the EU, if involving user profiling and marketing, must inform users of the user profiling logic, consequences of rejecting to provide personal data, and whether personal data is transferred out of European Economic Area (EEA), apart from informing them of their right to reject.  
-
-Test steps:
-1. Examine the system to check whether an interface to obtain data subjects' authorization and an interface for data subjects to withdraw their authorization are exist.
-
-tag: version v1.0                                                                                                                                                         
-3.7 Test whether the browser history and cache cache sensitive information 
+                                                                                                                                                         
+3.5 Test whether the browser history and cache cache sensitive information 
 
 Test steps:
 1.Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
 
 tag: version v1.0
-Penetration test
-3.8 Unauthorized test  
-
-Test steps: 
-1. Perform horizontal override test. , The user accesses another user with the same level of authority to obtain information 
-2. Perform a vertical unauthorized test, and the user accesses another user with a higher level of authority to obtain information
 
 ## 4. Encryption Algorithm and Key Management  
 
