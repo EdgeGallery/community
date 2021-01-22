@@ -110,6 +110,12 @@ OWASP ZAP，Postman
 1.尝试将密码框中内容拷贝/剪切出来，并查看输入框类型是否为password： < input type="password">  
 <br/>2.输入密码时观察是否存在自动填充功能，并查看输入框参数是否为< input autocomplete="off">。
 
+1.15不再使用的账号必须删除。删除账号时，必须同时删除相应的凭据（如密码、秘钥等），以防止这些被认为是后门。tag: version v1.1
+
+测试步骤：<br/>
+1.检查系统中是否存在未使用的账号或默认账号。<br/>
+2.如果存在此类账号，尝试使用此类账号登录，确保凭据已被删除，并且登录失败。
+
 
 
 ## 2.安全传输
@@ -179,6 +185,12 @@ Postman
 
 测试步骤：
 1. 使用“后退”按钮可以允许用户（或攻击者）返回到先前显示的屏幕。测试人员单击浏览器的“后退”按钮，以检查未经身份验证的用户是否可以访问以前显示的敏感信息。
+
+3.6 禁止向未授权用户显示/提供服务器的物理路径和文件结构。tag: version v1.1
+
+测试步骤：<br>
+1.查看是否有显示命令或Web客户端显示文件路径或文件结构。<br>
+2.如果出现此类情况，检查默认访客账户或未授权用户的物理完整路径是否未显示。
 
 
 ## 4.加密算法和密钥管理
@@ -340,10 +352,15 @@ JMeter
   
 **注意** ：应用程序应正确的使用了每个属性，比如 安全属性；httpOnly属性；路径属性；过期属性；
 
-测试步骤：
-1.使用拦截代理来查看Cookie，
+测试步骤：<br>
+1.使用拦截代理来查看Cookie<br>
 2.通过查看浏览器的Cookie来检查
 
+7.9 Web页面必须提供注销功能。注销服务必须清除正在使用的会话。用户关闭浏览器后（并非点击页面上的“注销”按钮），服务器可以保持会话直到会话超时之后立即清除会话。tag: version v1.1
+
+测试步骤：<br>
+1.检查Web客户端是否提供注销选项。<br>
+2.如果浏览器关闭，会话详细信息必须被清除。如果会话详情可用，则可用该规则检查。
 
 
 ## 8.安全文件
@@ -413,6 +430,31 @@ JMeter
 1.设计一个测试用例，以检查缓解方法的实现正确性；
 2.设计一个测试用例，从攻击者的角度攻击系统，并验证缓解方法的有效性。
 
+## 12.多租户
+
+12.1 边缘计算平台的管理网络默认情况下必须与租户的私有网络进行隔离。tag: version v1.1
+
+测试步骤：<br>
+1.查询并确认管理网络和租户网络是否相同。
+
+12.2 虚拟CPU、内存、存储设备、数据和网络在租户之间必须隔离，以维护租户的机密性和隐私性。tag: version v1.1
+
+测试步骤：<br>
+1.一个租户的数据不能在另一个租户中可见。例如：一个租户登录后可以查看数据库。<br>
+2.不同租户的网络地址不能相同。这可以通过检查ip地址来交叉检查。
+
+12.3 租户之间由于租户工作量或其他原因造成的干扰，必须被注意。例如：一个租户创建的过载可能会对另一个租户的性能产生负面影响。tag: version v1.1
+
+测试步骤：<br>
+1.单租户CPU过载，这不应影响其他租户的性能，也不应阻塞其他租户的业务。
+
+12.4 必须具有访问控制机制，使用大量授权规则，跨越冲突的策略域，适用于大量用户（基于角色的访问控制）。tag: version v1.1
+必须有一个穿过冲突策略域采用大量授权规则的访问控制记住，适用于大量用户（基于角色的访问控制）。
+
+测试步骤：<br>
+1.检查系统配置是否支持对每个资源配置角色。<br>
+2.检查系统配置是否支持配置各个角色的独立权限。
+
 ## 外部引用
 1. https://gdpr-info.eu/
 2. https://gitee.com/mindspore/community/tree/master/security
@@ -421,3 +463,5 @@ JMeter
 5. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.md 
 6. https://wiki.owasp.org/index.php/OWASP_Testing_Project 
 7. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/ 
+8. https://www.researchgate.net/publication/261342160_Multitenancy_-_Security_Risks_and_Countermeasures
+9. https://cloudsecurityalliance.org/research/guidance/#_overview
