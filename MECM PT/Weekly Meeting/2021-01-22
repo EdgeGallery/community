@@ -3,8 +3,9 @@
 Welink会议ID：https://welink-meeting.zoom.us/j/173240859
 
 会议议题：
-EdgeGallery V1.0 Show. ---Chuanyu Chen
-MECM V1.1 Analysis ---ALL
+Akraino EALTEdge BP (release version) using v0.9 EdgeGallery -> https://wiki.akraino.org/pages/viewpage.action?pageId=28975080 --> YangYang
+MECM V1.1 Analysis
+
 
 Participants:  
 陈传雨  
@@ -19,5 +20,16 @@ Khemendra
 
 
 Minutes of the meeting:  
-
-
+-- Akraino EALTEdge BP (release version) using v0.9 EdgeGallery -> https://wiki.akraino.org/pages/viewpage.action?pageId=28975080 --> YangYang
+-- v1.1 Analysis
+1.Tenant and Administrator Role Check - Complete (https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM%20admin%20role%20support.pptx) - Shashi/YangYang
+  UI page to be designed (next week) - Yangyang
+2. Standardized image management - Ongoing - Vidya
+3. APPLCM's Portal. - Completed (https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/applcm_portal_analysis.xlsx) - Vidya
+4. Data synchronization between the central and edge nodes - Ongoing - Rama
+5. Standardization of APP Inputs/Injection Files - Ongoing - Shashi
+6. monitoring-service as a real example to use MEP - Completed (https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Example%20App%20Enhancement.pptx)
+   Also coding is completed
+-- community
+1. Development for log file requirement - Ongoing
+2. Error message - Completed.
