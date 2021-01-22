@@ -110,6 +110,15 @@ Test Steps:<br/>
 
 tag: version v1.1
 
+1.15 Accounts that are no longer used must be deleted. when an account is deleted, the corresponding credentials (such as the password and authentication key) must also be deleted to prevent them from being suspected as backdoors.<br/>
+
+Test Steps:<br/>
+1. Check if any unused accounts or default account exist in the system. <br/>
+2. If any such account exist, make sure its credentials are deleted by trying to login with such accounts. Login must fail.  <br/>
+
+tag: version v1.1
+
+
 ## 2. Secure Transmission  
 
 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.  
@@ -157,19 +166,24 @@ Test steps:
 Test tools:
 Postman
 
-3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
-**Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
-
-Test steps:
-1. Examine the system to check whether an interface to obtain data subjects' consent and authorization for collecting personal data is exist.
-
-                                                                                                                                                         
+                                                                                                                                                        
 3.5 Test whether the browser history and cache cache sensitive information 
 
 Test steps:
 1.Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
 
 tag: version v1.0
+
+
+3.6 Do not show/provide Physical abolute paths and file structures of servers to unauthorized users. 
+
+Test steps:<br/>
+1.Check if any display commands or web clients shows the file paths or file structures.<br/>
+2.If such cases occurs check if Physical abolute paths are not shown for the default Guest account or for unauthorized users.<br/>
+
+tag: version v1.1
+
+
 
 ## 4. Encryption Algorithm and Key Management  
 
@@ -310,6 +324,7 @@ Test steps：
 
 tag: version v1.0
 penetration test
+
 7.6 Testing cross-site request forgery:  
    The attacker may force the user of the web application to perform an action chosen by the attacker to determine whether it is possible to initiate a request on behalf of the user that was not initiated by the user.
    1. Verify the HTTP Referer field on the server side, such as request.getHeader("Referer").
@@ -317,6 +332,7 @@ penetration test
      Compare.
 
 tag: version v1.0
+
 7.7 The test session cannot be predicted 
 penetration test
 **Note**: The tester wants to check whether cookies and other session tokens have been created in a safe and unpredictable way. An attacker who can predict and forge weak cookies can easily hijack the sessions of legitimate users.
@@ -334,6 +350,14 @@ tag: version v1.0
 Test steps:
 1. Use blocking proxy to view cookies,
 2. Check by viewing the cookies of your browser
+
+7.9 Web pages must provide logout options. On Logout servers must clear using session information. After a user closes a browser (not by clicking theLogout button on a webpage), the server can keep the session only until it times out or immediately and clear the session.<br/>
+
+Test Steps:<br/>
+1. Check if logout option is provided for web client. <br/>
+2. If browser is closed the session details must have been cleared. This can be checked using if any session details available.  <br/>
+
+tag: version v1.1
 
 ## 8. Security Document  
 
@@ -392,8 +416,47 @@ Test steps:
 Test steps:
 1. Try the operations of admin using user account, it must not allow.
 
+## 11. Image Repository
 
-## 11. Threat Modelling
+11.1 Software packages / Application images in repository must not contain virus softwares. The inner software integrity protection mechanism can be implemetated to cross check the tampering of images. <br/>
+
+Test steps: <br/>
+1. Run antivirus regularly to check if any virus is loaded. <br/>
+2. Tampered images must be caught by the system and rejected when it is deployed. <br/>
+
+tag: version v1.1
+
+## 12. Multi-tenancy
+
+12.1. The management network of the edge computing platform must be isolated from tenenats private networks by default. <br/>
+
+Test steps:<br/>
+1. Query and check if both the networks for management and tenant are different.<br/>
+
+tag: version v1.1
+
+12.2. Virtual CPU's, memories, storage devices, data and networks must be isolated among tenants so that confidentiality and privacy of tenants is maintained.<br/>
+
+Test steps: <br/>
+1. Data of one tenant must not be visible in another tenant. For example the database can be checked from one tenants login. <br/>
+2. Network address must be different among tenants. This can be cross check by checking the ip addresses. <br/>
+
+tag: version v1.1
+
+12.3. Interference between tenants because of tenant workloads or others must be taken care.   For example an overload created by one tenant may negatively impact the performance of another tenant. <br/>
+Test steps: <br/>
+1. Overload CPU of one tenant. This should not impact the other tenants performace or should not block other tenant services. <br/>
+
+tag: version v1.1
+
+12.4. Must have an access control mechanism employing a large number of authorization rules, across conflicting policy domains, for large numbers of users. (RBAC)
+Test steps: <br/>
+1. Check if the system configuration allows to Configure Roles for each resources. <br/>
+2. Check if the system configuration allows to Configure seperate permission for each role. <br/>
+
+tag: version v1.1
+
+## 13. Threat Modelling
 
 11.1 All feature design must do threat Modelling and check if all aspects of security is considered in design.  
 **Notice**: Threat Modeling is a process to analyze the architecture of a product and identify security issues in it’s design. For more details refer https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Threat%20Modeling%20--%20STRIDE.md
@@ -412,3 +475,5 @@ For each mitigation methods:
 5. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.md
 6. https://wiki.owasp.org/index.php/OWASP_Testing_Project
 7. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/
+8. https://www.researchgate.net/publication/261342160_Multitenancy_-_Security_Risks_and_Countermeasures
+9. https://cloudsecurityalliance.org/research/guidance/#_overview
