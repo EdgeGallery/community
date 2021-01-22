@@ -455,6 +455,26 @@ JMeter
 1.检查系统配置是否支持对每个资源配置角色。<br>
 2.检查系统配置是否支持配置各个角色的独立权限。
 
+## 13.仓库管理
+
+13.1 检查镜像仓库Nexus/SWR仓库是否有漏洞， 病毒。
+
+测试步骤：
+1.  获取镜像仓库地址
+2.使用clair或者harbor开源组件进行扫描
+
+13.2 检查仓库的镜像保密性
+  容器(+镜像)是否保密，也即镜像是否被目标用户运行
+
+测试步骤：
+
+13.3 检测镜像的应用目录被植入Webshell
+
+测试步骤：
+
+通过在宿主机侧通过Webshell扫描引擎扫描来自Docker容器的“Web应用程序文件”（这些文件可通过“docker cp”命令或者“动态挂载”机制获得），有助于发现攻击者植入的Webshell。
+
+
 ## 外部引用
 1. https://gdpr-info.eu/
 2. https://gitee.com/mindspore/community/tree/master/security
