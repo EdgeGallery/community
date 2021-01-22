@@ -424,6 +424,16 @@ Test steps: <br/>
 1. Run antivirus regularly to check if any virus is loaded. <br/>
 2. Tampered images must be caught by the system and rejected when it is deployed. <br/>
 
+11.2 Check the confidentiality of the warehouse image. Whether the container (+image) is confidential, that is, whether the image is run by the target user
+
+Test steps:
+
+11.3 Detect that the mirrored application directory is implanted in Webshell
+
+Test steps:
+
+By scanning the "Web application files" from the Docker container through the Webshell scanning engine on the host side (these files can be obtained through the "docker cp" command or the "dynamic mount" mechanism), it helps to discover the Webshell implanted by the attacker
+
 tag: version v1.1
 
 ## 12. Multi-tenancy
