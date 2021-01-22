@@ -110,6 +110,14 @@ Test Steps:<br/>
 
 tag: version v1.1
 
+1.15 Accounts that are no longer used must be deleted. when an account is deleted,the corresponding credentials(such as the password and authentication key)must also be deleted to prevent them from being suspected as backdoors.
+
+Test Steps:<br>
+1.Check if any unused accounts or default account exist in the system.<br>
+2.If any such account exits,make sure its credentials are deleted by trying to login with such accounts.Lonin must fail.
+
+tag: version v1.1
+
 ## 2. Secure Transmission  
 
 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.  
@@ -156,13 +164,6 @@ Test steps:
 
 Test tools:
 Postman
-
-3.4 By default, personal data of a data subject cannot be not directly read. If necessary, provide an interface to obtain data subjects' authorization.  
-**Notice**: Personal data belongs to data subjects. If personal data needs to be accessed and collected, data subjects' consent and authorization are required.  
-
-Test steps:
-1. Examine the system to check whether an interface to obtain data subjects' consent and authorization for collecting personal data is exist.
-
                                                                                                                                                          
 3.5 Test whether the browser history and cache cache sensitive information 
 
@@ -170,6 +171,14 @@ Test steps:
 1.Using the "back" button allows the user (or attacker) to return to the previously displayed screen. The tester clicks the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information.
 
 tag: version v1.0
+
+3.6 Do not show/provide Physical abolute paths and file structures of servers to unauthorized users.
+
+Test Steps:<br>
+1.Check if any display commands or web clients shows the file paths or file structures.<br>
+2.If such cases occurs check if Physical abolute paths are not shown for the default Guest account or for unauthorized users.
+
+tag: version v1.1
 
 ## 4. Encryption Algorithm and Key Management  
 
@@ -335,6 +344,14 @@ Test steps:
 1. Use blocking proxy to view cookies,
 2. Check by viewing the cookies of your browser
 
+7.9 Web pages must provide logout options.On logout servers must clear using session information.After a user close a browser(not by clicking the logout button on a webpage), the server can keep the session only until it times out or immediately and clear the session.
+
+Test Steps:<br>
+1.Check if logout option is provided for web client.<br>
+2.If browser is closed the session details must have been cleared.This can be checked using if any session details available.
+
+tag: version v1.1
+
 ## 8. Security Document  
 
 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces, and default usernames and passwords used for identity authentication must be described in the product or application document.  
@@ -403,6 +420,15 @@ For each mitigation methods:
 1. Design a test case to check the implementation correctness of the mitigation method;
 2. Design a test case to attack the system from an attacker's perspective and verify the effectiveness of the mitigation method.
 
+## 12. Multi-Tenancy
+
+12.1 The management network of the edge computing platform must be isolated from tenenats private networks by default.
+
+Test Steps:<br>
+1.Query and check if both the networks for management and tenant are different.
+
+tag: version v1.1
+
 
 ## References
 1. https://gdpr-info.eu/
@@ -412,3 +438,5 @@ For each mitigation methods:
 5. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/README.md
 6. https://wiki.owasp.org/index.php/OWASP_Testing_Project
 7. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/how-should-we-implement-encryption/
+8. https://www.researchgate.net/publication/261342160_Multitenancy_-_Security_Risks_and_Countermeasures
+9. https://cloudsecurityalliance.org/research/guidance/#_overview
