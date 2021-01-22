@@ -2,7 +2,7 @@
 
 Please Refer to Laboratory Environment Plan
 
-![Please Refer to Laboratory Environment Plan](https://images.gitee.com/uploads/images/2020/1102/204155_a23b0273_7791645.png "图片1.png")
+![Please Refer to Laboratory Environment Plan](https://images.gitee.com/uploads/images/2021/0122/135952_21ed5c11_7791645.png "图片1.png")
 
 Users will access to the laboratory through VPN.
 
@@ -22,4 +22,4 @@ Please Refer to Project Deployment Plan
 |---------|-----------|-----------------|
 | 0.1     | 2020/8/11 | Initial Version |
 | 0.9     | 2020/10/28 | Add signal-point labs. Add CENI points |
-
+| 1.0     | 2021/1/22 | Add interconnection between CENI points |
