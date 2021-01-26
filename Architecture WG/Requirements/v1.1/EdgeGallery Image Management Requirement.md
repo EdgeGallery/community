@@ -32,7 +32,8 @@ STORIES:
 - [【Developer】支持容器镜像管理](https://gitee.com/OSDT/dashboard/issues?id=I2E3SL)  
 - [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3T8)
 ### 业务流程
-
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0126/113548_2505f469_7624954.png "imagemgr1.PNG")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0126/113601_d8666eaf_7624954.png "imagemgr2.PNG")
 ### 接口定义
 涉及新增/变更的接口：
 |模块|新增or修改|接口名称|Method |URL |接口描述|
