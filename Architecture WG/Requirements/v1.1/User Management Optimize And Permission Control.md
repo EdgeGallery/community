@@ -62,6 +62,10 @@ STORIES:
 
 
 ### 接口定义
+
+详细参考Edge Gallery1.1 用户管理特性优化与分权控制方案分析.pptx
+
+
 涉及新增的接口：
 |模块|接口名称|Method |URL |接口描述
 |----|---------|-------|-------|----
@@ -69,7 +73,6 @@ STORIES:
 |UserMgmt|停用用户|PUT| /v1/users/{userId}/status/disallow |停用用户
 |UserMgmt|启用用户|PUT| /v1/users/{userId}/status/allow |启用用户
 |UserMgmt|设置用户角色|PUT| /v1/users/{userId}/settings |设置用户所属角色
-|UserMgmt|修改用户密码|PUT| /v1/users/{userId}/password |修改用户密码
 |UserMgmt|获取邮件验证码|PUT| /v1/identity/mail |获取邮件验证码
 
 涉及修改的接口：
@@ -80,7 +83,7 @@ STORIES:
 |UserMgmt|注册用户|PUT| /v1/users |注册用户|扩充邮箱地址，不再对用户进行验证，去掉公司信息和性别的处理
 |UserMgmt|校验重复用户|POST| /v1/users/action/uniqueness |校验重复用户|扩充支持按照邮箱地址校验重复性
 |UserMgmt|登录|POST| /login |用户登录|判断用户已停用则不允许登录，返回报错信息
-|UserMgmt|找回密码|PUT| /v1/users/password |忘记密码后找回密码|扩充支持按照邮箱地址来校验验证码
+|UserMgmt|找回密码（修改密码）|PUT| /v1/users/password |修改密码&忘记密码后找回密码|扩充支持原密码验证修改方式，密码找回方式扩充支持邮箱找回
 |Website-Gateway|获取当前登录用户信息|GET| /auth/login-info |获取当前登录用户的信息|扩充返回跳转到个人中心的链接地址，供各应用进行集成
 
 涉及删除的接口：
