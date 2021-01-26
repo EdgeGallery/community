@@ -24,7 +24,7 @@
 
 1.开源项目里测试规范分享--owner Xudan
 
-Share test standard/specification from some open-source project. --owner Yuyang
+Share test standard/specification from some open-source project. --owner Xudan
 
 
 2.R1.1版需求第一次迭代审视 --owner all
