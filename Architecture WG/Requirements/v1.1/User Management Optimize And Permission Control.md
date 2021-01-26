@@ -17,8 +17,10 @@ EdgeGallery 1.1版本规划对用户管理特性进行部分优化，平台支�
 
 ### 涉及模块 && EPIC && Story
 涉及模块：UserMgmt，Developer/AppStore/MECM/ATP/Lab
+
 EPIC: 
 - [【UserMgmt】EdgeGallery平台用户管理特性优化](https://gitee.com/OSDT/dashboard/issues?id=I2E6AI)  
+
 STORIES:
 - [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard/issues?id=I2E9LE)  
 - [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard/issues?id=I2E9LG)  
@@ -33,8 +35,10 @@ STORIES:
 - [【ATP】ATP应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard/issues?id=I2E9M4)  
 - [【Lab】Lab应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard/issues?id=I2E9M5)  
 
+
 EPIC: 
 - [【UserMgmt】EdgeGallery平台支持用户分权控制](https://gitee.com/OSDT/dashboard/issues?id=I1QGSH)  
+
 STORIES:
 - [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard/issues?id=I23FRE)  
 - [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard/issues?id=I2E6S7)  
@@ -77,7 +81,7 @@ STORIES:
 |UserMgmt|校验重复用户|POST| /v1/users/action/uniqueness |校验重复用户|扩充支持按照邮箱地址校验重复性
 |UserMgmt|登录|POST| /login |用户登录|判断用户已停用则不允许登录，返回报错信息
 |UserMgmt|找回密码|PUT| /v1/users/password |忘记密码后找回密码|扩充支持按照邮箱地址来校验验证码
-|Website-Gateway|获取当前登录用户信息|GET| /auth/login-info |扩充返回跳转到个人中心的链接地址，供各应用进行集成
+|Website-Gateway|获取当前登录用户信息|GET| /auth/login-info |获取当前登录用户的信息|扩充返回跳转到个人中心的链接地址，供各应用进行集成
 
 涉及删除的接口：
 |模块|接口名称|Method |URL |接口描述|删除原因
