@@ -72,7 +72,7 @@ STORIES:
 |UserMgmt|修改用户密码|PUT| /v1/users/{userId}/password |修改用户密码|
 |UserMgmt|获取邮件验证码|PUT| /v1/identity/mail |获取邮件验证码|
 
-涉及新增的接口：
+涉及修改的接口：
 |模块|接口名称|Method |URL |接口描述|修改说明
 |----|---------|-------|-------|----|--------|
 |UserMgmt|获取当前登录用户信息|GET| /auth/login-info |获取当前登录用户的信息|返回邮箱地址，去掉公司信息和性别
