@@ -3,18 +3,23 @@ EdgeGallery版本规划。
 ### 需求描述
 1. 引入Test Scenario， Test Suite，Test Cases三层模型概念。管理员可以在管理面对测试场景、测试套、测试用例进行管理。
 测试场景、测试套、测试用例的关系如下：
-      
+
 
 ### Usecase
 
 ### 涉及模块 && EPIC && Story
-涉及模块：Installer，Developer，AppStore，MECM  
+涉及模块：ATP
 EPIC: 
-- [【Installer/Developer/MECM/AppStore】支持容器镜像管理](https://gitee.com/OSDT/dashboard?issue_id=I2E40L)  
+- [【ATP】ATP测试用例扩充](https://gitee.com/OSDT/dashboard/issues?id=I2NU3F)  
+- [【ATP】测试用例模型增强](https://gitee.com/OSDT/dashboard/issues?id=I2EBZ2)  
 STORIES:
-- [【Installer】支持容器镜像管理](https://gitee.com/OSDT/dashboard/issues?id=I2E3RE)  
-- [【Developer】支持容器镜像管理](https://gitee.com/OSDT/dashboard/issues?id=I2E3SL)  
-- [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3T8)
+- [ATP测试用例扩充到总数14个](https://gitee.com/OSDT/dashboard/issues?id=I2NU9C)  
+- [ATP管理面portal优化](https://gitee.com/OSDT/dashboard/issues?id=I2EC3E)  
+- [ATP优化问题单（用例下载，测试报告下载格式修改](https://gitee.com/OSDT/dashboard/issues?&id=I2EC47)
+- [支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard/issues?id=I2EC4R) 
+- [支持手工测试 用例](https://gitee.com/OSDT/dashboard/issues?id=I2EC5P) 
+- [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard/issues?id=I2EC1E)
+- [ATP应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard/issues?id=I2E6SQ)
 ### 业务流程
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0126/113548_2505f469_7624954.png "imagemgr1.PNG")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0126/113601_d8666eaf_7624954.png "imagemgr2.PNG")
@@ -28,4 +33,4 @@ STORIES:
 
 
 ### 工作量预估 estimate effort
-4k
+7.4k
