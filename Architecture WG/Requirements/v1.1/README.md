@@ -1,14 +1,9 @@
 > Working In Progress
 
-### EdgeGallery v0.9 Requirements
+### EdgeGallery v1.1 Requirements
 
 |Requirements   | EPIC Link  | Requirement Design Doc| Contactor |
 |---|---|---|---|
-| Network isolation/网络平面隔离  |  [Network_isolation_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?issue_id=I1OY0L) | [network isolation design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/network_isolation.md) | 高维涛|
-| Public Cloud Integration/公有云集成 |  [PublicCloudIntegration_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?issue_id=I1OXZF) |  [public cloud integration design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/publiccloud_integration.md)  |    |
-| DNS Configuration/支持DNS配置 | [DNS_Configuration_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?issue_id=I1OWJI) | [DNS Configuration Design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/open_dns_configuration.md) | Libu |
-| 【MECM】Application Managment & Verification | [【MECM】Application Managment & Verification_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?issue_type_id=238024&issue_id=I1OY5D) | [MECM Optimization design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/MECM%20Optimization.md) | 陈传雨 |
-| 【Developer】APP部署测试发布流程优化 | [【Developer】APP部署测试发布流程优化_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?issue_type_id=238024&issue_id=I1QGT2) | [Developer Optimization design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Developer%20Optimization.md) | 李松阳 |
-| 【CICD】jenkins job支持JJB形式部署 | [【CICD】jenkins job支持JJB形式部署_EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?assignee_ids=7624512&issue_id=I1QGUH) | [  Support JJB in jenkins jobs doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20JJB%20in%20jenkins%20jobs.md) | 彭育 |
-| 【安装部署】安装部署支持all-in-one部署/离线部署 | [【安装部署】安装部署支持all-in-one部署/离线部署 _EPIC](https://gitee.com/OSDT/dashboard/programs/114633/issues?assignee_ids=7624512&issue_id=I1QGUD) | [ Support offline installation in one-click-deploy scripts doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/Support%20offline%20installation%20in%20one-click-deploy%20scripts.md) | 彭育 |
-|EdgeGallery生态能力优化 | [EdgeGallery生态能力优化](https://gitee.com/OSDT/dashboard/issues?id=I1QGTZ) | [EdgeGallery ecological ability optimization](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v0.9/EdgeGallery%20ecological%20ability%20optimization.md) | 孙靖涵 |
+| Application Test Platform(ATP) Enhancement  |  [【ATP】ATP测试用例扩充](https://gitee.com/OSDT/dashboard/issues?id=I2NU3F) <br> [【ATP】测试用例模型增强](https://gitee.com/OSDT/dashboard/issues?id=I2EBZ2) | [ATP design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.1/EdgeGallery%20ATP%20V1.1%E9%9C%80%E6%B1%82.md) | 刘慧玲|
+|  Image Management |  [【Installer/Developer/MECM/AppStore】支持容器镜像管理](https://gitee.com/OSDT/dashboard?issue_id=I2E40L) |  [Image Management Design Doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.1/EdgeGallery%20Image%20Management%20Requirement.md)  |  陈传雨  |
+| User Management Optimize And Permission Control | [【UserMgmt】EdgeGallery平台用户管理特性优化](https://gitee.com/OSDT/dashboard/issues?id=I2E6AI) | [User Management Design doc](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.1/User%20Management%20Optimize%20And%20Permission%20Control.md) | 周艳兵 |
