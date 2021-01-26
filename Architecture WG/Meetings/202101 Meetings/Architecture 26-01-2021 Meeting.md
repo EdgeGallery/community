@@ -13,7 +13,7 @@
 |  Agenda Items  |  Notes & Materials   |  Proposer |
 |---|---|---|
 |  1.1 版本需求Reivew -- UserManagement |  | 周艳兵 |
-|  1.1 版本需求Reivew -- 镜像管理 | 完成架构Review | 陈传雨 |
+|  1.1 版本需求Reivew -- 镜像管理 |  | 陈传雨 |
 |  1.1 版本需求Reivew -- ATP | | 刘慧玲 |
 
 
