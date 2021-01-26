@@ -8,20 +8,29 @@
 * 提供技术方案求助通道，解决开发过程中遇到的问题
 
 ## 项目成员
-| **Name**  | **Affiliation** |         **Email**         |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
-|-----------|-----------------|---------------------------|---------------------------------|-------------------------------------|                                  
-| 张倍源      | 华为           | zhangbeiyuan@huawei.com    |                                 |                                     
-| 孙靖涵    | 华为             | sunjinghan1@huawei.com    |                                 |                                     
-| 李治谦    | 华为             | lizhiqian1@huawei.com     |                                 |   
-| 杨阳    | 华为             | yangyang263@huawei.com   |                                 |   
-| 李松阳    | 华为             | lisongyang2@huawei.com   |                                 |   
-| 贺龙飞    | 华为             | helongfei6@huawei.com   |                                 |   
-| 张海龙    | 华为             | zhanghailong22@huawei.com   |                                 |   
-| 白针针    | 华为             | baizhenzhen3@huawei.com   |                                 |   
-| 邹玲莉    | 华为             | zoulingli@huawei.com   |                                 |   
-| 陈辉    | 九州云             | chen.hui@99cloud.net   |                                 |   
-| 孙友伟    | 九州云             | sun.youwei@99cloud.net   |                                 |   
-| 丁宇卿    | 紫金山实验室      | dingyuqing@pmlabs.com.cn   |                                 |   
+| **Name**  | **Affiliation** |         **Email**         |  
+|-----------|-----------------|---------------------------|                                  
+| 张倍源      | 华为           | zhangbeiyuan@huawei.com    | 
+| 张海龙    | 华为             | zhanghailong22@huawei.com   |   
+| 刘慧玲    | 华为             | liuhuiling4@huawei.com   |   
+| 李治谦    | 华为             | lizhiqian1@huawei.com     |    
+| 杨阳    | 华为             | yangyang263@huawei.com   |     
+| 贺龙飞    | 华为             | helongfei6@huawei.com   |    
+| 白针针    | 华为             | baizhenzhen3@huawei.com   |   
+| 邹玲莉    | 华为             | zoulingli@huawei.com   |   
+| 陈辉    | 九州云             | chen.hui@99cloud.net   |  
+| 孙友伟    | 九州云             | sun.youwei@99cloud.net   |  
+
+## PTL
+| **Component**  | **PTL** |   **Contributors** |
+|-----------|-----------------|----------------------|
+| Developer  | 张海龙  |   张海龙，孙友伟，陈辉，贺龙飞，邹玲莉  |
+| AppStore  | 罗小云  |    罗小云，李治谦，白针针，赵龙飞，程润东，Janani，Khemendra |
+| MECM  | 陈传雨  |  陈传雨，杨阳，Gaurav Agrawal  |
+| User-mgmt  | 张倍源  |  周艳兵，张倍源  |
+| ATP  | 张慧玲  |   张慧玲，白针针，杨阳  |
+| LAB  | 章清洁  |  章清洁， 杨阳， 周文敬  |
+
 
 ## 项目会议
 * 每周一 16:30-17:30
