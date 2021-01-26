@@ -63,7 +63,7 @@ STORIES:
 
 ### 接口定义
 涉及新增的接口：
-|模块|接口名称|Method |URL |接口描述|
+|模块|接口名称|Method |URL |接口描述
 |----|---------|-------|-------|----|--------|
 |UserMgmt|查询用户列表|POST| /v1/users/list | 查询用户列表，支持条件过滤、分页和排序|
 |UserMgmt|停用用户|PUT| /v1/users/{userId}/status/disallow |停用用户|
