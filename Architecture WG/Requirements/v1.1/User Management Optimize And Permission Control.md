@@ -64,17 +64,17 @@ STORIES:
 ### 接口定义
 涉及新增的接口：
 |模块|接口名称|Method |URL |接口描述
-|----|---------|-------|-------|----|--------|
-|UserMgmt|查询用户列表|POST| /v1/users/list | 查询用户列表，支持条件过滤、分页和排序|
-|UserMgmt|停用用户|PUT| /v1/users/{userId}/status/disallow |停用用户|
-|UserMgmt|启用用户|PUT| /v1/users/{userId}/status/allow |启用用户|
-|UserMgmt|设置用户角色|PUT| /v1/users/{userId}/settings |设置用户所属角色|
-|UserMgmt|修改用户密码|PUT| /v1/users/{userId}/password |修改用户密码|
-|UserMgmt|获取邮件验证码|PUT| /v1/identity/mail |获取邮件验证码|
+|----|---------|-------|-------|----|--------
+|UserMgmt|查询用户列表|POST| /v1/users/list | 查询用户列表，支持条件过滤、分页和排序
+|UserMgmt|停用用户|PUT| /v1/users/{userId}/status/disallow |停用用户
+|UserMgmt|启用用户|PUT| /v1/users/{userId}/status/allow |启用用户
+|UserMgmt|设置用户角色|PUT| /v1/users/{userId}/settings |设置用户所属角色
+|UserMgmt|修改用户密码|PUT| /v1/users/{userId}/password |修改用户密码
+|UserMgmt|获取邮件验证码|PUT| /v1/identity/mail |获取邮件验证码
 
 涉及修改的接口：
 |模块|接口名称|Method |URL |接口描述|修改说明
-|----|---------|-------|-------|----|--------|
+|----|---------|-------|-------|----|--------
 |UserMgmt|获取当前登录用户信息|GET| /auth/login-info |获取当前登录用户的信息|返回邮箱地址，去掉公司信息和性别
 |UserMgmt|修改用户信息|PUT| /v1/users/{userId} |修改用户信息|支持更新邮箱地址，去掉对所属角色的更新，返回结构补充邮箱地址，去掉公司信息和性别
 |UserMgmt|注册用户|PUT| /v1/users |注册用户|扩充邮箱地址，不再对用户进行验证，去掉公司信息和性别的处理
@@ -85,7 +85,7 @@ STORIES:
 
 涉及删除的接口：
 |模块|接口名称|Method |URL |接口描述|删除原因
-|----|---------|-------|-------|----|--------|
+|----|---------|-------|-------|----|--------
 |UserMgmt|获取全部用户|GET| /v1/users |获取全部用户|未使用；本访问会提供POST /v1/users/list(查询用户列表)
 
 ### 各应用平台的工作
