@@ -2,7 +2,7 @@
 
 | Meeting Day    | Meeting Time                    | Conference Bridge                          |
 | -------------- | ------------------------------- | ------------------------------------------ |
-| XX - XX - 2021 | 15:00 PM to 16:00 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/XXXXXXXXX |
+| 27 - 01 - 2021 | 15:00 PM to 16:00 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/888606248 |
 
 ## Meeting Attendees
 - Satish
@@ -15,7 +15,7 @@
 ** **
 | Item | Owner |
 | ---- | ----- |
-|      |       |
+|新增安全合规测试用例评审      | 扈冰  |
 |      |       |
 
 
