@@ -3,9 +3,10 @@ EdgeGallery 1.1版本规划对用户管理特性进行部分优化，平台支�
 
 ### 需求描述
 #### 用户管理特性优化
-- 支持通过邮箱注册和忘记密码后找回
+- 支持通过邮箱进行注册、忘记密码后找回、登录
     - 用户注册时增加邮箱地址（选填），电话号码改为选填，去掉注册验证，去掉公司信息和性别
     - 忘记密码后支持通过邮箱地址找回
+    - 用户登录时可以通过输入邮箱地址登录
 - 支持个人帐号中心管理，可以查看与修改个人信息，可以修改密码
 - 支持统一用户管理，可以查询、停用/启用用户。其中查询支持条件过滤、分页和排序。
 
@@ -24,6 +25,7 @@ EPIC:
 STORIES:
 - [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard/issues?id=I2E9LE)  
 - [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard/issues?id=I2E9LG)  
+- [【UserMgmt】支持用户通过邮箱地址登录](https://gitee.com/OSDT/dashboard/issues?id=I2P8LC)  
 - [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard/issues?id=I2E9M8)  
 - [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard/issues?id=I2E9MB)  
 - [【UserMgmt】支持通过用户个人帐号中心查看个人信息](https://gitee.com/OSDT/dashboard/issues?id=I2E9LK)  
@@ -82,7 +84,7 @@ STORIES:
 |UserMgmt|修改用户信息|PUT| /v1/users/{userId} |修改用户信息|支持更新邮箱地址，去掉对所属角色的更新，返回结构补充邮箱地址，去掉公司信息和性别
 |UserMgmt|注册用户|PUT| /v1/users |注册用户|扩充邮箱地址，不再对用户进行验证，去掉公司信息和性别的处理
 |UserMgmt|校验重复用户|POST| /v1/users/action/uniqueness |校验重复用户|扩充支持按照邮箱地址校验重复性
-|UserMgmt|登录|POST| /login |用户登录|判断用户已停用则不允许登录，返回报错信息
+|UserMgmt|登录|POST| /login |用户登录|判断用户已停用则不允许登录，返回报错信息；支持通过邮箱地址登录
 |UserMgmt|找回密码（修改密码）|PUT| /v1/users/password |修改密码&忘记密码后找回密码|扩充支持原密码验证修改方式，密码找回方式扩充支持邮箱找回
 |Website-Gateway|获取当前登录用户信息|GET| /auth/login-info |获取当前登录用户的信息|扩充返回跳转到个人中心的链接地址，供各应用进行集成
 
