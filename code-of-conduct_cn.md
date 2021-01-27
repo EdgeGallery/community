@@ -1,5 +1,5 @@
 # EdgeGallery 社区行为守则
-EdgeGallery社区遵守开源社区《[贡献者公约](https://www.contributor-covenant.org)》V1.4中规定的行为守则，请参考[V1.4](http://https://www.contributor-covenant.org/zh-cn/version/1/4/code-of-conduct.html)版本
+EdgeGallery社区遵守开源社区《[贡献者公约](https://www.contributor-covenant.org)》V1.4中规定的行为守则，请参考[V1.4](https://www.contributor-covenant.org/zh-cn/version/1/4/code-of-conduct/)版本
 ## 我们的承诺
 
 为建设开放友好的环境，我们贡献者和维护者承诺：不论年龄、体型、身体健全与否、民族、性征、性别认同与表征、经验水平、教育程度、社会地位、国籍、相貌、种族、信仰、性取向，我们项目和社区的参与者皆免于骚扰。
