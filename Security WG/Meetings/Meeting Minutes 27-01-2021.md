@@ -5,6 +5,8 @@
 | 27 - 01 - 2021 | 15:00 PM to 16:00 PM (UTC+8:00) | https://welink-meeting.zoom.us/j/888606248 |
 
 ## Meeting Attendees
+- 高维涛
+- 张倍源
 - Satish
 - 扈冰
 - 程润东
