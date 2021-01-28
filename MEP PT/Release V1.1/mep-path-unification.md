@@ -28,9 +28,12 @@ The root path of the API's for Mp1/Mm5 interface is different in mepserver and m
 | mep-auth | Mm5 | /mepauth/v1/routes/:routeId | /mep/appMng/v1/routes/:routeId | MECM needs update to accommodate this change |
 | mep-auth | Mm5 | /mepauth/v1/applications/:applicationId/confs | /mep/appMng/v1/applications/:applicationId/confs | MECM needs update to accommodate this change |
 
+### MEP-Agent Changes
+- All Mp1 and token apis used by the mep-agent need to be changed.
+- Token signing is using the api url, whcih need to be updated according to the new changes. 
 
 ### 工作量评估 Estimate effort
-0.2K Loc
+0.3K Loc
 
 ### 技术选型 Selection
 None
