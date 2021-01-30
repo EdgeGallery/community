@@ -424,9 +424,13 @@ Test steps: <br/>
 1. Run antivirus regularly to check if any virus is loaded. <br/>
 2. Tampered images must be caught by the system and rejected when it is deployed. <br/>
 
+tag: version v1.1
+
 11.2 Check the confidentiality of the warehouse image. Whether the container (+image) is confidential, that is, whether the image is run by the target user
 
 Test steps:
+
+tag: version v1.1
 
 11.3 Detect that the mirrored application directory is implanted in Webshell
 
