@@ -110,11 +110,11 @@ Test Steps:<br/>
 
 tag: version v1.1
 
-1.15 Accounts that are no longer used must be deleted. when an account is deleted, the corresponding credentials (such as the password and authentication key) must also be deleted to prevent them from being suspected as backdoors.<br/>
+1.15 Accounts that are no longer used must be deleted/disabled. when an account is deleted, the corresponding credentials (such as the password and authentication key) must also be deleted to prevent them from being suspected as backdoors.<br/>
 
 Test Steps:<br/>
 1. Check if any unused accounts or default account exist in the system. <br/>
-2. If any such account exist, make sure its credentials are deleted by trying to login with such accounts. Login must fail.  <br/>
+2. If any such account exist, try to login with such accounts, login must fail.  <br/>
 
 tag: version v1.1
 
