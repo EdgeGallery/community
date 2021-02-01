@@ -6,9 +6,9 @@ Release time: 3.31
 ### 项目概述 Project Overview
 MECM (multi access edge compute manager) provides orchestration and life cycle management of application in edgegallery architecture. MECM provides various features including application on-boarding, application orchestration by selecting appropriate edge based on deployment strategy, application life cycle management, homing and placement of application based on analytics and policies, application/edge resource monitoring and provides unified topology view.
 
-</br>
+<\br>
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/212240_23e75a35_7784933.png "Architecture.png")
-</br>
+<\br>
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
 Following new modules will be added as part of release v1.1
