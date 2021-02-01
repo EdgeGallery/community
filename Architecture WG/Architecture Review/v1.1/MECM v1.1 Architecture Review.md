@@ -6,15 +6,17 @@ Release time: 3.31
 ### 项目概述 Project Overview
 MECM (multi access edge compute manager) provides orchestration and life cycle management of application in edgegallery architecture. MECM provides various features including application on-boarding, application orchestration by selecting appropriate edge based on deployment strategy, application life cycle management, homing and placement of application based on analytics and policies, application/edge resource monitoring and provides unified topology view.
 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/212240_23e75a35_7784933.png "Architecture.png")
 
+
 ### 从上一个版本开始架构的变化 Architecture changes from last release
-Following new modules will be added as part of release 1.1
+Following new modules will be added as part of release v1.1
 1. MEPM Portal
 2. Openstack Plugin
 
 ### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
-* Platform Software Capability Query. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx)
+* Administrator Role for MECM Components. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM%20admin%20role%20support.pptx)
 * Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx)
 * AK/SK Support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Automated%20AkSk%20Management%20Solution.pptx)
 * ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
