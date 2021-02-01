@@ -6,23 +6,27 @@ Release time: 3.31
 ### 项目概述 Project Overview
 MECM (multi access edge compute manager) provides orchestration and life cycle management of application in edgegallery architecture. MECM provides various features including application on-boarding, application orchestration by selecting appropriate edge based on deployment strategy, application life cycle management, homing and placement of application based on analytics and policies, application/edge resource monitoring and provides unified topology view.
 
-
+</br>
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/212240_23e75a35_7784933.png "Architecture.png")
-
+</br>
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
 Following new modules will be added as part of release v1.1
 1. MEPM Portal
 2. Openstack Plugin
 
-### v1.0 引入的新功能特性 New component capabilites for v1.0(Chocolate)
+### v1.0 引入的新功能特性 New component capabilities for v1.1
 * Administrator Role for MECM Components. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM%20admin%20role%20support.pptx)
-* Platform Hardware Capability. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Capabilities%20Exposure%20Solution.pptx)
-* AK/SK Support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Automated%20AkSk%20Management%20Solution.pptx)
-* ATP Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/ATP%20MECM%20Integration.pptx)
-* Application Batch Deploy. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/Application%20deployment%20on%20multiple-edges.pptx)
-* UPF Integration. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.0/MECM_UPF_Integration.pptx)
-* Edge Repo support. [Design](http://docs.edgegallery.org/en/latest/Projects/MECM/Edge_Repository_Enablement_Guide.html)
+* Edge Autonomous Portal [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Edge%20Autonomous%20Portal.pptx)
+
+- MEPM Portal.
+- Data Synchronization from Edge to Center
+- MEP Portal Integration with MEPM Portal
+
+* APP Instance Termination Enhancement. [Design] (https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM-Call-Flows.pptx)
+* VM based workload support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/EdgeGallery%E6%94%AF%E6%8C%81%E8%99%9A%E6%9C%BA%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1VM%20APP%20Support.pptx)
+* Example Application Integration with MEP for service discovery & interaction. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Consumer%20Application.odp)
+* Logs retrieval for developer troubleshooting. 
 
 ### 新增或者修改的接口 New or modified interfaces
 * Software Capability: New APIs in APPLCM & APPO.
