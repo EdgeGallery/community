@@ -1,7 +1,7 @@
 ### 发布时间 详细设计开始的第一周
-Detailed design start time: x.x
+Detailed design start time: 1.15
 
-Release time: x.x
+Release time: 3.31
 
 ### 项目概述 Project Overview
 MEP(MEC Platform) implmentation based on ETSI specification. The MEP server interface is divided into two categories, one is the Mp1 interface that follows the ETSI MEC 011 v2.1.1 standard, which mainly provides functions such as service registration discovery, app status notification subscription, and Dns rule acquisition; another is Mm5 interface, which mainly provides configuration management functions for MECM/MEPM.
