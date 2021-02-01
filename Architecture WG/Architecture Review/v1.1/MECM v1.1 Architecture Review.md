@@ -18,11 +18,9 @@ Following new modules will be added as part of release v1.1
 ### v1.0 引入的新功能特性 New component capabilities for v1.1
 * Administrator Role for MECM Components. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM%20admin%20role%20support.pptx)
 * Edge Autonomous Portal [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Edge%20Autonomous%20Portal.pptx)
-
-- MEPM Portal.
-- Data Synchronization from Edge to Center
-- MEP Portal Integration with MEPM Portal
-
+  - MEPM Portal.
+  - Data Synchronization from Edge to Center
+  - MEP Portal Integration with MEPM Portal
 * APP Instance Termination Enhancement. [Design] (https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MECM-Call-Flows.pptx)
 * VM based workload support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/EdgeGallery%E6%94%AF%E6%8C%81%E8%99%9A%E6%9C%BA%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1VM%20APP%20Support.pptx)
 * Example Application Integration with MEP for service discovery & interaction. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Consumer%20Application.odp)
