@@ -8,6 +8,7 @@ Developer是开发者开发和测试边缘应用的edgegallery平台，该平台
 
 ### 架构设计   Architecture changes fron last release
 
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/153436_07aec9c8_7625288.png "屏幕截图.png")
 
 开发者平台功能架构图
 
@@ -19,14 +20,13 @@ v1.1的目标：
 - VNC远程登录：容器和虚机支持VNC远程登录
 - CSAR包优化：支持配置镜像包信息，相关资源定义
 
-
 ### v1.1引入的新功能特性 New component capabilites for v1.0
 * 提升应用本地调测能力, 提示详细的错误信息以及修改建议，提供日志下载
 * 虚机支持：支持虚机部署，创建项目提供虚机创建、虚机申请、虚机测试、虚机镜像打包、虚机应用发布
 * VNC远程登录：容器和虚机支持VNC远程登录
 * 支持镜像上传：csar包支持配置镜像信息
 * develoepr管理面开发：项目管理、沙箱环境管理、能力中心管理
-![输入图片说明](https://images.gitee.com/uploads/images/2020/1116/105641_2d41bc04_7625288.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/153532_4345aaeb_7625288.png "屏幕截图.png")
 v1.1需求
 
 ### 新增或者修改的接口  New or modified interfaces
