@@ -39,28 +39,30 @@ API changes for Admin role will not be backward compatible as it will be made te
 
 |  Method | URL  | Description|
 |---|---|---|
-| POST  | /apm/v1/tenants/\{tenant_id\}/packages/upload | Onboard application package |
-| GET  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/capabilities | Retrieves edge host capabilities |
-| GET  | /inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/capabilities/{capability_type}/applications | Retrieves applications matching capability |
-| POST  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps | Adds application record |
-| DELETE  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps/\{app_id\} | Deletes application record |
-| PUT  | /inventory/v1/tenants/\{tenant_id\}/mechosts/\{mechost_ip\}/apps/\{app_id\} | Updates application record |
-| POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_create | Batch create application instances |
-| POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_instantiate | Batch instantiate application instances |
-| DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/batch_terminate | Batch delete application instances |
-| GET  | /appo/v1/tenants/\{tenant_id\}/app_instance_infos?appInstId=uuid1&appInstId=uuid2 | Retrieves application instances |
-| GET  | /appo/v1/tenants/{tenant_id}/hosts/\{host_ip\}/mep_capabilities/\{capability_id\} | Retrieves MEP software capabilities |
-| GET  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Retrieves APPD configurations |
-| POST  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
-| DELETE  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
-| PUT  | /inventory/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
-| POST  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
-| PUT  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
-| DELETE  | /appo/v1/tenants/\{tenant_id\}/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
-| POST  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Adds APPD configuration |
-| PUT  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Updates APPD configuration |
-| DELETE  | /apprule/v1/app_instances/\{app_instance_id\}/appd_configuration | Deletes APPD configuration |
-
+| GET  | /inventory/v1/applcms | Retrieves all application LCM records |
+| POST  | /inventory/v1/applcms | Adds new application LCM record |
+| DELETE  | /inventory/v1/applcms | Deletes all application LCM Records |
+| GET  | /inventory/v1/applcms/{applcm_ip} | Retrieves application LCM Record |
+| PUT  | /inventory/v1/applcms/{applcm_ip} | Updates existing application LCM record |
+| DELETE  | /inventory/v1/applcms/{applcm_ip} | Deletes application LCM record |
+| GET  | /inventory/v1/appstores | Retrieves all appstore records |
+| POST  | /inventory/v1/appstores | Adds new appstore record |
+| DELETE  | /inventory/v1/appstores | Deletes all appstore Records |
+| GET  | /inventory/v1/appstores/{appstore_ip} | Retrieves appstore Record |
+| PUT  | /inventory/v1/appstores/{appstore_ip} | Updates existing appstore record |
+| DELETE  | /inventory/v1/appstores/{appstore_ip} | Deletes appstore record |
+| GET  | /inventory/v1/mechosts | Retrieves all MEC host records |
+| POST  | /inventory/v1/mechosts | Adds new MEC host record |
+| DELETE  | /inventory/v1/mechosts | Deletes all MEC host Records |
+| GET  | /inventory/v1/mechosts/{mechost_ip} | Retrieves MEC host Record |
+| PUT  | /inventory/v1/mechosts/{mechost_ip} | Updates existing MEC host record |
+| DELETE  | /inventory/v1/mechosts/{mechost_ip} | Deletes MEC host record |
+| GET  | /inventory/v1/apprulemanagers | Retrieves all app rule manager records |
+| POST  | /inventory/v1/apprulemanagers | Adds new app rule manager record |
+| DELETE  | /inventory/v1/apprulemanagers | Deletes all app rule manager Records |
+| GET  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Retrieves app rule manager Record |
+| PUT  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Updates existing app rule manager record |
+| DELETE  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Deletes app rule manager record |
 
 ### 接口API参考文档 Reference to the interfaces
 http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html 
