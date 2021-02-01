@@ -9,7 +9,9 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 
 ### v1.1 引入的新功能特性 New component capabilites for v1.1(Chocolate)
 * 增加上传应用时可上传应用的演示短视频或者图片
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/201433_caa99356_8354563.png "uploadapp.png")
 * 管理员角色可以主动从别的应用平台拉取应用
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/201452_ba6e4f51_8354563.png "pullapp.png")
 
 
 ### 新增或者修改的接口 New or modified interfaces
