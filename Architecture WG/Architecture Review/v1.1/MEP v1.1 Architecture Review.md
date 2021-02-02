@@ -14,6 +14,7 @@ None
 ### v1.1 引入的新功能特性 New component capabilites for v1.1
 * UPF dataplane implementation and Mm5 changes for appd configurations.
 * Traffic rule support for Mp1 interface.
+* Send Service availability notification to APP. ![Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.1/service_availability_notification.md)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Deleted Mm5 individual DNS interface and added Mm5 appd configuration interface which including both DNS and Traffic rules.
