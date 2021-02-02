@@ -68,6 +68,7 @@ Existing API in APPLCM to upload Config file will be obsoleted
 | DELETE  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Deletes app rule manager record |
 | POST  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Upload configuration file |
 | DELETE  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Delete configuration file |
+| GET  | /lcmcontroller/v1/pods/desc/{podname} | Retrieves pod description |
 
 ### 接口API参考文档 Reference to the interfaces
 http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html 
