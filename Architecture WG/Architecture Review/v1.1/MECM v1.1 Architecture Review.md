@@ -63,6 +63,8 @@ API changes for Admin role will not be backward compatible as it will be made te
 | GET  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Retrieves app rule manager Record |
 | PUT  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Updates existing app rule manager record |
 | DELETE  | /inventory/v1/apprulemanagers/{app_rule_manager_ip} | Deletes app rule manager record |
+| POST  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Upload configuration file |
+| DELETE  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Delete configuration file |
 
 ### 接口API参考文档 Reference to the interfaces
 http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html 
