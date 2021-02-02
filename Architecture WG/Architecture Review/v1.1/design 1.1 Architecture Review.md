@@ -30,6 +30,7 @@
 | /mec/design/v1/projects/{projectId}/action/save    | POST | 保存结果 | 新增 | 保存设计结果 |
 | //mec/design/v1/projects/{projectId}/design-result   | GET| 查询结果 | 新增| 获取设计结果，用于界面展示结果 |
 | mec/design/v1/projects/{projectId}/deploy-script    | GET| 下载脚本 | 新增| 获取设计后的部署脚本 |
+|/mec/design/v1/public/projects | POST | 创建项目 | 新增 | Developer调用设计态接口，进行应用设计 |
 
 #### 如有， 他们是否是向后兼容的 If modified, are the backwards compatible
 不涉及
