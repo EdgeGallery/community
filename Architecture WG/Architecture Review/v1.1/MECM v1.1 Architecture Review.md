@@ -76,7 +76,7 @@ Existing API in APPLCM to upload Config file will be obsoleted
 | PUT  | /lcmcontroller/v1/hosts | Updates host configurations |
 | DELETE  | /lcmcontroller/v1/hosts/{hostIp} | Delete host configuration |
 | GET  | /lcmcontroller/v1/hosts | Retrieves host configurations |
-#### | GET  | /inventory/v1/syncronize | Synchronize data from edge to center |
+| GET  | /inventory/v1/syncronize | Synchronize data from edge to center |
 | POST  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Configures appd rule for the application instance |
 | DELETE  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Deletes application instance appd rule |
 | PUT  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Updates application instance appd rule |
