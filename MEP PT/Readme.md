@@ -30,7 +30,7 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 ## Useful Info 有用信息
 
 - 邮件列表：MEP项目使用Edge Gallery主邮件列表 main@edgegallery.groups.io，MEP相关技术讨论请在邮件主题中添加 **【MEP】** 或 **[MEP]** 标签。
-- MEP项目组例会：协商后再定
+- MEP项目组例会：每周四下午15:00~16:00，北京时间
 
 ## Reference 参考链接
 
