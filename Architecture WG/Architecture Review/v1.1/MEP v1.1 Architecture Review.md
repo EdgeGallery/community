@@ -15,7 +15,8 @@ None
 * UPF dataplane implementation and Mm5 changes for appd configurations.
 * Traffic rule support for Mp1 interface.
 * Send Service availability notification to APP. ![Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.1/service_availability_notification.md)
-* Mep-server and mep-auth path unification.[Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.1/mep-path-unification.md)
+* Mep-server and mep-auth path unification. [Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.1/mep-path-unification.md)
+* Enhance the Application Termination process. [Design](https://gitee.com/edgegallery/community/blob/master/MEP%20PT/Release%20V1.1/mep-app--termination-enhance.md)
 
 ### 新增或者修改的接口 New or modified interfaces
 * Deleted Mm5 individual DNS interface and added Mm5 appd configuration interface which including both DNS and Traffic rules.
@@ -23,6 +24,7 @@ None
 * Mep-server root path changed from "/mepserver" to "/mep" on Mp1 interface.
 * Mep-auth root path for token request changed from "/mepauth/v1" to "/mep".
 * Mep-auth root paths for routes and applications changed from "/mepauth/v1" to "/mep/appMng/v1".
+* New MM5 Interface added in MEP Server to terminate application instance and to clean up all its related rules and AK/SK data.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
 * Mm5 DNS interface is removed as it was not used by MECM and added new interface with both DNS and Traffic rules together.
@@ -46,6 +48,7 @@ None
 | GET | /mepcfg/app_lcm/v1/applications/:appInstanceId/appd_configuration | Get appd configuration |
 | PUT | /mepcfg/app_lcm/v1/applications/:appInstanceId/appd_configuration | Put appd configuration |
 | DELETE | /mepcfg/app_lcm/v1/applications/:appInstanceId/appd_configuration | Delete appd configuration |
+| POST | /mep/mec_app_support/v1/applications/:appInstanceId/AppInstanceTermination | Application Termination |
 
 #### Mep-agent
 |  Method | URL  | Description|
