@@ -39,6 +39,11 @@ None
 | PUT | /mepcfg/app_lcm/v1/applications/:appInstanceId/appd_configuration | Put appd configuration |
 | DELETE | /mepcfg/app_lcm/v1/applications/:appInstanceId/appd_configuration | Delete appd configuration |
 
+#### Mep-agent
+|  Method | URL  | Description|
+|---|---|---|
+| GET | /mep-agent/v1/endpoint/:serName | Get producer endpoint by service name |
+
 ### 接口API参考文档 Reference to the interfaces
 * Appd Configuration [interface](https://gitee.com/edgegallery/docs/blob/master/Projects/MEP/MEP_Interfaces.md)
 * Traffic rule Configuration [interface](https://gitee.com/edgegallery/docs/blob/master/Projects/MEP/MEP_Interfaces.md)
