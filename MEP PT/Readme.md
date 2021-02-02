@@ -4,8 +4,8 @@
 MEP（MEC Platform, MEC平台）是ETSI MEC标准定义的MEC平台网元，部署位置在边缘侧，主要涵盖如下功能：
 
 - 为ME APP提供服务治理能力（注册、发现、订阅、通知）。
-- 接收MEPM下发的流规则（Traffice Rules）配置。
-- 接收MEPM下发的DNS规则（DNS Rules）配置。
+- 接收MECM下发的流规则（Traffice Rules）配置。
+- 接收MECM下发的DNS规则（DNS Rules）配置。
 - 为MEC APP提供DNS等MEC公共服务。
 
 ## Target & Scope 目标与范围
