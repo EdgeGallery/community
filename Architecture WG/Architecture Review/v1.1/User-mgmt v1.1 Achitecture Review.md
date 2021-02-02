@@ -71,22 +71,25 @@ Example request:
 Example response:
 ```json
 response 200 OK
-[
-  {
-    "username": "TestUser1",
-    "mailAddress": "test@edgegallery.org",
-    "telephone": "13812345678",
-    "userId": "37423702-051a-46b4-bf2b-f190759cc0b8",
-    "permissions": [
-      {
-        "platform": "APPSTORE",
-        "role": "GUEST"
-      }
-    ],
-    "allowed": true,
-    "createTime": "2021-1-21 10:24:45"
-  }
-]
+{
+  "totalCount": 20,
+  "userList": [
+    {
+      "username": "TestUser1",
+      "mailAddress": "test@edgegallery.org",
+      "telephone": "13812345678",
+      "userId": "37423702-051a-46b4-bf2b-f190759cc0b8",
+      "permissions": [
+        {
+          "platform": "APPSTORE",
+          "role": "GUEST"
+        }
+      ],
+      "allowed": true,
+      "createTime": "2021-1-21 10:24:45"
+    }
+  ]
+}
 
 response 400 Bad Request
 {
