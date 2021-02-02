@@ -23,7 +23,7 @@ Following new modules will be added as part of release v1.1
 * VM based workload support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/EdgeGallery%E6%94%AF%E6%8C%81%E8%99%9A%E6%9C%BA%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1VM%20APP%20Support.pptx)
 * Example Application (Consumer Application) Integration with MEP for service discovery. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Consumer%20Application.odp)
 * Image management. [Design](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.1/EdgeGallery%20Image%20Management%20Requirement.md)
-* Support for developer troubleshooting (Not Required)
+* Support for developer troubleshooting (Just one new API addition)
   - Detailed error messages
   - New API to get POD status
 
