@@ -35,7 +35,7 @@ Following new modules will be added as part of release v1.1
 * Logs retrieval for developer troubleshooting: New API in APPLCM & K8sPlugin returning POD description.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
-API changes for Admin role (related to Admin operation) will not be backward compatible as it will be made tenant agnostic.
+API changes for Admin role (related to Admin operation) will not be backward compatible as it will be made tenant agnostic. </br>
 Existing API in APPLCM to upload Config file will be obsoleted
 
 ### 接口API 简述 interface naming
