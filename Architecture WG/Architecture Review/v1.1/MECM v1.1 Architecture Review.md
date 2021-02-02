@@ -69,6 +69,18 @@ Existing API in APPLCM to upload Config file will be obsoleted
 | POST  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Upload configuration file |
 | DELETE  | /inventory/v1/mechosts/{mechost_ip}/k8sconfig | Delete configuration file |
 | GET  | /lcmcontroller/v1/pods/desc/{podname} | Retrieves pod description |
+| GET  | /lcmcontroller/v1/tenants/:tenantId/app_instances | Retrieves application instances info |
+| POST  | /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate | Terminate application instances |
+| POST  | /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate | Instantiate application instances |
+| POST  | /lcmcontroller/v1/hosts | Upload host configurations |
+| PUT  | /lcmcontroller/v1/hosts | Updates host configurations |
+| DELETE  | /lcmcontroller/v1/hosts/{hostIp} | Delete host configuration |
+| GET  | /lcmcontroller/v1/hosts | Retrieves host configurations |
+| GET  | /inventory/v1/syncronize | Synchronize data from edge to center |
+| POST  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Configures appd rule for the application instance |
+| DELETE  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Deletes application instance appd rule |
+| PUT  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Updates application instance appd rule |
+| GET  | /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration | Retrieve application instance appd rule |
 
 ### 接口API参考文档 Reference to the interfaces
 http://docs.edgegallery.org/en/latest/Projects/MECM/MECM.html 
