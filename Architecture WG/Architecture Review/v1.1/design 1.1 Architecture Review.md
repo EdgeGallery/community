@@ -7,9 +7,10 @@
 
 ### 架构设计   Architecture changes fron last release
 
+- 架构视图
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0202/115602_7be3ddac_5659718.png "屏幕截图.png")
 
-部署视图：
+- 部署视图：
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0202/115629_422f6336_5659718.png "屏幕截图.png")
 
 ### v1.1引入的新功能特性 New component capabilites for v1.0
