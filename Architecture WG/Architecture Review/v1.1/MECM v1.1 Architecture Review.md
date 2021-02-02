@@ -23,17 +23,20 @@ Following new modules will be added as part of release v1.1
 * VM based workload support. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/EdgeGallery%E6%94%AF%E6%8C%81%E8%99%9A%E6%9C%BA%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1VM%20APP%20Support.pptx)
 * Example Application (Consumer Application) Integration with MEP for service discovery. [Design](https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/Consumer%20Application.odp)
 * Image management. [Design](https://gitee.com/edgegallery/community/blob/master/Architecture%20WG/Requirements/v1.1/EdgeGallery%20Image%20Management%20Requirement.md)
-* Logs retrieval for developer troubleshooting. 
+* Support for developer troubleshooting (Not Required)
+  - Detailed error messages
+  - New API to get POD status
 
 ### 新增或者修改的接口 New or modified interfaces
 * Administrator Role for MECM Components: Updated APIs in Inventory.
-* Edge Autonomous Portal: .
-* Image management: .
+* Edge Autonomous Portal: New APIs in APPLCM & Inventory, Updation to APIs in AppRuleMgr.
+* Image management: New API in APM & Updation of Appstore related API in Inventory module.
 * VM based workload support: New Openstack Plugin module with new APIs.
-* Logs retrieval for developer troubleshooting: API changes in APPLCM & K8sPlugin (In-Progress)
+* Logs retrieval for developer troubleshooting: New API in APPLCM & K8sPlugin returning POD description.
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
-API changes for Admin role will not be backward compatible as it will be made tenant agnostic
+API changes for Admin role (related to Admin operation) will not be backward compatible as it will be made tenant agnostic.
+Existing API in APPLCM to upload Config file will be obsoleted
 
 ### 接口API 简述 interface naming
 
