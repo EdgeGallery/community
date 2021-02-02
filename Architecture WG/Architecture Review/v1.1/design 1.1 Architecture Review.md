@@ -7,6 +7,8 @@
 
 ### 架构设计   Architecture changes fron last release
 
+
+
 v1.1的目标：
 - 实现EdgeGallery按需部署界面框架
 - 实现应用设计的界面展示
