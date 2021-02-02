@@ -39,7 +39,9 @@
 - 【AppStore】支持容器镜像管理 Support Container Image Manage
 - 【installation】EG离线部署脚本优化，实现按需部署能力
 - 【mep】mep url unify
+- 【mep-agent】mep-agent提供根据service name返回endpoint信息
 - 【MEP/MECM】APP Instance Function Enhancement
+- 【mecm】Adaptive mep url unify
 - 【mecm】example-apps support demo app service call
 - 【ATP】ATP应用支持分权控制
 - 【ATP】ATP测试用例扩充
