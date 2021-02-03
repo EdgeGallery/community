@@ -24,7 +24,7 @@
 
 1.R1.1版需求第一次迭代审视 --owner all，chuanyu
 
-Review requirements for R1.1-First Iteration/Spirit.
+Review requirements for R1.1-First Iteration/Sprint.
 
 【传雨：mecm/mep需求澄清；】
 
