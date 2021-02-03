@@ -36,10 +36,10 @@
 - 【Appstore】统一appstore组件风格
 - 【Appstore】应用包区分ARM，x86
 - 【AppStore】前端界面优化
-- 【AppStore】支持容器镜像管理 Support Container Image Manage
+- 【AppStore】支持容器镜像管理 Support Container Image Manage 
 - 【installation】EG离线部署脚本优化，实现按需部署能力
 - 【mep】mep url unify
-- 【mep-agent】mep-agent提供根据service name返回endpoint信息
+- 【mep-agent】mep-agent提供根据service name返回endpoint信息 pmeng
 - 【MEP/MECM】APP Instance Function Enhancement
 - 【mecm】Adaptive mep url unify
 - 【mecm】example-apps support demo app service call
