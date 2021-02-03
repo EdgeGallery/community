@@ -4,7 +4,7 @@
 |----|----|
 |[【MEP】mep url unify.](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | Not involved. Only the Url change.|
 |[【MEP】APP Instance Termination Enhancement.](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5)|Rule 1.1, Rule 2.2, Rule 8.1, Rule 9.2 |
-|[【MEP】notify to app when subscibed service status changed.](https://gitee.com/OSDT/dashboard?issue_id=I2E83K)|Rule |
+|[【MEP】notify to app when subscibed service status changed.](https://gitee.com/OSDT/dashboard?issue_id=I2E83K)|Rule 9.2, Rule 9.4 |
 |[【MEP】subscribe api](https://gitee.com/OSDT/dashboard?issue_id=I2E835)| Not involved. No code changes, only for testing. |
 |[【mep-agent】mep-agent提供根据service name返回endpoint信息 ](https://gitee.com/OSDT/dashboard/issues?id=I2CXVE)| Rule 1.1, 9.2 | 
 |[【MEP】MEP支持服务管理架构可视化 ](https://gitee.com/OSDT/dashboard/issues?id=I2EB85)| Rule 1.1, 2.2, 9.2 |
@@ -64,6 +64,36 @@
 | Related files           | NA |
 | Related GUI URLs        | NA |
 | GUI testing steps | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+## 【MEP】notify to app when subscibed service status changed
+
+### Rule 9.2
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | Sufficient Logging |
+| Implementation details  | Logs are taken care to record only failure scenarios and some events. |
+| Related APIs            | NA |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 9.4
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 9.4 Avoid recording too much data. |
+| Implementation details  | Logs are taken care to record only failure scenarios. |
+| Related APIs            | NA |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
 | GUI input example       | NA |
 | Additional Info         | NA |
 
