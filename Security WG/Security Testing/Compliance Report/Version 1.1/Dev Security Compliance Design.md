@@ -7,6 +7,8 @@
 |[【developer】提升SDK/API可获性与可用性](https://gitee.com/OSDT/dashboard?issue_id=I2E0LJ)| Function optimization, no security design required |
 |[【UserMgmt/Developer/MECM/ATP/Lab/AppStore】EdgeGallery平台支持用户分权控制](https://gitee.com/OSDT/dashboard/issues?id=I1QGSH)| R1.2 |
 |[【UserMgmt】EdgeGallery平台用户管理特性优化](https://gitee.com/OSDT/dashboard?issue_id=I2E6AI) | R1.6  R1.15 | 
+|[【AppStore】特性增强 ](https://gitee.com/OSDT/dashboard/issues?id=I2E0W3)| Function optimization, no security design required |
+|[【AppStore】前端界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E0U1)| Function optimization, no security design required |
 
 ## 【developer】提供应用远程登录如VNC运维能力.
 
