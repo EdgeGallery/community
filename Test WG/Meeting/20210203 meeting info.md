@@ -18,7 +18,7 @@
 -  _shashikanth（华为）_ 
 -  _蔡舒豪（华为）_ 
 -  _徐军杰（九州云）_ 
-- _yangyang 、_ zhangbeiyuan、liuhuiling、 _luxin、_ chenchuanyu 、 _chenruidong 、_ zhaobaohui   （华为）
+- _yangyang 、_ zhangbeiyuan、 _liuhuiling、_  luxin、chenchuanyu 、 _chenruidong 、_ zhaobaohui   （华为）
 
 ## Topics议题
 
@@ -26,13 +26,15 @@
 
 Review requirements for R1.1-First Iteration/Sprint.
 
-【传雨：mecm/mep需求澄清；】
+【传雨/鹿鑫：mecm/mep需求澄清；】
 
 2.R1.1 Test Plan讨论 --owner all
 
-【分工；时间】
+【分工；时间；在本周结束测试目标的选择（分工）】
 
 3.R1.1测试用例讨论 --owner all
+
+【edgeT正在跟gitee上的自动化测试用例集成；可以在gitee上继续录入测试用例，并将测试用例可能关联的测试套以标签形式标准；另外，使用一个md文件管理可能的测试场景和测试套的关系】
 
 ## meeting link
 https://welink-meeting.zoom.us/j/869700823
