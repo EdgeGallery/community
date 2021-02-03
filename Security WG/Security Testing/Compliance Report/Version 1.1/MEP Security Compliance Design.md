@@ -5,7 +5,7 @@
 |[【MEP】mep url unify.](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | Not involved. Only the Url change.|
 |[【MEP】APP Instance Termination Enhancement.](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5)|Rule 1.1, Rule 2.2, Rule 8.1, Rule 9.2 |
 |[【MEP】notify to app when subscibed service status changed.](https://gitee.com/OSDT/dashboard?issue_id=I2E83K)|Rule |
-|[【MEP】subscribe api](https://gitee.com/OSDT/dashboard?issue_id=I2E835)| Rule |
+|[【MEP】subscribe api](https://gitee.com/OSDT/dashboard?issue_id=I2E835)| Not involved. No code changes, only for testing. |
 
 ## 【MEP】APP Instance Termination Enhancement.
 
