@@ -28,7 +28,7 @@ This test plan is the EdgeGallery Release v1.1 security test plan. The purpose i
 
 [EdgeGallery渗透测试用例 Penetration Test Cases]()
 
-#### 3.测试日期计划 Test Date Plain
+#### 3.测试日期计划 Test Date Plan
 
 1.1版本整体从1.30启动详细设计及编码，计划3.31发布。测试时间参考自 [EdgeGallery v1.1 里程碑](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v1.1/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md) 。
 
