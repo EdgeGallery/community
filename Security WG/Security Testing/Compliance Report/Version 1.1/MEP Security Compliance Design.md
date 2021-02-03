@@ -7,7 +7,7 @@
 |[【MEP】notify to app when subscibed service status changed.](https://gitee.com/OSDT/dashboard?issue_id=I2E83K)|Rule |
 |[【MEP】subscribe api](https://gitee.com/OSDT/dashboard?issue_id=I2E835)| Not involved. No code changes, only for testing. |
 |[【mep-agent】mep-agent提供根据service name返回endpoint信息 ](https://gitee.com/OSDT/dashboard/issues?id=I2CXVE)| Rule 1.1, 9.2 | 
-|[【MEP】MEP支持服务管理架构可视化 ](https://gitee.com/OSDT/dashboard/issues?id=I2EB85)| Rule 1.1, 9.2 |
+|[【MEP】MEP支持服务管理架构可视化 ](https://gitee.com/OSDT/dashboard/issues?id=I2EB85)| Rule 1.1, 2.2, 9.2 |
 
 ## 【MEP】APP Instance Termination Enhancement.
 
