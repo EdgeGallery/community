@@ -14,7 +14,7 @@ This test plan is the EdgeGallery Release v1.1 security test plan. The purpose i
 
 [v1.1里程碑计划 Release Milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v1.1/%E7%89%88%E6%9C%AC%E8%AE%A1%E5%88%92.md)
 
-[v1.1需求设计文档](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.1)
+[v1.1需求设计文档 Requirement Design Docs](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.1)
 
 [v1.1需求列表 Epic List](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&sort=created_at%20desc&milestone_id=92309)
 
