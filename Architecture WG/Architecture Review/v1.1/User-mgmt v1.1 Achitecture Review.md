@@ -45,7 +45,8 @@ User: admin
 | telephone| 电话号码 |body|否|用于模糊查询条件的电话号码关键字 |
 | role| 角色 |body|是|ALL--全部;ADMIN--管理员;TENANT--租户;GUEST--访客 |
 | status| 状态 |body|是|-1--全部;0--停用;1--启用 |
-| createTimeRange| 创建时间(即注册时间)范围 |body|否|包含两个元素的字符串列表，分别表示起始日期和终止日期，用来过滤查询该时间范围内注册的用户 |
+| createTimeBegin| 创建时间(即注册时间)范围--起始 |body|否|起始时间，格式：2021-1-21 |
+| createTimeEnd| 创建时间(即注册时间)范围--终止 |body|否|终止时间，格式：2021-2-1 |
 | offset| 查询起始位置 |body|是|分页控制参数，表示查询起始位置 |
 | limit| 查询记录数 |body|是|分页控制参数，表示每页查询记录数 |
 | sortBy|排序字段 |body|否|用于排序的字段名。USERNAME--按用户名排序;CREATETIME--按创建(注册)时间排序 |
@@ -60,7 +61,8 @@ Example request:
   "telephone": "",
   "role": "",
   "status": -1,
-  "createTime": ["2021-1-21", "2021-2-1"]
+  "createTimeBegin": "2021-1-21",
+  "createTimeEnd": "2021-2-1",
   "queryCtrl": {
     "offset": 0,
     "limit": 10,
