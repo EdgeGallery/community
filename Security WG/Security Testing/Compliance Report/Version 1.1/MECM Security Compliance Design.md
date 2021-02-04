@@ -2,7 +2,7 @@
 
 |Story Name |Related Security Design Rule|
 |----|----|
-| [【MECM】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal (https://gitee.com/OSDT/dashboard/issues?id=I2E9M3) |  TBC   |  
+| [[【MECM】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal](https://gitee.com/OSDT/dashboard/issues?id=I2E9M3) |  TBC   |  
 | [【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role (https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |  NA (Only API modifications) |   
 | [【MECM】MECM APPO/Inventory support synchronize data from edge (https://gitee.com/OSDT/dashboard/issues?id=I2P7RL) | TBC   |   
 | [【MECM】MECM 支持本地边缘自治 Edge Autonomous (https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  TBC   |   
