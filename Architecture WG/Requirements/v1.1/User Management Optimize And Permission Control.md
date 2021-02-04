@@ -75,9 +75,9 @@ STORIES:
 |模块|接口名称|Method |URL |接口描述
 |----|---------|-------|-------|----
 |UserMgmt|查询用户列表|POST| /v1/users/list | 查询用户列表，支持条件过滤、分页和排序
-|UserMgmt|停用用户|PUT| /v1/users/{userId}/status/disallow |停用用户
-|UserMgmt|启用用户|PUT| /v1/users/{userId}/status/allow |启用用户
-|UserMgmt|设置用户角色|PUT| /v1/users/{userId}/settings |设置用户所属角色
+|UserMgmt|停用用户|PUT| /v1/users/status/{userId}/disallow |停用用户
+|UserMgmt|启用用户|PUT| /v1/users/status/{userId}/allow |启用用户
+|UserMgmt|设置用户角色|PUT| /v1/users/settings/{userId} |设置用户所属角色
 |UserMgmt|获取邮件验证码|PUT| /v1/identity/mail |获取邮件验证码
 
 涉及修改的接口：
