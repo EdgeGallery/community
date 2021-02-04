@@ -24,13 +24,13 @@
 
  **3.1 第一次迭代需求** 
 
-- 【Developer】搭建设计态前台框架【】
-- 【Developer】Developer应用支持分权控制
-- 【Developer】应用包区分ARM，x86
-- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等以及修改建议，日志下载功能
-- 【developer】提供可视化配置，部署文件的可视化配置
-- 【developer】提升SDK/API可获性与可用性
-- 【Developer】支持容器镜像管理
+- 【Developer】搭建设计态前台框架【李媛媛】
+- 【Developer】Developer应用支持分权控制【李媛媛】
+- 【Developer】应用包区分ARM，x86【李媛媛】
+- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等以及修改建议，日志下载功能【李媛媛】
+- 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
+- 【developer】提升SDK/API可获性与可用性【李媛媛】
+- 【Developer】支持容器镜像管理【李媛媛】
 - 【UserMgmt】EdgeGallery平台用户管理特性优化【张阿利】
 - 【UserMgmt】EdgeGallery平台支持用户分权控制【张阿利】
 - 【Appstore】统一appstore组件风格【张阿利】
@@ -43,9 +43,9 @@
 - 【MEP/MECM】APP Instance Function Enhancement
 - 【mecm】Adaptive mep url unify
 - 【mecm】example-apps support demo app service call
-- 【ATP】ATP应用支持分权控制
-- 【ATP】ATP测试用例扩充
-- 【ATP】测试用例模型增强
+- 【ATP】ATP应用支持分权控制【李媛媛】
+- 【ATP】ATP测试用例扩充【李媛媛】
+- 【ATP】测试用例模型增强【李媛媛】
 - 【测试】测试数据构造
 
 
