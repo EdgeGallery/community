@@ -31,12 +31,12 @@
 - 【developer】提供可视化配置，部署文件的可视化配置
 - 【developer】提升SDK/API可获性与可用性
 - 【Developer】支持容器镜像管理
-- 【UserMgmt】EdgeGallery平台用户管理特性优化
-- 【UserMgmt】EdgeGallery平台支持用户分权控制
-- 【Appstore】统一appstore组件风格
-- 【Appstore】应用包区分ARM，x86
-- 【AppStore】前端界面优化
-- 【AppStore】支持容器镜像管理 Support Container Image Manage 
+- 【UserMgmt】EdgeGallery平台用户管理特性优化【张阿利】
+- 【UserMgmt】EdgeGallery平台支持用户分权控制【张阿利】
+- 【Appstore】统一appstore组件风格【张阿利】
+- 【Appstore】应用包区分ARM，x86【张阿利】
+- 【AppStore】前端界面优化【张阿利】
+- 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】 
 - 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
 - 【mep】mep url unify
 - 【mep-agent】mep-agent提供根据service name返回endpoint信息 pmeng
