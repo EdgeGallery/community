@@ -3,7 +3,7 @@
 
 ### 项目概述 Project Overview
 User Management 用户管理模块，为EdgeGallery提供了基本的用户增删改查功能，定义了用户的角色与权限，并且支持了单点登录（Single Sign On）能力。
-目前支持的用户角色有：Admin/Tenatn/Guest，支持的平台有：AppStore/Developer/MECM/ATP/LAB。
+目前支持的用户角色有：Admin/Teant/Guest，支持的平台有：AppStore/Developer/MECM/ATP/LAB。
 
 
 ### 从上一个版本开始架构的变化 Architecture changes from last release
@@ -122,7 +122,7 @@ response 500 INTERNAL SERVER ERROR
 用户管理员可以根据用户ID停用用户，其中用户ID为非内置用户的用户ID。用户停用后将无法登录。
 
 ```
-Resource URI: /v1/users/{userId}/status/disallow
+Resource URI: /v1/users/status/{userId}/disallow
 Method: PUT
 Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
 User: admin
@@ -160,7 +160,7 @@ response 403 FORBIDDEN
 用户管理员可以根据用户ID启用用户，其中用户ID为非内置用户的用户ID。
 
 ```
-Resource URI: /v1/users/{userId}/status/disallow
+Resource URI: /v1/users/status/{userId}/disallow
 Method: PUT
 Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
 User: admin
@@ -199,7 +199,7 @@ response 403 FORBIDDEN
 用户管理员可以根据用户ID设置其所属角色和可访问平台。
 
 ```
-Resource URI: /v1/users/{userId}/settings
+Resource URI: /v1/users/settings/{userId}
 Method: PUT
 Role: APPSTORE_ADMIN or DEVELOPER_ADMIN or MECM_ADMIN or LAB_ADMIN or ATP_ADMIN
 User: admin
