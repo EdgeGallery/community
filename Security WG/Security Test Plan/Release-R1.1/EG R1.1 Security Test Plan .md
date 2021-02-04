@@ -38,9 +38,9 @@ The 1.1 version starts detailed design and coding from 1.30 as a whole, and is p
 | ----------- | ---------------- | ------------------------ | ------------------------- | -------------------------- |
 | 2.1 - 2.11  | Sprint 1 coding  |                          |                           |                            |
 | 2.18 - 2.28 | Sprint 2 coding  | Sprint 1 compliance test | Sprint 1 penetration test |                            |
-| 3.1 - 3.12  | Sprint 3 coding  | Sprint 2 compliance test | Sprint 2 penetration test |                            |
-| 3.13 - 3.22 | Bug-fixing       | Sprint 3 compliance test | Sprint 3 penetration test | Sprint 1 regression test   |
-| 3.23 - 3.28 | Bug-fixing       |                          |                           | Sprint 2,3 regression test |
+| 3.1 - 3.12  | Sprint 3 coding  | Sprint 2 compliance test | Sprint 2 penetration test |   Sprint 1 regression test |
+| 3.13 - 3.22 | Bug-fixing       | Sprint 3 compliance test | Sprint 3 penetration test |  Sprint 2 regression test  |
+| 3.23 - 3.28 | Bug-fixing       |                          |                           | Sprint 3 regression test   |
 | 3.29 - 3.31 | Ready to release | Complete Test Report     | Complete Test Report      |                            |
 
 #### 4.测试人员及分工 Testers and Division
