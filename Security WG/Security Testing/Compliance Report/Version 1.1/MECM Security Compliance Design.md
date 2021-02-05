@@ -184,7 +184,7 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 1.12, 6.2 (TBD [open points link])
+### Rule 1.12, 6.2 (TBD https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md)
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
