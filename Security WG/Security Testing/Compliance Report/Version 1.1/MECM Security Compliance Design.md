@@ -19,6 +19,21 @@
 
 ## 【MECM】支持容器镜像管理Support Container Image Manage
 
+### Rule 11.1, 11.2, 11.3
+Note: All three rules are related and thereby combining the same.
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 11.1 Software packages / Application images in repository must not contain virus softwares. The inner software integrity protection mechanism can be implemetated to cross check the tampering of images.<br/> 11.2 Check the confidentiality of the warehouse image. Whether the container (+image) is confidential, that is, whether the image is run by the target user<br/> 11.3 Detect that the mirrored application directory is implanted in Webshell |
+| Implementation details  | TBD |
+| Related APIs            | POST apm/v1/syncapppkgs. |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
 ### Rule 1.3, 5.3, 9.1
 Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
