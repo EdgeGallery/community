@@ -5,7 +5,7 @@
 | [[【MECM】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal](https://gitee.com/OSDT/dashboard/issues?id=I2E9M3) |  TBC   |  
 | [[【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role](https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |  NA (Only API modifications) |   
 | [[【MECM】MECM APPO/Inventory support synchronize data from edge](https://gitee.com/OSDT/dashboard/issues?id=I2P7RL) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |   
-| [[【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), TDB(1.12), 8.1   |   
+| [[【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  Rule: 1.1, 2.1, 2.2, 5.3, 1.5 (partially exists - Body & URL Limit exists), 6.2, (1.3, 5.3, 9.1) (9.2, 9.4), TDB-(1.12), 8.1 |   
 | [[【MECM】MECM Edge Portal integrate with MEP portal.](https://gitee.com/OSDT/dashboard/issues?id=I2P7T7) |  NA  |   
 | [[【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard/issues?id=I2DQVG) |  NA (MECM as client) |   
 | [[【MECM】 Adaptive mep url unify](https://gitee.com/OSDT/dashboard/issues?id=I2NTWF) |  NA (MECM as client) |   
@@ -79,6 +79,36 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ## 【MECM】MECM 支持本地边缘自治 Edge Autonomous
 
+### Rule 1.1, 2.1, 2.2
+Note: All three rules are related to security validations and thereby combining the same.
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.<br/> 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.<br/> 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended. |
+| Implementation details  | All security measures applied to the query log interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Related APIs            | POST /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate.<br/> GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> POST /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate.<br/> POST /lcmcontroller/v1/hosts.<br/> PUT /lcmcontroller/v1/hosts.<br/> DELETE /lcmcontroller/v1/hosts/{hostIp}.<br/> GET /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> GET /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> DELETE /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration |
+| Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+### Rule 1.5
+
+| Content                 | Related Information                                          |
+| ----------------------- | ------------------------------------------------------------ |
+| Security design rule ID | 1.5 According to the principle of least privilege, accounts used to run software programs are low-privilege OS accounts. |
+| Implementation details  | All security measures applied to the MEPM-FE docker image. |
+| Related APIs            | NA |
+| Example API payload     | NA |
+| Related files           | NA |
+| Related GUI URLs        | NA |
+| GUI testing steps       | NA |
+| GUI input example       | NA |
+| Additional Info         | NA |
+
+
 ### Rule 1.3, 5.3, 9.1
 Note: All three rules are related to input parameter validations of REST request and thereby combining the same.
 
@@ -94,11 +124,11 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 1.12 (TBD [open points link])
+### Rule 1.12, 6.2 (TBD [open points link])
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
-| Security design rule ID | 1.12 Role based Access control. |
+| Security design rule ID | 1.12 Role based Access control.<br/> 6.2 Set sessions/credentials a valid expiration date. |
 | Implementation details  | All API's has been pre authorized for the role MECM_TENANT/MECM_ADMIN/MECM_GUEST. |
 | Related APIs            | POST /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate.<br/> GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> POST /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate.<br/> POST /lcmcontroller/v1/hosts.<br/> PUT /lcmcontroller/v1/hosts.<br/> DELETE /lcmcontroller/v1/hosts/{hostIp}.<br/> GET /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> GET /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> DELETE /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
