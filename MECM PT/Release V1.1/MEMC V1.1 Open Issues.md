@@ -1,5 +1,5 @@
 # MECM V1.1 Open Issues:
-|sl no.|Requirement | Security Rule | 
+|sl no.|Requirement|Security Rule|Remarks|
 |1.|[【MECM】支持容器镜像管理Support Container Image Manage ](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8)| Master key how to get? Implement like MEP or can obtain key during
  installation?<br/>4.5 Use a secure random number generator to generate keys.<br/>Image/Package scanning for virus/tampering:<br/>
 11.1 Software packages / Application images in repository must not contain virus softwares. The inner software integrity protection mechanism can be implemetated to cross check the tampering of images.<br/>
