@@ -25,7 +25,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
-| Implementation details  | All security measures applied to the query log interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Implementation details  | All security measures applied to the query app package info and sync interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | POST /inventory/v1/appstores.<br/> PUT /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores<br/> DELETE /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores/{appstoreId}.<br/> DELETE /inventory/v1/appstores.<br/> GET apm/v1/apppkginfos/appstores/{appstoreId}.<br/> POST apm/v1/syncapppkgs.<br/> GET apm/v1/syncapppkgs/status |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
@@ -39,7 +39,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.12 Role based Access control. |
-| Implementation details  | Data synchronize API's has been pre authorized for the role MECM_TENANT/MECM_ADMIN. |
+| Implementation details  | App package info query and sync API's has been pre authorized for the role MECM_TENANT/MECM_ADMIN. |
 | Related APIs            | POST /inventory/v1/appstores.<br/> PUT /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores<br/> DELETE /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores/{appstoreId}.<br/> DELETE /inventory/v1/appstores.<br/> GET apm/v1/apppkginfos/appstores/{appstoreId}.<br/> POST apm/v1/syncapppkgs.<br/> GET apm/v1/syncapppkgs/status  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
@@ -53,7 +53,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
-| Implementation details  | New data synchronize interface has been recorded in the API documents. |
+| Implementation details  | New synchronize and app package info query interface has been recorded in the API documents. |
 | Related APIs            | POST /inventory/v1/appstores.<br/> PUT /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores<br/> DELETE /inventory/v1/appstores/{appstoreId}.<br/> GET /inventory/v1/appstores/{appstoreId}.<br/> DELETE /inventory/v1/appstores.<br/> GET apm/v1/apppkginfos/appstores/{appstoreId}.<br/> POST apm/v1/syncapppkgs.<br/> GET apm/v1/syncapppkgs/status  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Apm_Interfaces_en.html<br/> http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html |
 | Related files           | NA |
@@ -85,7 +85,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
-| Implementation details  | All security measures applied to the query log interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Implementation details  | All security measures applied to the query interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> GET /inventory/v1/syncronize<br/> GET /lcmcontroller/v1/hosts<br/> GETapprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/>http://docs.edgegallery.org/en/latest/Projects/MECM/Inventory_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
 | Related files           | NA |
@@ -145,7 +145,7 @@ Note: All three rules are related to security validations and thereby combining 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 All machine-to-machine and man-to-machine interfaces for cross-network transmission must have an access authentication mechanism, and the authentication process must be performed on a server.<br/> 2.1 Sensitive data (including passwords) or key service data (network structure, model parameters) must be transmitted across networks using secure transmission protocols or encrypted before transmission.<br/> 2.2 Do not use SSL2.0, SSL3.0, TLS1.0, or TLS1.1 for secure transmission. TLS1.2 and TLS1.3 are recommended. |
-| Implementation details  | All security measures applied to the query log interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Implementation details  | All security measures applied to the interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | POST /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate.<br/> GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> POST /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate.<br/> POST /lcmcontroller/v1/hosts.<br/> PUT /lcmcontroller/v1/hosts.<br/> DELETE /lcmcontroller/v1/hosts/{hostIp}.<br/> GET /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> GET /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> DELETE /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
 | Related files           | NA |
@@ -175,7 +175,7 @@ Note: All three rules are related to input parameter validations of REST request
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 1.1 Input Validation.<br/> 5.3 All input must be limited to an appropriate size limit.<br/> 9.1 Do not log unsanitized user input. |
-| Implementation details  | All security measures applied to the query log interfaces it includes input parameter validations, input parameter length validation and logging. |
+| Implementation details  | All security measures applied to the interfaces it includes input parameter validations, input parameter length validation and logging. |
 | Related APIs            | POST /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate.<br/> GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> POST /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate.<br/> POST /lcmcontroller/v1/hosts.<br/> PUT /lcmcontroller/v1/hosts.<br/> DELETE /lcmcontroller/v1/hosts/{hostIp}.<br/> GET /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> GET /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> DELETE /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
 | Related files           | NA |
@@ -184,7 +184,8 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 1.12, 6.2 (TBD https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md)
+### Rule 1.12, 6.2
+Open issues: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
@@ -198,12 +199,12 @@ Note: All three rules are related to input parameter validations of REST request
 | GUI input example       | NA |
 | Additional Info         | NA |
 
-### Rule 8.1 (TBD [open points link])
+### Rule 8.1
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
 | Security design rule ID | 8.1 All public function interfaces, RESTful interfaces, local function interfaces, command line interfaces and the default username and password for authentication must be described in the product or application documentation. |
-| Implementation details  | New data synchronize interface has been recorded in the API documents. |
+| Implementation details  | New interfaces has been recorded in the API documents. |
 | Related APIs            | POST /lcmcontroller/v1/tenants/:tenantId/app_instances/:appInstanceId/batchInstantiate.<br/> GET /lcmcontroller/v1/tenants/:tenantId/app_instances.<br/> POST /lcmcontroller/v1/tenants/:tenantId/app_instances/batchterminate.<br/> POST /lcmcontroller/v1/hosts.<br/> PUT /lcmcontroller/v1/hosts.<br/> DELETE /lcmcontroller/v1/hosts/{hostIp}.<br/> GET /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /lcmcontroller/v1/hosts.<br/> POST /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> PUT /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> GET /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration.<br/> DELETE /apprulemgr/v1/tenants/:tenantId/app_instances/:appInstanceId/appd_configuration  |
 | Example API payload     | http://docs.edgegallery.org/en/latest/Projects/MECM/Applcm_Interfaces_en.html<br/> http://docs.edgegallery.org/zh_CN/latest/Projects/MECM/MECM_AppRule_Manager.html |
 | Related files           | NA |
