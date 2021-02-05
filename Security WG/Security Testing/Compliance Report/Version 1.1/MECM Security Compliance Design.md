@@ -20,7 +20,8 @@
 ## 【MECM】支持容器镜像管理Support Container Image Manage
 
 ### Rule 11.1, 11.2, 11.3
-Note: All three rules are related and thereby combining the same.
+Note: All three rules are related and thereby combining the same.<br/>
+Open issues: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
