@@ -30,6 +30,8 @@
 
 ##### EG-TST-SEC-014    - Authentication Bypass（认证绕过）
 
+##### EG-TST-SEC-015    - Arbitrary File Download（任意文件下载）
+
 
 
 #### 2、渗透测试概要 - Summary of penetration testing
