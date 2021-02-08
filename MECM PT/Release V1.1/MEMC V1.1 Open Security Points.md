@@ -1,4 +1,4 @@
-# MECM V1.1 Open Issues:
+# MECM V1.1 Open Security Related Points:
 Requirement|Security Rule|Remarks|
 |----|----|----|
 |[【MECM】支持容器镜像管理Support Container Image Manage ](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8)| Master key storage (for encrypting and storing APP Store image repository credentials), whether needs implementation like MEP or introduce a new module for this purpose or can obtain key during installation? <br/> New image management rules (section 11) applicability to MECM as the images are already scanned for virus/tampering at APP Store |  |
