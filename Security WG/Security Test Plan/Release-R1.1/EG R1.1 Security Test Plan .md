@@ -79,7 +79,7 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】部署结果展示端口、协议等信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDPL) | | - | - | - | - |
 | [【developer】新增日志下载接口](https://gitee.com/OSDT/dashboard?issue_id=I2EDP2) | | - | - | 015 | 未开始 |
 | [【developer】developer部署失败，返回详细的错误信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDP0) | | - | - | - | - |
-| [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) | 未完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 未开始 | 007， 015 | 未开始 |
+| [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |   | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 未开始 | 007， 015 | 未开始 |
 | [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC1E) | | - | - | - | - |
 | [Appstore应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC19) | | - | - | - | - |
 | [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | | 1.6, 1.15 | 未开始 | 007 | 未开始 |
