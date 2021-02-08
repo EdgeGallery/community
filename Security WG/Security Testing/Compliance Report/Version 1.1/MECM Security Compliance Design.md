@@ -17,7 +17,7 @@
 | [[【MECM】Applcm support logs of the app deployment to developer ](https://gitee.com/OSDT/dashboard/issues?id=I2P8KM) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |   
 | [[【MECM/example-apps】Make example-apps open source ](https://gitee.com/OSDT/dashboard/issues?id=I2P8VJ) |  NA (Already discussed in last release) |   
 
-TBD Points Details listed at: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
+TBD Points Details listed at: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Security%20Points.md
 
 ## 【MECM】支持容器镜像管理Support Container Image Manage
 
