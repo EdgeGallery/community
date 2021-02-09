@@ -8,7 +8,26 @@
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
 - 于洋
-- 刘辉
+- 刘辉（紫金山）
+- Puhui Meng（VMware）
+- 崔建伟
+- Gaurav
+- 扈冰
+- Khemendra
+- 李强
+- 刘慧玲
+- 李治谦
+- 鹿鑫
+- Rama
+- Shashi
+- Vidya
+- 王俊恒
+- 张倍源
+- 章清洁
+- 赵宝辉
+- 周文敬
+- 周艳兵
+- 陈传雨
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
