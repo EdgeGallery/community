@@ -4,17 +4,17 @@
 |----|----|
 | [[【MECM】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal](https://gitee.com/OSDT/dashboard/issues?id=I2E9M3) |  NA (Portal redirects to user-management for authentication)   |  
 | [[【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role](https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |  NA (Only API modifications) |   
-| [[【MECM】MECM APPO/Inventory support synchronize data from edge](https://gitee.com/OSDT/dashboard/issues?id=I2P7RL) | Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |   
+| [[【MECM】MECM APPO/Inventory support synchronize data from edge](https://gitee.com/OSDT/dashboard/issues?id=I2P7RL) | New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |   
 | [[【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  Rule: 1.1, 2.1, 2.2, 5.3, 1.5, 6.2, (1.3, 5.3, 9.1) (9.2, 9.4), 8.1 <br/> TBD -User-Management Integration Login/Logout + Token  based Authorization |   
 | [[【MECM】MECM Edge Portal integrate with MEP portal.](https://gitee.com/OSDT/dashboard/issues?id=I2P7T7) |  NA  |   
 | [[【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard/issues?id=I2DQVG) |  NA (MECM as client) |   
 | [[【MECM】 Adaptive mep url unify](https://gitee.com/OSDT/dashboard/issues?id=I2NTWF) |  NA (MECM as client) |   
-| [[【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 <br/> TBD - Image Management related new rules (11.1, 11.2, 11.3), Authentication credentials storage (master key) (3.1) |   
+| [[【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 <br/> TBD - Image Management related new rules (11.1, 11.2, 11.3), Authentication credentials storage (master key) (3.1) |   
 | [[【MECM】增加对依赖应用实例的删除校验逻辑 ](https://gitee.com/OSDT/dashboard/issues?id=I24W8Z) |  NA (Old feature only test effort) |   
 | [[【MECM】增加对依赖应用的查询与部署提示 ](https://gitee.com/OSDT/dashboard/issues?id=I1QWVL) |  NA (Old feature only test effort) |   
-| [[【MECM】Applcm support VM based app. ](https://gitee.com/OSDT/dashboard/issues?id=I2P88K) |  Base framework related rules - Rule: 1.1, 2.1, 2.2, 5.3, 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 |    |   
+| [[【MECM】Applcm support VM based app. ](https://gitee.com/OSDT/dashboard/issues?id=I2P88K) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 |    |   
 | [[【MECM】example-apps support demo app service call. ](https://gitee.com/OSDT/dashboard/issues?id=I2P8CH) |  NA  (Example APP as client) |   
-| [[【MECM】Applcm support logs of the app deployment to developer ](https://gitee.com/OSDT/dashboard/issues?id=I2P8KM) |  Base framework related rules (part of existing framework) - Rule: 1.1, 2.1, 2.2, 5.3 (partially exists - Body & URL Limit exists), 6.2<br/> New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |   
+| [[【MECM】Applcm support logs of the app deployment to developer ](https://gitee.com/OSDT/dashboard/issues?id=I2P8KM) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1  |   
 | [[【MECM/example-apps】Make example-apps open source ](https://gitee.com/OSDT/dashboard/issues?id=I2P8VJ) |  NA (Already discussed in last release) |   
 
 TBD Points Details listed at: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Security%20Points.md
@@ -23,7 +23,6 @@ TBD Points Details listed at: https://gitee.com/edgegallery/community/blob/maste
 
 ### Rule 11.1, 11.2, 11.3
 Note: All three rules are related and thereby combining the same.<br/>
-Open issues: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
@@ -159,7 +158,6 @@ Note: Both rules are related to logging and thereby combining the same.
 
 ### Rule 1.1
 Note: All three rules are related to security and thereby combining the same.<br/>
-Open issues: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
@@ -219,7 +217,6 @@ Note: All three rules are related to input parameter validations of REST request
 | Additional Info         | NA |
 
 ### Rule 1.12, 6.2
-Open issues: https://gitee.com/edgegallery/community/blob/master/MECM%20PT/Release%20V1.1/MEMC%20V1.1%20Open%20Issues.md
 
 | Content                 | Related Information                                          |
 | ----------------------- | ------------------------------------------------------------ |
