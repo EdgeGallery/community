@@ -53,11 +53,14 @@ The 1.1 version starts detailed design and coding from 1.30 as a whole, and is p
 
 ​    Developer (ComplianceTest/PenetrationTest)
 
-​    MECM (ComplianceTest/PenetrationTest)
-
 ​    ATP (ComplianceTest/PenetrationTest)
 
+4.2 Satish：
+
+​    MECM (ComplianceTest/PenetrationTest)
+
 ​    MEP (ComplianceTest/PenetrationTest)
+
 
 #### 5.测试范围 Test Scope
 
