@@ -33,6 +33,8 @@
 - 【Developer】支持容器镜像管理【李媛媛】
 - 【UserMgmt】EdgeGallery平台用户管理特性优化【张阿利、李治谦】
 - 【UserMgmt】EdgeGallery平台支持用户分权控制【张阿利】
+- 【UserMgmt】支持用户通过邮箱注册【李治谦】
+- 【UserMgmt】支持用户通过邮箱登录【李治谦】
 - 【Appstore】统一appstore组件风格【张阿利】
 - 【Appstore】应用包区分ARM，x86【张阿利】
 - 【AppStore】前端界面优化【张阿利】
