@@ -15,6 +15,7 @@
 |---|---|---|
 |  1.1 版本项目架构Review | 架构组review了所有项目的架构变化，对于项目的review意见：<br> 1. ATP补充不兼容接口 <br> 2. MECM highlights incompatible api for v1.1  | PTLs |
 |  组件归一仓库开源评审| 1. 新增开源仓库eg-view，用以统一规划EdgeGallery前台组件 <br> 2. eg-view负责人周文敬 <br> 3. eg-view归属于developer项目组，其他项目组共同贡献。 <br> 4. eg-view仓库完全对外开源。 | 周文敬|
+| 镜像仓库用户名密码管理 | 1. 建议User Management对外提供统一的secret保存服务 <br> 2. 此需求规划到1.2版本 <br> 3. 此版本问题遗留，先以明文保存，在版本发布时明确highlight出此问题。 | 陈传雨|
 
 
 ## Meeting Records
