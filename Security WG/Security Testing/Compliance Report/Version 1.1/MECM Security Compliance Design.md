@@ -5,7 +5,7 @@
 | [[【MECM】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal](https://gitee.com/OSDT/dashboard/issues?id=I2E9M3) |  NA (Portal redirects to user-management for authentication)   |  
 | [[【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role](https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |  NA (Only API modifications) |   
 | [[【MECM】MECM APPO/Inventory support synchronize data from edge](https://gitee.com/OSDT/dashboard/issues?id=I2P7RL) | New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1   |   
-| [[【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  Rule: 1.1, 2.1, 2.2, 5.3, 1.5, 6.2, (1.3, 5.3, 9.1) (9.2, 9.4), 8.1 <br/> TBD -User-Management Integration Login/Logout + Token  based Authorization |   
+| [[【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard/issues?id=I2EB7C) |  Rule: 1.1, 2.1, 2.2, 5.3, 1.5, 6.2, (1.3, 5.3, 9.1) (9.2, 9.4), 8.1 <br/> Note: User-Management Integration Login/Logout + Token  based Authorization will be deferred to future release |   
 | [[【MECM】MECM Edge Portal integrate with MEP portal.](https://gitee.com/OSDT/dashboard/issues?id=I2P7T7) |  NA  |   
 | [[【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard/issues?id=I2DQVG) |  NA (MECM as client) |   
 | [[【MECM】 Adaptive mep url unify](https://gitee.com/OSDT/dashboard/issues?id=I2NTWF) |  NA (MECM as client) |   
