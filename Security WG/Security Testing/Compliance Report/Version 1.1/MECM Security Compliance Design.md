@@ -9,7 +9,7 @@
 | [[【MECM】MECM Edge Portal integrate with MEP portal.](https://gitee.com/OSDT/dashboard/issues?id=I2P7T7) |  NA  |   
 | [[【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard/issues?id=I2DQVG) |  NA (MECM as client) |   
 | [[【MECM】 Adaptive mep url unify](https://gitee.com/OSDT/dashboard/issues?id=I2NTWF) |  NA (MECM as client) |   
-| [[【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 <br/> TBD - Image Management related new rules (11.1, 11.2, 11.3), Authentication credentials storage (master key) (3.1) |   
+| [[【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard/issues?id=I2E3V8) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 <br/> Authentication credentials storage (master key) (3.1) |   
 | [[【MECM】增加对依赖应用实例的删除校验逻辑 ](https://gitee.com/OSDT/dashboard/issues?id=I24W8Z) |  NA (Old feature only test effort) |   
 | [[【MECM】增加对依赖应用的查询与部署提示 ](https://gitee.com/OSDT/dashboard/issues?id=I1QWVL) |  NA (Old feature only test effort) |   
 | [[【MECM】Applcm support VM based app. ](https://gitee.com/OSDT/dashboard/issues?id=I2P88K) |  New applicable rules: (1.3, 5.3, 9.1) (9.2, 9.4), 1.12, 8.1 |    |   
