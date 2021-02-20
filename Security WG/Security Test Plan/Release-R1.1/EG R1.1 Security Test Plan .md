@@ -85,8 +85,8 @@ The test scope is divided according to stories, the development status is divide
 | [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |   | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 未开始 | 007， 015 | 未开始 |
 | [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC1E) | | - | - | - | - |
 | [Appstore应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC19) | | - | - | - | - |
-| [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | | 1.6, 1.15 | 未开始 | 007 | 未开始 |
-| [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | | 1.6, 1.15 | 未开始 | 005 | 未开始 |
+| [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | | 1.6, 1.15, 8.1 | 未开始 | 007 | 未开始 |
+| [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | | 1.6, 1.15, 8.1 | 未开始 | 005 | 未开始 |
 | [【MEP】mep url unify](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | | - | - | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) | | 1.2 | 未开始 | 007 | 未开始 |
 | [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3T8) | | | | | |
