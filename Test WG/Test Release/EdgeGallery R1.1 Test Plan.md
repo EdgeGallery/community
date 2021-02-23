@@ -42,7 +42,7 @@
 - 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
 - 【mep】mep url unify
 - 【mep-agent】mep-agent提供根据service name返回endpoint信息 pmeng
-- 【MEP/MECM】APP Instance Termination Enhancement
+- 【MEP/MECM】APP Instance Termination Enhancement【刘辉】
 - 【mecm】Adaptive mep url unify
 - 【mecm】example-apps support demo app service call
 - 【ATP】ATP应用支持分权控制【李媛媛】
