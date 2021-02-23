@@ -40,7 +40,7 @@
 - 【AppStore】前端界面优化【张阿利】
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】 
 - 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
-- 【mep】mep url unify
+- 【mep】mep url unify【张阿利】
 - 【mep-agent】mep-agent提供根据service name返回endpoint信息 pmeng
 - 【MEP/MECM】APP Instance Termination Enhancement【刘辉】
 - 【mecm】Adaptive mep url unify
