@@ -95,7 +95,7 @@ The test scope is divided according to stories, the development status is divide
 | [【installer】支持PaaS层按需部署](https://gitee.com/OSDT/dashboard?issue_id=I2E0SI) | | - | - | - | - |
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) | | - | - | - | - |
 | [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | | 1.1, 2.2, 8.1, 9.2 | 未开始 | 007 | 未开始 |
-| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | | 1.1, 9.2 | 未开始 | - | - |
+| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | | 1.1, 8.1, 9.2 | 未开始 | - | - |
 | [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard?issue_id=I23FRE) | | 1.2 | 未开始 | 007 | 未开始 |
 
 
