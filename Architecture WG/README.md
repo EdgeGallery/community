@@ -26,7 +26,7 @@
 | 章清洁 | 华为 | zhangqingjie@huawei.com | - | - |
 
 ## 工作组会议
-* 补充会议信息
+* Every Tuesday 19:00 Beijing Time
 
 ## 工作组联系方式
 * 邮件列表：架构工作组使用Edge Gallery邮件列表： main@edgegallery.groups.io。
