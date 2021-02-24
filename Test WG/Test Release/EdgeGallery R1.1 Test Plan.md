@@ -82,7 +82,29 @@
 
  **3.3 第三次迭代需求** 
 
-- 【ATP】App应用的测试能力增强      【张阿利】
+- 【Developer】在EG平台按需部署设计时，支持对默认组件的配置
+- 【Developer】【POC】Developer support VM app
+- 【Developer】支持容器镜像管理
+- 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
+ **在设计态首页，可以创建/删除一个设计** 
+- 【developer】支持在ATP测试时，将镜像包传递给atp;支持在发布到AppStore时，将应用镜像信息传递给appstore
+- 【developer】mep face recognition SDK的验证和使用 java
+-  **【Developer】Developer应用首页集成个人帐号中心** 
+-  **【UserMgmt】支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码** 
+- 【MEP】MEP拓扑展示订阅关系及订阅应用和被订阅应用数量
+- 【MEP】MEP支持服务管理架构可视化
+- 【MEP】MEP页面与MECM自治Portal完成集成
+- 【Appstore】reconstuct the application details page
+- 【AppStore】【POC】Appstore support VM based app
+- 【AppStore】【POC】APPD转换器
+-  **【AppStore】AppStore应用首页集成个人帐号中心** 
+- 【MECM】【POC】Applcm support VM based app.
+- 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.
+- 【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现
+- 【ATP】ATP测试用例扩充到总数14个
+-  **【ATP】ATP应用首页集成个人帐号中心** 
+- 【installer】支持用户定制化按需部署
+- 【installer】支持应用按需部署
 
 
 
