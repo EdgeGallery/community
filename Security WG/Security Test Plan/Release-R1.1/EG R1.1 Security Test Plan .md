@@ -95,8 +95,8 @@ The test scope is divided according to stories, the development status is divide
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) |未完成 | - | - | - | - |
 | [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard?issue_id=I23FRE) | 已完成| 1.2 | 测试完毕，通过 |007|测试完毕，通过|
 | [【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQVG) |  已完成  | - | - | - | - |
-| [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | 已完成| 1.1, 2.2, 8.1, 9.2 | 测试完毕,[I38O5Y](https://gitee.com/OSDT/dashboard?issue_id=I38O5Y)不通过 | 007 | 未开始 |
-| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | 已完成| 1.1, 8.1, 9.2 | 未开始 | - | - |
+| [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | 已完成| 1.1, 2.2, 8.1, 9.2 | 测试中,[I38O5Y](https://gitee.com/OSDT/dashboard?issue_id=I38O5Y)不通过 | - | - |
+| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | 已完成| 1.1, 8.1, 9.2 | 测试中 | - | - |
 | [【MECM】增加对依赖应用实例的删除校验逻辑](https://gitee.com/OSDT/dashboard?issue_id=I24W8Z) | 已完成 | - | - | - | - |
 | [【MECM】增加对依赖应用的查询与部署提示](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) | 已完成| - | - | - | - |
 
