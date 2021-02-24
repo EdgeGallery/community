@@ -30,27 +30,24 @@
 - 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等以及修改建议，日志下载功能【李媛媛、李治谦】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
 - 【Developer】支持容器镜像管理【李媛媛】
-- 【UserMgmt】EdgeGallery平台用户管理特性优化【张阿利、李治谦】
-- 【UserMgmt】EdgeGallery平台支持用户分权控制【张阿利】
-- 【UserMgmt】支持用户通过邮箱注册【李治谦】
-- 【UserMgmt】支持用户通过邮箱登录【李治谦】
+- 【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】
+- 【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】
+- 【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】
+- 【UserMgmt】 **支持用户通过邮箱登录** 【李治谦】
 - 【Appstore】统一appstore组件风格【张阿利】
 - 【Appstore】应用包区分ARM，x86【张阿利】
-- 【AppStore】前端界面优化【张阿利】
--  _【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】 _ 
-- 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
-- 【mep】mep url unify【张阿利】
-- 【mep-agent】mep-agent提供根据service name返回endpoint信息 pmeng
+- 【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】
+- 【mep】 **mep url unify** 【张阿利】
+- 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
 - 【MEP/MECM】APP Instance Termination Enhancement【刘辉】
-- 【mecm】Adaptive mep url unify
-- 【mecm】example-apps support demo app service call
+- 【mecm】Adaptive mep url unify【张阿利】
 - 【ATP】ATP应用支持分权控制【李媛媛】
 - 【ATP】ATP测试用例扩充【李媛媛】
-- 【ATP】测试用例模型增强（支持在用户面贡献测试用例、支持手工测试用例、ATP优化问题单（用例下载，测试报告下载格式修改））【李媛媛】
-- 【测试】测试数据构造【张阿利】
+- 【ATP】测试用例模型增强（ **支持在用户面贡献测试用例** 、支持手工测试用例、ATP优化问题单（用例下载，测试报告下载格式修改））【李媛媛】
 
 
  **3.2 第二次迭代需求** 
+
 - 【developer】新增获取pod详情接口
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
 - 【developer】样例界面开发
@@ -68,10 +65,11 @@
 -  **【UserMgmt】支持用户忘记密码后通过邮箱找回** 
 - 【Appstore】文档界面优化
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】
-- 【AppStore】 **支持应用主动拉取功能** 
+- 【AppStore】 **支持应用主动拉取功能** 【张阿利】
 - 【MEP】MEP展示服务调用次数统计信息
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
+- 【mecm】example-apps support demo app service call
 - 【MECM/example-apps】Make example-apps open source
 - 【MECM】Applcm support logs of the app deployment to developer
 - 【MECM】支持容器镜像管理Support Container Image Manage
@@ -79,7 +77,8 @@
 -  **【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal** 
 - 【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念
 - 【installation】支持IaaS层按需部署
-
+- 【installation】【POC】测试数据构造【张阿利】
+- 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
 
  **3.3 第三次迭代需求** 
 
