@@ -35,6 +35,7 @@ Review test results for R1.1-First Iteration/Sprint.
 Review requirement for R1.1 sprint2
 
 【需进一步同各PT研发人员澄清第二次迭代需求范围及开发进展-all】
+【周末前需明确第二次迭代需求的分工】
 
 3.UPF相关规则配置测试讨论 --owner all,ali
 
