@@ -26,6 +26,9 @@
 
 Review test results for R1.1-First Iteration/Sprint.
 
+【2月份至今提交的bug36个，2个取消，2个完成；8个安全相关】
+【1月份提的体验相关问题单，有修复完成的，回归后可关闭的尽快关闭；对于尚未修复的，在TSC会议上提一下，让PTL或相关人员合理安排处理】
+
 2.R1.1 第二次迭代需求审视 --owner all
 
 Review requirement for R1.1 sprint2
