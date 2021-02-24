@@ -85,15 +85,15 @@ The test scope is divided according to stories, the development status is divide
 | [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |  已完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 测试完毕,[I38AAW](https://gitee.com/OSDT/dashboard?issue_id=I38AAW)不通过 | 007， 015 | 未开始 |
 | [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC1E) |已完成 | - | - | - | - |
 | [Appstore应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC19) |未完成 | - | - | - | - |
-| [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | 已完成| 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 007 | 未开始 |
-| [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | 已完成| 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 005 | [I38RU2](https://gitee.com/OSDT/dashboard?issue_id=I38RU2), [I38RL7](https://gitee.com/OSDT/dashboard?issue_id=I38RL7)不通过 |
+| [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | 已完成| 1.2, 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 007 | 测试完毕，通过 |
+| [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | 已完成| 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 005 | 测试完毕，[I38RU2](https://gitee.com/OSDT/dashboard?issue_id=I38RU2), [I38RL7](https://gitee.com/OSDT/dashboard?issue_id=I38RL7)不通过 |
 | [【MEP】mep url unify](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | 已完成| - | - | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) | 未完成| 1.2 | 未开始 | 007 | 未开始 |
 | [【Appstore】应用共享界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1U4) |已完成 | - | - | - | - |
 | [【Appstore】应用仓库界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1T5) | 已完成| - | - | - | - |
 | [【installer】支持PaaS层按需部署](https://gitee.com/OSDT/dashboard?issue_id=I2E0SI) | 未完成| - | - | - | - |
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) |未完成 | - | - | - | - |
-| [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard?issue_id=I23FRE) | 已完成| 1.2 | 测试完毕，通过 | 007 | 未开始 |
+| [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard?issue_id=I23FRE) | 已完成| 1.2 | 测试完毕，通过 |007|测试完毕，通过|
 | [【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQVG) |  已完成  | - | - | - | - |
 | [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | 已完成| 1.1, 2.2, 8.1, 9.2 | 测试完毕,[I38O5Y](https://gitee.com/OSDT/dashboard?issue_id=I38O5Y)不通过 | 007 | 未开始 |
 | [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | 已完成| 1.1, 8.1, 9.2 | 未开始 | - | - |
