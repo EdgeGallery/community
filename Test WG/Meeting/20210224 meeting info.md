@@ -18,7 +18,7 @@
 -  _shashikanth（华为）_ 
 -  _蔡舒豪（华为）_ 
 -  _徐军杰（九州云）_ 
-- _yangyang 、zhangbeiyuan、liuhuiling、_  luxin、chenchuanyu 、 _chenruidong 、_ zhaobaohui   （华为）
+- _yangyang 、zhangbeiyuan、liuhuiling、luxin、chenchuanyu 、chenruidong 、zhaobaohui_   （华为）
 
 ## Topics议题
 
@@ -27,11 +27,14 @@
 Review test results for R1.1-First Iteration/Sprint.
 
 【2月份至今提交的bug36个，2个取消，2个完成；8个安全相关】
-【1月份提的体验相关问题单，有修复完成的，回归后可关闭的尽快关闭；对于尚未修复的，在TSC会议上提一下，让PTL或相关人员合理安排处理】
+【1月份提的体验相关问题单，有修复完成的，回归后可关闭的尽快关闭；对于尚未修复的，在TSC会议上提一下，让PTL或相关人员合理安排处理-owner liuhui】
+【developer很多研发需求延期；当前投入第三次迭代的vm支持需求的人力较多；测试工作安排较被动】
 
 2.R1.1 第二次迭代需求审视 --owner all
 
 Review requirement for R1.1 sprint2
+
+【需进一步同各PT研发人员澄清第二次迭代需求范围及开发进展-all】
 
 3.UPF相关规则配置测试讨论 --owner all,ali
 
