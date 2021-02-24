@@ -29,7 +29,6 @@
 - 【Developer】应用包区分ARM，x86【李媛媛】
 - 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等以及修改建议，日志下载功能【李媛媛、李治谦】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
--  _【developer】提升SDK/API可获性与可用性【李媛媛】延期到迭代二_ 
 - 【Developer】支持容器镜像管理【李媛媛】
 - 【UserMgmt】EdgeGallery平台用户管理特性优化【张阿利、李治谦】
 - 【UserMgmt】EdgeGallery平台支持用户分权控制【张阿利】
@@ -63,6 +62,8 @@
 - 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现
 - 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息
 - 【developer】系统管理面界面开发
+- 【developer】提供应用远程登录如VNC运维能力
+- 【developer】提升SDK/API可获性与可用性【李媛媛】
 -  **【UserMgmt】支持用户通过邮箱注册** 
 -  **【UserMgmt】支持用户忘记密码后通过邮箱找回** 
 - 【Appstore】文档界面优化
