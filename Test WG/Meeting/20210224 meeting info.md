@@ -4,7 +4,7 @@
 - 刘辉（紫金山实验室）
 -  侯敏熙（Redhat） 
 - 李治谦（华为） 
--   _姜伟（紫金山实验室）_  
+-   姜伟（紫金山实验室）  
 - _ 张怡（联想）_ 
 - 张阿利（中软）
 - 李媛媛（中软）
@@ -18,7 +18,7 @@
 -  _shashikanth（华为）_ 
 -  _蔡舒豪（华为）_ 
 -  _徐军杰（九州云）_ 
-- _yangyang 、_ zhangbeiyuan、 _liuhuiling、_  luxin、chenchuanyu 、 _chenruidong 、_ zhaobaohui   （华为）
+- _yangyang 、zhangbeiyuan、liuhuiling、_  luxin、chenchuanyu 、 _chenruidong 、_ zhaobaohui   （华为）
 
 ## Topics议题
 
