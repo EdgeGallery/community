@@ -82,7 +82,7 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】vnc接口实现](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ9) |  未完成 | 2.1 | 未开始 | 007 | 未开始 |
 | [【developer】vnc界面设计和开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ5) |  未完成   | 2.1 | 未开始 | 007 | 未开始 |
 | [【developer】developer部署失败，返回详细的错误信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDP0) |未完成 | - | - | - | - |
-| [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |  已完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 测试完毕,[I38AAW](https://gitee.com/OSDT/dashboard?issue_id=I38AAW)不通过 | 007， 015 | 未开始 |
+| [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |  已完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 测试完毕,[I38AAW](https://gitee.com/OSDT/dashboard?issue_id=I38AAW)不通过 | 007， 015 | 未开始，待分权功能完成后测试 |
 | [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC1E) |已完成 | - | - | - | - |
 | [Appstore应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC19) |未完成 | - | - | - | - |
 | [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | 已完成| 1.2, 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 007 | 测试完毕，通过 |
