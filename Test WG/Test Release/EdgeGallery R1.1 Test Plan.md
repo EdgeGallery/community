@@ -39,7 +39,7 @@
 - 【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】
 - 【mep】 **mep url unify** 【张阿利】
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
-- 【MEP/MECM】APP Instance Termination Enhancement【刘辉】
+- 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
 - 【mecm】Adaptive mep url unify【张阿利】
 - 【ATP】ATP应用支持分权控制【李媛媛】
 - 【ATP】ATP测试用例扩充【李媛媛】
