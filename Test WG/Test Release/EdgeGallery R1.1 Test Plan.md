@@ -41,9 +41,8 @@
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
 - 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
 - 【mecm】Adaptive mep url unify【张阿利】
-- 【ATP】ATP应用支持分权控制【李媛媛】![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/144820_3b6c555e_7785299.png "屏幕截图.png")
-- 【ATP】ATP测试用例扩充【李媛媛】
-- 【ATP】测试用例模型增强（ **支持在用户面贡献测试用例** 、支持手工测试用例、ATP优化问题单（用例下载，测试报告下载格式修改））【李媛媛】
+- 【ATP】ATP应用包区分ARM、X86【李媛媛】
+- 【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】
 
 
  **3.2 第二次迭代需求** 
@@ -76,7 +75,11 @@
 - 【MECM】支持容器镜像管理Support Container Image Manage
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
 -  **【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal** 
-- 【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念
+- 【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
+- 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
+- 【ATP】支持在用户面贡献测试用例【李媛媛】
+- 【ATP】支持手工测试用例【李媛媛】
+- 【ATP】ATP任务接口模型变更【李媛媛】
 - 【installation】支持IaaS层按需部署
 - 【installation】【POC】测试数据构造【张阿利】
 - 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
