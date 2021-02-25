@@ -72,7 +72,6 @@
 - 【MECM】Applcm support logs of the app deployment to developer
 - 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
-
 - 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
 - 【ATP】支持在用户面贡献测试用例【李媛媛】
