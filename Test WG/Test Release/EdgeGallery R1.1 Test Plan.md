@@ -61,7 +61,7 @@
 - 【developer】支持项目管理、支持能力中心管理【李媛媛】
 - 【developer】提升SDK/API可获性与可用性【李媛媛】
 -  **【UserMgmt】支持用户通过邮箱注册** 
--  **【UserMgmt】支持用户忘记密码后通过邮箱找回** 
+- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】
 - 【Appstore】文档界面优化
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】
@@ -73,7 +73,7 @@
 - 【MECM】Applcm support logs of the app deployment to developer
 - 【MECM】支持容器镜像管理Support Container Image Manage
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
--  **【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal** 
+
 - 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
 - 【ATP】支持在用户面贡献测试用例【李媛媛】
@@ -92,21 +92,22 @@
  **在设计态首页，可以创建/删除一个设计** 
 - 【developer】支持在ATP测试时，将镜像包传递给atp;支持在发布到AppStore时，将应用镜像信息传递给appstore
 - 【developer】mep face recognition SDK的验证和使用 java
--  **【Developer】Developer应用首页集成个人帐号中心** 
--  **【UserMgmt】支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码** 
+- 【Developer】Developer应用首页集成个人帐号中心
+- 【UserMgmt】支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码【李治谦】
 - 【MEP】MEP拓扑展示订阅关系及订阅应用和被订阅应用数量
 - 【MEP】MEP支持服务管理架构可视化
 - 【MEP】MEP页面与MECM自治Portal完成集成
 - 【Appstore】reconstuct the application details page
 - 【AppStore】【POC】Appstore support VM based app
 - 【AppStore】【POC】APPD转换器
--  **【AppStore】AppStore应用首页集成个人帐号中心** 
+- 【AppStore】AppStore应用首页集成个人帐号中心
 - 【MECM】【POC】Applcm support VM based app.
 - 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.
+- 【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal
 - 【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现
 - 【ATP】ATP测试用例扩充到总数14个
--  **【ATP】ATP应用首页集成个人帐号中心** 
+- 【ATP】ATP应用首页集成个人帐号中心 
 - 【installer】支持用户定制化按需部署
 - 【installer】支持应用按需部署
 
