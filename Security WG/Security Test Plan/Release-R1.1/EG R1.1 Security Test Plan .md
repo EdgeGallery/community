@@ -87,7 +87,7 @@ The test scope is divided according to stories, the development status is divide
 | [Appstore应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC19) |未完成 | - | - | - | - |
 | [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | 已完成| 1.2, 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 007 | 测试完毕，通过 |
 | [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | 已完成| 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 005 | 测试完毕，[I38RU2](https://gitee.com/OSDT/dashboard?issue_id=I38RU2), [I38RL7](https://gitee.com/OSDT/dashboard?issue_id=I38RL7)不通过 |
-| [【MEP】mep url unify](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | 已完成| - | - | - | - |
+| [【MEP】mep url unify](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | 已完成| 8.1 | (I391DX)[https://gitee.com/OSDT/dashboard?issue_id=I391DX]不通过 | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) | 未完成| 1.2 | 未开始 | 007 | 未开始 |
 | [【Appstore】应用共享界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1U4) |已完成 | - | - | - | - |
 | [【Appstore】应用仓库界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1T5) | 已完成| - | - | - | - |
