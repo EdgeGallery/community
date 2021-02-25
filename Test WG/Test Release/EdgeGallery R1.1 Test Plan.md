@@ -60,18 +60,17 @@
 - 【developer】系统管理面界面开发【李媛媛】
 - 【developer】支持项目管理、支持能力中心管理【李媛媛】
 - 【developer】提升SDK/API可获性与可用性【李媛媛】
--  **【UserMgmt】支持用户通过邮箱注册** 
 - 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】
-- 【Appstore】文档界面优化
-- 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利】
+- 【Appstore】文档界面优化【李治谦】
+- 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】
-- 【MEP】MEP展示服务调用次数统计信息
+- 【MEP】MEP展示服务调用次数统计信息 **预计延迟**
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
 - 【mecm】example-apps support demo app service call
 - 【MECM/example-apps】Make example-apps open source
 - 【MECM】Applcm support logs of the app deployment to developer
-- 【MECM】支持容器镜像管理Support Container Image Manage
+- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
 
 - 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
@@ -87,7 +86,7 @@
 
 - 【Developer】在EG平台按需部署设计时，支持对默认组件的配置
 - 【Developer】【POC】Developer support VM app
-- 【Developer】支持容器镜像管理
+- 【Developer】支持容器镜像管理【李治谦】
 - 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
  **在设计态首页，可以创建/删除一个设计** 
 - 【developer】支持在ATP测试时，将镜像包传递给atp;支持在发布到AppStore时，将应用镜像信息传递给appstore
