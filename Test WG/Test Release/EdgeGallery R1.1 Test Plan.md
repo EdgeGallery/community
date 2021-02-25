@@ -24,12 +24,12 @@
 
  **3.1 第一次迭代需求** 
 
-- 【Developer】搭建设计态前台框架【李媛媛】
+- 【Developer】【POC】搭建设计态前台框架
 - 【Developer】Developer应用支持分权控制【李媛媛】
 - 【Developer】应用包区分ARM，x86【李媛媛】
-- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等以及修改建议，日志下载功能【李媛媛、李治谦】
+- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
-- 【Developer】支持容器镜像管理【李媛媛】
+- 【developer】提供应用远程登录如VNC运维能力【李媛媛】
 - 【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】
 - 【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】
 - 【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】
@@ -41,25 +41,26 @@
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
 - 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
 - 【mecm】Adaptive mep url unify【张阿利】
-- 【ATP】ATP应用支持分权控制【李媛媛】
+- 【ATP】ATP应用支持分权控制【李媛媛】![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/144820_3b6c555e_7785299.png "屏幕截图.png")
 - 【ATP】ATP测试用例扩充【李媛媛】
 - 【ATP】测试用例模型增强（ **支持在用户面贡献测试用例** 、支持手工测试用例、ATP优化问题单（用例下载，测试报告下载格式修改））【李媛媛】
 
 
  **3.2 第二次迭代需求** 
 
-- 【developer】新增获取pod详情接口
+- 【developer】新增获取pod详情接口【李媛媛】
+- 【developer】修改建议，日志下载功能【李媛媛】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
-- 【developer】样例界面开发
-- 【Developer】Developer Support Demo APP guidence
-- 【developer】支持项目管理、支持配置沙箱环境
-- 【developer】部署结果展示端口、协议等信息
+- 【developer】样例界面开发【李媛媛】
+- 【Developer】Developer Support Demo APP guidence【李媛媛】
+- 【developer】支持项目管理、支持配置沙箱环境【李媛媛】
+- 【developer】部署结果展示端口、协议等信息【李媛媛】
 - 【developer】【POC】在应用设计时，可以通过点击查看组件的基本信息；可以设计服务之间的依赖关系；以通过拖拽的方式进行App设计，并保存设计结果； **支持拖拽的方式进行组件移动** 
 - 【developer】【POC】在EG平台按需部署设计时，支持保存设计结果，支持导出部署脚本
-- 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现
-- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息
-- 【developer】系统管理面界面开发
-- 【developer】提供应用远程登录如VNC运维能力
+- 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】
+- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】
+- 【developer】系统管理面界面开发【李媛媛】
+- 【developer】支持项目管理、支持能力中心管理【李媛媛】
 - 【developer】提升SDK/API可获性与可用性【李媛媛】
 -  **【UserMgmt】支持用户通过邮箱注册** 
 -  **【UserMgmt】支持用户忘记密码后通过邮箱找回** 
