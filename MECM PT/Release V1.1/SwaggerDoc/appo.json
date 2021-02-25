@@ -1,0 +1,1332 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "Application Orchestrator REST API",
+		"version": "1.0.0",
+		"title": "Application Orchestrator REST API",
+		"license": {
+			"name": "Apache 2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+		}
+	},
+	"host": "127.0.0.1:30201",
+	"basePath": "/",
+	"tags": [
+		{
+			"name": "app-orchestrator-handler",
+			"description": "App Orchestrator Handler"
+		},
+		{
+			"name": "app-rule-handler",
+			"description": "App Rule Handler"
+		},
+		{
+			"name": "appo-db-handler",
+			"description": "Appo Db Handler"
+		}
+	],
+	"paths": {
+		"/appo/v1/health": {
+			"get": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Queries liveness and readiness",
+				"operationId": "healthCheckUsingGET",
+				"produces": [
+					"text/plain"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instance_infos": {
+			"get": {
+				"tags": [
+					"appo-db-handler"
+				],
+				"summary": "Retrieves application instance info",
+				"operationId": "getAllAppInstanceInfoUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "appinstanceids",
+						"in": "query",
+						"description": "appinstanceids",
+						"required": false,
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"collectionFormat": "multi"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instance_infos/{appInstance_id}": {
+			"get": {
+				"tags": [
+					"appo-db-handler"
+				],
+				"summary": "Retrieves application instance info",
+				"operationId": "getAppInstanceInfoUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "appInstance_id",
+						"in": "path",
+						"description": "application instance id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances": {
+			"post": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Creates application instance",
+				"operationId": "createAppInstanceUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "createParam",
+						"description": "create application instance",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/CreateParam"
+						}
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"type": "string"
+						}
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances/batch_create": {
+			"post": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Batch creates application instances",
+				"operationId": "batchCreateAppInstanceUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "createParam",
+						"description": "create application instance",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/BatchCreateParam"
+						}
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"type": "string"
+						}
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances/batch_instantiate": {
+			"post": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Batch instantiate application instances",
+				"operationId": "batchInstantiateAppInstanceUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "appInstanceParam",
+						"description": "Instantiate application instances",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/BatchInstancesParam"
+						}
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"type": "string"
+						}
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances/batch_terminate": {
+			"post": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Batch terminate application instances",
+				"operationId": "batchTerminateAppInstancesUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "appInstanceParam",
+						"description": "Batch terminate application instances",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/BatchInstancesParam"
+						}
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"type": "string"
+						}
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances/{app_instance_id}": {
+			"get": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Retrieves application instance information",
+				"operationId": "getAppInstanceUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "application instance id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Instantiate application instance",
+				"operationId": "instantiateAppInstanceUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "application instance id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"type": "string"
+						}
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Terminates application instance",
+				"operationId": "terminateAppInstanceUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "application instance id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"201": {
+						"description": "request accepted ",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"500": {
+						"description": "internal server error",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/app_instances/{app_instance_id}/appd_configuration": {
+			"post": {
+				"tags": [
+					"app-rule-handler"
+				],
+				"summary": "Configure application rules",
+				"operationId": "addAppRulesUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "appRuleConfigDto",
+						"description": "appD rule inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRuleConfigDto"
+						}
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"app-rule-handler"
+				],
+				"summary": "Updates application rules",
+				"operationId": "updateApplicationRulesUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "appRuleConfigDto",
+						"description": "appD rule inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRuleConfigDto"
+						}
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-rule-handler"
+				],
+				"summary": "Deletes application rules",
+				"operationId": "deleteApplicationRulesUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "appRuleDelConfigDto",
+						"description": "app rule information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRuleDeleteConfigDto"
+						}
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/apprule_task_infos/{apprule_task_id}": {
+			"get": {
+				"tags": [
+					"appo-db-handler"
+				],
+				"summary": "Retrieves application rule task info",
+				"operationId": "getAppRuletaskInfoUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "apprule_task_id",
+						"in": "path",
+						"description": "application instance id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/hosts/{host_ip}/kpi": {
+			"get": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Retrieves edge host performance statistics",
+				"operationId": "queryKpiUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "host_ip",
+						"in": "path",
+						"description": "edge host ip",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant_id",
+						"required": true,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities": {
+			"get": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Retrieves edge host platform capabilities",
+				"operationId": "queryEdgehostCapabilitiesUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "host_ip",
+						"in": "path",
+						"description": "edge host ip",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/appo/v1/tenants/{tenant_id}/hosts/{host_ip}/mep_capabilities/{capability_id}": {
+			"get": {
+				"tags": [
+					"app-orchestrator-handler"
+				],
+				"summary": "Retrieves edge host platform capabilities",
+				"operationId": "queryEdgehostCapabilityUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "capability_id",
+						"in": "path",
+						"description": "capability_id",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "host_ip",
+						"in": "path",
+						"description": "edge host ip",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant id",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppoResponse"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		}
+	},
+	"definitions": {
+		"AppRuleConfigDto": {
+			"type": "object",
+			"properties": {
+				"appDNSRule": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DnsRuleDto"
+					}
+				},
+				"appName": {
+					"type": "string"
+				},
+				"appSupportMp1": {
+					"type": "boolean"
+				},
+				"appTrafficRule": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TrafficRuleDto"
+					}
+				}
+			},
+			"title": "AppRuleConfigDto"
+		},
+		"AppRuleDeleteConfigDto": {
+			"type": "object",
+			"properties": {
+				"appDNSRule": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"appTrafficRule": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"title": "AppRuleDeleteConfigDto"
+		},
+		"AppoResponse": {
+			"type": "object",
+			"properties": {
+				"response": {
+					"type": "object"
+				}
+			},
+			"title": "AppoResponse"
+		},
+		"BatchCreateParam": {
+			"type": "object",
+			"properties": {
+				"appId": {
+					"type": "string"
+				},
+				"appInstanceDescription": {
+					"type": "string"
+				},
+				"appName": {
+					"type": "string"
+				},
+				"appPackageId": {
+					"type": "string"
+				},
+				"hwCapabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"mecHost": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"title": "BatchCreateParam"
+		},
+		"BatchInstancesParam": {
+			"type": "object",
+			"properties": {
+				"appInstanceIds": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"title": "BatchInstancesParam"
+		},
+		"CreateParam": {
+			"type": "object",
+			"properties": {
+				"appId": {
+					"type": "string"
+				},
+				"appInstanceDescription": {
+					"type": "string"
+				},
+				"appName": {
+					"type": "string"
+				},
+				"appPackageId": {
+					"type": "string"
+				},
+				"hwCapabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"mecHost": {
+					"type": "string"
+				}
+			},
+			"title": "CreateParam"
+		},
+		"DnsRuleDto": {
+			"type": "object",
+			"properties": {
+				"dnsRuleId": {
+					"type": "string"
+				},
+				"domainName": {
+					"type": "string"
+				},
+				"ipAddress": {
+					"type": "string"
+				},
+				"ipAddressType": {
+					"type": "string",
+					"enum": [
+						"IP_V4",
+						"IP_V6"
+					]
+				},
+				"ttl": {
+					"type": "integer",
+					"format": "int32"
+				}
+			},
+			"title": "DnsRuleDto"
+		},
+		"DstInterfaceDto": {
+			"type": "object",
+			"properties": {
+				"dstIpAddress": {
+					"type": "string"
+				},
+				"dstMacAddress": {
+					"type": "string"
+				},
+				"interfaceType": {
+					"type": "string"
+				},
+				"srcMacAddress": {
+					"type": "string"
+				},
+				"tunnelInfo": {
+					"$ref": "#/definitions/TunnelInfoDto"
+				}
+			},
+			"title": "DstInterfaceDto"
+		},
+		"TrafficFilterDto": {
+			"type": "object",
+			"properties": {
+				"dscp": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"dstAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstTunnelAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstTunnelPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"protocol": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"qci": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"srcAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcTunnelAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcTunnelPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"tag": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"tc": {
+					"type": "integer",
+					"format": "int32"
+				}
+			},
+			"title": "TrafficFilterDto"
+		},
+		"TrafficRuleDto": {
+			"type": "object",
+			"properties": {
+				"action": {
+					"type": "string",
+					"enum": [
+						"DROP",
+						"FORWARD_DECAPSULATED",
+						"FORWARD_AS_IS",
+						"PASSTHROUGH",
+						"DUPLICATED_DECAPSULATED",
+						"DUPLICATE_AS_IS"
+					]
+				},
+				"dstInterface": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DstInterfaceDto"
+					}
+				},
+				"filterType": {
+					"type": "string",
+					"enum": [
+						"FLOW",
+						"PACKET"
+					]
+				},
+				"priority": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"trafficFilter": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TrafficFilterDto"
+					}
+				},
+				"trafficRuleId": {
+					"type": "string"
+				}
+			},
+			"title": "TrafficRuleDto"
+		},
+		"TunnelInfoDto": {
+			"type": "object",
+			"properties": {
+				"tunnelDstAddress": {
+					"type": "string"
+				},
+				"tunnelSpecificData": {
+					"type": "string"
+				},
+				"tunnelSrcAddress": {
+					"type": "string"
+				},
+				"tunnelType": {
+					"type": "string"
+				}
+			},
+			"title": "TunnelInfoDto"
+		}
+	}
+}

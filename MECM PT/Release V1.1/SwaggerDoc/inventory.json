@@ -1,0 +1,2277 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "Inventory REST API",
+		"version": "1.0.0",
+		"title": "Inventory REST API",
+		"license": {
+			"name": "Apache 2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+		}
+	},
+	"host": "127.0.0.1:30203",
+	"basePath": "/",
+	"tags": [
+		{
+			"name": "app-lcm-inventory-handler",
+			"description": "App Lcm Inventory Handler"
+		},
+		{
+			"name": "app-repo-inventory-handler",
+			"description": "App Repo Inventory Handler"
+		},
+		{
+			"name": "app-rule-manager-inventory-handler",
+			"description": "App Rule Manager Inventory Handler"
+		},
+		{
+			"name": "app-store-inventory-handler",
+			"description": "App Store Inventory Handler"
+		},
+		{
+			"name": "appd-rule-inventory-handler",
+			"description": "Appd Rule Inventory Handler"
+		},
+		{
+			"name": "inventory-handler",
+			"description": "Inventory Handler"
+		},
+		{
+			"name": "mec-host-inventory-handler",
+			"description": "Mec Host Inventory Handler"
+		}
+	],
+	"paths": {
+		"/inventory/v1/applcms": {
+			"get": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Retrieves all application LCM records",
+				"operationId": "getAllAppLcmRecordsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Adds new application LCM record",
+				"operationId": "addAppLcmRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appLcmDto",
+						"description": "applcm inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppLcmDto"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Deletes all application LCM records",
+				"operationId": "deleteAllAppLcmRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/applcms/{applcm_ip}": {
+			"get": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Retrieves application LCM record",
+				"operationId": "getAppLcmRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "applcm_ip",
+						"in": "path",
+						"description": "applcm IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppLcmDto"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Updates existing application LCM record",
+				"operationId": "updateAppLcmRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appLcmDto",
+						"description": "applcm inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppLcmDto"
+						}
+					},
+					{
+						"name": "applcm_ip",
+						"in": "path",
+						"description": "applcm IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-lcm-inventory-handler"
+				],
+				"summary": "Deletes application LCM record",
+				"operationId": "deleteAppLcmRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "applcm_ip",
+						"in": "path",
+						"description": "applcm IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/apprepos": {
+			"get": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Retrieves all application repo records",
+				"operationId": "getAllAppRepoRecordsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Adds new application repo record",
+				"operationId": "addAppRepoRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appRepoDto",
+						"description": "app repo inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRepoDto"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Deletes all application repo records",
+				"operationId": "deleteAllAppRepoRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/apprepos/{apprepo_endpoint}": {
+			"get": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Retrieves application repo record",
+				"operationId": "getAppStoreRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "apprepo_endpoint",
+						"in": "path",
+						"description": "apprepo endpoint",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppRepoDto"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Updates existing application repo record",
+				"operationId": "updateAppRepoRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appRepoDto",
+						"description": "apprepo inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRepoDto"
+						}
+					},
+					{
+						"name": "apprepo_endpoint",
+						"in": "path",
+						"description": "apprepo ID",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-repo-inventory-handler"
+				],
+				"summary": "Deletes application repo record",
+				"operationId": "deleteAppRepoRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "apprepo_endpoint",
+						"in": "path",
+						"description": "apprepo endpoint",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/apprulemanagers": {
+			"get": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Retrieves all application rule manager records",
+				"operationId": "getAllAppRuleManagerRecordsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Adds new application LCM record",
+				"operationId": "addAppRuleManagerRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appRuleDto",
+						"description": "app rule manager inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRuleDto"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Deletes all application LCM records",
+				"operationId": "deleteAllAppRuleManagerRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/apprulemanagers/{app_rule_manager_ip}": {
+			"get": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Retrieves application rule manager record",
+				"operationId": "getAppRuleManagerRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_rule_manager_ip",
+						"in": "path",
+						"description": "app rule manager IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppRuleDto"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Updates existing application rule manager record",
+				"operationId": "updateAppRuleManagerRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appRuleDto",
+						"description": "app rule manager information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppRuleDto"
+						}
+					},
+					{
+						"name": "app_rule_manager_ip",
+						"in": "path",
+						"description": "app rule manager IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-rule-manager-inventory-handler"
+				],
+				"summary": "Deletes application LCM record",
+				"operationId": "deleteAppRuleManagerRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_rule_manager_ip",
+						"in": "path",
+						"description": "app rule manager IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/appstores": {
+			"get": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Retrieves all application store records",
+				"operationId": "getAllAppStoreRecordsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Adds new application store record",
+				"operationId": "addAppStoreRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appStoreDto",
+						"description": "appstore inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppStoreDto"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Deletes all application store records",
+				"operationId": "deleteAllAppStoreRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/appstores/{appstore_ip}": {
+			"get": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Retrieves application store record",
+				"operationId": "getAppStoreRecordUsingGET_1",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "appstore_ip",
+						"in": "path",
+						"description": "appstore IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/AppStoreDto"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Updates existing application store record",
+				"operationId": "updateAppStoreRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appStoreDto",
+						"description": "appstore inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppStoreDto"
+						}
+					},
+					{
+						"name": "appstore_ip",
+						"in": "path",
+						"description": "appstore IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"app-store-inventory-handler"
+				],
+				"summary": "Deletes application store record",
+				"operationId": "deleteAppStoreRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "appstore_ip",
+						"in": "path",
+						"description": "appstore IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/health": {
+			"get": {
+				"tags": [
+					"inventory-handler"
+				],
+				"summary": "Queries liveness and readiness",
+				"operationId": "healthCheckUsingGET",
+				"produces": [
+					"text/plain"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/mechosts": {
+			"get": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Retrieves all MEC host records",
+				"operationId": "getAllMecHostRecordsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Adds new MEC host record",
+				"operationId": "addMecHostRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "mecHostDto",
+						"description": "mechost inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/MecHostDto"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Deletes all MEC host records",
+				"operationId": "deleteAllMecHostRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/mechosts/{mechost_ip}": {
+			"get": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Retrieves MEC host record",
+				"operationId": "getMecHostRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/MecHostDto"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Updates existing MEC host record",
+				"operationId": "updateMecHostRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "mecHostDto",
+						"description": "mechost inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/MecHostDto"
+						}
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Deletes MEC host record",
+				"operationId": "deleteMecHostRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/mechosts/{mechost_ip}/k8sconfig": {
+			"post": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Upload K8s configuration file to applcm",
+				"operationId": "uploadConfigFileUsingPOST",
+				"consumes": [
+					"multipart/form-data"
+				],
+				"produces": [
+					"*/*"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "file",
+						"in": "formData",
+						"description": "config file",
+						"required": false,
+						"type": "file"
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Deletes K8s configuration file from applcm",
+				"operationId": "deleteConfigFileUsingDELETE",
+				"produces": [
+					"application/json",
+					"text/plain"
+				],
+				"parameters": [
+					{
+						"name": "access_token",
+						"in": "header",
+						"description": "access token",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/tenants/{tenant_id}/app_instances/{app_instance_id}/appd_configuration": {
+			"get": {
+				"tags": [
+					"appd-rule-inventory-handler"
+				],
+				"summary": "Retrieves appDRule records for given tenent ID and app instance ID",
+				"operationId": "getAppdRuleRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "object"
+							}
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"post": {
+				"tags": [
+					"appd-rule-inventory-handler"
+				],
+				"summary": "Adds AppD rule record",
+				"operationId": "addAppdRuleRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appDRuleConfigDto",
+						"description": "appD rule inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppdRuleConfigDto"
+						}
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"appd-rule-inventory-handler"
+				],
+				"summary": "Updates existing appDRule record",
+				"operationId": "updateAppdRuleRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "appDRuleConfigDto",
+						"description": "appD rule inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/AppdRuleConfigDto"
+						}
+					},
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"appd-rule-inventory-handler"
+				],
+				"summary": "Deletes appDRule records",
+				"operationId": "deleteAllAppdRecordsUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_instance_id",
+						"in": "path",
+						"description": "app instance identifier",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/apps": {
+			"post": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Adds new Application record",
+				"operationId": "addApplicationRecordUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "mecAppDto",
+						"description": "application inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/MecApplicationDto"
+						}
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/apps/{app_id}": {
+			"get": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Retrieves Application record",
+				"operationId": "getApplicationRecordUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_id",
+						"in": "path",
+						"description": "application id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"put": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Updates Application record",
+				"operationId": "updateApplicationRecordUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_id",
+						"in": "path",
+						"description": "application id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"in": "body",
+						"name": "mecAppDto",
+						"description": "application inventory information",
+						"required": false,
+						"schema": {
+							"$ref": "#/definitions/MecApplicationDto"
+						}
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			},
+			"delete": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Deletes Application record",
+				"operationId": "deleteApplicationRecordUsingDELETE",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "app_id",
+						"in": "path",
+						"description": "application id",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/capabilities": {
+			"get": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Retrieves MEC host record",
+				"operationId": "getMecHostCapabilitiesUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "object"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		},
+		"/inventory/v1/tenants/{tenant_id}/mechosts/{mechost_ip}/capabilities/{capability_type}/applications": {
+			"get": {
+				"tags": [
+					"mec-host-inventory-handler"
+				],
+				"summary": "Retrieves MEC application records",
+				"operationId": "getMecApplicationsUsingGET",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "capability_type",
+						"in": "path",
+						"description": "capability type",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "mechost_ip",
+						"in": "path",
+						"description": "mechost IP",
+						"required": false,
+						"type": "string"
+					},
+					{
+						"name": "tenant_id",
+						"in": "path",
+						"description": "tenant identifier",
+						"required": false,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "object"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				},
+				"deprecated": false
+			}
+		}
+	},
+	"definitions": {
+		"AppLcmDto": {
+			"type": "object",
+			"properties": {
+				"applcmIp": {
+					"type": "string"
+				},
+				"applcmName": {
+					"type": "string"
+				},
+				"applcmPort": {
+					"type": "string"
+				},
+				"userName": {
+					"type": "string"
+				}
+			},
+			"title": "AppLcmDto"
+		},
+		"AppRepoDto": {
+			"type": "object",
+			"properties": {
+				"repoEndPoint": {
+					"type": "string"
+				},
+				"repoName": {
+					"type": "string"
+				},
+				"repoPassword": {
+					"type": "string"
+				},
+				"repoUserName": {
+					"type": "string"
+				}
+			},
+			"title": "AppRepoDto"
+		},
+		"AppRuleDto": {
+			"type": "object",
+			"properties": {
+				"appRuleIp": {
+					"type": "string"
+				},
+				"appRuleName": {
+					"type": "string"
+				},
+				"appRulePort": {
+					"type": "string"
+				},
+				"userName": {
+					"type": "string"
+				}
+			},
+			"title": "AppRuleDto"
+		},
+		"AppStoreDto": {
+			"type": "object",
+			"properties": {
+				"appstoreIp": {
+					"type": "string"
+				},
+				"appstoreName": {
+					"type": "string"
+				},
+				"appstorePort": {
+					"type": "string"
+				},
+				"appstoreRepo": {
+					"type": "string"
+				},
+				"appstoreRepoName": {
+					"type": "string"
+				},
+				"appstoreRepoPassword": {
+					"type": "string"
+				},
+				"appstoreRepoUserName": {
+					"type": "string"
+				},
+				"producer": {
+					"type": "string"
+				}
+			},
+			"title": "AppStoreDto"
+		},
+		"AppdRuleConfigDto": {
+			"type": "object",
+			"properties": {
+				"appDNSRule": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DnsRuleDto"
+					}
+				},
+				"appName": {
+					"type": "string"
+				},
+				"appSupportMp1": {
+					"type": "boolean"
+				},
+				"appTrafficRule": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TrafficRuleDto"
+					}
+				}
+			},
+			"title": "AppdRuleConfigDto"
+		},
+		"DnsRuleDto": {
+			"type": "object",
+			"properties": {
+				"dnsRuleId": {
+					"type": "string"
+				},
+				"domainName": {
+					"type": "string"
+				},
+				"ipAddress": {
+					"type": "string"
+				},
+				"ipAddressType": {
+					"type": "string",
+					"enum": [
+						"IP_V4",
+						"IP_V6"
+					]
+				},
+				"ttl": {
+					"type": "integer",
+					"format": "int32"
+				}
+			},
+			"title": "DnsRuleDto"
+		},
+		"DstInterfaceDto": {
+			"type": "object",
+			"properties": {
+				"dstIpAddress": {
+					"type": "string"
+				},
+				"dstMacAddress": {
+					"type": "string"
+				},
+				"interfaceType": {
+					"type": "string"
+				},
+				"srcMacAddress": {
+					"type": "string"
+				},
+				"tunnelInfo": {
+					"$ref": "#/definitions/TunnelInfoDto"
+				}
+			},
+			"title": "DstInterfaceDto"
+		},
+		"MecApplicationDto": {
+			"type": "object",
+			"properties": {
+				"appInstanceId": {
+					"type": "string"
+				},
+				"appName": {
+					"type": "string"
+				},
+				"capabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"packageId": {
+					"type": "string"
+				},
+				"status": {
+					"type": "string"
+				}
+			},
+			"title": "MecApplicationDto"
+		},
+		"MecHostDto": {
+			"type": "object",
+			"properties": {
+				"address": {
+					"type": "string"
+				},
+				"affinity": {
+					"type": "string"
+				},
+				"appRuleIp": {
+					"type": "string"
+				},
+				"applcmIp": {
+					"type": "string"
+				},
+				"city": {
+					"type": "string"
+				},
+				"coordinates": {
+					"type": "string"
+				},
+				"hwcapabilities": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/MecHwCapabilityDto"
+					}
+				},
+				"mechostIp": {
+					"type": "string"
+				},
+				"mechostName": {
+					"type": "string"
+				},
+				"userName": {
+					"type": "string"
+				},
+				"zipCode": {
+					"type": "string"
+				}
+			},
+			"title": "MecHostDto"
+		},
+		"MecHwCapabilityDto": {
+			"type": "object",
+			"properties": {
+				"hwModel": {
+					"type": "string"
+				},
+				"hwType": {
+					"type": "string"
+				},
+				"hwVendor": {
+					"type": "string"
+				}
+			},
+			"title": "MecHwCapabilityDto"
+		},
+		"Status": {
+			"type": "object",
+			"properties": {
+				"response": {
+					"type": "string"
+				}
+			},
+			"title": "Status"
+		},
+		"TrafficFilterDto": {
+			"type": "object",
+			"properties": {
+				"dscp": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"dstAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstTunnelAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"dstTunnelPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"protocol": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"qci": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"srcAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcTunnelAddress": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"srcTunnelPort": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"tag": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"tc": {
+					"type": "integer",
+					"format": "int32"
+				}
+			},
+			"title": "TrafficFilterDto"
+		},
+		"TrafficRuleDto": {
+			"type": "object",
+			"properties": {
+				"action": {
+					"type": "string",
+					"enum": [
+						"DROP",
+						"FORWARD_DECAPSULATED",
+						"FORWARD_AS_IS",
+						"PASSTHROUGH",
+						"DUPLICATED_DECAPSULATED",
+						"DUPLICATE_AS_IS"
+					]
+				},
+				"dstInterface": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DstInterfaceDto"
+					}
+				},
+				"filterType": {
+					"type": "string",
+					"enum": [
+						"FLOW",
+						"PACKET"
+					]
+				},
+				"priority": {
+					"type": "integer",
+					"format": "int32"
+				},
+				"trafficFilter": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TrafficFilterDto"
+					}
+				},
+				"trafficRuleId": {
+					"type": "string"
+				}
+			},
+			"title": "TrafficRuleDto"
+		},
+		"TunnelInfoDto": {
+			"type": "object",
+			"properties": {
+				"tunnelDstAddress": {
+					"type": "string"
+				},
+				"tunnelSpecificData": {
+					"type": "string"
+				},
+				"tunnelSrcAddress": {
+					"type": "string"
+				},
+				"tunnelType": {
+					"type": "string"
+				}
+			},
+			"title": "TunnelInfoDto"
+		}
+	}
+}
