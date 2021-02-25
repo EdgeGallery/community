@@ -74,7 +74,7 @@
 - 【MECM】支持容器镜像管理Support Container Image Manage
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
 -  **【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal** 
-- 【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
+- 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
 - 【ATP】支持在用户面贡献测试用例【李媛媛】
 - 【ATP】支持手工测试用例【李媛媛】
@@ -103,6 +103,7 @@
 -  **【AppStore】AppStore应用首页集成个人帐号中心** 
 - 【MECM】【POC】Applcm support VM based app.
 - 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.
+- 【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现
 - 【ATP】ATP测试用例扩充到总数14个
 -  **【ATP】ATP应用首页集成个人帐号中心** 
