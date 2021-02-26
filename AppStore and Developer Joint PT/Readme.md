@@ -28,7 +28,7 @@
 | AppStore  | 罗小云  |    罗小云，李治谦，白针针，赵龙飞，程润东，Janani，Khemendra |
 | MECM  | 陈传雨  |  陈传雨，杨阳，Gaurav Agrawal  |
 | User-mgmt  | 张倍源  |  周艳兵，张倍源  |
-| ATP  | 张慧玲  |   张慧玲，白针针，杨阳  |
+| ATP  | 刘慧玲  |   刘慧玲，白针针，杨阳  |
 | LAB  | 章清洁  |  章清洁， 杨阳， 周文敬  |
 
 
