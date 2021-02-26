@@ -64,14 +64,14 @@
 - 【Appstore】文档界面优化【李治谦】
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】
-- 【MEP】MEP展示服务调用次数统计信息 **预计延迟**
+- 【MEP】MEP展示服务调用次数统计信息 **预计延迟**【张阿利】
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
-- 【mecm】example-apps support demo app service call
-- 【MECM/example-apps】Make example-apps open source
-- 【MECM】Applcm support logs of the app deployment to developer
+- 【mecm】example-apps support demo app service call【张阿利】
+- 【MECM/example-apps】Make example-apps open source【张阿利】
+- 【MECM】Applcm support logs of the app deployment to developer【张阿利】
 - 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
-- 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role
+- 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】
 - 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
 - 【ATP】支持在用户面贡献测试用例【李媛媛】
