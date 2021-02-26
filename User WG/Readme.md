@@ -7,7 +7,7 @@
 - 工业现场、直播、视频、游戏等不同场景下对5G MEC的需求
 - 社区优先集成的应用场景及意向应用厂商
 ### 成员列表
-
+Chair:陈燕军， Co-Chair：傅文军
 |Name   |Affiliation  |Email    |Self nominate as Chair (Y)   |Self Nominate as Co-Chair (Y/N)   |
 |---|---|---|---|---|
 | 陈炜 |腾讯|allenwchen@tencent.com  |   |   |
