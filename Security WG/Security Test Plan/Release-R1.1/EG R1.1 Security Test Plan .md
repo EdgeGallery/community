@@ -79,8 +79,8 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】可视化界面设计和开发（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT9) | 未完成 | - | - | - | - |
 | [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) | 未完成 | - | - | 007 | 未开始 |
 | [【developer】mep SDK的验证和使用 python](https://gitee.com/OSDT/dashboard?issue_id=I2EDQV) | | - | - | - | - |
-| [【developer】vnc接口实现](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ9) |  未完成 | 2.1 | 未开始 | 007 | 未开始 |
-| [【developer】vnc界面设计和开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ5) |  未完成   | 2.1 | 未开始 | 007 | 未开始 |
+| [【developer】vnc接口实现](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ9) |  已完成 | 2.1 | 测试中 | - | - |
+| [【developer】vnc界面设计和开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ5) |  已完成   | 2.1 | 测试中 | - | - |
 | [【developer】developer部署失败，返回详细的错误信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDP0) |未完成 | - | - | - | - |
 | [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |  已完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 测试完毕,[I38AAW](https://gitee.com/OSDT/dashboard?issue_id=I38AAW)不通过 | 007， 015 | 未开始，待分权功能完成后测试 |
 | [ATP应用包区分ARM、X86](https://gitee.com/OSDT/dashboard?issue_id=I2EC1E) |已完成 | - | - | - | - |
@@ -95,8 +95,8 @@ The test scope is divided according to stories, the development status is divide
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) |未完成 | - | - | - | - |
 | [【UserMgmt】用户统一管理功能支持设置用户所属角色](https://gitee.com/OSDT/dashboard?issue_id=I23FRE) | 已完成| 1.2 | 测试完毕，通过 |007|测试完毕，通过|
 | [【MECM】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQVG) |  已完成  | - | - | - | - |
-| [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | 已完成| 1.1, 2.2, 8.1, 9.2 | 测试完毕,[I38O5Y](https://gitee.com/OSDT/dashboard?issue_id=I38O5Y)不通过 | - | - |
-| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | 已完成| 1.1, 8.1, 9.2 | 测试中 | - | - |
+| [【MEP】APP Instance Termination Enhancement](https://gitee.com/OSDT/dashboard?issue_id=I2DQV5) | 已完成| 1.1, 2.2, 8.1, 9.2 | 测试完毕,[I38O5Y](https://gitee.com/OSDT/dashboard?issue_id=I38O5Y),[I3952Z](https://gitee.com/OSDT/dashboard?issue_id=I3952Z)不通过 | - | - |
+| [【mep-agent】mep-agent提供根据service name返回endpoint信息](https://gitee.com/OSDT/dashboard?issue_id=I2CXVE) | 已完成| 8.1, 9.2 | 测试完毕，通过 | - | - |
 | [【MECM】增加对依赖应用实例的删除校验逻辑](https://gitee.com/OSDT/dashboard?issue_id=I24W8Z) | 已完成 | - | - | - | - |
 | [【MECM】增加对依赖应用的查询与部署提示](https://gitee.com/OSDT/dashboard?issue_id=I1QWVL) | 已完成| - | - | - | - |
 
