@@ -1,0 +1,335 @@
+swagger: "2.0"
+info:
+  description: "applcm vm base接口说明"
+  version: "1.0.0"
+  title: "AppLcm Vm Base"
+host: "applcm.edgegallery.io"
+basePath: "/lcmcontroller/v1"
+tags:
+  - name: "AppInstance"
+    description: "app实例"
+  - name: "AppInstanceImage"
+    description: "app实例镜像"
+schemes:
+  - "https"
+paths:
+  /tenants/{tenantId}/app_instances/{appInstanceId}/instantiate:
+    post:
+      tags:
+        - "AppInstance"
+      summary: "实例化APP"
+      description: ""
+      consumes:
+        - "multipart/form-data"
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+        - in: formData
+          required: true
+          type: string
+          name: hostIp
+        - in: formData
+          required: true
+          type: string
+          name: appName
+        - in: formData
+          required: true
+          type: file
+          name: file
+        - in: formData
+          required: true
+          type: string
+          name: packageId
+      responses:
+        "200":
+          description: "ok"
+        "400":
+          description: "bad request"
+  /tenants/{tenantId}/app_instances/{appInstanceId}/terminate:
+    post:
+      tags:
+        - "AppInstance"
+      summary: "销毁APP实例"
+      description: ""
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "ok"
+        "400":
+          description: "bad request"
+  /tenants/{tenantId}/app_instances/{appInstanceId}:
+    get:
+      tags:
+        - "AppInstance"
+      summary: "获取APP实例信息"
+      description: ""
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+      responses:
+        "200":
+          description: "ok"
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/VmAppInstanceInfo'
+        "400":
+          description: "bad request"
+  /tenants/{tenantId}/app_instances/{appInstanceId}/workloads/desc:
+    get:
+      tags:
+        - "AppInstance"
+      summary: "获取创建虚拟机过程中发生的事件"
+      description: ""
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: path
+          name: tenantId
+          required: true
+          type: string
+        - in: path
+          name: appInstanceId
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Ok
+          schema:
+            $ref: '#/definitions/VmAppInstanceEvent'
+  /tenants/{tenantId}/app_instances/{appInstanceId}/images:
+    post:
+      tags:
+        - "AppInstanceImage"
+      summary: "创建虚拟机镜像"
+      description: ""
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "body"
+          required: true
+          schema:
+            type: object
+            properties:
+              vmId:
+                type: string
+      responses:
+        "200":
+          description: "ok"
+          schema:
+            type: object
+            required:
+              - imageId
+            properties:
+              imageId:
+                type: string
+        "400":
+          description: "bad request"
+        "404":
+          description: "虚拟机不存在"
+  /tenants/{tenantId}/app_instances/{appInstanceId}/images/{imageId}:
+    delete:
+      tags:
+        - "AppInstanceImage"
+      summary: "删除镜像"
+      description: ""
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: path
+          name: tenantId
+          required: true
+          type: string
+        - in: path
+          name: appInstanceId
+          required: true
+          type: string
+        - in: path
+          name: imageId
+          required: true
+          type: string
+      responses:
+        '204':
+          description: No content
+    get:
+      tags:
+        - "AppInstanceImage"
+      summary: "获取镜像信息"
+      description: ""
+      produces:
+        - "application/json"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "imageId"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "ok"
+          schema:
+            type: object
+            properties:
+              imageId:
+                type: string
+              imageName:
+                type: string
+              appInstanceId:
+                type: string
+              hostIp:
+                type: string
+              status:
+                type: string
+              sumChunkNum:
+                type: integer
+              chunkSize:
+                type: integer
+  /tenants/{tenantId}/app_instances/{appInstanceId}/images/{imageId}/file:
+    get:
+      tags:
+        - "AppInstanceImage"
+      summary: "下载镜像分片"
+      description: ""
+      produces:
+        - "application/octet-stream"
+      parameters:
+        - in: header
+          name: accessToken
+          required: true
+          type: string
+        - in: header
+          name: chunkNum
+          required: true
+          type: integer
+        - in: "path"
+          name: "tenantId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "appInstanceId"
+          required: true
+          type: "string"
+        - in: "path"
+          name: "imageId"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "ok"
+          schema:
+            type: file
+
+definitions:
+  VmAppInstanceInfo:
+    type: object
+    properties:
+      vmId:
+        type: string
+      vncUrl:
+        type: string
+      networks:
+        type: array
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+            ip:
+              type: string
+  VmAppInstanceEvent:
+    type: object
+    properties:
+      vmDescribeInfo:
+        type: array
+        items:
+          type: object
+          properties:
+            resourceName:
+              type: string
+            logicalResourceId:
+              type: string
+            physicalResourceId:
+              type: string
+            events:
+              type: array
+              items:
+                type: object
+                properties:
+                  eventTime:
+                    type: string
+                  resourceStatus:
+                    type: string
+                  resourceStatusReason:
+                    type: string

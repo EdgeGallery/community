@@ -1,0 +1,161 @@
+syntax = "proto3";
+
+package lcmservice;
+
+message InstantiateRequest {
+  oneof data {
+    string accessToken = 1;
+    string appInstanceId = 2;
+    string hostIp = 3;
+    bytes package = 4;
+    string ak     = 5;
+    string sk     = 6;
+  };
+}
+
+message InstantiateResponse {
+  string status = 1;
+}
+
+message TerminateRequest {
+   string accessToken = 1;
+   string appInstanceId = 2;
+   string hostIp = 3;
+}
+
+message TerminateResponse {
+  string status = 1;
+}
+
+message UploadCfgRequest {
+  oneof data {
+    string accessToken = 1;
+    string hostIp = 2;
+    bytes configFile = 3;
+  };
+}
+
+message UploadCfgResponse {
+  string status = 1;
+}
+
+message RemoveCfgRequest {
+  string accessToken = 1;
+  string hostIp = 2;
+}
+
+message RemoveCfgResponse {
+  string status = 1;
+}
+
+message QueryRequest {
+    string accessToken = 1;
+    string appInstanceId = 2;
+    string hostIp = 3;
+}
+
+message QueryResponse {
+    string response = 1;
+    // [
+    //   {
+    //     "vmId": "string",
+    //     "vncUrl": "string",
+    //     "networks": [
+    //       {
+    //         "name": "string",
+    //         "ip": "string"
+    //       }
+    //     ]
+    //   }
+    // ]
+}
+
+message WorkloadDescribeRequest {
+  string accessToken = 1;
+  string appInstanceId = 2;
+  string hostIp = 3;
+}
+
+message WorkloadDescribeResponse {
+  string response = 1;
+  // {
+  //   "vmDescribeInfo": [
+  //     {
+  //      "resourceName": "string",
+  //       "logicalResourceId": "string",
+  //       "physicalResourceId": "string",
+  //       "events": [
+  //         {
+  //           "eventTime": "string",
+  //           "resourceStatus": "string",
+  //           "resourceStatusReason": "string"
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // }
+}
+
+message CreateVmImageRequest {
+  string accessToken = 1;
+  string appInstanceId = 2;
+  string hostIp = 3;
+  string vmId = 4;
+}
+
+message CreateVmImageResponse {
+  string response = 1;
+  // {'imageId': 'xxxaaabbccssdd'}
+}
+
+message QueryVmImageRequest {
+  string accessToken = 1;
+  string appInstanceId = 2;
+  string hostIp = 3;
+  string imageId = 4;
+}
+
+message QueryVmImageResponse {
+  string response = 1;
+  // {'status': 'Pending', 'sumChunkNum': 100, 'chunkSize': 2048}
+}
+
+message DeleteVmImageRequest {
+  string accessToken = 1;
+  string appInstanceId = 2;
+  string hostIp = 3;
+  string imageId = 4;
+}
+
+message DeleteVmImageResponse {
+  string response;
+  // {'code': 200, 'msg': 'Ok'}
+}
+
+message DownloadVmImageRequest {
+  string accessToken = 1;
+  string appInstanceId = 2;
+  string hostIp = 3;
+  string imageId = 4;
+  int32  chunkNum = 5;
+}
+
+message DownloadVmImageResponse {
+  bytes content = 1;
+}
+
+service AppLCM {
+  rpc instantiate (stream InstantiateRequest) returns (InstantiateResponse) {} // app实例化
+  rpc terminate (TerminateRequest) returns (TerminateResponse) {} // app实例销毁
+  rpc query (QueryRequest) returns (QueryResponse) {} // 查询app实例信息
+  rpc uploadConfig (stream UploadCfgRequest) returns (UploadCfgResponse) {} // 上传配置文件
+  rpc removeConfig (RemoveCfgRequest) returns (RemoveCfgResponse) {} // 删除配置文件
+  rpc workloadDescribe (VmDescribeRequest) returns (VmDescribeResponse) {} // 事件查询
+}
+
+service VmImageService {
+  rpc createVmImage(CreateVmImageRequest) returns (CreateVmImageResponse) {} // 创建虚拟机镜像
+  rpc queryVmImage(QueryVmImageRequest) returns (QueryVmImageResponse) {} // 查询镜像信息
+  rpc deleteVmImage(DeleteVmImageRequest) returns (DeleteVmImageResponse) {} // 删除镜像
+  rpc downloadVmImage(DownloadVmImageRequest) returns (stream DownloadVmImageResponse) {} // 分片下载镜像
+}
