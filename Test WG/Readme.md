@@ -9,6 +9,7 @@
 | **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
 |-------------------|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
 | 李治谦     | 华为           | lizhiqian3@huawei.com     |                               |                                     |
+| 许丹     | 华为           | xudan16@huawei.com     |                               |                                     |
 | 侯敏熙     | 红帽           | mhou@redhat.com     |                               |Y                                     |
 | 姜伟     | 紫金山实验室           | jiangwei@pmlabs.com.cn     |                               |                                     
 | 刘辉     | 紫金山实验室           | liuhui@pmlabs.com.cn     | Y                              |      
