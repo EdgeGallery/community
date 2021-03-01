@@ -18,11 +18,39 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 | API | 方法 | API说明 | 变更类型 | 说明 |
 | --- | --- | --- | --- | --- |
 | /mec/appstore/v1/apps | POST | 上传app | 修改 | 修改上传请求参数，增加可选字段demo，含义为应用演示视频或图片 |
-| /mec/appstore/{appstoreId}/pullable/packages | GET | 查询指定平台仓库可拉取应用列表 | 新增 | appstore后台调用指定平台仓库的URI，查询可推送应用列表，并过滤本平台已有的应用，返回可拉取的应用列表给appstore前台 |
-| /mec/appstore//pullable/packages/{packageId}/action/pull | POST | 从指定平台仓库拉取指定应用 | 新增 | appstore后台调用指定平台仓库的URI，下载指定应用的应用包和图标，并注册该应用到本平台，同时记录一条拉取消息 |
+| /mec/appstore/v1/packages/pullable | GET | 获取本平台仓库全部可拉取应用列表 | 新增 | 查询可拉取的应用列表|
+| /mec/appstore/v1/packages/{platformId}/pullable | GET | 查询指定平台仓库可拉取应用列表 | 新增 | appstore后台调用指定平台仓库的URI，查询可推送应用列表，并过滤本平台已发布的应用，返回可拉取的应用列表给appstore前台 |
+| /mec/appstore/v1/packages/{packageId}/action/pull | POST | 从指定平台仓库拉取指定应用 | 新增 | appstore后台调用指定平台仓库的URI，下载指定应用的应用包和图标，并注册该应用到本平台，同时记录一条拉取消息 |
+
+### 接口URI变更
+
+| 原URI | 现URI | 方法 | API说明 |
+| --- | --- | --- | --- |
+| /mec/appstore/poke/pushable/packages | /mec/appstore/v1/packages/pushable | GET | 查询可推送的应用列表 |
+| /mec/appstore/poke/pushable/packages/{packageId} | /mec/appstore/v1/packages/{packageId}/pushable | GET | 根据packageId获取可推送应用包 |
+| /mec/appstore/poke/pushable/packages/{packageId}/action/push | /mec/appstore/v1/packages/{packageId}/action/push | POST | 根据packageId推送应用包|
+| /mec/appstore/poke/pushable/packages/{packageId}/action/download-package | /mec/appstore/v1/packages/{packageId}/action/download-package | GET | 根据packageId下载推送应用包 |
+| /mec/appstore/poke/pushable/packages/{packageId}/action/download-icon | /mec/appstore/v1/packages/{packageId}/action/download-icon | GET | 根据packageId下载推送应用图标 |
+| /mec/appstore/poke/appstores | /mec/appstore/v1/appstores | POST | 新增外部应用仓库 |
+| /mec/appstore/poke/appstores/{appStoreId} | /mec/appstore/v1/appstores/{appStoreId} | DELETE | 删除外部应用仓库 |
+| /mec/appstore/poke/appstores/{appStoreId} | /mec/appstore/v1/appstores/{appStoreId} | PUT | 修改外部应用仓库 |
+| /mec/appstore/poke/appstores | /mec/appstore/v1/appstores | GET | 查询外部应用仓库列表 |
+| /mec/appstore/poke/appstores/{appStoreId} | /mec/appstore/v1/appstores/{appStoreId} | GET | 查询外部应用仓库 |
+| /mec/appstore/poke/messages | /mec/appstore/v1/messages| POST | 新增一条消息 |
+| /mec/appstore/poke/messages | /mec/appstore/v1/messages | GET | 根据消息类型获取消息 |
+| /mec/appstore/poke/messages/{messageId} | /mec/appstore/v1/messages/{messageId} | GET | 根据message id获取消息 |
+| /mec/appstore/poke/messages/{messageId} | /mec/appstore/v1/messages/{messageId} | DELETE | 根据message id删除消息 |
+| /mec/appstore/poke/messages/{messageId}/action/download | /mec/appstore/v1/messages/{messageId}/action/download | GET | 根据message id下载app相关信息 |
+| /mec/appstore/poke/messages/{messageId}/action/readed | /mec/appstore/v1/messages/{messageId}/action/readed | PUT | 根据message id更新消息状态 |
+
+### 删除接口
+
+| API | 方法 | API说明 |
+| --- | --- | --- |
+| /mec/appstore/poke/messages/{messageId}/report-data | GET | 根据message id获取测试报告 |
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
-是
+Poc特性相关接口URI做了调整，请使用了"/mec/appstore/poke"相关接口，请修改为新接口。
 
 ### 接口API 简述 interface naming
 
