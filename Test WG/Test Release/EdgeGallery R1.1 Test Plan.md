@@ -40,6 +40,7 @@
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
 - 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
 - 【mecm】Adaptive mep url unify【张阿利】
+- 【mecm】example-apps support demo app service call【张阿利】
 - 【ATP】ATP应用包区分ARM、X86【李媛媛】
 - 【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】
 
@@ -67,7 +68,6 @@
 - 【MEP】MEP展示服务调用次数统计信息 **预计延迟**【张阿利】
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
-- 【mecm】example-apps support demo app service call【张阿利】
 - 【MECM/example-apps】Make example-apps open source【张阿利】
 - 【MECM】Applcm support logs of the app deployment to developer【张阿利】
 - 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
