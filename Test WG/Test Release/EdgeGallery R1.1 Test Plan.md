@@ -46,18 +46,19 @@
 
  **3.2 第二次迭代需求** 
 
+- 【developer】新增获取pod详情接口【李媛媛】 --延期
+- 【Developer】Developer Support Demo APP guidence【李媛媛】 --延期
 - 【developer】修改建议，日志下载功能【李媛媛】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
-- 【Developer】Developer Support Demo APP guidence【李媛媛】
-- 【developer】支持项目管理、支持配置沙箱环境【李媛媛】
+- 【developer】支持项目管理、支持配置沙箱环境【李媛媛】 --延期
 - 【developer】部署结果展示端口、协议等信息【李媛媛】
 - 【developer】【POC】在应用设计时，可以通过点击查看组件的基本信息；可以设计服务之间的依赖关系；以通过拖拽的方式进行App设计，并保存设计结果； **支持拖拽的方式进行组件移动** 
 - 【developer】【POC】在EG平台按需部署设计时，支持保存设计结果，支持导出部署脚本
-- 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】
-- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】
-- 【developer】系统管理面界面开发【李媛媛】
-- 【developer】支持项目管理、支持能力中心管理【李媛媛】
-- 【developer】提升SDK/API可获性与可用性【李媛媛】
+- 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】 --延期
+- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】 --遗留
+- 【developer】系统管理面界面开发【李媛媛】 --延期
+- 【developer】支持项目管理、支持能力中心管理【李媛媛】 --延期
+- 【developer】提升SDK/API可获性与可用性【李媛媛】 --延期
 - 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】
 - 【Appstore】文档界面优化【李治谦】
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】
@@ -71,9 +72,8 @@
 - 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
 - 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】
 - 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
-- 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
 - 【ATP】支持在用户面贡献测试用例【李媛媛】
-- 【ATP】支持手工测试用例【李媛媛】
+- 【ATP】ATP测试用例扩充到总数14个
 - 【ATP】ATP任务接口模型变更【李媛媛】
 - 【installation】支持IaaS层按需部署
 - 【installation】【POC】测试数据构造【张阿利】
@@ -81,7 +81,6 @@
 
  **3.3 第三次迭代需求** 
 
-- 【developer】新增获取pod详情接口【李媛媛】
 - 【developer】样例界面开发【李媛媛】
 - 【Developer】在EG平台按需部署设计时，支持对默认组件的配置
 - 【Developer】【POC】Developer support VM app
@@ -104,7 +103,8 @@
 - 【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal
 - 【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现
-- 【ATP】ATP测试用例扩充到总数14个
+- 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
+- 【ATP】支持手工测试用例【李媛媛】
 - 【ATP】ATP应用首页集成个人帐号中心 
 - 【installer】支持用户定制化按需部署
 - 【installer】支持应用按需部署
