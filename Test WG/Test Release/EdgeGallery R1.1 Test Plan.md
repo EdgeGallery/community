@@ -61,8 +61,9 @@
 - 【developer】提升SDK/API可获性与可用性【李媛媛】 --延期
 - 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】
 - 【Appstore】文档界面优化【李治谦】
-- 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】
+- 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--延期
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】
+- 【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】
 - 【MEP】MEP展示服务调用次数统计信息 **预计延迟**【张阿利】
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
