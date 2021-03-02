@@ -46,10 +46,8 @@
 
  **3.2 第二次迭代需求** 
 
-- 【developer】新增获取pod详情接口【李媛媛】
 - 【developer】修改建议，日志下载功能【李媛媛】
 - 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
-- 【developer】样例界面开发【李媛媛】
 - 【Developer】Developer Support Demo APP guidence【李媛媛】
 - 【developer】支持项目管理、支持配置沙箱环境【李媛媛】
 - 【developer】部署结果展示端口、协议等信息【李媛媛】
@@ -83,6 +81,8 @@
 
  **3.3 第三次迭代需求** 
 
+- 【developer】新增获取pod详情接口【李媛媛】
+- 【developer】样例界面开发【李媛媛】
 - 【Developer】在EG平台按需部署设计时，支持对默认组件的配置
 - 【Developer】【POC】Developer support VM app
 - 【Developer】支持容器镜像管理【李治谦】
