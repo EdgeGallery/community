@@ -25,60 +25,60 @@
  **3.1 第一次迭代需求** 
 
 - 【Developer】【POC】搭建设计态前台框架
-- 【Developer】应用包区分ARM，x86【李媛媛】
-- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】
-- 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
-- 【developer】提供应用远程登录如VNC运维能力【李媛媛】
-- 【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】
-- 【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】
-- 【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】
-- 【UserMgmt】 **支持用户通过邮箱登录** 【李治谦】
-- 【Appstore】统一appstore组件风格【张阿利】
-- 【Appstore】应用包区分ARM，x86【张阿利】
-- 【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】
-- 【mep】 **mep url unify** 【张阿利】
-- 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng
+- 【Developer】应用包区分ARM，x86【李媛媛】--done
+- 【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】--done
+- 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done
+- 【developer】提供应用远程登录如VNC运维能力【李媛媛】--ongoing，block issue:I39J1J
+- 【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】--done
+- 【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】--done
+- 【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】--done
+- 【UserMgmt】 **支持用户通过邮箱登录** 【李治谦】--done
+- 【Appstore】统一appstore组件风格【张阿利】--done
+- 【Appstore】应用包区分ARM，x86【张阿利】--ongoing
+- 【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】--done
+- 【mep】 **mep url unify** 【张阿利】--done
+- 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng --ongoing
 - 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
-- 【mecm】Adaptive mep url unify【张阿利】
-- 【mecm】example-apps support demo app service call【张阿利】
-- 【ATP】ATP应用包区分ARM、X86【李媛媛】
-- 【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】
+- 【mecm】Adaptive mep url unify【张阿利】--ongoing(前台接口适配)
+- 【mecm】example-apps support demo app service call【张阿利】--ongoing（前台接口适配）
+- 【ATP】ATP应用包区分ARM、X86【李媛媛】--done
+- 【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】--done
 
 
  **3.2 第二次迭代需求** 
 
 - 【developer】新增获取pod详情接口【李媛媛】 --延期
 - 【Developer】Developer Support Demo APP guidence【李媛媛】 --延期
-- 【developer】修改建议，日志下载功能【李媛媛】
-- 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】
+- 【developer】修改建议，日志下载功能【李媛媛】--done，下载功能取消
+- 【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done
 - 【developer】支持项目管理、支持配置沙箱环境【李媛媛】 --延期
-- 【developer】部署结果展示端口、协议等信息【李媛媛】
+- 【developer】部署结果展示端口、协议等信息【李媛媛】--done
 - 【developer】【POC】在应用设计时，可以通过点击查看组件的基本信息；可以设计服务之间的依赖关系；以通过拖拽的方式进行App设计，并保存设计结果； **支持拖拽的方式进行组件移动** 
 - 【developer】【POC】在EG平台按需部署设计时，支持保存设计结果，支持导出部署脚本
 - 【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】 --延期
-- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】 --遗留
+- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】 --遗留（part1遗留，part2done）
 - 【developer】系统管理面界面开发【李媛媛】 --延期
 - 【developer】支持项目管理、支持能力中心管理【李媛媛】 --延期
 - 【developer】提升SDK/API可获性与可用性【李媛媛】 --延期
-- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】
-- 【Appstore】文档界面优化【李治谦】
+- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--ongoing
+- 【Appstore】文档界面优化【李治谦】--done
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--延期
-- 【AppStore】 **支持应用主动拉取功能** 【张阿利】
-- 【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】
+- 【AppStore】 **支持应用主动拉取功能** 【张阿利】--ongoing
+- 【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】--ongoing
 - 【MEP】MEP展示服务调用次数统计信息 **预计延迟**
 -  **【MEP】subscribe api** 
 -  **【MEP】notify to app when subscibed service status changed** 
-- 【MECM/example-apps】Make example-apps open source【张阿利】
-- 【MECM】Applcm support logs of the app deployment to developer【张阿利】
-- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】
-- 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】
-- 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
-- 【ATP】支持在用户面贡献测试用例【李媛媛】
+- 【MECM/example-apps】Make example-apps open source【张阿利】--延期
+- 【MECM】Applcm support logs of the app deployment to developer【张阿利】--延期，前台尚未适配
+- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】--延期
+- 【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】--延期
+- 【ATP】用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】--done
+- 【ATP】支持在用户面贡献测试用例【李媛媛】--done
 - 【ATP】ATP测试用例扩充到总数14个
-- 【ATP】ATP任务接口模型变更【李媛媛】
-- 【installation】支持IaaS层按需部署
-- 【installation】【POC】测试数据构造【张阿利】
-- 【installation】EG离线部署脚本优化，实现按需部署能力    【侯敏熙】
+- 【ATP】ATP任务接口模型变更【李媛媛】--done
+- 【installation】支持IaaS层按需部署 
+- 【installation】【POC】测试数据构造【张阿利】--延期
+- 【installation】EG离线部署脚本优化，实现按需部署能力【侯敏熙】--延期
 
  **3.3 第三次迭代需求** 
 
