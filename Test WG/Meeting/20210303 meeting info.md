@@ -26,8 +26,7 @@
 
 Review test results for R1.1-First Iteration/Sprint.
 
-【2月份至3月2日早，提交的bug85个，4个取消，25个完成；16个安全相关】
-
+【2月份至3月3日早，提交的bug99个，5个取消，26个完成；21个安全相关】
 
 2.R1.1 第二次迭代需求分工、澄清及交付情况 --owner all
 
