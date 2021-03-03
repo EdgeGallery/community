@@ -95,13 +95,13 @@
 - 【MEP】MEP拓扑展示订阅关系及订阅应用和被订阅应用数量
 - 【MEP】MEP支持服务管理架构可视化
 - 【MEP】MEP页面与MECM自治Portal完成集成
-- 【Appstore】reconstuct the application details page
-- 【AppStore】【POC】Appstore support VM based app
-- 【AppStore】【POC】APPD转换器
-- 【AppStore】AppStore应用首页集成个人帐号中心
-- 【MECM】【POC】Applcm support VM based app.
-- 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.
-- 【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal
+- 【Appstore】reconstuct the application details page【张阿利】
+- 【AppStore】【POC】Appstore support VM based app【张阿利】
+- 【AppStore】【POC】APPD转换器【张阿利】
+- 【AppStore】AppStore应用首页集成个人帐号中心【张阿利】
+- 【MECM】【POC】Applcm support VM based app.【张阿利】
+- 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.【张阿利】
+- 【Mecm】Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal【张阿利】
 - 【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】
 - 【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现
 - 【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）【李媛媛】
