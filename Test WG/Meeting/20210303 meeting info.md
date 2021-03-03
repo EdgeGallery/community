@@ -35,6 +35,8 @@ Review requirement clarification and delivery for R1.1 sprint2
 3.R1.1测试用例情况审视 --owner all
 
 Review test cases for R1.1 --owner all
+自动化测试用例：自动化用例尚未更新，等测试结束更新自动化测试用例。
+手工测试用例：用例写到迭代二
 
 ## meeting link
 https://welink-meeting.zoom.us/j/939332714
@@ -47,4 +49,6 @@ https://welink-meeting.zoom.us/j/939332714
 
 1、1月份提的体验相关问题单，有修复完成的，回归后可关闭的尽快关闭；对于尚未修复的，在TSC会议上提一下，让PTL或相关人员合理安排处理-owner liuhui
 
-2、developer很多研发需求延期；当前投入第三次迭代的vm支持需求的人力较多，如确需调整story优先级，需在gitee尽快调整；
+2、developer很多研发需求延期；当前投入第三次迭代的vm支持需求的人力较多，如确需调整story优先级，需在gitee尽快调整；-owner liuhui
+
+3、用户体验问题；--owner liuhui
