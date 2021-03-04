@@ -124,7 +124,7 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】支持配置沙箱环境](https://gitee.com/OSDT/dashboard?issue_id=I2EDO1)|未完成|-|-|-|-|
 | [【developer】支持项目管理](https://gitee.com/OSDT/dashboard?issue_id=I2EDNY)|未完成|-|-|-|-|
 | [【developer】系统管理面界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDNR)|未完成|-|-|-|-|
-| [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 未开始 |
+| [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 待sprint3完成上传功能后测试 |
 | [【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I2EC2R) |已完成| - | - | - | - |
 | [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard?issue_id=I2E9LG) |未完成| 1.6, 1.8, 1.10, 1.14, 1.15 | 未开始 | 007 | 未开始 |
 | [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 未开始 | 任意用户注册 | 未开始 |
@@ -133,7 +133,7 @@ The test scope is divided according to stories, the development status is divide
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) |          | 1.2 | 未开始 | 007 | 未开始 |
 | [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3T8) |已完成| -| -| -| -|
 | [【Appstore】文档界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1TG) |未完成| - | - | - | - |
-| [【AppStore】支持应用主动拉取功能](https://gitee.com/OSDT/dashboard?issue_id=I2E10V) |已完成| 1.1 1.2 | 测试中 | 007 | 测试中 |
+| [【AppStore】支持应用主动拉取功能](https://gitee.com/OSDT/dashboard?issue_id=I2E10V) |已完成| 1.1 1.2 | 测试完毕，通过 | 007 | 测试完毕，通过 |
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) |未完成 | - | - | - | - |
 
 
