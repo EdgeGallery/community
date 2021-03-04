@@ -26,6 +26,7 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 | Bhanu Soni | bhanu.soni@huawei.com | Huawei |
 | Satish Karunanithi | satishk@huawei.com | Huawei |
 | Swarup Nayak | swarup.nayak1@huawei.com | Huawei |
+| 周文敬 | zhouwenjing@huawei.com | Huawei |
 
 ## Useful Info 有用信息
 
