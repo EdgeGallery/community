@@ -324,7 +324,16 @@ Method: POST
 (1)控制已停用的用户不允许登录
 (2)支持通过邮箱地址登录
 
-##### 5、Website-Gateway模块的接口：获取当前登录用户信息
+##### 6、修改密码（个人修改密码 & 找回密码）
+```
+Resource URI: /v1/users/password
+Method: POST
+```
+主要修改点：
+(1)扩充支持按照原密码验证方式修改密码
+(2)密码找回方式支持通过邮箱找回
+
+##### 7、Website-Gateway模块的接口：获取当前登录用户信息
 ```
 Resource URI: /auth/login-info
 Method: GET
