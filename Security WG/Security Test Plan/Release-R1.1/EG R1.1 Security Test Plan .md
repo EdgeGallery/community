@@ -55,8 +55,6 @@ The 1.1 version starts detailed design and coding from 1.30 as a whole, and is p
 
 ​    ATP (ComplianceTest/PenetrationTest)
 
-4.2 Satish：
-
 ​    MECM (ComplianceTest/PenetrationTest)
 
 ​    MEP (ComplianceTest/PenetrationTest)
@@ -71,7 +69,7 @@ The test scope is divided according to stories, the development status is divide
 ##### 5.1  Sprint 1:
 
 
-| Story                                                        | 开 发 状 态 |                        关联合规用例                         | 合规测试状态 | 关联渗透用例 | 渗透测试状态 |
+| Story                                                        | 开  发  状  态 |                        关联合规用例                         | 合规测试状态 | 关联渗透用例 | 渗透测试状态 |
 | --------   | :----:  | :----: | :----: |  :----: | :----:  |
 | [【developer】支持国际化](https://gitee.com/OSDT/dashboard?issue_id=I37RKA)|已完成|-|-|-|[I38KCS](https://gitee.com/OSDT/dashboard?issue_id=I38KCS)不通过|
 | [【MECM】example-apps support demo app service call.     ](https://gitee.com/OSDT/dashboard?issue_id=I2P8CH) |未完成| - | - | - | - |
@@ -79,7 +77,7 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】可视化界面设计和开发（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT9) | 未完成 | - | - | - | - |
 | [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) | 未完成 | - | - | 007 | sprint1编码未完成，移至sprint2测试 |
 | [【developer】mep SDK的验证和使用 python](https://gitee.com/OSDT/dashboard?issue_id=I2EDQV) | | - | - | - | - |
-| [【developer】vnc接口实现](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ9) |  已完成 | 2.1 | 测试完毕，通过 | 007 | [I39EDO](https://gitee.com/OSDT/dashboard?issue_id=I39EDO)，[I39L4X](https://gitee.com/OSDT/dashboard?issue_id=I39L4X)不通过 |
+| [【developer】vnc接口实现](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ9) |  已完成 | 2.1 | 测试完毕，通过 | 007 | [I39EDO](https://gitee.com/OSDT/dashboard?issue_id=I39EDO)，[I39L4X](https://gitee.com/OSDT/dashboard?issue_id=I39L4X), [I39QF7](https://gitee.com/OSDT/dashboard?issue_id=I39QF7)不通过 |
 | [【developer】vnc界面设计和开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDQ5) |  已完成   | 2.1 | 测试完毕，通过 | - | - |
 | [【developer】developer部署失败，返回详细的错误信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDP0) |未完成 | - | - | - | - |
 | [ATP管理面portal优化](https://gitee.com/OSDT/dashboard?issue_id=I2EC3E) |  已完成 | 1.1, 1.2, 1.3, 1.12, 2.2, 5.3, 7.2, 7.9, 8.1, 9.1, 9.2, 9.4 | 测试完毕,[I38AAW](https://gitee.com/OSDT/dashboard?issue_id=I38AAW)不通过 | 007， 015 | 未开始，待分权功能完成后测试 |
@@ -125,13 +123,13 @@ The test scope is divided according to stories, the development status is divide
 | [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 待sprint3完成上传功能后测试 |
 | [【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I2EC2R) |已完成| - | - | - | - |
 | [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard?issue_id=I2E9LG) |已完成| 1.6, 1.8, 1.10, 1.14, 1.15 | 测试中 | 007 | 测试中 |
-| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试中 | 任意用户注册，邮件轰炸 | 测试中 |
+| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试中 | 任意用户注册，邮件轰炸 | 测试中,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), [I3A7CJ](https://gitee.com/OSDT/dashboard?issue_id=I3A7CJ)不通过 |
 | [【MEP】notify  to app when subscibed service status changed](https://gitee.com/OSDT/dashboard?issue_id=I2E83K) |已完成| - | - | - | - |
 | [【MEP】subscribe api     ](https://gitee.com/OSDT/dashboard?issue_id=I2E835) |已完成| - | - | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7)|未完成|1.2|未开始|007|未开始|
 | [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3T8) |未完成| -| -| -| -|
 | [【Appstore】文档界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1TG) |已完成| - | - | - | - |
-| [【AppStore】支持应用主动拉取功能](https://gitee.com/OSDT/dashboard?issue_id=I2E10V) |已完成| 1.1 1.2 | 测试完毕，通过 | 007 | 测试完毕，通过 |
+| [【AppStore】支持应用主动拉取功能](https://gitee.com/OSDT/dashboard?issue_id=I2E10V) |已完成| 1.1 1.2 | 测试完毕，通过 | 007 | 测试完毕，[I3A4LI](https://gitee.com/OSDT/dashboard?issue_id=I3A4LI), [I39SBF](https://gitee.com/OSDT/dashboard?issue_id=I39SBF)不通过 |
 | [【installer】支持IaaS层按需部署（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E0NU) |未完成 | - | - | - | - |
 
 
@@ -171,7 +169,7 @@ The test scope is divided according to stories, the development status is divide
 | [【Mecm】Mecm应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard?issue_id=I2E9M3) |          | 1.6, 1.15 | 未开始 | 007 | 未开始 |
 | [【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |已完成| 1.2 | 测试完毕，通过 | 007 | 测试完毕，通过 |
 | [【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3V8) |          | 1.1, 1.3, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1, 9.1, 9.2, 9.4 | 未开始 | - | - |
-| [【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SE)|未完成|1.2|测试中|007|测试中|
+| [【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SE)|未完成|1.2|测试中,[I2E6SE](https://gitee.com/OSDT/dashboard?issue_id=I2E6SE)不通过|007|测试中,[I3A0WP](https://gitee.com/OSDT/dashboard?issue_id=I3A0WP)不通过|
 | [【developer】支持项目管理](https://gitee.com/OSDT/dashboard?issue_id=I2EDNY)|本版本已取消|-|-|-|-|
 | [【developer】新增获取pod详情接口](https://gitee.com/OSDT/dashboard?issue_id=I2EDP2)|未完成|1.1|未开始|-|-|
 | [【Developer】Developer Support Demo APP guidence（sprint2，sprint3）](https://gitee.com/OSDT/dashboard?issue_id=I2P8C2) |未完成| - | - | - | - |
