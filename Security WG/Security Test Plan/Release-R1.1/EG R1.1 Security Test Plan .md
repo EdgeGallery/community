@@ -123,7 +123,7 @@ The test scope is divided according to stories, the development status is divide
 | [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 待sprint3完成上传功能后测试 |
 | [【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I2EC2R) |已完成| - | - | - | - |
 | [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard?issue_id=I2E9LG) |已完成| 1.6, 1.8, 1.10, 1.14, 1.15 | 测试完毕，通过 | 007，邮件轰炸 | 测试完毕，[I3A7CJ](https://gitee.com/OSDT/dashboard?issue_id=I3A7CJ)不通过 |
-| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试完毕，通过 | 任意用户注册，邮件轰炸 | 测试中,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), 不通过 |
+| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试完毕，通过 | 任意用户注册，邮件轰炸 | 测试完毕,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), 不通过 |
 | [【MEP】notify  to app when subscibed service status changed](https://gitee.com/OSDT/dashboard?issue_id=I2E83K) |已完成| - | - | - | - |
 | [【MEP】subscribe api     ](https://gitee.com/OSDT/dashboard?issue_id=I2E835) |已完成| - | - | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7)|未完成|1.2|未开始|007|未开始|
