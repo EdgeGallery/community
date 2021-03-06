@@ -112,7 +112,7 @@ The test scope is divided according to stories, the development status is divide
 | [【MECM/example-apps】Make  example-apps open source](https://gitee.com/OSDT/dashboard?issue_id=I2P8VJ) | 已完成 | - | - | - | - |
 | [【UserMgmt】支持用户通过邮箱地址登录](https://gitee.com/OSDT/dashboard?issue_id=I2P8LC)|已完成|-|-|-|-|
 | [【Developer】Developer Support Demo APP guidence（sprint2，sprint3）](https://gitee.com/OSDT/dashboard?issue_id=I2P8C2) |未完成，延期至sprint3| - | - | - | - |
-| [【ATP】ATP测试用例扩充到总数14个](https://gitee.com/OSDT/dashboard?issue_id=I2NU9C) |已完成 | - | - | - | [I39NCD](https://gitee.com/OSDT/dashboard?issue_id=I39NCD)不通过 |
+| [【ATP】ATP测试用例扩充到总数14个](https://gitee.com/OSDT/dashboard?issue_id=I2NU9C) |已完成 | - | - | 信息收集 | [I39NCD](https://gitee.com/OSDT/dashboard?issue_id=I39NCD)不通过 |
 | [【developer】可视化界面设计和开发（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT9) | 已完成 | - | - | - | - |
 | [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) |已完成 | 1.1 | 测试完毕，通过 | - | - |
 | [【developer】样例界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDSG) |已完成| - | - | - | - |
