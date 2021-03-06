@@ -114,7 +114,7 @@ The test scope is divided according to stories, the development status is divide
 | [【Developer】Developer Support Demo APP guidence（sprint2，sprint3）](https://gitee.com/OSDT/dashboard?issue_id=I2P8C2) |未完成，延期至sprint3| - | - | - | - |
 | [【ATP】ATP测试用例扩充到总数14个](https://gitee.com/OSDT/dashboard?issue_id=I2NU9C) |已完成 | - | - | - | [I39NCD](https://gitee.com/OSDT/dashboard?issue_id=I39NCD)不通过 |
 | [【developer】可视化界面设计和开发（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT9) | 已完成 | - | - | - | - |
-| [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) |已完成 | 1.1 | 测试中 | - | - |
+| [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) |已完成 | 1.1 | 测试完毕，通过 | - | - |
 | [【developer】样例界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDSG) |已完成| - | - | - | - |
 | [【developer】部署结果展示端口、协议等信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDPL) |已完成 | - | - | - | - |
 | [【developer】支持能力中心管理](https://gitee.com/OSDT/dashboard?issue_id=I2EDOC)|已完成|developer分权的子任务，一并测试|-|-|-|
@@ -122,8 +122,8 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】系统管理面界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDNR)|已完成|developer分权的子任务，一并测试|-|-|-|
 | [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 待sprint3完成上传功能后测试 |
 | [【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I2EC2R) |已完成| - | - | - | - |
-| [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard?issue_id=I2E9LG) |已完成| 1.6, 1.8, 1.10, 1.14, 1.15 | 测试中 | 007 | 测试中 |
-| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试中 | 任意用户注册，邮件轰炸 | 测试中,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), [I3A7CJ](https://gitee.com/OSDT/dashboard?issue_id=I3A7CJ)不通过 |
+| [【UserMgmt】支持用户忘记密码后通过邮箱找回](https://gitee.com/OSDT/dashboard?issue_id=I2E9LG) |已完成| 1.6, 1.8, 1.10, 1.14, 1.15 | 测试完毕，通过 | 007，邮件轰炸 | 测试完毕，[I3A7CJ](https://gitee.com/OSDT/dashboard?issue_id=I3A7CJ)不通过 |
+| [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试完毕，通过 | 任意用户注册，邮件轰炸 | 测试中,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), 不通过 |
 | [【MEP】notify  to app when subscibed service status changed](https://gitee.com/OSDT/dashboard?issue_id=I2E83K) |已完成| - | - | - | - |
 | [【MEP】subscribe api     ](https://gitee.com/OSDT/dashboard?issue_id=I2E835) |已完成| - | - | - | - |
 | [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7)|未完成|1.2|未开始|007|未开始|
