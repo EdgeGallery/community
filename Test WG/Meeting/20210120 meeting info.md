@@ -24,7 +24,7 @@
 
 1.测试指标分享--owner Yuyang
 
-Share test items/indices. --owner Yuyang
+Share test items/metrics. --owner Yuyang
 
 
 2.review test report for R1.1--owner all
