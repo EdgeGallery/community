@@ -126,7 +126,7 @@ The test scope is divided according to stories, the development status is divide
 | [【UserMgmt】支持用户通过邮箱注册](https://gitee.com/OSDT/dashboard?issue_id=I2E9LE) |已完成| 1.6, 1.10, 1.14, 1.15 | 测试完毕，通过 | 任意用户注册，邮件轰炸 | 测试完毕,[I3A8BQ](https://gitee.com/OSDT/dashboard?issue_id=I3A8BQ), 不通过 |
 | [【MEP】notify  to app when subscibed service status changed](https://gitee.com/OSDT/dashboard?issue_id=I2E83K) |已完成| - | - | - | - |
 | [【MEP】subscribe api     ](https://gitee.com/OSDT/dashboard?issue_id=I2E835) |已完成| - | - | - | - |
-| [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7)|未完成|1.2|未开始|007|未开始|
+| [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7)|已完成|1.2|测试中|007|测试中|
 | [【AppStore】支持容器镜像管理 Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3T8) |未完成| -| -| -| -|
 | [【Appstore】文档界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1TG) |已完成| - | - | - | - |
 | [【AppStore】支持应用主动拉取功能](https://gitee.com/OSDT/dashboard?issue_id=I2E10V) |已完成| 1.1 1.2 | 测试完毕，通过 | 007 | 测试完毕，[I3A4LI](https://gitee.com/OSDT/dashboard?issue_id=I3A4LI), [I39SBF](https://gitee.com/OSDT/dashboard?issue_id=I39SBF)不通过 |
