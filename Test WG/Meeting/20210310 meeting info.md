@@ -31,7 +31,7 @@ Review test results for R1.1-Second Iteration/Sprint.
 
 2.R1.1版第三次迭代测试需求澄清及开发进展 --owner all
 
-Clarify test requirement for R1.1-3rd Sprint --owner all
+Review requirement clarification and delivery for R1.1 sprint3 --owner all
 
 3.R1.1测试用例情况审视 --owner all
 
