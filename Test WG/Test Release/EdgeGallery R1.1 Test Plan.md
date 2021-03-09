@@ -60,7 +60,7 @@
 - 【developer】系统管理面界面开发【李媛媛】 --延期
 - 【developer】支持项目管理、支持能力中心管理【李媛媛】 --延期
 - 【developer】提升SDK/API可获性与可用性【李媛媛】 --延期
-- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--ongoing
+- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--done
 - 【Appstore】文档界面优化【李治谦】--done
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--延期
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】--ongoing
