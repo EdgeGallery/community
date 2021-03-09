@@ -7,7 +7,14 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- TBA
+- 刘辉（紫金山)
+- 陈共龙（腾讯）
+- 游永明（广州申迪）
+- 余宇清（移动）
+- 张海龙
+- 鹿鑫
+- L
+- 陈传雨
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
