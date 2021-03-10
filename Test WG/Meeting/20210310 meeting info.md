@@ -33,6 +33,8 @@ Review test results for R1.1-Second Iteration/Sprint.
 
 Review requirement clarification and delivery for R1.1 sprint3 --owner all
 
+【倍源/传雨：VM交付有风险；其他功能正常交付】
+
 3.R1.1测试用例情况审视 --owner all
 
 Review test cases for R1.1 --owner all
