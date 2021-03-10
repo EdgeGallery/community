@@ -49,7 +49,7 @@
 
 - 【developer】新增获取pod详情接口【李媛媛】 --延期
 -  **【Developer】Developer Support Demo APP guidence【李媛媛】**  
-- 【developer】修改建议，日志下载功能【李媛媛】--done，下载功能取消
+-  **【developer】修改建议，日志下载功能【李媛媛】--done，下载功能取消** 
 -  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
 -  **【developer】支持项目管理、支持配置沙箱环境【李媛媛】**  
 -  **【developer】部署结果展示端口、协议等信息【李媛媛】--done** 
@@ -60,8 +60,8 @@
 -  **【developer】系统管理面界面开发【李媛媛】**  
 -  **【developer】支持项目管理、支持能力中心管理【李媛媛】** 
 -  **【developer】提升SDK/API可获性与可用性【李媛媛】**  
-- 【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--done
-- 【Appstore】文档界面优化【李治谦】--done
+-  **【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--done** 
+-  **【Appstore】文档界面优化【李治谦】--done** 
 - 【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--延期
 - 【AppStore】 **支持应用主动拉取功能** 【张阿利】
 - 【AppStore】 **AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】** 
