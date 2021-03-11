@@ -55,7 +55,7 @@ https://welink-meeting.zoom.us/j/498137261
 2、developer很多研发需求延期；当前投入第三次迭代的vm支持需求的人力较多，如确需调整story优先级，需在gitee尽快调整；-owner liuhui
 
 3、用户体验问题；--owner liuhui 
-需要找caishuhao@huawei.com
+需要找caishuhao@huawei.com 蔡舒豪
 4、 不跟版本走的功能，AI能力手动集成
 cuijianwei123@huawei.com
-崔建伟 00471254
+崔建伟
