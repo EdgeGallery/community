@@ -117,8 +117,8 @@ The test scope is divided according to stories, the development status is divide
 | [【developer】支持部署文件可视化配置（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2EDT4) |已完成 | 1.1 | 测试完毕，通过 | - | - |
 | [【developer】样例界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDSG) |已完成| - | - | - | - |
 | [【developer】部署结果展示端口、协议等信息](https://gitee.com/OSDT/dashboard?issue_id=I2EDPL) |已完成 | - | - | - | - |
-| [【developer】支持能力中心管理](https://gitee.com/OSDT/dashboard?issue_id=I2EDOC)|已完成|developer分权的子任务，一并测试|-|005|测试完毕，通过|
-| [【developer】支持配置沙箱环境](https://gitee.com/OSDT/dashboard?issue_id=I2EDO1)|已完成|developer分权的子任务，一并测试|-|005|测试完毕，通过|
+| [【developer】支持能力中心管理](https://gitee.com/OSDT/dashboard?issue_id=I2EDOC)|已完成|1.3|测试完毕，[I3B49X](https://gitee.com/OSDT/dashboard?issue_id=I3B49X)不通过|005，信息泄露|测试完毕，[I3B4JR](https://gitee.com/OSDT/dashboard?issue_id=I3B4JR)不通过|
+| [【developer】支持配置沙箱环境](https://gitee.com/OSDT/dashboard?issue_id=I2EDO1)|已完成|1.3|测试完毕，[I3B49X](https://gitee.com/OSDT/dashboard?issue_id=I3B49X)不通过|005，信息泄露|测试完毕，[I3B4JR](https://gitee.com/OSDT/dashboard?issue_id=I3B4JR)不通过|
 | [【developer】系统管理面界面开发](https://gitee.com/OSDT/dashboard?issue_id=I2EDNR)|已完成|developer分权的子任务，一并测试|-|-|-|
 | [【ATP】支持在用户面贡献测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC4R) | 已完成| - | - | 011 | 待sprint3完成上传功能后测试 |
 | [【ATP】引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I2EC2R) |已完成| - | - | 逻辑漏洞 | 测试完毕，[I3ABAL](https://gitee.com/OSDT/dashboard?issue_id=I3ABAL)不通过 |
