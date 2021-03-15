@@ -139,7 +139,7 @@ The test scope is divided according to stories, the development status is divide
 
 | Story        | 开 发 状 态   | 关联合规用例 |  合规测试状态  | 关联渗透用例  | 渗透测试状态 |
 | --------   | -----:  | :----: | :----:  | :----:  | :----:  |
-| [【AppStore】首页优化](https://gitee.com/OSDT/dashboard?issue_id=I39OZT)|已完成|-|-|-|-|
+| [【AppStore】首页优化](https://gitee.com/OSDT/dashboard?issue_id=I39OZT)|已完成|-|-|004|测试完毕，通过|
 | [【AppStore】消息中心界面优化](https://gitee.com/OSDT/dashboard?issue_id=I39OZR)|已完成|-|-|-|-|
 | [【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I391V6)|未完成|-|-|-|-|
 | [对接Dev设计的CSAR包，自动生成设计结果](https://gitee.com/OSDT/dashboard?issue_id=I34K3X) |未完成| - | - | - | - |
