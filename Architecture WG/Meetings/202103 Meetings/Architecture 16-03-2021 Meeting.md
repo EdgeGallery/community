@@ -16,7 +16,8 @@
 |  1.2 版本需求讨论 |  | All |
 
 
-
+## Etherpad Link
+http://etherpad.edgegallery.org/p/Architecture_Meeting_%2329
 
 ## Meeting Records
 - Video Recording
