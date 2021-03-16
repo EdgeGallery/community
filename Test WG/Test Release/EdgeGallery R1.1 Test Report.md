@@ -14,9 +14,9 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 
 1.Release V1.1需求
 
-[R1.1 EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&milestone_id=92309)
-[R1.1 Story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&milestone_id=92309)
-[R1.1需求文档](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.1)
+- [R1.1 EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&milestone_id=92309)
+- [R1.1 Story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&milestone_id=92309)
+- [R1.1需求文档](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.1)
 
 2.[Release V1.1测试计划（含版本质量指标）](https://gitee.com/edgegallery/community/blob/master/Test%20WG/Test%20Release/EdgeGallery%20R1.1%20Test%20Plan.md)
 
