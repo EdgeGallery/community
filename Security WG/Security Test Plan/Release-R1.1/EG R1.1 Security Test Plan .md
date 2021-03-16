@@ -171,7 +171,7 @@ The test scope is divided according to stories, the development status is divide
 | [【UserMgmt】用户个人帐号中心支持修改个人信息](https://gitee.com/OSDT/dashboard?issue_id=I2E9LL) |未完成| 1.6, 1.15 | 未开始 | 007 | 未开始 |
 | [【UserMgmt】支持通过用户个人帐号中心查看个人信息](https://gitee.com/OSDT/dashboard?issue_id=I2E9LK) |未完成| 1.6, 1.15 | 未开始 | 007 | 未开始 |
 | [【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SS) |已完成| 1.2 | 测试完毕，通过 | 007 | 测试完毕，通过 |
-| [【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SQ) |未完成| 1.2 | 未开始 | 007 | 未开始 |
+| [【ATP】ATP应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SQ) |已完成| 1.2 | 测试完毕，通过 | 007 | 测试完毕，[I3BJ4L](https://gitee.com/OSDT/dashboard?issue_id=I3BJ4L)不通过 |
 | [【AppStore】AppStore应用支持分权控制，区分不同角色进行差异化功能展现](https://gitee.com/OSDT/dashboard?issue_id=I2E6SE)|已完成|1.2|测试中,[I2E6SE](https://gitee.com/OSDT/dashboard?issue_id=I2E6SE)不通过|007|测试中,[I3A0WP](https://gitee.com/OSDT/dashboard?issue_id=I3A0WP)不通过|
 | [【MECM】支持容器镜像管理Support Container Image Manage](https://gitee.com/OSDT/dashboard?issue_id=I2E3V8) |未完成| 1.1, 1.3, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1, 9.1, 9.2, 9.4 | 未开始 | - | - |
 | [【Developer】支持容器镜像管理](https://gitee.com/OSDT/dashboard?issue_id=I2E3SL)|未完成|-|-|-|-|
