@@ -1,0 +1,44 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: etherpad
+  namespace: default
+  labels:
+    app: etherpad
+spec:
+  selector:
+    matchLabels:
+      app: etherpad
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: etherpad
+    spec:
+      containers:
+        - name: etherpad
+          image: etherpad/etherpad:latest 
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9001
+            - containerPort: 8443		  
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: etherpad-svc
+  namespace: default
+  labels:
+    svc: etherpad-svc
+spec:
+  type: NodePort
+  ports:
+    - port: 9001
+      name: function
+      targetPort: 9001
+      protocol: TCP
+      nodePort: 32391
+  selector:
+    app: etherpad
+

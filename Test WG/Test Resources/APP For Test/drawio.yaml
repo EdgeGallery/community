@@ -1,0 +1,66 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: drawio
+  namespace: default
+  labels:
+    app: drawio
+spec:
+  selector:
+    matchLabels:
+      app: drawio
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: drawio
+    spec:
+      containers:
+        - name: drawio
+          image: fjudith/draw.io:latest 
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+            - containerPort: 8443
+          env:
+            - name: PUBLIC_DNS
+              value: domain
+            - name: ORGANISATION_UNIT
+              value: unit
+            - name: ORGANISATION
+              value: org
+            - name: CITY
+              value: city
+            - name: STATE
+              value: state
+            - name: COUNTRY_CODE
+              value: country
+            - name: DRAWIO_GITLAB_URL
+              value: http://mygitlab.net
+            - name: DRAWIO_GITLAB_ID
+              value: change_to_your_app_id			  
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: drawio-svc
+  namespace: default
+  labels:
+    svc: drawio-svc
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      name: function
+      targetPort: 8080
+      protocol: TCP
+      nodePort: 32480
+    - port: 8443
+      name: function1
+      targetPort: 8443
+      protocol: TCP
+      nodePort: 32483
+  selector:
+    app: drawio
+
