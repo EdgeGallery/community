@@ -17,7 +17,7 @@
 
 
 ## Etherpad Link
-http://etherpad.edgegallery.org/p/Architecture_Meeting_%2329
+http://etherpad.edgegallery.org/p/Architecture_Meeting_%2330
 
 ## Meeting Records
 - Video Recording
