@@ -35,10 +35,16 @@ Review test results for R1.1-Third Iteration/Sprint (including code coverage).--
 
 【3月17日：阻塞问题：应用不能发布；vm特性争取本周交付；mecm分发失败】
 
+【review 尚未关闭的R1.1 story】
+【应用按需部署、按定制化部署、支持IaaS层按需部署三个story已关闭；架构组后期讨论】
+【vm支持需要进一步测试；是否支持从公网镜像库拉取镜像，需要tsc、架构组确定】
+【样例app尚有问题需要解决，已反馈研发】
 
 2.R1.1测试用例&测试报告草稿审视 --owner all
 
 Review test cases & test report (draft) for R1.1 --owner all
+
+【需补充完善测试用例、测试报告】
 
 ## meeting link
 https://welink-meeting.zoom.us/j/953465314
