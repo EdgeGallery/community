@@ -86,7 +86,7 @@ The test scope is divided according to stories, the development status is divide
 | [【UserMgmt】用户统一管理功能支持对用户停用/启用](https://gitee.com/OSDT/dashboard?issue_id=I2E9MB) | 已完成| 1.2, 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 007 | 测试完毕，通过 |
 | [【UserMgmt】支持用户统一管理基本查询展示功能](https://gitee.com/OSDT/dashboard?issue_id=I2E9M8) | 已完成| 1.6, 1.15, 8.1 | 测试完毕,[I38BIZ](https://gitee.com/OSDT/dashboard?issue_id=I38BIZ)不通过 | 005 | 测试完毕，[I38RU2](https://gitee.com/OSDT/dashboard?issue_id=I38RU2), [I38RL7](https://gitee.com/OSDT/dashboard?issue_id=I38RL7)不通过 |
 | [【MEP】mep url unify](https://gitee.com/OSDT/dashboard?issue_id=I2E8D5) | 已完成| 8.1 | [I391DX](https://gitee.com/OSDT/dashboard?issue_id=I391DX)不通过 | - | - |
-| [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) | 未完成| 1.2 | 未开始 | 007 | 未开始 |
+| [【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现（sprint1, sprint2）](https://gitee.com/OSDT/dashboard?issue_id=I2E6S7) | 未完成| 1.2 | 测试完毕，通过 | 007 | 测试完毕，通过 |
 | [【Appstore】应用共享界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1U4) |已完成 | - | - | - | - |
 | [【Appstore】应用仓库界面优化](https://gitee.com/OSDT/dashboard?issue_id=I2E1T5) | 已完成| - | - | - | - |
 | [【installer】支持PaaS层按需部署](https://gitee.com/OSDT/dashboard?issue_id=I2E0SI) | 未完成| - | - | - | - |
@@ -143,25 +143,25 @@ The test scope is divided according to stories, the development status is divide
 | [【AppStore】消息中心界面优化](https://gitee.com/OSDT/dashboard?issue_id=I39OZR)|已完成|-|-|-|-|
 | [【ATP】管理面引入Test Scenario,Test Suite, Test Case三层模型概念](https://gitee.com/OSDT/dashboard?issue_id=I391V6)|已完成|-|-|-|-|
 | [对接Dev设计的CSAR包，自动生成设计结果](https://gitee.com/OSDT/dashboard?issue_id=I34K3X) |未完成| - | - | - | - |
-| [【MECM】Applcm support logs of the app deployment to developer](https://gitee.com/OSDT/dashboard?issue_id=I2P8KM) | 已完成 | 1.1, 1.3, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 未开始 | - | - |
+| [【MECM】Applcm support logs of the app deployment to developer](https://gitee.com/OSDT/dashboard?issue_id=I2P8KM) | 已完成 | 1.1, 1.3, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 测试中 | - | - |
 | [【Developer】Developer Support Demo APP guidence（sprint2，sprint3）](https://gitee.com/OSDT/dashboard?issue_id=I2P8C2) |已完成| - | - | - | - |
 | [【MECM】MECM Edge Portal integrate with MEP portal. ](https://gitee.com/OSDT/dashboard?issue_id=I2P7T7) | 已完成| - | - | - | - |
-| [【MECM】MECM APPO/Inventory support synchronize data from edge.](https://gitee.com/OSDT/dashboard?issue_id=I2P7RL) |已完成| 1.1, 1.3, 1.5, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 未开始 | - | - |
+| [【MECM】MECM APPO/Inventory support synchronize data from edge.](https://gitee.com/OSDT/dashboard?issue_id=I2P7RL) |已完成| 1.1, 1.3, 1.5, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 测试中 | - | - |
 | [【developer】支持在ATP测试时，将镜像包传递给atp。](https://gitee.com/OSDT/dashboard?issue_id=I2MALE) |已完成| - | - | - | - |
 | [【developer】支持在发布到AppStore时，将应用镜像信息传递给appstore。](https://gitee.com/OSDT/dashboard?issue_id=I2MALB) |已完成| - | - | - | - |
 | [【developer】支持本地上传镜像接口](https://gitee.com/OSDT/dashboard?issue_id=I2MAL7)|已完成|-|-|-|-|
 | [【developer】CSAR包支持配置镜像信息](https://gitee.com/OSDT/dashboard?issue_id=I2MAL4)|已完成|-|-|-|-|
-| [【MEP】MEP展示服务调用次数统计信息](https://gitee.com/OSDT/dashboard?issue_id=I2M74K) |已完成| 1.1, 2.2, 9.2 | 未开始 | - | - |
-| [【MEP】MEP拓扑展示订阅关系及订阅应用和被订阅应用数量](https://gitee.com/OSDT/dashboard?issue_id=I2M74E) |已完成| 1.1, 2.2, 9.2 | 未开始 | - | - |
-| [【MEP】MEP页面与MECM自治Portal完成集成](https://gitee.com/OSDT/dashboard?issue_id=I2M743) |已完成| 1.1, 2.2, 9.2 | 未开始 | - | - |
+| [【MEP】MEP展示服务调用次数统计信息](https://gitee.com/OSDT/dashboard?issue_id=I2M74K) |已完成| 1.1, 2.2, 9.2 | 测试中 | - | - |
+| [【MEP】MEP拓扑展示订阅关系及订阅应用和被订阅应用数量](https://gitee.com/OSDT/dashboard?issue_id=I2M74E) |已完成| 1.1, 2.2, 9.2 | 测试中 | - | - |
+| [【MEP】MEP页面与MECM自治Portal完成集成](https://gitee.com/OSDT/dashboard?issue_id=I2M743) |已完成| 1.1, 2.2, 9.2 | 测试中 | - | - |
 | [【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源](https://gitee.com/OSDT/dashboard?issue_id=I2EEAU) |已完成 | - | - | - | - |
 | [【developer】样例界面开发（sprint2，sprint3）](https://gitee.com/OSDT/dashboard?issue_id=I2EDSG) |已完成| - | - | - | - |
 | [【developer】mep face recognition SDK的验证和使用 java](https://gitee.com/OSDT/dashboard?issue_id=I2EDRU) | 已完成| - | - | - | - |
 | [【developer】新增获取pod详情接口](https://gitee.com/OSDT/dashboard?issue_id=I2EDP2)|已完成|1.1|测试完毕，通过|-|-|
 | [【ATP】支持手工测试用例](https://gitee.com/OSDT/dashboard?issue_id=I2EC5P) |已完成| - | - | - | - |
 | [【ATP】ATP优化问题单（用例下载，测试报告下载格式修改）](https://gitee.com/OSDT/dashboard?issue_id=I2EC47) |已完成 | - | - | - | - |
-| [【MEP】MEP支持服务管理架构可视化](https://gitee.com/OSDT/dashboard?issue_id=I2EB85) |已完成| 1.1, 2.2, 9.2 | 未开始 | - | - |
-| [【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard?issue_id=I2EB7C) |已完成| 1.1, 1.3, 1.5, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 未开始 | 007 | 未开始 |
+| [【MEP】MEP支持服务管理架构可视化](https://gitee.com/OSDT/dashboard?issue_id=I2EB85) |已完成| 1.1, 2.2, 9.2 | 测试中 | - | - |
+| [【MECM】MECM 支持本地边缘自治 Edge Autonomous](https://gitee.com/OSDT/dashboard?issue_id=I2EB7C) |已完成| 1.1, 1.3, 1.5, 1.12, 2.1, 2.2, 5.3, 6.2, 8.1,  9.1, 9.2, 9.4 | 测试中 | 007 | 测试中 |
 | [【Lab】Lab应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard?issue_id=I2E9M5) |已完成| 1.6, 1.15 | 测试完毕，通过 | 007 |测试完毕，通过 |
 | [【ATP】ATP应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard?issue_id=I2E9M4) |已完成| 1.6, 1.15 | 测试完毕，通过 | 007 | 测试完毕，通过 |
 | [【Mecm】Mecm应用首页集成个人帐号中心](https://gitee.com/OSDT/dashboard?issue_id=I2E9M3) |已完成| 1.6, 1.15 | 测试完毕，通过 | 007 | 测试完毕，通过 |
