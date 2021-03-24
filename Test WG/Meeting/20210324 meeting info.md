@@ -23,9 +23,9 @@
 
 ## Topics议题
 
-1.R1.1版第三次迭代测试情况审视 --owner all
+1.R1.1版第三次迭代测试情况审视（含代码覆盖率等） --owner all
 
-Review test results for R1.1-Third Iteration/Sprint.
+Review test results for R1.1-Third Iteration/Sprint (including code coverage).--owner all
 
 
 - 【2月份至3月3日早，提交的bug99个，5个取消，26个完成；21个安全相关】
