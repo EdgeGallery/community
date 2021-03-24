@@ -36,9 +36,9 @@ Review test results for R1.1-Third Iteration/Sprint (including code coverage).--
 【3月17日：阻塞问题：应用不能发布；vm特性争取本周交付；mecm分发失败】
 
 
-2.R1.1测试报告草稿审视 --owner all
+2.R1.1测试用例&测试报告草稿审视 --owner all
 
-Review test report (draft) for R1.1 --owner all
+Review test cases & test report (draft) for R1.1 --owner all
 
 ## meeting link
 https://welink-meeting.zoom.us/j/953465314
