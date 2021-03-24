@@ -28,86 +28,84 @@
 -  **【Developer】应用包区分ARM，x86【李媛媛】--done** 
 -  **【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】--done** 
 -  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
--  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done** 
+-  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done** (有尚未解决bug)
 -  **【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】--done** 
 -  **【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】--done** 
 -  **【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】--done** 
 -  **【UserMgmt】 **支持用户通过邮箱登录** 【李治谦】--done** 
 -  **【Appstore】统一appstore组件风格【张阿利】--done** 
--  **【Appstore】应用包区分ARM，x86【张阿利】** 
+-  **【Appstore】应用包区分ARM，x86【张阿利】--done** 
 -  **【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】--done** 
 -  **【mep】 **mep url unify** 【张阿利】--done** 
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng 
-- 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】
-- 【mecm】 **Adaptive mep url unify【张阿利】** 
-- 【mecm】 **example-apps support demo app service call【张阿利】** 
+- 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】--本周结束
+- 【mecm】 **Adaptive mep url unify【张阿利】--done** 
+- 【mecm】 **example-apps support demo app service call【张阿利】--done** （待回归）
 -  **【ATP】ATP应用包区分ARM、X86【李媛媛】--done** 
 -  **【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】--done** 
 
 
  **3.2 第二次迭代需求** 
 
--  **【developer】新增获取pod详情接口【李媛媛】** 
--  **【Developer】Developer Support Demo APP guidence【李媛媛】**  
+-  **【developer】新增获取pod详情接口【李媛媛】--done** 
+-  **【Developer】Developer Support Demo APP guidence【李媛媛】--done**  
 -  **【developer】修改建议，日志下载功能【李媛媛】--done，下载功能取消** 
--  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
--  **【developer】支持项目管理、支持配置沙箱环境【李媛媛】**  
--  **【developer】部署结果展示端口、协议等信息【李媛媛】--on going** 
+-  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done**（尚有未解决bug-偶发） 
+-  **【developer】支持项目管理、支持配置沙箱环境【李媛媛】--done**  
+-  **【developer】部署结果展示端口、协议等信息【李媛媛】--done**（尚有未解决bug-偶发） 
 - 【developer】【POC】在应用设计时，可以通过点击查看组件的基本信息；可以设计服务之间的依赖关系；以通过拖拽的方式进行App设计，并保存设计结果； **支持拖拽的方式进行组件移动** 
 - 【developer】【POC】在EG平台按需部署设计时，支持保存设计结果，支持导出部署脚本
--  **【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】** 
-- 【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】--等待交付 
--  **【developer】系统管理面界面开发【李媛媛】**  
--  **【developer】支持项目管理、支持能力中心管理【李媛媛】** 
--  **【developer】提升SDK/API可获性与可用性【李媛媛】**  
+-  **【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】--done**（尚有为解决bug-多页签下登录信息相互影响） 
+-  **【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】--done** --已交付待回归 
+-  **【developer】系统管理面界面开发【李媛媛】--done**  
+-  **【developer】支持项目管理、支持能力中心管理【李媛媛】--done** 
+-  **【developer】提升SDK/API可获性与可用性【李媛媛】--done**  
 -  **【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--done** 
 -  **【Appstore】文档界面优化【李治谦】--done** 
--  **【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】** 
-- 【AppStore】 **支持应用主动拉取功能** 【张阿利】
-- 【AppStore】 **AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】** 
-- 【MEP】 **MEP展示服务调用次数统计信息 ** 
--  **【MEP】subscribe api** 
--  **【MEP】notify to app when subscibed service status changed** 
--  **【MECM/example-apps】Make example-apps open source【张阿利】** 
--  **【MECM】Applcm support logs of the app deployment to developer【张阿利】** 
-- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】--预计本周交付
--  **【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】** 
+-  **【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--done**（尚有问题未解决--本版本是否仅支持镜像路hardcoding一种？） 
+- 【AppStore】 **支持应用主动拉取功能--done** 【张阿利】
+- 【AppStore】 **AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】--done** 
+- 【MEP】 **MEP展示服务调用次数统计信息 **--本周测试结束 
+-  **【MEP】subscribe api** --本周测试结束
+-  **【MEP】notify to app when subscibed service status changed** --本周测试结束
+-  **【MECM/example-apps】Make example-apps open source【张阿利】** --done
+-  **【MECM】Applcm support logs of the app deployment to developer【张阿利】--done** 
+- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】--待确定
+-  **【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】--done** 
 - 【ATP】 **用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】** --done
 - 【ATP】 **支持在用户面贡献测试用例【李媛媛】** --done
-- 【ATP】 **ATP测试用例扩充到总数14个** 
-- 【ATP】 **ATP任务接口模型变更【李媛媛】** 
-- 【installation】支持IaaS层按需部署 
-- 【installation】 _【POC】测试数据构造【张阿利】_ --延期
-- 【installation】 **EG离线部署脚本优化，实现按需部署能力【侯敏熙】** (还需进一步优化)
+- 【ATP】 **ATP测试用例扩充到总数14个** --done
+- 【ATP】 **ATP任务接口模型变更【李媛媛】** --done
+- 【installation】 **EG离线部署脚本优化，实现按需部署能力【侯敏熙】--done** (补充测试多节点部署；补充测试多网络平面)
+
 
  **3.3 第三次迭代需求** 
 
--  **【developer】样例界面开发【李媛媛】** 
-- 【Developer】在EG平台按需部署设计时，支持对默认组件的配置--待确认
-- 【Developer】【POC】Developer support VM app--尚未交付
--  **【Developer】支持容器镜像管理【李治谦】** 
+-  **【developer】样例界面开发【李媛媛】--done** 
+-  **【Developer】在EG平台按需部署设计时，支持对默认组件的配置--done** 
+-  **【Developer】【POC】Developer support VM app** --刚交付，待测试
+-  **【Developer】支持容器镜像管理【李治谦】--done**
 - 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
  **在设计态首页，可以创建/删除一个设计** 
-- 【developer】 **支持在ATP测试时，将镜像包传递给atp;支持在发布到AppStore时，将应用镜像信息传递给appstore** 
-- 【developer】 **mep face recognition SDK的验证和使用 java** 
-- 【Developer】 **Developer应用首页集成个人帐号中心** 
-- 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码** 【李治谦】
+- 【developer】 **支持在ATP测试时，将镜像包传递给atp;支持在发布到AppStore时，将应用镜像信息传递给appstore--done** 
+- 【developer】 **mep face recognition SDK的验证和使用 java--done** 
+- 【Developer】 **Developer应用首页集成个人帐号中心--done** 
+- 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码--done** 【李治谦】
 - 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量** 【yuxiaolong】
-- 【MEP】 **MEP支持服务管理架构可视化** 
-- 【MEP】 **MEP页面与MECM自治Portal完成集成** --本周可交付
-- 【Appstore】 **reconstuct the application details page** 【张阿利】
-- 【AppStore】【POC】Appstore support VM based app【张阿利】
-- 【AppStore】 **AppStore应用首页集成个人帐号中心** 【张阿利】
-- 【MECM】【POC】Applcm support VM based app.【张阿利】
-- 【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.【张阿利】
-- 【Mecm】 **Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal** 【张阿利】
-- 【ATP】 **管理面引入Test Scenario,Test Suite, Test Case三层模型概念** 【李媛媛】
-- 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现** 
-- 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）** 【李媛媛】
-- 【ATP】 **支持手工测试用例** 【李媛媛】
-- 【ATP】 **ATP应用首页集成个人帐号中心 ** 
-- 【installer】支持用户定制化按需部署
-- 【installer】支持应用按需部署
+- 【MEP】 **MEP支持服务管理架构可视化** --本周测试结束
+- 【MEP】 **MEP页面与MECM自治Portal完成集成** --已交付，本周测试结束
+- 【Appstore】 **reconstuct the application details page--done** 【张阿利】
+- 【AppStore】【POC】Appstore support VM based app【张阿利】--本周测试结束
+- 【AppStore】 **AppStore应用首页集成个人帐号中心--done** 【张阿利】
+- 【MECM】【POC】Applcm support VM based app.【张阿利】 --本周测试结束
+-  **【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.** 【张阿利】--已交付， 本周测试结束
+- 【Mecm】 **Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal--done** 【张阿利】
+- 【ATP】 **管理面引入Test Scenario,Test Suite, Test Case三层模型概念--done** 【李媛媛】
+- 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现--done** 
+- 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）--done** 【李媛媛】
+- 【ATP】 **支持手工测试用例--done** 【李媛媛】
+- 【ATP】 **ATP应用首页集成个人帐号中心--done ** 
+- 【installation】online installation【敏熙】
 
 
 
