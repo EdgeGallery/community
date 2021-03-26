@@ -1,6 +1,6 @@
 # Tripartite vulnerability investigation
 
-## 1. Developer tripartite dependencies check results
+## 1. Developer tripartite dependencies check results(Critical:6,High:17)
 
 The confirmed vulnerabilities are as follows（Note: the dependent tripartite is already the latest version。）：
 
