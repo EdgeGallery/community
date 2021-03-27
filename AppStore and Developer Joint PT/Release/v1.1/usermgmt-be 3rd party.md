@@ -1,6 +1,6 @@
 # Tripartite vulnerability investigation
 
-## UserMgmt tripartite dependencies check results(Critical:1, High:4)
+## UserMgmt-Be tripartite dependencies check results(Critical:1, High:4)
 
 The confirmed vulnerabilities are as follows（Note: the dependent tripartite is already the latest version。）：
 
@@ -15,6 +15,7 @@ The confirmed vulnerabilities are as follows（Note: the dependent tripartite is
 
 # Screenshots
 ## Critical
-
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0327/143459_d7744752_8279549.png "UserMgmt-Be-3rd.png")
 
 ## High
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0327/143558_55fd6c30_8279549.png "UserMgmt-Be-3rd-High.png")
