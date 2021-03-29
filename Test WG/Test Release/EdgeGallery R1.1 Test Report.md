@@ -209,12 +209,12 @@ c.镜像库：http://159.138.137.155/
 
 3.3.1 缺陷汇总 Defects Summary
 
-已剔除 xx个无效bug后，总缺陷数量： xx（含 xx个安全类缺陷），已解决数量：xx 个；未解决bug x个（含x 个known issue，遗留到下一版本解决）。
+已剔除 12个无效bug后，总缺陷数量： 233（含 34个安全类缺陷），已解决数量： 205个；未解决bug 28个（含7 个known issue，遗留到下一版本解决）。
 
 3.3.2 缺陷分析 Defects Analysis
 
-按缺陷类型分析：安全类bug xx个；其他类bug xx个。
-按缺陷严重级别分析：严重bug xx个；主要bug xx个；次要bug xx个；不重要bug xx个；不指定xx 个。
+按缺陷类型分析：安全类bug 34个；其他类bug 211个。
+按缺陷严重级别分析：严重bug 31个；主要bug 64个；次要bug 126个；不重要bug 8个；不指定16 个。
 按需求点分析
 缺陷收敛性分析：总计xx 个bug（含 x个无效bug；含安全类bug xx）；迭代一 xx 个bug（含 x个无效bug）；迭代二 xx 个bug（含 x个无效bug）；迭代三 xx 个bug（含 x个无效bug）；未制定迭代 xx 个bug（含 x个无效bug）
 
