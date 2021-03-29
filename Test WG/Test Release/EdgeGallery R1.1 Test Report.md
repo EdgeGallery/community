@@ -216,7 +216,7 @@ c.镜像库：http://159.138.137.155/
 按缺陷类型分析：安全类bug 34个；其他类bug 211个。
 按缺陷严重级别分析：严重bug 31个；主要bug 64个；次要bug 126个；不重要bug 8个；不指定16 个。
 按需求点分析
-缺陷收敛性分析：总计xx 个bug（含 x个无效bug；含安全类bug xx）；迭代一 xx 个bug（含 x个无效bug）；迭代二 xx 个bug（含 x个无效bug）；迭代三 xx 个bug（含 x个无效bug）；未制定迭代 xx 个bug（含 x个无效bug）
+缺陷收敛性分析：总计245 个bug（含 12个无效bug；含安全类bug 34）；迭代一 39 个bug（含 3个无效bug）；迭代二 65 个bug（含 5个无效bug）；迭代三 135 个bug（含 3个无效bug）；未制定迭代7 个bug（含 1个无效bug）
 
 3.3.3 经评审遗留缺陷及未解决问题 Residual Defects and known issues
 
