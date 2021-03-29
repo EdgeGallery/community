@@ -42,7 +42,7 @@ a.单元测试代码覆盖率工具：Jacoco（Java语言）、GoTest（Go语言
 
 |Tool Name|Version|Address | comments  |
 |---|---|---|---|
-|SonarQube|8.4.2 |http://159.138.132.188:9000/projects  ||
+|SonarQube|8.7 |http://159.138.132.188:9000/projects  ||
 |Jacoco|0.7.7.201606060606  |None |   |
 |go test| 1.15.5 |None |   |
 
@@ -176,28 +176,28 @@ c.镜像库：http://159.138.137.155/
 3.2.2 单元测试代码覆盖（数据源于SonarQube） Code Coverage for Unit Test
 
 根据TSC20200923会议决定，本次测试版本依然不考虑前端代码覆盖率，关注后台代码覆盖率。
-所有数据来自于北京时间 2021.3.xx xx:00 [SonarQube页面查询结果](http://159.138.132.188:9000/projects?sort=name)。
+所有数据来自于北京时间 2021.3.29 17:00 [SonarQube页面查询结果](http://159.138.132.188:9000/projects?sort=name)。
 
 | 模块                      | 代码覆盖率 |
 |---------------------------|-----------|
-| api-emulator              | %     |
-| appstore-be               | %     |
-| atp-be                    | %     |
-| developer-be              | %     |
-| mecm-apm                  | %     |
-| memc-applcm-k8splugin     | %     |
-| memc-applcm-lcmcontroller | %     |
-| mecm-appo                 | %     |
-| mecm-apprulemgr           | %     |
-| mecm-inventory            | %     |
-| mep-agent                 | %     |
-| mep-dnsserver             | %     |
-| mep-mepauth               | %     |
-| mep-mepserver             | %     |
-| plugins                   | %     |
-| toolchain                 | %     |
-| user-mgmt-be              | %     |
-| website-gateway           | %     |
+| api-emulator              | 55.2%     |
+| appstore-be               | 57.2%     |
+| atp-be                    | 56.3%     |
+| developer-be              | 57.7%     |
+| mecm-apm                  | 50.6%     |
+| memc-applcm-k8splugin     | 61.2%     |
+| memc-applcm-lcmcontroller | 64.0%     |
+| mecm-appo                 | 59.9%     |
+| mecm-apprulemgr           | 58.2%     |
+| mecm-inventory            | 61.3%     |
+| mep-agent                 | 60.7%     |
+| mep-dnsserver             | 70.8%     |
+| mep-mepauth               | 56.3%     |
+| mep-mepserver             | 55.4%     |
+| plugins                   | 70.2%     |
+| toolchain                 | 44.7%     |
+| user-mgmt-be              | 56.8%     |
+| website-gateway           | 31.5%     |
 
 
 **Note:**  1、website-gateway代码覆盖率低的解释：website-gateway本身是一个框架工程只有200多行代码，没有业务逻辑，而且大部分代码都是实现spring的配置类，ut运行不到。目前我们只能多其中的login和logout接口做测试，所以覆盖率达不到40%。
