@@ -205,7 +205,7 @@ c.镜像库：http://159.138.137.155/
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
-请点击[缺陷清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&created_at_start=2021-02-01&created_at_end=2021-03-31)查看详情。
+请点击[缺陷清单](https://e.gitee.com/OSDT/issues/list?openMore=1&is%5Bprogram_id%5D=114633&is%5Bmilestone_id%5D=92309&is%5Bissue_type_id%5D=199540)查看详情。
 
 3.3.1 缺陷汇总 Defects Summary
 
