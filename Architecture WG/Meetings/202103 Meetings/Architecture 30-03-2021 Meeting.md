@@ -8,6 +8,8 @@
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
 - 刘小飞（迅琥）
+- 陈共龙（腾讯）
+- 吴文相（九州云）
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
