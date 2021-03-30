@@ -7,7 +7,7 @@
 
 ## Meeting Attendees
 - [高维涛](https://gitee.com/Gao_Victor)
-- TBA
+- 刘小飞（迅琥）
 
 ## Meeting Agenda & Minutes
 |  Agenda Items  |  Notes & Materials   |  Proposer |
@@ -20,6 +20,9 @@
 - Video Recording
 - Slides
 
+## etherpad link
+
+http://etherpad.edgegallery.org/p/Architecture_Meeting_%2331
 
 ## Action Items
 |  Items | Assignee   |
