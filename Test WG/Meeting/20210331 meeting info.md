@@ -19,7 +19,7 @@
 -  _shashikanth（华为）_ 
 -  _蔡舒豪（华为）_ 
 -  _徐军杰（九州云）_ 
-- _yangyang 、zhangbeiyuan、liuhuiling_、luxin、_chenchuanyu 、chenruidong 、_zhaobaohui_   （华为）
+- _yangyang 、zhangbeiyuan、liuhuiling_、luxin、_chenchuanyu 、chenruidong 、_zhaobaohui   （华为）
 
 ## Topics议题
 
