@@ -42,9 +42,9 @@ This security test report is the EdgeGallery Rx.x version security test report. 
 
 [v1.1特性列表 Story List on gitee](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&sort=created_at%20desc&milestone_id=92309)
 
-[v1.1安全设计文档 Security Design Docs](https://gitee.com/edgegallery/community/tree/master/Security WG/Security%20Testing/Compliance%20Report/Version%201.1)
+[v1.1安全设计文档 Security Design Docs](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Compliance%20Report/Version%201.1)
 
-[EdgeGallery安全设计规范 Security Design Guide](https://gitee.com/edgegallery/community/blob/master/Security WG/Secure%20Design/Security%20Design%20Guide_CN.md)
+[EdgeGallery安全设计规范 Security Design Guide](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Secure%20Design/Security%20Design%20Guide_CN.md)
 
 #### 2.3 测试用例 Test Cases
 
