@@ -133,7 +133,7 @@ c.镜像库：http://159.138.137.155/
 - 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码--done** 【李治谦】
 - 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量** 【yuxiaolong】
 - 【MEP】 **MEP支持服务管理架构可视化** --本周测试结束
-- 【MEP】 **MEP页面与MECM自治Portal完成集成** --已交付，本周测试结束
+- 【MEP】 **MEP页面与MECM自治Portal完成集成--done**【张阿利】 
 - 【Appstore】 **reconstuct the application details page--done** 【张阿利】
 - 【AppStore】【POC】Appstore support VM based app【张阿利】--本周测试结束
 - 【AppStore】 **AppStore应用首页集成个人帐号中心--done** 【张阿利】
@@ -145,7 +145,7 @@ c.镜像库：http://159.138.137.155/
 - 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）--done** 【李媛媛】
 - 【ATP】 **支持手工测试用例--done** 【李媛媛】
 - 【ATP】 **ATP应用首页集成个人帐号中心--done ** 
-- 【installation】online installation【敏熙】
+-  **【installation】online installation--done** 【敏熙】
  
 
 3.1.3 测试用例执行统计 analysis of Test Case execution
