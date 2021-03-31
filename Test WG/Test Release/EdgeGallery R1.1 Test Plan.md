@@ -40,7 +40,7 @@
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng 
 - 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】--本周结束
 - 【mecm】 **Adaptive mep url unify【张阿利】--done** 
-- 【mecm】 **example-apps support demo app service call【张阿利】--done** （待回归）
+- 【mecm】 **example-apps support demo app service call【张阿利】--done** 
 -  **【ATP】ATP应用包区分ARM、X86【李媛媛】--done** 
 -  **【ATP】ATP管理面portal优化：ATP管理面任务增加批量删除操作、新加统计分析接口【李媛媛】--done** 
 
@@ -62,15 +62,15 @@
 -  **【developer】提升SDK/API可获性与可用性【李媛媛】--done**  
 -  **【UserMgmt】支持用户忘记密码后通过邮箱找回【李治谦】--done** 
 -  **【Appstore】文档界面优化【李治谦】--done** 
--  **【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--done**（尚有问题未解决--本版本是否仅支持镜像路hardcoding一种？） 
+-  **【AppStore】支持容器镜像管理 Support Container Image Manage【张阿利、李治谦】--done**（本版本不支持镜像路hardcoding，遗留到1.2版本） 
 - 【AppStore】 **支持应用主动拉取功能--done** 【张阿利】
 - 【AppStore】 **AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】--done** 
-- 【MEP】 **MEP展示服务调用次数统计信息 **--本周测试结束 
--  **【MEP】subscribe api** --本周测试结束
+- 【MEP】 **MEP展示服务调用次数统计信息 --done**【张阿利】
+-  **【MEP】subscribe api--done** 【张阿利】
 -  **【MEP】notify to app when subscibed service status changed** --本周测试结束
 -  **【MECM/example-apps】Make example-apps open source【张阿利】** --done
 -  **【MECM】Applcm support logs of the app deployment to developer【张阿利】--done** 
-- 【MECM】支持容器镜像管理Support Container Image Manage【李治谦】--待确定
+-  **【MECM】支持容器镜像管理Support Container Image Manage--done** 【李治谦】
 -  **【Mecm】Mecm应用支持分权控制，区分不同角色进行差异化功能展现MECM Support Administrator/Tanant/Guest Role【张阿利】--done** 
 - 【ATP】 **用户面引入Test Scenario,Test Suite, Test Case三层模型概念【李媛媛】** --done
 - 【ATP】 **支持在用户面贡献测试用例【李媛媛】** --done
@@ -91,14 +91,14 @@
 - 【developer】 **mep face recognition SDK的验证和使用 java--done** 
 - 【Developer】 **Developer应用首页集成个人帐号中心--done** 
 - 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码--done** 【李治谦】
-- 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量** 【yuxiaolong】
+- 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量--done** 【yuxiaolong】
 - 【MEP】 **MEP支持服务管理架构可视化** --本周测试结束
-- 【MEP】 **MEP页面与MECM自治Portal完成集成** --已交付，本周测试结束
+- 【MEP】 **MEP页面与MECM自治Portal完成集成--done** 【张阿利】
 - 【Appstore】 **reconstuct the application details page--done** 【张阿利】
 - 【AppStore】【POC】Appstore support VM based app【张阿利】--本周测试结束
 - 【AppStore】 **AppStore应用首页集成个人帐号中心--done** 【张阿利】
 - 【MECM】【POC】Applcm support VM based app.【张阿利】 --本周测试结束
--  **【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal;MECM APPO/Inventory support synchronize data from edge.** 【张阿利】--已交付， 本周测试结束
+-  **【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal; _MECM APPO/Inventory support synchronize data from edge_ .** 【张阿利】--done，斜体待测
 - 【Mecm】 **Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal--done** 【张阿利】
 - 【ATP】 **管理面引入Test Scenario,Test Suite, Test Case三层模型概念--done** 【李媛媛】
 - 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现--done** 
