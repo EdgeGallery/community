@@ -36,15 +36,15 @@ This security test report is the EdgeGallery Rx.x version security test report. 
 
 [v1.1里程碑计划 Release Milestone](https://gitee.com/edgegallery/community/blob/master/TSC/Release/v1.1/版本计划.md)
 
-[v1.1需求设计文档 Requirement Design Docs](https://gitee.com/edgegallery/community/tree/master/Architecture WG/Requirements/v1.1)
+[v1.1需求设计文档 Requirement Design Docs](https://gitee.com/edgegallery/community/tree/master/Architecture%20WG/Requirements/v1.1)
 
-[v1.1需求列表 Epic List on gitee](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&sort=created_at desc&milestone_id=92309)
+[v1.1需求列表 Epic List on gitee](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&sort=created_at%20desc&milestone_id=92309)
 
-[v1.1特性列表 Story List on gitee](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&sort=created_at desc&milestone_id=92309)
+[v1.1特性列表 Story List on gitee](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&sort=created_at%20desc&milestone_id=92309)
 
-[v1.1安全设计文档 Security Design Docs](https://gitee.com/edgegallery/community/tree/master/Security WG/Security Testing/Compliance Report/Version 1.1)
+[v1.1安全设计文档 Security Design Docs](https://gitee.com/edgegallery/community/tree/master/Security WG/Security%20Testing/Compliance Report/Version 1.1)
 
-[EdgeGallery安全设计规范 Security Design Guide](https://gitee.com/edgegallery/community/blob/master/Security WG/Secure Design/Security Design Guide CN.md)
+[EdgeGallery安全设计规范 Security Design Guide](https://gitee.com/edgegallery/community/blob/master/Security WG/Secure%20Design/Security%20Design Guide_CN.md)
 
 #### 2.3 测试用例 Test Cases
 
