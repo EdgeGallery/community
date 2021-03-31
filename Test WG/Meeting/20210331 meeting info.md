@@ -43,7 +43,7 @@ Review test results for R1.1-Third Iteration/Sprint (including code coverage).--
 
 2.R1.1测试用例&测试报告终稿审视 --owner all
 
-Review test cases & test report (draft) for R1.1 --owner all
+Review test cases & test report (final) for R1.1 --owner all
 
 【需补充完善测试用例、测试报告】
 
