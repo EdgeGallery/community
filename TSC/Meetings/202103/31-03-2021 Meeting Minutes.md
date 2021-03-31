@@ -32,7 +32,10 @@ TSC members who attended:
 
 ## Discussion Items
 
-- Item
+- v1.1版本于4月2日正式发布，预计在4月16日也将发布v1.1.1优化小版本
+- Release notes基本完成，安全相关内容4月1日完成刷新
+   - https://gitee.com/edgegallery/docs/blob/master/Release%20Notes/EdgeGallery_RN_zh.md
+- 测试和安全工作部分测试待回归，虚机相关测试4月2日前完成
 
 ## Item
 
