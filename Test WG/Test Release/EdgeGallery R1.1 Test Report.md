@@ -225,7 +225,7 @@ c.镜像库：http://159.138.137.155/
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
-EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测试** ，安全测试依照 **v1.1安全测试计划** 开展，详见[v1.1安全测试计划](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)。
+EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测试** ，安全测试依照 **v1.1安全测试计划** 开展，详见[v1.1 Security Test Plan](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)。
 
 3.4.1 安全测试组织Security Test Organizing
 
@@ -245,13 +245,9 @@ EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测
 测试内容： 本次测试共包括sprint1，sprint2，sprint3三个迭代。首先针对各Story匹配测试用例，然后从安全合规测试和渗透测试2个维度展开测试。测试内容详见 [v1.1安全测试计划](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)  **第5节“测试范围”** 相关内容。
 
 
-安全合规测试用例：
+安全合规测试用例： [安全合规测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Design%20Compliance%20Test%20Cases)
 
-[安全合规测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Design%20Compliance%20Test%20Cases)
-
-渗透测试用例：
-
-[渗透测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
+渗透测试用例： [渗透测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
 
 
 
@@ -259,10 +255,15 @@ EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测
 
 
 v1.1版本共提交安全类问题 **34个** 。
+
 按严重性统计：12个严重，13个主要，9个次要，0个不重要。
+
 按修复状态统计：28个已修复，6个遗留。
+
 按所属模块统计：UserMgmt 6个， AppStore 4个， Developer 13个， MECM 4个， ATP 5个， MEP 2个。
+
 按漏洞类型统计：信息泄露 9个，DOS 2个，越权/权限 7个，木马/远控 3个，输入校验 5个，逻辑漏洞 1个，文件上传 2个，文档类 5个。
+
 按所属迭代统计：sprint1 8个， sprint2 10个， sprint3 16个
 
 
@@ -273,6 +274,7 @@ v1.1版本共提交安全类问题 **34个** 。
 
 
 详见：[安全类问题单](https://e.gitee.com/OSDT/issues/list?is%5Bmilestone_id%5D=92309&is%5Bsearch%5D=security&is%5Bissue_type_id%5D=199540&is%5Bsort%5D=created_at&is%5Bdirection%5D=desc&openMore=1#note_4590175)
+
 安全问题遗留清单：
 | 序号  | Issue编号 | Issue标题        | 状态    | 原因             | 完成计划             | 严重性           |
 | ---- | -------- | ------------------ | --------- | ----------------------- | ------------------ | -------------- |
