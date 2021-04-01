@@ -256,18 +256,20 @@ EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测
 
 v1.1版本共提交安全类问题 **34个** 。
 
-按严重性统计：12个严重，13个主要，9个次要，0个不重要。
+按 **严重性** 统计：12个严重，13个主要，9个次要，0个不重要。
 
-按修复状态统计：28个已修复，6个遗留。
+按 **修复状态** 统计：28个已修复，6个遗留。
 
-按所属模块统计：UserMgmt 6个， AppStore 4个， Developer 13个， MECM 4个， ATP 5个， MEP 2个。
+按 **所属模块** 统计：UserMgmt 6个， AppStore 4个， Developer 13个， MECM 4个， ATP 5个， MEP 2个。
 
-按漏洞类型统计：信息泄露 9个，DOS 2个，越权/权限 7个，木马/远控 3个，输入校验 5个，逻辑漏洞 1个，文件上传 2个，文档类 5个。
+按 **漏洞类型** 统计：信息泄露 9个，DOS 2个，越权/权限 7个，木马/远控 3个，输入校验 5个，逻辑漏洞 1个，文件上传 2个，文档类 5个。
 
-按所属迭代统计：sprint1 8个， sprint2 10个， sprint3 16个
+按 **所属迭代** 统计：sprint1 8个， sprint2 10个， sprint3 16个
 
 
-安全问题汇总及分析详见 **v1.1安全测试报告** ：[EdgeGallery v1.1 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.1/EG%20v1.1%20Security%20Test%20Report.md)
+
+ **安全问题汇总及分析详见v1.1安全测试报告**  ：[EdgeGallery v1.1 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.1/EG%20v1.1%20Security%20Test%20Report.md)
+
 
 
 3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
