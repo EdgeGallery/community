@@ -251,10 +251,11 @@ EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测
 
 
 
-3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
+3.4.3 安全测试结果及分析 summary analysis for Security test result
 
 
-v1.1版本共提交安全类问题 **34个** 。
+v1.1版本共提交安全类问题 **34个** 。详见：[安全类问题单](https://e.gitee.com/OSDT/issues/list?is%5Bmilestone_id%5D=92309&is%5Bsearch%5D=security&is%5Bissue_type_id%5D=199540&is%5Bsort%5D=created_at&is%5Bdirection%5D=desc&openMore=1#note_4590175)
+
 
 按 **严重性** 统计：12个严重，13个主要，9个次要，0个不重要。
 
@@ -264,18 +265,16 @@ v1.1版本共提交安全类问题 **34个** 。
 
 按 **漏洞类型** 统计：信息泄露 9个，DOS 2个，越权/权限 7个，木马/远控 3个，输入校验 5个，逻辑漏洞 1个，文件上传 2个，文档类 5个。
 
-按 **所属迭代** 统计：sprint1 8个， sprint2 10个， sprint3 16个
+按 **所属迭代** 统计：sprint1 8个， sprint2 10个， sprint3 16个。
 
 
-
- **安全问题汇总及分析详见v1.1安全测试报告**  ：[EdgeGallery v1.1 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.1/EG%20v1.1%20Security%20Test%20Report.md)
-
-
-
-3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
+.
+ **安全测试结果及分析详见v1.1安全测试报告**  ：[EdgeGallery v1.1 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.1/EG%20v1.1%20Security%20Test%20Report.md)
+.
 
 
-详见：[安全类问题单](https://e.gitee.com/OSDT/issues/list?is%5Bmilestone_id%5D=92309&is%5Bsearch%5D=security&is%5Bissue_type_id%5D=199540&is%5Bsort%5D=created_at&is%5Bdirection%5D=desc&openMore=1#note_4590175)
+3.4.4 遗留安全类问题 Leaving Security Issues
+
 
 安全问题遗留清单：
 | 序号  | Issue编号 | Issue标题        | 状态    | 原因             | 完成计划             | 严重性           |
