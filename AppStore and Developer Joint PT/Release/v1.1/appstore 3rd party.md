@@ -26,6 +26,6 @@ The confirmed vulnerabilities are as follows（Note: the dependent tripartite is
 
 # Screenshots
 ## Critical        
-![](/uploads/images/2021/appstore/3rd-critical.png "critical")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0401/154234_ca2d2d3f_8354563.png "3rd-critical.png")
 ## High
-![](/uploads/images/2021/appstore/3rd-high.png "high")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0401/154253_0ed61570_8354563.png "3rd-high.png")
