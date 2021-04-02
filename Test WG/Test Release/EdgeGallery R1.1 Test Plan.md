@@ -28,7 +28,7 @@
 -  **【Developer】应用包区分ARM，x86【李媛媛】--done** 
 -  **【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】--done** 
 -  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
--  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done** (有尚未解决bug)
+-  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done** 
 -  **【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】--done** 
 -  **【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】--done** 
 -  **【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】--done** 
@@ -38,7 +38,7 @@
 -  **【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】--done** 
 -  **【mep】 **mep url unify** 【张阿利】--done** 
 - 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng 
-- 【MEP/MECM】 **APP Instance Termination Enhancement** 【刘辉】--本周结束
+- 【MEP/MECM】 **APP Instance Termination Enhancement--done** 【刘辉】
 - 【mecm】 **Adaptive mep url unify【张阿利】--done** 
 - 【mecm】 **example-apps support demo app service call【张阿利】--done** 
 -  **【ATP】ATP应用包区分ARM、X86【李媛媛】--done** 
@@ -50,13 +50,13 @@
 -  **【developer】新增获取pod详情接口【李媛媛】--done** 
 -  **【Developer】Developer Support Demo APP guidence【李媛媛】--done**  
 -  **【developer】修改建议，日志下载功能【李媛媛】--done，下载功能取消** 
--  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done**（尚有未解决bug-偶发） 
+-  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
 -  **【developer】支持项目管理、支持配置沙箱环境【李媛媛】--done**  
--  **【developer】部署结果展示端口、协议等信息【李媛媛】--done**（尚有未解决bug-偶发） 
+-  **【developer】部署结果展示端口、协议等信息【李媛媛】--done** 
 - 【developer】【POC】在应用设计时，可以通过点击查看组件的基本信息；可以设计服务之间的依赖关系；以通过拖拽的方式进行App设计，并保存设计结果； **支持拖拽的方式进行组件移动** 
 - 【developer】【POC】在EG平台按需部署设计时，支持保存设计结果，支持导出部署脚本
--  **【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】--done**（尚有为解决bug-多页签下登录信息相互影响） 
--  **【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】--done** --已交付待回归 
+-  **【Developer】Developer应用支持分权控制，区分不同角色进行差异化功能展现【李媛媛】--done**
+-  **【developer】usermgmt支持机机接口后，developer支持24h后自动释放资源；developer部署失败，返回详细的错误信息【李媛媛】--done** 
 -  **【developer】系统管理面界面开发【李媛媛】--done**  
 -  **【developer】支持项目管理、支持能力中心管理【李媛媛】--done** 
 -  **【developer】提升SDK/API可获性与可用性【李媛媛】--done**  
@@ -67,7 +67,7 @@
 - 【AppStore】 **AppStore应用支持分权控制，区分不同角色进行差异化功能展现（迭代二完成task->【AppStore】应用共享和应用管理分权控制）【张阿利】--done** 
 - 【MEP】 **MEP展示服务调用次数统计信息 --done**【张阿利】
 -  **【MEP】subscribe api--done** 【张阿利】
--  **【MEP】notify to app when subscibed service status changed** --本周测试结束
+-  **【MEP】notify to app when subscibed service status changed** 
 -  **【MECM/example-apps】Make example-apps open source【张阿利】** --done
 -  **【MECM】Applcm support logs of the app deployment to developer【张阿利】--done** 
 -  **【MECM】支持容器镜像管理Support Container Image Manage--done** 【李治谦】
@@ -83,7 +83,7 @@
 
 -  **【developer】样例界面开发【李媛媛】--done** 
 -  **【Developer】在EG平台按需部署设计时，支持对默认组件的配置--done** 
--  **【Developer】【POC】Developer support VM app** --刚交付，待测试
+-  **【Developer】【POC】Developer support VM app**【李治谦、张阿利】
 -  **【Developer】支持容器镜像管理【李治谦】--done**
 - 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
  **在设计态首页，可以创建/删除一个设计** 
@@ -104,8 +104,8 @@
 - 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现--done** 
 - 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）--done** 【李媛媛】
 - 【ATP】 **支持手工测试用例--done** 【李媛媛】
-- 【ATP】 **ATP应用首页集成个人帐号中心--done ** 
-- 【installation】online installation【敏熙】
+- 【ATP】 **ATP应用首页集成个人帐号中心--done **【李媛媛】 
+- 【installation】 **online installation【敏熙】--done** 
 
 
 
