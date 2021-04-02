@@ -274,7 +274,7 @@ EdgeGallery R1.1 版本安全测试主要分为安全设计合规测试与安全
 
 测试主要包括交付需求测试，分别从系统功能性、稳定性、易用性以及安全性（详见安全测试报告）方面进行测试，同时针对个别场景进行专项测试，问题单提单量总计xx个，其中安全类问题xx个，经评审遗留xx个，其中安全测试问题x个，功能性问题x个。
 
-- 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&milestone_id=92309)）xx/32=xx%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&milestone_id=92309),剔除无效story后）xx/125=xx%, 满足版本发布质量要求。
+- 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&milestone_id=92309)）28/29=97%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&milestone_id=92309),剔除无效story后）123/123=100%, 满足版本发布质量要求。
 - 未解决的严重问题<=1,满足版本发布质量要求。
 - 遗留Defect Index，即DI=x * 0.1+x * 1+x * 3=xx<10，满足版本发布质量要求。
 - 测试用例执行率，单元测试代码覆盖率等指标满足版本发布质量要求。
