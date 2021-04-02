@@ -133,7 +133,7 @@ c.镜像库：http://159.138.137.155/
 - 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码--done** 【李治谦】
 - 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量** 【yuxiaolong】
 - 【MEP】 **MEP支持服务管理架构可视化** --本周测试结束
-- 【MEP】 **MEP页面与MECM自治Portal完成集成--done**【张阿利】 
+- 【MEP】 **MEP页面与MECM自治Portal完成集成** --已交付，本周测试结束
 - 【Appstore】 **reconstuct the application details page--done** 【张阿利】
 - 【AppStore】【POC】Appstore support VM based app【张阿利】--本周测试结束
 - 【AppStore】 **AppStore应用首页集成个人帐号中心--done** 【张阿利】
@@ -145,7 +145,7 @@ c.镜像库：http://159.138.137.155/
 - 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）--done** 【李媛媛】
 - 【ATP】 **支持手工测试用例--done** 【李媛媛】
 - 【ATP】 **ATP应用首页集成个人帐号中心--done ** 
--  **【installation】online installation--done** 【敏熙】
+- 【installation】online installation【敏熙】
  
 
 3.1.3 测试用例执行统计 analysis of Test Case execution
@@ -178,7 +178,7 @@ c.镜像库：http://159.138.137.155/
 | appstore-be               | 57.2%     |
 | atp-be                    | 56.3%     |
 | developer-be              | 57.7%     |
-| mecm-apm                  | 58.0%     |
+| mecm-apm                  | 50.6%     |
 | memc-applcm-k8splugin     | 61.2%     |
 | memc-applcm-lcmcontroller | 64.0%     |
 | mecm-appo                 | 59.9%     |
@@ -199,11 +199,11 @@ c.镜像库：http://159.138.137.155/
 
 3.3 缺陷统计及分析 Statistical analysis of Defects/Bugs
 
-请点击[缺陷清单](https://e.gitee.com/OSDT/issues/list?openMore=1&is%5Bprogram_id%5D=114633&is%5Bmilestone_id%5D=92309&is%5Bissue_type_id%5D=199540)查看详情。
+请点击[缺陷清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199540&sort=created_at%20asc&created_at_start=2021-02-01&created_at_end=2021-04-02&milestone_id=92309)查看详情。
 
 3.3.1 缺陷汇总 Defects Summary
 
-已剔除 12个无效bug后，总缺陷数量： 233（含 34个安全类缺陷），已解决数量： 205个；未解决bug 28个（含7 个known issue，遗留到下一版本解决）。
+已剔除 14个无效bug后，总缺陷数量： 262（含 34个安全类缺陷），已解决数量： 205个；未解决bug 28个（含7 个known issue，遗留到下一版本解决）。
 
 3.3.2 缺陷分析 Defects Analysis
 
@@ -225,66 +225,49 @@ c.镜像库：http://159.138.137.155/
 
 3.4 安全测试执行情况及记录（安全工作组负责）
 
-EdgeGallery v1.1 版本安全测试包括 **安全合规测试** 和 **渗透测试** ，安全测试依照 **v1.1安全测试计划** 开展，详见[v1.1 Security Test Plan](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)。
+EdgeGallery R1.1 版本安全测试主要分为安全设计合规测试与安全渗透测试
 
 3.4.1 安全测试组织Security Test Organizing
 
-安全测试由 **安全工作组(SecurityWG)** 执行
+安全测试由安全工作组执行
 
 3.4.2 安全测试执行情况 Security Test Execution
 
-测试时间： 2021.2.19 ~ 2021.3.30
+3.4.2.1 EdgeGallery R1.1 安全设计合规测试
 
-测试环境： 119.8.36.45  Center+Edge
+时间：2021.2.1 ~ 2021.3.28
 
-测试项目： AppStore, Developer, User-mgmt, MECM，MEP，Apt
+测试项目： AppStore, Developer, User-mgmt, MECM，MEP，Apt,Toolchain
 
-测试人员： 扈冰
+测试人员： 程润东，扈冰
 
+安全合规测试用例：
 
-测试内容： 本次测试共包括sprint1，sprint2，sprint3三个迭代。首先针对各Story匹配测试用例，然后从安全合规测试和渗透测试2个维度展开测试。测试内容详见 [v1.1安全测试计划](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)  **第5节“测试范围”** 相关内容。
-
-
-安全合规测试用例： [安全合规测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Design%20Compliance%20Test%20Cases)
-
-渗透测试用例： [渗透测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
+[EG R1.1 Security Test Plan.md](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Plan/Release-R1.1/EG%20R1.1%20Security%20Test%20Plan%20.md)
 
 
+安全渗透测试用例：
 
-3.4.3 安全测试结果及分析 summary analysis for Security test result
-
-
-v1.1版本共提交安全类问题 **34个** 。详见：[安全类问题单](https://e.gitee.com/OSDT/issues/list?is%5Bmilestone_id%5D=92309&is%5Bsearch%5D=security&is%5Bissue_type_id%5D=199540&is%5Bsort%5D=created_at&is%5Bdirection%5D=desc&openMore=1#note_4590175)
-
-
-按 **严重性** 统计：12个严重，13个主要，9个次要，0个不重要。
-
-按 **修复状态** 统计：28个已修复，6个遗留。
-
-按 **所属模块** 统计：UserMgmt 6个， AppStore 4个， Developer 13个， MECM 4个， ATP 5个， MEP 2个。
-
-按 **漏洞类型** 统计：信息泄露 9个，DOS 2个，越权/权限 7个，木马/远控 3个，输入校验 5个，逻辑漏洞 1个，文件上传 2个，文档类 5个。
-
-按 **所属迭代** 统计：sprint1 8个， sprint2 10个， sprint3 16个。
+[渗透测试用例](https://gitee.com/edgegallery/community/tree/master/Security%20WG/Security%20Testing/Penetration%20Test%20Cases)
+- EG-TST-SEC-xxx
 
 
-.
- **安全测试结果及分析详见v1.1安全测试报告**  ：[EdgeGallery v1.1 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.1/EG%20v1.1%20Security%20Test%20Report.md)
-.
+3.4.3 安全缺陷汇总分析 summary analysis for Security bugs
 
 
-3.4.4 遗留安全类问题 Leaving Security Issues
+*Fixed Security Issues*
 
 
+安全测试总结报告见：[EdgeGallery v1.1.0 Security Test Report](https://gitee.com/edgegallery/community/blob/master/Security%20WG/Security%20Test%20Result/Test%20result%20Release%20V1.0/EG%20v1.0.0%20Security%20Test%20Report.md)
+
+3.4.4 安全缺陷及未解决问题 Residual Defects and known issues about Security
+
+
+详见：[安全测试问题单](https://gitee.com/OSDT/dashboard/issues?search=%E3%80%90Security%20Test%E3%80%91)
 安全问题遗留清单：
-| 序号  | Issue编号 | Issue标题        | 状态    | 原因             | 完成计划             | 严重性           |
+| 序号  | Issue编号 | Issue标题        | 状态    | 原因             | 完成计划             | 备注           |
 | ---- | -------- | ------------------ | --------- | ----------------------- | ------------------ | -------------- |
-|1|I3C0MX|【mecm】【Security】应用市场注册系统中，访客和普通租户角色可以看到应用仓库密码| 遗留 |已经和shashi确认，本次版本后台不作处理| 遗留至下个版本 |主要 |
-|2|I3A8BQ|【usermgmt】【Security】用户注册功能，存在任意用户注册漏洞|遗留|经讨论，该问题遗留到下个版本，通过能与服务端进行联动的验证方式来实现频率限制。|遗留至下个版本|严重|
-|3|I3A7CJ|【usermgmt】【Security】邮箱找回密码功能，存在邮件轰炸漏洞|遗留|经讨论，该问题遗留到下个版本，通过能与服务端进行联动的验证方式来实现频率限制。|遗留至下个版本|严重|
-|4|I3A0JE|【mecm】【Security】mecm点击“注销”后，access_token未失效，仍可以继续使用|遗留|遗留至下版本|遗留至下个版本|严重|
-|5|I3DP2D|【mecm】【Security】lcm portal should add login/auth function, or is weak of DOS attack|遗留|此版本未做计划，遗留至下版本|遗留至下个版本|严重|
-|6|I39EDO|【developer】【Security】【Vulnerability】VNC远程调试功能存在严重越权漏洞|遗留|目前没有有效解决方案，暂时遗留|遗留至下个版本|严重|
+| 1    | I2A17N   | [【Security Test】Mecm会话超时后，依然可以操作AppLCM、AppRule、边缘节点注册等功能](https://gitee.com/OSDT/dashboard?issue_id=I2A17N) | Remaining | 由于业务功能需要，目前token有效期为12小时，但是有效期过长的token会存在一定的安全隐患。建议暂时将此问题遗留。 | Remaining to next version. | 一般性安全问题（主要） |
 
 
 四、测试结论及建议 Test Conclusion and Suggestion
