@@ -220,9 +220,11 @@ c.镜像库：http://159.138.137.155/
 |--|--|--|--|--|
 | I3B5TC |[【appstore】建议通过浏览器返回到首页记住之前所在位置](https://gitee.com/OSDT/dashboard/issues?id=I3B5TC)  |遗留 | 属于优化问题，下个版本再做 |  |
 | I3CAM5 |[【mecm】优化建议：建议“应用包管理”列表中增加“应用市场”和“同步时间”字段](https://gitee.com/OSDT/dashboard/issues?id=I3CAM5) |遗留 | 暂时接口无对应信息，无法添加，可以下个版本优化|  |
+| I3DYG0 |[【mecm】概览界面，切换应用没有调用mep软件能力列表接口](https://gitee.com/OSDT/dashboard/issues?id=I3DYG0)|遗留 | 经讨论，该问题遗留到下个版本|  |
 | I3D6SN |[【Developer】部署调测monitoring-service-mepagent的项目时，界面显示部署成功，按其后台pod未启动成功](https://gitee.com/OSDT/dashboard/issues?id=I3D6SN) |遗留 | 建议下一版本在developer部署调测页面里当一个应用实例化后“部署成功”可以改成其他文字，以体现应用helm部署成功但应用镜像可能拉取失败的情况|  |
 | I38U3X |[【UserMgmt】使用不存在的账号登录，失败5次后无有效阻止措施](https://gitee.com/OSDT/dashboard/issues?id=I38U3X) |遗留 | 经讨论，该问题遗留到下个版本，强化验证方式，通过能与服务端进行联动的验证方式来实现验证|  |
-| I3DYG0 |[【mecm】概览界面，切换应用没有调用mep软件能力列表接口](https://gitee.com/OSDT/dashboard/issues?id=I3DYG0)|遗留 | 经讨论，该问题遗留到下个版本|  |
+| I38U3X |[【UserMgmt】出现平台不同步登录的问题（不必现）](https://gitee.com/OSDT/dashboard/issues?id=I3DZKV) |遗留 | 经讨论，该问题遗留到下个版本,现已给出规避方案|  |
+
 
 
 3.4 安全测试执行情况及记录（安全工作组负责）
