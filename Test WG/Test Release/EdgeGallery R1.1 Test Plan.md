@@ -83,7 +83,7 @@
 
 -  **【developer】样例界面开发【李媛媛】--done** 
 -  **【Developer】在EG平台按需部署设计时，支持对默认组件的配置--done** 
--  **【Developer】【POC】Developer support VM app**【李治谦、张阿利】
+-  **【Developer】【POC】Developer support VM app--done**【李治谦、张阿利】
 -  **【Developer】支持容器镜像管理【李治谦】--done**
 - 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
  **在设计态首页，可以创建/删除一个设计** 
@@ -92,16 +92,16 @@
 - 【Developer】 **Developer应用首页集成个人帐号中心--done** 
 - 【UserMgmt】 **支持通过用户个人帐号中心查看个人信息;用户个人帐号中心支持修改个人信息;用户个人帐号中心支持修改个人登录密码--done** 【李治谦】
 - 【MEP】 **MEP拓扑展示订阅关系及订阅应用和被订阅应用数量--done** 【yuxiaolong】
-- 【MEP】 **MEP支持服务管理架构可视化** --本周测试结束
+- 【MEP】 **MEP支持服务管理架构可视化【张阿利】--done** 
 - 【MEP】 **MEP页面与MECM自治Portal完成集成--done** 【张阿利】
 - 【Appstore】 **reconstuct the application details page--done** 【张阿利】
-- 【AppStore】【POC】Appstore support VM based app【张阿利】--本周测试结束
+- 【AppStore】 **【POC】Appstore support VM based app【张阿利】--done** 
 - 【AppStore】 **AppStore应用首页集成个人帐号中心--done** 【张阿利】
-- 【MECM】【POC】Applcm support VM based app.【张阿利】 --本周测试结束
--  **【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal; _MECM APPO/Inventory support synchronize data from edge_ .** 【张阿利】--done，斜体待测
+- 【MECM】 **【POC】Applcm support VM based app.【张阿利】 --done** 
+-  **【MECM】MECM 支持本地边缘自治 Edge Autonomous;MECM Edge Portal integrate with MEP portal; MECM APPO/Inventory support synchronize data from edge . 【张阿利】--done**
 - 【Mecm】 **Mecm应用首页集成个人帐号中心Account Management Portal Integrated to MECM admin Portal--done** 【张阿利】
 - 【ATP】 **管理面引入Test Scenario,Test Suite, Test Case三层模型概念--done** 【李媛媛】
-- 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现--done** 
+- 【ATP】 **ATP应用支持分权控制，区分不同角色进行差异化功能展现--done** 【李媛媛】
 - 【ATP】 **ATP优化问题单（用例下载，测试报告下载格式修改）--done** 【李媛媛】
 - 【ATP】 **支持手工测试用例--done** 【李媛媛】
 - 【ATP】 **ATP应用首页集成个人帐号中心--done **【李媛媛】 
