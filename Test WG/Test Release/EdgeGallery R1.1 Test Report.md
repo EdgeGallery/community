@@ -24,8 +24,8 @@ EdgeGallery社区聚焦5G边缘计算场景，通过开源协作构建起MEC边�
 
 2.1 测试用例及脚本设计 Test Cases and Auto test scripts
 
-设计测试用例共计41个。
-请点击[测试用例清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=232575&labels=ReleaseV1.1)查看详情。
+设计测试用例共计134个。
+请点击[测试用例清单](https://gitee.com/OSDT/dashboard/issues?issue_type_id=232575&sort=created_at%20asc&labels=ReleaseV1.1)查看详情。
 
 2.2 测试环境与配置 Test Env and related Configuration
 | server ip |Usage   | password |
@@ -70,7 +70,7 @@ c.镜像库：http://159.138.137.155/
 -  **【Developer】应用包区分ARM，x86【李媛媛】--done** 
 -  **【developer】提升应用本地调测能力， 如端口配置错误，网络不匹配、服务名冲突等【李媛媛、李治谦】--done** 
 -  **【developer】提供可视化配置，部署文件的可视化配置【李媛媛】--done** 
--  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done**
+-  **【developer】提供应用远程登录如VNC运维能力【李媛媛】--done** (有尚未解决bug)
 -  **【UserMgmt】 **EdgeGallery平台用户管理特性优化** 【张阿利、李治谦】--done** 
 -  **【UserMgmt】 **EdgeGallery平台支持用户分权控制** 【张阿利】--done** 
 -  **【UserMgmt】 **支持用户通过邮箱注册** 【李治谦】--done** 
@@ -123,7 +123,7 @@ c.镜像库：http://159.138.137.155/
 
 -  **【developer】样例界面开发【李媛媛】--done** 
 -  **【Developer】在EG平台按需部署设计时，支持对默认组件的配置--done** 
--  **【Developer】【POC】Developer support VM app** --done
+-  **【Developer】【POC】Developer support VM app** --刚交付，待测试
 -  **【Developer】支持容器镜像管理【李治谦】--done**
 - 【Developer】【POC】在应用设计时，可以通过点击查看已选组件的信息，并且进行参数配;对接Dev设计的CSAR包，自动生成设计结果;
  **在设计态首页，可以创建/删除一个设计** 
@@ -152,11 +152,11 @@ c.镜像库：http://159.138.137.155/
 
 |需求点|TC总数|成功个数|失败个数|未执行个数|TC成功率|
 |--|--|--|--|--|--|
-| developer | 37 | 37 | 0 | 0 | 100% |
+| developer | 41 | 41 | 0 | 0 | 100% |
 | appstore | 29 |29  |0  |0  | 100% |
 | usermgmt | 11 | 11 | 0 |0  | 100% |
 | mecm|8 |8  | 0 | 0 | 100% |
-| ATP | 43 | 43 | 0 | 0 | 100% |
+| ATP | 4 | 4 | 0 | 0 | 100% |
 | EdgeT |2 | 2 | 0 | 0 | 100% |
 | 离线部署相关|1 | 1 |0  | 0 | 100% |
 
