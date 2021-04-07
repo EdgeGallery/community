@@ -37,7 +37,7 @@
 -  **【Appstore】应用包区分ARM，x86【张阿利】--done** 
 -  **【AppStore】 **前端界面优化（应用共享、应用仓库）** 【张阿利】--done** 
 -  **【mep】 **mep url unify** 【张阿利】--done** 
-- 【mep-agent】 **mep-agent提供根据service name返回endpoint信息**  pmeng 
+- 【mep-agent】 **mep-agent提供根据service name返回endpoint信息--done**  pmeng 
 - 【MEP/MECM】 **APP Instance Termination Enhancement--done** 【刘辉】
 - 【mecm】 **Adaptive mep url unify【张阿利】--done** 
 - 【mecm】 **example-apps support demo app service call【张阿利】--done** 
@@ -76,7 +76,7 @@
 - 【ATP】 **支持在用户面贡献测试用例【李媛媛】** --done
 - 【ATP】 **ATP测试用例扩充到总数14个** --done
 - 【ATP】 **ATP任务接口模型变更【李媛媛】** --done
-- 【installation】 **EG离线部署脚本优化，实现按需部署能力【侯敏熙】--done** (补充测试多节点部署；补充测试多网络平面)
+- 【installation】 **EG离线部署脚本优化，实现按需部署能力【侯敏熙】--done** 
 
 
  **3.3 第三次迭代需求** 
