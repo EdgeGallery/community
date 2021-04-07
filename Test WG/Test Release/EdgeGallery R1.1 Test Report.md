@@ -295,7 +295,7 @@ v1.1版本共提交安全类问题 **34个** 。详见：[安全类问题单](ht
 
 - 需求完成率（[EPIC](https://gitee.com/OSDT/dashboard/issues?issue_type_id=238024&milestone_id=92309)）28/29=97%，（[story](https://gitee.com/OSDT/dashboard/issues?issue_type_id=199539&milestone_id=92309),剔除无效story后）123/123=100%, 满足版本发布质量要求。
 - 未解决的严重问题<=1,满足版本发布质量要求。
-- 遗留Defect Index，即DI=x * 0.1+x * 1+x * 3=xx<10，满足版本发布质量要求。
+- 遗留Defect Index，即DI=7* 0.1+3 * 1=3.7<10，满足版本发布质量要求。
 - 测试用例执行率，单元测试代码覆盖率等指标满足版本发布质量要求。
 
 
