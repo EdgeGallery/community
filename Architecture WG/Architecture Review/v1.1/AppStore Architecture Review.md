@@ -25,6 +25,12 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 | /mec/appstore/v1/apps/merge | GET | 合并应用包 | 新增 | 将分片的应用包合并到一起上传到服务器目标路径 |
 | /mec/appstore/v1/apps/vm-register | POST | 注册虚机应用 | 新增 | 对于应用包较大的虚机应用调用此接口注册 |
 | /mec/appstore/v1/apps/{appId}/demoVideo | GET | 获取应用视频 | 新增 | 根据应用ID获取演示视频 |
+| /mec/appstore/v1/apps | GET | 获取应用 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询  ，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/packages | GET | 获取app应用包 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/appstores| GET | 获取appStore | 新增 | 增加查询字段 appStore limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/packages/pushable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/packages/pullable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/messages | GET | 操作分析消息列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
 
 ### 接口URI变更
 
