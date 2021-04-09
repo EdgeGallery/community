@@ -5,21 +5,21 @@
 * 负责为社区提供Edge Gallery的验证、演示实验室环境，提供Edge Gallery的CI/CD环境；
 
 ## 工作组PTL
-* 刘芷若 liuzhiruo@caict.ac.cn
+* 刘芷若
 
 ## 工作组成员
-|   **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
-|-----------------------|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
-| 刘芷若     | 信通院   |  liuzhiruo@caict.ac.cn   | Y  |   |
-| 苏锦烽     | 信通院   |  sujinfeng@bifnc.cn   |   |   |
-| 徐舒      | 联通    | xus15@chinaunicom.cn |                          |                                     |
-| 褚纬明     | 安恒           | weiming.chu@dbappsecurity.com.cn     |                               |                                     |
-| 姜伟       | 紫金山  | jiangwei@pmlabs.com.cn  |                               |                                     |
-| 丁宇卿       | 紫金山  | dingyuqing@pmlabs.com.cn  |                               |                                     |
-| 侯敏熙      | 红帽  | mhou@redhat.com|                               |                                     |
-| 周俊      | 华为  | zhoujun8@huawei.com |                               |                                     |
-|丁智慧    |  云迅智能  | dingzhihui@yunex.com  |  |  |
-|陈晨    |  西安电子科技大学  | cc2000@mail.xidian.edu.cn  |  |  |
+|   **Name**          | **Affiliation**       |   **Self nominate as Chair (Y)** | **Self Nominate as Co-Chair (Y/N)** |
+|-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
+| 刘芷若     | 信通院   |   Y  |   |
+| 苏锦烽     | 信通院   |     |   |
+| 徐舒      | 联通    |                           |                                     |
+| 褚纬明     | 安恒           |                                |                                     |
+| 姜伟       | 紫金山  |                               |                                     |
+| 丁宇卿       | 紫金山  |                                |                                     |
+| 侯敏熙      | 红帽  |                                |                                     |
+| 周俊      | 华为  |                                |                                     |
+|丁智慧    |  云迅智能  |   |  |
+|陈晨    |  西安电子科技大学  |   |  |
 
 
 ## 工作组会议

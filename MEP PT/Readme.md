@@ -19,14 +19,14 @@ EdgeGallery MEP项目旨在打造一个开源、开放的参考MEP平台：
 
 ## Contributors 参与者
 
-|**Name**|**Email**|**Affiliation**|
-|:------:|:-------:|:-------------:|
-| 鹿鑫 | luxin7@huawei.com | Huawei |
-| Libu Jacob Varghese | libu.jacob@huawei.com | Huawei |
-| Bhanu Soni | bhanu.soni@huawei.com | Huawei |
-| Satish Karunanithi | satishk@huawei.com | Huawei |
-| Swarup Nayak | swarup.nayak1@huawei.com | Huawei |
-| 周文敬 | zhouwenjing@huawei.com | Huawei |
+|**Name**|**Affiliation**|
+|:------:|:-------------:|
+| 鹿鑫 |  Huawei |
+| Libu Jacob Varghese |  Huawei |
+| Bhanu Soni |  Huawei |
+| Satish Karunanithi |  Huawei |
+| Swarup Nayak | Huawei |
+| 周文敬 |  Huawei |
 
 ## Useful Info 有用信息
 

@@ -14,16 +14,16 @@
 - 架构工作组将定期向TSC汇报架构的更新
 
 ## 工作组成员
-| **Name**          | **Affiliation**       | **Email**                                                   |  **Self nominate as Chair (Y/N)** | **Self Nominate as Co-Chair (Y/N)** |
-|-------------------     |-----------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|
-| 游永明     | 广州申迪           | youym@189.cn     |                               |                                    
-|  **高维涛 （Chair）**  | 华为 |  victor.gao@huawei.com  |  Y  | -  |
-| 刘小飞 | 上海讯琥 |  xiaofei.liu@xeniro.io  | -   | -  |
-| Satish Karunanithi | Huawei |  satishk@huawei.com  | -   | -  |
-| Libu Jacob Varghese | Huawei | libu.jacob@huawei.com  | -   | -  |
-|  **范桂飓 （Co-Chair）**   | 九州云 | fan.guiju@99cloud.net  | -  | Y  |
-| 刘辉 | 紫金山实验室 | liuhui@pmlabs.com.cn  | -   | -  |
-| 章清洁 | 华为 | zhangqingjie@huawei.com | - | - |
+| **Name**          | **Affiliation**       |  **Self nominate as Chair (Y/N)** | **Self Nominate as Co-Chair (Y/N)** |
+|-------------------     |-----------------------|--------------------------------|-------------------------------------|
+| 游永明     | 广州申迪           |                                |                                    
+|  **高维涛 （Chair）**  | 华为 |   Y  | -  |
+| 刘小飞 | 上海讯琥 |   -   | -  |
+| Satish Karunanithi | Huawei |   -   | -  |
+| Libu Jacob Varghese | Huawei |  -   | -  |
+|  **范桂飓 （Co-Chair）**   | 九州云 |  -  | Y  |
+| 刘辉 | 紫金山实验室 |  -   | -  |
+| 章清洁 | 华为 |  - | - |
 
 ## 工作组会议
 * Every Tuesday 19:00 Beijing Time
