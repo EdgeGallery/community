@@ -1,5 +1,5 @@
 ### 发布时间 
-2021.2.1
+2021.4
 
 ### 项目概述 Project Overview
 AppStore是开发者发布和上线App应用的市场，由Developer平台开发的边缘应用，经过测试可以直接分享到AppStore应用商店。AppStore分为前后台两个部分，appstore-be是后台部分，提供主要功能接口供前台或其他三方系统调用，appstore-fe是前台部分，提供界面展示。
@@ -7,7 +7,7 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 ### 从上一个版本开始架构的变化 Architecture changes from last release
 架构无变化
 
-### v1.1 引入的新功能特性 New component capabilites for v1.1(Chocolate)
+### v1.2 引入的新功能特性 New component capabilites for v1.2(Chocolate)
 * 管理员角色可以主动从别的应用平台拉取应用
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0201/201452_ba6e4f51_8354563.png "pullapp.png")
 
@@ -31,7 +31,6 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 
 | API | 方法 | API说明 |
 | --- | --- | --- |
-| /mec/appstore/poke/messages/{messageId}/report-data | GET | 根据message id获取测试报告 |
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
 Poc特性相关接口URI做了调整，请使用了"/mec/appstore/poke"相关接口，请修改为新接口。
