@@ -38,14 +38,14 @@ The scope above and status related to the goals is summarized in the following t
 | Vulnerability management      | Deal with vulnerabilities in a timely manner                 | Assessing detailed goals, capabilities, and gaps. | Project PTLs                                                 |
 
 ## Members
-| **Name** | **Affiliation** | **Email**          |  **Self Nominate as Chair (Y/N)** | **Self Nominate as Co-Chair (Y/N)** |
-|----------|-----------------|--------------------|-----------------------------------|-------------------------------------|
-| 袁国平 （chair）   | 安恒   | guoping.yuan@dbappsecurity.com.cn |               -                   |                 -                  |
-| 吕京 （co-chair）  | Huawei | lvjing5@huawei.com |               -                   |                 Y                  |
-| Satish Karunanithi | Huawei | satishk@huawei.com |               -                   |                 -                  |
-| 许丹               | Huawei | xudan16@huawei.com |               -                   |                 -         |
-| 程润东             | Huawei | chengruidong@huawei.com |              -               |                 -         |
-| 扈冰               | Huawei | hubing62@huawei.com |               -                  |                 -         | 
+| **Name** | **Affiliation** |   **Self Nominate as Chair (Y/N)** | **Self Nominate as Co-Chair (Y/N)** |
+|----------|-----------------|-----------------------------------|-------------------------------------|
+| 袁国平 （chair）   | 安恒   |               -                   |                 -                  |
+| 吕京 （co-chair）  | Huawei |                -                   |                 Y                  |
+| Satish Karunanithi | Huawei |               -                   |                 -                  |
+| 许丹               | Huawei |                -                   |                 -         |
+| 程润东             | Huawei |              -               |                 -         |
+| 扈冰               | Huawei |                -                  |                 -         | 
 
 
 * Initial member signup now open
