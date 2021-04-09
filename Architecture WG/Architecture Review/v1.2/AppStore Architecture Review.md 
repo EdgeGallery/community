@@ -57,7 +57,7 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 
 | API | 方法 | API说明 |
 | --- | --- | --- |
-
+| /mec/appstore/poke/messages/{messageId}/report-data | GET | 根据message id获取测试报告 |
 
 #### 如有，他们是否是后向兼容的 If modified, are the backwards compatible
 Poc特性相关接口URI做了调整，请使用了"/mec/appstore/poke"相关接口，请修改为新接口。
