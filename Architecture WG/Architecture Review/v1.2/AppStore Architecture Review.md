@@ -15,12 +15,12 @@ AppStore是开发者发布和上线App应用的市场，由Developer平台开发
 ### 新增或者修改的接口 New or modified interfaces
 | API | 方法 | API说明 | 变更类型 | 说明 |
 | --- | --- | --- | --- | --- |
-| /mec/appstore/v1/apps | GET | 获取应用 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询  ，新增返回数量，列表排序,增加返回类 |
-| /mec/appstore/v1/packages | GET | 获取app应用包 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
-| /mec/appstore/v1/appstores| GET | 获取appStore | 新增 | 增加查询字段 appStore limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
-| /mec/appstore/v1/packages/pushable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
-| /mec/appstore/v1/packages/pullable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
-| /mec/appstore/v1/messages | GET | 操作分析消息列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量，列表排序,增加返回类 |
+| /mec/appstore/v1/apps | GET | 获取应用 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询  ，新增返回数量total，列表排序,增加返回类 |
+| /mec/appstore/v1/packages | GET | 获取app应用包 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量total，列表排序,增加返回类 |
+| /mec/appstore/v1/appstores| GET | 获取appStore | 新增 | 增加查询字段 appStore limit offset;变更为后台分页查询，模糊查询，新增返回数量total，列表排序,增加返回类 |
+| /mec/appstore/v1/packages/pushable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量total，列表排序,增加返回类 |
+| /mec/appstore/v1/packages/pullable | GET | 获取应用推送app列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量total，列表排序,增加返回类 |
+| /mec/appstore/v1/messages | GET | 操作分析消息列表 | 新增 | 增加查询字段 appName limit offset;变更为后台分页查询，模糊查询，新增返回数量total，列表排序,增加返回类 |
 
 ### 接口URI变更
 
