@@ -30,9 +30,9 @@ For more detailed introduction, please refer to [System Introduction](https://gi
 
 | No.  | Server IP       | Usage                           | Passwd |
 | ---- | --------------- | ------------------------------- | ------ |
-| 1    | 159.138.139.166 | Center                          | ***    |
-| 2    | 159.138.129.53  | Edge                            | ***    |
-| 3    | 119.8.36.45     | Center+Edge (spare environment) |        |
+| 1    | x.x.x.x | Center                          | ***    |
+| 2    | x.x.x.x  | Edge                            | ***    |
+| 3    | x.x.x.x     | Center+Edge (spare environment) |        |
 
 #### 2.2 测试内容 Test Content
 
