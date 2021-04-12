@@ -4,7 +4,7 @@
 | ------------ | ------------ |
 |Test tool   |NA  |
 |Test description   |Evaluate whether the application stores sensitive information in a location accessible to the client<br>Check if the application does not leak any sensitive data into the browser cache|
-|Configuration Steps   |1.The system is running properly.<br>core point: 119.8.36.45<br>edge point: 159.138.30.89<br>2.Obtaining Product Source Codes and Design Documents   |
+|Configuration Steps   |1.The system is running properly.<br>core point: x.x.x.x<br>edge point: x.x.x.x<br>2.Obtaining Product Source Codes and Design Documents   |
 |History test  | |
 |Step 1   |Login page, enter username and password to log in  |
 |Step 2   |Click the browser's "back" button to check whether unauthenticated users can access the previously displayed sensitive information |
