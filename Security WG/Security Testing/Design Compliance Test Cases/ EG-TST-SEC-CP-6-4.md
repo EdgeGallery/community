@@ -4,7 +4,7 @@
 | ------------ | ------------ |
 |Test tool   |WebScarab   |
 |Test description   |Check whether session information is cleared during logout.   |
-|Configuration steps   |1.Known Website Address<br> https://119.8.62.179:30091 ; https://119.8.62.179:30092 ;  https://119.8.62.179:30093<br> 2.Web services are running properly.<br>3.A page with the logout function exists.   |
+|Configuration steps   |1.Known Website Address<br> https://x.x.x.x:x ; https://x.x.x.x:x ;  https://x.x.x.x:x<br> 2.Web services are running properly.<br>3.A page with the logout function exists.   |
 |Step 1   |Log in to the system using a normal user name and password.   |
 |Step 2   |Enable the WebScarab and configure the WebScarab to intercept GET and POST requests.   |
 |Step 3   |In the browser, set the proxy server IP address to 127.0.0.1 and port number to 8008.   |
