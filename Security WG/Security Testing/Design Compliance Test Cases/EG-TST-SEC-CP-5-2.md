@@ -4,9 +4,9 @@
 | ------------ | ------------ |
 |Test tool   |Burpsuite   |
 |Test description   |The length of the interface input parameter is verified. The length of the body is not limited.<br>Uploading files: The file type and file name format are verified based on services to prevent ZIP bombs from being met. The maximum file size is x MB.   |
-|Configuration Steps   |Web services are running properly.<br>The website to be tested has an upload page.<br> https://119.8.62.179:30092 ;  |
+|Configuration Steps   |Web services are running properly.<br>The website to be tested has an upload page.<br> https://x.x.x.x:x ;  |
 |Upload file test   |   |
-|Step 1   |Log in to the website,Open the file upload page<br>https://119.8.62.179:30092   |
+|Step 1   |Log in to the website,Open the file upload page<br>https://x.x.x.x:x   |
 |Step 2   |Click Browse, select a local JAR file, and click OK.   |
 |Step 3   |If the client restricts the type of the file to be uploaded (for example, the .csar file is allowed), select the .csar file to be uploaded. Configure HTTP Proxy (burpsuite) to intercept http requests; click the "Browse" button again ,select csar file to upload |
 |step 4   |In the HTTP request data intercepted by burpsuite, modify test.csar to test.jar, and then send the request data   |
