@@ -30,7 +30,7 @@ This security test report is the EdgeGallery Rx.x version security test report. 
 
 | No.  | Server IP   | Usage         | Passwd |
 | ---- | ----------- | ------------- | ------ |
-| 1    | 119.8.36.45 | Center + Edge |        |
+| 1    | x.x.x.x     | Center + Edge |        |
 
 #### 2.2 先决条件 Prerequisites
 
