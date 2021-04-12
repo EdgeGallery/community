@@ -27,14 +27,14 @@ EdgeGallery Security Compliance Test Case 2-1
 |              | check if there are omissive scenarios.                       |
 |              |                                                              |
 |              | 1. User registration                                         |
-|              |    URL: https://x.x.x.x |
-|              |       |
-|              |                                                       |
+|              |    URL: https://x.x.x.x                                      |
+|              |                                                              |
+|              |                                                              |
 |              | 2. App download                                              |
-|              |    URL: https://x.x.x.x      |
+|              |    URL: https://x.x.x.x                                      |
 |              | 3. Plugin upload                                             |
-|              |    URL: https://x.x.x.x           |
-|              |                                   |
+|              |    URL: https://x.x.x.x                                      |
+|              |                                                              |
 +--------------+--------------------------------------------------------------+
 |step 2        | Scan the source code or search with keywords to check that   |
 |              | there is no hard-coded key in the source code.               |
