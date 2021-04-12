@@ -27,7 +27,7 @@ EdgeGallery Security Compliance Test Case 7-1
 |              | backend                                                      |
 |              |                                                              |
 |              | Visit ftrontend interface, for example                       |
-|              | URL: https://daily.appstore.edgegallery.org/#/index          |
+|              | URL: https://x.x.x.x                                         |
 |              | On the page, click right mouse click, choose 'inspect page   |
 |              | source code', you can find the frontend encoding style in    |
 |              | <meta charset>                                               |
